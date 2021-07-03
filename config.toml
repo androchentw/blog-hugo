@@ -1,0 +1,87 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "ProgramMur - 程序猿的小碎念"
+theme = "beautifulhugo"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+
+metaDataFormat = "yaml"
+# pygmentsStyle = "trac"
+# pygmentsUseClassic = true
+# pygmentsUseClasses = true
+# pygmentsCodeFences = true
+# pygmentsCodefencesGuessSyntax = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "androchentw"
+googleAnalytics = "UA-46663910-4"
+enableRobotsTXT = true
+
+[Params]
+  homeTitle = " " # Set a different text for the header on the home page
+  mainSections = ["post","posts"]
+  logo = "https://avatars.githubusercontent.com/u/2317501?v=4"
+  favicon = "https://avatars.githubusercontent.com/u/2317501?v=4"
+  dateFormat = "2006-01-02"
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  # useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  toc = true
+  showRelatedPosts = true
+  share_img = "https://avatars.githubusercontent.com/u/2317501?v=4"
+  # hideAuthor = true
+  gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+[Author]
+  name = "Chen Chun-An"
+  website = "https://blog.androchen.tw/"
+  email = "androchentw@gmail.com"
+  facebook = "AndroChen0929"
+  github = "androchentw"
+  gitlab = "androchentw"
+  bitbucket = "androchentw"
+  twitter = "androchen"
+  linkedin = "androchen"
+
+
+[[menu.main]]
+  name = "Archives"
+  pre = '<i class="fas fa-sitemap fa-lg"></i>'
+  url = "/archives/"
+  weight = 3
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 2
+  [markup.tableOfContents]
+    startLevel = 1
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"

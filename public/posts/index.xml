@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ProgramMur - 程序猿的小碎念</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on ProgramMur - 程序猿的小碎念</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 20:17:24 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1</title>
+      <link>http://example.org/posts/1/</link>
+      <pubDate>Sat, 03 Jul 2021 20:17:24 +0800</pubDate>
+      
+      <guid>http://example.org/posts/1/</guid>
+      <description>hello</description>
+    </item>
+    
+    <item>
+      <title>Blog Setup: Hugo &#43; GitHub Pages</title>
+      <link>http://example.org/posts/2021-07-03-blog-setup-hugo-&#43;-github-pages/</link>
+      <pubDate>Sat, 03 Jul 2021 20:17:24 +0800</pubDate>
+      
+      <guid>http://example.org/posts/2021-07-03-blog-setup-hugo-&#43;-github-pages/</guid>
+      <description>https://gohugo.io/hosting-and-deployment/hosting-on-github/ https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#user--organization-pages  1. Setup github page: project.  https://androchentw.github.io/blog-hugo  cd ~/dev git clone https://github.com/androchentw/blog-hugo.git 2. Install Hugo  https://gohugo.io/getting-started/quick-start/  brew install hugo hugo new site blog-hugo cd blog-hugo git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder # git submodule add https://github.com/luizdepra/hugo-coder.git themes/beautifulhugo hugo new posts/hello_world.md # to preview hugo server -D	# to build static page hugo -D 3. Keep Setup GitHub Page &amp;amp; GitHub Action  https://gohugo.io/hosting-and-deployment/hosting-on-github/  git checkout --orphan gh-pages # https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
