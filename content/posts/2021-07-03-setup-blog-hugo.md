@@ -1,6 +1,6 @@
 ---
 title: "Setup Blog Hugo"
-slug: setup-blog-hugo
+url: /setup-blog-hugo
 date: 2021-07-03T20:51:44+08:00
 author: androchentw
 type: post
@@ -53,4 +53,3 @@ hugo -D
 3. [Hugo - Front Matter](https://gohugo.io/content-management/front-matter/)
 4. [Hugo - Archetypes](https://gohugo.io/content-management/archetypes/)
 5. [Hugo - URL Management](https://gohugo.io/content-management/urls/)
-

@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-slug: {{ .Name }}
+url: /{{ .Name }}
 date: {{ .Date }}
 author: androchentw
 type: posts

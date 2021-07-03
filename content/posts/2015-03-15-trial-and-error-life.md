@@ -1,6 +1,6 @@
 ---
 title: "人生就是不停地試誤？我們都太怕犯錯"
-slug: trial-and-error-life
+url: /trial-and-error-life
 date: 2015-03-15T16:00:00Z
 author: androchentw
 type: posts

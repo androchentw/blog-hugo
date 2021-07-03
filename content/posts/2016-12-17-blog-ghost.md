@@ -1,6 +1,6 @@
 ---
 title: "自架部落格 - 使用 Ghost 並設定自己的域名"
-slug: blog-ghost
+url: /blog-ghost
 date: 2016-12-17T16:00:00Z
 author: androchentw
 type: posts
