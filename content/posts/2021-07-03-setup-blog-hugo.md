@@ -49,3 +49,4 @@ hugo -D
 1. https://gohugo.io/hosting-and-deployment/hosting-on-github/
 2. https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#user--organization-pages
 3. https://blog.wu-boy.com/2021/05/migrate-wordpress-to-hugo/
+4. https://milkmidi.medium.com/深入但不淺出-如何用-github-actions-自動發佈-gh-pages-8183464dfe84
