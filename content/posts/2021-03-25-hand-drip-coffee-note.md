@@ -1,11 +1,15 @@
-+++
-author = "Chen"
-date = 2021-03-25T16:11:32Z
-description = ""
-draft = false
-slug = "hand-drip-coffee-note"
-title = "手沖咖啡參數筆記"
-+++
+---
+title: "手沖咖啡參數筆記"
+date: 2021-03-25T16:11:32Z
+author: "Chen"
+slug: hand-drip-coffee-note
+categories:
+  - Life
+tags: 
+  - Life
+  - Coffee
+---
+
 
 
 是說不知不覺也亂沖了手沖好一陣子。

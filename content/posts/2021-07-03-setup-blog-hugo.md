@@ -1,9 +1,9 @@
 ---
 title: "Setup Blog Hugo"
 date: 2021-07-03T20:51:44+08:00
-author: androchentw
+author: Chen
 type: post
-url: /2021/07/Setup-Blog-Hugo/
+url: /2021/07/setup-blog-hugo/
 share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
 categories:
   - Golang
@@ -15,8 +15,6 @@ tags:
 ---
 
 ## 1. Setup github page: project. 
-androchentw.github.io
-* https://androchentw.github.io/blog-hugo
 
 ```sh
 git clone https://github.com/androchentw/blog-hugo.git
@@ -25,7 +23,8 @@ git clone https://github.com/androchentw/blog-hugo.git
 
 ## 2. Install Hugo
 
-* https://gohugo.io/getting-started/quick-start/
+* [Hugo - Quick Start](https://gohugo.io/getting-started/quick-start/)
+* [Host on GitHub](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 ```sh
 brew install hugo
@@ -43,12 +42,15 @@ hugo server -D
 hugo -D
 ```
 
+# 3. Setup GitHub Action
+
+* [深入但不淺出，如何用 github actions 自動發佈 gh-pages](https://milkmidi.medium.com/深入但不淺出-如何用-github-actions-自動發佈-gh-pages-8183464dfe84)
+* [從零開始: 用github pages 上傳靜態網站](https://medium.com/進擊的-git-git-git/從零開始-用github-pages-上傳靜態網站-fa2ae83e6276)
+[About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#user--organization-pages)
+
 
 ## References
 
-1. https://gohugo.io/hosting-and-deployment/hosting-on-github/
-2. https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#user--organization-pages
-3. https://blog.wu-boy.com/2021/05/migrate-wordpress-to-hugo/
-4. https://milkmidi.medium.com/深入但不淺出-如何用-github-actions-自動發佈-gh-pages-8183464dfe84
-5. https://medium.com/進擊的-git-git-git/從零開始-用github-pages-上傳靜態網站-fa2ae83e6276
-6. https://dwmkerr.com/migrating-from-ghost-to-hugo/
+1. [將部落格從 Wordpress 轉換到 Hugo](https://blog.wu-boy.com/2021/05/migrate-wordpress-to-hugo/)
+2. [ghostToHugo](https://dwmkerr.com/migrating-from-ghost-to-hugo/)
+
