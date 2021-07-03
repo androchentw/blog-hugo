@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev on ProgramMur - 程序猿的小碎念</title><link>https://blog.androchen.tw/tags/dev/</link><description>Recent content in Dev on ProgramMur - 程序猿的小碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (Chen Chun-An)</managingEditor><webMaster>androchentw@gmail.com (Chen Chun-An)</webMaster><lastBuildDate>Sat, 17 Dec 2016 16:00:00 +0000</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/dev/feed.xml" rel="self" type="application/rss+xml"/><item><title>自架部落格 - 使用 Ghost 並設定自己的域名</title><link>https://blog.androchen.tw/posts/blog-ghost/</link><pubDate>Sat, 17 Dec 2016 16:00:00 +0000</pubDate><author>androchentw@gmail.com (Chen Chun-An)</author><guid>https://blog.androchen.tw/posts/blog-ghost/</guid><description>2021-03-25
-這次會重新用，可能是太久沒有升級導致超過 sunset, 過期了
-改用這套來重新建 https://github.com/SNathJr/ghost-on-heroku
-以下環境皆是 mac 。
-先說清楚以下不是打廣告，只是記錄當初我找到的一些配套 &amp;amp; local 最佳解法，有更好者請告訴我～
-Blog platform: Ghost Hosting: Heroku Domain name: 水世界 以下簡單列一下選擇的原因
-Ghost CMS 可以寫 markdown (這對我來說是必備) 免費 (自架的話) 版面漂亮 (Casper)，也可自訂 HTML, CSS 這邊說明一下，markdown 是我個人的習慣，所以我只挑可以寫 markdown 的編輯器的 blog platform。其實前前後後用過了不少家的 blog, 也同時有 Corner hack 是用 logdown。更之前還有用過 Wordpress, Google 的 Blogger, (無名算不算)。就都各有擅場囉。
-Heroku 免費 可以 run node.js code (為了配合 ghost) 用 git 管理 code。我懶懶的，就直接用 Heroku CLI 囉。 用 Heroku 會免費獲得一個 domain name，我是把 https://blog-androchen.</description></item></channel></rss>
