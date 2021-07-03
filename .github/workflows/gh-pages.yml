@@ -15,7 +15,7 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Create cname file
+      # - name: Create cname file
         # run: echo "blog.androchen.tw" > static/CNAME
 
       - name: Setup Hugo
