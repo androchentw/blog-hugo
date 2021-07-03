@@ -1,4 +1,4 @@
----
++++
 author = "Chen"
 categories = ["Career"]
 date = 2015-03-15T16:00:00Z
@@ -7,7 +7,7 @@ draft = false
 slug = "trial-and-error-life"
 tags = ["Career"]
 title = "人生就是不停地試誤？我們都太怕犯錯"
----
++++
 
 
 3/11　禮拜三的時候回去台大電機系「大學部實習專題課程」演講，分享關於當初在實習的一些經驗與想法之後，回來之後覺得有很多延伸的思考。如果你是符合以下症狀的人：

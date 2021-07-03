@@ -1,4 +1,4 @@
----
++++
 author = "Chen"
 categories = ["Dev"]
 date = 2016-12-17T16:00:00Z
@@ -7,8 +7,7 @@ draft = false
 slug = "blog-ghost"
 tags = ["Dev"]
 title = "自架部落格 - 使用 Ghost 並設定自己的域名"
-
----
++++
 
 
 2021-03-25
