@@ -18,6 +18,10 @@ disqusShortname = "androchentw"
 googleAnalytics = "UA-46663910-4"
 enableRobotsTXT = true
 
+hasCJKLanguage = true
+summaryLength = 70
+
+
 [Params]
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post","posts"]
@@ -36,7 +40,6 @@ enableRobotsTXT = true
   share_img = "https://avatars.githubusercontent.com/u/2317501?v=4"
   # hideAuthor = true
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-
 
 [Author]
   name = "androchentw"
