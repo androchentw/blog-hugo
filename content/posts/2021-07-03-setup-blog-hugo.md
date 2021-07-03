@@ -1,17 +1,14 @@
 ---
 title: "Setup Blog Hugo"
+slug: setup-blog-hugo
 date: 2021-07-03T20:51:44+08:00
-author: Chen
+author: androchentw
 type: post
-url: /2021/07/setup-blog-hugo/
-share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
 categories:
-  - Golang
-  - Blog
-  - Hugo
+  - Dev
 tags:
-  - golang
-  - hugo
+  - blog
+share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
 ---
 
 ## 1. Setup github page: project. 
@@ -53,4 +50,7 @@ hugo -D
 
 1. [將部落格從 Wordpress 轉換到 Hugo](https://blog.wu-boy.com/2021/05/migrate-wordpress-to-hugo/)
 2. [ghostToHugo](https://dwmkerr.com/migrating-from-ghost-to-hugo/)
+3. [Hugo - Front Matter](https://gohugo.io/content-management/front-matter/)
+4. [Hugo - Archetypes](https://gohugo.io/content-management/archetypes/)
+5. [Hugo - URL Management](https://gohugo.io/content-management/urls/)
 

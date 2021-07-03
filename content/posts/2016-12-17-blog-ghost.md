@@ -1,12 +1,13 @@
 ---
 title: "自架部落格 - 使用 Ghost 並設定自己的域名"
-date: 2016-12-17T16:00:00Z
-author: "Chen"
 slug: blog-ghost
+date: 2016-12-17T16:00:00Z
+author: androchentw
+type: posts
 categories:
   - Dev
 tags: 
-  - Dev
+  - blog
 ---
 
 

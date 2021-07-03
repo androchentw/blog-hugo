@@ -1,13 +1,14 @@
 ---
 title: "手沖咖啡參數筆記"
-date: 2021-03-25T16:11:32Z
-author: "Chen"
 slug: hand-drip-coffee-note
+date: 2021-03-25T16:11:32Z
+author: androchentw
+type: posts
 categories:
   - Life
 tags: 
-  - Life
-  - Coffee
+  - life
+  - coffee
 ---
 
 
