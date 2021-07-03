@@ -3,7 +3,7 @@ title: "{{ replace .Name "-" " " | title }}"
 url: /{{ .Name }}
 date: {{ .Date }}
 author: androchentw
-type: posts
+type: post
 categories:
   - Life
 tags: 

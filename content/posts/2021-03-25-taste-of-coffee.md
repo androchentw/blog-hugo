@@ -3,7 +3,7 @@ title: "咖啡五味"
 url: /taste-of-coffee
 date: 2021-03-25T16:20:52Z
 author: androchentw
-type: posts
+type: post
 categories:
   - Life
 tags: 

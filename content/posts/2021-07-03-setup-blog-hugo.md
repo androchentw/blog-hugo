@@ -13,6 +13,8 @@ share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fd
 
 ## 1. Setup github page: project. 
 
+https://androchentw.github.io/blog-hugo/
+
 ```sh
 git clone https://github.com/androchentw/blog-hugo.git
 ```

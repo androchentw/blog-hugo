@@ -39,7 +39,7 @@ enableRobotsTXT = true
 
 
 [Author]
-  name = "Chen Chun-An"
+  name = "androchentw"
   website = "https://blog.androchen.tw/"
   email = "androchentw@gmail.com"
   facebook = "AndroChen0929"
@@ -51,11 +51,16 @@ enableRobotsTXT = true
 
 
 [[menu.main]]
+  name = "Tags"
+  pre = '<i class="fas fa-tag fa-lg"></i>'
+  url = "/tags/"
+  weight = 1
+
+[[menu.main]]
   name = "Archives"
   pre = '<i class="fas fa-sitemap fa-lg"></i>'
   url = "/archives/"
-  weight = 3
-
+  weight = 2
 
 [markup]
   [markup.goldmark]
