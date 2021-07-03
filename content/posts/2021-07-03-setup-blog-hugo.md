@@ -51,3 +51,4 @@ hugo -D
 3. https://blog.wu-boy.com/2021/05/migrate-wordpress-to-hugo/
 4. https://milkmidi.medium.com/深入但不淺出-如何用-github-actions-自動發佈-gh-pages-8183464dfe84
 5. https://medium.com/進擊的-git-git-git/從零開始-用github-pages-上傳靜態網站-fa2ae83e6276
+6. https://dwmkerr.com/migrating-from-ghost-to-hugo/
