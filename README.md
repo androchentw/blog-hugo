@@ -1,6 +1,6 @@
 # Blog Hugo
 
-[![github pages](https://github.com/androchentw/blog/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/androchentw/blog-hugo/actions/workflows/gh-pages.yml)
+[![github pages](https://github.com/androchentw/blog-hugo/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/androchentw/blog-hugo/actions/workflows/gh-pages.yml)
 
 ## Running
 
