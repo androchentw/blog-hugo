@@ -31,7 +31,7 @@ git clone https://github.com/androchentw/blog-hugo.git
 brew install hugo
 hugo new site blog-hugo
 cd blog-hugo
-git submodule add https://github.com/halogenica/beautifulhugo.git themes/beautifulhugo
+git submodule add https://github.com/appleboy/blog-theme.git themes/beautifulhugo
 echo 'theme = "beautifulhugo"' >> config.toml
 
 hugo new posts/hello_world.md
