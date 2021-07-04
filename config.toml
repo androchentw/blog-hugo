@@ -19,8 +19,6 @@ googleAnalytics = "UA-46663910-4"
 enableRobotsTXT = true
 
 hasCJKLanguage = true
-summaryLength = 70
-
 
 [Params]
   homeTitle = " " # Set a different text for the header on the home page
