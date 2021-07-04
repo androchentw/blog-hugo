@@ -35,10 +35,9 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 
 ## Learning Center
 
+### Actionable Objectives
 
-### [Actionable Objectives](https://weekdone.com/learning/manager/okr-theory/write-good-okrs/4-rules-for-writing-actionable-goals-with-okrs)
-
-寫好目標的 4 條規則
+[寫好目標的 4 條規則](https://weekdone.com/learning/manager/okr-theory/write-good-okrs/4-rules-for-writing-actionable-goals-with-okrs)
 
 1. 規則 1：正確識別問題
    1. RCA: 挖掘問題的根本原因並收集數據是編寫好的團隊目標的第一步。
@@ -56,7 +55,7 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 
 
 
-### OKR Example - Detailed
+### OKR Examples - Detailed
 
 * [OKRs for CS](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-customer-success-teams)
   1. Clarify the KPI target [1](https://static.weekdone.com/wp-content/uploads/7-2.png)
