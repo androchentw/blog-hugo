@@ -15,6 +15,9 @@ share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 
 ## Goal
 
+* Challenge scenario
+* Situation (2021-07-04)
+
 <!--more-->
 
 ## Murmur

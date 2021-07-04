@@ -66,29 +66,31 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 [Design](https://okrexamples.co/design-okr-examples)
 
 1. Become a strong design driven company
-  1. All 7 teams participate in the new guidelines presentation meeting
-  2. All 24 of our software page layouts have been updated based on new guidelines
-  3. All 7 teams have their public and sharable materials only with our design
-  4. Employee survey confirms that 90% of employees feel that we stick to our design more then before
+   1. All 7 teams participate in the new guidelines presentation meeting
+   2. All 24 of our software page layouts have been updated based on new guidelines
+   3. All 7 teams have their public and sharable materials only with our design
+   4. Employee survey confirms that 90% of employees feel that we stick to our design more then before
+
 2. Promote our design team as the coolest place to work
-  1. Apply for external design competitions until we win at least 2
-  2. Achieve 5000 downloads with 2 open source design and UI/UX freebies
-  3. Conduct monthly designer meetups with 40 people attending on average
-
-
+   1. Apply for external design competitions until we win at least 2
+   2. Achieve 5000 downloads with 2 open source design and UI/UX freebies
+   3. Conduct monthly designer meetups with 40 people attending on average
+ 
 ### HR
 
 [HR](https://okrexamples.co/human_resources-okr-examples)
 
 1. Implement first quarter OKRs process successfully
-  1. All team managers attend Weekdone Theory and Usage training (free)
-  2. Each team (5 total) set at least 1 good Team OKR
-  3. Each team manager holds 12 weekly check-in meetings
-  4. Each team communicates 3 lessons learned using OKRs to the whole company
+   1. All team managers attend Weekdone Theory and Usage training (free)
+   2. Each team (5 total) set at least 1 good Team OKR
+   3. Each team manager holds 12 weekly check-in meetings
+   4. Each team communicates 3 lessons learned using OKRs to the whole company
+
 2. Define and promote company culture and values internally
-  1. Conduct 3 company culture events - all 95 employees attending
-  2. Do a culture quiz and receive an average score of > 90%
-  3. Survey employees on perceived improvement > 70% agree
+   1. Conduct 3 company culture events - all 95 employees attending
+   2. Do a culture quiz and receive an average score of > 90%
+   3. Survey employees on perceived improvement > 70% agree  
+
 3. Research best hiring practices & improve
    1. Review competitor's hiring campaigns and gather 3 insights we could use
    2. Review 3 new candidate channels
@@ -100,9 +102,9 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 [Marketing](https://okrexamples.co/administrative-operations-okr-examples)
 
 1. Gather customer feedback on product changes
-  1. Conduct 12 in-depth interviews with existing customers
-  2. Listen in on 36 sales calls
-  3. Get 1000 surveys responses on customer satisfaction survey
+   1. Conduct 12 in-depth interviews with existing customers
+   2. Listen in on 36 sales calls
+   3. Get 1000 surveys responses on customer satisfaction survey
 
 
 ### Administrative/Operations
@@ -110,33 +112,36 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 [Administrative/Operations](https://okrexamples.co/administrative-operations-okr-examples)
 
 1. Improve internal document management system
-  1. All 7 teams agree and implement folder structures
-  2. 7 teams complete the move and consolidation of 100% of document to the new structure
-  3. Collect feedback from all users and over 80% are positive
-1. Successfully launch version 3 of our main product
-  1. Get over 10000 new signups
-  2. Get published product reviews in over 15 publications
-  3. Increase sign-up to trial ratio from 10% to 25%
-  4. Increase trial to paid ratio from 30% to 50%
-2. Research and understand why our churned customers didn't see value
-  1. Get 30% response to survey on churn reasons
-  2. Interviews with 10% of respondents to get detailed reasons
-  3. Analyze responses and choose 3 issues to improve
+   1. All 7 teams agree and implement folder structures
+   2. 7 teams complete the move and consolidation of 100% of document to the new structure
+   3. Collect feedback from all users and over 80% are positive
 
+2. Successfully launch version 3 of our main product
+   1. Get over 10000 new signups
+   2. Get published product reviews in over 15 publications
+   3. Increase sign-up to trial ratio from 10% to 25%
+   4. Increase trial to paid ratio from 30% to 50%
+
+3. Research and understand why our churned customers didn't see value
+   1. Get 30% response to survey on churn reasons
+   2. Interviews with 10% of respondents to get detailed reasons
+   3. Analyze responses and choose 3 issues to improve
+ 
 
 
 ### Others
 
 1. Implement first-quarter OKRs process successfully
-  1. All team managers attend Weekdone Theory and Usage training (free)
-  2. Each team (5 total) set at least 1 good Team OKR
-  3. Each team manager holds 12 Weekly Check-in meetings
-  4. Each team communicates 3 lessons learned using OKRs to the whole company
+   1. All team managers attend Weekdone Theory and Usage training (free)
+   2. Each team (5 total) set at least 1 good Team OKR
+   3. Each team manager holds 12 Weekly Check-in meetings
+   4. Each team communicates 3 lessons learned using OKRs to the whole company
+
 2. Launch new, clearer landing page to drive action
-  1. Test existing landing page on at least 100 external users
-  2. Analyze test and previously reported feedback and agree on 10 biggest design issues to fix
-  3. User-test page prototypes on 12 people and get 80% positive feedback
-  4. New landing page increases call to action button clicks from 20% to 35%
+   1. Test existing landing page on at least 100 external users
+   2. Analyze test and previously reported feedback and agree on 10 biggest design issues to fix
+   3. User-test page prototypes on 12 people and get 80% positive feedback
+   4. New landing page increases call to action button clicks from 20% to 35%
 
 
 ### Tech
@@ -144,12 +149,9 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 [Technology/Engineering/RD](https://okrexamples.co/technology-engineering-rnd-okr-examples)
 
 1. Improve the quality of our releases
-  1. Reduce bugs reported after the release from 20 to 5 average
-  2. Increase code unit test cover from 30% to 50%
-  3. Increase team members contributing to testing from 1 to 3 people on   average testing product before release
-
-
-=================
+   1. Reduce bugs reported after the release from 20 to 5 average
+   2. Increase code unit test cover from 30% to 50%
+   3. Increase team members contributing to testing from 1 to 3 people on   average testing product before release
 
 
 ## Murmur
