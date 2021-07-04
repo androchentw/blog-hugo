@@ -9,9 +9,8 @@ categories:
 tags: 
   - life
   - coffee
+share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png
 ---
-
-
 
 是說不知不覺也亂沖了手沖好一陣子。
 

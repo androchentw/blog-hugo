@@ -9,8 +9,10 @@ categories:
 tags: 
   - life
   - coffee
+share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 ---
 
+![SCAA Flavor Wheel](https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png)
 
 香、醇、酸、苦、甘
 

@@ -8,8 +8,10 @@ categories:
   - Dev
 tags:
   - blog
-share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
+share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
 ---
+
+![share_img](https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png)
 
 ## 1. Setup github page: project. 
 
@@ -55,3 +57,5 @@ hugo -D
 3. [Hugo - Front Matter](https://gohugo.io/content-management/front-matter/)
 4. [Hugo - Archetypes](https://gohugo.io/content-management/archetypes/)
 5. [Hugo - URL Management](https://gohugo.io/content-management/urls/)
+6. [Hugo 加入 Google Custom Search 站內搜尋功能](https://blog.uncletony.tw/2021/03/hugo_%E5%8A%A0%E5%85%A5%E6%90%9C%E5%B0%8B%E5%8A%9F%E8%83%BD/)
+
