@@ -36,7 +36,7 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 ## Learning Center
 
 
-* [Actionable Objectives](https://weekdone.com/learning/manager/okr-theory/write-good-okrs/4-rules-for-writing-actionable-goals-with-okrs)
+### [Actionable Objectives](https://weekdone.com/learning/manager/okr-theory/write-good-okrs/4-rules-for-writing-actionable-goals-with-okrs)
 
 寫好目標的 4 條規則
 
@@ -56,7 +56,18 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 
 
 
-## Team OKR Examples
+### OKR Example - Detailed
+
+* [OKRs for CS](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-customer-success-teams)
+  1. Clarify the KPI target [1](https://static.weekdone.com/wp-content/uploads/7-2.png)
+  2. Identify the most impactful improvement area [2](https://static.weekdone.com/wp-content/uploads/8-3.png)
+  3. Finalize OKR [3](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
+  4. Company-Team-Weekly [4](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
+
+* [OKRs for Different Teams](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-different-teams-in-a-company)
+
+
+## OKR Examples - List
 
 挑了幾個我個人覺得之後可能會用上的.
 
@@ -146,6 +157,7 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    1. Reduce bugs reported after the release from 20 to 5 average
    2. Increase code unit test cover from 30% to 50%
    3. Increase team members contributing to testing from 1 to 3 people on   average testing product before release
+
 
 
 ## Murmur
