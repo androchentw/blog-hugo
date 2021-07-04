@@ -18,7 +18,7 @@ share_img: https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.pn
 OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而, 
 
 1. 如何快速 思考/撰寫 良好/有效的 OKR
-2. 並持續追蹤, 確定自己在正軌上
+2. 並持續追蹤, 確保自己在正軌上
 
 是目前我將 OKR 運用在人生目標設定上, 遇到最大的難題.
 
@@ -131,13 +131,7 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 
 ### Others
 
-1. Implement first-quarter OKRs process successfully
-   1. All team managers attend Weekdone Theory and Usage training (free)
-   2. Each team (5 total) set at least 1 good Team OKR
-   3. Each team manager holds 12 Weekly Check-in meetings
-   4. Each team communicates 3 lessons learned using OKRs to the whole company
-
-2. Launch new, clearer landing page to drive action
+1. Launch new, clearer landing page to drive action
    1. Test existing landing page on at least 100 external users
    2. Analyze test and previously reported feedback and agree on 10 biggest design issues to fix
    3. User-test page prototypes on 12 people and get 80% positive feedback
@@ -157,3 +151,13 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 ## Murmur
 
 OKR 博大精深... 
+
+使用心得 Log
+
+1. 2021-07-05
+   1. 👍
+      1. Link 設定完成之後自動計算完成的 %. 只要 Personal 有進展, Teams & Company 就會更新.
+   2. 👎
+      1. 介面有些地方不太直觀, 花了點時間想了一下... 可能是沒看到對應的文. => 再去多讀一下 Learning Center 的其他文章.
+      2. 原本想要可以不用表格了. => 目前為止的心得是 仍然會想要先用 table 形式紀錄/思考, 但是透過範例輔助, 至少後續追蹤不用一直改在原表格上.
+
