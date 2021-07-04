@@ -58,10 +58,10 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 ### OKR Examples - Detailed
 
 * [OKRs for CS](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-customer-success-teams)
-  1. Clarify the KPI target [1](https://static.weekdone.com/wp-content/uploads/7-2.png)
-  2. Identify the most impactful improvement area [2](https://static.weekdone.com/wp-content/uploads/8-3.png)
-  3. Finalize OKR [3](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
-  4. Company-Team-Weekly [4](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
+  1. Clarify the KPI target ![1](https://static.weekdone.com/wp-content/uploads/7-2.png)
+  2. Identify the most impactful improvement area ![2](https://static.weekdone.com/wp-content/uploads/8-3.png)
+  3. Finalize OKR ![3](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
+  4. Company-Team-Weekly ![4](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
 
 * [OKRs for Different Teams](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-different-teams-in-a-company)
 
