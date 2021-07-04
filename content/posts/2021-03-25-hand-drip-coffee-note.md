@@ -25,6 +25,8 @@ share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24
 * 磨豆機: (公司的) 小飛馬磨豆機
 * 秤: Skale 藍牙電子秤第一代
 
+<!-- more -->
+
 ---
 
 * 2017-11-02 DIY 社手沖教學筆記

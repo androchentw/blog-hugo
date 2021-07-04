@@ -19,6 +19,8 @@ share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 
 改用這套來重新建 [https://github.com/SNathJr/ghost-on-heroku](https://github.com/SNathJr/ghost-on-heroku)
 
+<!-- more -->
+
 ---
 
 以下環境皆是 mac 。

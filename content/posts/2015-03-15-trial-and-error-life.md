@@ -24,6 +24,8 @@ share_img: https://i.imgur.com/jyAhD8g.jpg
 * 10 分鐘的投影片 -[What I've Learned From Startups](http://www.slideshare.net/androchen/2015-0311-what-ive-learned-from-startups)
 * [台大電機系大學部實習資訊網](http://cc.ee.ntu.edu.tw/~eeintern/course2015.html) 上面還有其他當天的講者的投影片
 
+<!-- more -->
+
 ---
 
 ## 電機系實習專題演講

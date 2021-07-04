@@ -18,7 +18,7 @@ share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 
 Ref: [風味輪](http://www.originkaffa.com/scaa-flavor-wheel-zh-tw/). 原文出處：scaa.org, 咖法森林中文翻譯版分享
 
-{{< figure src="https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png" >}}
+<!-- more -->
 
 ### 香氣(Aroma)
 
