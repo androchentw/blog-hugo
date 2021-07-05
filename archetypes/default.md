@@ -15,8 +15,9 @@ share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 
 ## Goal
 
-* Challenge scenario
-* Situation (2021-07-04)
+* Why: Challenge scenario, 5-Why, (Who, When, Where)
+* O What. Value.
+* KR How. Measurable Result.
 
 <!--more-->
 
