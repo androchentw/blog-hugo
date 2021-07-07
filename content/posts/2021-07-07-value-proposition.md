@@ -9,10 +9,10 @@ categories:
 tags: 
   - biz
   - productivity
-share_img: https://i.imgur.com/g0aWuCe.png
+share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png
 ---
 
-![share_img](https://i.imgur.com/g0aWuCe.png)
+![share_img](https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png)
 
 ## Goal
 
@@ -59,6 +59,7 @@ share_img: https://i.imgur.com/g0aWuCe.png
 
 ### Online Template
 
+* [draw.io](https://drawio-app.com/create-a-value-proposition-canvas-with-draw-io/)
 * [Conceptboard](https://app.conceptboard.com/board/xfht-chxg-kghi-a92f-pz9t)
 
 
