@@ -44,13 +44,13 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
   * Def: a tool which can help ensure that a product or service is positioned around what the customer values and needs.
   * Building Block (Fit = Focus)
     * CP: Cutomer Profile -> Persona + User Segmentation
-      * J: Job. 任務 (Functional, Social, Emotional), 待解的問題
-      * P: Pain. 痛點, 障礙, 挫折, 風險
-      * G: Gain. 收穫, 效益, 愉悅, 願望
+      * J: Jobs. 任務 (Functional, Social, Emotional), 待解的問題
+      * P: Pains. 痛點, 障礙, 挫折, 風險
+      * G: Gains. 收穫, 效益, 愉悅, 願望
     * VM: Value Map
       * PS: Product and services. 產品服務, 解決問題的手段
-      * PR: Pain reliever. 解藥. min(pain)
-      * GC: Gain Creator. 加值. max(gain)
+      * PR: Pain relievers. 解藥. min(pain)
+      * GC: Gain Creators. 加值. max(gain)
   * ![canvas](https://www.b2binternational.com/wp-content/uploads/2018/03/value-proposition-canvas.png)
 
 * [如何用價值主張圖真正了解你的顧客](https://designabetterbusiness.com/tw/2017/10/12/如何用價值主張圖真正了解你的顧客)
@@ -68,12 +68,12 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 | Value Proposition \ User Segmentation | user1 | user2 |
 | --- | --- | --- |
 | Customer Profile / Persona | A | B |
-| Job | 任務 (Functional, Social, Emotional) |  |
-| Pain | 痛點, 障礙, 挫折, 風險 |  |
-| Gain | 收穫, 效益, 愉悅, 願望 |  |
-| Product & Service | 產品服務 |  |
-| Pain Reliever | 解藥. min(pain) |  |
-| Gain Creator | 加值. max(gain) |  |
+| Jobs | 任務 (Functional, Social, Emotional) |  |
+| Pains | 痛點, 障礙, 挫折, 風險 |  |
+| Gains | 收穫, 效益, 愉悅, 願望 |  |
+| Products & Services | 產品服務 |  |
+| Pain Relievers | 解藥. min(pain) |  |
+| Gain Creators | 加值. max(gain) |  |
 
 
 ## Murmur
