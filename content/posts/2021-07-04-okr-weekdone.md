@@ -204,12 +204,22 @@ OKR 博大精深...
   * 例
     1. sum(adopt) = 7
     2. sum(user) > 100
-    3. avg(satifaction) > 80
+    3. avg(satisfaction) > 80
     4. sum(issue) = 5
     5. avg(behavior): 5% -> 20%
        1. min(coverage_rate): 30% -> 50%
        2. avg(mttr) < 5sec
        3. max(bug_report): 20 -> 2
+
+* 常用範例 (搭配 Value Proposition Canvas)
+
+1. O: 推出 {project_name} 並改變現有 {job} 管理習慣. (Value = 效率提升)
+   1. KR1: sum(adopt) > 70%. {customer_profile} 採用人數比例達 70%
+   2. KR2: sum(issue) = 5. 蒐集分析回饋, 並提出 5 點改善
+   3. KR3: min(coverage) > 50%. 覆蓋重點/常見主情境達 50%
+   4. KR4: avg(saved_time) > 50%. 節省平均耗時比例達 50%
+
+
 
 * 其他參考
   * OKR 做最重要的事
