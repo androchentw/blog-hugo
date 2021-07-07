@@ -59,7 +59,7 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 ## Online Template
 
-* [Figma - Strategyzer](https://www.figma.com/community/file/827236050477552469)
+* 🔥 [Figma - Strategyzer](https://www.figma.com/community/file/827236050477552469)
 * [draw.io](https://drawio-app.com/create-a-value-proposition-canvas-with-draw-io/)
 * [Conceptboard](https://app.conceptboard.com/board/xfht-chxg-kghi-a92f-pz9t)
 
@@ -72,9 +72,9 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 | Job | 任務 (Functional, Social, Emotional) |  |
 | Pain | 痛點, 障礙, 挫折, 風險 |  |
 | Gain | 收穫, 效益, 愉悅, 願望 |  |
-| Product & Service | 產品服務 | j2 |
-| Pain Reliever | 解藥. min(pain) | j2 |
-| Gain Creator | 加值. max(gain) | j2 |
+| Product & Service | 產品服務 |  |
+| Pain Reliever | 解藥. min(pain) |  |
+| Gain Creator | 加值. max(gain) |  |
 
 
 ## Murmur
