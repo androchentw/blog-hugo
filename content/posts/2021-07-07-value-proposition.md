@@ -29,6 +29,17 @@ share_img: https://i.imgur.com/g0aWuCe.png
 
 * [Value Proposition Canvas: What It Is and How to Use It to Know Customers Better](https://valchanova.me/value-proposition-canvas-template-guide/)
   * 內文的[3分鐘影片解釋 價值主張](https://www.youtube.com/watch?v=ReM1uqmVfP0)簡單易懂
+  * 還有非常多的提問範例可以參考
+
+* [How to Use Value Proposition Canvas: The Definitive Guide](https://www.digitalnatives.hu/blog/value-proposition-canvas/)
+  * 簡潔的提問範例
+  * Tips
+    * View each component
+    * Deal every customer segment
+    * Think like a customer (5-Whys)
+    * Evaluate Jobs-to-be-done
+    * Focus on what customers need the most
+
 
 * [What is the Value Proposition Canvas?](https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/)
   * Def: a tool which can help ensure that a product or service is positioned around what the customer values and needs.
