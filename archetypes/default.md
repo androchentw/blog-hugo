@@ -5,7 +5,7 @@ date: {{ .Date }}
 author: androchentw
 type: post
 categories:
-  - Life
+  - life, biz, tech, fin, tech, health
 tags: 
   - life
 share_img: https://avatars.githubusercontent.com/u/2317501?v=4

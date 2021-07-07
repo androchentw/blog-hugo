@@ -5,9 +5,9 @@ date: 2021-07-04T23:41:58+08:00
 author: androchentw
 type: post
 categories:
-  - Life
+  - biz
 tags: 
-  - life
+  - biz
   - okr
 share_img: https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png
 ---

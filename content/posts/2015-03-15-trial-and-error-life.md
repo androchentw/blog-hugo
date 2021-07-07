@@ -5,8 +5,10 @@ date: 2015-03-15T16:00:00Z
 author: androchentw
 type: post
 categories:
-  - Career
+  - life
+  - career
 tags: 
+  - life
   - career
 share_img: https://i.imgur.com/jyAhD8g.jpg
 ---

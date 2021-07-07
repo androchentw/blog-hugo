@@ -5,8 +5,9 @@ date: 2021-07-03T20:51:44+08:00
 author: androchentw
 type: post
 categories:
-  - Dev
+  - tech
 tags:
+  - tech
   - blog
 share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
 ---

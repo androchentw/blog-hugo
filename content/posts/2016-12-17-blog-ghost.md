@@ -5,8 +5,9 @@ date: 2016-12-17T16:00:00Z
 author: androchentw
 type: post
 categories:
-  - Dev
+  - tech
 tags: 
+  - tech
   - blog
 share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 ---
