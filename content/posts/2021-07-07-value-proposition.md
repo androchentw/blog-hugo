@@ -14,12 +14,11 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 ![share_img](https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png)
 
-## Goal
+最近嘗試 Product Management 的概念套用在包裝日常工作內容
 
-* Why: 最近嘗試 Product Management 的概念套用在包裝日常工作內容
-  * Full Scope Overview: 更清楚地規劃有哪些事情要做
-  * Focus and Prioritize: 判斷優先順序, 專注在重要的事物上
-  * Sense of Accomplishment: 更有成就感, 而不是渾厄度日, 被雜務塞滿
+* Full Scope Overview: 更清楚地規劃有哪些事情要做
+* Focus and Prioritize: 判斷優先順序, 專注在重要的事物上
+* Sense of Accomplishment: 更有成就感, 而不是渾厄度日, 被雜務塞滿
 
 除了設定 [OKR](https://blog.androchen.tw/okr-weekdone) 之外, 先釐清 Value Proposition 會是一個好選擇
 
