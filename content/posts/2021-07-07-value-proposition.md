@@ -25,7 +25,7 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 <!--more-->
 
-### Guide
+## Guide
 
 * [Value Proposition Canvas: What It Is and How to Use It to Know Customers Better](https://valchanova.me/value-proposition-canvas-template-guide/)
   * 內文的[3分鐘影片解釋 價值主張](https://www.youtube.com/watch?v=ReM1uqmVfP0)簡單易懂
@@ -44,7 +44,7 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 * [What is the Value Proposition Canvas?](https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/)
   * Def: a tool which can help ensure that a product or service is positioned around what the customer values and needs.
   * Building Block (Fit = Focus)
-    * CP: Cutomer Profile -> Persona
+    * CP: Cutomer Profile -> Persona + User Segmentation
       * J: Job. 任務 (Functional, Social, Emotional), 待解的問題
       * P: Pain. 痛點, 障礙, 挫折, 風險
       * G: Gain. 收穫, 效益, 愉悅, 願望
@@ -57,11 +57,24 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 * [如何用價值主張圖真正了解你的顧客](https://designabetterbusiness.com/tw/2017/10/12/如何用價值主張圖真正了解你的顧客)
 
 
-### Online Template
+## Online Template
 
 * [Figma - Strategyzer](https://www.figma.com/community/file/827236050477552469)
 * [draw.io](https://drawio-app.com/create-a-value-proposition-canvas-with-draw-io/)
 * [Conceptboard](https://app.conceptboard.com/board/xfht-chxg-kghi-a92f-pz9t)
+
+
+## Cheatsheet
+
+| Fields \ User Segmentation | user1 | user2 |
+| --- | --- | --- |
+| name/Persona | A | B |
+| Job | 任務 (Functional, Social, Emotional) |  |
+| Pain | 痛點, 障礙, 挫折, 風險 |  |
+| Gain | 收穫, 效益, 愉悅, 願望 |  |
+| Product & Service | 產品服務 | j2 |
+| Pain Reliever | 解藥. min(pain) | j2 |
+| Gain Creator | 加值. max(gain) | j2 |
 
 
 ## Murmur
