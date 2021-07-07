@@ -46,7 +46,7 @@ share_img: https://i.imgur.com/g0aWuCe.png
 * [如何用價值主張圖真正了解你的顧客](https://designabetterbusiness.com/tw/2017/10/12/如何用價值主張圖真正了解你的顧客)
 
 
-### Oneline Template
+### Online Template
 
 * [Conceptboard](https://app.conceptboard.com/board/xfht-chxg-kghi-a92f-pz9t)
 
