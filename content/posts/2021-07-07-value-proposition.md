@@ -65,9 +65,9 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 ## Cheatsheet
 
-| Fields \ User Segmentation | user1 | user2 |
+| Value Proposition \ User Segmentation | user1 | user2 |
 | --- | --- | --- |
-| name/Persona | A | B |
+| Customer Profile / Persona | A | B |
 | Job | 任務 (Functional, Social, Emotional) |  |
 | Pain | 痛點, 障礙, 挫折, 風險 |  |
 | Gain | 收穫, 效益, 愉悅, 願望 |  |
