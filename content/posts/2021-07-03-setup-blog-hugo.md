@@ -14,8 +14,6 @@ share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.
 
 ![share_img](https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png)
 
-## Goal
-
 Step by step Setup Hugo Blog
 
 終於從 ghost 搬來 Hugo 啦
