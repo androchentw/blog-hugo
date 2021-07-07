@@ -9,6 +9,7 @@ categories:
 tags: 
   - biz
   - okr
+  - productivity
 share_img: https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png
 ---
 
