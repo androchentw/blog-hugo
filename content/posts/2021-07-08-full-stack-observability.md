@@ -7,13 +7,12 @@ author: androchentw
 type: post
 categories:
   - tech
-  - dataops
 tags: 
   - tech
   - observability
-  - bigdata
-  - devops
   - sre
+  - devops
+  - bigdata
 share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 ---
 

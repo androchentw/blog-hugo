@@ -55,15 +55,23 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 * [如何用價值主張圖真正了解你的顧客](https://designabetterbusiness.com/tw/2017/10/12/如何用價值主張圖真正了解你的顧客)
 
+* 搭配 曼陀羅思考法 Mandala Chart, 盤點各項關鍵字
+  * [ACADECK](http://acadeck.com/?p=533)
+  * [Design thinking cards](https://jeanlin.gitbooks.io/design-thinking-cards/content/02man-tuo-luo-si-kao-fa-mandala-chart.html)
+  * ![mandala](https://jeanlin.gitbooks.io/design-thinking-cards/content/assets/2565ff1a256d9191e7f804c3e224aaec.jpg)
+
 
 ## Online Template
 
 * 🔥 [Figma - Strategyzer](https://www.figma.com/community/file/827236050477552469)
 * [draw.io](https://drawio-app.com/create-a-value-proposition-canvas-with-draw-io/)
 * [Conceptboard](https://app.conceptboard.com/board/xfht-chxg-kghi-a92f-pz9t)
+* [Mandalachart](https://mandalachart.com/)
 
 
 ## Cheatsheet
+
+* VPC + US
 
 | Value Proposition \ User Segmentation | user1 | user2 |
 | --- | --- | --- |
@@ -74,6 +82,7 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 | Products & Services | 產品服務 |  |
 | Pain Relievers | 解藥. min(pain) |  |
 | Gain Creators | 加值. max(gain) |  |
+
 
 
 ## Murmur
