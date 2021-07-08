@@ -14,7 +14,7 @@ metaDataFormat = "yaml"
 # pygmentsCodeFences = true
 # pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
-disqusShortname = "androchentw"
+disqusShortname = "androchenblog"
 googleAnalytics = "UA-46663910-4"
 enableRobotsTXT = true
 
