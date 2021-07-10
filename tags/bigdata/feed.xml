@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bigdata on ProgramMur - 程序猿的小碎念</title><link>https://blog.androchen.tw/tags/bigdata/</link><description>Recent content in bigdata on ProgramMur - 程序猿的小碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 11 Jul 2021 00:58:14 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/bigdata/feed.xml" rel="self" type="application/rss+xml"/><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;p>&lt;img src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9" alt="share_img">&lt;/p>
+&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.&lt;/p>
+&lt;p>因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Hybrid Cloud Environment Complexity Grows&lt;/strong>. 身為 IT, 在 Hybrid Cloud 環境與 Micro-service 趨勢下, 帶來的是更多的 Dependency 以及更為複雜的資料流.&lt;/li>
+&lt;li>&lt;strong>Hard to Prove and Maintain Reliability&lt;/strong>. 在設計 Data Pipeline 的過程中, 除了最終要 Deliver Data to Value 以達到 Business Impact 外, 更需要確保每天的 Data &amp;amp; Services Quality &amp;amp; Reliability, 甚至可以說是服務上線後天天都會遇到的事.&lt;/li>
+&lt;li>&lt;strong>Often Without Clear Value Proposition&lt;/strong>. 而這些日常維運繁瑣的事務其實有很多可以用工程手段解決/自動化的部分, 但是卻非常容易在繁忙且接踵而來的專案下, 不自覺地疏忽了.&lt;/li>
+&lt;li>&lt;strong>Prioritize ITOps Tasks&lt;/strong>: 為了及早發現及早還技術債, 應該更有意識地持續分析:
+&lt;ol>
+&lt;li>哪些該先做, 成本效益最佳?&lt;/li>
+&lt;li>鎖定目標後, 又該如何實作, 才能真的事半功倍?&lt;/li>
+&lt;li>實作完成後, 如何良好衡量優化效益?&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ul>
+&lt;li>Learn from Google SRE books
+&lt;ul>
+&lt;li>then introduce and continuously implement and improve current data services design reliability at work.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
+&lt;li>2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
+&lt;/ol></description></item></channel></rss>
