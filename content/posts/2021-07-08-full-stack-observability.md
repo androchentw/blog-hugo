@@ -18,7 +18,7 @@ share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 
 ![share_img](https://avatars.githubusercontent.com/u/2317501?v=4)
 
-## Goal
+## Intro
 
 https://blog.androchen.tw/okr-weekdone/
 https://blog.androchen.tw/value-proposition

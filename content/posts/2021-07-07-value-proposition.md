@@ -14,6 +14,8 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 ![share_img](https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png)
 
+## Intro
+
 最近嘗試 Product Management 的概念套用在包裝日常工作內容
 
 * Full Scope Overview: 更清楚地規劃有哪些事情要做
