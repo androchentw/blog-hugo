@@ -71,7 +71,7 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 ## Cheatsheet
 
-* VPC + US
+* VPC-US
 
 | Value Proposition \ User Segmentation | user1 | user2 |
 | --- | --- | --- |
