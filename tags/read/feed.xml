@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>read on ProgramMur - 程序猿的小碎念</title><link>https://blog.androchen.tw/tags/read/</link><description>Recent content in read on ProgramMur - 程序猿的小碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 11 Jul 2021 00:58:14 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/read/feed.xml" rel="self" type="application/rss+xml"/><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;p>&lt;img src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9" alt="share_img">&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>read on ProgramMur - 程序猿的小碎念</title><link>https://blog.androchen.tw/tags/read/</link><description>Recent content in read on ProgramMur - 程序猿的小碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 11 Jul 2021 12:41:05 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/read/feed.xml" rel="self" type="application/rss+xml"/><item><title>Mental Toughness</title><link>https://blog.androchen.tw/mental-toughness/</link><pubDate>Sun, 11 Jul 2021 12:41:05 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/mental-toughness/</guid><description>&lt;p>&lt;img src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" alt="share_img">&lt;/p>
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>自評低分, 想要加強. (阿里巴巴人才管理聖經 人才畫像 2021-07-09)&lt;/li>
+&lt;li>高壓力狀況下常無法發揮自己 100% 能力&lt;/li>
+&lt;li>常覺得委屈, 不平&lt;/li>
+&lt;li>不擅長處理爭執, 迴避&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>強化 情緒管理/韌性/溝通 (ETC)
+&lt;ol>
+&lt;li>E: 能正視且處理各種壓力狀況, 熟練運用各種技巧調節情緒, 沈著理性&lt;/li>
+&lt;li>T: 能承受高強度, 高密度工作量&lt;/li>
+&lt;li>C: 能積極傾聽, 換位思考&lt;/li>
+&lt;li>C: 善營造積極的溝通氣氛, 表述問題思路清晰, 富條理, 邏輯, 感染力&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs-how-measurable-result">KRs (How. Measurable Result.)&lt;/h3>
+&lt;ol>
+&lt;li>2021-09 Read 3 books&lt;/li>
+&lt;li>2021-12 Apply &amp;amp; record mind thoughts&lt;/li>
+&lt;/ol></description></item><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;p>&lt;img src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9" alt="share_img">&lt;/p>
 &lt;h2 id="intro">Intro&lt;/h2>
 &lt;p>Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.&lt;/p>
 &lt;p>因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.&lt;/p>
