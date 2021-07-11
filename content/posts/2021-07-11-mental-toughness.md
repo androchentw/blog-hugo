@@ -89,7 +89,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
     * 不是口無遮攔、愛說就說才叫「真性情｣
 
 
-## 溝通 (人際關係)
+### 溝通 (人際關係)
  
 * [史丹佛人際動力學](https://readmoo.com/book/210181107000101) 2021 - 連開50年的課，教你好關係從真情流露開始
 * [謝謝你的指教](https://readmoo.com/book/210165950000101) 2021 - 哈佛溝通專家教你轉化負面意見，成就更好的自己
