@@ -2,7 +2,7 @@
 draft: true
 title: "Full Stack Observability"
 url: /full-stack-observability
-date: 2021-07-11T00:45:48+08:00
+date: 2021-07-08T00:45:48+08:00
 author: androchentw
 type: post
 categories:

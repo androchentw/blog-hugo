@@ -46,3 +46,6 @@ https://blog.androchen.tw/value-proposition
 
 
 ## Murmur
+
+* {{ .Date }}
+
