@@ -13,7 +13,7 @@ tags:
 share_img: https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png
 ---
 
-![okr-weekdone](https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png)
+<img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">
 
 ### Intro
 
@@ -45,8 +45,8 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 1. 規則 1：正確識別問題
    1. RCA: 挖掘問題的根本原因並收集數據是編寫好的團隊目標的第一步。
 2. 規則 2：不斷問為什麼
-   1. 5 Whys ![5-whys](https://static.weekdone.com/wp-content/uploads/Actionable-Objectives.png)
-   2. O: Implement best practice weekly status reporting and improve teamwork. ![O](https://static.weekdone.com/wp-content/uploads/Actionable-Objectives-LC.png)
+   1. 5 Whys <img style="width:80%;" src="https://static.weekdone.com/wp-content/uploads/Actionable-Objectives.png">
+   2. O: Implement best practice weekly status reporting and improve teamwork. <img style="width:80%;" src="https://static.weekdone.com/wp-content/uploads/Actionable-Objectives-LC.png">
    3. KR1: avg(meeting_time): 120min -> 45min
    4. KR2: complete_rate(weekly_plans) > 90%
    5. KR3: implement TOP 3 of the most upvoted improvement ideas from the team
@@ -62,10 +62,10 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 ### OKR Examples - Detailed
 
 * [OKRs for CS](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-customer-success-teams)
-  1. Clarify the KPI target ![1](https://static.weekdone.com/wp-content/uploads/7-2.png)
-  2. Identify the most impactful improvement area ![2](https://static.weekdone.com/wp-content/uploads/8-3.png)
-  3. Finalize OKR ![3](https://static.weekdone.com/wp-content/uploads/9-2.png)
-  4. Company-Team-Weekly ![4](https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png)
+  1. Clarify the KPI target <img style="width:40%;" src="https://static.weekdone.com/wp-content/uploads/7-2.png">
+  2. Identify the most impactful improvement area <img style="width:40%;" src="https://static.weekdone.com/wp-content/uploads/8-3.png">
+  3. Finalize OKR <img style="width:40%;" src="https://static.weekdone.com/wp-content/uploads/9-2.png">
+  4. Company-Team-Weekly <img style="width:80%;" src="https://static.weekdone.com/wp-content/uploads/Untitled-design-18.png">
 
 * [OKRs for Different Teams](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-different-teams-in-a-company)
 

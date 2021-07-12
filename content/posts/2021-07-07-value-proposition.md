@@ -12,7 +12,7 @@ tags:
 share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png
 ---
 
-![share_img](https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png)
+<img style="width:80%;" src="https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png">
 
 ## Intro
 
@@ -53,14 +53,14 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
       * PS: Product and services. 產品服務, 解決問題的手段
       * PR: Pain relievers. 解藥. min(pain)
       * GC: Gain Creators. 加值. max(gain)
-  * ![canvas](https://www.b2binternational.com/wp-content/uploads/2018/03/value-proposition-canvas.png)
+  * <img style="width:40%;" src="https://www.b2binternational.com/wp-content/uploads/2018/03/value-proposition-canvas.png">
 
 * [如何用價值主張圖真正了解你的顧客](https://designabetterbusiness.com/tw/2017/10/12/如何用價值主張圖真正了解你的顧客)
 
 * 搭配 曼陀羅思考法 Mandala Chart, 盤點各項關鍵字
   * [ACADECK](http://acadeck.com/?p=533)
   * [Design thinking cards](https://jeanlin.gitbooks.io/design-thinking-cards/content/02man-tuo-luo-si-kao-fa-mandala-chart.html)
-  * ![mandala](https://jeanlin.gitbooks.io/design-thinking-cards/content/assets/2565ff1a256d9191e7f804c3e224aaec.jpg)
+  * <img style="width:40%;" src="https://jeanlin.gitbooks.io/design-thinking-cards/content/assets/2565ff1a256d9191e7f804c3e224aaec.jpg">
 
 
 ## Online Template
@@ -75,12 +75,14 @@ share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27ae
 
 * VPC-US
 
+工作 & 生活都能運用! 完整地記錄下來
+
 | Value Proposition \ User Segmentation | user1 | user2 |
 | --- | --- | --- |
 | Customer Profile / Persona | A | B |
-| Jobs | 任務 (Functional, Social, Emotional) |  |
-| Pains | 痛點, 障礙, 挫折, 風險 |  |
-| Gains | 收穫, 效益, 愉悅, 願望 |  |
+| Jobs | 要完成的任務 (Functional, Social, Emotional) |  |
+| Pains | 痛點, 抱怨, 挫折, 障礙, 風險 |  |
+| Gains | 期望, 想像, 正常, 收穫, 效益, 愉悅, 願望 |  |
 | Products & Services | 產品服務 |  |
 | Pain Relievers | 解藥. min(pain) |  |
 | Gain Creators | 加值. max(gain) |  |

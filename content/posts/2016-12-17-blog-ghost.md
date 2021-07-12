@@ -12,7 +12,7 @@ tags:
 share_img: https://avatars.githubusercontent.com/u/2317501?v=4
 ---
 
-![share_img](https://avatars.githubusercontent.com/u/2317501?v=4)
+<img style="width:40%;" src="https://avatars.githubusercontent.com/u/2317501?v=4">
 
 2021-03-25
 
