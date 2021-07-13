@@ -9,10 +9,10 @@ categories:
 tags: 
   - tech
   - blog
-share_img: https://avatars.githubusercontent.com/u/2317501?v=4
+share_img: https://i.imgur.com/FaFgJha.png
 ---
 
-<img style="width:40%;" src="https://avatars.githubusercontent.com/u/2317501?v=4">
+<img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
 
 2021-03-25
 

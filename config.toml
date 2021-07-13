@@ -25,8 +25,8 @@ summaryLength = 70
 [Params]
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post","posts"]
-  logo = "https://avatars.githubusercontent.com/u/2317501?v=4"
-  favicon = "https://avatars.githubusercontent.com/u/2317501?v=4"
+  logo = "https://i.imgur.com/FaFgJha.png"
+  favicon = "https://i.imgur.com/FaFgJha.png"
   dateFormat = "2006-01-02"
   rss = true
   comments = true
@@ -37,7 +37,7 @@ summaryLength = 70
   delayDisqus = true
   toc = true
   showRelatedPosts = true
-  share_img = "https://avatars.githubusercontent.com/u/2317501?v=4"
+  share_img = "https://i.imgur.com/FaFgJha.png"
   # hideAuthor = true
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
