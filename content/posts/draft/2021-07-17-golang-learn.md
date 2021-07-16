@@ -46,6 +46,18 @@ https://blog.androchen.tw/value-proposition
 
 ### Ref
 
+Go Training
+
+* https://tour.golang.org/welcome/1
+* https://github.com/inancgumus/learngo
+* https://gobyexample.com/
+
+Gin
+
+* https://ithelp.ithome.com.tw/articles/10234075
+* https://github.com/FlowerWrong/awesome-gin
+* https://pjchender.dev/golang/gin-getting-started/
+
 
 ## Murmur
 
