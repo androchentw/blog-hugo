@@ -48,13 +48,18 @@ https://blog.androchen.tw/value-proposition
 
 Go Training
 
-* https://tour.golang.org/welcome/1
-* https://github.com/inancgumus/learngo
+* https://dev.to/ankit01oss/7-github-projects-to-make-you-a-better-go-developer-2nmh
+  1. [Awesome Go](https://github.com/avelino/awesome-go)
+  2. [Standard Go Project Layout](https://github.com/golang-standards/project-layout)
+  3. [Go kit](https://github.com/go-kit/kit)
+  4. [Go Design patterns](https://github.com/tmrts/go-patterns)
+  5. [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests)
+  6. [The Ultimate Go Study Guide](https://github.com/ardanlabs/gotraining)
+  7. [1000+ Hand-crafted Go examples, exercises and quizzes](https://github.com/inancgumus/learngo)
 * https://gobyexample.com/
 
+
 Gin & Frontend
-
-
 
 * https://ithelp.ithome.com.tw/articles/10234075, https://ithelp.ithome.com.tw/articles/10222711
 * https://github.com/FlowerWrong/awesome-gin
