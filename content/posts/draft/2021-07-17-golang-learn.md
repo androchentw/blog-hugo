@@ -1,13 +1,15 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-url: /{{ .Name }}
-date: {{ .Date }}
+draft: true
+title: "Golang Learn"
+url: /golang-learn
+date: 2021-07-16T23:05:58+08:00
 author: androchentw
 type: post
 categories:
-  - life, coffee, read, biz, tech, fin, health, career
+  - tech
 tags: 
-  - life
+  - tech
+  - golang
 share_img: https://i.imgur.com/FaFgJha.png
 ---
 
@@ -47,5 +49,5 @@ https://blog.androchen.tw/value-proposition
 
 ## Murmur
 
-* {{ .Date }}
+* 2021-07-16T23:05:58+08:00
 
