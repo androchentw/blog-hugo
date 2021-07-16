@@ -52,11 +52,18 @@ Go Training
 * https://github.com/inancgumus/learngo
 * https://gobyexample.com/
 
-Gin
+Gin & Frontend
 
-* https://ithelp.ithome.com.tw/articles/10234075
+
+
+* https://ithelp.ithome.com.tw/articles/10234075, https://ithelp.ithome.com.tw/articles/10222711
 * https://github.com/FlowerWrong/awesome-gin
 * https://pjchender.dev/golang/gin-getting-started/
+* https://github.com/gothinkster/golang-gin-realworld-example-app/blob/master/FRONTEND_INSTRUCTIONS.md
+* https://hoohoo.top/blog/20210530112304-golang-tutorial-introduction-gin-html-template-and-how-integration-with-bootstrap/
+* https://material-ui.com/store/
+* https://getbootstrap.com/
+* https://semantic-ui.com/
 
 
 ## Murmur
