@@ -5,7 +5,6 @@ url: /google-sre-books
 date: 2021-07-11T00:58:14+08:00
 author: androchentw
 type: post
-series: google-sre-books
 categories:
   - tech
   - google-sre-books
@@ -16,6 +15,7 @@ tags:
   - bigdata
   - read
 share_img: https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9
+series: google-sre-books
 ---
 
 <img style="width:40%;" src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9">
@@ -110,3 +110,7 @@ Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作
 
 * 2021-07-11. 學無止境! 科技來自於人性... 懶就是一切的原動力 😎
 
+
+## Series
+
+{{< series "google-sre-books" >}}

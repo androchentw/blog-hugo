@@ -60,10 +60,16 @@ summaryLength = 70
   weight = 1
 
 [[menu.main]]
+  name = "Series"
+  pre = '<i class="fas fa-list fa-lg"></i>'
+  url = "/series/"
+  weight = 2
+
+[[menu.main]]
   name = "Archives"
   pre = '<i class="fas fa-sitemap fa-lg"></i>'
   url = "/archives/"
-  weight = 2
+  weight = 3
 
 [markup]
   [markup.goldmark]
@@ -93,3 +99,9 @@ summaryLength = 70
   [outputFormats.RSS]
     mediatype = "application/rss"
     baseName = "feed"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+  

@@ -4,13 +4,13 @@ url: /golang-learn
 date: 2021-07-17T10:13:58+08:00
 author: androchentw
 type: post
-series: golang-learn
 categories:
   - tech
 tags: 
   - tech
   - golang
 share_img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png
+series: golang-learn
 ---
 
 <img style="width:40%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png">
@@ -96,3 +96,7 @@ share_img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blu
 
 * 2021-07-17 總覺得最近支線任務開得有點多...
 
+
+### Series
+
+{{< series "golang-learn" >}}
