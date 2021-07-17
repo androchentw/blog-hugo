@@ -9,6 +9,7 @@ categories:
 tags:
   - tech
   - blog
+  - hugo
 share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
 ---
 
