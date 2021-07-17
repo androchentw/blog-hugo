@@ -9,10 +9,10 @@ categories:
 tags: 
   - tech
   - golang
-share_img: https://i.imgur.com/FaFgJha.png
+share_img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png
 ---
 
-<img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
+<img style="width:40%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png">
 
 ## Intro
 
