@@ -71,6 +71,7 @@ series: golang-learn
   6. 🧑🏻‍💻 [The Ultimate Go Study Guide](https://github.com/ardanlabs/gotraining)
   7. [1000+ Hand-crafted Go examples, exercises and quizzes](https://github.com/inancgumus/learngo)
 * [Go Wiki](https://github.com/golang/go/wiki/Learn)
+* [go-training/training](https://github.com/go-training/training)
 
 
 ### VS Code Extension
@@ -78,7 +79,7 @@ series: golang-learn
 * [Visual Studio Code 安裝及插件推薦](https://morosedog.gitlab.io/golang-20201028-golang-2/)
 * [50 VS Code themes for 2020](https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc)
 * [What Are the Most Popular VS Code Themes?](https://visualstudiomagazine.com/articles/2021/07/07/vs-code-themes.aspx): [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
-
+* [go-training/workshop-20201111](https://github.com/go-training/workshop-20201111/blob/main/01-setup-env/vscode/settings.json)
 
 ### Gin & Frontend
 
