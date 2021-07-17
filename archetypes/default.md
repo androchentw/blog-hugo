@@ -20,9 +20,17 @@ https://blog.androchen.tw/value-proposition
 
 ### Challenges (Why. VPC-US, scenario, 5-Why)
 
-1. VPC-US
+1. Profile
+2. Jobs
+   1. Functional
+   2. Emotional
+3. Pains -p(JobDone)
+   1. Negative Experience
+4. Gains +p(Adopt)
+   1. Positive Experience
+   
 
-### Objectives (What. Value.)
+### Objectives (What. Value.) (Product & Services)
 
 1. Achieve
 
