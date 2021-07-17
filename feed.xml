@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿的小碎念</title><link>https://blog.androchen.tw/</link><description>Recent content on ProgramMur - 程序猿的小碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 11 Jul 2021 12:41:05 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/feed.xml" rel="self" type="application/rss+xml"/><item><title>Mental Toughness</title><link>https://blog.androchen.tw/mental-toughness/</link><pubDate>Sun, 11 Jul 2021 12:41:05 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/mental-toughness/</guid><description>&lt;p>&lt;img style="width:40%;" src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" />&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿的小碎念</title><link>https://blog.androchen.tw/</link><description>Recent content on ProgramMur - 程序猿的小碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sat, 17 Jul 2021 10:13:58 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/feed.xml" rel="self" type="application/rss+xml"/><item><title>Golang Learn</title><link>https://blog.androchen.tw/golang-learn/</link><pubDate>Sat, 17 Jul 2021 10:13:58 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/golang-learn/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
+&lt;h2 id="intro">Intro&lt;/h2>
+&lt;p>&lt;a href="https://blog.androchen.tw/setup-blog-hugo/">從 Ghost 搬來 Hugo 後&lt;/a>, 終於更積極地回歸 blog 了&amp;hellip; 今天要來立下學 golang 的 flag 😂&lt;/p>
+&lt;p>作為新手, 條列一些觀察與期許&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: Data Engineer&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Deliver data to value by designing and implementing data pipeline&lt;/li>
+&lt;li>Maintain operations and continuously improve service levels&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Master 1 programming language to better understand the mechanism and principle of Dev &amp;amp; Ops .&lt;/li>
+&lt;li>Manage Ops in software engineering way like &lt;a href="https://blog.androchen.tw/google-sre-books/">&lt;code>class SRE implements DevOps&lt;/code>&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2021-08 Complete &lt;a href="https://gobyexample.com/">Go by Example&lt;/a> and get familiar with VS Code extensions.&lt;/li>
+&lt;li>2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.&lt;/li>
+&lt;/ol></description></item><item><title>Mental Toughness</title><link>https://blog.androchen.tw/mental-toughness/</link><pubDate>Sun, 11 Jul 2021 12:41:05 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/mental-toughness/</guid><description>&lt;p>&lt;img style="width:40%;" src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" />&lt;/p>
 &lt;h2 id="intro">Intro&lt;/h2>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ol>
