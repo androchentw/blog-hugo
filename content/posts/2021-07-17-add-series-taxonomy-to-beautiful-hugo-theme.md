@@ -10,10 +10,10 @@ tags:
   - tech
   - blog
   - hugo
-share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
+share_img: https://i.imgur.com/S8CwQqI.png
 ---
 
-<img style="width:40%;" src="https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png">
+<img style="width:40%;" src="https://i.imgur.com/S8CwQqI.png">
 
 ## Intro
 
