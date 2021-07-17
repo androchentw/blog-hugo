@@ -1,8 +1,7 @@
 ---
-draft: true
 title: "Golang Learn"
 url: /golang-learn
-date: 2021-07-17T10:08:58+08:00
+date: 2021-07-17T10:13:58+08:00
 author: androchentw
 type: post
 categories:
@@ -76,19 +75,19 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 * [Visual Studio Code 安裝及插件推薦](https://morosedog.gitlab.io/golang-20201028-golang-2/)
 * [50 VS Code themes for 2020](https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc)
-* https://visualstudiomagazine.com/articles/2021/07/07/vs-code-themes.aspx
+* [What Are the Most Popular VS Code Themes?](https://visualstudiomagazine.com/articles/2021/07/07/vs-code-themes.aspx): [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
 
 
 ### Gin & Frontend
 
-* https://ithelp.ithome.com.tw/articles/10234075, https://ithelp.ithome.com.tw/articles/10222711
-* https://github.com/FlowerWrong/awesome-gin
-* https://pjchender.dev/golang/gin-getting-started/
-* https://github.com/gothinkster/golang-gin-realworld-example-app/blob/master/FRONTEND_INSTRUCTIONS.md
-* https://hoohoo.top/blog/20210530112304-golang-tutorial-introduction-gin-html-template-and-how-integration-with-bootstrap/
-* https://material-ui.com/store/
-* https://getbootstrap.com/
-* https://semantic-ui.com/
+* [Gin - 好用的 web framework](https://ithelp.ithome.com.tw/articles/10234075), [Gin框架搭配模板](https://ithelp.ithome.com.tw/articles/10222711)
+* [awesome-gin](https://github.com/FlowerWrong/awesome-gin)
+* [Gin 起步走（Getting Started）](https://pjchender.dev/golang/gin-getting-started/)
+* [golang-gin-realworld-example-app/FRONTEND_INSTRUCTIONS.md](https://github.com/gothinkster/golang-gin-realworld-example-app/blob/master/FRONTEND_INSTRUCTIONS.md)
+* [GOLANG TUTORIAL : INTRODUCTION GIN HTML TEMPLATE AND HOW INTEGRATION WITH BOOTSTRAP](https://hoohoo.top/blog/20210530112304-golang-tutorial-introduction-gin-html-template-and-how-integration-with-bootstrap/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Semantic UI](https://semantic-ui.com/)
+* [material-ui store](https://material-ui.com/store/)
 
 
 ## Murmur
