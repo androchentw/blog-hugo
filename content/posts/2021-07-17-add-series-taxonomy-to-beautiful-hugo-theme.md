@@ -43,6 +43,18 @@ share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.
 * [Add Series Taxonomy to Hugo Theme](https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/)
 
 
+### Voilà
+
+* [Series List](https://blog.androchen.tw/series/) 
+  <img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
+
+
+* Embed in post
+  <img style="width:80%;" src="https://i.imgur.com/1aMj8ZL.png">
+
+
+
+
 ### Hugo Template 語法
 
   * [Go 模板啟蒙讀本](https://bwaycer.github.io/hugo_tutorial.hugo/templates/go-templates/)
