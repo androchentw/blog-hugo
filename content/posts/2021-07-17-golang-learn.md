@@ -4,6 +4,7 @@ url: /golang-learn
 date: 2021-07-17T10:13:58+08:00
 author: androchentw
 type: post
+series: golang-learn
 categories:
   - tech
 tags: 
@@ -69,6 +70,7 @@ share_img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blu
   5. 🧑🏻‍💻 [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests)
   6. 🧑🏻‍💻 [The Ultimate Go Study Guide](https://github.com/ardanlabs/gotraining)
   7. [1000+ Hand-crafted Go examples, exercises and quizzes](https://github.com/inancgumus/learngo)
+* [Go Wiki](https://github.com/golang/go/wiki/Learn)
 
 
 ### VS Code Extension
