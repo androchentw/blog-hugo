@@ -13,7 +13,7 @@ tags:
 share_img: https://i.imgur.com/S8CwQqI.png
 ---
 
-<img style="width:40%;" src="https://i.imgur.com/S8CwQqI.png">
+<img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
 
 ## Intro
 
