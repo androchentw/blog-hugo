@@ -25,7 +25,7 @@ summaryLength = 70
 [Params]
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post","posts"]
-  logo = "https://i.imgur.com/FaFgJha.png"
+  logo = "https://avatars.githubusercontent.com/u/2317501?v=4"
   favicon = "https://i.imgur.com/FaFgJha.png"
   dateFormat = "2006-01-02"
   rss = true
