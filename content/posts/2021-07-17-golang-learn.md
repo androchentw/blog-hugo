@@ -91,7 +91,7 @@ series: golang-learn
 * [Bootstrap](https://getbootstrap.com/)
 * [Semantic UI](https://semantic-ui.com/)
 * [material-ui store](https://material-ui.com/store/)
-
+* [Why Are You Still Creating CRUD Apis?](https://levelup.gitconnected.com/why-are-you-still-creating-crud-apis-8790ca261bfb)
 
 ## Murmur
 
