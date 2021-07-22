@@ -42,6 +42,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
 
 1. 2021-09 Read > 3 books
    1. 2021-07 拒絕職場情緒耗竭, 正念溝通, 僧人心態
+      1. ✅ 2021-07-15~17 拒絕職場情緒耗竭
    2. 2021-08 真正無懼的身心防彈術, 你可以生氣，但不要越想越氣
    3. 2021-09 我想跟你好好說話, 在乎別人，是對自己的情緒暴力
 2. 2021-12 Apply & record mind thoughts, practice meditation.
