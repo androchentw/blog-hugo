@@ -69,6 +69,20 @@ share_img: https://i.imgur.com/S8CwQqI.png
 
 * [Git Submodule 用法筆記](https://blog.chh.tw/posts/git-submodule/)
 
+### Additional Modification
+
+
+為 Hugo blog 的 SEO og:title 加上 Site.Title 的修改方法
+
+* [feat: add $.Site.Title to SEO og:title](https://github.com/androchentw/blog-theme/commit/efabe56ac1b2317272d7a7319e162b5043969978)
+
+```html
+# themes/beautifulhugo/layouts/partials/seo/opengraph.html
+
+{{- with .Title | default .Site.Title }}
+<meta property="og:title" content="{{ $.Title }} | {{$.Site.Title }}" />
+{{- end }}
+```
 
 ## Murmur
 
