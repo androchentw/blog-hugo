@@ -41,8 +41,9 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
 ### KRs (How. Measurable Result.)
 
 1. 2021-09 Read > 3 books
-   1. 2021-07 拒絕職場情緒耗竭, 正念溝通, 僧人心態
+   1. 2021-07 拒絕職場情緒耗竭, 正念減壓的訓練, 正念溝通, 僧人心態
       1. ✅ 2021-07-15~17 拒絕職場情緒耗竭
+      2. ✅ 2021-07-24 正念減壓的訓練
    2. 2021-08 真正無懼的身心防彈術, 你可以生氣，但不要越想越氣
    3. 2021-09 我想跟你好好說話, 在乎別人，是對自己的情緒暴力
 2. 2021-12 Apply & record mind thoughts, practice meditation.
@@ -105,7 +106,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
 
 ### TPML HyRead
 
-* 1 [拒絕職場情緒耗竭](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=233177) 2021 - 24個高情商溝通技巧 主動回擊主管、同事、下屬的情緒傷害
+* ✅ 1 [拒絕職場情緒耗竭](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=233177) 2021 - 24個高情商溝通技巧 主動回擊主管、同事、下屬的情緒傷害
   * [YouTube](https://youtu.be/3-Zmm4aykL0)
   * 「向上溝通」、「同儕互動」、「向下管理」
   * 第一部　拒絕來自慣老闆、瞎主管的情緒耗竭
@@ -124,6 +125,8 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
       * GROW. 「從平面到立體」的複述法
     * 第7章　員工開會常沉默不提意見
       * 關懷
+
+* ✅ 1 [正念減壓的訓練](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=127715) 2017 - 風行全球, 哈佛醫學院、Google、麥肯錫、蘋果都在用. [音檔](https://www.booklife.com.tw/webpage/47)
 
 * 2 [僧人心態](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=220807) 2020 - 從道場到職場，訓練你的心，過著平靜而有目標的每一天
   * [Jay Shetty](https://jayshetty.me/)

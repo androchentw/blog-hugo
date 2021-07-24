@@ -1,6 +1,6 @@
 baseURL = "https://blog.androchen.tw"
 languageCode = "en-us"
-title = "ProgramMur - 程序猿的小碎念"
+title = "ProgramMur - 程序猿碎念"
 theme = "beautifulhugo"
 
 DefaultContentLanguage = "en"
