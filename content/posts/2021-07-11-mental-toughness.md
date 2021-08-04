@@ -128,7 +128,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
       * 關懷
 
 * ✅ 1 [正念減壓的訓練](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=127715) 2017 - 風行全球, 哈佛醫學院、Google、麥肯錫、蘋果都在用. [音檔](https://www.booklife.com.tw/webpage/47)
-
+* [高敏感是種天賦](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=213727) - 3, 不在乎的你, 很受傷的我, 14堂走出委屈的心理練習
 * 2 [僧人心態](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=220807) 2020 - 從道場到職場，訓練你的心，過著平靜而有目標的每一天
   * [Jay Shetty](https://jayshetty.me/)
   * 學會處理痛苦和焦慮、擁有更圓滿的人際關係
