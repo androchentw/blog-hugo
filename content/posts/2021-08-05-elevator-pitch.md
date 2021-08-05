@@ -48,8 +48,26 @@ share_img: https://i.imgur.com/FaFgJha.png
 ### Elevator Pitch
 
 * [Team Playbook - Elevator Pitch](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
+
 * [職場必備利器｜4 步驟完成頂尖銷售必備的電梯簡報 Elevator Pitch](https://cln-asia.com/2020/09/04/職場必備利器｜4-步驟完成頂尖銷售必備的電梯簡報/)
+  1. 你是誰？你的背景為何？
+  2. 如何讓對方產生興趣？
+  3. 你想說服對方什麼？要如何說服對方？
+  4. 建立連結，給予行動呼籲（Call to Action）
+
 * [關鍵性的一刻：隨時都該做好準備的電梯簡報（Elevator Speech）](https://www.inside.com.tw/article/529-elevator-speech)
+  * What
+    1. 你必須能讓你的對象馬上了解你是誰、你在做什麼
+    2. 你必須準備多個版本，如此一來你可以根據現實條件選擇不同的說法
+    3. 在一開始準備電梯簡報的不同版本時，你應該找些不是那麼熟的人來聽聽你的說法，作為起草的參考，而不是找你的家人或朋友，通常他們都會鼓掌說你講得不錯
+    4. 熟能生巧，多加練習是不二法門。
+    5.  永遠要做好準備（Always be prepared），你並不知道你何時會遇到一個對你來說非常重要的人物。
+  * How
+    1. 簡短地介紹你自己
+    2. 描述你的事業是什麼類型
+    3. 描述你的客戶是什麼類型
+    4. 談談你跟其他競爭者有什麼不一樣？你的獨特賣點是什麼？(Unique Selling Proposition) 
+  
 * [How to Create an Elevator Pitch With Examples](https://www.thebalancecareers.com/elevator-speech-examples-and-writing-tips-2061976)
 * [Crafting an Elevator Pitch](https://www.mindtools.com/pages/article/elevator-pitch.htm)
 
