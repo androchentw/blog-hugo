@@ -15,7 +15,7 @@ share_img: https://i.imgur.com/S8CwQqI.png
 
 <img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
 
-## Intro
+## Overview
 
 原本是看到這個 Series 操作就覺得蠻生火的: [Add Series Taxonomy to Hugo Theme](https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/), 剛好拿來當練習~
 

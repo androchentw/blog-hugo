@@ -15,7 +15,7 @@ series: golang-learn
 
 <img style="width:40%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png">
 
-## Intro
+## Overview
 
 [從 Ghost 搬來 Hugo 後](https://blog.androchen.tw/setup-blog-hugo/), 終於更積極地回歸 blog 了... 今天要來立下學 golang 的 flag 😂 
 

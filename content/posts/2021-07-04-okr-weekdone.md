@@ -15,7 +15,7 @@ share_img: https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.pn
 
 <img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">
 
-### Intro
+## Overview
 
 OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而, 
 

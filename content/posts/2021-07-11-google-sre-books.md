@@ -21,7 +21,7 @@ series: google-sre-books
 <img style="width:40%;" src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9">
 
 
-## Intro
+## Overview
 
 Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.
 

@@ -17,7 +17,7 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 <img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
 
-## Intro
+## Overview
 
 行之有年的 elevator pitch, 概念易懂, 卻需要大量練習. 有意識地練習精簡表達
 
