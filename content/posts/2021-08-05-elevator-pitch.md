@@ -61,9 +61,6 @@ share_img: https://i.imgur.com/FaFgJha.png
     * As a [client], I want [service] so I can [outcome].
     * Measurements: customer value, risk, marketability
 
-<img style="width:80%;" src="https://wac-cdn.atlassian.com/dam/jcr:f14a967a-5b90-40ff-9255-fbc044e76de9/Updated%20Thumbnail-EXAMPLE1.jpg?cdnVersion=1742">
-
-
 * [職場必備利器｜4 步驟完成頂尖銷售必備的電梯簡報 Elevator Pitch](https://cln-asia.com/2020/09/04/職場必備利器｜4-步驟完成頂尖銷售必備的電梯簡報/)
   1. 你是誰？你的背景為何？
   2. 如何讓對方產生興趣？
