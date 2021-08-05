@@ -1,7 +1,7 @@
 ---
 title: "Elevator Pitch"
 url: /elevator-pitch
-date: 2021-08-05T17:27:14+08:00
+date: 2021-08-05T23:55:14+08:00
 author: androchentw
 type: post
 categories:
@@ -19,7 +19,7 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 ## Overview
 
-行之有年的 elevator pitch, 概念易懂, 卻需要大量練習. 有意識地練習精簡表達
+行之有年的 elevator pitch, 概念易懂, 卻需要有意識地練習精簡表達.
 
 ### Challenges
 
@@ -48,6 +48,21 @@ share_img: https://i.imgur.com/FaFgJha.png
 ### Elevator Pitch
 
 * [Team Playbook - Elevator Pitch](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
+  * Prep 5-column
+    1. As a [target customer type]
+    2. who want(s) to [customer need],
+    3. [product/feature/service]
+    4. is a [market category]
+    5. that [key benefit].
+  * variation  
+    * [Who], [what], [why]
+      * focusing on our customers: who they are, what they need, and how our project fills that need.
+      * [Value Proposition](https://blog.androchen.tw/value-proposition/)
+    * As a [client], I want [service] so I can [outcome].
+    * Measurements: customer value, risk, marketability
+
+<img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:f14a967a-5b90-40ff-9255-fbc044e76de9/Updated%20Thumbnail-EXAMPLE1.jpg?cdnVersion=1742">
+
 
 * [職場必備利器｜4 步驟完成頂尖銷售必備的電梯簡報 Elevator Pitch](https://cln-asia.com/2020/09/04/職場必備利器｜4-步驟完成頂尖銷售必備的電梯簡報/)
   1. 你是誰？你的背景為何？
