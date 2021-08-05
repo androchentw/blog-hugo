@@ -24,7 +24,7 @@ PCVM > OKR
 Profile > Challenge > Vision > Mission
 
 1. Profile (Role, Scenario)
-   1. PDCA: Personal Development
+   1. PDCA: My Life (Personal Development)
    2. Tech: Data Engineer, SRE
    3. Learn: Tech Blogger
 2. Jobs, Mission
