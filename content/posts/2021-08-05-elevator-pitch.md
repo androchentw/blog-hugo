@@ -47,7 +47,7 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 ### Elevator Pitch
 
-* [Team Playbook - Elevator Pitch](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
+* [Elevator Pitch | Atlassian Team Playbook](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
   * Prep 5-column
     1. As a [target customer type]
     2. who want(s) to [customer need],
@@ -61,7 +61,7 @@ share_img: https://i.imgur.com/FaFgJha.png
     * As a [client], I want [service] so I can [outcome].
     * Measurements: customer value, risk, marketability
 
-<img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:f14a967a-5b90-40ff-9255-fbc044e76de9/Updated%20Thumbnail-EXAMPLE1.jpg?cdnVersion=1742">
+<img style="width:80%;" src="https://wac-cdn.atlassian.com/dam/jcr:f14a967a-5b90-40ff-9255-fbc044e76de9/Updated%20Thumbnail-EXAMPLE1.jpg?cdnVersion=1742">
 
 
 * [職場必備利器｜4 步驟完成頂尖銷售必備的電梯簡報 Elevator Pitch](https://cln-asia.com/2020/09/04/職場必備利器｜4-步驟完成頂尖銷售必備的電梯簡報/)
