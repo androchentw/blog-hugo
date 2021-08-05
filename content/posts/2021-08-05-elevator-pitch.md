@@ -1,5 +1,5 @@
 ---
-title: "2021 08 05 Elevator Pitch"
+title: "Elevator Pitch"
 url: /elevator-pitch
 date: 2021-08-05T17:27:14+08:00
 author: androchentw

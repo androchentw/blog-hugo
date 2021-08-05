@@ -57,6 +57,7 @@ share_img: https://i.imgur.com/S8CwQqI.png
 
 ### Hugo Template 語法
 
+  * [Introduction to Hugo Templating](https://gohugo.io/templates/introduction/)
   * [Go 模板啟蒙讀本](https://bwaycer.github.io/hugo_tutorial.hugo/templates/go-templates/)
   * [Hugo模板的基本語法](https://hugo.aiaide.com/post/hugo%E6%A8%A1%E6%9D%BF%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/)
   * [Hugo 不完美教程 - V: Templates 模板机制](https://www.jianshu.com/p/e1f9123c721a)
