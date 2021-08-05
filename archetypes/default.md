@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-url: /{{ .Name }}
+title: "{{ .Name | replaceRE "^.{11}" "" | humanize | title }}"
+url: /{{ slicestr .Name 11 }}
 date: {{ .Date }}
 author: androchentw
 type: post
