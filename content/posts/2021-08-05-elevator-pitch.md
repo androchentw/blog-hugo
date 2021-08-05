@@ -57,11 +57,11 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 * [關鍵性的一刻：隨時都該做好準備的電梯簡報（Elevator Speech）](https://www.inside.com.tw/article/529-elevator-speech)
   * What
-    1. 你必須能讓你的對象馬上了解你是誰、你在做什麼
-    2. 你必須準備多個版本，如此一來你可以根據現實條件選擇不同的說法
-    3. 在一開始準備電梯簡報的不同版本時，你應該找些不是那麼熟的人來聽聽你的說法，作為起草的參考，而不是找你的家人或朋友，通常他們都會鼓掌說你講得不錯
-    4. 熟能生巧，多加練習是不二法門。
-    5.  永遠要做好準備（Always be prepared），你並不知道你何時會遇到一個對你來說非常重要的人物。
+    1. 你是誰、你在做什麼
+    2. 準備多個版本, 根據現實條件選擇不同的說法
+    3. 找些不是那麼熟的人來聽聽你的說法
+    4. 熟能生巧
+    5. Always be prepared
   * How
     1. 簡短地介紹你自己
     2. 描述你的事業是什麼類型
@@ -74,6 +74,9 @@ share_img: https://i.imgur.com/FaFgJha.png
   2. Explain What You Do
   3. Communicate Your USP (unique selling proposition)
      1. [How to Pivot Your Unique Selling Proposition During a Pandemic](https://www.linkedin.com/pulse/how-pivot-your-unique-selling-proposition-during-pandemic-zeev-wexler)
+  4. Engage With a Question
+  5. Put It All Together
+  6. Practice
 
 <img style="width:40%;" src="https://media-exp1.licdn.com/dms/image/C4E12AQFEZWXABrFKOg/article-inline_image-shrink_1500_2232/0/1587385012774?e=1633564800&v=beta&t=Ff_uli9Ppjqs4-YSjtfSsthvZPOI4Ege1LBf-5ofTXs">
 
