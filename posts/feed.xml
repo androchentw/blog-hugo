@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/posts/</link><description>Recent content in Posts on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Thu, 05 Aug 2021 17:27:14 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/posts/feed.xml" rel="self" type="application/rss+xml"/><item><title>Elevator Pitch</title><link>https://blog.androchen.tw/elevator-pitch/</link><pubDate>Thu, 05 Aug 2021 17:27:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/elevator-pitch/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>行之有年的 elevator pitch, 概念易懂, 卻需要大量練習. 有意識地練習精簡表達&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ol>
@@ -29,7 +29,7 @@
 &lt;ol>
 &lt;li>2021-12 Consciously practice elevator pitch in every weekly meeting planning items&lt;/li>
 &lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好練習!&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ol>
@@ -65,7 +65,7 @@
 &lt;li>2021-07 Improve time management (visibility &amp;gt; 80%) and improve productivity (+20%) by integrating Clockify + Jira.&lt;/li>
 &lt;li>2021-08 Get familiar with Jira integration and reports to get more insight.&lt;/li>
 &lt;/ol></description></item><item><title>Add Series Taxonomy to Beautiful Hugo Theme</title><link>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</link><pubDate>Sat, 17 Jul 2021 15:47:50 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>原本是看到這個 Series 操作就覺得蠻生火的: &lt;a href="https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/">Add Series Taxonomy to Hugo Theme&lt;/a>, 剛好拿來當練習~&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ol>
@@ -84,7 +84,7 @@
 &lt;ol>
 &lt;li>2021-07 Implement &lt;code>Series&lt;/code> feature on Hugo blog theme&lt;/li>
 &lt;/ol></description></item><item><title>Golang Learn</title><link>https://blog.androchen.tw/golang-learn/</link><pubDate>Sat, 17 Jul 2021 10:13:58 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/golang-learn/</guid><description>&lt;img style="width:40%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png">
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>&lt;a href="https://blog.androchen.tw/setup-blog-hugo/">從 Ghost 搬來 Hugo 後&lt;/a>, 終於更積極地回歸 blog 了&amp;hellip; 今天要來立下學 golang 的 flag 😂&lt;/p>
 &lt;p>作為新手, 條列一些觀察與期許&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -107,7 +107,7 @@
 &lt;li>2021-08 Complete &lt;a href="https://gobyexample.com/">Go by Example&lt;/a> and get familiar with VS Code extensions.&lt;/li>
 &lt;li>2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.&lt;/li>
 &lt;/ol></description></item><item><title>Mental Toughness</title><link>https://blog.androchen.tw/mental-toughness/</link><pubDate>Sun, 11 Jul 2021 12:41:05 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/mental-toughness/</guid><description>&lt;p>&lt;img style="width:40%;" src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" />&lt;/p>
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ol>
 &lt;li>自評低分, 想要加強. (阿里巴巴人才管理聖經 人才畫像 2021-07-09)&lt;/li>
@@ -143,7 +143,7 @@
 &lt;/li>
 &lt;li>2021-12 Apply &amp;amp; record mind thoughts, practice meditation.&lt;/li>
 &lt;/ol></description></item><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;img style="width:40%;" src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9">
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.&lt;/p>
 &lt;p>因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -172,7 +172,7 @@
 &lt;li>2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
 &lt;li>2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
 &lt;/ol></description></item><item><title>Value Proposition</title><link>https://blog.androchen.tw/value-proposition/</link><pubDate>Wed, 07 Jul 2021 21:14:59 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/value-proposition/</guid><description>&lt;img style="width:80%;" src="https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png">
-&lt;h2 id="intro">Intro&lt;/h2>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>最近嘗試 Product Management 的概念套用在包裝日常工作內容&lt;/p>
 &lt;ul>
 &lt;li>Full Scope Overview: 更清楚地規劃有哪些事情要做&lt;/li>
@@ -180,7 +180,7 @@
 &lt;li>Sense of Accomplishment: 更有成就感, 而不是渾厄度日, 被雜務塞滿&lt;/li>
 &lt;/ul>
 &lt;p>除了設定 &lt;a href="https://blog.androchen.tw/okr-weekdone">OKR&lt;/a> 之外, 先釐清 Value Proposition 會是一個好選擇&lt;/p></description></item><item><title>OKR Weekdone</title><link>https://blog.androchen.tw/okr-weekdone/</link><pubDate>Sun, 04 Jul 2021 23:41:58 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/okr-weekdone/</guid><description>&lt;img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">
-&lt;h3 id="intro">Intro&lt;/h3>
+&lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,&lt;/p>
 &lt;ol>
 &lt;li>如何快速 思考/撰寫 良好/有效的 OKR&lt;/li>
