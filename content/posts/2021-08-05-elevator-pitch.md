@@ -5,9 +5,13 @@ date: 2021-08-05T17:27:14+08:00
 author: androchentw
 type: post
 categories:
-  - life, coffee, read, biz, tech, fin, health, career
+  - life
+  - biz
 tags: 
   - life
+  - biz
+  - productivity
+  - communication
 share_img: https://i.imgur.com/FaFgJha.png
 ---
 
@@ -19,12 +23,10 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 ### Challenges
 
-Profile > Challenge > Vision > Mission
-
 1. Profile: Personal Development
 2. Jobs
-   1. Begin with the end in mind
-   2. Express ideas briefly
+   1. Express ideas briefly
+   2. Begin with the end in mind
 3. Pains
    1. Too much things to consider
    2. Tend to explain too much detail
