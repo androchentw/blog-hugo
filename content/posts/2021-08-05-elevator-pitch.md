@@ -28,8 +28,7 @@ share_img: https://i.imgur.com/FaFgJha.png
    1. Express ideas briefly
    2. Begin with the end in mind
 3. Pains
-   1. Too much things to consider
-   2. Tend to explain too much detail
+   1. Tend to explain too much detail
 4. Gains
    1. Template or framework to follow for thought
 
