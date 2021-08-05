@@ -70,7 +70,12 @@ share_img: https://i.imgur.com/FaFgJha.png
   
 * [How to Create an Elevator Pitch With Examples](https://www.thebalancecareers.com/elevator-speech-examples-and-writing-tips-2061976)
 * [Crafting an Elevator Pitch](https://www.mindtools.com/pages/article/elevator-pitch.htm)
+  1. Identify Your Goal
+  2. Explain What You Do
+  3. Communicate Your USP (unique selling proposition)
+     1. [How to Pivot Your Unique Selling Proposition During a Pandemic](https://www.linkedin.com/pulse/how-pivot-your-unique-selling-proposition-during-pandemic-zeev-wexler)
 
+<img style="width:40%;" src="https://media-exp1.licdn.com/dms/image/C4E12AQFEZWXABrFKOg/article-inline_image-shrink_1500_2232/0/1587385012774?e=1633564800&v=beta&t=Ff_uli9Ppjqs4-YSjtfSsthvZPOI4Ege1LBf-5ofTXs">
 
 ## Murmur
 
