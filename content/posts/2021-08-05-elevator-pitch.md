@@ -12,7 +12,7 @@ tags:
   - biz
   - productivity
   - communication
-share_img: https://i.imgur.com/FaFgJha.png
+share_img: https://i.imgur.com/PlKIb52.png
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
@@ -49,11 +49,11 @@ share_img: https://i.imgur.com/FaFgJha.png
 
 * [Elevator Pitch | Atlassian Team Playbook](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
   * Prep 5-column
-    1. As a [target customer type]
-    2. who want(s) to [customer need],
-    3. [product/feature/service]
-    4. is a [market category]
-    5. that [key benefit].
+    > 1. As a [target customer type]
+    > 2. who want(s) to [customer need],
+    > 3. [product/feature/service]
+    > 4. is a [market category]
+    > 5. that [key benefit].
   * variation  
     * [Who], [what], [why]
       * focusing on our customers: who they are, what they need, and how our project fills that need.
