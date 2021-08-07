@@ -64,7 +64,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:f313f3ad-dcae-43cd-83a3-feb8db0abaa0/IT%20teams.png?cdnVersion=1746">
 
-##### Core
+#### Core
 
 1. Team First
    1. [team playbook](https://www.atlassian.com/team-playbook). 
@@ -77,7 +77,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 #### ITSM vs ITIL vs DevOps
 
-<img style="width:40%;" src="https://valueinsights.ch/wp-content/uploads/2020/06/The-ITIL-4-Big-Picture_v1.0.png">
+<img style="width:80%;" src="https://valueinsights.ch/wp-content/uploads/2020/06/The-ITIL-4-Big-Picture_v1.0.png">
 
 * [The ITIL 4 Big Picture](https://valueinsights.ch/the-itil-4-big-picture/)
 
