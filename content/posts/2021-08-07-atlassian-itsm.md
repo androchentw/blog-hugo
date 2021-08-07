@@ -21,7 +21,7 @@ share_img: https://i.imgur.com/NJKXgVc.png
 
 ## Overview
 
-Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life/), dive deeper into a series of ITSM methodologies and product proposed by [atlassian](https://www.atlassian.com/itsm), with a view to applying them in work and life to further enhance productivity and narrative skills.
+Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life/), let's dive deeper into a series of ITSM methodologies and product proposed by [atlassian](https://www.atlassian.com/itsm), with a view to applying them in work and life to further enhance productivity and narrative skills.
 
 <!-- 延續 Agile Life, 深入研究 atlassian 提出的一系列 ITSM 方法論及產品, 以期應用在工作與生活上, 進一步提升生產力與敘述能力. -->
 
@@ -118,9 +118,9 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 ### Service Request Management
 
-<img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:b494279c-f2f0-42c6-b665-2bdbf435cba0/service-request-flow%20.png?cdnVersion=1746" title="Atlassian - service request fulfillment process">
-<br />
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:cb4f6608-7a1f-44ce-b4bf-1afef2e614d5/service%20request%20priorities.png?cdnVersion=1746" title="Atlassian - Service Request Managament Priorities">
+<br />
+<img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:b494279c-f2f0-42c6-b665-2bdbf435cba0/service-request-flow%20.png?cdnVersion=1746" title="Atlassian - service request fulfillment process">
 
 * [What is a service request?](https://www.atlassian.com/itsm/service-request-management)
   * [How to run IT support the DevOps way](https://www.atlassian.com/itsm/service-request-management/how-to-run-it-support-devops-way)
