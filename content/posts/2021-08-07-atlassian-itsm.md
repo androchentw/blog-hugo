@@ -1,5 +1,5 @@
 ---
-title: "Atlassian - IT Service Management"
+title: "Atlassian - ITSM"
 url: /atlassian-itsm
 #date: 2021-08-06T01:20:28+08:00
 date: 2021-08-07T10:55:28+08:00
@@ -22,8 +22,6 @@ share_img: https://i.imgur.com/NJKXgVc.png
 ## Overview
 
 Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life/), let's dive deeper into a series of ITSM methodologies and product proposed by [atlassian](https://www.atlassian.com/itsm), with a view to applying them in work and life to further enhance productivity and narrative skills.
-
-<!-- 延續 Agile Life, 深入研究 atlassian 提出的一系列 ITSM 方法論及產品, 以期應用在工作與生活上, 進一步提升生產力與敘述能力. -->
 
 ### Challenges
 
@@ -135,7 +133,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 2021-08-02 How to build knowledge base with Atlassian
 
-<img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:942dab82-b26c-440b-bd58-f0dfb3355168/Knowledge%20management%20cycle.png?cdnVersion=1738" title="Atlassian - Knowledge Management">
+<img style="width:80%;" src="https://wac-cdn.atlassian.com/dam/jcr:942dab82-b26c-440b-bd58-f0dfb3355168/Knowledge%20management%20cycle.png?cdnVersion=1738" title="Atlassian - Knowledge Management">
 <br />
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:39e1e686-ab57-42d3-ada9-cfeb117607d9/Knowledge%20base%20ways.png?cdnVersion=1735" title="Atlassian - KM Benefit">
 
