@@ -27,7 +27,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 ### Challenges
 
-1. Profile: Data Engineer + Operation Administrator
+1. Profile: Data Engineer + Operations Administrator
 2. Jobs
    1. Provisioning and troubleshooting data pipeline, visualization and monitoring
    2. Collaborate with other developers and administrators
