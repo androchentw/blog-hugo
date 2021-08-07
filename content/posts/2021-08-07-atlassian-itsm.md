@@ -154,7 +154,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   3. Lower training costs.
 
 
-<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/drawio/79c2b09f140b576c77dbcb7f027c3e5f441d73f3/2021-08-07%20KCS%20uml.png?token=AARVZPKU7445O6URKB2GMH3BBZACW" title="KCS Flowchart">
+<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/drawio/main/2021-08-07%20KCS%20uml.svg?token=AARVZPJTIXY7MSOHV7765ZDBBZA34" title="KCS Flowchart">
 
 * [KCS - knowledge-centered service](https://www.atlassian.com/itsm/knowledge-management/kcs)
   * [KCS v6](https://www.serviceinnovation.org/faq-about-kcs/)
