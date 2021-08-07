@@ -190,22 +190,28 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   * [Roles and Responsibilities](https://www.atlassian.com/team-playbook/plays/roles-and-responsibilities)
   * [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
   * [Learning Circle](https://www.atlassian.com/team-playbook/plays/learning-circle)
-
 * [5 tips](https://www.atlassian.com/blog/archives/5_tips_for_building_a_knowledge_base_with_confluence)
-* [Build an effective help desk knowledge base - ITSM infographic](https://www.manageengine.com/products/service-desk/self-service/how-to-build-help-desk-knowledge-base.html)
-* [7 Steps to Build an Awesome Service desk Knowledge Base](https://www.motadata.com/blog/steps-to-build-an-awesome-service-desk-knowledge-base/)
 
 
 ## Incident Management
 
+* [What is incident management?](https://www.atlassian.com/itsm/incident-management)
+
 
 ## Problem Managment
+
+* [What is problem management?](https://www.atlassian.com/itsm/problem-management)
 
 
 ## Change Management
 
+* [The evolution of IT change management](https://www.atlassian.com/itsm/change-management)
+
 
 ## ITIL
+
+* [A guide to ITIL and its place in modern ITSM](https://www.atlassian.com/itsm/itil)
+
 
 
 ## Murmur
