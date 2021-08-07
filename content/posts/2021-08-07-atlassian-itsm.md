@@ -91,7 +91,8 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
      5. Practices
      6. Continual Improvement
   3. SVC: Service Value Chain
-     1. Ref: [Value Stream](https://www.scaledagileframework.com/value-streams/)
+     1. [Value Stream](https://www.scaledagileframework.com/value-streams/)
+     2. [9 Essential Value Stream Mapping Templates to Immediately Discover Flows in Your Processes](https://creately.com/blog/examples/value-stream-mapping-templates/)
 
 <img style="width:80%;" src="https://www.scaledagileframework.com/wp-content/uploads/2020/03/Value-Streams_F03_WEB-new.png">
 
@@ -125,33 +126,46 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:b494279c-f2f0-42c6-b665-2bdbf435cba0/service-request-flow%20.png?cdnVersion=1746" title="Atlassian - service request fulfillment process">
 
 * [What is a service request?](https://www.atlassian.com/itsm/service-request-management)
-  * [How to run IT support the DevOps way](https://www.atlassian.com/itsm/service-request-management/how-to-run-it-support-devops-way)
+* [IT Metrics: 4 best practices for success](https://www.atlassian.com/itsm/service-request-management/it-metrics-and-reporting)
+* [How to run IT support the DevOps way](https://www.atlassian.com/itsm/service-request-management/how-to-run-it-support-devops-way)
+
 * smart support workflow 
   * [Are your support services as SMART as they could be?](https://blogs.servicenow.com/2019/smart-support-services.html)
   * [Create a Help Desk Workflow Streamline Your Support Process](https://www.happyfox.com/help-desk-work-flow/)
 * [Opsgenie](https://www.atlassian.com/software/opsgenie)
 
 
-## Knowledge Management
 
-2021-08-02 How to build knowledge base with Atlassian
+## Knowledge Management
 
 <img style="width:80%;" src="https://wac-cdn.atlassian.com/dam/jcr:942dab82-b26c-440b-bd58-f0dfb3355168/Knowledge%20management%20cycle.png?cdnVersion=1738" title="Atlassian - Knowledge Management">
 <br />
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:39e1e686-ab57-42d3-ada9-cfeb117607d9/Knowledge%20base%20ways.png?cdnVersion=1735" title="Atlassian - KM Benefit">
 
-* [Knowledge Management - What is a knowledge base?](https://www.atlassian.com/itsm/knowledge-management/what-is-a-knowledge-base)
+* [Best Practices](https://www.atlassian.com/itsm/knowledge-management)
+  1. Aggregate your team’s knowledge in a single repository or system.
+  2. Increase **transparency** with open and shared information.
+  3. **Make work visible** with a [project poster](https://www.atlassian.com/team-playbook/plays/project-poster).
+  4. Focus on **brief** articles or answers.
+
+* [Benefits of a knowledge base](https://www.atlassian.com/itsm/knowledge-management/what-is-a-knowledge-base)
+  1. More consistent service.
+  2. Higher resolution rates at first contact.
+  3. Lower training costs.
+
 * [KCS - knowledge-centered service](https://www.atlassian.com/itsm/knowledge-management/kcs)
-* [5 tips for building a powerful knowledge base with Confluence](https://www.atlassian.com/blog/archives/5_tips_for_building_a_knowledge_base_with_confluence)
+
+* [5 tips](https://www.atlassian.com/blog/archives/5_tips_for_building_a_knowledge_base_with_confluence)
 * [Team Playbook](https://www.atlassian.com/team-playbook)
-  * [Roles and Responsibilities](https://www.atlassian.com/team-playbook/plays/roles-and-responsibilities)
-  * [OKRs](https://www.atlassian.com/team-playbook/plays/okrs)
   * [Elevator Pitch](https://blog.androchen.tw/elevator-pitch/)
-  * [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
+  * [OKRs](https://www.atlassian.com/team-playbook/plays/okrs)
   * [Prioritize, as a team](https://www.atlassian.com/team-playbook/plays/prioritize-tasks-how-to)
+  * [Roles and Responsibilities](https://www.atlassian.com/team-playbook/plays/roles-and-responsibilities)
+  * [Retrospective](https://www.atlassian.com/team-playbook/plays/retrospective)
   * [Learning Circle](https://www.atlassian.com/team-playbook/plays/learning-circle)
-* [IT Metrics: 4 best practices for success](https://www.atlassian.com/itsm/service-request-management/it-metrics-and-reporting)
+
 * [Build an effective help desk knowledge base - ITSM infographic](https://www.manageengine.com/products/service-desk/self-service/how-to-build-help-desk-knowledge-base.html)
+
 * [7 Steps to Build an Awesome Service desk Knowledge Base](https://www.motadata.com/blog/steps-to-build-an-awesome-service-desk-knowledge-base/)
 
 
