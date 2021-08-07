@@ -77,7 +77,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 * [The ITIL 4 Big Picture](https://valueinsights.ch/the-itil-4-big-picture/)
 
-* [淺談ITIL 4 與服務管理實踐](https://www.gss.com.tw/blog/itil4)
+* [淺談 ITIL 4 與服務管理實踐](https://www.gss.com.tw/blog/itil4)
   1. Four dimensions model
      1. Organizations & people
      2. Information & technology
@@ -138,7 +138,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 ## Knowledge Management
 
-<img style="width:80%;" src="https://wac-cdn.atlassian.com/dam/jcr:942dab82-b26c-440b-bd58-f0dfb3355168/Knowledge%20management%20cycle.png?cdnVersion=1738" title="Atlassian - Knowledge Management">
+<img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:942dab82-b26c-440b-bd58-f0dfb3355168/Knowledge%20management%20cycle.png?cdnVersion=1738" title="Atlassian - Knowledge Management">
 <br />
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:39e1e686-ab57-42d3-ada9-cfeb117607d9/Knowledge%20base%20ways.png?cdnVersion=1735" title="Atlassian - KM Benefit">
 
