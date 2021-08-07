@@ -153,8 +153,32 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   2. Higher resolution rates at first contact.
   3. Lower training costs.
 
+
+<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/drawio/79c2b09f140b576c77dbcb7f027c3e5f441d73f3/2021-08-07%20KCS%20uml.png?token=AARVZPKU7445O6URKB2GMH3BBZACW" title="KCS Flowchart">
+
 * [KCS - knowledge-centered service](https://www.atlassian.com/itsm/knowledge-management/kcs)
   * [KCS v6](https://www.serviceinnovation.org/faq-about-kcs/)
+  * Benefits
+    1. Numbers
+       1. 30 – 50% increase in first-contact resolution
+       2. 70% faster time-to-proficiency for new analysts  
+       3. 20 – 40% improvement in employee satisfaction
+       4. 10% fewer reported issues/support requests
+       5. 50 – 60% of KCS adopters also improved time to resolution
+    2. Less problem-solving from scratch frees up time
+    3. More consistent customer experiences mean happier stakeholders
+    4. KCS creates continuous improvement
+    5. Good documentation enables true self-service
+  * Challenges
+    1. Teams often experience cultural challenges that make it hard to shift out of [what expert David Kay calls](https://www.dbkay.com/culture/what-does-a-bad-knowledge-sharing-culture-look-like-2) “an obsession with the urgent and tactical.”
+    2. IT managers get too busy fighting fires using current processes (ineffective as they may be) to focus on doing something more strategic.
+  * How does KCS work?
+    1. Capture knowledge
+    2. Structure knowledge
+    3. Reuse knowledge
+    4. Improve knowledge
+    5. Use knowledge to see the big picture 
+
 
 * [5 tips](https://www.atlassian.com/blog/archives/5_tips_for_building_a_knowledge_base_with_confluence)
 * [Team Playbook](https://www.atlassian.com/team-playbook)
