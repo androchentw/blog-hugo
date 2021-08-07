@@ -91,6 +91,11 @@ series: golang-learn
 * [material-ui store](https://material-ui.com/store/)
 * [Why Are You Still Creating CRUD Apis?](https://levelup.gitconnected.com/why-are-you-still-creating-crud-apis-8790ca261bfb)
 
+## Others
+
+* [GORM Guides](https://gorm.io/docs/index.html)
+* [go-funk](https://github.com/thoas/go-funk)
+
 ## Murmur
 
 * 2021-07-17 總覺得最近支線任務開得有點多...
