@@ -91,6 +91,9 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
      5. Practices
      6. Continual Improvement
   3. SVC: Service Value Chain
+     1. Ref: [Value Stream](https://www.scaledagileframework.com/value-streams/)
+
+<img style="width:80%;" src="https://www.scaledagileframework.com/wp-content/uploads/2020/03/Value-Streams_F03_WEB-new.png">
 
 * DevOps promised benefits include
   1. Increased trust
