@@ -53,9 +53,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 <!--more-->
 
-## Content
-
-### ITSM 
+## ITSM 
 
 * [What is IT Service Management (ITSM)?](https://www.atlassian.com/itsm)
 
@@ -64,7 +62,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:f313f3ad-dcae-43cd-83a3-feb8db0abaa0/IT%20teams.png?cdnVersion=1746">
 
-#### Core
+### Core
 
 1. Team First
    1. [team playbook](https://www.atlassian.com/team-playbook). 
@@ -75,7 +73,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
    1. It empowers end-users and automates mundane work, so **everyone gets more time to focus on what matters most to them**.
 
 
-#### ITSM vs ITIL vs DevOps
+### ITSM vs ITIL vs DevOps
 
 <img style="width:80%;" src="https://valueinsights.ch/wp-content/uploads/2020/06/The-ITIL-4-Big-Picture_v1.0.png">
 
@@ -106,6 +104,9 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 * The importance of ITSM (Common benefits)
   * Aligning IT teams with business priorities tracked through success metrics.
+  * Improving request coordination for more efficient service.
+  * Promoting customer-centricity with self-service and better processes.
+  * Responding more quickly to major incidents, and preventing future ones.
 
 * ITSM processes
   1. [Service request management](#service-request-management) is a **repeatable procedure** for handling the wide variety of customer service requests.
@@ -116,7 +117,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   6. [Change management](#change-management) ensures **standard procedures are used for efficient and prompt handling of all changes** to IT infrastructure.
 
 
-### Service Request Management
+## Service Request Management
 
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:cb4f6608-7a1f-44ce-b4bf-1afef2e614d5/service%20request%20priorities.png?cdnVersion=1746" title="Atlassian - Service Request Managament Priorities">
 <br />
@@ -130,7 +131,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 * [Opsgenie](https://www.atlassian.com/software/opsgenie)
 
 
-### Knowledge Management
+## Knowledge Management
 
 2021-08-02 How to build knowledge base with Atlassian
 
@@ -153,16 +154,16 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 * [7 Steps to Build an Awesome Service desk Knowledge Base](https://www.motadata.com/blog/steps-to-build-an-awesome-service-desk-knowledge-base/)
 
 
-### Incident Management
+## Incident Management
 
 
-### Problem Managment
+## Problem Managment
 
 
-### Change Management
+## Change Management
 
 
-### ITIL
+## ITIL
 
 
 ## Murmur

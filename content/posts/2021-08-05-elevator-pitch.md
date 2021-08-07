@@ -42,10 +42,7 @@ share_img: https://i.imgur.com/PlKIb52.png
 1. 2021-12 Consciously practice elevator pitch in every weekly meeting planning items
 
 <!--more-->
-
-## Content
-
-### Elevator Pitch
+## Elevator Pitch
 
 * [Elevator Pitch | Atlassian Team Playbook](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
   * Prep 5-column

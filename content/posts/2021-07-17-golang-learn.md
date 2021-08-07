@@ -43,9 +43,7 @@ series: golang-learn
 
 <!--more-->
 
-## Content
-
-### More about Why Golang
+## More about Why Golang
 
 1. Statically-typed 
 
@@ -59,7 +57,7 @@ series: golang-learn
 加上做資料分析, 監控等也一陣子了, 都能看見 go sdk 在各種主流框架的支援快速竄起, Kubernetes, Prometheus, Grafana 等. [Why Golang is DevOps' Top Programming Language in 2021](https://www.youtube.com/watch?v=7pLqIIAqZD4) 這支影片裡的論點直接打中我: "executable binary". 光是不用解 library dependency 就絕對足夠在 DevOps 混雜的環境中生存了 🤩
 
 
-### Go Training
+## Go Training
 
 * 🧑🏻‍💻 [Go by Example](https://gobyexample.com/): hands-on introduction to Go using annotated example programs.
 * [7 GitHub projects to make you a better Go Developer](https://dev.to/ankit01oss/7-github-projects-to-make-you-a-better-go-developer-2nmh)
@@ -74,14 +72,14 @@ series: golang-learn
 * [go-training/training](https://github.com/go-training/training)
 
 
-### VS Code Extension
+## VS Code Extension
 
 * [Visual Studio Code 安裝及插件推薦](https://morosedog.gitlab.io/golang-20201028-golang-2/)
 * [50 VS Code themes for 2020](https://dev.to/thegeoffstevens/50-vs-code-themes-for-2020-45cc)
 * [What Are the Most Popular VS Code Themes?](https://visualstudiomagazine.com/articles/2021/07/07/vs-code-themes.aspx): [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
 * [go-training/workshop-20201111](https://github.com/go-training/workshop-20201111/blob/main/01-setup-env/vscode/settings.json)
 
-### Gin & Frontend
+## Gin & Frontend
 
 * [Gin - 好用的 web framework](https://ithelp.ithome.com.tw/articles/10234075), [Gin框架搭配模板](https://ithelp.ithome.com.tw/articles/10222711)
 * [awesome-gin](https://github.com/FlowerWrong/awesome-gin)

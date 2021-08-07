@@ -53,7 +53,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
 
 ## Content
 
-### 分類
+### Category
 
 * Readmoo: 勵志成長 > [情緒壓力](https://readmoo.com/category/312?sort=3), [個人成長](https://readmoo.com/category/148?sort=3), [人際關係](https://readmoo.com/category/151?sort=3)
 * 博客來: 心理勵志 > [情緒/壓力](https://www.books.com.tw/web/books_bmidm_0709/)
