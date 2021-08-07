@@ -108,12 +108,12 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   * Aligning IT teams with business priorities tracked through success metrics.
 
 * ITSM processes
-  1. Service request management is a **repeatable procedure** for handling the wide variety of customer service requests.
-  2. Knowledge management is the process of creating, sharing, using, and **managing the knowledge** and information of an organization.
+  1. [Service request management](#service-request-management) is a **repeatable procedure** for handling the wide variety of customer service requests.
+  2. [Knowledge management](#knowledge-management) is the process of creating, sharing, using, and **managing the knowledge** and information of an organization.
   3. IT asset management (also known as ITAM) is the process of ensuring an organization’s **assets are accounted for**, deployed, maintained, upgraded, and disposed of when the time comes.
-  4. Incident management is the process to **respond to an unplanned event** or service interruption and restore the service to its operational state.
-  5. Problem management is the process of **identifying and managing the causes** of incidents on an IT service.
-  6. Change management ensures **standard procedures are used for efficient and prompt handling of all changes** to IT infrastructure.
+  4. [Incident management](#incident-management) is the process to **respond to an unplanned event** or service interruption and restore the service to its operational state.
+  5. [Problem management](#problem-management) is the process of **identifying and managing the causes** of incidents on an IT service.
+  6. [Change management](#change-management) ensures **standard procedures are used for efficient and prompt handling of all changes** to IT infrastructure.
 
 
 ### Service Request Management
@@ -128,16 +128,6 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   * [Are your support services as SMART as they could be?](https://blogs.servicenow.com/2019/smart-support-services.html)
   * [Create a Help Desk Workflow Streamline Your Support Process](https://www.happyfox.com/help-desk-work-flow/)
 * [Opsgenie](https://www.atlassian.com/software/opsgenie)
-
-
-### Incident Management
-
-
-### Problem Managment
-
-
-### Change Management
-
 
 
 ### Knowledge Management
@@ -161,6 +151,15 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 * [IT Metrics: 4 best practices for success](https://www.atlassian.com/itsm/service-request-management/it-metrics-and-reporting)
 * [Build an effective help desk knowledge base - ITSM infographic](https://www.manageengine.com/products/service-desk/self-service/how-to-build-help-desk-knowledge-base.html)
 * [7 Steps to Build an Awesome Service desk Knowledge Base](https://www.motadata.com/blog/steps-to-build-an-awesome-service-desk-knowledge-base/)
+
+
+### Incident Management
+
+
+### Problem Managment
+
+
+### Change Management
 
 
 ### ITIL
