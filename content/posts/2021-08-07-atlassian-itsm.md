@@ -21,7 +21,7 @@ share_img: https://i.imgur.com/NJKXgVc.png
 
 ## Overview
 
-Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life/), let's dive deeper into a series of ITSM methodologies and product proposed by [atlassian](https://www.atlassian.com/itsm), with a view to applying them in work and life to further enhance productivity and narrative skills.
+Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life/), let's dive deeper into a series of ITSM methodologies and products proposed by [Atlassian](https://www.atlassian.com/itsm), with a view to applying them in work and life to further enhance productivity and narrative skills.
 
 ### Challenges
 
@@ -110,7 +110,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   * Promoting customer-centricity with self-service and better processes.
   * Responding more quickly to major incidents, and preventing future ones.
 
-* ITSM processes
+* ITSM Processes / Practices
   1. [Service request management](#service-request-management) is a **repeatable procedure** for handling the wide variety of customer service requests.
   2. [Knowledge management](#knowledge-management) is the process of creating, sharing, using, and **managing the knowledge** and information of an organization.
   3. IT asset management (also known as ITAM) is the process of ensuring an organization’s **assets are accounted for**, deployed, maintained, upgraded, and disposed of when the time comes.
@@ -154,6 +154,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   3. Lower training costs.
 
 * [KCS - knowledge-centered service](https://www.atlassian.com/itsm/knowledge-management/kcs)
+  * [KCS v6](https://www.serviceinnovation.org/faq-about-kcs/)
 
 * [5 tips](https://www.atlassian.com/blog/archives/5_tips_for_building_a_knowledge_base_with_confluence)
 * [Team Playbook](https://www.atlassian.com/team-playbook)
