@@ -67,4 +67,5 @@ hugo -D
 5. [Hugo - URL Management](https://gohugo.io/content-management/urls/)
 6. [Hugo 加入 Google Custom Search 站內搜尋功能](https://blog.uncletony.tw/2021/03/hugo_%E5%8A%A0%E5%85%A5%E6%90%9C%E5%B0%8B%E5%8A%9F%E8%83%BD/)
 7. [如在 Github Pages 建立 Hugo 靜態網站](https://kaichu.io/posts/my-first-post/)
+8. [我的 Hugo 工作流程](https://www.ernestchiang.com/zh/posts/2021/my-hugo-workflow/)
 

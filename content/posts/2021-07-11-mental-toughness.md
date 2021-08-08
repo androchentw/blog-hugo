@@ -65,6 +65,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
   * 善用恐懼：從認識恐懼的本質，到辨識你的「戰鬥、逃跑、僵住不動」反應模式，當恐懼再一次來襲，你將知道如何應對反擊
   * 洞悉人心：分辨對方言行背後隱含的真意，看穿他人真正的想法，透過微妙的說服與誘導技巧來掌控情勢
   * 影響他人：作者貼身觀察過多任美國總統及第一家庭成員，見證他們展現影響力，你也可以學會打造自己的影響力
+
 * 1 [你可以生氣，但不要越想越氣](https://readmoo.com/book/210167133000101) 2020 - 停止情緒化思考、不再與對錯拔河，從此擺脫「地雷型」人設！
   * 你的「情緒｣沒有錯，都是「想法｣惹的禍！
     * 每一種情緒，都是真實的自己。坦然接受它，給予理解和撫慰，它才不會一直悶燒而引爆人際地雷！
@@ -78,6 +79,13 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
     * 寫「好友筆記」，換個視角療癒受傷的自己
     * 關閉「應該」模式，從「想要」開始出發
     * 不是口無遮攔、愛說就說才叫「真性情｣
+
+* 2 [高敏感是種天賦](https://readmoo.com/book/210085593000101)
+  1. 第１章 遲鈍世界裡的高敏感族
+  2. 第２章 「高敏感族」常有的心理問題與解決之道
+  3. 第３章 向外溝通：與「遲鈍的人」好好相處
+  4. 第４章 面對自己：與「敏感的自己」好好相處
+
 * 3 [我想跟你好好說話](https://readmoo.com/book/210144484000101) 2020 - 賴佩霞的六堂「非暴力溝通」入門課
   * [YouTube - 溝通也有SOP，有效溝通，不製造傷害](https://www.youtube.com/watch?v=IuYEgdFxzh4), [見人哥來說書](https://youtu.be/DxCgGH04x6Q)
   * 第1堂　溝通：讓美好語言，為你建構美好世界
@@ -86,6 +94,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
   * 第4堂　需要：發現內心渴望，找到滿足點
   * 第5堂　請求：請與我一起擁抱美麗世界
   * 第6堂　同理心：同理，為語言注入溫暖
+
 * 3 [在乎別人，是對自己的情緒暴力](https://readmoo.com/book/210177069000101) 2021 - 「自我中心」心理學，教你不再因迎合而痛苦、孤獨
   * 「自我中心」不等於自私，唯有如此，才能活出最理想的自己！
     * 太過在意別人，你就會一直被支配！
@@ -128,7 +137,7 @@ share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow
       * 關懷
 
 * ✅ 1 [正念減壓的訓練](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=127715) 2017 - 風行全球, 哈佛醫學院、Google、麥肯錫、蘋果都在用. [音檔](https://www.booklife.com.tw/webpage/47)
-* [高敏感是種天賦](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=213727) - 3, 不在乎的你, 很受傷的我, 14堂走出委屈的心理練習
+* 2 [高敏感是種天賦](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=213727) - 3, 不在乎的你, 很受傷的我, 14堂走出委屈的心理練習
 * 2 [僧人心態](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=220807) 2020 - 從道場到職場，訓練你的心，過著平靜而有目標的每一天
   * [Jay Shetty](https://jayshetty.me/)
   * 學會處理痛苦和焦慮、擁有更圓滿的人際關係
