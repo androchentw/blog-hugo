@@ -94,6 +94,6 @@ share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24
 
 咖啡系列
 
-* [咖啡五味](/2018/05/12/taste-of-coffee/)
-* [手沖咖啡參數筆記](/2018/04/29/hand-drip-coffee-notes/)
 
+* [2021-03-25-taste-of-coffee](2021-03-25-taste-of-coffee.md)
+<!-- * [手沖咖啡參數筆記](/2018/04/29/hand-drip-coffee-notes/) -->
