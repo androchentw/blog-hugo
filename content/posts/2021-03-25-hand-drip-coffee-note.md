@@ -9,6 +9,7 @@ categories:
 tags: 
   - coffee
 share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png
+series: coffee
 ---
 
 是說不知不覺也亂沖了手沖好一陣子。
@@ -94,6 +95,4 @@ share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24
 
 咖啡系列
 
-
 * [2021-03-25-taste-of-coffee](2021-03-25-taste-of-coffee.md)
-<!-- * [手沖咖啡參數筆記](/2018/04/29/hand-drip-coffee-notes/) -->

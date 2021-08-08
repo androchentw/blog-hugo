@@ -9,6 +9,7 @@ categories:
 tags: 
   - coffee
 share_img: https://i.imgur.com/FaFgJha.png
+series: coffee
 ---
 
 <img style="width:40%;" src="https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png">
@@ -38,11 +39,3 @@ Ref: [風味輪](http://www.originkaffa.com/scaa-flavor-wheel-zh-tw/). 原文出
 ### 苦味(Bitter)
 
 由生豆烘焙的程度造成糖份、澱粉、纖維質的焦糖化及炭化，產生苦味。咖啡豆中的可溶解礦物質，深焙豆的特徵。咖啡苦味的呈現應該是**順口的醇苦，像是巧克力一般，令人愉悅的**。如果感受到的是像燒焦的苦味，那就真的是豆子烤焦了，即使是深焙的咖啡豆，其苦味也應該是平順的。苦味的分布在舌頭後段，在喝完咖啡後喝冷水，苦味常常會轉變為非常甜的甜味。
-
----
-
-咖啡系列
-
-* [咖啡五味](/taste-of-coffee/)
-* [手沖咖啡參數筆記](/2018/hand-drip-coffee-notes/)
-
