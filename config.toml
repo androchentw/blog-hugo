@@ -45,10 +45,11 @@ summaryLength = 70
   name = "androchentw"
   website = "https://blog.androchen.tw/"
   email = "androchentw@gmail.com"
-  facebook = "AndroChen0929"
   github = "androchentw"
-  gitlab = "androchentw"
-  bitbucket = "androchentw"
+  # gitlab = "androchentw"
+  # bitbucket = "androchentw"
+  facebook = "AndroChen0929"
+  instagram = androchentw
   twitter = "androchen"
   linkedin = "androchen"
 
