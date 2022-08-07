@@ -10,6 +10,7 @@ tags:
   - tech
   - blog
 share_img: https://i.imgur.com/FaFgJha.png
+series: blog
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">

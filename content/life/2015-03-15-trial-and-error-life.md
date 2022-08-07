@@ -11,6 +11,7 @@ tags:
   - life
   - career
 share_img: https://i.imgur.com/jyAhD8g.jpg
+series: reflection-of-life
 ---
 
 <img style="width:80%;" src="https://i.imgur.com/jyAhD8g.jpg">

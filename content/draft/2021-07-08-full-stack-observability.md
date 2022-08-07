@@ -15,6 +15,7 @@ tags:
   - bigdata
   - observability
 share_img: https://i.imgur.com/FaFgJha.png
+# series: 
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">

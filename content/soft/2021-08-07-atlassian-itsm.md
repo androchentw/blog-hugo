@@ -15,6 +15,7 @@ tags:
   - jira
   - itsm
 share_img: https://i.imgur.com/NJKXgVc.png
+series: agile
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">

@@ -13,6 +13,7 @@ tags:
   - productivity
   - communication
 share_img: https://i.imgur.com/PlKIb52.png
+series: okr-management
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">

@@ -12,7 +12,7 @@ tags:
   - blog
   - hugo
 share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
-series: blog-hugo
+series: blog
 ---
 
 <img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
@@ -35,7 +35,7 @@ series: blog-hugo
 
 ## Content
 
-### 深入瞭解 Hugo 設計
+### 實戰: 調整目錄結構
 
 * [Directory Structure](https://gohugo.io/getting-started/directory-structure/)
   * All content for your website will live inside this directory. Each top-level folder in Hugo is considered a content section. 
@@ -60,6 +60,7 @@ series: blog-hugo
   * Hugo generates a section tree that matches your content.
   * A Section is a collection of pages that gets defined based on the organization structure under the content/ directory.
   * [Nested Sections](https://gohugo.io/content-management/sections/#nested-sections) 
+  * 實際上就是直接在 `content` 底下開資料夾, 並且加入 `_index.md` 就可以了!
     ```
     content
     └── blog        <-- Section, because first-level dir under content/
@@ -70,6 +71,19 @@ series: blog-hugo
         └── tech                <-- Section, because contains _index.md
             └── _index.md
     ```
+
+* `config.toml`
+  * [mainSections](https://gohugo.io/functions/where/#mainsections)
+  * 我們要在 config.toml 新增 menu.main, 讓他能在 navigation bar 顯現
+    ```
+    [[menu.main]]
+      name = "Tech"
+      pre = '<i class="fas fa-laptop-code fa-lg"></i>'
+      url = "/tech/"
+      weight = 1
+    ```
+
+### Other Reference: 深入瞭解 Hugo 設計
 
 * [Content Organization](https://gohugo.io/content-management/organization/)
   * Hugo assumes that the same structure that works to organize your source content is used to organize the rendered site.
@@ -92,13 +106,6 @@ series: blog-hugo
               └── second.md      // <- https://example.com/quote/second/
       ```
 
-* `config.toml`
-  * [mainSections](https://gohugo.io/functions/where/#mainsections)
-    ```
-    [params]
-      mainSections = ['blog', 'docs']
-    ```
-
 * [Page Bundles](https://gohugo.io/content-management/page-bundles/#branch-bundles)
   * [Branch Bundles](https://gohugo.io/content-management/page-bundles/#branch-bundles)
     * A Branch Bundle is any directory at any hierarchy within the `content/` directory, that contains at least an `_index.md` file.
@@ -118,6 +125,9 @@ series: blog-hugo
 
 ## Conclusion
 
+1. 實際會動到的 code
+   1. 創建 `content/` 下的 folder, 並加上 `_index.md`. git commit - [feat: add sections](https://github.com/androchentw/blog-hugo/commit/8ea46f265bc3b84c299ba150539ab5ad84432f2f)
+   2. 調整 `config.toml`, 使之顯示在 nav bar. git commit - [feat: rearrange order weight of nav bar](https://github.com/androchentw/blog-hugo/commit/b5a218edd758a93c836895621ac742dc723b3064) 
 
 ### Discussion
 
