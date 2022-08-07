@@ -10,11 +10,11 @@ tags:
   - tech
   - blog
   - hugo
-share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
+share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
 series: blog-hugo
 ---
 
-<img style="width:40%;" src="https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png">
+<img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
 
 Step by step Setup Hugo Blog
 
