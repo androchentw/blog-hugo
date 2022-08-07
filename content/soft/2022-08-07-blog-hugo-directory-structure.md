@@ -56,6 +56,7 @@ series: blog
   * A content type is a way to organize your content. 
   * 善用 [Archetypes](https://gohugo.io/content-management/archetypes/) 幫你快速產生文章範本
     * Archetypes are templates used when creating new content.
+  * 每份 md 裡的 `type` 好像也可以拿來用作分類使用
 * [Content Sections](https://gohugo.io/content-management/sections/)
   * Hugo generates a section tree that matches your content.
   * A Section is a collection of pages that gets defined based on the organization structure under the content/ directory.
