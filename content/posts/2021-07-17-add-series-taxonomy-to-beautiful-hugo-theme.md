@@ -11,6 +11,7 @@ tags:
   - blog
   - hugo
 share_img: https://i.imgur.com/S8CwQqI.png
+series: blog-hugo
 ---
 
 <img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">

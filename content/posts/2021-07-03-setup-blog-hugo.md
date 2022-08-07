@@ -11,6 +11,7 @@ tags:
   - blog
   - hugo
 share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
+series: blog-hugo
 ---
 
 <img style="width:40%;" src="https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png">

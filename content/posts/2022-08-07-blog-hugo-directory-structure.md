@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "深入瞭解 Hugo Blog 目錄結構"
 url: /blog-hugo-directory-structure
 # date: 2022-08-07T11:36:16+08:00
@@ -13,6 +12,7 @@ tags:
   - blog
   - hugo
 share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png
+series: blog-hugo
 ---
 
 <img style="width:40%;" src="https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.png">
@@ -20,17 +20,16 @@ share_img: https://pics.freeicons.io/uploads/icons/png/18947267361548141951-512.
 ## Overview
 
 ### Challenges
- (Why. VPC-US, scenario, 5-Why)
+
 1. 隨著 blog post 越來越多, content/posts 下的 md 會越來越多, 想要好好整理一個大分類, 方便後續文章管理
 
 ### Objectives
- (What. Value.)
+
 1. 建立 content/posts 分類 folder structure, 並與 series 相對應
 
 ### KRs
 
-1. 2022-08  (How. Measurable Result.)
-2. 2022-08    
+1. 2022-08-07 分類所有 blog posts
 
 <!--more-->
 
