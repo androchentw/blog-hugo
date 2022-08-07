@@ -2,13 +2,12 @@
 title: "深入瞭解 Hugo Blog 目錄結構"
 url: /blog-hugo-directory-structure
 # date: 2022-08-07T11:36:16+08:00
-date: 2022-08-07T11:36:16+08:00
+date: 2022-08-07T14:36:16+08:00
 author: androchentw
 type: post
 categories:
-  - tech
+  - blog
 tags:
-  - tech
   - blog
   - hugo
 share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
