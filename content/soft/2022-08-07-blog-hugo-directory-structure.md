@@ -122,6 +122,10 @@ series: blog
         └── a-leaf-bundle
             └── index.md
     ```
+* [Taxonomies](https://gohugo.io/content-management/taxonomies/)
+  * Hugo includes support for user-defined taxonomies.
+  * Hugo includes support for user-defined groupings of content called taxonomies. Taxonomies are classifications of logical relationships between content.
+
 
 ## Conclusion
 

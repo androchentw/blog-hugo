@@ -123,4 +123,7 @@ summaryLength = 70
   tag = "tags"
   category = "categories"
   series = "series"
+  tech = "tech"
+  soft = "soft"
+  life = "life"
   
