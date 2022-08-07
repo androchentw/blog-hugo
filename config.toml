@@ -56,37 +56,37 @@ summaryLength = 70
 
 [[menu.main]]
   name = "Series"
-  pre = '<i class="fal fa-list"></i>'
+  pre = '<i class="fal fa-list fa-lg"></i>'
   url = "/series/"
   weight = 1
 
 [[menu.main]]
   name = "Archives"
-  pre = '<i class="fal fa-sitemap"></i>'
+  pre = '<i class="fal fa-sitemap fa-lg"></i>'
   url = "/archives/"
   weight = 2
 
 [[menu.main]]
   name = "Tags"
-  pre = '<i class="fal fa-tags"></i>'
+  pre = '<i class="fal fa-tags fa-lg"></i>'
   url = "/tags/"
   weight = 3
 
 [[menu.main]]
   name = "Tech"
-  pre = '<i class="fal fa-laptop-code"></i>'
+  pre = '<i class="fal fa-laptop-code fa-lg"></i>'
   url = "/tech/"
   weight = 4
 
 [[menu.main]]
   name = "Soft"
-  pre = '<i class="fal fa-lightbulb-on"></i>'
+  pre = '<i class="fal fa-lightbulb-on fa-lg"></i>'
   url = "/soft/"
   weight = 4
 
 [[menu.main]]
   name = "Life"
-  pre = '<i class="far fa-fire-alt"></i>'
+  pre = '<i class="far fa-fire-alt fa-lg"></i>'
   url = "/life/"
   weight = 4
 
