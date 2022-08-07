@@ -76,19 +76,19 @@ summaryLength = 70
   name = "Tech"
   pre = '<i class="fal fa-laptop-code"></i>'
   url = "/tech/"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Soft"
   pre = '<i class="fal fa-lightbulb-on"></i>'
   url = "/soft/"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Life"
   pre = '<i class="far fa-fire-alt"></i>'
   url = "/life/"
-  weight = 3
+  weight = 4
 
 [markup]
   [markup.goldmark]
