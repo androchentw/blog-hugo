@@ -61,34 +61,34 @@ summaryLength = 70
   weight = 1
 
 [[menu.main]]
-  name = "Archives"
-  pre = '<i class="fas fa-sitemap fa-lg"></i>'
-  url = "/archives/"
-  weight = 2
-
-[[menu.main]]
-  name = "Tags"
-  pre = '<i class="fas fa-tags fa-lg"></i>'
-  url = "/tags/"
-  weight = 3
-
-[[menu.main]]
   name = "Tech"
   pre = '<i class="fas fa-laptop-code fa-lg"></i>'
   url = "/tech/"
-  weight = 4
+  weight = 2
 
 [[menu.main]]
   name = "Soft"
   pre = '<i class="fas fa-lightbulb fa-lg"></i>'
   url = "/soft/"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Life"
   pre = '<i class="fas fa-fire fa-lg"></i>'
   url = "/life/"
   weight = 4
+
+[[menu.main]]
+  name = "Tags"
+  pre = '<i class="fas fa-tags fa-lg"></i>'
+  url = "/tags/"
+  weight = 5
+
+[[menu.main]]
+  name = "Archives"
+  pre = '<i class="fas fa-sitemap fa-lg"></i>'
+  url = "/archives/"
+  weight = 6
 
 [markup]
   [markup.goldmark]
