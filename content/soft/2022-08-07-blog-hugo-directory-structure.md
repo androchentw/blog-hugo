@@ -82,6 +82,9 @@ series: blog
       url = "/tech/"
       weight = 1
     ```
+  * [Taxonomies](https://gohugo.io/content-management/taxonomies/)
+    * Hugo includes support for user-defined taxonomies.
+    * Hugo includes support for user-defined groupings of content called taxonomies. Taxonomies are classifications of logical relationships between content.
 
 ### Other Reference: 深入瞭解 Hugo 設計
 
@@ -122,16 +125,13 @@ series: blog
         └── a-leaf-bundle
             └── index.md
     ```
-* [Taxonomies](https://gohugo.io/content-management/taxonomies/)
-  * Hugo includes support for user-defined taxonomies.
-  * Hugo includes support for user-defined groupings of content called taxonomies. Taxonomies are classifications of logical relationships between content.
-
 
 ## Conclusion
 
-1. 實際會動到的 code
-   1. 創建 `content/` 下的 folder, 並加上 `_index.md`. git commit - [feat: add sections](https://github.com/androchentw/blog-hugo/commit/8ea46f265bc3b84c299ba150539ab5ad84432f2f)
-   2. 調整 `config.toml`, 使之顯示在 nav bar. git commit - [feat: rearrange order weight of nav bar](https://github.com/androchentw/blog-hugo/commit/b5a218edd758a93c836895621ac742dc723b3064) 
+實際會動到的 code
+
+1. 創建 `content/` 下的 folder, 並加上 `_index.md`. git commit - [feat: add sections](https://github.com/androchentw/blog-hugo/commit/8ea46f265bc3b84c299ba150539ab5ad84432f2f)
+2. 調整 `config.toml`, 使之顯示在 nav bar. git commit - [feat: rearrange order weight of nav bar](https://github.com/androchentw/blog-hugo/commit/b5a218edd758a93c836895621ac742dc723b3064) 
 
 ### Discussion
 
