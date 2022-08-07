@@ -24,7 +24,7 @@ summaryLength = 70
 
 [Params]
   homeTitle = " " # Set a different text for the header on the home page
-  mainSections = ["post","posts", "tech", "soft", "life"]
+  mainSections = ["post", "tech", "soft", "life"]
   logo = "https://avatars.githubusercontent.com/u/2317501?v=4"
   favicon = "https://avatars.githubusercontent.com/u/2317501?v=4"
   dateFormat = "2006-01-02"
@@ -56,37 +56,37 @@ summaryLength = 70
 
 [[menu.main]]
   name = "Series"
-  pre = '<i class="fas fa-list fa-lg"></i>'
+  pre = '<i class="<i class="fa-light fa-list"></i>"></i>'
   url = "/series/"
   weight = 1
 
 [[menu.main]]
   name = "Archives"
-  pre = '<i class="fas fa-sitemap fa-lg"></i>'
+  pre = '<i class="fa-light fa-sitemap"></i>'
   url = "/archives/"
   weight = 2
 
 [[menu.main]]
   name = "Tags"
-  pre = '<i class="fas fa-tag fa-lg"></i>'
+  pre = '<i class="fa-light fa-tags"></i>'
   url = "/tags/"
   weight = 3
 
 [[menu.main]]
   name = "Tech"
-  pre = '<i class="fas fa-tag fa-lg"></i>'
+  pre = '<i class="fa-light fa-laptop-code"></i>'
   url = "/tech/"
   weight = 3
 
 [[menu.main]]
   name = "Soft"
-  pre = '<i class="fas fa-tag fa-lg"></i>'
+  pre = '<i class="fa-light fa-book-sparkles"></i>'
   url = "/soft/"
   weight = 3
 
 [[menu.main]]
   name = "Life"
-  pre = '<i class="fas fa-tag fa-lg"></i>'
+  pre = '<i class="fa-regular fa-fire"></i>'
   url = "/life/"
   weight = 3
 
