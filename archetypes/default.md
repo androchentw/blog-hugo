@@ -9,6 +9,7 @@ categories:
 tags: 
   - life
 share_img: https://i.imgur.com/FaFgJha.png
+# series
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
@@ -19,8 +20,9 @@ https://blog.androchen.tw/okr-weekdone/
 https://blog.androchen.tw/value-proposition
 
 PCVM > OKR
-### Challenges (Why. VPC-US, scenario, 5-Why)
+### Challenges
 
+ (Why. VPC-US, scenario, 5-Why)
 Profile > Challenge > Vision > Mission
 
 1. Profile (Role, Scenario)
@@ -36,12 +38,14 @@ Profile > Challenge > Vision > Mission
    1. Positive Experience
    
 
-### Objectives (What. Value.) (Product & Services)
+### Objectives
 
+ (What. Value.) (Product & Services)
 1. Achieve
 
-### KRs (How. Measurable Result.)
+### KRs
 
+ (How. Measurable Result.)
 1. 2021-12
 2. 2021-12
 
