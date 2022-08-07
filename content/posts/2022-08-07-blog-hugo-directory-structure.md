@@ -59,35 +59,62 @@ series: blog-hugo
 * [Content Sections](https://gohugo.io/content-management/sections/)
   * Hugo generates a section tree that matches your content.
   * A Section is a collection of pages that gets defined based on the organization structure under the content/ directory.
-  * _index.md
+  * [Nested Sections](https://gohugo.io/content-management/sections/#nested-sections) 
+    ```
+    content
+    └── blog        <-- Section, because first-level dir under content/
+        ├── funny-cats
+        │   ├── mypost.md
+        │   └── kittens         <-- Section, because contains _index.md
+        │       └── _index.md
+        └── tech                <-- Section, because contains _index.md
+            └── _index.md
+    ```
+
 * [Content Organization](https://gohugo.io/content-management/organization/)
   * Hugo assumes that the same structure that works to organize your source content is used to organize the rendered site.
   * The illustration shows three bundles. Note that the home page bundle cannot contain other content pages, although other files (images etc.) are allowed.
 
   <img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/e78d19184b20fb7869c1fbf9af205be3a241f874/45ef3/content-management/organization/1-featured-content-bundles_hu911524202ff4753624ea0b303cf97415_34394_300x0_resize_catmullrom_3.png">
 
-    ```
-    .
-    └── content
-        └── about
-        |   └── index.md  // <- https://example.com/about/
-        ├── posts
-        |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
-        |   ├── happy
-        |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
-        |   └── secondpost.md  // <- https://example.com/posts/secondpost/
-        └── quote
-            ├── first.md       // <- https://example.com/quote/first/
-            └── second.md      // <- https://example.com/quote/second/
-    ```
+      ```
+      .
+      └── content
+          └── about
+          |   └── index.md  // <- https://example.com/about/
+          ├── posts
+          |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
+          |   ├── happy
+          |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
+          |   └── secondpost.md  // <- https://example.com/posts/secondpost/
+          └── quote
+              ├── first.md       // <- https://example.com/quote/first/
+              └── second.md      // <- https://example.com/quote/second/
+      ```
 
 * `config.toml`
   * [mainSections](https://gohugo.io/functions/where/#mainsections)
+    ```
+    [params]
+      mainSections = ['blog', 'docs']
+    ```
 
-  ```
-  [params]
-    mainSections = ['blog', 'docs']
-  ```
+* [Page Bundles](https://gohugo.io/content-management/page-bundles/#branch-bundles)
+  * [Branch Bundles](https://gohugo.io/content-management/page-bundles/#branch-bundles)
+    * A Branch Bundle is any directory at any hierarchy within the `content/` directory, that contains at least an `_index.md` file.
+    ```
+    content/
+    ├── branch-bundle-1
+    │   ├── branch-content1.md
+    │   ├── branch-content2.md
+    │   ├── image1.jpg
+    │   ├── image2.png
+    │   └── _index.md
+    └── branch-bundle-2
+        ├── _index.md
+        └── a-leaf-bundle
+            └── index.md
+    ```
 
 ## Conclusion
 

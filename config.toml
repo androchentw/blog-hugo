@@ -72,6 +72,24 @@ summaryLength = 70
   url = "/tags/"
   weight = 3
 
+[[menu.main]]
+  name = "Tech"
+  pre = '<i class="fas fa-tag fa-lg"></i>'
+  url = "/tech/"
+  weight = 3
+
+[[menu.main]]
+  name = "Soft"
+  pre = '<i class="fas fa-tag fa-lg"></i>'
+  url = "/soft/"
+  weight = 3
+
+[[menu.main]]
+  name = "Life"
+  pre = '<i class="fas fa-tag fa-lg"></i>'
+  url = "/life/"
+  weight = 3
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
