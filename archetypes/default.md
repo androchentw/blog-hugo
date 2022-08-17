@@ -5,11 +5,33 @@ date: {{ .Date }}
 author: androchentw
 type: post
 categories:
-  - life, coffee, read, biz, tech, fin, health, career
-tags: 
+  - tech
+  - soft
   - life
+tags: 
+  - programming
+  - tool
+  - career
+  - architect
+  - operation
+  - security
+  - application
+  - writing
+  - speaking
+  - presentation
+  - agile
+  - project-management
+  - thinking
+  - video
+  - event
+  - life-thought
+  - travel
+  - japan
+  - drawing
+  - coffee
+  - biz
 share_img: https://i.imgur.com/FaFgJha.png
-# series
+series: life
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
@@ -20,9 +42,8 @@ https://blog.androchen.tw/okr-weekdone/
 https://blog.androchen.tw/value-proposition
 
 PCVM > OKR
-### Challenges
+### Challenges (Why. VPC-US, scenario, 5-Why)
 
- (Why. VPC-US, scenario, 5-Why)
 Profile > Challenge > Vision > Mission
 
 1. Profile (Role, Scenario)
@@ -38,14 +59,12 @@ Profile > Challenge > Vision > Mission
    1. Positive Experience
    
 
-### Objectives
+### Objectives (What. Value.) (Product & Services)
 
- (What. Value.) (Product & Services)
 1. Achieve
 
-### KRs
+### KRs (How. Measurable Result.)
 
- (How. Measurable Result.)
 1. 2021-12
 2. 2021-12
 
