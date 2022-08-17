@@ -59,17 +59,17 @@ Profile > Challenge > Vision > Mission
    1. Positive Experience
 
 Overview 
-  Key Points
-  Audience
-  Documents 
-    Scope
-    Perquisite
+* Key Points
+* Audience
+* Documents 
+  * Scope
+  * Perquisite
     
 Plan Poster
-挑戰 Challenge
-預期 Target
-效益 Benefit 
-解法 Solution
+* 挑戰 Challenge
+* 預期 Target
+* 效益 Benefit 
+* 解法 Solution
 
 
 ### Objectives (What. Value.) (Product & Services)
