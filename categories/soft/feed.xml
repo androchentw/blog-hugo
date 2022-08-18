@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>soft on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/categories/soft/</link><description>Recent content in soft on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 07 Aug 2022 15:36:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/categories/soft/feed.xml" rel="self" type="application/rss+xml"/><item><title>重新定位 Blog 內容</title><link>https://blog.androchen.tw/blog-branding/</link><pubDate>Sun, 07 Aug 2022 15:36:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-branding/</guid><description>&lt;img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01%20Blog%20Structure.svg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>寫 blog 也好幾年了, 總是半途而廢, 隨性而行, 隨遇而安。
+心中總是有著想要好好維護的想法，希望這次透過更深度的思考，來檢視自己有興趣的都是些什麼類型的文章&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>如何良好經營 blog, 持續推動自己產出有價值的文章。不管是給自己的筆記，或是分享給他人。&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>建立知識框架的分類法則&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2022-08-07 建立文章分類架構圖&lt;/li>
+&lt;/ol></description></item><item><title>深入瞭解 Hugo Blog 目錄結構</title><link>https://blog.androchen.tw/blog-hugo-directory-structure/</link><pubDate>Sun, 07 Aug 2022 14:36:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-hugo-directory-structure/</guid><description>&lt;img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>隨著 blog post 越來越多, content/posts 下的 md 會越來越多, 想要好好整理一個大分類, 方便後續文章管理&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>建立 content/posts 分類 folder structure, 並與 series 相對應&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2022-08-07 分類所有 blog posts&lt;/li>
+&lt;/ol></description></item><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Continuing previous post: &lt;a href="https://blog.androchen.tw/2021-agile-life/">Agile Life&lt;/a>, let&amp;rsquo;s dive deeper into a series of ITSM methodologies and products proposed by &lt;a href="https://www.atlassian.com/itsm">Atlassian&lt;/a>, with a view to applying them in work and life to further enhance productivity and narrative skills.&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: Data Engineer + Operations Administrator&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Provisioning and troubleshooting data pipeline, visualization and monitoring&lt;/li>
+&lt;li>Collaborate with other developers and administrators&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Pains
+&lt;ol>
+&lt;li>Repeated or similar questions&lt;/li>
+&lt;li>Long communication time to do situation analysis&lt;/li>
+&lt;li>Hard to find thorough SOP or agile workflow&lt;/li>
+&lt;li>Hard to prioritize ad-hoc tasks&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Gains
+&lt;ol>
+&lt;li>Single source of truth&lt;/li>
+&lt;li>Organized knowledge base, working documents&lt;/li>
+&lt;li>Unified way to handle similar incidents&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Build smart and modern IT Service Management and cultivate mindset with team&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2021-08 Learn from all &lt;a href="https://www.atlassian.com/itsm">Atlassian ITSM topics&lt;/a> and whitepapers&lt;/li>
+&lt;li>2021-08 Establish Knowledge-Centered Service for users&lt;/li>
+&lt;/ol></description></item><item><title>Elevator Pitch</title><link>https://blog.androchen.tw/elevator-pitch/</link><pubDate>Thu, 05 Aug 2021 23:55:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/elevator-pitch/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>行之有年的 elevator pitch, 概念易懂, 卻需要有意識地練習精簡表達.&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: Personal Development&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Express ideas briefly&lt;/li>
+&lt;li>Begin with the end in mind&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Pains
+&lt;ol>
+&lt;li>Tend to explain too much detail&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Gains
+&lt;ol>
+&lt;li>Template or framework to follow for thought&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Able to pitch ideas in (30s, 3min, 10min) depending on different scenarios.&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2021-12 Consciously practice elevator pitch in every weekly meeting planning items&lt;/li>
+&lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好練習!&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: My Life&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Personal Development&lt;/li>
+&lt;li>Get Things Done&lt;/li>
+&lt;li>Discipline - Plan &amp;amp; Execution&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Pains
+&lt;ol>
+&lt;li>Slipped: Schedule delayed or didn&amp;rsquo;t finished as expected&lt;/li>
+&lt;li>Fast-paced: Things changes&lt;/li>
+&lt;li>Lazy: Too much reference links/articles = Won&amp;rsquo;t read&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Gains
+&lt;ol>
+&lt;li>Sense of Control&lt;/li>
+&lt;li>Sense of Accomplishment: checklist check!&lt;/li>
+&lt;li>Daily Report Visibility: 昨今阻 Plan/Actual&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Achieve easier to estimate and more precise life project management with time tracking report&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2021-07 Improve time management (visibility &amp;gt; 80%) and improve productivity (+20%) by integrating Clockify + Jira.&lt;/li>
+&lt;li>2021-08 Get familiar with Jira integration and reports to get more insight.&lt;/li>
+&lt;/ol></description></item><item><title>Add Series Taxonomy to Beautiful Hugo Theme</title><link>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</link><pubDate>Sat, 17 Jul 2021 15:47:50 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>原本是看到這個 Series 操作就覺得蠻生火的: &lt;a href="https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/">Add Series Taxonomy to Hugo Theme&lt;/a>, 剛好拿來當練習~&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: Tech Blogger&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Post great articles with friendly reading experience&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Achieve better reading exprience with better blog post structure&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2021-07 Implement &lt;code>Series&lt;/code> feature on Hugo blog theme&lt;/li>
+&lt;/ol></description></item><item><title>Value Proposition</title><link>https://blog.androchen.tw/value-proposition/</link><pubDate>Wed, 07 Jul 2021 21:14:59 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/value-proposition/</guid><description>&lt;img style="width:80%;" src="https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>最近嘗試 Product Management 的概念套用在包裝日常工作內容&lt;/p>
+&lt;ul>
+&lt;li>Full Scope Overview: 更清楚地規劃有哪些事情要做&lt;/li>
+&lt;li>Focus and Prioritize: 判斷優先順序, 專注在重要的事物上&lt;/li>
+&lt;li>Sense of Accomplishment: 更有成就感, 而不是渾厄度日, 被雜務塞滿&lt;/li>
+&lt;/ul>
+&lt;p>除了設定 &lt;a href="https://blog.androchen.tw/okr-weekdone">OKR&lt;/a> 之外, 先釐清 Value Proposition 會是一個好選擇&lt;/p></description></item><item><title>OKR Weekdone</title><link>https://blog.androchen.tw/okr-weekdone/</link><pubDate>Sun, 04 Jul 2021 23:41:58 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/okr-weekdone/</guid><description>&lt;img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,&lt;/p>
+&lt;ol>
+&lt;li>如何快速 思考/撰寫 良好/有效的 OKR&lt;/li>
+&lt;li>並持續追蹤, 確保自己在正軌上&lt;/li>
+&lt;/ol>
+&lt;p>是目前我將 OKR 運用在人生目標設定上, 遇到最大的難題.&lt;/p></description></item><item><title>Setup Blog Hugo</title><link>https://blog.androchen.tw/setup-blog-hugo/</link><pubDate>Sat, 03 Jul 2021 20:51:44 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/setup-blog-hugo/</guid><description>&lt;img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
+&lt;p>Step by step Setup Hugo Blog&lt;/p>
+&lt;p>終於從 ghost 搬來 Hugo 啦&lt;/p></description></item><item><title>自架部落格 - 使用 Ghost 並設定自己的域名</title><link>https://blog.androchen.tw/blog-ghost/</link><pubDate>Sat, 17 Dec 2016 16:00:00 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-ghost/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
+&lt;p>2021-03-25&lt;/p>
+&lt;p>這次會重新用，可能是太久沒有升級導致超過 sunset, 過期了&lt;/p>
+&lt;p>改用這套來重新建 &lt;a href="https://github.com/SNathJr/ghost-on-heroku">https://github.com/SNathJr/ghost-on-heroku&lt;/a>&lt;/p></description></item></channel></rss>

@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>life on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/categories/life/</link><description>Recent content in life on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sat, 07 Aug 2021 10:55:28 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/categories/life/feed.xml" rel="self" type="application/rss+xml"/><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>life on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/categories/life/</link><description>Recent content in life on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 07 Aug 2022 15:36:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/categories/life/feed.xml" rel="self" type="application/rss+xml"/><item><title>重新定位 Blog 內容</title><link>https://blog.androchen.tw/blog-branding/</link><pubDate>Sun, 07 Aug 2022 15:36:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-branding/</guid><description>&lt;img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01%20Blog%20Structure.svg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>寫 blog 也好幾年了, 總是半途而廢, 隨性而行, 隨遇而安。
+心中總是有著想要好好維護的想法，希望這次透過更深度的思考，來檢視自己有興趣的都是些什麼類型的文章&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>如何良好經營 blog, 持續推動自己產出有價值的文章。不管是給自己的筆記，或是分享給他人。&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>建立知識框架的分類法則&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>2022-08-07 建立文章分類架構圖&lt;/li>
+&lt;/ol></description></item><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Continuing previous post: &lt;a href="https://blog.androchen.tw/2021-agile-life/">Agile Life&lt;/a>, let&amp;rsquo;s dive deeper into a series of ITSM methodologies and products proposed by &lt;a href="https://www.atlassian.com/itsm">Atlassian&lt;/a>, with a view to applying them in work and life to further enhance productivity and narrative skills.&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -34,36 +49,6 @@
 &lt;ol>
 &lt;li>2021-08 Learn from all &lt;a href="https://www.atlassian.com/itsm">Atlassian ITSM topics&lt;/a> and whitepapers&lt;/li>
 &lt;li>2021-08 Establish Knowledge-Centered Service for users&lt;/li>
-&lt;/ol></description></item><item><title>Elevator Pitch</title><link>https://blog.androchen.tw/elevator-pitch/</link><pubDate>Thu, 05 Aug 2021 23:55:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/elevator-pitch/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
-&lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>行之有年的 elevator pitch, 概念易懂, 卻需要有意識地練習精簡表達.&lt;/p>
-&lt;h3 id="challenges">Challenges&lt;/h3>
-&lt;ol>
-&lt;li>Profile: Personal Development&lt;/li>
-&lt;li>Jobs
-&lt;ol>
-&lt;li>Express ideas briefly&lt;/li>
-&lt;li>Begin with the end in mind&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Pains
-&lt;ol>
-&lt;li>Tend to explain too much detail&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Gains
-&lt;ol>
-&lt;li>Template or framework to follow for thought&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;h3 id="objectives">Objectives&lt;/h3>
-&lt;ol>
-&lt;li>Able to pitch ideas in (30s, 3min, 10min) depending on different scenarios.&lt;/li>
-&lt;/ol>
-&lt;h3 id="krs">KRs&lt;/h3>
-&lt;ol>
-&lt;li>2021-12 Consciously practice elevator pitch in every weekly meeting planning items&lt;/li>
 &lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好練習!&lt;/p>
@@ -136,7 +121,18 @@
 &lt;/ol>
 &lt;/li>
 &lt;li>2021-12 Apply &amp;amp; record mind thoughts, practice meditation.&lt;/li>
-&lt;/ol></description></item><item><title>人生就是不停地試誤？我們都太怕犯錯</title><link>https://blog.androchen.tw/trial-and-error-life/</link><pubDate>Sun, 15 Mar 2015 16:00:00 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/trial-and-error-life/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/jyAhD8g.jpg">
+&lt;/ol></description></item><item><title>咖啡五味</title><link>https://blog.androchen.tw/taste-of-coffee/</link><pubDate>Thu, 25 Mar 2021 16:20:52 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/taste-of-coffee/</guid><description>&lt;img style="width:40%;" src="https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png">
+&lt;p>香、醇、酸、苦、甘&lt;/p>
+&lt;p>Ref: &lt;a href="http://www.originkaffa.com/scaa-flavor-wheel-zh-tw/">風味輪&lt;/a>. 原文出處：scaa.org, 咖法森林中文翻譯版分享&lt;/p></description></item><item><title>手沖咖啡參數筆記</title><link>https://blog.androchen.tw/hand-drip-coffee-note/</link><pubDate>Thu, 25 Mar 2021 16:11:32 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/hand-drip-coffee-note/</guid><description>&lt;p>是說不知不覺也亂沖了手沖好一陣子。&lt;/p>
+&lt;p>大部分時候是享受繞圈時的抒壓感。&lt;/p>
+&lt;p>流派很多，暫時先筆記目前主要在用的。&lt;/p>
+&lt;p>目前工具 (2018-04)&lt;/p>
+&lt;ul>
+&lt;li>手沖壺: 日本月兔印 - 琺瑯手沖壺 (白 0.7L)&lt;/li>
+&lt;li>濾杯 &amp;amp; 濾紙: Hario V60 陶瓷圓錐 1~2 人份&lt;/li>
+&lt;li>磨豆機: (公司的) 小飛馬磨豆機&lt;/li>
+&lt;li>秤: Skale 藍牙電子秤第一代&lt;/li>
+&lt;/ul></description></item><item><title>人生就是不停地試誤？我們都太怕犯錯</title><link>https://blog.androchen.tw/trial-and-error-life/</link><pubDate>Sun, 15 Mar 2015 16:00:00 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/trial-and-error-life/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/jyAhD8g.jpg">
 &lt;p>3/11　禮拜三的時候回去台大電機系「大學部實習專題課程」演講，分享關於當初在實習的一些經驗與想法之後，回來之後覺得有很多延伸的思考。如果你是符合以下症狀的人：&lt;/p>
 &lt;ol>
 &lt;li>對於未來沒有任何想法&lt;/li>
