@@ -6,10 +6,10 @@ date: 2022-08-07T15:36:16+08:00
 author: androchentw
 type: post
 categories:
-  - blog
+  - life
+  - soft
 tags:
   - blog
-  - life
 share_img: https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01%20Blog%20Structure.svg
 series: blog
 ---

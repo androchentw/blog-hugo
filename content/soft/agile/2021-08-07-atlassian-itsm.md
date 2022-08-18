@@ -7,13 +7,9 @@ author: androchentw
 type: post
 categories:
   - life
-  - tech
+  - soft
 tags: 
-  - life
-  - tech
   - agile
-  - jira
-  - itsm
 share_img: https://i.imgur.com/NJKXgVc.png
 series: agile
 ---

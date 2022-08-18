@@ -5,10 +5,9 @@ date: 2021-07-03T20:51:44+08:00
 author: androchentw
 type: post
 categories:
-  - blog
+  - soft
 tags:
   - blog
-  - hugo
 share_img: https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg
 series: blog
 ---

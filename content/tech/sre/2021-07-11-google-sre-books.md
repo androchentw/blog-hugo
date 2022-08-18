@@ -7,13 +7,9 @@ author: androchentw
 type: post
 categories:
   - tech
-  - google-sre-books
 tags: 
-  - tech
   - sre
-  - devops
-  - bigdata
-  - read
+  - reading
 share_img: https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9
 series: google-sre-books
 ---

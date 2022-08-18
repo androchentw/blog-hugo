@@ -5,13 +5,12 @@ date: 2021-07-04T23:41:58+08:00
 author: androchentw
 type: post
 categories:
-  - biz
+  - soft
 tags: 
-  - biz
   - okr
   - productivity
 share_img: https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png
-series: okr-management
+series: okr
 ---
 
 <img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">

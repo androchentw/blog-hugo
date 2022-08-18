@@ -7,14 +7,11 @@ author: androchentw
 type: post
 categories:
   - life
-  - read
 tags: 
-  - life
-  - read
-  - mind
-  - communication
+  - reflection
+  - reading
 share_img: https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png
-series: mind
+series: reflection
 ---
 
 <img style="width:40%;" src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" />

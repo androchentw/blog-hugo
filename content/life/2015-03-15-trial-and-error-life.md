@@ -6,12 +6,11 @@ author: androchentw
 type: post
 categories:
   - life
-  - career
 tags: 
-  - life
+  - reflection
   - career
 share_img: https://i.imgur.com/jyAhD8g.jpg
-series: reflection-of-life
+series: reflection
 ---
 
 <img style="width:80%;" src="https://i.imgur.com/jyAhD8g.jpg">

@@ -5,7 +5,7 @@ date: 2021-03-25T16:11:32Z
 author: androchentw
 type: post
 categories:
-  - coffee
+  - life
 tags: 
   - coffee
 share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png

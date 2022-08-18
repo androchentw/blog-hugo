@@ -5,7 +5,7 @@ date: 2016-12-17T16:00:00Z
 author: androchentw
 type: post
 categories:
-  - blog
+  - soft
 tags: 
   - blog
 share_img: https://i.imgur.com/FaFgJha.png

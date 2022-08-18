@@ -6,7 +6,7 @@ date: 2022-08-07T14:36:16+08:00
 author: androchentw
 type: post
 categories:
-  - blog
+  - soft
 tags:
   - blog
   - hugo

@@ -7,7 +7,6 @@ type: post
 categories:
   - tech
 tags: 
-  - tech
   - golang
 share_img: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png
 series: golang

@@ -8,7 +8,6 @@ type: post
 categories:
   - tech
 tags: 
-  - tech
   - python
 share_img: https://i.imgur.com/Qe3Dzt6.png
 series: python

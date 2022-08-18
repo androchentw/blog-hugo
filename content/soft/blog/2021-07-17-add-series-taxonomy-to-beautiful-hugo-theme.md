@@ -5,11 +5,9 @@ date: 2021-07-17T15:47:50+08:00
 author: androchentw
 type: post
 categories:
-  - tech
+  - soft
 tags:
-  - tech
   - blog
-  - hugo
 share_img: https://i.imgur.com/S8CwQqI.png
 series: blog
 ---

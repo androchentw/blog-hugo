@@ -16,20 +16,25 @@ tags:
   - operation
   - security
   - application
+  
   - writing
+    - blog
   - speaking
   - presentation
-  - agile
-  - project-management
+  - biz
+    - agile
+    - okr
+    - project-management
   - thinking
   - video
   - event
-  - life-thought
-  - travel
-  - japan
+  
+  - reflection
+  - reading
   - drawing
   - coffee
-  - biz
+  - travel
+  - japan
 share_img: https://i.imgur.com/FaFgJha.png
 series: life
 ---

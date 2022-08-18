@@ -5,12 +5,12 @@ date: 2021-07-07T21:14:59+08:00
 author: androchentw
 type: post
 categories:
-  - biz
+  - soft
 tags: 
-  - biz
+  - okr
   - productivity
 share_img: https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png
-series: okr-management
+series: okr
 ---
 
 <img style="width:80%;" src="https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png">

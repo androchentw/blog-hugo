@@ -5,15 +5,13 @@ date: 2021-08-05T23:55:14+08:00
 author: androchentw
 type: post
 categories:
-  - life
-  - biz
+  - soft
 tags: 
-  - life
-  - biz
+  - okr
   - productivity
   - communication
 share_img: https://i.imgur.com/PlKIb52.png
-series: okr-management
+series: okr
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
