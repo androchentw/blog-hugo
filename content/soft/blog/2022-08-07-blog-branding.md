@@ -10,11 +10,11 @@ categories:
   - soft
 tags:
   - blog
-share_img: https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01%20Blog%20Structure.svg
+share_img: https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01-Blog-Structure.svg
 series: blog
 ---
 
-<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01%20Blog%20Structure.svg">
+<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01-Blog-Structure.svg">
 
 ## Overview
 
