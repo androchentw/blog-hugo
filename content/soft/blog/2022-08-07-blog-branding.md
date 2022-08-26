@@ -83,4 +83,5 @@ B. 技術領域學習筆記. 2022 目前先鎖定 GCP 系列
 ## Murmur
 
 * 2022-08-07 就看這次三分鐘熱度又到什麼時候XD
+* 2022-08-26 Reference: [我為什麼鼓勵工程師寫 blog](https://tdd.best/blog/why-engineers-should-keep-blogging/)
 
