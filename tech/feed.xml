@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tech/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 28 Aug 2022 03:08:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tech/feed.xml" rel="self" type="application/rss+xml"/><item><title>自動化測試的類型</title><link>https://blog.androchen.tw/types-of-test-automation/</link><pubDate>Sun, 28 Aug 2022 03:08:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/types-of-test-automation/</guid><description>&lt;img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟!
-本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P
-一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環. 細節就留待我最近邊學 TDD 時再來記錄囉~&lt;/p>
+本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P&lt;/p>
+&lt;p>一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環.
+細節就留待我最近邊學 TDD 時再來記錄囉~&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ul>
 &lt;li>測試初心者, 不確定該寫哪些測試才是有效的 (Effective &amp;amp; Efficient)&lt;/li>
