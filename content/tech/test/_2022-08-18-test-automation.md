@@ -1,9 +1,9 @@
 ---
 draft: true
-title: "Test Automation"
-url: /test-automation
-# date: 2022-08-18T13:28:16+08:00
-date: 2022-08-18T13:30:16+08:00
+title: "自動化測試的類型"
+url: /types-of-test-automation
+# date: 2022-08-28T01:28:16+08:00
+date: 2022-08-28T13:30:16+08:00
 author: androchentw
 type: post
 categories:
@@ -37,5 +37,5 @@ series: test-automation
 
 ## Murmur
 
-* 2022-08-18: 
+* 2022-08-28: 
 
