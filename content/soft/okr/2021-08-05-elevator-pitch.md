@@ -38,7 +38,7 @@ series: okr
 
 ### KRs
 
-1. 2021-12 Consciously practice elevator pitch in every weekly meeting planning items
+1. [x] 2021-12 Consciously practice elevator pitch in every weekly meeting planning items
 
 <!--more-->
 ## Elevator Pitch

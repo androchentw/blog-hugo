@@ -40,8 +40,8 @@ Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作
 
 ### KRs
 
-1. 2021-12 完讀 [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) (實作細節, 實例)
-2. 2021-12 完讀 [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (概念, 文化)
+1. [ ] 2021-12 完讀 [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) (實作細節, 實例)
+2. [ ] 2021-12 完讀 [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/) (概念, 文化)
 
 <!--more-->
 

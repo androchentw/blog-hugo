@@ -28,7 +28,7 @@ series: test-automation
 
 ### KRs
 
-1. 2022-09/B 初版完成。
+1. [ ] 2022-09/B 初版完成。
 
 <!--more-->
 

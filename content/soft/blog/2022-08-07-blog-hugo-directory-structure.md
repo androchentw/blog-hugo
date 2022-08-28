@@ -28,7 +28,7 @@ series: blog
 
 ### KRs
 
-1. 2022-08-07 分類所有 blog posts
+1. [x] 2022-08-07 分類所有 blog posts
 
 <!--more-->
 

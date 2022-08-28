@@ -32,7 +32,7 @@ series: blog
 
 ### KRs
 
-1. 2021-07 Implement `Series` feature on Hugo blog theme
+1. [x] 2021-07 Implement `Series` feature on Hugo blog theme
 
 <!--more-->
 
