@@ -32,8 +32,8 @@
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2021-08 Learn from all &lt;a href="https://www.atlassian.com/itsm">Atlassian ITSM topics&lt;/a> and whitepapers&lt;/li>
-&lt;li>2021-08 Establish Knowledge-Centered Service for users&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Learn from all &lt;a href="https://www.atlassian.com/itsm">Atlassian ITSM topics&lt;/a> and whitepapers&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Establish Knowledge-Centered Service for users&lt;/li>
 &lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好練習!&lt;/p>
@@ -68,6 +68,6 @@
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2021-07 Improve time management (visibility &amp;gt; 80%) and improve productivity (+20%) by integrating Clockify + Jira.&lt;/li>
-&lt;li>2021-08 Get familiar with Jira integration and reports to get more insight.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-07 Improve time management (visibility &amp;gt; 80%) and improve productivity (+20%) by integrating Clockify + Jira.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Get familiar with Jira integration and reports to get more insight.&lt;/li>
 &lt;/ol></description></item></channel></rss>

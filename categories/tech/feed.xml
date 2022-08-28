@@ -15,7 +15,7 @@
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2022-08/E 初版完成。&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2022-08/E 初版完成。&lt;/li>
 &lt;/ol></description></item><item><title>Github - Python Playground</title><link>https://blog.androchen.tw/github-python-playground/</link><pubDate>Tue, 16 Aug 2022 13:30:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/github-python-playground/</guid><description>&lt;img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -27,7 +27,7 @@
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2022-08/E 初版完成。&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2022-08/E 初版完成。&lt;/li>
 &lt;/ol></description></item><item><title>Golang Learn</title><link>https://blog.androchen.tw/golang-learn/</link><pubDate>Sat, 17 Jul 2021 10:13:58 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/golang-learn/</guid><description>&lt;img style="width:40%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>&lt;a href="https://blog.androchen.tw/setup-blog-hugo/">從 Ghost 搬來 Hugo 後&lt;/a>, 終於更積極地回歸 blog 了&amp;hellip; 今天要來立下學 golang 的 flag 😂&lt;/p>
@@ -49,8 +49,8 @@
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2021-08 Complete &lt;a href="https://gobyexample.com/">Go by Example&lt;/a> and get familiar with VS Code extensions.&lt;/li>
-&lt;li>2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-08 Complete &lt;a href="https://gobyexample.com/">Go by Example&lt;/a> and get familiar with VS Code extensions.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.&lt;/li>
 &lt;/ol></description></item><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;img style="width:40%;" src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.&lt;/p>
@@ -78,6 +78,6 @@
 &lt;/ul>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
-&lt;li>2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
 &lt;/ol></description></item></channel></rss>

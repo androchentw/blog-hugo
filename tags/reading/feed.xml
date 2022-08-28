@@ -61,6 +61,6 @@
 &lt;/ul>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
-&lt;li>2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
-&lt;li>2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
 &lt;/ol></description></item></channel></rss>
