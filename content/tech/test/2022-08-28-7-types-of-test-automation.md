@@ -1,6 +1,6 @@
 ---
-title: "自動化測試的類型"
-url: /types-of-test-automation
+title: "自動化測試的 7 種類型"
+url: /7-types-of-test-automation
 # date: 2022-08-28T01:28:16+08:00
 date: 2022-08-28T03:08:16+08:00
 author: androchentw
