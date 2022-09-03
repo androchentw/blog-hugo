@@ -14,6 +14,9 @@ series: test-automation
 ---
 
 <img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
+<p align="center"><sub><sup>
+  Photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clément Hélardot</a> on <a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub></p>
 
 ## Overview
 
