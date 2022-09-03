@@ -14,16 +14,17 @@ series: python
 ---
 
 <img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
+<p align="center"><sub><sup>
+  Photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clément Hélardot</a> on <a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub></p>
 
 ## Overview
-
 
 ### Challenges
 
 不管是 SRE 或是其他簡單的小腳本，在工作上越來越多場合要開始寫 python 來自動化處理一些繁瑣的事項。
 
 習慣性地就想要建立一個 library，邊學邊整理。
-
 
 ### Objectives
 
@@ -39,13 +40,11 @@ series: python
 
 [python-playground](https://github.com/androchentw/python-playground) is a simple example repository for common modules in Python.
 
-Inspired by 
+Inspired by
 
 1. [python-cheatsheet](https://github.com/androchentw/python-cheatsheet)
 2. [30-Days-Of-Python](https://github.com/androchentw/30-Days-Of-Python)
 
-
 ## Murmur
 
 * 2022-08-16: cheatsheet 萬歲!
-

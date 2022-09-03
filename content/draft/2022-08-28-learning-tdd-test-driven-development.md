@@ -19,13 +19,11 @@ series: test-automation
 
 ## Overview
 
-
 ### Challenges
-
 
 ### Objectives
 
-1. 
+1.
 
 ### KRs
 
@@ -35,8 +33,6 @@ series: test-automation
 
 ## Content
 
-
 ## Murmur
 
-* 2022-08-28: 
-
+* 2022-08-28:
