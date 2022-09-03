@@ -1,8 +1,8 @@
 ---
-<!-- 小提問 -> 好提問 + 深思考 + 敏解答. ORID + OEA (空雨傘) -->
+# 小提問 -> 好提問 + 深思考 + 敏解答. ORID + OEA (空雨傘)
 title: "{{ .Name | replaceRE "^.{11}" "" | humanize | title }}"
 url: /{{ slicestr .Name 11 }}
-<!-- date: {{ .Date }} -->
+# date: {{ .Date }}
 date: {{ .Date }}
 author: androchentw
 type: post
@@ -11,7 +11,7 @@ categories:
   - soft
   - life
 tags: 
-<!--   tech  -->
+# tech
   - infrastructure
     - architecture
     - operation
@@ -21,7 +21,7 @@ tags:
   - security
   - career
 
-<!--   soft  -->
+# soft
   - management
     - agile
     - okr
@@ -34,7 +34,7 @@ tags:
     - video
   - event
 
-<!--   life  -->
+# life
   - reflection
   - reading
   - drawing
