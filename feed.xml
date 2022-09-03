@@ -85,6 +85,9 @@ Photo by &lt;a href="https://unsplash.com/@nickmorrison?utm_source=unsplash&amp;
 &lt;ol>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 2022-08-22 學習技術寫作技巧&lt;/li>
 &lt;/ol></description></item><item><title>Github - Python Playground</title><link>https://blog.androchen.tw/github-python-playground/</link><pubDate>Tue, 16 Aug 2022 13:30:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/github-python-playground/</guid><description>&lt;img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clément Hélardot&lt;/a> on &lt;a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;p>不管是 SRE 或是其他簡單的小腳本，在工作上越來越多場合要開始寫 python 來自動化處理一些繁瑣的事項。&lt;/p>
