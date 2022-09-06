@@ -34,7 +34,7 @@ series: instructor
 
 ### KRs
 
-1. [x] 2022-08-22 學習教學技巧. 搭配 {{ ref . "writing/2022-08-22-technical-writing-courses-shoshinsha" }}
+1. [x] 2022-08-22 學習教學技巧. 搭配 {{ ref . "content/writing/2022-08-22-technical-writing-courses-shoshinsha" }}
 
 <!--more-->
 
