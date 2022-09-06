@@ -1,6 +1,6 @@
 ---
-title: "技術寫作入門技巧 3 堂課"
-url: /technical-writing-courses
+title: "技術寫作初心者之路 - 3 堂入門課寫出優質文章"
+url: /technical-writing-courses-shoshinsha
 # date: 2022-08-22T10:06:16+08:00
 date: 2022-08-22T10:50:16+08:00
 author: androchentw
@@ -9,6 +9,7 @@ categories:
   - soft
 tags:
   - technical-writing
+  - shoshinsha
 share_img: https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80
 series: technical-writing
 ---
@@ -26,8 +27,9 @@ series: technical-writing
 
 ### Objectives
 
-1. 學習如何撰寫科技文章
-2. 學習文件的類別, 並練習套用在日常寫作中
+1. [初心者系列 - tag: shoshinsha](https://blog.androchen.tw/tags/shoshinsha/): 紀錄我身為領域初學者的學習方式與目標進度規劃
+2. 學習如何撰寫科技文章
+3. 學習文件的類別, 並練習套用在日常寫作中
 
 ### KRs
 
@@ -35,7 +37,7 @@ series: technical-writing
 
 <!--more-->
 
-## Content
+## 技術寫作技巧
 
 ### 學習資源
 
@@ -51,11 +53,8 @@ series: technical-writing
 
 {{< youtube id="t4vKPhjcMZg" title="divio pyconau 2017 - What nobody tells you about documentation" >}}
 
-
 ## Conclusion
-
 
 ## Murmur
 
 * 2022-08-22 字字珠璣!
-

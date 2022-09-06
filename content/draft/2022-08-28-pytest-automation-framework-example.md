@@ -9,9 +9,9 @@ type: post
 categories:
   - tech
 tags: 
-  - test-automation
+  - testing
 share_img: https://i.imgur.com/Qe3Dzt6.png
-series: test-automation
+series: testing
 ---
 
 <img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
