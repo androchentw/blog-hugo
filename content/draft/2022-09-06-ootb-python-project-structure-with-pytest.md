@@ -31,7 +31,7 @@ series: testing
 
 ### KRs 結果 解法
 
-* [ ] 2022-09-09: 優化 [python-playground](https://github.com/androchentw/python-playground) 的目錄結構. 詳見 {{ ref . "content/python/2022-08-16-github-python-playground" }}
+* [ ] 2022-09-09: 優化 [python-playground](https://github.com/androchentw/python-playground) 的目錄結構. 詳見 {{ ref . "content/python/2022-08-16-github-python-playground.md" }}
 
 <!--more-->
 
