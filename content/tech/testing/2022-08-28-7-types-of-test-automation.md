@@ -33,7 +33,7 @@ series: testing
 ### Objectives
 
 1. 瞭解自動化測試的類型與其定義
-2. 建立測試範例程式碼, 結合 [python-playground]
+2. 建立測試範例程式碼, 結合 [python-playground]. 詳見 {{< ref "python/2022-08-16-github-python-playground" >}}
 
 ### KRs
 
