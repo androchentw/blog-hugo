@@ -14,7 +14,7 @@ Photo by &lt;a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm
 &lt;h3 id="objectives">Objectives&lt;/h3>
 &lt;ol>
 &lt;li>瞭解自動化測試的類型與其定義&lt;/li>
-&lt;li>建立測試範例程式碼, 結合 &lt;a href="https://github.com/androchentw/python-playground">python-playground&lt;/a>. 詳見 {{ ref . &amp;ldquo;content/python/2022-08-16-github-python-playground.md&amp;rdquo; }}&lt;/li>
+&lt;li>建立測試範例程式碼, 結合 &lt;a href="https://blog.androchen.tw/github-python-playground/">Github - Python Playground&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
