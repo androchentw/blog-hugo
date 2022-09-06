@@ -1,6 +1,8 @@
 ---
+# 小提問 -> 好提問 + 深思考 + 敏解答. ORID + OEA (空雨傘)
 title: "{{ .Name | replaceRE "^.{11}" "" | humanize | title }}"
 url: /{{ slicestr .Name 11 }}
+# date: {{ .Date }}
 date: {{ .Date }}
 author: androchentw
 type: post
@@ -9,26 +11,30 @@ categories:
   - soft
   - life
 tags: 
-  - programming
-  - tool
-  - career
-  - architect
-  - operation
-  - security
+# tech
+  - infrastructure
+    - architecture
+    - operation
+    - tool
   - application
-  
-  - writing
-    - blog
-  - speaking
-  - presentation
-  - biz
+    - programming
+  - security
+  - career
+
+# soft
+  - management
     - agile
     - okr
     - project-management
-  - thinking
-  - video
+  - presentation
+    - writing
+      - blog
+    - speaking
+    - problem-solving
+    - video
   - event
-  
+
+# life
   - reflection
   - reading
   - drawing
@@ -36,7 +42,7 @@ tags:
   - travel
   - japan
 share_img: https://i.imgur.com/FaFgJha.png
-series: life
+series: blog
 ---
 
 <img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
@@ -47,7 +53,7 @@ https://blog.androchen.tw/okr-weekdone/
 https://blog.androchen.tw/value-proposition
 
 PCVM > OKR
-### Challenges (Why. VPC-US, scenario, 5-Why)
+### Challenges 現況 挑戰 (Why. VPC-US, scenario, 5-Why)
 
 Profile > Challenge > Vision > Mission
 
@@ -77,18 +83,18 @@ Plan Poster
 * 解法 Solution
 
 
-### Objectives (What. Value.) (Product & Services)
+### Objectives 目標 效益 (What. Value.) (Product & Services)
 
 1. Achieve
 
-### KRs (How. Measurable Result.)
+### KRs 結果 解法 (How. Measurable Result.)
 
 1. 2021-12
 2. 2021-12
 
 <!--more-->
 
-## Content
+## Content 主旨
 
 
 ## Conclusion
@@ -102,5 +108,5 @@ Plan Poster
 
 ## Murmur
 
-* {{ .Date }}
+* {{ .Date }}: 
 
