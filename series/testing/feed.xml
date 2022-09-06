@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>test-automation on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/series/test-automation/</link><description>Recent content in test-automation on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 28 Aug 2022 03:08:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/series/test-automation/feed.xml" rel="self" type="application/rss+xml"/><item><title>自動化測試的 7 種類型</title><link>https://blog.androchen.tw/7-types-of-test-automation/</link><pubDate>Sun, 28 Aug 2022 03:08:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/7-types-of-test-automation/</guid><description>&lt;img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>testing on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/series/testing/</link><description>Recent content in testing on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 28 Aug 2022 03:08:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/series/testing/feed.xml" rel="self" type="application/rss+xml"/><item><title>自動化測試的 7 種類型</title><link>https://blog.androchen.tw/7-types-of-test-automation/</link><pubDate>Sun, 28 Aug 2022 03:08:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/7-types-of-test-automation/</guid><description>&lt;img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
 &lt;p align="center">&lt;sub>&lt;sup>
 Photo by &lt;a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clément Hélardot&lt;/a> on &lt;a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
 &lt;/sup>&lt;/sub>&lt;/p>
@@ -14,7 +14,7 @@ Photo by &lt;a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm
 &lt;h3 id="objectives">Objectives&lt;/h3>
 &lt;ol>
 &lt;li>瞭解自動化測試的類型與其定義&lt;/li>
-&lt;li>建立測試範例程式碼, 結合 &lt;a href="https://github.com/androchentw/python-playground">python-playground&lt;/a>&lt;/li>
+&lt;li>建立測試範例程式碼, 結合 &lt;a href="https://github.com/androchentw/python-playground">python-playground&lt;/a>. 詳見 {{ ref . &amp;ldquo;python/2022-08-16-github-python-playground&amp;rdquo; }}&lt;/li>
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
