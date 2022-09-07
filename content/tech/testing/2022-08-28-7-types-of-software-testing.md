@@ -1,6 +1,6 @@
 ---
-title: "自動化測試的 7 種類型"
-url: /7-types-of-test-automation
+title: "軟體測試的 7 種類型 - Python 範例程式碼"
+url: /7-types-of-software-testing
 # date: 2022-08-28T01:28:16+08:00
 date: 2022-08-28T03:08:16+08:00
 author: androchentw
@@ -8,6 +8,7 @@ type: post
 categories:
   - tech
 tags: 
+  - python
   - testing
 share_img: https://i.imgur.com/Qe3Dzt6.png
 series: testing
