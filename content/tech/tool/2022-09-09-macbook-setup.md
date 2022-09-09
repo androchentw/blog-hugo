@@ -20,15 +20,15 @@ series: tool
 
 ## Overview
 
-### Challenges
+### Challenges 現況 挑戰
 
 1. 每次要設定 macbook 開發環境時, 總是頭痛到底設定了哪些東西跟軟體
 
-### Objectives
+### Objectives 目標 效益
 
 1. 整理開發環境所需的套件與安裝指令
 
-### KRs
+### KRs 結果 解法
 
 1. [ ] 2022-09-10 設定完成
 
@@ -120,7 +120,7 @@ $ p10k configure
 $ brew install --cask fig
 ```
 
-### 6. zsh plugins: zsh-autosuggestions, zsh-autocomplete, zsh-syntax-highlighting
+### 6. zsh plugins
 
 Note: 這一塊我在弄的時候有點搞砸了... 但總之最後是通了, 之後有機會 (x) 再回來修
 

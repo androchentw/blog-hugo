@@ -22,17 +22,17 @@ series: instructor
 
 ## Overview
 
-### Challenges
+### Challenges 現況 挑戰
 
 1. 隨著知識累積, 要學習的東西越來越多, 分享就是最好的記錄方式。如何良好地呈現知識的內容, 簡單明瞭地教學給其他人呢?
 
-### Objectives
+### Objectives 目標 效益
 
 1. [初心者系列 - tag: shoshinsha](https://blog.androchen.tw/tags/shoshinsha/): 紀錄我身為領域初學者的學習方式與目標進度規劃
 2. 學習如何教學, 以及如何設計課程
 3. 學習文件的類別, 並練習套用在日常寫作中
 
-### KRs
+### KRs 結果 解法
 
 1. [x] 2022-08-22 學習教學技巧.
 
