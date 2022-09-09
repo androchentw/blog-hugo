@@ -66,11 +66,14 @@ $ brew upgrade
 * [How to set keyboard shortcuts to jump to beginning/end of line?](https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line?_gl=1*1uv9250*_ga*ODk4MjEzOTA3LjE2NjI2NzQ1MjQ.*_ga_S812YQPLT2*MTY2MjY3NDUyMy4xLjAuMTY2MjY3NDUyNy4wLjAuMA..)
 
 ```sh
-# 1. iTerm2: replacement for Terminal
+# iTerm2: replacement for Terminal
 $ brew install --cask iterm2
+```
 
-# 2. zsh
-# 用 homebrew 安裝的 zsh 位置在 /usr/local/bin/zsh，
+### 1. zsh
+
+```sh
+# 用 homebrew 安裝的 zsh 位置在 /usr/local/bin/zsh
 $ which zsh
 # /bin/zsh
 $ zsh --version
@@ -84,30 +87,49 @@ $ which zsh
 # /opt/homebrew/bin/zsh
 $ zsh --version
 # zsh 5.9 (arm-apple-darwin21.3.0)
+```
 
-# 2. oh-my-zsh: zsh setup management framework
+### 2. oh-my-zsh: zsh setup management framework
 
+```sh
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # $ vim ~/.zshrc
+```
 
-# 3. Nerd font: font package
+### 3. Nerd font: font package
+
+```sh
+# Nerd font
 $ brew tap homebrew/cask-fonts
 $ brew install --cask font-hack-nerd-font
+```
 
-# 4. Powerlevel10k: oh-my-zsh Themes
+### 4. Powerlevel10k: oh-my-zsh Themes
+
+```sh
+# Powerlevel10k
 $ brew install romkatv/powerlevel10k/powerlevel10k
 $ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
 $ source ~/.zshrc
 $ p10k configure
+```
 
-# 5. fig: IDE-style autocomplete for your existing terminal
+### 5. fig: IDE-style autocomplete for your existing terminal
+
+```sh
+# fig
 $ brew install --cask fig
+```
 
-# 6. zsh plugins
-# https://github.com/zsh-users/zsh-autosuggestions
-# https://github.com/marlonrichert/zsh-autocomplete
-# zsh-syntax-highlighting
+### 6. zsh plugins: zsh-autosuggestions, zsh-autocomplete, zsh-syntax-highlighting
 
+Note: 這一塊我在弄的時候有點搞砸了... 但總之最後是通了, 之後有機會 (x) 再回來修
+
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+* zsh-syntax-highlighting
+
+```sh
 $ git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git
 $ source zsh-snap/install.zsh
 $ znap pull
@@ -122,7 +144,11 @@ $ vi ~/.zshrc
 
 # $ brew install zsh-autosuggestions
 # $ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc 
- 
+```
+
+### 7. Backup settings
+
+```sh
 # setup shared shell settings
 $ vi ~/.common_shell_rc
 
@@ -131,6 +157,10 @@ $ vi ~/.bash_profile
 # insert below: without comment
 # 2022-09-09 andro share shell settings
 # source ~/.common_shell_rc
+
+# backup
+$ cat ~/.zshrc > ~/Downloads/2022-andro.zshrc
+$ cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
 ```
 
 ## git - 版本控制
