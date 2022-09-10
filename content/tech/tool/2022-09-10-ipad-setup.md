@@ -77,9 +77,13 @@ series: tool
 ### Development 軟體開發
 
 * [A Web Developers Must Have iPadOS Apps](https://www.youtube.com/watch?v=-64-1FutGaw)
-* [Buffer Editor](https://apps.apple.com/US/app/id502633252)
-* Working Copy: Git client
+* [PolyGit](https://www.polygitapp.com/): 3 pushes / day
+* [Clone](https://clone.hammockdistrict.com/)
+* [Buffer Editor](https://apps.apple.com/US/app/id502633252): $330
+* [Working Copy](https://workingcopy.app/): Git client. $670
+* [Koder Code Editor](https://koderapp.com/): IDE
 * [Secure ShellFish](https://secureshellfish.app/): Powerful SSH terminal that fits right into iOS
+* [TextCode Editor](https://apps.apple.com/us/app/textcode-editor/id992101777): push 要年費 $290
 
 ### Reading 閱讀
 
