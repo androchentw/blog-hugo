@@ -20,7 +20,7 @@ series: tool
 
 ## Overview
 
-### 購買原因理由
+### Motivation 購買動機
 
 * 主要使用場景
   * 移動: 攜帶
@@ -28,7 +28,7 @@ series: tool
   * 撰寫: 手寫筆記, blog 文章撰寫, 繪圖
 * 大螢幕, 比起滑手機比較不會眼睛痛
 
-### 周邊
+### Gear 周邊
 
 * Apple Pencil 2 白
 * Moshi VersaCover for iPad Air 莎瓦納米色
@@ -36,46 +36,66 @@ series: tool
 
 <!--more-->
 
-## 軟體
+## Software 軟體
 
 * 因為我本身跨多平台 (Macbook, iPad, Google Pixel, Windows PC), 所以多半會以能夠同步帳號的為主
 * 隨著 iPad 越玩越多, 會再持續更新
 
-### 筆記
+### Productivity 生產力
 
-* good note 5, 無限層
-* notability 錄音, 3層
-* paper
-* margin note 3
-
-### 辦公室生產力
-
-* Alfred
 * Google 系列
-* OneNote
+* OneNotes
+* [Spark](https://sparkmailapp.com/): Email App
 
-### 圖表
+### Note 筆記
+
+* GoodnNotes: 手繪
+* Notability: 錄音, 3層
+* MarginNote
+* [Drafts](https://getdrafts.com/)
+
+### Diagram 圖表
 
 * Miro $8/mon = 靈感 + mindmap / diagram 聯動類型
-* draw.io $0 = img url diagram
-* figma $0 = 靈感 + 漂亮好看類型, 聯動等較不擅長
+* figma $0 = 靈感 + 漂亮好看類型
 * gitmind: 心智圖
+* draw.io $0 = img url diagram
 
-### 繪畫
+### Drawing 繪畫
 
-* canva
-* procreate
-* csp
+* Paper: 素描
+* Procreate
+* CSP (Clip Studio Paint)
 
-### 影音剪輯
+### Editing 影音剪輯
 
-* inshot
+* Canva: 圖片影片剪輯
+* Darkroom: 相片影片剪輯
+* InShot: Vlog 剪輯
+* LumaFusion: Pro video editing and effects
 
-### 軟體開發
+### Development 軟體開發
 
-### 閱讀
+* [A Web Developers Must Have iPadOS Apps](https://www.youtube.com/watch?v=-64-1FutGaw)
+* [Buffer Editor](https://apps.apple.com/US/app/id502633252)
+* Working Copy: Git client
+* [Secure ShellFish](https://secureshellfish.app/): Powerful SSH terminal that fits right into iOS
 
-### 其他
+### Reading 閱讀
+
+* Coursera
+* Udemy
+* Hahow
+
+### JP
+
+* 斷句閱讀
+* ABEMA
+* テレビ視聴
+
+### Others 其他
+
+* [My Gear](https://curtismchale.ca/about/my-gear/)
 
 ## Murmur
 
