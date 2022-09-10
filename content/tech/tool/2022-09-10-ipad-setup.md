@@ -51,17 +51,17 @@ series: tool
 
 ### 思考/工作 流程
 
-1. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
-2. Google Slide 每週 KPT Summary, 對焦周/月/季計畫.
-3. Miro 製作/對齊 總圖表, 更有全局觀. 無限大畫布, 串聯零散想法
-4. Google Docs, Spreadsheet 補充細節
-5. Hugo Blog by github page 輸出學習過程/經驗
-6. Unsplash 找封面圖, flaticon 找圖標
+1. Google Calendar time blocking
+2. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
+3. Google Slide 每週 KPT Summary, 對焦周/月/季計畫
+4. Miro 製作/對齊 總圖表, 更有全局觀. 無限大畫布, 串聯零散想法
+5. Google Docs, Spreadsheet 補充細節
+6. Hugo Blog by GitHub Page 輸出學習過程/經驗
+7. Unsplash 找封面圖, Flaticon 找圖示, imgur.com 蒐集圖庫
 
 ### Productivity 生產力
 
 * Google 系列
-  * Docs, Spreadsheet 補充細節
 * Notion
   * 圖書: 整理閱讀清單特別方便 (範本填寫, 閱讀時間規劃, 後期統計)
 * OneNotes
@@ -129,9 +129,9 @@ series: tool
 * [Google Play 圖書](https://play.google.com/store/books?hl=zh_TW&gl=US)
 * [Readmoo 讀墨](https://readmoo.com/)
 * [HyRead + tpml 台北市立圖書館](https://tpml.ebook.hyread.com.tw/index.jsp) 電子書
-* [Coursera](https://zh-tw.coursera.org/)
+* [Hahow](https://hahow.in/)
 * [Udemy](https://www.udemy.com/)
-* Hahow
+* [Coursera](https://zh-tw.coursera.org/)
 
 ### JP
 
