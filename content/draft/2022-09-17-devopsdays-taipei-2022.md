@@ -91,6 +91,14 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ## Day 1 場次精選心得
 
+1. 臺灣企業 DevOps 能力大公開. 王宏仁 │ iThome 副總編輯
+2. 多雲整合企業應用平台 DevOps SRE 落地實踐. 胡君怡 │ 台積電 企業應用平台部 部門經理
+3. ABC 會議室 DevOps的高階工程技術實踐 董大偉（David Tung）
+4. DE 會議室 在你的DevOps中加入一點Security — GitLab CI/CD with Snyk
+5. DE 會議室 Cloud Native 資安，避免別人踩過的坑
+6. ABC 會議室 From DevOps To DataOps——Data as a Product 資料專案教戰守則
+7. ABC 會議室 可觀測性(Observability)的實踐
+
 ### Topic 1
 
 * 講者
@@ -122,6 +130,13 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 內容
 
 ## Day 2 場次精選心得
+
+1. 走過 DevOps 風雨的下一步.... 郭家齊（Edward Kuo） │ Microsoft MVP,Microsoft Regional Director
+2. DevOps 潮流下的 API First 開發策略吳剛志（Andrew Wu） │ 91APP 首席架構師
+3. ABC 會議室 為 DevOps 插上商業的翅膀. > DE 會議室 專案實踐自動化測試框架的設計與心路歷程
+4. ABC 會議室 DevOps Journey of Smart Manufacturing in Micron
+5. ABC 會議室 從失敗中吸取教訓的渾沌工程
+6. DE 會議室 Automating Security in IaC Pipelines with Policy as Code - 金融業IaC整合實踐
 
 ### Topic 1
 
