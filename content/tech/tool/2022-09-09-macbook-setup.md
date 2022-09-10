@@ -30,7 +30,7 @@ series: tool
 
 ### KRs 結果 解法
 
-* [ ] 2022-09-10 設定完成
+* [x] 2022-09-10 設定完成
 
 <!--more-->
 
@@ -54,19 +54,19 @@ series: tool
 
 ```sh
 # install homebrew
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Run these two commands in your terminal to add Homebrew to your PATH:
-$ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/AndroChen/.zprofile
-$ eval "$(/opt/homebrew/bin/brew shellenv)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/AndroChen/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-$ brew update 
-$ brew upgrade
+brew update 
+brew upgrade
 
 # https://github.com/Homebrew/brew/issues/3784
 # use commands below if you want to delete downloaded caches in ~/Library/Caches/Homebrew
-# $ brew cleanup -n
-# $ brew cleanup
-# $ rm -rf $(brew --cache)
+# brew cleanup -n
+# brew cleanup
+# rm -rf $(brew --cache)
 ```
 
 ## iTerm2 - 點亮 Terminal
@@ -80,58 +80,58 @@ $ brew upgrade
 
 ```sh
 # iTerm2: replacement for Terminal
-$ brew install --cask iterm2
+brew install --cask iterm2
 ```
 
 ### 1. zsh
 
 ```sh
 # 用 homebrew 安裝的 zsh 位置在 /usr/local/bin/zsh
-$ which zsh
+which zsh
 # /bin/zsh
-$ zsh --version
+zsh --version
 # zsh 5.8.1 (x86_64-apple-darwin21.0)
 
-$ brew install zsh
-$ sudo sh -c "echo $(which zsh) >> /etc/shells"
-$ chsh -s $(which zsh)
+brew install zsh
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s $(which zsh)
 # restart terminal
-$ which zsh
+which zsh
 # /opt/homebrew/bin/zsh
-$ zsh --version
+zsh --version
 # zsh 5.9 (arm-apple-darwin21.3.0)
 ```
 
 ### 2. oh-my-zsh: zsh setup management framework
 
 ```sh
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# $ vim ~/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# vim ~/.zshrc
 ```
 
 ### 3. Nerd font: font package
 
 ```sh
 # Nerd font
-$ brew tap homebrew/cask-fonts
-$ brew install --cask font-hack-nerd-font
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
 ```
 
 ### 4. Powerlevel10k: oh-my-zsh Themes
 
 ```sh
 # Powerlevel10k
-$ brew install romkatv/powerlevel10k/powerlevel10k
-$ echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
-$ source ~/.zshrc
-$ p10k configure
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
+source ~/.zshrc
+p10k configure
 ```
 
 ### 5. fig: IDE-style autocomplete for your existing terminal
 
 ```sh
 # fig
-$ brew install --cask fig
+brew install --cask fig
 ```
 
 ### 6. zsh plugins
@@ -143,130 +143,126 @@ Note: 這一塊我在弄的時候有點搞砸了... 但總之最後是通了, �
 * zsh-syntax-highlighting
 
 ```sh
-$ git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git
-$ source zsh-snap/install.zsh
-$ znap pull
-$ echo "znap source marlonrichert/zsh-autocomplete" >> ~/.zshrc
+git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git
+source zsh-snap/install.zsh
+znap pull
+echo "znap source marlonrichert/zsh-autocomplete" >> ~/.zshrc
 
 # https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
-$ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-$ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 
-$ vi ~/.zshrc
+vi ~/.zshrc
 # plugins=(git zsh-autosuggestions zsh-autocomplete)
 
-# $ brew install zsh-autosuggestions
-# $ echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc 
-```
-
-### 7. Backup settings
-
-```sh
-# setup shared shell settings
-$ vi ~/.common_shell_rc
-
-$ vi ~/.zshrc
-$ vi ~/.bash_profile
-# insert below: without comment
-# 2022-09-09 andro share shell settings
-# source ~/.common_shell_rc
-
-# backup
-$ cat ~/.zshrc > ~/Downloads/2022-andro.zshrc
-$ cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
+# brew install zsh-autosuggestions
+# echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc 
 ```
 
 ## git - 版本控制
 
 ```sh
 # Version control
-$ brew install git
-$ brew install --cask sourcetree
+brew install git
+brew install --cask sourcetree
 
-$ git config --global user.email "androchentw@gmail.com"
-$ git config --global user.name "androchentw"
+git config --global user.email "androchentw@gmail.com"
+git config --global user.name "androchentw"
 ```
 
 ## python
 
+### pyenv + pyenv-virtualenv
+
 * `pyenv`: 管理 python 多版本
   * [pyenv/pyenv | GitHub](https://github.com/pyenv/pyenv)
+    * Switch between Python versions: To select a Pyenv-installed Python as the version to use, run one of the following commands:
+      * `pyenv shell <version>` -- select just for current shell session
+      * `pyenv local <version>` -- automatically select whenever you are in the current directory (or its subdirectories)
+      * `pyenv global <version>` -- select globally for your user account
   * [Pyenv 使用概念](https://ithelp.ithome.com.tw/articles/10237266)
   * [【Python教學】使用 pyenv 和 virtualenv 打造 Python 環境](https://www.maxlist.xyz/2020/04/01/python-pyenv-virtualenv/)
 * `pyenv-virtualenv`: 區隔 python 虛擬工作環境
   * [pyenv/pyenv-virtualenv | GitHub](https://github.com/pyenv/pyenv-virtualenv)
+
+```sh
+# This is the recommended method of installation if you installed pyenv with Homebrew.
+brew install pyenv-virtualenv
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+            # if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+brew install pyenv
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+source ~/.zshrc
+exec "$SHELL"
+```
+
+### python3 + pip3
+
 * `python3`
 * `pip3`
+  * [How can I install Python's pip3 on my Mac?](https://stackoverflow.com/questions/34573159/how-can-i-install-pythons-pip3-on-my-mac)
+  * [How to use pip for pyenv?](https://stackoverflow.com/questions/52060867/how-to-use-pip-for-pyenv)
 
 ```sh
-$ which python3
+which python3
 # /usr/bin/python3
-
-brew update
-brew install pyenv
-
-
 python3 --version
-# Python 3.7.7
+# Python 3.8.9
+pip3 --version
+# pip 20.2.3 from /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages/pip (python 3.8)
+which pip3
+# /usr/bin/pip3
+
+pyenv install --list | grep " 3\.[10]" 
+pyenv install 3.10.6 
+
+pyenv global 3.10.6
+python3 --version
+# Python 3.10.6
+pyenv virtualenv 3.10.6 env-3.10.6
+
+# test env-3.10.6 virtualenv settings
+mkdir test 
+cd test 
+pyenv local env-3.10.6
+python --version
+# Python 3.10.6
+
+
+brew install python3
+# restart iTerm2
 
 which python3
-# /Users/max/.pyenv/shims/python
-
-$ brew install pyenv
-$ brew upgrade pyenv
-$ export PYENV_ROOT=/usr/local/var/pyenv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-
-# 1. 安裝 pyenv-virtualenv
-$ brew install pyenv-virtualenv 
-$ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile 
-$ echo 'eval "$(pyenv init -)"' >> ~/.bash_profile 
-$ source ~/.bash_profile 
-
-# 2. 建立 Python 3.10.7 虛擬環境
-$ pyenv install --list | grep " 3\.[10]" 
-$ pyenv install -v 3.10.7 
-$ pyenv global 3.10.7 
-$ python -V 
-$ pyenv virtualenv 3.10.7 env-3.10.7
-
-# 3. 測試 env-3.10.7 虛擬環境設定
-$ mkdir test 
-$ cd test 
-$ pyenv local env-3.10.7
-$ python -V 
-
-
-$ brew install python 
-$ which python
-# /usr/bin/python
-
-
+# /Users/AndroChen/.pyenv/shims/python3
+which pip3
+# /Users/AndroChen/.pyenv/shims/pip3
+pip3 --version
+# pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
+which python
+# /Users/AndroChen/.pyenv/shims/python
+which pip
+# /Users/AndroChen/.pyenv/shims/pip
+pip --version
+# pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
 ```
 
-* <https://stackoverflow.com/questions/32530506/is-there-a-difference-between-brew-install-and-pip-install>
-
-> installing things with brew will install them into /usr/local/;
-
-* <https://stackoverflow.com/questions/5157678/how-do-i-use-brew-installed-python-as-the-default-python>
-
-```sh
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-```
 
 > ==> /usr/bin occurs before /usr/local/bin This means that system-provided programs
 > will be used instead of those provided by Homebrew. This is an issue if you eg. brew > installed Python.
 >
 > Consider editing your .bash_profile to put: /usr/local/bin ahead of /usr/bin in your > $PATH.
 
-* <https://stackoverflow.com/questions/31603978/why-should-homebrew-be-used-to-install-python>
+## Backup shell .rc settings
 
-brew install python@3.7
-
-<https://pythonviz.com/basic/install-python3-macos-homebrew/>
-<https://pythonviz.com/basic/macos-install-multiple-python-versions/>
-
-<https://learningsky.io/python-development-on-macos-with-pyenv-virtualenv/>
+```sh
+cat ~/.zshrc > ~/Downloads/2022-andro.zshrc
+cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
+```
 
 ## Murmur
 
