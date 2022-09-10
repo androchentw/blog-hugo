@@ -251,7 +251,6 @@ pip --version
 # pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
 ```
 
-
 > ==> /usr/bin occurs before /usr/local/bin This means that system-provided programs
 > will be used instead of those provided by Homebrew. This is an issue if you eg. brew > installed Python.
 >
