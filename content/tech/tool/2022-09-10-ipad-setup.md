@@ -28,6 +28,14 @@ series: tool
   * 撰寫: 手寫筆記, blog 文章撰寫, 繪圖
 * 大螢幕, 比起滑手機比較不會眼睛痛
 
+### Objectives 目標 效益
+
+* 積極利用 iPad apple pencil 等與 macbook 整合 提高生產力
+* 玩 iPad note, drawing 找靈感
+* 重點功能需求
+  * url 方便串聯跨平台
+  * web edit 方便調整
+
 ### Gear 周邊
 
 * Apple Pencil 2 白
@@ -41,25 +49,54 @@ series: tool
 * 因為我本身跨多平台 (Macbook, iPad, Google Pixel, Windows PC), 所以多半會以能夠同步帳號的為主
 * 隨著 iPad 越玩越多, 會再持續更新
 
+### 思考/工作 流程
+
+1. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
+2. Google Slide 每週 KPT Summary, 對焦周/月/季計畫.
+3. Miro 製作/對齊 總圖表, 更有全局觀. 無限大畫布, 串聯零散想法
+4. Google Docs, Spreadsheet 補充細節
+5. Hugo Blog by github page 輸出學習過程/經驗
+6. Unsplash 找封面圖, flaticon 找圖標
+
 ### Productivity 生產力
 
 * Google 系列
+  * Docs, Spreadsheet 補充細節
+* Notion
+  * 圖書: 整理閱讀清單特別方便 (範本填寫, 閱讀時間規劃, 後期統計)
 * OneNotes
 * [Spark](https://sparkmailapp.com/): Email App
 
 ### Note 筆記
 
-* GoodnNotes: 手繪
-* Notability: 錄音, 3層
-* MarginNote
+首先是兩款最多人推薦的筆記軟體個人評比
+都可以拖拉 google photo 等外部素材, 彼此之間的內容也都可以複製貼上
+
+* GoodnNotes
+  * 短評: 手帳首選
+  * ✅ 價格: 買斷 $270. 免費就有跨裝置 3 本筆記本
+  * 操作: 兩指兩下還原, 三指兩下重做
+  * 素材: 貼圖
+  * 匯出: 檔案, PDF, Image
+  * ✅ 獨家: 無限層分類
+* Notability
+  * 短評: 錄音適合會議記錄
+  * 價格: 年費 $360. 免費沒有跨裝置, 且有每月編輯次數上限
+  * ✅ 操作: 兩指還原, 三指重做
+  * ✅ 素材: gif, 貼圖
+  * ✅ 匯出: 檔案, PDF, Image, Google Drive
+  * ✅ 獨家: 錄音
+
+* [MarginNote](https://www.marginnote.com/): PDF 心智圖 + 筆記
+  * A brand new e-reader to better study and digest your books
 * [Drafts](https://getdrafts.com/)
 
 ### Diagram 圖表
 
-* Miro $8/mon = 靈感 + mindmap / diagram 聯動類型
-* figma $0 = 靈感 + 漂亮好看類型
-* gitmind: 心智圖
-* draw.io $0 = img url diagram
+* Miro: $240/mon. 靈感 + mindmap / diagram 聯動類型
+* Figma: $0. 靈感 + 漂亮好看類型
+* GitMind: $0. 心智圖
+* Diagrams.net (draw.io): $0. img url diagram
 
 ### Drawing 繪畫
 
@@ -72,6 +109,8 @@ series: tool
 * Canva: 圖片影片剪輯
 * Darkroom: 相片影片剪輯
 * InShot: Vlog 剪輯
+  * 首年 $120
+  * 貼圖包很讚
 * LumaFusion: Pro video editing and effects
 
 ### Development 軟體開發
@@ -87,8 +126,11 @@ series: tool
 
 ### Reading 閱讀
 
-* Coursera
-* Udemy
+* [Google Play 圖書](https://play.google.com/store/books?hl=zh_TW&gl=US)
+* [Readmoo 讀墨](https://readmoo.com/)
+* [HyRead + tpml 台北市立圖書館](https://tpml.ebook.hyread.com.tw/index.jsp) 電子書
+* [Coursera](https://zh-tw.coursera.org/)
+* [Udemy](https://www.udemy.com/)
 * Hahow
 
 ### JP
