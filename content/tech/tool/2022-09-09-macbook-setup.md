@@ -34,6 +34,20 @@ series: tool
 
 <!--more-->
 
+## Software 軟體
+
+### Dev 開發
+
+* IDE, Editor: Xcode, vscode, sublime text, iTerm2, Fig
+* CI/CD: git, Sourcetree
+* Dev: Python, docker, postman
+
+### Office
+
+* Note: skitch
+* Productivity: Alfred 5, Rocket Emoji, xtrafinder
+* Utils: f.lux, unarchiver, hidden bar, coconut battery
+
 ## homebrew - macOS 套件管理工具
 
 * [homebrew](https://brew.sh/index_zh-tw): macOS 套件管理工具
