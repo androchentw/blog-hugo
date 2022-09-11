@@ -85,7 +85,7 @@ series: tool
   * ✅ 操作: 兩指還原, 三指重做
   * ✅ 素材: gif, 貼圖
   * ✅ 匯出: 檔案, PDF, Image, Google Drive
-  * ✅ 獨家: 錄音
+  * ✅ 獨家: 錄音. 據說 pdf 編輯比較厲害
 
 * [MarginNote](https://www.marginnote.com/): PDF 心智圖 + 筆記
   * A brand new e-reader to better study and digest your books
