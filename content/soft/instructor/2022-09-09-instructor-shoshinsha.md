@@ -44,6 +44,18 @@ series: instructor
 #### Udemy
 
 1. [How to Create an Online Course: The Official Udemy Course](https://www.udemy.com/course/official-udemy-create-course/)
+   * Learning Objective
+      1. Refine your course topic with marketplace insights
+      2. Identify your ideal learners
+      3. Write leanring objectives
+      4. Create practicial activities and assessments
+      5. Create a course outline
+      6. Produce your course content
+      7. Write a compelling course landing page
+      8. Launch your course successfully
+      9. Evolve your course and grow your audience
+   * Provide value
+      * The important thing is to teach what you know and focus on content that will provide the most value to your learners, like a new technology that's going to disrupt a certain industry, an essential business skill that will help people grow their careers, or a personal skill that will improve your learners' lives.
 2. [創建引人入勝的課程](https://www.udemy.com/instructor/resources/?page=teaching)
     1. 步驟 1 Topic: 選擇您的課程**主題**。
        * [Choose your course topic](https://teach.udemy.com/course-creation/choose-your-course-topic/)
@@ -61,4 +73,4 @@ series: instructor
 
 ## Murmur
 
-* 2022-09-13: 講的出來就是會!
+* 2022-09-13: 講的出來才是會!
