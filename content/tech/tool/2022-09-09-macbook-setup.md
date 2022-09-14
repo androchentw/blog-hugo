@@ -263,6 +263,17 @@ cat ~/.zshrc > ~/Downloads/2022-andro.zshrc
 cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
 ```
 
+## Others
+
+* [Change Date/Time format in the Screen Shot filename?](https://apple.stackexchange.com/questions/245771/change-date-time-format-in-the-screen-shot-filename)
+  1. System Preferences > Language & Region > Advanced... > Times > Modify "Medium" Format
+  2. Terminal
+
+  ```sh
+  defaults write com.apple.screencapture name "<desired name>"
+  killall SystemUIServer
+  ```
+
 ## Murmur
 
 * 2022-09-09 每次拿到新電腦都要重來一次... 😂
