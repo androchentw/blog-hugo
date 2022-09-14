@@ -106,19 +106,31 @@ series: tool
 
 ### Drawing 繪畫
 
-* Paper: 素描
 * Procreate: $330
   * [給新手的Procreate小教室 | Nuomi諾米](https://www.youtube.com/watch?v=peINE7n0Yj8)
+* [SketchBook](https://www.sketchbook.com/apps): The art of ideas
+* [Infinite Painter](https://www.infinitestudio.art/discover.php)
+* [Tayasui Sketches](https://tayasui.com/sketches/)
+* [Artomaton 人工智能的畫家](https://apps.apple.com/tw/app/artomaton-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%9A%84%E7%95%AB%E5%AE%B6/id718222634)
+* Paper: 素描
 * CSP (Clip Studio Paint)
 
 ### Editing 影音剪輯
 
-* Canva: 圖片影片剪輯
-* Darkroom: 相片影片剪輯
-* InShot: Vlog 剪輯
-  * 首年 $120
-  * 貼圖包很讚
-* LumaFusion: Pro video editing and effects
+* All
+  * Canva: 平面設計, 圖片影片剪輯
+  * Darkroom: 相片影片剪輯
+* Photo
+  * [Snapseed](https://apps.apple.com/tw/app/snapseed/id439438619)
+  * [PhotoDirector](https://apps.apple.com/app/apple-store/id907366587) : Photo Editor
+* Video
+  * [iMovie](https://www.apple.com/tw/imovie/)
+  * [可立拍 Clips](https://www.apple.com/tw/clips/)
+  * InShot: Vlog 剪輯
+    * 首年 $120
+    * 貼圖包很讚
+  * [PowerDirector](https://apps.apple.com/app/apple-store/id1473574597) - Video Editor
+  * LumaFusion: Pro video editing and effects. $990
 
 ### Development 軟體開發
 
