@@ -131,6 +131,11 @@ series: tool
     * 貼圖包很讚
   * [PowerDirector](https://apps.apple.com/app/apple-store/id1473574597) - Video Editor
   * LumaFusion: Pro video editing and effects. $990
+  * Teleprompter
+    * [Speakflow](https://www.speakflow.com/)
+    * [Teleprompter Mirror](https://telepromptermirror.com/telepromptersoftware.htm)
+    * [Video Teleprompter](https://videoteleprompter.com/)
+    * [BIGVU](https://bigvu.tv/)
 
 ### Development 軟體開發
 
