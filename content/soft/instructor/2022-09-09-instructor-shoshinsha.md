@@ -15,7 +15,7 @@ share_img: https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb
 series: instructor
 ---
 
-<img style="width:60%;" src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2487&q=80">
+<img style="width:40%;" src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2487&q=80">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/@jareddc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaredd Craig</a> on <a href="https://unsplash.com/collections/nUvV7_kQh40/education?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>
@@ -44,7 +44,7 @@ series: instructor
 #### Udemy
 
 1. [How to Create an Online Course: The Official Udemy Course](https://www.udemy.com/course/official-udemy-create-course/)
-   * Learning Objective
+    * Learning Objective
       1. Refine your course topic with marketplace insights
       2. Identify your ideal learners
       3. Write leanring objectives
@@ -54,8 +54,13 @@ series: instructor
       7. Write a compelling course landing page
       8. Launch your course successfully
       9. Evolve your course and grow your audience
-   * Provide value
+    * Provide value
       * The important thing is to teach what you know and focus on content that will provide the most value to your learners, like a new technology that's going to disrupt a certain industry, an essential business skill that will help people grow their careers, or a personal skill that will improve your learners' lives.
+    * **Learning objectives**
+      * statements that describe what learners should be **able to do** after completing your course.
+      * [Bloom's taxonomy](https://tips.uark.edu/using-blooms-taxonomy/): Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
+      <img style="width:60%;" src="https://cpb-us-e1.wpmucdn.com/wordpressua.uark.edu/dist/a/315/files/2013/09/Blooms_Taxonomy_pyramid_cake-style-use-with-permission.jpg">
+
 2. [創建引人入勝的課程](https://www.udemy.com/instructor/resources/?page=teaching)
     1. 步驟 1 Topic: 選擇您的課程**主題**。
        * [Choose your course topic](https://teach.udemy.com/course-creation/choose-your-course-topic/)
