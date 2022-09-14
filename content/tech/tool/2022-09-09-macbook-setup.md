@@ -83,6 +83,8 @@ brew upgrade
 brew install --cask iterm2
 ```
 
+* [Themes](https://iterm2colorschemes.com/): JetBrains Darcula, tokyonight-storm
+
 ### 1. zsh
 
 ```sh
