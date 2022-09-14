@@ -61,8 +61,8 @@ series: instructor
     * **Learning objectives**
       * Statements that describe what learners should be **able to do** after completing your course.
       * List of concepts
-      * How-to: [Bloom's taxonomy](https://tips.uark.edu/using-blooms-taxonomy/): Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
-      <img style="width:60%;" src="https://cpb-us-e1.wpmucdn.com/wordpressua.uark.edu/dist/a/315/files/2013/09/Blooms_Taxonomy_pyramid_cake-style-use-with-permission.jpg">
+      * How-to: [Bloom's taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/): Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
+      <img style="width:60%;" src="https://cdn.vanderbilt.edu/vu-wp0/wp-content/uploads/sites/59/2019/03/27124326/Blooms-Taxonomy.jpg">
 
 2. [創建引人入勝的課程](https://www.udemy.com/instructor/resources/?page=teaching)
     1. 步驟 1 Topic: 選擇您的課程**主題**。
