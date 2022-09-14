@@ -69,27 +69,33 @@ series: tool
 
 ### Note 筆記
 
-首先是兩款最多人推薦的筆記軟體個人評比
+先說說我的使用情境
+
+1. 技術文件, 電子書筆記, 報告內容節錄整理
+
+再來是兩款最多人推薦的筆記軟體個人評比
 都可以拖拉 google photo 等外部素材, 彼此之間的內容也都可以複製貼上
 
 * GoodNotes
-  * 短評: 手帳首選
+  * 短評: 廣度 (全面電子化, 文件管理). 手帳首選
   * ✅ 價格: 買斷 $270. 免費就有跨裝置 3 本筆記本
   * 操作: 兩指兩下還原, 三指兩下重做
   * 素材: 貼圖
   * 匯出: 檔案, PDF, Image
-  * ✅ 獨家: 無限層分類
+  * ✅ 獨家: 無限層分類, 雷射筆
 * Notability
-  * 短評: 錄音適合會議記錄
+  * 短評: 深度. 錄音適合會議記錄
   * 價格: 年費 $360. 免費沒有跨裝置, 且有每月編輯次數上限
   * ✅ 操作: 兩指還原, 三指重做
   * ✅ 素材: gif, 貼圖
   * ✅ 匯出: 檔案, PDF, Image, Google Drive
-  * ✅ 獨家: 錄音. 據說 pdf 編輯比較厲害
+  * ✅ 獨家: 錄音, 跨頁 編輯 虛線. 據說 pdf 編輯比較厲害
 
 * [MarginNote](https://www.marginnote.com/): PDF 心智圖 + 筆記
   * A brand new e-reader to better study and digest your books
-* [Drafts](https://getdrafts.com/)
+* [LiquidText](https://www.liquidtext.net/): PDF Editor with Superpowers
+* [PDF Expert](https://pdfexpert.com/): PDF Editor and Reader for Mac
+* [Drafts](https://getdrafts.com/): A Different Kind of Notes App. markdown
 
 ### Diagram 圖表
 
@@ -101,7 +107,8 @@ series: tool
 ### Drawing 繪畫
 
 * Paper: 素描
-* Procreate
+* Procreate: $330
+  * [給新手的Procreate小教室 | Nuomi諾米](https://www.youtube.com/watch?v=peINE7n0Yj8)
 * CSP (Clip Studio Paint)
 
 ### Editing 影音剪輯
