@@ -29,11 +29,13 @@ series: instructor
 ### Objectives 目標 效益
 
 1. [初心者系列 - tag: shoshinsha](https://blog.androchen.tw/tags/shoshinsha/): 紀錄我身為領域初學者的學習方式與目標進度規劃
-2. 學習如何教學, 以及如何設計課程
+2. 養成知識分享的技能, 學習如何教學, 以及如何設計課程
 
 ### KRs 結果 解法
 
-1. [x] 2022-09-13 學習教學技巧.
+1. [x] 2022-09-13 學習 Udemy 教學技巧
+2. [ ] 2022-09-20 學習 Hahow 教學技巧
+3. [ ] 2022-09-27 學習 Coursera 教學技巧
 
 <!--more-->
 
@@ -41,7 +43,7 @@ series: instructor
 
 ### 學習資源
 
-#### Udemy
+#### 🥇 Udemy
 
 1. [How to Create an Online Course: The Official Udemy Course](https://www.udemy.com/course/official-udemy-create-course/)
     * Learning Objective
@@ -57,8 +59,9 @@ series: instructor
     * Provide value
       * The important thing is to teach what you know and focus on content that will provide the most value to your learners, like a new technology that's going to disrupt a certain industry, an essential business skill that will help people grow their careers, or a personal skill that will improve your learners' lives.
     * **Learning objectives**
-      * statements that describe what learners should be **able to do** after completing your course.
-      * [Bloom's taxonomy](https://tips.uark.edu/using-blooms-taxonomy/): Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
+      * Statements that describe what learners should be **able to do** after completing your course.
+      * List of concepts
+      * How-to: [Bloom's taxonomy](https://tips.uark.edu/using-blooms-taxonomy/): Remembering, Understanding, Applying, Analyzing, Evaluating, Creating.
       <img style="width:60%;" src="https://cpb-us-e1.wpmucdn.com/wordpressua.uark.edu/dist/a/315/files/2013/09/Blooms_Taxonomy_pyramid_cake-style-use-with-permission.jpg">
 
 2. [創建引人入勝的課程](https://www.udemy.com/instructor/resources/?page=teaching)
