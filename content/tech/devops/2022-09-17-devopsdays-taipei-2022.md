@@ -90,9 +90,9 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ## Day 1 場次精選心得
 
-1. 09:50 - 10:50 [臺灣企業 DevOps 能力大公開. 王宏仁 │ iThome 副總編輯](https://devopsdays.tw/session-page/1150)
-2. 11:00 - 12:00 [多雲整合企業應用平台 DevOps SRE 落地實踐. 胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
-3. 13:30 - 14:10 ABC 會議室 [DevOps的高階工程技術實踐 董大偉（David Tung）](https://devopsdays.tw/session-page/1153)
+1. 09:50 - 10:50 [臺灣企業 DevOps 能力大公開 - 王宏仁 │ iThome 副總編輯](https://devopsdays.tw/session-page/1150)
+2. 11:00 - 12:00 [多雲整合企業應用平台 DevOps SRE 落地實踐 - 胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
+3. 13:30 - 14:10 ABC 會議室 [DevOps的高階工程技術實踐 - 董大偉（David Tung）](https://devopsdays.tw/session-page/1153)
 4. 14:25 - 14:50 DE 會議室 [在你的DevOps中加入一點Security — GitLab CI/CD with Snyk](https://devopsdays.tw/session-page/1145)
 5. 15:00 - 15:25 DE 會議室 [Cloud Native 資安，避免別人踩過的坑](https://devopsdays.tw/session-page/1157)
 6. 15:40 - 16:20 ABC 會議室 [From DevOps To DataOps——Data as a Product 資料專案教戰守則](https://devopsdays.tw/session-page/1172)
@@ -100,7 +100,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ### 🥇 臺灣企業 DevOps 能力大公開
 
-* [臺灣企業 DevOps 能力大公開. 王宏仁 │ iThome 副總編輯](https://devopsdays.tw/session-page/1150)
+* [王宏仁 │ iThome 副總編輯](https://devopsdays.tw/session-page/1150)
 * 觀點: 產業 | 投資比率 | 能力
   * 目前投入的錢仍然很少, DevOps 佔 IT 預算不到 5%
   * IT 約佔員工比例 5%, 今年各產業皆大幅擴編
@@ -140,31 +140,36 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * [Take the 2022 Accelerate State of DevOps Survey](https://cloud.google.com/blog/products/devops-sre/take-the-2022-state-of-devops-survey)
   * [State of DevOps 2022: Report Roundup](https://www.splunk.com/en_us/blog/learn/state-of-devops.html)
 
-### 🥇 TSMC
+### 🥇 多雲整合企業應用平台 DevOps SRE 落地實踐
 
-* 講者
-* 連結
+* [胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
 * 內容
 * 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
   * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s.itho.me/events/2021/tsmc/TSMC-DX-Journey-1996-2020-CC-BY-NC-ND-4.0-by-iThome.jpg">
 
-### 🥇 David
+### 🥇 DevOps的高階工程技術實踐
 
-* 講者
-* 連結
-* 內容
+* [董大偉（David Tung）| 光岩資訊 資深技術顧問；微軟技術社群區域總監](https://devopsdays.tw/session-page/1153)
+* [共筆講師版](https://hackmd.io/@twdeveloper/ByFfreJZo)
+  * 舉凡抽象問題 都可以用日常生活化的例子回答
+    * 頻繁/持續 呼吸/吃飯
+    * 持續 = 時時刻刻 (一刻 = 15分鐘
+  * 都只編輯同一份可運行的 code
+    * 不隱藏 code
+    * 時時刻刻整合
+  * 跟運動一樣
+    * 不擅長的事情, 一開始做都會痛
+    * 那怎麼辦? 持續做就不會痛了 = 鍛鍊
 
-### Topic 4
+### From DevOps To DataOps——Data as a Product 資料專案教戰守則
 
-* 講者
-* 連結
-* 內容
+* [顏良修 (Anna) Athemaster 炬識科技 CEO](https://devopsdays.tw/session-page/1172)
+* [共筆內容](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FSJlxitTeo)
 
-### Topic 5
+### 可觀測性 (Observability) 的實踐
 
-* 講者
-* 連結
-* 內容
+* [董淳吉 (Marcus Tung) | MAYO 鼎恒數位科技 總監](https://devopsdays.tw/session-page/1161)
+* [共筆內容](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FBkLestagj)
 
 ## Day 2 場次精選心得
 
