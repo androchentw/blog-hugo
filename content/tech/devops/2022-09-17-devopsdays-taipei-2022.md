@@ -145,7 +145,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 連結
 * 內容
 
-### 🥇 David 
+### 🥇 David
 
 * 講者
 * 連結
