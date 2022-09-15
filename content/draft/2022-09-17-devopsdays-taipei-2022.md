@@ -13,7 +13,7 @@ share_img: https://devopsdays.tw/2022/img/fb.jpg
 series: devops
 ---
 
-<img style="width:60%;" src="https://devopsdays.tw/2022/img/fb.jpg">
+<img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
 
 ## Overview
 
@@ -104,27 +104,36 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 觀點: 產業 | 投資比率 | 能力
   * 目前投入的錢仍然很少, DevOps 佔 IT 預算不到 5%
   * IT 約佔員工比例 5%, 今年各產業皆大幅擴編
-* iThome 2022 CIO大調查 系列文 + DORA
+* iThome 2022 CIO大調查 系列文 + DORA. 台灣菁英團隊 ~= 6%
 * [【iThome 2022 CIO大調查(上)】企業永續新常態下一步](https://www.ithome.com.tw/article/152321)
   * [【iThome 2022 CIO大調查(上)】因應新常態挑戰，企業IT投資今年2位數大成長](https://www.ithome.com.tw/article/152318)
-    * <img style="width:60%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg">
-    * <img style="width:60%;" alt="各產業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A81%E3%80%91%E5%B0%81%E9%9D%A2p2-IT%E6%8A%95%E8%B3%87-122dpi(1).png">
-    * <img style="width:60%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A83%E3%80%91%E5%B0%81%E9%9D%A2p2-IT%E6%8A%95%E8%B3%87-122dpi.png">
+    * <img style="width:80%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg">
+    * <img style="width:80%;" alt="各產業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A81%E3%80%91%E5%B0%81%E9%9D%A2p2-IT%E6%8A%95%E8%B3%87-122dpi(1).png">
+    * <img style="width:80%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A83%E3%80%91%E5%B0%81%E9%9D%A2p2-IT%E6%8A%95%E8%B3%87-122dpi.png">
   * [【iThome 2022 CIO大調查(上)】CIO優先目標今年不一樣，敏捷IT和ESG是新焦點](https://www.ithome.com.tw/article/152319)
-    * <img style="width:60%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A81%E3%80%91%E5%B0%81%E9%9D%A2p3-CIO%E7%9B%AE%E6%A8%99-122dpi.png">
-    * <img style="width:60%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A85%E3%80%91%E5%B0%81%E9%9D%A2p3-CIO%E7%9B%AE%E6%A8%99-120dpi.png">
+    * <img style="width:80%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A81%E3%80%91%E5%B0%81%E9%9D%A2p3-CIO%E7%9B%AE%E6%A8%99-122dpi.png">
+    * <img style="width:80%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A85%E3%80%91%E5%B0%81%E9%9D%A2p3-CIO%E7%9B%AE%E6%A8%99-120dpi.png">
 * [【iThome 2022 CIO大調查(中)】企業IT新戰力](https://www.ithome.com.tw/article/152585)
   * [【iThome 2022 CIO大調查(中)｜IT開發戰力分析】4成企業要擴編IT，年砸5百多萬發展DevOps](https://www.ithome.com.tw/article/152580)
-    * <img style="width:60%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A85%E3%80%91%E5%B0%81%E9%9D%A2p3-CIO%E7%9B%AE%E6%A8%99-120dpi.png">
-    * <img style="width:60%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A82%E3%80%91%E5%B0%81%E9%9D%A21p-%E8%B1%86%E5%AD%90-%E9%96%8B%E7%99%BC-V3.png">
+    * <img style="width:80%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A85%E3%80%91%E5%B0%81%E9%9D%A2p3-CIO%E7%9B%AE%E6%A8%99-120dpi.png">
+    * <img style="width:80%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A82%E3%80%91%E5%B0%81%E9%9D%A21p-%E8%B1%86%E5%AD%90-%E9%96%8B%E7%99%BC-V3.png">
   * [【iThome 2022 CIO大調查(中)｜DevOps能力分析】臺灣企業DevOps能力首度揭露數據，僅4.2%企業是精英](https://www.ithome.com.tw/article/152581)
-    * <img style="width:60%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg">
+    * <img style="width:80%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg">
   * [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
-    * <img style="width:60%;" alt="2022 企業新興技術雷達圖" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
+    * <img style="width:80%;" alt="2022 企業新興技術雷達圖" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
   * [【iThome 2022 CIO大調查(中)｜新興技術採用動向】新常態和ESG需求加速轉型，IT更仰賴關鍵技術戰力](https://www.ithome.com.tw/article/152582)
-    * <img style="width:60%;" alt="新興科技 2022 採用動向" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A82%E3%80%91%E5%B0%81%E9%9D%A2-1p-%E8%B1%86%E5%AD%90-%E6%96%B0%E8%88%88%E6%8A%80%E8%A1%93-V2.png">
+    * <img style="width:80%;" alt="新興科技 2022 採用動向" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A82%E3%80%91%E5%B0%81%E9%9D%A2-1p-%E8%B1%86%E5%AD%90-%E6%96%B0%E8%88%88%E6%8A%80%E8%A1%93-V2.png">
 * [【iThome 2022 CIO大調查(下)】各產業數位轉型加速，IT大步邁向雲原生](https://www.ithome.com.tw/article/152873)
 * [2022年度CIO大調查報告下載](https://www.cio.com.tw/annual-cio-survey-report-2022-pdf-download/)
+  * [【iThome 2022 CIO大調查(下) 各產業IT投資和人力總論】三大產業今年IT預算破億，金融與服務業上雲投資大增](https://www.ithome.com.tw/article/152871)
+    * <img style="width:80%;" alt="各產業 2022 年 IT 投資規模" src="https://s4.itho.me/sites/default/files/960-feng_mian_-2p-dou_zi_-itzong_lun_-jpg.jpg">
+    * <img style="width:80%;" alt="各產業 2022 年八大重點 IT 投資規模" src="https://s4.itho.me/sites/default/files/files/600(2)-BIG-封面-2p-豆子-IT總論.png">
+  * [【iThome 2022 CIO大調查(下) 一般製造業IT趨勢】因應新常態加速轉型腳步，6成製造業更積極投入轉型](https://www.ithome.com.tw/article/152825)
+    * <img style="width:80%;" alt="製造業 CIO 2022 年度目標 Top 10" src="https://s4.itho.me/sites/default/files/images/%E5%B0%81%E9%9D%A2-1P-%E8%87%B3%E6%B5%A9-%E4%B8%80%E8%88%AC%E8%A3%BD%E9%80%A0%E6%A5%AD%E3%80%90%E5%85%A7%E6%96%87%E5%9C%961%E3%80%91-V2.png">
+    * <img style="width:80%;" alt="製造業 CIO 2022 今年新常態 IT 對策 Top 10" src="https://s4.itho.me/sites/default/files/images/%E5%B0%81%E9%9D%A2-1P-%E8%87%B3%E6%B5%A9-%E4%B8%80%E8%88%AC%E8%A3%BD%E9%80%A0%E6%A5%AD%E3%80%90%E5%85%A7%E6%96%87%E5%9C%962%E3%80%91.png">
+  * [【iThome 2022 CIO大調查(下) 高科技業IT趨勢】永續發展成為新焦點，4成CIO將ESG列為年度Top3目標](https://www.ithome.com.tw/article/152826)
+    * <img style="width:80%;" alt="高科技業 IT 今年因應 ESG 作法 Top 10" src="https://s4.itho.me/sites/default/files/images/%E5%B0%81%E9%9D%A2-1P-%E8%87%B3%E6%B5%A9-%E9%AB%98%E7%A7%91%E6%8A%80%E6%A5%AD%E3%80%90%E5%85%A7%E6%96%87%E5%9C%961%E3%80%91.png">
+    * <img style="width:80%;" alt="高科技業 2022 新興科技採用 Top 10" src="https://s4.itho.me/sites/default/files/images/%E5%B0%81%E9%9D%A2-1P-%E8%87%B3%E6%B5%A9-%E9%AB%98%E7%A7%91%E6%8A%80%E6%A5%AD%E3%80%90%E5%85%A7%E6%96%87%E5%9C%963%E3%80%91.png">
 * State of DevOps
   * [2021 Accelerate State of DevOps Report](https://cloud.google.com/devops/state-of-devops)
   * [Take the 2022 Accelerate State of DevOps Survey](https://cloud.google.com/blog/products/devops-sre/take-the-2022-state-of-devops-survey)
