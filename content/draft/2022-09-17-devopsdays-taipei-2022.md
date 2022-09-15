@@ -139,13 +139,13 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * [Take the 2022 Accelerate State of DevOps Survey](https://cloud.google.com/blog/products/devops-sre/take-the-2022-state-of-devops-survey)
   * [State of DevOps 2022: Report Roundup](https://www.splunk.com/en_us/blog/learn/state-of-devops.html)
 
-### Topic 2
+### 🥇 TSMC
 
 * 講者
 * 連結
 * 內容
 
-### Topic 3
+### 🥇 David 
 
 * 講者
 * 連結
