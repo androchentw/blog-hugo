@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tech/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sat, 10 Sep 2022 00:40:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tech/feed.xml" rel="self" type="application/rss+xml"/><item><title>iPad Air 5 開箱與環境設定</title><link>https://blog.androchen.tw/ipad-setup/</link><pubDate>Sat, 10 Sep 2022 00:40:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ipad-setup/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1604399852419-f67ee7d5f2ef?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2531&amp;q=80">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tech/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Thu, 15 Sep 2022 09:55:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tech/feed.xml" rel="self" type="application/rss+xml"/><item><title>DevOpsDays Taipei 2022 心得</title><link>https://blog.androchen.tw/devopsdays-taipei-2022/</link><pubDate>Thu, 15 Sep 2022 09:55:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/devopsdays-taipei-2022/</guid><description>&lt;img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Ref: &lt;a href="https://blog.androchen.tw/agile-summit-2022/">Agile Summit 2022 敏捷高峰盛會心得&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Why 為什麼要 DevOps
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>How 如何 DevOps
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Common Pitfalls 常見的坑
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>精選內容
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;/ul>
+&lt;h3 id="objectives-目標-效益">Objectives 目標 效益&lt;/h3>
+&lt;ul>
+&lt;li>Project Management: 透過參考業界經驗, 建立專案管理方法, 使專案的實作與推廣過程, 可以更敏捷&lt;/li>
+&lt;li>Delivery Speed &amp;amp; Quality: 提升交付速度, 縮短交付週期&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs-結果-解法">KRs 結果 解法&lt;/h3>
+&lt;ul>
+&lt;li>瞭解實戰推動手法 + 懶人包&lt;/li>
+&lt;li>瞭解為何 DevOps 重要&lt;/li>
+&lt;li>瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏&lt;/li>
+&lt;/ul></description></item><item><title>iPad Air 5 開箱與環境設定</title><link>https://blog.androchen.tw/ipad-setup/</link><pubDate>Sat, 10 Sep 2022 00:40:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ipad-setup/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1604399852419-f67ee7d5f2ef?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2531&amp;q=80">
 &lt;p align="center">&lt;sub>&lt;sup>
 Photo by &lt;a href="https://unsplash.com/@g1sanju?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sanjeev Mohindra&lt;/a> on &lt;a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
 &lt;/sup>&lt;/sub>&lt;/p>
