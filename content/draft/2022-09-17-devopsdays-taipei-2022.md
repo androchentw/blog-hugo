@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "DevOpsDays Taipei 2022 心得"
 url: /devopsdays-taipei-2022
-# date: 2022-09-17T13:28:16+08:00
-date: 2022-09-17T15:34:16+08:00
+# date: 2022-09-15T09:28:16+08:00
+date: 2022-09-15T09:55:16+08:00
 author: androchentw
 type: post
 categories:
@@ -91,13 +90,13 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ## Day 1 場次精選心得
 
-1. 臺灣企業 DevOps 能力大公開. 王宏仁 │ iThome 副總編輯
-2. 多雲整合企業應用平台 DevOps SRE 落地實踐. 胡君怡 │ 台積電 企業應用平台部 部門經理
-3. ABC 會議室 DevOps的高階工程技術實踐 董大偉（David Tung）
-4. DE 會議室 在你的DevOps中加入一點Security — GitLab CI/CD with Snyk
-5. DE 會議室 Cloud Native 資安，避免別人踩過的坑
-6. ABC 會議室 From DevOps To DataOps——Data as a Product 資料專案教戰守則
-7. ABC 會議室 可觀測性(Observability)的實踐
+1. 09:50 - 10:50 [臺灣企業 DevOps 能力大公開. 王宏仁 │ iThome 副總編輯](https://devopsdays.tw/session-page/1150)
+2. 11:00 - 12:00 [多雲整合企業應用平台 DevOps SRE 落地實踐. 胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
+3. 13:30 - 14:10 ABC 會議室 [DevOps的高階工程技術實踐 董大偉（David Tung）](https://devopsdays.tw/session-page/1153)
+4. 14:25 - 14:50 DE 會議室 [在你的DevOps中加入一點Security — GitLab CI/CD with Snyk](https://devopsdays.tw/session-page/1145)
+5. 15:00 - 15:25 DE 會議室 [Cloud Native 資安，避免別人踩過的坑](https://devopsdays.tw/session-page/1157)
+6. 15:40 - 16:20 ABC 會議室 [From DevOps To DataOps——Data as a Product 資料專案教戰守則](https://devopsdays.tw/session-page/1172)
+7. 16:35 - 17:00 ABC 會議室 [可觀測性(Observability)的實踐](https://devopsdays.tw/session-page/1161)
 
 ### Topic 1
 
@@ -131,12 +130,20 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ## Day 2 場次精選心得
 
-1. 走過 DevOps 風雨的下一步.... 郭家齊（Edward Kuo） │ Microsoft MVP,Microsoft Regional Director
-2. DevOps 潮流下的 API First 開發策略吳剛志（Andrew Wu） │ 91APP 首席架構師
-3. ABC 會議室 為 DevOps 插上商業的翅膀. > DE 會議室 專案實踐自動化測試框架的設計與心路歷程
-4. ABC 會議室 DevOps Journey of Smart Manufacturing in Micron
-5. ABC 會議室 從失敗中吸取教訓的渾沌工程
-6. DE 會議室 Automating Security in IaC Pipelines with Policy as Code - 金融業IaC整合實踐
+1. 09:50 - 10:50 [走過 DevOps 風雨的下一步.... 郭家齊（Edward Kuo） │ Microsoft MVP,Microsoft Regional Director](https://devopsdays.tw/session-page/1164)
+2. 11:00 - 12:00 [DevOps 潮流下的 API First 開發策略吳剛志（Andrew Wu） │ 91APP 首席架構師](https://devopsdays.tw/session-page/1165)
+3. 13:30 - 15:00 607+608 會議室 Workshop - [絕對不能歪：透過 GitHub Action 在 Azure 上進行持續交付](https://devopsdays.tw/workshops-page/1353)
+4. 15:20 - 16:50 607+608 會議室 Workshop - [深度體驗 Azure DevOps Services 發行管理機制](https://devopsdays.tw/workshops-page/1355)
+
+### Backups
+
+* Workshop - [Elastic Observability 實作體驗營](https://devopsdays.tw/workshops-page/1147)
+  * [(行前準備) Elastic Observability 實作體驗營 @ DevOpsDays Taipei 2022](https://hackmd.io/u8vtIr82SZ-vEdDCe6Jo0w?view)
+  * [Elastic Observability](https://www.elastic.co/observability)
+* 13:30 - 14:10 ABC 會議室 為 DevOps 插上商業的翅膀. > DE 會議室 專案實踐自動化測試框架的設計與心路歷程
+* 14:25 - 14:50 ABC 會議室 DevOps Journey of Smart Manufacturing in Micron
+* 15:20 - 16:00 ABC 會議室 從失敗中吸取教訓的渾沌工程
+* 16:15 - 16:40 DE 會議室 Automating Security in IaC Pipelines with Policy as Code - 金融業IaC整合實踐
 
 ### Topic 1
 
