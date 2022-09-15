@@ -105,6 +105,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * 目前投入的錢仍然很少, DevOps 佔 IT 預算不到 5%
   * IT 約佔員工比例 5%, 今年各產業皆大幅擴編
 * iThome 2022 CIO大調查 系列文 + DORA. 台灣菁英團隊 ~= 6%
+* 此章節以下資料來源及版權均屬於 iThome
 * [【iThome 2022 CIO大調查(上)】企業永續新常態下一步](https://www.ithome.com.tw/article/152321)
   * [【iThome 2022 CIO大調查(上)】因應新常態挑戰，企業IT投資今年2位數大成長](https://www.ithome.com.tw/article/152318)
     * <img style="width:80%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg">
@@ -144,6 +145,8 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 講者
 * 連結
 * 內容
+* 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
+  * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s.itho.me/events/2021/tsmc/TSMC-DX-Journey-1996-2020-CC-BY-NC-ND-4.0-by-iThome.jpg">
 
 ### 🥇 David
 
