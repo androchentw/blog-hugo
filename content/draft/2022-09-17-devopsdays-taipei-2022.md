@@ -98,11 +98,13 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 6. 15:40 - 16:20 ABC 會議室 [From DevOps To DataOps——Data as a Product 資料專案教戰守則](https://devopsdays.tw/session-page/1172)
 7. 16:35 - 17:00 ABC 會議室 [可觀測性(Observability)的實踐](https://devopsdays.tw/session-page/1161)
 
-### Topic 1
+### 臺灣企業 DevOps 能力大公開
 
-* 講者
-* 連結
-* 內容
+* 王宏仁 │ iThome 副總編輯
+* [【iThome 2022 CIO大調查(上)】企業永續新常態下一步](https://www.ithome.com.tw/article/152321)
+  * [【iThome 2022 CIO大調查(上)】因應新常態挑戰，企業IT投資今年2位數大成長](https://www.ithome.com.tw/article/152318)
+  * <img style="width:60%;" src="https://s4.itho.me/sites/default/files/images/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A83%E3%80%91%E5%B0%81%E9%9D%A2p2-IT%E6%8A%95%E8%B3%87-122dpi.png">
+  * <img style="width:60%;" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg">
 
 ### Topic 2
 
