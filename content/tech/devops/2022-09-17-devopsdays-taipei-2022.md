@@ -185,8 +185,14 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### DevOps 潮流下的 API First 開發策略
 
 * [吳剛志（Andrew Wu） │ 91APP 首席架構師](https://devopsdays.tw/session-page/1165)
-* 連結
-* 內容
+* [講師版簡報 Google Slide](https://docs.google.com/presentation/d/1yN8SlMwqoPpO_69dwxsAxWRwLdUB0pmBXCpioxMK-5g/edit#slide=id.g1585e2daec4_0_141)
+* [AWS 的 "API 授權" 備忘錄  (2002 年...)](https://www.techbang.com/posts/88124-api-mandate-amazon)
+* [Ruddy Lee, 淺談 API First](https://ruddyblog.wordpress.com/2021/09/08/%E6%B7%BA%E8%AB%87-api-first/)
+  * <img style="width:100%;" alt="比較傳統開發與 API First 開發模式" src="https://ruddyblog.files.wordpress.com/2021/09/contract-first-1.png">
+* 期待: 創造 API 經濟
+* 治理策略, 角色, 流程
+* Contract First: 抽象化 + Mock
+* State Machine: 生命週期
 
 ### Workshop - 絕對不能歪：透過 GitHub Action 在 Azure 上進行持續交付
 
