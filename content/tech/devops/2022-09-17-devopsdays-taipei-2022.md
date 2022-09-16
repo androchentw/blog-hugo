@@ -181,6 +181,11 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### 走過 DevOps 風雨的下一步
 
 * [郭家齊（Edward Kuo） │ Microsoft MVP,Microsoft Regional Director](https://devopsdays.tw/session-page/1164)
+* Agile 思維文化 + DevOps 團隊流程 + SRE 工程技術
+* DB in DevOps 是另一個獨立的故事
+* DB 邏輯只剩 CRUD
+* Code Scan: SonarCube
+* API First
 
 ### DevOps 潮流下的 API First 開發策略
 
