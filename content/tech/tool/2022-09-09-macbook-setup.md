@@ -48,6 +48,15 @@ series: tool
 * Productivity: Alfred 5, Rocket Emoji, xtrafinder
 * Utils: f.lux, unarchiver, hidden bar, coconut battery
 
+### Home Folder Structure
+
+```text
+# ~/
+dev
+  andro
+Downloads  
+```
+
 ## homebrew - macOS 套件管理工具
 
 * [homebrew](https://brew.sh/index_zh-tw): macOS 套件管理工具
@@ -83,7 +92,7 @@ brew upgrade
 brew install --cask iterm2
 ```
 
-* [Themes](https://iterm2colorschemes.com/): JetBrains Darcula, tokyonight-storm
+* [Themes](https://iterm2colorschemes.com/): Nord, JetBrains Darcula, tokyonight-storm
 
 ### 1. zsh
 
@@ -267,6 +276,9 @@ cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
 
 ## Others
 
+* [MacBook screen flicker: Solutions you can try](https://macpaw.com/how-to/screen-flickering-mac)
+  * 螢幕閃爍, flickering, glitching
+  * System Preferences > Battery > 反勾選 "Automatic graphic switching."
 * [Change Date/Time format in the Screen Shot filename?](https://apple.stackexchange.com/questions/245771/change-date-time-format-in-the-screen-shot-filename)
   1. System Preferences > Language & Region > Advanced... > Times > Modify "Medium" Format
   2. Terminal
