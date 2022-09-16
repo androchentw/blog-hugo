@@ -203,8 +203,8 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ### Workshop - 絕對不能歪：透過 GitHub Action 在 Azure 上進行持續交付
 
-* [Microsoft Azure](https://devopsdays.tw/workshops-page/1353)
-* 連結
+* [Microsoft Azure 台灣微軟 客戶成功事業群 雲端解決方案架構師](https://devopsdays.tw/workshops-page/1353)
+* [DevOpsDayLab - 透過 GitHub Action 在 Azure 上進行持續交付](https://hackmd.io/@msazuredev/BJNaOL1xj#DevOpsDayLab---%E9%80%8F%E9%81%8E-GitHub-Action-%E5%9C%A8-Azure-%E4%B8%8A%E9%80%B2%E8%A1%8C%E6%8C%81%E7%BA%8C%E4%BA%A4%E4%BB%98)
 * 內容
 
 ### 🥇 深度體驗 Azure DevOps Services 發行管理機制
@@ -225,10 +225,23 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 ## 延伸閱讀
 
-* [ ]
+* [The Subtle Art of Being A Developer Advocate](https://dev.to/wassimchegham/the-subtle-art-of-being-a-developer-advocate-gdg)
+  * [Microsoft - Join our team and make the world better for developers!](https://docs.microsoft.com/en-us/teamblog/awesome-jobs?WT.mc_id=jobs-twitter-jeffsand)
+  * What my typical day looks like as a Developer Advocate?
+    * Creating content
+    * Public speaking
+    * Building tools in the open
+    * Product feedback
+    * Shipping products
+    * Being the Customer Zero
+    * Constantly learning
+    * Creating and improving official docs
+    * Helping others grow
+    * Business and OKRs
+  * <img style="width:80%;" alt="The developer advocate iceberg" src="https://res.cloudinary.com/practicaldev/image/fetch/s--E6p1mLXo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tbwn6178yb7do2e8bhk8.jpg">
 
 ## Murmur
 
-* 2022-09-15:
+* 2022-09-15: DevOpsDays Taipei 2022 超精實! 明年也要提早報名啊~~
 * 2022-09-16:
 * 2022-09-17:
