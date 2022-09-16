@@ -239,11 +239,52 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
      1. Activity 1: Set up production-deployment-workflow branch
   6. Step 5: Deploy to a production environment based on labels
 
-### 🥇 深度體驗 Azure DevOps Services 發行管理機制
+### 🥇 Workshop - 深度體驗 Azure DevOps Services 發行管理機制
 
-* 黃保翕(Will 保哥)
+* [黃保翕(Will 保哥)](https://devopsdays.tw/workshops-page/1355)
 * [共筆連結](https://hackmd.io/@DevOpsDay/2022/%2FHl_ovXB3TG2lJlZ7u-6o_Q#%E5%A0%B4%E6%AC%A12%EF%BC%9A0916%EF%BC%88%E4%BA%94%EF%BC%891520--1650-607608-%E6%9C%83%E8%AD%B0%E5%AE%A4)
-* 內容
+* Deliver value
+* 🥇 實現持續交付的八大原則
+  * The process for releaseing/deploying software **repateable** and **reliable**.
+  * **Automate everything**.
+    * 對系統增加信心, 而不是為了對人增加信心
+    * 人工測試過了, 提升的是對人的信心
+    * 自動化測試過了, 提升的是對系統的信心
+    * 可信度 vs. 可靠度
+    * 持續改善對測試的信心(可信度): 50 -> 60 -> 70 -> 80 分
+  * If somethings difficult or painful, **do it more often**.
+  * Keep everything in **source control**.
+  * **Done** means "release**d**".
+  * Build **quality** in!
+  * Everybody has **responsibility** for the release process.
+  * **Improve continuously**.
+* Continuous Delivery Practices
+  * Automated Builds
+  * Build Once
+  * Trunk Always Prod Ready
+  * Fix Immediately
+  * Everything in Source Control
+  * Feature Flags
+  * Blue/Green Deploy
+  * Canary Deployment
+* 體驗 Azure Devops
+  * Artifacts: 發行之前先取得一個穩定的成品. Always 只有一份. 但設定會依據環境而不同 => 需要做 Configuration Management
+  * Stages: 部署環境. (舞台) 想成是部署的目標. Dev - QA - Production
+    * 長期的? 短期的?
+    * 誰會用這個環境?
+    * 這個環境的目的是什麼?
+      * 每個環境都有一個明確目的必須被事先定義
+      * 發行一個新功能
+      * 確認問題被修復
+    * 會是 fresh install 還是覆蓋當前?
+    * 你可以接受 downtime 多久?
+    * 誰是這個環境的 owner? 誰可以 apply changes?
+  * Pre-/Post-deployment approvals, (Release) Gates (REST API, Azure Policy compliance, Azure Function, Azure Monitor alerts, work items, SonarCloud)
+  * 發行策略
+  * Release Approvals: 人工批准可以幫助建立人們對自動化發行的信心
+
+Q: Dependency Injection 怎麼做?
+  staging.apk, prod.apk 在什麼階段產出 & 測試 -> release
 
 ### Backups
 
