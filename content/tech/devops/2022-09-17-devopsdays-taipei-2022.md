@@ -283,9 +283,6 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * 發行策略
   * Release Approvals: 人工批准可以幫助建立人們對自動化發行的信心
 
-Q: Dependency Injection 怎麼做?
-  staging.apk, prod.apk 在什麼階段產出 & 測試 -> release
-
 ### Backups
 
 * Workshop - [Elastic Observability 實作體驗營](https://devopsdays.tw/workshops-page/1147)
