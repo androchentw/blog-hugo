@@ -31,10 +31,13 @@ series: tool
 ### KRs 結果 解法
 
 * [x] 2022-09-10 設定完成
+* [ ] 2022-09-17 重置 MacBook Pro 2019 15" i7 16G/256G
 
 <!--more-->
 
 ## Software 軟體
+
+* 其他會用到的軟體也有放在 [iPad Air 5 開箱與環境設定](https://blog.androchen.tw/ipad-setup/)
 
 ### Dev 開發
 
@@ -46,7 +49,7 @@ series: tool
 
 * Note: skitch
 * Productivity: Alfred 5, Rocket Emoji, xtrafinder
-* Utils: f.lux, unarchiver, hidden bar, coconut battery
+* Utils: f.lux, unarchiver, coconut battery, Dozer > hidden bar, Mounty for NTFS, Tunnel Bear VPN, viderproc
 
 ### Home Folder Structure
 
