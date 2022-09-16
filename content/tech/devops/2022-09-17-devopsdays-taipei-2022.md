@@ -192,7 +192,9 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 期待: 創造 API 經濟
 * 治理策略, 角色, 流程
 * Contract First: 抽象化 + Mock
-* State Machine: 生命週期
+* State Machine: 生命週期 => API Requirement Scenario
+* 權限管控 = 車票 vs. 識別證 = 驗證 前端 (適合大量灑出, 外部) vs. 後端 (適合安全考量, 內部)
+* 要看到全貌，必要條件是有充分的 "資訊" 與 "知識"。
 
 ### Workshop - 絕對不能歪：透過 GitHub Action 在 Azure 上進行持續交付
 
