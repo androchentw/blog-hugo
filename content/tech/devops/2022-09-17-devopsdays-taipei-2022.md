@@ -205,7 +205,39 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 * [Microsoft Azure 台灣微軟 客戶成功事業群 雲端解決方案架構師](https://devopsdays.tw/workshops-page/1353)
 * [DevOpsDayLab - 透過 GitHub Action 在 Azure 上進行持續交付](https://hackmd.io/@msazuredev/BJNaOL1xj#DevOpsDayLab---%E9%80%8F%E9%81%8E-GitHub-Action-%E5%9C%A8-Azure-%E4%B8%8A%E9%80%B2%E8%A1%8C%E6%8C%81%E7%BA%8C%E4%BA%A4%E4%BB%98)
-* 內容
+* [devopsdays-2022-lab-github-action-azure](https://github.com/androchentw/devopsdays-2022-lab-github-action-azure)
+  1. Template: [GitHub Actions: Continuous Delivery with Azure](<https://github.com/skills/continuous-delivery-azure>
+  2. Step 1: Trigger a job based on labels
+     * `workflow branch: staging-workflow. deploy-staging.yml`
+  3. Step 2: Set up an Azure environment
+     1. Activity 1: Configure GITHUB_TOKEN permissions
+
+         * ```sh
+             # 1. Generate id/credentials on Azure Cloud Shell
+             az account show
+             # > id => AZURE_SUBSCRIPTION_ID
+
+             # 2. Create service principal
+             az ad sp create-for-rbac --name "GitHub-Actions" --role contributor \
+                                     --scopes /subscriptions/{subscription-id} \
+                                     --sdk-auth
+             # > output => AZURE_CREDENTIALS
+
+             # 3. Setup GitHub > Settings > Secrets > Actions: AZURE_SUBSCRIPTION_ID, AZURE_CREDENTIALS
+             ```
+
+     2. Activity 2: Set up Azure resource provision workflow
+        * `workflow branch: azure-configuration. spinup-destroy.yml`
+     3. Activity 3: Edit deploy-staging file. Edit branch: `staging-workflow`
+     4. Activity 4: Preparing `staging-test` branch
+  4. Step 3: Spin up an environment based on labels
+     1. PAT -> Repo `CR_PAT`
+     2. label: `spin up environment`
+     3. `az provider register -n Microsoft.App --wait`
+     4. `az provider register -n Microsoft.OperationalInsights --wait`
+  5. Step 4: Deploy to a staging environment based on labels
+     1. Activity 1: Set up production-deployment-workflow branch
+  6. Step 5: Deploy to a production environment based on labels
 
 ### 🥇 深度體驗 Azure DevOps Services 發行管理機制
 
