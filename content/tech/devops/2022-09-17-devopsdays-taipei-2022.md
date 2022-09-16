@@ -178,6 +178,28 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 3. 13:30 - 15:00 607+608 會議室 Workshop - [絕對不能歪：透過 GitHub Action 在 Azure 上進行持續交付](https://devopsdays.tw/workshops-page/1353)
 4. 15:20 - 16:50 607+608 會議室 Workshop - [深度體驗 Azure DevOps Services 發行管理機制](https://devopsdays.tw/workshops-page/1355)
 
+### 走過 DevOps 風雨的下一步
+
+* [郭家齊（Edward Kuo） │ Microsoft MVP,Microsoft Regional Director](https://devopsdays.tw/session-page/1164)
+
+### DevOps 潮流下的 API First 開發策略
+
+* [吳剛志（Andrew Wu） │ 91APP 首席架構師](https://devopsdays.tw/session-page/1165)
+* 連結
+* 內容
+
+### Workshop - 絕對不能歪：透過 GitHub Action 在 Azure 上進行持續交付
+
+* [Microsoft Azure](https://devopsdays.tw/workshops-page/1353)
+* 連結
+* 內容
+
+### 🥇 深度體驗 Azure DevOps Services 發行管理機制
+
+* 黃保翕(Will 保哥)
+* [共筆連結](https://hackmd.io/@DevOpsDay/2022/%2FHl_ovXB3TG2lJlZ7u-6o_Q#%E5%A0%B4%E6%AC%A12%EF%BC%9A0916%EF%BC%88%E4%BA%94%EF%BC%891520--1650-607608-%E6%9C%83%E8%AD%B0%E5%AE%A4)
+* 內容
+
 ### Backups
 
 * Workshop - [Elastic Observability 實作體驗營](https://devopsdays.tw/workshops-page/1147)
@@ -187,36 +209,6 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 14:25 - 14:50 ABC 會議室 [DevOps Journey of Smart Manufacturing in Micron](https://devopsdays.tw/session-page/1170)
 * 15:20 - 16:00 ABC 會議室 [從失敗中吸取教訓的渾沌工程](https://devopsdays.tw/session-page/1173)
 * 16:15 - 16:40 DE 會議室 [Automating Security in IaC Pipelines with Policy as Code - 金融業IaC整合實踐](https://devopsdays.tw/session-page/1175)
-
-### Topic 1
-
-* 講者
-* 連結
-* 內容
-
-### Topic 2
-
-* 講者
-* 連結
-* 內容
-
-### Topic 3
-
-* 講者
-* 連結
-* 內容
-
-### Topic 4
-
-* 講者
-* 連結
-* 內容
-
-### Topic 5
-
-* 講者
-* 連結
-* 內容
 
 ## 延伸閱讀
 
