@@ -316,5 +316,16 @@ Release 部署的時間 / 環境切割
 ## Murmur
 
 * 2022-09-15: DevOpsDays Taipei 2022 超精實! 明年也要提早報名啊~~
-* 2022-09-16:
-* 2022-09-17:
+* 2022-09-16: 胡思亂想: 導入金三角 (持續 + 改"善") ~~以後我們會專門做一期專文為大家講解~~
+  * 天時 Precise Goal & Time 精準的目標與時機
+    * 時機 & 痛點, user 覺得痛 != 阿嬤覺得你餓
+    * => OKR, OGSM
+  * 地利 Appropriate Flow & Tool 合適的流程與工具
+    * 適用場景很重要, 殺雞牛刀
+    * => DevOps, SRE
+  * 人和 Good Team & Culture 良好的團隊與文化
+    * 學習型組織, 有機成長
+    * => Agile
+* 2022-09-17: 今年精髓 = 基努李維 1+1=5, 所以我也改了一個雅量XDDDD
+  * <img style="width:80%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
+  * <img style="width:80%;" alt="基努李維 雅量" src="https://memes.tw/user-wtf/1663336615436.jpg">
