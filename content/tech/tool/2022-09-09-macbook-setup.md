@@ -146,6 +146,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Nerd font
 brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
+ 
+# 為了稍後的 p10k 設定, 要讓 icon 能正常顯示
+# iTerm2 > Preferences > Profile > Text > Font > 選 Hack Nerd Font Mono
+# https://github.com/romkatv/powerlevel10k/issues/996
 ```
 
 ### 4. Powerlevel10k: oh-my-zsh Themes
@@ -156,11 +160,14 @@ brew install romkatv/powerlevel10k/powerlevel10k
 echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
 source ~/.zshrc
 p10k configure
+
+
 ```
 
 ### 5. zsh plugins
 
 Note: 這一塊我在弄的時候有點搞砸了... 但總之最後是通了, 之後有機會 (x) 再回來修
+=> 所以後來改先裝 fig (因為 fig 裡也有這些 package)
 
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
