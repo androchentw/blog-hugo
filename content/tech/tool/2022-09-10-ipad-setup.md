@@ -169,6 +169,16 @@ series: tool
 * ABEMA
 * テレビ視聴
 
+### Journal 日記軟體
+
+目前是用 Daylio, 但是只支援 iOS, 不支援 macOS
+重視的有:
+
+1. Template 輸入模版
+2. On this day 重回這一天
+3. iOS + Mac or Web: 鍵盤輸入 (沒有就只能先用 notes 或 keep 複製貼上)
+4. 心情
+
 ### Others 其他
 
 * [My Gear](https://curtismchale.ca/about/my-gear/)
