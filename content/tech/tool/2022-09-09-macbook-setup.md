@@ -54,6 +54,8 @@ series: tool
 ### Other Mac Setups
 
 * Trackpad, Accessibility > Pointer Control, Trackpad Options > Enabling Dragging (three finger drag)
+* Keyboard > Shortcuts 
+  * Input Source: ⌘ + space. 與 spotlight 互換 ⌃ + space
 * Sharing (Computer Name), Dock (Left)
 * Batter > Battery > disable "Automatic graphics swithting"
   * [MacBook screen flicker: Solutions you can try](https://macpaw.com/how-to/screen-flickering-mac)
