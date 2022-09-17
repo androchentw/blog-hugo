@@ -49,7 +49,17 @@ series: tool
 
 * Note: skitch
 * Productivity: Alfred 5, Rocket Emoji, xtrafinder
-* Utils: f.lux, unarchiver, coconut battery, Dozer > hidden bar, Mounty for NTFS, Tunnel Bear VPN, viderproc
+* Utils: f.lux, unarchiver, coconut battery, Mounty for NTFS, Tunnel Bear VPN, VideoProc
+
+```sh
+brew install --cask flux
+brew install --cask the-unarchiver
+brew install --cask dozer
+brew install --cask coconutbattery
+brew install --cask mounty
+brew install --cask tunnelbear
+brew install --cask macx-video
+```
 
 ### Other Mac Setups
 
@@ -135,6 +145,9 @@ zsh --version
 
 ### 2. oh-my-zsh: zsh setup management framework
 
+
+下次再試試看也用 Fig 安裝 oh-my-zsh
+
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # vim ~/.zshrc
@@ -164,10 +177,11 @@ p10k configure
 
 ```
 
-### 5. zsh plugins
+### 5. ~~zsh plugins~~ 改用 Fig 安裝 Plugins
 
 Note: 這一塊我在弄的時候有點搞砸了... 但總之最後是通了, 之後有機會 (x) 再回來修
-=> 所以後來改先裝 fig (因為 fig 裡也有這些 package)
+
+=> 2022-09-17 改先裝 fig (因為 fig 裡也有這些 package), 就不用敲這些指令了! 而且可以用帳號同步, 太方便了
 
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
@@ -230,6 +244,13 @@ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 source ~/.zshrc
 exec "$SHELL"
+
+pyenv --version
+# > pyenv 2.3.4
+pyenv-virtualenv --version
+# > /usr/local/bin/pyenv-virtualenv: line 106: pyenv-version-name: command not found
+# > /usr/local/bin/pyenv-virtualenv: line 141: pyenv-prefix: command not found
+# > pyenv-virtualenv 1.1.5 (virtualenv unknown)
 ```
 
 ### python3 + pip3
@@ -244,15 +265,18 @@ which python3
 # /usr/bin/python3
 python3 --version
 # Python 3.8.9
+# Python 3.9.6
 pip3 --version
 # pip 20.2.3 from /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages/pip (python 3.8)
+# pip 21.2.4 from /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/pip (python 3.9)
 which pip3
 # /usr/bin/pip3
 
-pyenv install --list | grep " 3\.[10]" 
+pyenv install --list | grep " 3\.[1]" 
 pyenv install 3.10.6 
 
 pyenv global 3.10.6
+# restart iTerm2
 python3 --version
 # Python 3.10.6
 pyenv virtualenv 3.10.6 env-3.10.6
@@ -263,6 +287,8 @@ cd test
 pyenv local env-3.10.6
 python --version
 # Python 3.10.6
+cd ..
+rm -rf test
 
 
 brew install python3
