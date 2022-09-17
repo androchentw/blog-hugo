@@ -4,27 +4,29 @@
 &lt;ul>
 &lt;li>Why 為什麼要 DevOps
 &lt;ul>
-&lt;li>持續(穩定可靠)交付高品質軟體產品&lt;/li>
+&lt;li>應變快速變動的市場需求, 持續(時時刻刻, 穩定可靠)交付高品質軟體產品&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>How 如何 DevOps
 &lt;ul>
-&lt;li>投資 + 文化 + 工程技術&lt;/li>
+&lt;li>投資(人才/方案) + 教育文化 + 工程實踐&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Common Pitfalls 常見的坑
 &lt;ul>
-&lt;li>只顧速度, 不顧品質&lt;/li>
+&lt;li>只顧速度, 不顧品質 = 持續交付垃圾 =&amp;gt; 測試!&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>精選內容
 &lt;ul>
-&lt;li>iThome: 臺灣企業 DevOps 能力大公開&lt;/li>
-&lt;li>TSMC: 多雲整合企業應用平台 DevOps SRE 落地實踐&lt;/li>
-&lt;li>David: DevOps的高階工程技術實踐&lt;/li>
-&lt;li>Workshop - 深度體驗 Azure DevOps Services 發行管理機制&lt;/li>
+&lt;li>iThome 王宏仁: 臺灣企業 DevOps 能力大公開&lt;/li>
+&lt;li>TSMC 胡君怡: 多雲整合企業應用平台 DevOps SRE 落地實踐&lt;/li>
+&lt;li>David 董大偉: DevOps的高階工程技術實踐&lt;/li>
+&lt;li>Will 保哥: Workshop - 深度體驗 Azure DevOps Services 發行管理機制&lt;/li>
+&lt;li>91 App Andrew: DevOps 潮流下的 API First 開發策略&lt;/li>
 &lt;/ul>
 &lt;/li>
+&lt;li>今年流行的警語: 以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love &amp;amp; Peace.&lt;/li>
 &lt;/ul>
 &lt;img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&amp;url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&amp;width=1200&amp;sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
 &lt;p align="center">&lt;sub>
