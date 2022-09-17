@@ -4,22 +4,25 @@
 &lt;ul>
 &lt;li>Why 為什麼要 DevOps
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;li>持續(穩定可靠)交付高品質軟體產品&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>How 如何 DevOps
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;li>投資 + 文化 + 工程技術&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Common Pitfalls 常見的坑
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;li>只顧速度, 不顧品質&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>精選內容
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;li>iThome: 臺灣企業 DevOps 能力大公開&lt;/li>
+&lt;li>TSMC: 多雲整合企業應用平台 DevOps SRE 落地實踐&lt;/li>
+&lt;li>David: DevOps的高階工程技術實踐&lt;/li>
+&lt;li>Workshop - 深度體驗 Azure DevOps Services 發行管理機制&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -29,7 +32,7 @@ EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
 &lt;/sub>&lt;/p>
 &lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> &lt;/li>
+&lt;li>需求變動越來越快, 如何快速滿足需求, 並多方嘗試各種解決方案, 觀察回饋?&lt;/li>
 &lt;/ul>
 &lt;h3 id="objectives-目標-效益">Objectives 目標 效益&lt;/h3>
 &lt;ul>
@@ -38,7 +41,12 @@ EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
 &lt;/ul>
 &lt;h3 id="krs-結果-解法">KRs 結果 解法&lt;/h3>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> 瞭解實戰推動手法 + 懶人包 =&amp;gt; &lt;a href="https://ruddyblog.wordpress.com/2017/10/27/%E7%9C%8B%E8%A6%8B%E5%85%A8%E8%B2%8C/">「專案開始之初，首重看見全貌」&amp;ndash; Ruddy Lee 91 敏捷教練&lt;/a>&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解為何 DevOps 重要&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> 瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏&lt;/li>
+&lt;li>瞭解實戰推動手法 + 懶人包
+&lt;ul>
+&lt;li>沒有懶人包! 都需要因應各種場景而定&lt;/li>
+&lt;li>&lt;a href="https://ruddyblog.wordpress.com/2017/10/27/%E7%9C%8B%E8%A6%8B%E5%85%A8%E8%B2%8C/">「專案開始之初，首重看見全貌」&amp;ndash; Ruddy Lee 91 敏捷教練&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>瞭解為何 DevOps 重要&lt;/li>
+&lt;li>瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏&lt;/li>
 &lt;/ul></description></item></channel></rss>
