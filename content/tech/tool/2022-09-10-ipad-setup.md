@@ -51,13 +51,17 @@ series: tool
 
 ### 思考/工作 流程
 
-1. Google Calendar time blocking
-2. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
-3. Google Slide 每週 KPT Summary, 對焦周/月/季計畫
-4. Miro 製作/對齊 總圖表, 更有全局觀. 無限大畫布, 串聯零散想法
-5. Google Docs, Spreadsheet 補充細節
-6. Hugo Blog by GitHub Page 輸出學習過程/經驗
-7. Unsplash 找封面圖, Flaticon 找圖示, imgur.com 蒐集圖庫
+1. 靈感 / Presentation / Brainstorming: [Canva], [Miro], Google Slide
+2. Google Calendar time blocking
+3. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
+4. Google Slide 每週 KPT Summary, 對焦周/月/季計畫
+5. [Miro] 製作/對齊 總圖表, 更有全局觀. 無限大畫布, 串聯零散想法
+6. Google Docs, Spreadsheet 補充細節
+7. Hugo Blog by GitHub Page 輸出學習過程/經驗
+8. Unsplash 找封面圖, Flaticon 找圖示, imgur.com 蒐集圖庫
+
+[Canva](https://www.canva.com/)
+[Miro](https://miro.com/)
 
 ### Productivity 生產力
 
@@ -118,7 +122,9 @@ series: tool
 ### Editing 影音剪輯
 
 * All
-  * Canva: 平面設計, 圖片影片剪輯
+  * Canva: 簡報, 平面設計, 圖片影片剪輯. 月費 $300; 5人團一人年費 $900 = 月費 $75
+    * [【Canva Pro 中文版】2022 專業版 VS 免費版 5個你不能錯過的功能](https://lashiblog.com/canva-pro-vs-free/)
+    * 去背, 社群排程, 調整大小, Smartmockups, 5GB -> 1TB
   * Darkroom: 相片影片剪輯
 * Photo
   * [Snapseed](https://apps.apple.com/tw/app/snapseed/id439438619)
