@@ -167,10 +167,25 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
     * 不擅長的事情, 一開始做都會痛
     * 那怎麼辦? 持續做就不會痛了 = 鍛鍊
 
-### From DevOps To DataOps——Data as a Product 資料專案教戰守則
+### 🥈 From DevOps To DataOps——Data as a Product 資料專案教戰守則
 
 * [顏良修 (Anna) Athemaster 炬識科技 CEO](https://devopsdays.tw/session-page/1172)
 * [共筆內容](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FSJlxitTeo)
+* [ATHEMASTER-Giveaways](https://athemastertw.notion.site/ATHEMASTER-Giveaways-90cf006b09c14cd6b409c2e55d178f78)
+* 5 stages + 6 roles + 7 checkpoint 更早發現風險 change management
+  * Team > Protocol > Design > Develop > Deliver
+  * Data Product Owner, User, Definer, Operator, Developer, Sysadmin
+  * Scope, Team, Task division , Schedule, Risk evaluation, Technical cost, Workflow
+* Q&A
+  * Data Quality Control 怎麼做: 順序很重要
+    1. 定義 Data Scope, 標的
+    2. 分類 (重要度)
+    3. 希望治理到什麼程度
+    4. 方法論, 規則, 證照, 產品
+  * DataOps 推廣至 User 的流程建議
+    1. 蒐集 user 情境
+    2. 可視化 規則 + 足跡明確
+    3. 迭代
 
 ### 可觀測性 (Observability) 的實踐
 
