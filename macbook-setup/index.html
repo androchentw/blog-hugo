@@ -85,7 +85,7 @@ KRs 結果 解法
 </span></span><span style=display:flex><span><span style=color:#228b22># Run these two commands in your terminal to add Homebrew to your PATH:</span>
 </span></span><span style=display:flex><span><span style=color:#228b22># 如果是 M1 的話需要加以下兩個 command. Intel 的不用, /usr/local 本來就在 PATH 了</span>
 </span></span><span style=display:flex><span><span style=color:#228b22># https://stackoverflow.com/questions/70983104/brew-installs-not-appearing-in-usr-local-bin</span>
-</span></span><span style=display:flex><span><span style=color:#658b00>echo</span> <span style=color:#cd5555>&#39;eval &#34;$(/opt/homebrew/bin/brew shellenv)&#34;&#39;</span> &gt;&gt; /Users/AndroChen/.zprofile
+</span></span><span style=display:flex><span><span style=color:#658b00>echo</span> <span style=color:#cd5555>&#39;eval &#34;$(/opt/homebrew/bin/brew shellenv)&#34;&#39;</span> &gt;&gt; /Users/androchentw/.zprofile
 </span></span><span style=display:flex><span><span style=color:#658b00>eval</span> <span style=color:#cd5555>&#34;</span><span style=color:#8b008b;font-weight:700>$(</span>/opt/homebrew/bin/brew shellenv<span style=color:#8b008b;font-weight:700>)</span><span style=color:#cd5555>&#34;</span>
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>brew update 
@@ -295,17 +295,17 @@ KRs 結果 解法
 </span></span><span style=display:flex><span><span style=color:#228b22># restart iTerm2</span>
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>which python3
-</span></span><span style=display:flex><span><span style=color:#228b22># /Users/AndroChen/.pyenv/shims/python3</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># /Users/androchentw/.pyenv/shims/python3</span>
 </span></span><span style=display:flex><span>which pip3
-</span></span><span style=display:flex><span><span style=color:#228b22># /Users/AndroChen/.pyenv/shims/pip3</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># /Users/androchentw/.pyenv/shims/pip3</span>
 </span></span><span style=display:flex><span>pip3 --version
-</span></span><span style=display:flex><span><span style=color:#228b22># pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># pip 22.2.1 from /Users/androchentw/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)</span>
 </span></span><span style=display:flex><span>which python
-</span></span><span style=display:flex><span><span style=color:#228b22># /Users/AndroChen/.pyenv/shims/python</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># /Users/androchentw/.pyenv/shims/python</span>
 </span></span><span style=display:flex><span>which pip
-</span></span><span style=display:flex><span><span style=color:#228b22># /Users/AndroChen/.pyenv/shims/pip</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># /Users/androchentw/.pyenv/shims/pip</span>
 </span></span><span style=display:flex><span>pip --version
-</span></span><span style=display:flex><span><span style=color:#228b22># pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># pip 22.2.1 from /Users/androchentw/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)</span>
 </span></span></code></pre></td></tr></table></div></div><blockquote><p>==> /usr/bin occurs before /usr/local/bin This means that system-provided programs
 will be used instead of those provided by Homebrew. This is an issue if you eg. brew > installed Python.</p><p>Consider editing your .bash_profile to put: /usr/local/bin ahead of /usr/bin in your > $PATH.</p></blockquote><h2 id=backup-shell-rc-settings>Backup shell .rc settings</h2><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-1>1</a>
 </span><span style="white-space:pre;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-2>2</a>
