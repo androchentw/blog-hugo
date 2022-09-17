@@ -47,16 +47,18 @@ series: tool
 
 ### Office
 
-* Note: skitch
-* Productivity: Alfred 5, Rocket Emoji, xtrafinder
-* Utils: f.lux, unarchiver, coconut battery, Mounty for NTFS, Tunnel Bear VPN, VideoProc
+* Utils: xtrafinder
 
 ```sh
+brew install --cask alfred
+brew install --cask rocket
+brew install --cask skitch
 brew install --cask flux
 brew install --cask the-unarchiver
 brew install --cask dozer
 brew install --cask coconutbattery
 brew install --cask mounty
+brew install --cask karabiner-elements
 brew install --cask tunnelbear
 brew install --cask macx-video
 ```
@@ -110,16 +112,24 @@ brew upgrade
 * [Day5 ＭacOS - 打造美觀的終端機畫面](https://ithelp.ithome.com.tw/articles/10263387?sc=rss.iron)
 * [Day 19 - 好用工具篇](https://ithelp.ithome.com.tw/articles/10207691)
 * [iTerm2](https://iterm2.com/index.html) is a replacement for Terminal and the successor to iTerm
+
+### iTerm2 shortcuts
+
 * [How to set keyboard shortcuts to jump to beginning/end of line?](https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line?_gl=1*1uv9250*_ga*ODk4MjEzOTA3LjE2NjI2NzQ1MjQ.*_ga_S812YQPLT2*MTY2MjY3NDUyMy4xLjAuMTY2MjY3NDUyNy4wLjAuMA..)
+* [Keyboard Shortcuts for Jumping and Deleting in iTerm2](https://mariusschulz.com/blog/keyboard-shortcuts-for-jumping-and-deleting-in-iterm2)
 
 ```sh
 # iTerm2: replacement for Terminal
 brew install --cask iterm2
 
-brew install --cask alfred
-
 ### fig: IDE-style autocomplete for your existing terminal
 brew install --cask fig
+
+# Setup shortcuts
+# ⌘ ← "SEND HEX CODE" 0x01
+# ⌘ → "SEND HEX CODE" 0x05
+# ⌥ ← "SEND ESC SEQ"  b
+# ⌥ → "SEND ESC SEQ"  f
 ```
 
 * [Themes](https://iterm2colorschemes.com/): Nord, JetBrains Darcula, tokyonight-storm
