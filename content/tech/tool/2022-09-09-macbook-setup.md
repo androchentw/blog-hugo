@@ -64,7 +64,7 @@ brew install --cask macx-video
 ### Other Mac Setups
 
 * Trackpad, Accessibility > Pointer Control, Trackpad Options > Enabling Dragging (three finger drag)
-* Keyboard > Shortcuts 
+* Keyboard > Shortcuts
   * Input Source: ⌘ + space. 與 spotlight 互換 ⌃ + space
 * Sharing (Computer Name), Dock (Left)
 * Batter > Battery > disable "Automatic graphics swithting"
@@ -144,7 +144,6 @@ zsh --version
 ```
 
 ### 2. oh-my-zsh: zsh setup management framework
-
 
 下次再試試看也用 Fig 安裝 oh-my-zsh
 
