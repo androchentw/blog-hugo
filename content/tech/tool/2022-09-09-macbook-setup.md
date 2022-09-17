@@ -65,7 +65,7 @@ brew install --cask macx-video
 
 * Trackpad, Accessibility > Pointer Control, Trackpad Options > Enabling Dragging (three finger drag)
 * Keyboard > Shortcuts
-  * Input Source: ⌘ + space. 與 spotlight 互換 ⌃ + space
+  * Input Source: cmd ⌘ + space. 與 spotlight 互換 ctrl ⌃ + space
 * Sharing (Computer Name), Dock (Left)
 * Batter > Battery > disable "Automatic graphics swithting"
   * [MacBook screen flicker: Solutions you can try](https://macpaw.com/how-to/screen-flickering-mac)
@@ -76,6 +76,7 @@ brew install --cask macx-video
 # ~/
 dev
   andro
+  env
 Downloads  
 ```
 
@@ -172,8 +173,6 @@ brew install romkatv/powerlevel10k/powerlevel10k
 echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
 source ~/.zshrc
 p10k configure
-
-
 ```
 
 ### 5. ~~zsh plugins~~ 改用 Fig 安裝 Plugins
@@ -201,6 +200,16 @@ vi ~/.zshrc
 
 # brew install zsh-autosuggestions
 # echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc 
+```
+
+### VS Code 設定 p10k terminal
+
+* Preferences: Open User Settings JSON (cmd ⌘ + shift + P) 加入以下:
+
+```json
+"terminal.external.osxExec": "iTerm2.app",
+"terminal.integrated.defaultProfile.osx": "zsh",
+"terminal.integrated.fontFamily": "Hack Nerd Font Mono"
 ```
 
 ## git - 版本控制
