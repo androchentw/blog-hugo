@@ -20,13 +20,16 @@ series: devops
 Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
 
 * Why 為什麼要 DevOps
-  * [ ]
+  * 持續(穩定可靠)交付高品質軟體產品
 * How 如何 DevOps
-  * [ ]
+  * 投資 + 文化 + 工程技術
 * Common Pitfalls 常見的坑
-  * [ ]
+  * 只顧速度, 不顧品質
 * 精選內容
-  * [ ]
+  * iThome: 臺灣企業 DevOps 能力大公開
+  * TSMC: 多雲整合企業應用平台 DevOps SRE 落地實踐
+  * David: DevOps的高階工程技術實踐
+  * Workshop - 深度體驗 Azure DevOps Services 發行管理機制
 
 <img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
 <p align="center"><sub>
@@ -35,7 +38,7 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 
 ### Challenges 現況 挑戰
 
-* [ ]
+* 需求變動越來越快, 如何快速滿足需求, 並多方嘗試各種解決方案, 觀察回饋?
 
 ### Objectives 目標 效益
 
@@ -44,9 +47,11 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 
 ### KRs 結果 解法
 
-* [ ] 瞭解實戰推動手法 + 懶人包 => [「專案開始之初，首重看見全貌」-- Ruddy Lee 91 敏捷教練](https://ruddyblog.wordpress.com/2017/10/27/看見全貌/)
-* [x] 瞭解為何 DevOps 重要
-* [ ] 瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏
+* 瞭解實戰推動手法 + 懶人包
+  * 沒有懶人包! 都需要因應各種場景而定
+  * [「專案開始之初，首重看見全貌」-- Ruddy Lee 91 敏捷教練](https://ruddyblog.wordpress.com/2017/10/27/看見全貌/)
+* 瞭解為何 DevOps 重要
+* 瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏
 
 <!--more-->
 
@@ -70,26 +75,6 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 根據 iThome 的報導，不論是國內外的知名企業例如台積電、金士頓、趨勢科技、國泰金控等皆早已擁抱 DevOps，引領企業持續改善、邁向新一波的 IT 數位轉型。DevOps 作為同時蘊含技術與文化轉型雙主軸的 IT 熱門關鍵字，其影響力已不僅是 IT 圈內人人皆知，更擴展至企業組織的各個層面。
 
-* Key Sessions
-  * [ ]
-
-### Q 收穫最大的 心法 是什麼?
-
-* [ ]
-
-### Q 收穫最大的 實戰經驗 是什麼?
-
-* [ ]
-
-### Q 特別有印象的 引述 是什麼?
-
-* [ ]
-
-### Q 公司團隊/內部該如何推廣/實踐?
-
-* [ ]
-
-### Q 原先設定的與會目標, 有回答到嗎?
 
 ------------------------------------------------
 
