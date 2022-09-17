@@ -51,6 +51,13 @@ series: tool
 * Productivity: Alfred 5, Rocket Emoji, xtrafinder
 * Utils: f.lux, unarchiver, coconut battery, Dozer > hidden bar, Mounty for NTFS, Tunnel Bear VPN, viderproc
 
+### Other Mac Setups
+
+* Trackpad, Accessibility > Pointer Control, Trackpad Options > Enabling Dragging (three finger drag)
+* Sharing (Computer Name), Dock (Left)
+* Batter > Battery > disable "Automatic graphics swithting"
+  * [MacBook screen flicker: Solutions you can try](https://macpaw.com/how-to/screen-flickering-mac)
+
 ### Home Folder Structure
 
 ```text
