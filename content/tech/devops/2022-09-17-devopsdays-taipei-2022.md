@@ -20,16 +20,18 @@ series: devops
 Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
 
 * Why 為什麼要 DevOps
-  * 持續(穩定可靠)交付高品質軟體產品
+  * 應變快速變動的市場需求, 持續(時時刻刻, 穩定可靠)交付高品質軟體產品
 * How 如何 DevOps
-  * 投資 + 文化 + 工程技術
+  * 投資(人才/方案) + 教育文化 + 工程實踐
 * Common Pitfalls 常見的坑
-  * 只顧速度, 不顧品質
+  * 只顧速度, 不顧品質 = 持續交付垃圾 => 測試!
 * 精選內容
-  * iThome: 臺灣企業 DevOps 能力大公開
-  * TSMC: 多雲整合企業應用平台 DevOps SRE 落地實踐
-  * David: DevOps的高階工程技術實踐
-  * Workshop - 深度體驗 Azure DevOps Services 發行管理機制
+  * iThome 王宏仁: 臺灣企業 DevOps 能力大公開
+  * TSMC 胡君怡: 多雲整合企業應用平台 DevOps SRE 落地實踐
+  * David 董大偉: DevOps的高階工程技術實踐
+  * Will 保哥: Workshop - 深度體驗 Azure DevOps Services 發行管理機制
+  * 91 App Andrew: DevOps 潮流下的 API First 開發策略
+* 今年流行的警語: 以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love & Peace.
 
 <img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
 <p align="center"><sub>
@@ -67,6 +69,7 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
   * 實戰技巧: 實際運用於專案或任務中，依任務需求隨時調整迭代，有效完成任務
   * DevOps 的趨勢與未來: DevOps成為日常之後呢？看看領域先行者的實務分享與建議
 * Price: 早鳥: [NT$3,600](https://agile.ithome.com.tw/#linkTicket)
+* [共筆入口](https://hackmd.io/@DevOpsDay/2022)
 * Description
 
 DevOps 持續整合與交付部署自動化
@@ -74,7 +77,6 @@ DevOps 持續整合與交付部署自動化
 DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業共同舉辦之年度 DevOps 盛會。DevOpsDays 由 DevOps 之父 Patrick Debois 發源自比利時，經過全球社群的共同響應，如今在全球，每年皆有多個城市舉辦以城市掛名的 DevOpsDays。
 
 根據 iThome 的報導，不論是國內外的知名企業例如台積電、金士頓、趨勢科技、國泰金控等皆早已擁抱 DevOps，引領企業持續改善、邁向新一波的 IT 數位轉型。DevOps 作為同時蘊含技術與文化轉型雙主軸的 IT 熱門關鍵字，其影響力已不僅是 IT 圈內人人皆知，更擴展至企業組織的各個層面。
-
 
 ------------------------------------------------
 
@@ -91,6 +93,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### 🥇 臺灣企業 DevOps 能力大公開
 
 * [王宏仁 │ iThome 副總編輯](https://devopsdays.tw/session-page/1150)
+* [共筆內容](https://hackmd.io/@DevOpsDay/rJOCqYTej/edit)
 * 觀點: 產業 | 投資比率 | 能力
   * 目前投入的錢仍然很少, DevOps 佔 IT 預算不到 5%
   * IT 約佔員工比例 5%, 今年各產業皆大幅擴編
@@ -139,13 +142,14 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### 🥇 多雲整合企業應用平台 DevOps SRE 落地實踐
 
 * [胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
-* [共筆連結](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FHkiCcF6ej)
+* [共筆內容](https://hackmd.io/@DevOpsDay/HkiCcF6ej/edit)
 * 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
   * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s.itho.me/events/2021/tsmc/TSMC-DX-Journey-1996-2020-CC-BY-NC-ND-4.0-by-iThome.jpg">
 
 ### 🥇 DevOps的高階工程技術實踐
 
 * [董大偉（David Tung）| 光岩資訊 資深技術顧問；微軟技術社群區域總監](https://devopsdays.tw/session-page/1153)
+* [共筆內容](https://hackmd.io/@DevOpsDay/Syk1itaxi/edit)
 * [共筆講師版](https://hackmd.io/@twdeveloper/ByFfreJZo)
   * 舉凡抽象問題 都可以用日常生活化的例子回答
     * 頻繁/持續 呼吸/吃飯
@@ -160,7 +164,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### 🥈 From DevOps To DataOps——Data as a Product 資料專案教戰守則
 
 * [顏良修 (Anna) Athemaster 炬識科技 CEO](https://devopsdays.tw/session-page/1172)
-* [共筆內容](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FSJlxitTeo)
+* [共筆內容](https://hackmd.io/@DevOpsDay/SJlxitTeo/edit)
 * [ATHEMASTER-Giveaways](https://athemastertw.notion.site/ATHEMASTER-Giveaways-90cf006b09c14cd6b409c2e55d178f78)
 * 5 stages + 6 roles + 7 checkpoint 更早發現風險 change management
   * Team > Protocol > Design > Develop > Deliver
@@ -180,7 +184,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### 可觀測性 (Observability) 的實踐
 
 * [董淳吉 (Marcus Tung) | MAYO 鼎恒數位科技 總監](https://devopsdays.tw/session-page/1161)
-* [共筆內容](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FBkLestagj)
+* [共筆內容](https://hackmd.io/6A1z7CHrTrOlHjVdti_ywQ)
 * Unknown-Unknowns
 * 挑戰 = 工具分散 + 員工質&量 + 資料整合
   * Sufficient number of employees with qualified skills => Recruit + Education
@@ -196,15 +200,17 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ### 走過 DevOps 風雨的下一步
 
 * [郭家齊（Edward Kuo） │ Microsoft MVP,Microsoft Regional Director](https://devopsdays.tw/session-page/1164)
+* [共筆內容](https://hackmd.io/@DevOpsDay/H1ixjFTei/edit)
 * Agile 思維文化 + DevOps 團隊流程 + SRE 工程技術
 * DB in DevOps 是另一個獨立的故事
 * DB 邏輯只剩 CRUD
 * Code Scan: SonarCube
 * API First
 
-### DevOps 潮流下的 API First 開發策略
+### 🥇 DevOps 潮流下的 API First 開發策略
 
 * [吳剛志（Andrew Wu） │ 91APP 首席架構師](https://devopsdays.tw/session-page/1165)
+* [共筆內容](https://hackmd.io/@DevOpsDay/ryaejF6ei/edit)
 * [講師版簡報 Google Slide](https://docs.google.com/presentation/d/1yN8SlMwqoPpO_69dwxsAxWRwLdUB0pmBXCpioxMK-5g/edit#slide=id.g1585e2daec4_0_141)
 * [AWS 的 "API 授權" 備忘錄  (2002 年...)](https://www.techbang.com/posts/88124-api-mandate-amazon)
 * [Ruddy Lee, 淺談 API First](https://ruddyblog.wordpress.com/2021/09/08/%E6%B7%BA%E8%AB%87-api-first/)
