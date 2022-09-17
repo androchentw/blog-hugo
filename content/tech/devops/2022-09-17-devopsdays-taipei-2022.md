@@ -297,6 +297,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * GCP ✅
   * Build once => configuration management + dependency injection
   * SQL Data Quality Test
+    * Ref: [Databease in DevOps | Edward Kuo](https://www.slideshare.net/jaigikuo/database-in-devops-249872632)
 
 ### Backups
 
