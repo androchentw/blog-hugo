@@ -253,7 +253,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 * [黃保翕(Will 保哥)](https://devopsdays.tw/workshops-page/1355)
 * [共筆連結](https://hackmd.io/@DevOpsDay/2022/%2FHl_ovXB3TG2lJlZ7u-6o_Q)
-* Deliver value
+* Deliver value. **釐清測試目標很重要**
 * 🥇 實現持續交付的八大原則
   * The process for releaseing/deploying software **repateable** and **reliable**.
   * **Automate everything**.
@@ -278,6 +278,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * Blue/Green Deploy
   * Canary Deployment
 * 體驗 Azure Devops
+  * Release Cadence 部署節奏 / 時間 / 環境切割
   * Artifacts: 發行之前先取得一個穩定的成品. Always 只有一份. 但設定會依據環境而不同 => 需要做 Configuration Management
   * Stages: 部署環境. (舞台) 想成是部署的目標. Dev - QA - Production
     * 長期的? 短期的?
@@ -292,9 +293,10 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * Pre-/Post-deployment approvals, (Release) Gates (REST API, Azure Policy compliance, Azure Function, Azure Monitor alerts, work items, SonarCloud)
   * 發行策略
   * Release Approvals: 人工批准可以幫助建立人們對自動化發行的信心
-
-如果是 SQL Data Quality Test 要怎麼測
-Release 部署的時間 / 環境切割
+* Q&A
+  * GCP ✅
+  * Build once => configuration management + dependency injection
+  * SQL Data Quality Test
 
 ### Backups
 
