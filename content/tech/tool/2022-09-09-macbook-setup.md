@@ -77,6 +77,8 @@ Downloads
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Run these two commands in your terminal to add Homebrew to your PATH:
+# 如果是 M1 的話需要加以下兩個 command. Intel 的不用, /usr/local 本來就在 PATH 了
+# https://stackoverflow.com/questions/70983104/brew-installs-not-appearing-in-usr-local-bin
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/AndroChen/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -90,7 +92,7 @@ brew upgrade
 # rm -rf $(brew --cache)
 ```
 
-## iTerm2 - 點亮 Terminal
+## iTerm2 - 點亮 Terminal + Alfred + Fig
 
 * [為 MAC 的 Terminal 上色 - 透過 iTerm 2 和 Oh My Zsh 高亮你的終端機](https://pjchender.dev/app/iterm2/)
 * [讓 macOS 的 Terminal 又潮又實用：手把手設定教學 iTerm2 + oh-my-zsh + Powerlevel10k](https://www.onejar99.com/terminal-iterm2-zsh-powerlevel10k/)
@@ -102,6 +104,11 @@ brew upgrade
 ```sh
 # iTerm2: replacement for Terminal
 brew install --cask iterm2
+
+brew install --cask alfred
+
+### fig: IDE-style autocomplete for your existing terminal
+brew install --cask fig
 ```
 
 * [Themes](https://iterm2colorschemes.com/): Nord, JetBrains Darcula, tokyonight-storm
@@ -150,14 +157,7 @@ source ~/.zshrc
 p10k configure
 ```
 
-### 5. fig: IDE-style autocomplete for your existing terminal
-
-```sh
-# fig
-brew install --cask fig
-```
-
-### 6. zsh plugins
+### 5. zsh plugins
 
 Note: 這一塊我在弄的時候有點搞砸了... 但總之最後是通了, 之後有機會 (x) 再回來修
 
