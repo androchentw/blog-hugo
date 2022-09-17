@@ -176,6 +176,10 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 * [董淳吉 (Marcus Tung) | MAYO 鼎恒數位科技 總監](https://devopsdays.tw/session-page/1161)
 * [共筆內容](https://hackmd.io/@DevOpsDay/2022/%2F%40DevOpsDay%2FBkLestagj)
+* Unknown-Unknowns
+* 挑戰 = 工具分散 + 員工質&量 + 資料整合
+  * Sufficient number of employees with qualified skills => Recruit + Education
+* <img style="width:80%;" alt="Takeaway" src="https://i.imgur.com/eyvUSW9.png">
 
 ## Day 2 場次精選心得
 
