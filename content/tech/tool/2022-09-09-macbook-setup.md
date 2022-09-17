@@ -79,7 +79,7 @@ Downloads
 # Run these two commands in your terminal to add Homebrew to your PATH:
 # 如果是 M1 的話需要加以下兩個 command. Intel 的不用, /usr/local 本來就在 PATH 了
 # https://stackoverflow.com/questions/70983104/brew-installs-not-appearing-in-usr-local-bin
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/AndroChen/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/androchentw/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew update 
@@ -262,17 +262,17 @@ brew install python3
 # restart iTerm2
 
 which python3
-# /Users/AndroChen/.pyenv/shims/python3
+# /Users/androchentw/.pyenv/shims/python3
 which pip3
-# /Users/AndroChen/.pyenv/shims/pip3
+# /Users/androchentw/.pyenv/shims/pip3
 pip3 --version
-# pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
+# pip 22.2.1 from /Users/androchentw/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
 which python
-# /Users/AndroChen/.pyenv/shims/python
+# /Users/androchentw/.pyenv/shims/python
 which pip
-# /Users/AndroChen/.pyenv/shims/pip
+# /Users/androchentw/.pyenv/shims/pip
 pip --version
-# pip 22.2.1 from /Users/AndroChen/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
+# pip 22.2.1 from /Users/androchentw/.pyenv/versions/3.10.6/lib/python3.10/site-packages/pip (python 3.10)
 ```
 
 > ==> /usr/bin occurs before /usr/local/bin This means that system-provided programs
