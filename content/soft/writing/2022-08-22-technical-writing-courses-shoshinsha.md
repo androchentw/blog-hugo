@@ -41,11 +41,14 @@ series: technical-writing
 
 ### 學習資源
 
-1. [Google - Technical Writing Courses for Engineers](https://developers.google.com/tech-writing): 主要是兩堂教學內容, 從零開始詳細地教你如何成為科技寫手，並注意文章內容的各個細節。
+1. [Technical Writing Courses for Engineers | Google](https://developers.google.com/tech-writing): 主要是兩堂教學內容, 從零開始詳細地教你如何成為科技寫手，並注意文章內容的各個細節。
    1. Study technical writing
    2. Review technical writing resources
    3. Learn about the technical writing role
-2. [divio - The documentation system](https://documentation.divio.com/): 將文件分為四類逐一討論
+2. [寫作 + 社群 + 專案，建立個人品牌的學習之路 | Hahow](https://hahow.in/contents/articles/630dcca1620da100064b3f3e)
+   1. [個人寫作課：會說就能寫，三種思維提升寫作力](https://hahow.in/courses/61615aa25e3f7800079724ad/main)
+   2. [職場寫作課：從個人品牌到自媒體](https://hahow.in/courses/5eaf7eec3e47cfd04f222519/main)
+3. [The documentation system | divio](https://documentation.divio.com/): 將文件分為四類逐一討論
    1. Tutorials: Learning-oriented
    2. How-To Guides: Problem-oriented
    3. Explanation: Understanding-oriented
