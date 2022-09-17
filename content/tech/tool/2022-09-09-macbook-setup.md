@@ -118,18 +118,19 @@ brew install --cask fig
 ```sh
 # 用 homebrew 安裝的 zsh 位置在 /usr/local/bin/zsh
 which zsh
-# /bin/zsh
+# > /bin/zsh
 zsh --version
-# zsh 5.8.1 (x86_64-apple-darwin21.0)
+# > zsh 5.8.1 (x86_64-apple-darwin21.0)
 
 brew install zsh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s $(which zsh)
 # restart terminal
 which zsh
-# /opt/homebrew/bin/zsh
+# > (Intel) /usr/local/bin/zsh
+# > (M1) /opt/homebrew/bin/zsh
 zsh --version
-# zsh 5.9 (arm-apple-darwin21.3.0)
+# > zsh 5.9 (arm-apple-darwin21.3.0)
 ```
 
 ### 2. oh-my-zsh: zsh setup management framework
