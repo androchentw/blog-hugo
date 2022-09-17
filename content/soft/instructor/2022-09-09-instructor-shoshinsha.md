@@ -87,6 +87,24 @@ series: instructor
 
 ## 講座設計
 
+## 活動設計
+
+### DataOps Event Brainstorming
+
+* Goal: 提高意識, 增加互動, 加深文化
+* 手段 / 方式
+  * 組織
+    1. Advocate, Consultant
+    2. Squad team
+  * 輕量級
+    1. Wiki, 線上課程
+    2. Meetup, 讀書會
+    3. Workshop: 特定 project
+  * 重量級
+    1. DataOps Days: 議程 (Meetup 升級版)
+    2. Hackathon: 題目 + Project Outcome (Workshop 升級版)
+
 ## Murmur
 
 * 2022-09-13: 講的出來才是會!
+* 2022-09-17: 聽完 [DevOpsDays 2022](https://blog.androchen.tw/devopsdays-taipei-2022/), 對於如何辦 event & 推廣教育就會有更多想法 -> DataOps Event Brainstorming.
