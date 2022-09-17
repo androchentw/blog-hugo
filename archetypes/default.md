@@ -49,10 +49,11 @@ series: blog
 
 ## Overview
 
-https://blog.androchen.tw/okr-weekdone/
-https://blog.androchen.tw/value-proposition
+<https://blog.androchen.tw/okr-weekdone/>
+<https://blog.androchen.tw/value-proposition>
 
 PCVM > OKR
+
 ### Challenges 現況 挑戰 (Why. VPC-US, scenario, 5-Why)
 
 Profile > Challenge > Vision > Mission
@@ -69,19 +70,20 @@ Profile > Challenge > Vision > Mission
 4. Gains +p(Adopt), Vision
    1. Positive Experience
 
-Overview 
+Overview
+
 * Key Points
 * Audience
-* Documents 
+* Documents
   * Scope
   * Perquisite
-    
+
 Plan Poster
+
 * 挑戰 Challenge
 * 預期 Target
-* 效益 Benefit 
+* 效益 Benefit
 * 解法 Solution
-
 
 ### Objectives 目標 效益 (What. Value.) (Product & Services)
 
@@ -96,17 +98,12 @@ Plan Poster
 
 ## Content 主旨
 
-
 ## Conclusion
-
 
 ### Discussion
 
-
 ### Ref
-
 
 ## Murmur
 
-* {{ .Date }}: 
-
+* {{ .Date }}:

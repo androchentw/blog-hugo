@@ -1,5 +1,5 @@
 ---
-title: "DevOpsDays Taipei 2022 心得"
+title: "DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品"
 url: /devopsdays-taipei-2022
 # date: 2022-09-15T09:28:16+08:00
 date: 2022-09-15T09:55:16+08:00
@@ -17,7 +17,7 @@ series: devops
 
 ## Overview
 
-Ref: [Agile Summit 2022 敏捷高峰盛會心得](https://blog.androchen.tw/agile-summit-2022/)
+Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
 
 * Why 為什麼要 DevOps
   * [ ]
