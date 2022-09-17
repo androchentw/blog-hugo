@@ -28,6 +28,11 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 * 精選內容
   * [ ]
 
+<img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
+<p align="center"><sub>
+  EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
+</sub></p>
+
 ### Challenges 現況 挑戰
 
 * [ ]
@@ -355,5 +360,4 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
     * 學習型組織, 有機成長
     * => Agile
 * 2022-09-17: 今年精髓 = 基努李維 1+1=5, 所以我也改了一個雅量XDDDD
-  * <img style="width:80%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
-  * <img style="width:80%;" alt="基努李維 雅量" src="https://memes.tw/user-wtf/1663336615436.jpg">
+  * <img style="width:40%;" alt="基努李維 雅量" src="https://memeprod.sgp1.digitaloceanspaces.com/user-wtf/1663336615436.jpg">
