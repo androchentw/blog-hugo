@@ -229,6 +229,7 @@ vi ~/.zshrc
 * [Foam](https://foambubble.github.io/foam/user/getting-started/recommended-extensions)
   * Foam is a personal knowledge management and sharing system inspired by Roam Research, built on Visual Studio Code and GitHub.
   * `cmd + P >Foam: Show graph`
+  * [Can I work on my vault with both Obsidian and VSCode open at the same time? : ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/sje8by/can_i_work_on_my_vault_with_both_obsidian_and/)
 
 ## git - 版本控制
 
