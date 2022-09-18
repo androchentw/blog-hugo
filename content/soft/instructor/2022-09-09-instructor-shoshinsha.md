@@ -34,16 +34,13 @@ series: instructor
 
 1. [x] 2022-09-13 學習 Udemy 教學技巧
 2. [ ] 2022-09-20 學習 Hahow 教學技巧
-3. [ ] 2022-09-27 學習 Coursera 教學技巧
-4. [ ] 2022-09-30 學習 Google 認證訓練講師課程
+3. [ ] 2022-09-27 學習 Google 認證訓練講師課程
 
 <!--more-->
 
 ## 課程設計
 
-### 學習資源
-
-#### 🥇 Udemy
+### 🥇 Udemy
 
 1. [How to Create an Online Course: The Official Udemy Course](https://www.udemy.com/course/official-udemy-create-course/)
     * Learning Objective
@@ -83,6 +80,16 @@ series: instructor
         * [Outline your course](https://teach.udemy.com/course-creation/outline-your-course/)
     5. 步驟 5 Lecture: 為您的課程編寫**腳本**。
         * [The value of scripting](https://teach.udemy.com/course-creation/create-your-first-lecture/): 大部分講師都發現為每個講座編寫腳本 (或寫下條列要點) 可減少錄製及編輯時間，並提升授課品質。
+
+### Hahow 教學技巧
+
+* [我要開課 - Hahow 好學校](https://hahow.in/courses/create)
+* [線上課程開設與選擇：很直白的攻略包－協霆篇](https://blog.hahow.in/tips-to-create-a-online-course-by-hsieh-ting/)
+* [Hahow 好老師-開課心得](https://blog.hahow.in/teachers_feedbacks/)
+
+### Google 認證訓練講師課程
+
+* [Google for Education 認證訓練講師課程](https://skillshop.exceedlms.com/student/path/111722)
 
 ## 講座設計
 
