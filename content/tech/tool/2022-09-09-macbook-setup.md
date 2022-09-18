@@ -20,6 +20,8 @@ series: tool
 
 ## Overview
 
+Ref: [[2022-09-10-ipad-setup]]
+
 ### Challenges 現況 挑戰
 
 * 每次要設定 macbook 開發環境時, 總是頭痛到底設定了哪些東西跟軟體
@@ -221,6 +223,12 @@ vi ~/.zshrc
 "terminal.integrated.defaultProfile.osx": "zsh",
 "terminal.integrated.fontFamily": "Hack Nerd Font Mono"
 ```
+
+### vscode extentions
+
+* [Foam](https://foambubble.github.io/foam/user/getting-started/recommended-extensions)
+  * Foam is a personal knowledge management and sharing system inspired by Roam Research, built on Visual Studio Code and GitHub.
+  * `cmd + P >Foam: Show graph`
 
 ## git - 版本控制
 
