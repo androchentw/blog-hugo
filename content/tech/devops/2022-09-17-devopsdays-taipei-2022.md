@@ -105,20 +105,24 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * 能力分析與趨勢動向: 僅4.2%企業是精英, 6大新興技術爆紅
   * 轉型: 各產業IT投資和人力總論 - 三大產業今年IT預算破億，金融與服務業上雲投資大增
 * 此章節以下資料來源及版權均屬於 iThome
+
+|  1  |  2  |
+| --- | --- | 
+| <img style="width:100%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg"> | <img style="width:100%;" alt="各產業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p2-IT投資-122dpi(1).png"> |
+| <img style="width:80%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/【內文圖表3】封面p2-IT投資-122dpi.png"> | <img style="width:80%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p3-CIO目標-122dpi.png"> |
+| <img style="width:80%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png"> | <img style="width:80%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png"> |
+| <img style="width:80%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面1p-豆子-開發-V3.png"> |  |
+| <img style="width:80%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg"> | TODO |
+| <img style="width:80%;" alt="各產業 2022 年 IT 投資規模" src="https://s4.itho.me/sites/default/files/960-feng_mian_-2p-dou_zi_-itzong_lun_-jpg.jpg"> | <img style="width:80%;" alt="各產業 2022 年八大重點 IT 投資規模" src="https://s4.itho.me/sites/default/files/files/600(2)-BIG-封面-2p-豆子-IT總論.png"> |
+| <img style="width:80%;" alt="製造業 CIO 2022 年度目標 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖1】-V2.png"> | <img style="width:80%;" alt="製造業 CIO 2022 今年新常態 IT 對策 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖2】.png"> |
+| <img style="width:80%;" alt="高科技業 IT 今年因應 ESG 作法 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖1】.png"> | <img style="width:80%;" alt="高科技業 2022 新興科技採用 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖3】.png"> |
+
 * [【iThome 2022 CIO大調查(上)】企業永續新常態下一步](https://www.ithome.com.tw/article/152321)
   * [因應新常態挑戰，企業IT投資今年2位數大成長](https://www.ithome.com.tw/article/152318)
-    * <img style="width:80%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg">
-    * <img style="width:80%;" alt="各產業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p2-IT投資-122dpi(1).png">
-    * <img style="width:80%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/【內文圖表3】封面p2-IT投資-122dpi.png">
   * [CIO優先目標今年不一樣，敏捷IT和ESG是新焦點](https://www.ithome.com.tw/article/152319)
-    * <img style="width:80%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p3-CIO目標-122dpi.png">
-    * <img style="width:80%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png">
 * [【iThome 2022 CIO大調查(中)】企業IT新戰力](https://www.ithome.com.tw/article/152585)
   * [IT開發戰力分析 - 4成企業要擴編IT，年砸5百多萬發展DevOps](https://www.ithome.com.tw/article/152580)
-    * <img style="width:80%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png">
-    * <img style="width:80%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面1p-豆子-開發-V3.png">
   * [DevOps能力分析 - 臺灣企業DevOps能力首度揭露數據，僅4.2%企業是精英](https://www.ithome.com.tw/article/152581)
-    * <img style="width:80%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg">
   * [新興技術熱門趨勢 - 大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
     * <img style="width:80%;" alt="2022 企業新興技術雷達圖" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
   * [新興技術採用動向 - 新常態和ESG需求加速轉型，IT更仰賴關鍵技術戰力](https://www.ithome.com.tw/article/152582)
@@ -126,14 +130,8 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * [【iThome 2022 CIO大調查(下)】各產業數位轉型加速，IT大步邁向雲原生](https://www.ithome.com.tw/article/152873)
 * [2022年度CIO大調查報告下載](https://www.cio.com.tw/annual-cio-survey-report-2022-pdf-download/)
   * [各產業IT投資和人力總論 - 三大產業今年IT預算破億，金融與服務業上雲投資大增](https://www.ithome.com.tw/article/152871)
-    * <img style="width:80%;" alt="各產業 2022 年 IT 投資規模" src="https://s4.itho.me/sites/default/files/960-feng_mian_-2p-dou_zi_-itzong_lun_-jpg.jpg">
-    * <img style="width:80%;" alt="各產業 2022 年八大重點 IT 投資規模" src="https://s4.itho.me/sites/default/files/files/600(2)-BIG-封面-2p-豆子-IT總論.png">
   * [一般製造業IT趨勢 - 因應新常態加速轉型腳步，6成製造業更積極投入轉型](https://www.ithome.com.tw/article/152825)
-    * <img style="width:80%;" alt="製造業 CIO 2022 年度目標 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖1】-V2.png">
-    * <img style="width:80%;" alt="製造業 CIO 2022 今年新常態 IT 對策 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖2】.png">
   * [高科技業IT趨勢 - 永續發展成為新焦點，4成CIO將ESG列為年度Top3目標](https://www.ithome.com.tw/article/152826)
-    * <img style="width:80%;" alt="高科技業 IT 今年因應 ESG 作法 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖1】.png">
-    * <img style="width:80%;" alt="高科技業 2022 新興科技採用 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖3】.png">
 * State of DevOps
   * [2021 Accelerate State of DevOps Report](https://cloud.google.com/devops/state-of-devops)
   * [Take the 2022 Accelerate State of DevOps Survey](https://cloud.google.com/blog/products/devops-sre/take-the-2022-state-of-devops-survey)
@@ -143,6 +141,18 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 * [胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
 * [共筆內容](https://hackmd.io/@DevOpsDay/HkiCcF6ej/edit)
+  * 重視 DevOps 文化: 這兩天 TSMC 攤位來了快 10 人以上，而且與會者的部分不時會看到穿著 TSMC Hackathon 衣服的人，可見其在 DevOps 上的重視跟投資。
+  * 持續擴編人才: 今年 2022-08 才剛又成立了三個 SRE team (smart manufacture, digital business, infra team)。光是 digital business 的 SRE 就有 10 人, DevOps Engineer 有 300 人，Smart manufacturing 更是有1000+人之多。
+  * Q&A
+    1. Journey 心路歷程: 如何規劃並落地 內部推動 DevOps SRE 概念? => 綠地 , small win, 團隊數據比較
+    2. Culture change 要怎麼做: 如何讓團隊與主管都參與並持續學習
+      * 時間比例 
+      * 如何讓成員自行組團有機成長 促成交流
+    3. Team 人力配置，與其他團隊的合作模式是如何 Tool chain 工具選擇
+      * GitHub to Azure for business team, 並行 gitlab for infra team 各有擅場
+    5. DORA 衡量是如何進行 定義 分群 分析
+    6. Next 下一步聚焦
+
 * 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
   * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s.itho.me/events/2021/tsmc/TSMC-DX-Journey-1996-2020-CC-BY-NC-ND-4.0-by-iThome.jpg">
 
@@ -227,7 +237,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * [Microsoft Azure 台灣微軟 客戶成功事業群 雲端解決方案架構師](https://devopsdays.tw/workshops-page/1353)
 * [DevOpsDayLab - 透過 GitHub Action 在 Azure 上進行持續交付](https://hackmd.io/@msazuredev/BJNaOL1xj#DevOpsDayLab---透過-GitHub-Action-在-Azure-上進行持續交付)
 * [devopsdays-2022-lab-github-action-azure](https://github.com/androchentw/devopsdays-2022-lab-github-action-azure)
-  1. Template: [GitHub Actions: Continuous Delivery with Azure](<https://github.com/skills/continuous-delivery-azure>
+  1. Template: [GitHub Actions: Continuous Delivery with Azure](https://github.com/skills/continuous-delivery-azure)
   2. Step 1: Trigger a job based on labels
      * `workflow branch: staging-workflow. deploy-staging.yml`
   3. Step 2: Set up an Azure environment
