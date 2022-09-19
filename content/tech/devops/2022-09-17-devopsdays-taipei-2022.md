@@ -25,7 +25,7 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
   * 確認目標 + 投資(人才/方案) + 教育文化 + 推廣落地 (Squad Team) + 工程實踐 + 保持敏捷 + 持續學習
 * Common Pitfalls 常見的坑
   * 只顧速度, 不顧品質 = 持續交付垃圾 => 自動化測試 + 發行管理
-* 精選內容 
+* 🥇 精選內容
   * 臺灣企業 DevOps 能力大公開 | iThome 王宏仁 副總編輯
   * 多雲整合企業應用平台 DevOps SRE 落地實踐 | TSMC 胡君怡 部門經理
   * DevOps 潮流下的 API First 開發策略 | 91 App Andrew 首席架構師
