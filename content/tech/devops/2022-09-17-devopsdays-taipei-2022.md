@@ -25,12 +25,12 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
   * 確認目標 + 投資(人才/方案) + 教育文化 + 推廣落地 (Squad Team) + 工程實踐 + 保持敏捷 + 持續學習
 * Common Pitfalls 常見的坑
   * 只顧速度, 不顧品質 = 持續交付垃圾 => 自動化測試 + 發行管理
-* 精選內容
-  * iThome 王宏仁: 臺灣企業 DevOps 能力大公開
-  * TSMC 胡君怡: 多雲整合企業應用平台 DevOps SRE 落地實踐
-  * David 董大偉: DevOps的高階工程技術實踐
-  * Will 保哥: Workshop - 深度體驗 Azure DevOps Services 發行管理機制
-  * 91 App Andrew: DevOps 潮流下的 API First 開發策略
+* 精選內容 
+  * 臺灣企業 DevOps 能力大公開 | iThome 王宏仁 副總編輯
+  * 多雲整合企業應用平台 DevOps SRE 落地實踐 | TSMC 胡君怡 部門經理
+  * DevOps 潮流下的 API First 開發策略 | 91 App Andrew 首席架構師
+  * DevOps的高階工程技術實踐 | David 董大偉 技術顧問
+  * Workshop - 深度體驗 Azure DevOps Services 發行管理機制 | Will 保哥 技術總監
 * 今年流行的警語: 以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love & Peace.
 
 <img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
