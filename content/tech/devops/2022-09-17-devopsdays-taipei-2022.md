@@ -57,6 +57,35 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 
 <!--more-->
 
+### Executive Summary
+
+1. CIO 大調查 產業比較
+  1. IT 產業投資 DevOps 趨勢提升, 持續擴編菁英人才
+  2. 現況菁英比例僅 4.2%
+  3. 持續數位轉型, 主管帶頭學習型組織
+2. TSMC DevOps SRE
+  1. 3 主軸 = Smart Manfucaturing + Digital Business + Infrastructure + Agile Summit 台達電 全面虛擬化 & nVidia 製造工廠宇宙
+  2. 人才佈局 持續擴編
+  3. 持續全面文化轉變 推廣 (週末主管長期學習)
+  4. MTK 差距多遠 / 落後多久 / 如何對齊追上/超越
+3. 高品質產品敏捷持續交付
+  1. Agile + DevOps + SRE, 人 流程 技術
+  2. Business 目標 > 流程工具. 80% 20% 專注於架構與自動化
+  3. Top down + Bottom up. 人才 教育訓練 持續學習
+  4. 自動化測試, 發行管理, 專案全貌
+  5. Start small & critical
+
+### 建議 Action / 需要協助的 3 大資源 Resource
+1. Team Squad 設立專職團隊 推廣實行
+2. Education Training 提高預算 - 人才招募養成 + 工具採用訓練
+3. Culture (Committee) Goal 文化 數位轉型
+4. 現況分析 Situation Analysis: 業界, MDP, MTK
+5. Roadmap
+  1. Achivements
+  2. Culture + TDD + DevSecOps
+  3. API First + Smart Design
+  4. ODD + OpenSLO
+
 ## Summary
 
 ### Event Information
