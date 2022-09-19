@@ -67,8 +67,8 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 2. TSMC DevOps SRE
     1. 3 主軸 = Smart Manfucaturing + Digital Business + Infrastructure + Agile Summit 台達電 全面虛擬化 & nVidia 製造工廠宇宙
     2. 人才佈局 持續擴編
-    3. 持續全面文化轉變 推廣 (週末主管長期學習)
-    4. MTK 差距多遠 / 落後多久 / 如何對齊追上/超越
+    3. 持續全面文化轉變 推廣 (TSMC 主管週末長期學習)
+    4. 差距多遠 / 落後多久 / 如何對齊追上/超越
 3. 高品質產品敏捷持續交付
     1. Agile + DevOps + SRE, 人 流程 技術
     2. Business 目標 > 流程工具. 80% 20% 專注於架構與自動化
