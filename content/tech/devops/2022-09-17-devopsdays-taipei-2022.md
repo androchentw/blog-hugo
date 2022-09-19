@@ -109,13 +109,12 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 |  1  |  2  |
 | --- | --- | 
 | <img style="width:100%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg"> | <img style="width:100%;" alt="各產業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p2-IT投資-122dpi(1).png"> |
-| <img style="width:80%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/【內文圖表3】封面p2-IT投資-122dpi.png"> | <img style="width:80%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p3-CIO目標-122dpi.png"> |
-| <img style="width:80%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png"> | <img style="width:80%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png"> |
-| <img style="width:80%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面1p-豆子-開發-V3.png"> |  |
-| <img style="width:80%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg"> | TODO |
-| <img style="width:80%;" alt="各產業 2022 年 IT 投資規模" src="https://s4.itho.me/sites/default/files/960-feng_mian_-2p-dou_zi_-itzong_lun_-jpg.jpg"> | <img style="width:80%;" alt="各產業 2022 年八大重點 IT 投資規模" src="https://s4.itho.me/sites/default/files/files/600(2)-BIG-封面-2p-豆子-IT總論.png"> |
-| <img style="width:80%;" alt="製造業 CIO 2022 年度目標 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖1】-V2.png"> | <img style="width:80%;" alt="製造業 CIO 2022 今年新常態 IT 對策 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖2】.png"> |
-| <img style="width:80%;" alt="高科技業 IT 今年因應 ESG 作法 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖1】.png"> | <img style="width:80%;" alt="高科技業 2022 新興科技採用 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖3】.png"> |
+| <img style="width:100%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/【內文圖表3】封面p2-IT投資-122dpi.png"> | <img style="width:100%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p3-CIO目標-122dpi.png"> |
+| <img style="width:100%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png"> | <img style="width:100%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面1p-豆子-開發-V2.png"> |
+| <img style="width:100%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面1p-豆子-開發-V3.png"> | <img style="width:100%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg"> | 
+| <img style="width:100%;" alt="各產業 2022 年 IT 投資規模" src="https://s4.itho.me/sites/default/files/960-feng_mian_-2p-dou_zi_-itzong_lun_-jpg.jpg"> | <img style="width:100%;" alt="各產業 2022 年八大重點 IT 投資規模" src="https://s4.itho.me/sites/default/files/files/600(2)-BIG-封面-2p-豆子-IT總論.png"> |
+| <img style="width:100%;" alt="製造業 CIO 2022 年度目標 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖1】-V2.png"> | <img style="width:100%;" alt="製造業 CIO 2022 今年新常態 IT 對策 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖2】.png"> |
+| <img style="width:100%;" alt="高科技業 IT 今年因應 ESG 作法 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖1】.png"> | <img style="width:100%;" alt="高科技業 2022 新興科技採用 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖3】.png"> |
 
 * [【iThome 2022 CIO大調查(上)】企業永續新常態下一步](https://www.ithome.com.tw/article/152321)
   * [因應新常態挑戰，企業IT投資今年2位數大成長](https://www.ithome.com.tw/article/152318)
@@ -124,9 +123,9 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * [IT開發戰力分析 - 4成企業要擴編IT，年砸5百多萬發展DevOps](https://www.ithome.com.tw/article/152580)
   * [DevOps能力分析 - 臺灣企業DevOps能力首度揭露數據，僅4.2%企業是精英](https://www.ithome.com.tw/article/152581)
   * [新興技術熱門趨勢 - 大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
-    * <img style="width:80%;" alt="2022 企業新興技術雷達圖" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
+    * <img style="width:100%;" alt="2022 企業新興技術雷達圖" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
   * [新興技術採用動向 - 新常態和ESG需求加速轉型，IT更仰賴關鍵技術戰力](https://www.ithome.com.tw/article/152582)
-    * <img style="width:80%;" alt="新興科技 2022 採用動向" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面-1p-豆子-新興技術-V2.png">
+    * <img style="width:60%;" alt="新興科技 2022 採用動向" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面-1p-豆子-新興技術-V2.png">
 * [【iThome 2022 CIO大調查(下)】各產業數位轉型加速，IT大步邁向雲原生](https://www.ithome.com.tw/article/152873)
 * [2022年度CIO大調查報告下載](https://www.cio.com.tw/annual-cio-survey-report-2022-pdf-download/)
   * [各產業IT投資和人力總論 - 三大產業今年IT預算破億，金融與服務業上雲投資大增](https://www.ithome.com.tw/article/152871)
@@ -154,7 +153,7 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
     6. Next 下一步聚焦
 
 * 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
-  * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s.itho.me/events/2021/tsmc/TSMC-DX-Journey-1996-2020-CC-BY-NC-ND-4.0-by-iThome.jpg">
+  * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/field/image/960-420-tsmc-dx-journey-1996-2020-cc_by-nc-nd_4.0_by-ithome.jpg?itok=oWmobMqa">
 
 ### 🥇 DevOps的高階工程技術實踐
 
