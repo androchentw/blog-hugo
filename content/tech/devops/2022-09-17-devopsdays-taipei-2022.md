@@ -77,6 +77,7 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
     5. Start small & critical
 
 ### 建議 Action / 需要協助的 3 大資源 Resource
+
 1. Team Squad 設立專職團隊 推廣實行
 2. Education Training 提高預算 - 人才招募養成 + 工具採用訓練
 3. Culture (Committee) Goal 文化 數位轉型
@@ -137,14 +138,15 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * 此章節以下資料來源及版權均屬於 iThome
 
 |  1  |  2  |
-| --- | --- | 
+| --- | --- |
 | <img style="width:100%;" alt="2022 企業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_p2-ittou_zi_-150dpi-2.jpg"> | <img style="width:100%;" alt="各產業 IT 投資成長率" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p2-IT投資-122dpi(1).png"> |
 | <img style="width:100%;" alt="2022 年因應新常態的 IT 對策 Top 15" src="https://s4.itho.me/sites/default/files/images/【內文圖表3】封面p2-IT投資-122dpi.png"> | <img style="width:100%;" alt="2022 年 CIO 年度 Top 10 目標" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面p3-CIO目標-122dpi.png"> |
 | <img style="width:100%;" alt="2022 年多少企業要擴編 IT" src="https://s4.itho.me/sites/default/files/images/【內文圖表5】封面p3-CIO目標-120dpi.png"> | <img style="width:100%;" alt="各產業 IT 人力佔比" src="https://s4.itho.me/sites/default/files/images/【內文圖表1】封面1p-豆子-開發-V2.png"> |
-| <img style="width:100%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面1p-豆子-開發-V3.png"> | <img style="width:100%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg"> | 
+| <img style="width:100%;" alt="企業 DevOps 投資金額" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面1p-豆子-開發-V3.png"> | <img style="width:100%;" alt="台灣企業關鍵 AP 平均部署頻率" src="https://s4.itho.me/sites/default/files/zhu_tu_960_feng_mian_1p-dou_zi_-devops.jpg"> |
 | <img style="width:100%;" alt="各產業 2022 年 IT 投資規模" src="https://s4.itho.me/sites/default/files/960-feng_mian_-2p-dou_zi_-itzong_lun_-jpg.jpg"> | <img style="width:100%;" alt="各產業 2022 年八大重點 IT 投資規模" src="https://s4.itho.me/sites/default/files/files/600(2)-BIG-封面-2p-豆子-IT總論.png"> |
 | <img style="width:100%;" alt="製造業 CIO 2022 年度目標 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖1】-V2.png"> | <img style="width:100%;" alt="製造業 CIO 2022 今年新常態 IT 對策 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-一般製造業【內文圖2】.png"> |
 | <img style="width:100%;" alt="高科技業 IT 今年因應 ESG 作法 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖1】.png"> | <img style="width:100%;" alt="高科技業 2022 新興科技採用 Top 10" src="https://s4.itho.me/sites/default/files/images/封面-1P-至浩-高科技業【內文圖3】.png"> |
+
 * <img style="width:100%;" alt="2022 企業新興技術雷達圖" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
 * <img style="width:60%;" alt="新興科技 2022 採用動向" src="https://s4.itho.me/sites/default/files/images/【內文圖表2】封面-1p-豆子-新興技術-V2.png">
 
@@ -176,12 +178,12 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * Q&A
     1. Journey 心路歷程: 如何規劃並落地 內部推動 DevOps SRE 概念? => 綠地 , small win, 團隊數據互相比較
     2. Culture change 要怎麼做: 如何讓團隊與主管都參與並持續學習
-      * 時間比例 / 如何讓成員自行組團有機成長 促成交流
-      * => 要 Manager 帶頭做
+        * 時間比例 / 如何讓成員自行組團有機成長 促成交流
+        * => 要 Manager 帶頭做
     3. Team 人力配置，與其他團隊的合作模式是如何 Tool chain 工具選擇
-      * GitHub to Azure for business team, 並行 gitlab for infra team 各有擅場
-    5. DORA 衡量是如何進行 定義 分群 分析 => by products/service 個別統計
-    6. Next 下一步聚焦
+        * GitHub to Azure for business team, 並行 gitlab for infra team 各有擅場
+    4. DORA 衡量是如何進行 定義 分群 分析 => by products/service 個別統計
+    5. Next 下一步聚焦
 
 * 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
   * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/field/image/960-420-tsmc-dx-journey-1996-2020-cc_by-nc-nd_4.0_by-ithome.jpg?itok=oWmobMqa">
