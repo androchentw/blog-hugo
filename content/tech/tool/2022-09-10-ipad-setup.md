@@ -58,7 +58,10 @@ series: tool
 5. [Miro] 製作/對齊 總圖表, 更有全局觀. 無限大畫布, 串聯零散想法
 6. Google Docs, Spreadsheet 補充細節
 7. Hugo Blog by GitHub Page 輸出學習過程/經驗
-8. Unsplash 找封面圖, Flaticon 找圖示, imgur.com 蒐集圖庫
+8. 素材
+   1. 封面美圖: [Unsplash](https://unsplash.com/)
+   2. 圖示: [Flaticon](https://www.flaticon.com/), [freepik](https://www.freepik.com/)
+   3. 圖庫, 截圖: [imgur.com](https://imgur.com/)
 
 [Canva](https://www.canva.com/)
 [Miro](https://miro.com/)
@@ -94,6 +97,15 @@ series: tool
   * ✅ 素材: gif, 貼圖
   * ✅ 匯出: 檔案, PDF, Image, Google Drive
   * ✅ 獨家: 錄音, 跨頁 編輯 虛線. 據說 pdf 編輯比較厲害
+
+* 手帳範本 PDF
+  * 🥇 [日系簡約](http://pdc2.u1m.biz/)
+  * [富士通 Quaderno](https://www.fmworld.net/digital-paper/tool.html)
+  * [SONY](https://www.sony.jp/digital-paper/support/template/)
+  * [韓系範本](https://happyfridaymorning.co.kr/)
+* 貼圖
+  * [Pinterest Goodnotes sticker](https://www.pinterest.com/pin/211174967742319/?nic_v3=1a4e1hCTA)
+  * [韓系 PNG](https://search.naver.com/search.naver?where=image&nso=so%3Ar%2Ca%3Aall%2Cp%3Aall&sm=tab_nmr&query=%EB%AC%B4%EB%A3%8C%20%EA%B5%BF%EB%85%B8%ED%8A%B8%20%EC%8A%A4%ED%8B%B0%EC%BB%A4%20png)
 
 * [MarginNote](https://www.marginnote.com/): PDF 心智圖 + 筆記
   * A brand new e-reader to better study and digest your books
