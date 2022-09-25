@@ -35,7 +35,6 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
    1. Single source of truth
    2. Organized knowledge base, working documents
    3. Unified way to handle similar incidents
-   
 
 ### Objectives
 
@@ -48,11 +47,11 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 <!--more-->
 
-## ITSM 
+## ITSM
 
 * [What is IT Service Management (ITSM)?](https://www.atlassian.com/itsm)
 
-> IT service management -- often referred to as ITSM -- is simply how IT teams **manage the end-to-end delivery of IT services to customers**. This includes all the processes and activities to design, create, deliver, and support IT services. 
+> IT service management -- often referred to as ITSM -- is simply how IT teams **manage the end-to-end delivery of IT services to customers**. This includes all the processes and activities to design, create, deliver, and support IT services.
 > The core concept of ITSM is the belief that IT should be delivered as a service.
 
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:f313f3ad-dcae-43cd-83a3-feb8db0abaa0/IT%20teams.png?cdnVersion=1746">
@@ -60,13 +59,12 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 ### Core
 
 1. Team First
-   1. [team playbook](https://www.atlassian.com/team-playbook). 
-   2. Rather than answering to rules imposed by a tiered reporting structure or rigid process, IT teams can make informed decisions about things like adopting SLAs and which software to implement. Because **IT teams enable productivity and digital transformation**, strong IT teams are critical to strong organizations. 
+   1. [team playbook](https://www.atlassian.com/team-playbook).
+   2. Rather than answering to rules imposed by a tiered reporting structure or rigid process, IT teams can make informed decisions about things like adopting SLAs and which software to implement. Because **IT teams enable productivity and digital transformation**, strong IT teams are critical to strong organizations.
 2. Then Practice
    1. Successful IT teams build their approach from frameworks like **ITIL (the Information Technology Infrastructure Library)**, but are careful to think about how to adapt processes that will resonate with their customers.
 3. Finally Technology
    1. It empowers end-users and automates mundane work, so **everyone gets more time to focus on what matters most to them**.
-
 
 ### ITSM vs ITIL vs DevOps
 
@@ -115,7 +113,6 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   5. [Problem management](#problem-management) is the process of **identifying and managing the causes** of incidents on an IT service.
   6. [Change management](#change-management) ensures **standard procedures are used for efficient and prompt handling of all changes** to IT infrastructure.
 
-
 ## Service Request Management
 
 <img style="width:40%;" src="https://wac-cdn.atlassian.com/dam/jcr:cb4f6608-7a1f-44ce-b4bf-1afef2e614d5/service%20request%20priorities.png?cdnVersion=1746" title="Atlassian - Service Request Managament Priorities">
@@ -126,12 +123,10 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 * [IT Metrics: 4 best practices for success](https://www.atlassian.com/itsm/service-request-management/it-metrics-and-reporting)
 * [How to run IT support the DevOps way](https://www.atlassian.com/itsm/service-request-management/how-to-run-it-support-devops-way)
 
-* smart support workflow 
+* smart support workflow
   * [Are your support services as SMART as they could be?](https://blogs.servicenow.com/2019/smart-support-services.html)
   * [Create a Help Desk Workflow Streamline Your Support Process](https://www.happyfox.com/help-desk-work-flow/)
 * [Opsgenie](https://www.atlassian.com/software/opsgenie)
-
-
 
 ## Knowledge Management
 
@@ -149,7 +144,6 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   1. More consistent service.
   2. Higher resolution rates at first contact.
   3. Lower training costs.
-
 
 ### KCS - Knowledge-Centered Service
 
@@ -175,7 +169,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   2. Structure knowledge
   3. Reuse knowledge
   4. Improve knowledge
-  5. Use knowledge to see the big picture 
+  5. Use knowledge to see the big picture
 * [KCS v6](https://www.serviceinnovation.org/faq-about-kcs/)
 
 ### Tips
@@ -189,29 +183,22 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
   * [Learning Circle](https://www.atlassian.com/team-playbook/plays/learning-circle)
 * [5 tips](https://www.atlassian.com/blog/archives/5_tips_for_building_a_knowledge_base_with_confluence)
 
-
 ## Incident Management
 
 * [What is incident management?](https://www.atlassian.com/itsm/incident-management)
-
 
 ## Problem Managment
 
 * [What is problem management?](https://www.atlassian.com/itsm/problem-management)
 
-
 ## Change Management
 
 * [The evolution of IT change management](https://www.atlassian.com/itsm/change-management)
-
 
 ## ITIL
 
 * [A guide to ITIL and its place in modern ITSM](https://www.atlassian.com/itsm/itil)
 
-
-
 ## Murmur
 
 * 2021-08-07 knowing is one thing, doing is another. Recently I just realize deeply how important these precise definition is, as I'm working on advocating these "well-known" knowledge and really implements these concepts into my work and team collaboration.
-

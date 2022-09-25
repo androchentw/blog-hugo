@@ -16,7 +16,6 @@ series: reflection
 
 <img style="width:40%;" src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" />
 
-
 ## Overview
 
 ### Challenges
@@ -26,7 +25,6 @@ series: reflection
 3. 常覺得委屈, 不平
 4. 不擅長處理爭執, 迴避
 
-
 ### Objectives
 
 1. 強化 情緒管理/韌性/溝通 (ETC)
@@ -34,7 +32,6 @@ series: reflection
    2. T: 能承受高強度, 高密度工作量
    3. C: 能積極傾聽, 換位思考
    4. C: 善營造積極的溝通氣氛, 表述問題思路清晰, 富條理, 邏輯, 感染力
-
 
 ### KRs (How. Measurable Result.)
 
@@ -55,7 +52,6 @@ series: reflection
 
 * Readmoo: 勵志成長 > [情緒壓力](https://readmoo.com/category/312?sort=3), [個人成長](https://readmoo.com/category/148?sort=3), [人際關係](https://readmoo.com/category/151?sort=3)
 * 博客來: 心理勵志 > [情緒/壓力](https://www.books.com.tw/web/books_bmidm_0709/)
-
 
 ### 情緒 韌性 (情緒壓力, 個人成長)
 
@@ -102,15 +98,13 @@ series: reflection
     * 以內心作為判斷依據，因此可以活在當下
     * 是一種愛自己的表現，更會活得越來越有自信
 
-
 ### 溝通 (人際關係)
- 
+
 * [史丹佛人際動力學](https://readmoo.com/book/210181107000101) 2021 - 連開50年的課，教你好關係從真情流露開始
 * [謝謝你的指教](https://readmoo.com/book/210165950000101) 2021 - 哈佛溝通專家教你轉化負面意見，成就更好的自己
 * [你都沒在聽](https://readmoo.com/book/210157258000101) 2020 - 科技讓交談愈來愈容易，人卻愈來愈不會聆聽。聆聽不但給別人慰藉，也給自己出路
-* [哈佛法學院的情緒談判課](https://readmoo.com/book/210144141000101) 2020 - 
+* [哈佛法學院的情緒談判課](https://readmoo.com/book/210144141000101) 2020 -
 5大核心情緒策略，創造共贏成果
-
 
 ### TPML HyRead
 
@@ -127,7 +121,7 @@ series: reflection
     * 第4章　合作專案的同事老是推拖，影響進度
       * 4P說服法. 「問問題、做總結、說謝謝」
     * 第5章　同事喜歡倚老賣老，愛唱反調
-      * 提問 
+      * 提問
   * 第三部　絕來自白目員工的情緒耗竭
     * 第6章　員工太被動，做的跟你要的差太多
       * GROW. 「從平面到立體」的複述法
@@ -157,7 +151,6 @@ series: reflection
 * [讓你的脆弱, 成就你的強大](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=216589) 2020 - 重整創業路上的情緒包袱, 成為更堅韌的領導者
 * [人性的弱點](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=205240) - 暢銷不墜的成功學經典，向卡內基學習交心溝通術與好感度人際學
 
-
 ### 2nd
 
 * [史丹佛大學的情緒修復運動課](https://readmoo.com/book/210185720000101) 2021 - 重塑大腦，自動產生內源大麻、腦內啡，徹底解放壓力、人際焦慮和孤獨感
@@ -171,15 +164,12 @@ series: reflection
 * [韌性](https://readmoo.com/book/210167070000101) 2015 - 挺過挫折壓力，走出低潮逆境的神秘力量
 * [心理韌性](https://tpml.ebook.hyread.com.tw/bookDetail.jsp?id=233295) 2018 - 顛覆起跑點迷思, 教出有耐挫力、熱情與目的感的孩子
 
-
 ### Ref
 
 * [Emotional Mastery: The Gifted Wisdom of Unpleasant Feelings | Dr Joan Rosenberg | TEDxSantaBarbara](https://www.youtube.com/watch?v=EKy19WzkPxE)
 * [四個步驟，提高你的情緒韌性](https://www.emba.com.tw/?action=news_detail&aID=3782)
 * [關於情緒｜如何具體訓練你的心理韌性，讓 恐懼 不再總是恐懼](https://ladyemotions.com/2021/06/09/%E6%81%90%E6%87%BC/)
 
-
 ## Murmur
 
 * 2021-07-11 練習有意識地控制情緒!
-

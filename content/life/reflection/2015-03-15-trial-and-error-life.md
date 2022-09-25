@@ -116,6 +116,3 @@ MVP part - 首先在面試的時候，不是落落長地跟面試官說你家族
 
 * [(英) How Google Works - Eric Schmidt](http://www.slideshare.net/ericschmidt/how-google-works-final-1)
 * [(中) Google 模式 - Sega Cheng](http://www.slideshare.net/segacheng/google-how-google-works)
-
-
-
