@@ -17,10 +17,10 @@ series: reflection
 
 <img style="width:50%;" src="https://i.imgur.com/FjJRowq.png">
 <p align="center"><sub>
-  此圖為轉載自 <a target="_blank" rel="noreferrer noopener" href="https://zoeyk.co/ikigai/>ikigai 日式哲學</a>。如需轉載請先詢問 理想生活設計
+  此圖為轉載自 ikigai 日式哲學。如需轉載請先詢問 理想生活設計
 </sub></p>
 
-[ikigai 日式哲學 | 理想生活設計](https://zoeyk.co/ikigai/)
+* [ikigai 日式哲學 | 理想生活設計](https://zoeyk.co/ikigai/)
 
 **Ikigai 生き甲斐** 是我非常喜歡，甚至可以說是奉為圭臬的精神。
 
