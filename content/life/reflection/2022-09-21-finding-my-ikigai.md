@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "Finding My Ikigai"
+title: "Finding My Ikigai 生き甲斐 - 生存的價值與人生意義"
 url: /finding-my-ikigai
 # date: 2022-09-21T09:28:16+08:00
 date: 2022-09-25T09:55:16+08:00
@@ -10,17 +10,21 @@ categories:
   - life
 tags: 
   - reflection
-share_img: https://app.convertkit.com/landing_pages/431677?v=7
+share_img: https://i.imgur.com/FjJRowq.png
 series: reflection
 ---
 
 TODO 插圖 連結 順過一遍
 
-<img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
+<img style="width:80%;" src="https://i.imgur.com/FjJRowq.png">
+<p align="center"><sub>
+  此圖轉載自 [ikigai 日式哲學 | 理想生活設計](https://zoeyk.co/ikigai/)
+</sub></p>
 
-## 0 Finding my Ikigai
+## 0 Finding my Ikigai 生き甲斐 - 生存的價值與人生意義
 
-圖
+[ikigai 日式哲學 | 理想生活設計](https://zoeyk.co/ikigai/)
+
 這是我非常喜歡，甚至可以說是奉為圭臬的精神。
 大概是從大學吧，就已經開始用這樣的方式去不停探索著自己想要的是什麼。
 雖然到現在還是很常懷疑人生就是了😂
