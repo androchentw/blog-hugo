@@ -14,14 +14,12 @@ share_img: https://i.imgur.com/FjJRowq.png
 series: reflection
 ---
 
-TODO 插圖 連結 順過一遍
+## 0 Finding my Ikigai 生き甲斐 - 生存的價值與人生意義
 
 <img style="width:50%;" src="https://i.imgur.com/FjJRowq.png">
 <p align="center"><sub>
   此圖轉載自 <a target="_blank" rel="noreferrer noopener" href="https://zoeyk.co/ikigai/>ikigai 日式哲學 | 理想生活設計</a>
 </sub></p>
-
-## 0 Finding my Ikigai 生き甲斐 - 生存的價值與人生意義
 
 [ikigai 日式哲學 | 理想生活設計](https://zoeyk.co/ikigai/)
 
