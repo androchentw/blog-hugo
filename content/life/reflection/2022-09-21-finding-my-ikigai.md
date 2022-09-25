@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Finding My Ikigai"
 url: /finding-my-ikigai
 # date: 2022-09-21T09:28:16+08:00
@@ -9,7 +10,7 @@ categories:
   - life
 tags: 
   - reflection
-share_img: https://devopsdays.tw/2022/img/fb.jpg
+share_img: https://app.convertkit.com/landing_pages/431677?v=7
 series: reflection
 ---
 
@@ -17,14 +18,14 @@ TODO 插圖 連結 順過一遍
 
 <img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
 
-<!--more-->
-
 ## 0 Finding my Ikigai
 
 圖
 這是我非常喜歡，甚至可以說是奉為圭臬的精神。
 大概是從大學吧，就已經開始用這樣的方式去不停探索著自己想要的是什麼。
 雖然到現在還是很常懷疑人生就是了😂
+
+<!--more-->
 
 在參加完 Agile 跟 DevOpsDays ，實在是感觸良多，於是久違地直抒胸臆。
 至於標題編號，除了是工程師都習慣從 0 開始的宅梗以外，是原點也是起點。
