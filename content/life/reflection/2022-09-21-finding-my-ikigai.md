@@ -13,7 +13,7 @@ share_img: https://i.imgur.com/FjJRowq.png
 series: reflection
 ---
 
-## 0 Finding my Ikigai 生き甲斐 - 生存的價值與人生意義
+## 0 Ikigai 生き甲斐
 
 <img style="width:50%;" src="https://i.imgur.com/FjJRowq.png">
 <p align="center"><sub>
@@ -154,4 +154,4 @@ series: reflection
 
 ## Murmur
 
-* 2022-09-25:
+* 2022-09-25: 好久沒寫 reflection 系列長文 XDD
