@@ -23,17 +23,19 @@ series: reflection
 [ikigai 日式哲學 | 理想生活設計](https://zoeyk.co/ikigai/)
 
 **Ikigai 生き甲斐** 是我非常喜歡，甚至可以說是奉為圭臬的精神。
+
 大概是從大學吧，就已經開始用這樣的方式去不停探索著自己想要的是什麼。
 雖然到現在還是很常懷疑人生就是了😂
 
-<!--more-->
-
 最近在參加完兩場 [Agile Summit 2022 敏捷高峰盛會] 跟 [DevOpsDays Taipei 2022] Conference 後 ，實在是感觸良多，於是久違地直抒胸臆。
+
 至於標題編號，除了是工程師都習慣從 0 開始的宅梗以外，**是原點也是起點**。
 很感恩自己在這個關鍵的時間點上，遇到了很多好事，持續地小步前進。
 
 [Agile Summit 2022 敏捷高峰盛會]: https://blog.androchen.tw/agile-summit-2022/
 [DevOpsDays Taipei 2022]: https://blog.androchen.tw/devopsdays-taipei-2022/
+
+<!--more-->
 
 ## 1 出遊是為了自由, 回歸是為了自我
 
