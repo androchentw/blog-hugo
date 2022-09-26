@@ -5,7 +5,7 @@ url: /instructor-shoshinsha
 date: 2022-09-20T12:50:16+08:00
 author: androchentw
 type: post
-categories:∑
+categories:
   - soft
 tags:
   - instructor
