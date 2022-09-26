@@ -84,8 +84,15 @@ series: instructor
 ### Hahow 教學技巧
 
 * [我要開課 - Hahow 好學校](https://hahow.in/courses/create)
-* [線上課程開設與選擇：很直白的攻略包－協霆篇](https://blog.hahow.in/tips-to-create-a-online-course-by-hsieh-ting/)
-* [Hahow 好老師-開課心得](https://blog.hahow.in/teachers_feedbacks/)
+  1. 尋找主題
+  2. 編輯提案
+  3. 提案審核
+  4. 募資階段
+  5. 製作課程
+  6. 審核開課
+* [開課教學](https://blog.hahow.in/tag/how-to-create-a-course/)
+  * [線上課程開設與選擇：很直白的攻略包－協霆篇](https://blog.hahow.in/tips-to-create-a-online-course-by-hsieh-ting/)
+  * [Hahow 好老師-開課心得](https://blog.hahow.in/teachers_feedbacks/)
 
 ### Google 認證訓練講師課程
 
