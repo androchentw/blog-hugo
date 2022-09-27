@@ -42,14 +42,15 @@ series: instructor
 
 ### 教材規劃範本
 
-1. Course
+1. [course]
 
-* Time: 1-2 hours
-* Audience
+* Expected Time: 1-2 hours
+* Target Audience
   * Developers / Dev
   * Operations / SRE
   * Product Owners, Project and Team Leads
-* Goals
+  * Requirements
+* Learning Objectives / Goals
   * Understand [product] fundamentals
   * Determine if your organization is ready for [product]
   * Learn [product] cultural and practical fundamentals
