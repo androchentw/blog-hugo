@@ -40,6 +40,26 @@ series: instructor
 
 ## 課程設計
 
+### 教材規劃範本
+
+1. Course
+
+* Time: 1-2 hours
+* Audience
+  * Developers / Dev
+  * Operations / SRE
+  * Product Owners, Project and Team Leads
+* Goals
+  * Understand [product] fundamentals
+  * Determine if your organization is ready for [product]
+  * Learn [product] cultural and practical fundamentals
+* Deliverables
+  * Project engagement documents
+  * Discovery documents
+* Outline
+    1. 1
+    2. 2
+
 ### 🥇 Udemy
 
 1. [How to Create an Online Course: The Official Udemy Course](https://www.udemy.com/course/official-udemy-create-course/)
