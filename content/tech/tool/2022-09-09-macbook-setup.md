@@ -59,6 +59,7 @@ brew install --cask flux
 brew install --cask the-unarchiver
 brew install --cask dozer
 brew install --cask coconutbattery
+brew install --cask keepingyouawake
 brew install --cask mounty
 brew install --cask karabiner-elements
 brew install --cask tunnelbear
