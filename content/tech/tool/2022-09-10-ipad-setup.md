@@ -51,7 +51,7 @@ series: tool
 
 ### 思考/工作 流程
 
-1. 靈感 / Presentation / Brainstorming: [Canva], [Miro], Google Slide
+1. 靈感 / Presentation / Brainstorming: [Canva], [Miro], Google Slide, [SlidesCarnival]
 2. Google Calendar time blocking
 3. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
 4. Google Slide 每週 KPT Summary, 對焦周/月/季計畫
@@ -65,6 +65,7 @@ series: tool
 
 [Canva](https://www.canva.com/)
 [Miro](https://miro.com/)
+[SlidesCarnival](https://www.slidescarnival.com/)
 
 ### Productivity 生產力
 
