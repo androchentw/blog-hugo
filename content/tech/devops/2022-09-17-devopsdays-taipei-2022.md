@@ -32,7 +32,9 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
   * DevOps的高階工程技術實踐 | David 董大偉 技術顧問
   * Workshop - 深度體驗 Azure DevOps Services 發行管理機制 | Will 保哥 技術總監
   * From DevOps To DataOps——Data as a Product 資料專案教戰守則 | 顏良修 CEO
-* 今年流行的警語: 以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love & Peace.
+* 今年流行的警語
+  * 以下分享的內容，可能不適用於你、你的公司或團隊，請小心服用.
+  * 以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love & Peace.
 
 <img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&width=1200&sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
 <p align="center"><sub>
@@ -351,6 +353,22 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * Build once => configuration management + dependency injection
   * SQL Data Quality Test
     * Ref: [Databease in DevOps | Edward Kuo](https://www.slideshare.net/jaigikuo/database-in-devops-249872632)
+
+### Others
+
+* 🥈 DevOps
+  * [為 DevOps 插上商業的翅膀](https://devopsdays.tw/session-page/1167)
+  * [治理猛於虎？但 DevOps 就是要來發猛的！](https://devopsdays.tw/session-page/1168)
+  * [如何讓 FinOps 成為 DevOps 的得力助手？](https://devopsdays.tw/session-page/1177)
+  * [DevOps Journey of Smart Manufacturing in Micron](https://devopsdays.tw/session-page/1170)
+* Testing
+  * [專案實踐自動化測試框架的設計與心路歷程](https://devopsdays.tw/session-page/1166)
+* DevSecOps
+  * [如何保護好你的CI/CD管道安全性](https://devopsdays.tw/session-page/1159)
+* SRE
+  * [可觀測性(Observability)的實踐](https://devopsdays.tw/session-page/1161)
+  * [從失敗中吸取教訓的混沌工程](https://devopsdays.tw/session-page/1173)
+  * [How we send alert to the right people](https://devopsdays.tw/session-page/1156)
 
 ### Backups
 
