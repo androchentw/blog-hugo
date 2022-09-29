@@ -56,6 +56,7 @@ brew install --cask alfred
 brew install --cask rocket
 brew install --cask skitch
 brew install --cask miro
+brew install ----cask canv
 brew install --cask flux
 brew install --cask the-unarchiver
 brew install --cask dozer
