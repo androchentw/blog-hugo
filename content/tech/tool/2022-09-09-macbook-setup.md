@@ -52,21 +52,60 @@ Ref: [[2022-09-10-ipad-setup]]
 * Utils: xtrafinder
 
 ```sh
-brew install --cask alfred
-brew install --cask rocket
-brew install --cask skitch
-brew install --cask miro
-brew install --cask canva 
-brew install --cask flux
-brew install --cask the-unarchiver
-brew install --cask dozer
-brew install --cask coconutbattery
-brew install --cask keepingyouawake
-brew install --cask mounty
-brew install --cask karabiner-elements
-brew install --cask tunnelbear
-brew install --cask macx-video
+# Productivity 
+brew install --cask alfred  # launcher
+brew install --cask rocket  # emoji
+brew install --cask skitch  # Screen capture tool
+brew install --cask karabiner-elements  # Keyboard customizer
+brew install --cask clipy   # copy paste list
+open https://apps.apple.com/us/app/dropover/id1355679052?mt=12  # Dropover. Drag & drop
+open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id1208145167  # Picsew. 滾動截圖和長圖拼接
+open https://apps.apple.com/us/app/giphy-capture-the-gif-maker/id668208984?mt=12 # GIPHY Capture. The GIF Maker
+brew install --cask bettertouchtool   # customize input. "GoldenChaos-BTT"
+
+# Dev
+brew install --cask postman   # API platform
+brew install --cask transmit  # FTP
+
+# Utils
+brew install --cask coconutbattery  # Batteries history
+brew install --cask aldente     # limit maximum charging
+brew install --cask appcleaner  # uninstall unwanted apps
+brew install --cask the-unarchiver  # Unpacks archive files
+brew install --cask flux    # Screen color temperature controller
+brew install --cask dozer   # Hide status bar icons
+brew install --cask keepingyouawake # Prevent sleep mode
+brew install --cask tunnelbear  # VPN client
+brew install --cask mounty  # Re-mounts write-protected NTFS volumes
+
+# Image
+brew install --cask imageoptim  # compress images
+
+# Video, Editing 剪輯, 轉檔
+brew install --cask macx-video  # video processing 
+brew install --cask vlc   # media player
+open https://www.movavi.com/  # Movavi 
+
+# Music
+open https://apps.apple.com/us/app/speakline-text-to-speech/id441968334?mt=12   # SpeakLine - Text to Speech
+
+# Docs
+open https://apps.apple.com/mo/app/craft-文件與記錄編輯器/id1487937127  # Craft docs editor
+
+# Screen Recording 螢幕錄影
+open https://www.screencastify.com/ # Screencastify - Screen Video Recorder. Export 網頁 標記
+open https://obsproject.com/  # OBS 全螢幕
+open https://www.loom.com/    # Loom: Async Video Messaging for Work. Online only
+open https://www.iorad.com/   # iorad - the tutorial builder. 截圖步驟投影片 Online only
+
+# 字幕
+open https://otter.ai/  # Otter.ai - Voice Meeting Notes & Real-time Transcription
 ```
+
+* BetterTouchTool
+  * [BetterTouchTool - 米米的部落格](https://jameshsu0407.github.io/blog/20210911_bettertouchtool/)
+  * [macOS 必裝的輔助工具 BetterTouchTool - OA Wu's Blog](https://www.ioa.tw/macOS/BetterTouchTool.html)
+  * [BetterTouchTool 使用指南——Touch Bar篇 - 知乎](https://zhuanlan.zhihu.com/p/240331709)
 
 ### Other Mac Setups
 
