@@ -63,6 +63,9 @@ open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id12081451
 open https://apps.apple.com/us/app/giphy-capture-the-gif-maker/id668208984?mt=12 # GIPHY Capture. The GIF Maker
 brew install --cask bettertouchtool   # customize input. "GoldenChaos-BTT"
 
+# Language
+brew install --cask deepl
+
 # Dev
 brew install --cask postman   # API platform
 brew install --cask transmit  # FTP
