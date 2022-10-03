@@ -60,7 +60,7 @@ series: tool
 7. Hugo Blog by GitHub Page 輸出學習過程/經驗
 8. 素材
    1. 封面美圖: [Unsplash](https://unsplash.com/)
-   2. 圖示: [Flaticon](https://www.flaticon.com/), [freepik](https://www.freepik.com/)
+   2. 圖示: [Flaticon](https://www.flaticon.com/), [freepik](https://www.freepik.com/), [時短](https://jitanda.com/)
    3. 圖庫, 截圖: [imgur.com](https://imgur.com/)
 
 [Canva](https://www.canva.com/)
