@@ -53,7 +53,7 @@ Ref: [[2022-09-10-ipad-setup]]
 
 ```sh
 # Productivity 
-brew install --cask alfred  # launcher
+brew install --cask raycast  # launcher
 brew install --cask rocket  # emoji
 brew install --cask skitch  # Screen capture tool
 brew install --cask karabiner-elements  # Keyboard customizer
@@ -62,6 +62,8 @@ open https://apps.apple.com/us/app/dropover/id1355679052?mt=12  # Dropover. Drag
 open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id1208145167  # Picsew. 滾動截圖和長圖拼接
 open https://apps.apple.com/us/app/giphy-capture-the-gif-maker/id668208984?mt=12 # GIPHY Capture. The GIF Maker
 brew install --cask bettertouchtool   # customize input. "GoldenChaos-BTT"
+brew install --cask rectangle   # shortcut to move app windows
+brew install --cask cheatsheet  # show shortcut for app
 
 # Language
 brew install --cask deepl
@@ -70,13 +72,18 @@ brew install --cask deepl
 brew install --cask postman   # API platform
 brew install --cask transmit  # FTP
 
+# Collaborate
+brew install --cask skype
+brew install --cask discord
+brew install --cask slack
+
 # Utils
 brew install --cask coconutbattery  # Batteries history
 brew install --cask aldente     # limit maximum charging
 brew install --cask appcleaner  # uninstall unwanted apps
 brew install --cask the-unarchiver  # Unpacks archive files
 brew install --cask flux    # Screen color temperature controller
-brew install --cask dozer   # Hide status bar icons
+brew install --cask hiddenbar   # Hide status bar icons
 brew install --cask keepingyouawake # Prevent sleep mode
 brew install --cask tunnelbear  # VPN client
 brew install --cask mounty  # Re-mounts write-protected NTFS volumes
