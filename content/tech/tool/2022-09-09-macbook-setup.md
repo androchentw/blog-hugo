@@ -55,6 +55,7 @@ Ref: [[2022-09-10-ipad-setup]]
 # Productivity 
 brew install --cask raycast  # launcher
 brew install --cask rocket  # emoji
+open https://apps.apple.com/us/app/focus-to-do-pomodoro-tasks/id1258530160?mt=12  # pomodoro
 brew install --cask skitch  # Screen capture tool
 brew install --cask karabiner-elements  # Keyboard customizer
 brew install --cask clipy   # copy paste list
