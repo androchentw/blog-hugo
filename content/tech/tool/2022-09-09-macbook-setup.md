@@ -53,18 +53,20 @@ Ref: [[2022-09-10-ipad-setup]]
 
 ```sh
 # Productivity 
-brew install --cask raycast  # launcher
+brew install --cask raycast # launcher
 brew install --cask rocket  # emoji
-open https://apps.apple.com/us/app/focus-to-do-pomodoro-tasks/id1258530160?mt=12  # pomodoro
 brew install --cask skitch  # Screen capture tool
-brew install --cask karabiner-elements  # Keyboard customizer
 brew install --cask clipy   # copy paste list
-open https://apps.apple.com/us/app/dropover/id1355679052?mt=12  # Dropover. Drag & drop
-open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id1208145167  # Picsew. 滾動截圖和長圖拼接
-open https://apps.apple.com/us/app/giphy-capture-the-gif-maker/id668208984?mt=12 # GIPHY Capture. The GIF Maker
-brew install --cask bettertouchtool   # customize input. "GoldenChaos-BTT"
 brew install --cask rectangle   # shortcut to move app windows
 brew install --cask cheatsheet  # show shortcut for app
+brew install --cask karabiner-elements  # Keyboard customizer
+brew install --cask bettertouchtool     # customize input. "GoldenChaos-BTT"
+
+open https://dropoverapp.com/   # Dropover. Drag & drop
+open https://www.focustodo.cn/  # focus-todo pomodoro
+open https://giphy.com/apps/giphycapture # GIPHY Capture. The GIF Maker
+open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id1208145167  # Picsew. 滾動截圖和長圖拼接
+
 
 # Language
 brew install --cask deepl
@@ -79,15 +81,15 @@ brew install --cask discord
 brew install --cask slack
 
 # Utils
-brew install --cask coconutbattery  # Batteries history
-brew install --cask aldente     # limit maximum charging
-brew install --cask appcleaner  # uninstall unwanted apps
-brew install --cask the-unarchiver  # Unpacks archive files
 brew install --cask flux    # Screen color temperature controller
-brew install --cask hiddenbar   # Hide status bar icons
-brew install --cask keepingyouawake # Prevent sleep mode
-brew install --cask tunnelbear  # VPN client
 brew install --cask mounty  # Re-mounts write-protected NTFS volumes
+brew install --cask hiddenbar   # Hide status bar icons
+brew install --cask tunnelbear  # VPN client
+# brew install --cask aldente   # limit maximum charging
+brew install --cask appcleaner  # uninstall unwanted apps
+brew install --cask coconutbattery  # Batteries history
+brew install --cask the-unarchiver  # Unpacks archive files
+brew install --cask keepingyouawake # Prevent sleep mode
 
 # Image
 brew install --cask imageoptim  # compress images
@@ -101,6 +103,7 @@ open https://www.movavi.com/  # Movavi
 open https://apps.apple.com/us/app/speakline-text-to-speech/id441968334?mt=12   # SpeakLine - Text to Speech
 
 # Docs
+open https://bear.app/  # Markdown Notes for iPhone, iPad, MacOS
 open https://apps.apple.com/mo/app/craft-文件與記錄編輯器/id1487937127  # Craft docs editor
 
 # Screen Recording 螢幕錄影
