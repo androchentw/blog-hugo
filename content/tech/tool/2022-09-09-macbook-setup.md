@@ -63,6 +63,7 @@ brew install --cask cheatsheet  # show shortcut for app
 brew install --cask karabiner-elements  # Keyboard customizer
 brew install --cask bettertouchtool     # customize input. "GoldenChaos-BTT"
 
+open https://sparkmailapp.com/  # Spark Email
 open https://dropoverapp.com/   # Dropover. Drag & drop
 open https://www.focustodo.cn/  # focus-todo pomodoro
 open https://giphy.com/apps/giphycapture # GIPHY Capture. The GIF Maker
@@ -78,6 +79,7 @@ brew install --cask postman   # API platform
 brew install --cask transmit  # FTP
 
 # Collaborate
+brew install --cask zoom
 brew install --cask skype
 brew install --cask discord
 brew install --cask slack
@@ -321,8 +323,7 @@ git config --global user.name "androchentw"
 ```sh
 # This is the recommended method of installation if you installed pyenv with Homebrew.
 brew install pyenv-virtualenv
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
-            # if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+echo 'if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi' >> ~/.zshrc
 
 brew install pyenv
 alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
@@ -361,20 +362,20 @@ which pip3
 # /usr/bin/pip3
 
 pyenv install --list | grep " 3\.[1]" 
-pyenv install 3.10.6 
+pyenv install 3.10.7 
 
-pyenv global 3.10.6
+pyenv global 3.10.7
 # restart iTerm2
 python3 --version
-# Python 3.10.6
-pyenv virtualenv 3.10.6 env-3.10.6
+# Python 3.10.7
+pyenv virtualenv 3.10.7 env-3.10.7
 
-# test env-3.10.6 virtualenv settings
+# test env-3.10.7 virtualenv settings
 mkdir test 
 cd test 
-pyenv local env-3.10.6
+pyenv local env-3.10.7
 python --version
-# Python 3.10.6
+# Python 3.10.7
 cd ..
 rm -rf test
 
