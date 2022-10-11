@@ -53,6 +53,7 @@ Ref: [[2022-09-10-ipad-setup]]
 
 ```sh
 # Productivity 
+brew install --cask brave-browser # brave browser
 brew install --cask raycast # launcher
 brew install --cask rocket  # emoji
 brew install --cask skitch  # Screen capture tool
@@ -72,6 +73,7 @@ open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id12081451
 brew install --cask deepl
 
 # Dev
+brew install --cask visual-studio-code
 brew install --cask postman   # API platform
 brew install --cask transmit  # FTP
 
@@ -88,8 +90,8 @@ brew install --cask tunnelbear  # VPN client
 # brew install --cask aldente   # limit maximum charging
 brew install --cask appcleaner  # uninstall unwanted apps
 brew install --cask coconutbattery  # Batteries history
-brew install --cask the-unarchiver  # Unpacks archive files
 brew install --cask keepingyouawake # Prevent sleep mode
+brew install --cask the-unarchiver  # Unpacks archive files
 
 # Image
 brew install --cask imageoptim  # compress images
@@ -150,7 +152,7 @@ Downloads
 # Run these two commands in your terminal to add Homebrew to your PATH:
 # 如果是 M1 的話需要加以下兩個 command. Intel 的不用, /usr/local 本來就在 PATH 了
 # https://stackoverflow.com/questions/70983104/brew-installs-not-appearing-in-usr-local-bin
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/androchentw/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew update 
@@ -188,6 +190,8 @@ brew install --cask fig
 # ⌘ → "SEND HEX CODE" 0x05
 # ⌥ ← "SEND ESC SEQ"  b
 # ⌥ → "SEND ESC SEQ"  f
+
+# iTerm2 > Preferences > Keys > Key Bindings
 ```
 
 * [Themes](https://iterm2colorschemes.com/): Nord, JetBrains Darcula, tokyonight-storm
@@ -214,7 +218,8 @@ zsh --version
 
 ### 2. oh-my-zsh: zsh setup management framework
 
-下次再試試看也用 Fig 安裝 oh-my-zsh
+* ~~下次再試試看也用 Fig 安裝 oh-my-zsh~~
+* 不使用 fig 安裝 oh-my-zsh, 仍然使用下列 command
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
