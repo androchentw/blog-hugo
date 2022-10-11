@@ -54,6 +54,8 @@ Ref: [[2022-09-10-ipad-setup]]
 ```sh
 # Productivity 
 brew install --cask brave-browser # brave browser
+brew install --cask miro    # miro
+brew install --cask canva   # canva
 brew install --cask raycast # launcher
 brew install --cask rocket  # emoji
 brew install --cask skitch  # Screen capture tool
@@ -68,13 +70,14 @@ open https://dropoverapp.com/   # Dropover. Drag & drop
 open https://www.focustodo.cn/  # focus-todo pomodoro
 open https://giphy.com/apps/giphycapture # GIPHY Capture. The GIF Maker
 open https://apps.apple.com/tw/app/picsew-滾動截圖和長圖拼接/id1208145167  # Picsew. 滾動截圖和長圖拼接
-
+open https://apps.apple.com/en/app/hiwater-饮水金字塔/id1561732866
 
 # Language
 brew install --cask deepl
 
 # Dev
 brew install --cask visual-studio-code
+brew install --cask sublime-text
 brew install --cask postman   # API platform
 brew install --cask transmit  # FTP
 
@@ -93,7 +96,7 @@ brew install --cask tunnelbear  # VPN client
 brew install --cask appcleaner  # uninstall unwanted apps
 brew install --cask coconutbattery  # Batteries history
 brew install --cask keepingyouawake # Prevent sleep mode
-brew install --cask the-unarchiver  # Unpacks archive files
+# brew install --cask the-unarchiver  # Unpacks archive files
 
 # Image
 brew install --cask imageoptim  # compress images
