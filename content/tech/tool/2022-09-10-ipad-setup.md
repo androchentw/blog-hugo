@@ -52,6 +52,9 @@ series: tool
 ### 思考/工作 流程
 
 1. 靈感 / Presentation / Brainstorming: [Canva], [Miro], Google Slide, [SlidesCarnival]
+   1. [Heptabase] $7 / mon: 文字構思, 撰寫長文
+   2. [Scrintal] $5 / mon: 文字構思, 撰寫長文
+   3. [Miro] $8 / mon: 白板, 圖像, Diagram
 2. Google Calendar time blocking
 3. Google Keep 隨手記下便利貼 想法 (跨平台, 輸入方便)
 4. Google Slide 每週 KPT Summary, 對焦周/月/季計畫
@@ -63,6 +66,8 @@ series: tool
    2. 圖示: [Flaticon](https://www.flaticon.com/), [freepik](https://www.freepik.com/), [時短](https://jitanda.com/)
    3. 圖庫, 截圖: [imgur.com](https://imgur.com/)
 
+[Heptabase]: (https://heptabase.com/)
+[Scrintal]: (https://www.scrintal.com/)
 [Canva]: (https://www.canva.com/)
 [Miro]: (https://miro.com/)
 [SlidesCarnival]: (https://www.slidescarnival.com/)
