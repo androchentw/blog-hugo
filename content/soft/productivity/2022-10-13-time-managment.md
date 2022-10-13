@@ -13,7 +13,7 @@ share_img: https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb
 series: productivity
 ---
 
-<img style="width:80%;" src="https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80">
+<img style="width:60%;" src="https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">De an Sun</a> on <a href="https://unsplash.com/collections/QgcZDR5UeaE/time?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>
