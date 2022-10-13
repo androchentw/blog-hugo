@@ -9,9 +9,9 @@ type: post
 categories:
   - life
 tags: 
-  - time-management
+  - productivity
 share_img: https://i.imgur.com/FjJRowq.png
-series: time-management
+series: productivity
 ---
 
 
@@ -36,7 +36,7 @@ series: time-management
     * Time Blocking: 預留時間段
     * Pomodoro: 25 分番茄鐘
   * Tools 工具
-    * 主動: Google Calendar, Clockify, Notion
+    * 主動: Google Calendar, Clockify, Focus To-do
     * 被動: ResueTime
 
 ### KRs 結果 解法
@@ -46,3 +46,4 @@ series: time-management
 ## Murmur
 
 * 2022-09-29: 簡單來說就是強迫症 😂
+* 2022-10-13: 有的時候其實明明有很多時間卻想耍廢... 這時候並不是方法或工具的問題, 而是要重新找回 "心態" 上對於產出的追求
