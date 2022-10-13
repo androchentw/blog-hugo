@@ -88,6 +88,7 @@ series: instructor
       * <img style="width:60%;" src="https://bryanmmathers.com/wp-content/uploads/2015/05/formative-vs-summative.png">
       * Assignments, coding exercises, downloadable resources, quiz
     * Sections & Lectures
+    * Talking Point
 
 2. [創建引人入勝的課程](https://www.udemy.com/instructor/resources/?page=teaching)
     1. 步驟 1 Topic: 選擇您的課程**主題**。
