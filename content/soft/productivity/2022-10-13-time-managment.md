@@ -9,11 +9,11 @@ categories:
   - soft
 tags: 
   - productivity
-share_img: https://i.imgur.com/FjJRowq.png
+share_img: https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80
 series: productivity
 ---
 
-<img style="width:60%;" src="https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXxRZ2NaRFI1VWVhRXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60">
+<img style="width:80%;" src="https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">De an Sun</a> on <a href="https://unsplash.com/collections/QgcZDR5UeaE/time?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>
@@ -26,6 +26,8 @@ series: productivity
   * 想做的事太多，~~想耍的廢更多~~
 * Common Pitfalls 常見的坑
   * 時間管理是手段，不是目的：花了太多時間與力氣在維護「管理時間」，但卻忘了最重要的是「有效率地交付」
+
+<!--more-->
 
 ### Objectives 目標 效益
 
