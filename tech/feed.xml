@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tech/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Thu, 15 Sep 2022 09:55:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tech/feed.xml" rel="self" type="application/rss+xml"/><item><title>DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品</title><link>https://blog.androchen.tw/devopsdays-taipei-2022/</link><pubDate>Thu, 15 Sep 2022 09:55:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/devopsdays-taipei-2022/</guid><description>&lt;img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tech/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 14 Oct 2022 15:30:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tech/feed.xml" rel="self" type="application/rss+xml"/><item><title>HashiCorp Vault 實戰工作坊: 建構零信任安全策略</title><link>https://blog.androchen.tw/hashicorp-vault-workshop/</link><pubDate>Fri, 14 Oct 2022 15:30:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/hashicorp-vault-workshop/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1604399852419-f67ee7d5f2ef?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2531&amp;q=80">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@g1sanju?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sanjeev Mohindra&lt;/a> on &lt;a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
+&lt;ul>
+&lt;li>隨著 Security 難度提升, DevOps 及自動化開發維運等工具漸起, API Secret Management 及 Data Security 等議題益發重要。&lt;/li>
+&lt;/ul>
+&lt;h3 id="objectives-目標-效益">Objectives 目標 效益&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.accupass.com/event/2209050743003859674870">《歐立威科技 2022 研討會》10/14 | 【線上】Vault 實戰工作坊：建構零信任安全策略&lt;/a>: 透過實作教學，深入了解 HashiCorp 零信任安全模型，該模型基於身份的存取和安全性原則。學習到 Vault 基礎知識、並且將實際上手操作，體驗動態資料庫存取憑證、轉換和傳輸加密引擎（應用級加密）、轉換標記化加密引擎、金鑰管理加密引擎等等的 Vault 企業版的進階功能。&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs-成果">KRs 成果&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2022-10-14 參與並完成 workshop 內容, 整理筆記&lt;/li>
+&lt;/ul></description></item><item><title>DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品</title><link>https://blog.androchen.tw/devopsdays-taipei-2022/</link><pubDate>Thu, 15 Sep 2022 09:55:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/devopsdays-taipei-2022/</guid><description>&lt;img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Ref: &lt;a href="https://blog.androchen.tw/agile-summit-2022/">Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值&lt;/a>&lt;/p>
 &lt;ul>
@@ -94,7 +110,7 @@ Photo by &lt;a href="https://unsplash.com/@g1sanju?utm_source=unsplash&amp;utm_m
 Photo by &lt;a href="https://unsplash.com/@benkolde?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ben Kolde&lt;/a> on &lt;a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
-&lt;p>Ref: [[2022-09-10-ipad-setup]]&lt;/p>
+&lt;p>Ref: [[2022-10-14-hashicorp-vault-workshop]]&lt;/p>
 &lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
 &lt;ul>
 &lt;li>每次要設定 macbook 開發環境時, 總是頭痛到底設定了哪些東西跟軟體&lt;/li>
