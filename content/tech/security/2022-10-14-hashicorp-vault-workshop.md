@@ -184,7 +184,23 @@ mysql -u <username> -p
 # You should get an error like ERROR 1045 (28000): Access denied for user 'v-token-workshop-a-ADDhO0yP4nleV'@'localhost' (using password: YES)
 
 # Session 4. Renew and Revoke Database Credentials
+vault read lob_a/workshop/database/creds/workshop-app
+# replace <lease_id> with the lease_id 
+vault write sys/leases/renew lease_id="<lease_id>" increment="120"
+vault write sys/leases/lookup lease_id="<lease_id>"
+# Key             Value
+# ---             -----
+# expire_time     2022-10-14T08:18:39.422263354Z
+# id              lob_a/workshop/database/creds/workshop-app/Ioca1iS5vjbUNnSbHgcw9m3I
+# issue_time      2022-10-14T08:15:55.536316198Z
+# last_renewal    2022-10-14T08:16:39.422263449Z
+# renewable       true
+# ttl             1m30s
 
+vault read lob_a/workshop/database/creds/workshop-app
+vault write sys/leases/revoke lease_id="<lease_id>"
+mysql -u <username> -p
+# ERROR 1045 (28000): Access denied for user 'v-token-workshop-a-R2025QT2Gb19a'@'localhost' (using password: YES)
 ```
 
 ## Track 3 - Vault Encryption as a Service
@@ -202,13 +218,24 @@ mysql -u <username> -p
 
 ```sh
 # Session 1. Enable the Transit Secrets Engine
+vault secrets list
+vault secrets enable -path=lob_a/workshop/transit transit
 
 # Session 2. Create a Key for the Transit Secrets Engine
+vault write -f lob_a/workshop/transit/keys/customer-key
 
 # Session 3. Use the Web App Without Vault
+# Click the "Add Record" button and add a new record with some fake data. 
+# Then check that the new record is not encrypted in the Database View.
 
 # Session 4. Use the Web App With Vault
-
+ps -ef | grep app.py | grep -v grep
+kill -9 <PID>
+vi /home/vault/transit-app-example/backend/config.ini
+# Enabled = False to Enabled = True.
+# DynamicDBCreds = False to DynamicDBCreds = True
+cd /home/vault/transit-app-example/backend
+python3 app.py &
 ```
 
 ## Murmur
