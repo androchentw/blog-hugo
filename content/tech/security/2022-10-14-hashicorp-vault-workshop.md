@@ -55,18 +55,18 @@ series: security
 7. Use Vault Policies
 
 ```sh
-# 1. The Vault CLI
+# Session 1. The Vault CLI
 vault server -dev -dev-listen-address=0.0.0.0:8200 -dev-root-token-id=root
 # Log into the Vault UI with Method set to Token and Token set to root.
 
-# 2. Your First Secret
+# Session 2. Your First Secret
 vault kv put secret/my-first-secret age=<age>
 
-# 3. The Vault API
+# Session 3. The Vault API
 curl http://localhost:8200/v1/sys/health | jq
 curl --header "X-Vault-Token: root" http://localhost:8200/v1/secret/data/my-first-secret | jq
 
-# 4. Run a Production Server
+# Session 4. Run a Production Server
 vault server -config=/vault/config/vault-config.hcl
 vault operator init -key-shares=1 -key-threshold=1
 export VAULT_TOKEN=<root_token>
@@ -76,11 +76,11 @@ vault operator unseal
 # Unseal Key 1: dT7573IxHbfzt6EFRR07beM2iBg1W4IRilqm/MbvV8g=
 # Initial Root Token: s.ajUx80PEBeLMCMBv49FQsM6j
 
-# 5. Use the KV V2 Secrets Engine
+# Session 5. Use the KV V2 Secrets Engine
 vault secrets enable -version=2 kv
 vault kv put kv/a-secret value=1234
 
-# 6. Use the Userpass Auth Method
+# Session 6. Use the Userpass Auth Method
 vault auth enable userpass
 # Be sure to specify an actual username for <name> and a password for <pwd> without the angle brackets.
 vault write auth/userpass/users/<name> password=<pwd>
@@ -92,7 +92,7 @@ vault token lookup
 vault kv get kv/a-secret
 # You will get an error message because your token is not authorized to read any secrets yet. That is because Vault policies are "deny by default", meaning that a token can only read or write a secret if it is explicitly given permission to do so by one of its policies.
 
-# 7. Use Vault Policies
+# Session 7. Use Vault Policies
 # Edit poilcy.hcl
 # Now, create a second user with the same command you used before, selecting a different username and password:
 vault write auth/userpass/users/<name2> password=<pwd2>
@@ -120,13 +120,42 @@ vault kv put kv/<user>/weight weight=150
 4. Renew and Revoke Database Credentials
 
 ```sh
-# 1. Enable the Database Secrets Engine
+# Session 1. Enable the Database Secrets Engine
+vault secrets list
+vault secrets enable -path=lob_a/workshop/database database
 
-# 2. Configure the Database Secrets Engine
+# Session 2. Configure the Database Secrets Engine
+vault write lob_a/workshop/database/config/wsmysqldatabase \
+  plugin_name=mysql-database-plugin \
+  connection_url="{{username}}:{{password}}@tcp(localhost:3306)/" \
+  allowed_roles="workshop-app","workshop-app-long" \
+  username="hashicorp" \
+  password="Password123"
+# This will not return anything if successful.
+vault read lob_a/workshop/database/config/wsmysqldatabase
+mysql -u hashicorp -pPassword123
+  \q
+# force rotate
+vault write -force lob_a/workshop/database/rotate-root/wsmysqldatabase
+mysql -u hashicorp -pPassword123
+# ERROR 1045 (28000): Access denied for user 'hashicorp'@'localhost' (using password: YES)
 
-# 3. Generate and Use Dynamic Database Credentials
+vault write lob_a/workshop/database/roles/workshop-app-long \
+  db_name=wsmysqldatabase \
+  creation_statements="CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT ALL ON my_app.* TO '{{name}}'@'%';" \
+  default_ttl="1h" \
+  max_ttl="24h"
 
-# 4. Renew and Revoke Database Credentials
+vault write lob_a/workshop/database/roles/workshop-app \
+  db_name=wsmysqldatabase \
+  creation_statements="CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT ALL ON my_app.* TO '{{name}}'@'%';" \
+  default_ttl="3m" \
+  max_ttl="6m"
+
+  
+# Session 3. Generate and Use Dynamic Database Credentials
+
+# Session 4. Renew and Revoke Database Credentials
 
 ```
 
@@ -144,13 +173,13 @@ vault kv put kv/<user>/weight weight=150
    1. Use the python web application with Vault. This will prevent users from seeing sensitive data when looking at new database rows.
 
 ```sh
-# 1. Enable the Transit Secrets Engine
+# Session 1. Enable the Transit Secrets Engine
 
-# 2. Create a Key for the Transit Secrets Engine
+# Session 2. Create a Key for the Transit Secrets Engine
 
-# 3. Use the Web App Without Vault
+# Session 3. Use the Web App Without Vault
 
-# 4. Use the Web App With Vault
+# Session 4. Use the Web App With Vault
 
 ```
 
