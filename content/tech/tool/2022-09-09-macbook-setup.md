@@ -426,6 +426,22 @@ cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
   killall SystemUIServer
   ```
 
+## sh
+
+[Rewritten in Rust: Modern Alternatives of Command-Line Tools](https://zaiste.net/posts/shell-commands-rust/)
+
+```sh
+brew install nushell
+
+brew install bat
+brew install fd
+brew install exa
+brew install procs
+brew install dust
+brew install tokei
+brew install tealdeer
+```
+
 ## Murmur
 
 * 2022-09-09 每次拿到新電腦都要重來一次... 😂
