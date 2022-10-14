@@ -432,7 +432,6 @@ cat ~/.p10k.zsh > ~/Downloads/2022-andro.p10k.zsh
 
 ```sh
 brew install nushell
-
 brew install bat
 brew install fd
 brew install exa
@@ -440,6 +439,16 @@ brew install procs
 brew install dust
 brew install tokei
 brew install tealdeer
+
+brew install starship
+## Setup startship
+nu
+# Add the following to the end of your Nushell env file (find it by running $nu.env-path in Nushell):
+mkdir ~/.cache/starship
+starship init nu | save ~/.cache/starship/init.nu
+
+And add the following to the end of your Nushell configuration (find it by running $nu.config-path):
+source ~/.cache/starship/init.nu
 ```
 
 ## Murmur
