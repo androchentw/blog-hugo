@@ -110,6 +110,50 @@ vault kv get kv/<user>/age
 vault kv put kv/<user>/weight weight=150
 ```
 
+## Track 2 - Vault Dynamic Database Credentials
+
+* Generate dynamic credentials for a MySQL database from Vault.
+
+1. Enable the Database Secrets Engine
+2. Configure the Database Secrets Engine
+3. Generate and Use Dynamic Database Credentials
+4. Renew and Revoke Database Credentials
+
+```sh
+# 1. Enable the Database Secrets Engine
+
+# 2. Configure the Database Secrets Engine
+
+# 3. Generate and Use Dynamic Database Credentials
+
+# 4. Renew and Revoke Database Credentials
+
+```
+
+## Track 3 - Vault Encryption as a Service
+
+* Show how Vault's Transit secrets engine provides encryption as a service.
+
+1. Enable the Transit Secrets Engine
+   1. Enable the Transit secrets engine on the Vault server to enable Vault's Encryption-as-a-Service.
+2. Create a Key for the Transit Secrets Engine
+   1. Create an encryption key for the Transit secrets engine on the Vault server so that it can encrypt and decrypt data stored outside of Vault.
+3. Use the Web App Without Vault
+   1. Use the python web application without Vault. This will allow users to see sensitive data when looking at database rows.
+4. Use the Web App With Vault
+   1. Use the python web application with Vault. This will prevent users from seeing sensitive data when looking at new database rows.
+
+```sh
+# 1. Enable the Transit Secrets Engine
+
+# 2. Create a Key for the Transit Secrets Engine
+
+# 3. Use the Web App Without Vault
+
+# 4. Use the Web App With Vault
+
+```
+
 ## Murmur
 
 * 2022-10-14 最喜歡學習怎麼設計 workshop 😍
