@@ -44,6 +44,10 @@ series: chatbot
 * GCP
   * [GCP + Discord](https://cloud.google.com/blog/topics/developers-practitioners/build-and-run-discord-bot-top-google-cloud)
   * [free tier hosting: GCE](https://ithelp.ithome.com.tw/articles/10276289?sc=iThomeR)
+    * [VPC (一)](https://ithelp.ithome.com.tw/articles/10262895)
+    * [第一次開 GCP VM 就上手！Compute Engine 開機教學](https://blog.cloud-ace.tw/infrastructure/vm/start-a-google-vm-compute-engine/)
+    * [開 GCP VM 要注意什麼？Compute Engine 開機詳細教學](https://blog.cloud-ace.tw/infrastructure/vm/gcp-tutorial-first-google-vm-attention-please/)
+    * [教學 如何使用 Google Cloud Storage 建立靜態網站](https://ikala.cloud/cloud-storage-application-website/)
   * [Serverless cloud function](https://www.maxlist.xyz/2022/02/01/discord-bot-with-gcp/)
 
 ## 場景
