@@ -56,8 +56,7 @@ Ref: [[2022-09-10-ipad-setup]]
 brew install --cask brave-browser # brave browser
 brew install --cask miro    # miro
 brew install --cask canva   # canva
-brew install --cask raycast # launcher
-brew install --cask rocket  # emoji
+brew install --cask raycast # launcher + emoji + ...
 brew install --cask skitch  # Screen capture tool
 brew install --cask clipy   # copy paste list
 brew install --cask rectangle   # shortcut to move app windows
