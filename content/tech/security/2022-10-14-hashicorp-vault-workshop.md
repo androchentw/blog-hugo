@@ -1,0 +1,115 @@
+---
+title: "HashiCorp Vault 實戰工作坊: 建構零信任安全策略"
+url: /hashicorp-vault-workshop
+# date: 2022-10-14T14:06:16+08:00
+date: 2022-10-14T15:30:16+08:00
+author: androchentw
+type: post
+categories:
+  - tech
+tags:
+  - security
+  - sre
+share_img: https://images.unsplash.com/photo-1604399852419-f67ee7d5f2ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2531&q=80
+series: security
+---
+
+<img style="width:60%;" src="https://images.unsplash.com/photo-1604399852419-f67ee7d5f2ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2531&q=80">
+<p align="center"><sub><sup>
+  Photo by <a href="https://unsplash.com/@g1sanju?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sanjeev Mohindra</a> on <a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub></p>
+
+## Overview
+
+### Challenges 現況 挑戰
+
+* 隨著 Security 難度提升, DevOps 及自動化開發維運等工具漸起, API Secret Management 及 Data Security 等議題益發重要。
+
+### Objectives 目標 效益
+
+* [《歐立威科技 2022 研討會》10/14 | 【線上】Vault 實戰工作坊：建構零信任安全策略](https://www.accupass.com/event/2209050743003859674870): 透過實作教學，深入了解 HashiCorp 零信任安全模型，該模型基於身份的存取和安全性原則。學習到 Vault 基礎知識、並且將實際上手操作，體驗動態資料庫存取憑證、轉換和傳輸加密引擎（應用級加密）、轉換標記化加密引擎、金鑰管理加密引擎等等的 Vault 企業版的進階功能。
+
+### KRs 成果
+
+* [x] 2022-10-14 參與並完成 workshop 內容, 整理筆記
+
+<!--more-->
+
+## Materials
+
+* [零信任白皮書](https://www.datocms-assets.com/2885/1602637867-zerotrustwhitepaperv4digital.pdf)
+* [介紹影片](https://www.hashicorp.com/resources/introduction-to-zero-trust-security)
+* [Vault Workshop Slide](https://hashicorp.github.io/field-workshops-vault/slides/multi-cloud/vault-oss#1)
+* [Screenshots](https://imgur.com/a/txQhyeZ)
+
+## Track 1 - Vault Basics
+
+* Learn how to setup and run a Vault server and manage its secrets.
+
+1. The Vault CLI
+2. Your First Secret
+3. The Vault API
+4. Run a Production Server
+5. Use the KV V2 Secrets Engine
+6. Use the Userpass Auth Method
+7. Use Vault Policies
+
+```sh
+# 1. The Vault CLI
+vault server -dev -dev-listen-address=0.0.0.0:8200 -dev-root-token-id=root
+# Log into the Vault UI with Method set to Token and Token set to root.
+
+# 2. Your First Secret
+vault kv put secret/my-first-secret age=<age>
+
+# 3. The Vault API
+curl http://localhost:8200/v1/sys/health | jq
+curl --header "X-Vault-Token: root" http://localhost:8200/v1/secret/data/my-first-secret | jq
+
+# 4. Run a Production Server
+vault server -config=/vault/config/vault-config.hcl
+vault operator init -key-shares=1 -key-threshold=1
+export VAULT_TOKEN=<root_token>
+echo "export VAULT_TOKEN=$VAULT_TOKEN" >> /root/.profile
+vault operator unseal
+# ** copy paste your <root_token> and <unseal_key>
+# Unseal Key 1: dT7573IxHbfzt6EFRR07beM2iBg1W4IRilqm/MbvV8g=
+# Initial Root Token: s.ajUx80PEBeLMCMBv49FQsM6j
+
+# 5. Use the KV V2 Secrets Engine
+vault secrets enable -version=2 kv
+vault kv put kv/a-secret value=1234
+
+# 6. Use the Userpass Auth Method
+vault auth enable userpass
+# Be sure to specify an actual username for <name> and a password for <pwd> without the angle brackets.
+vault write auth/userpass/users/<name> password=<pwd>
+vault login -method=userpass username=<name> password=<pwd>
+# Both of these login methods give you a Vault token with Vault's default policy that grants some very limited capabilities. A yellow warning message tells us that we currently have the VAULT_TOKEN environment variable set and that we should either unset it or set it to the new token. Let's unset it:
+unset VAULT_TOKEN
+vault token lookup
+
+vault kv get kv/a-secret
+# You will get an error message because your token is not authorized to read any secrets yet. That is because Vault policies are "deny by default", meaning that a token can only read or write a secret if it is explicitly given permission to do so by one of its policies.
+
+# 7. Use Vault Policies
+# Edit poilcy.hcl
+# Now, create a second user with the same command you used before, selecting a different username and password:
+vault write auth/userpass/users/<name2> password=<pwd2>
+# add the policies to the Vault server:
+vault policy write <user_1> /vault/policies/user-1-policy.hcl
+vault policy write <user_2> /vault/policies/user-2-policy.hcl
+# assign the new policies to the users:
+vault write auth/userpass/users/<user_1>/policies policies=<user_1>
+vault write auth/userpass/users/<user_2>/policies policies=<user_2>
+
+# Verify with CLI
+unset VAULT_TOKEN
+vault login -method=userpass username=<user> password=<pwd>
+vault kv get kv/<user>/age
+vault kv put kv/<user>/weight weight=150
+```
+
+## Murmur
+
+* 2022-10-14 最喜歡學習怎麼設計 workshop 😍

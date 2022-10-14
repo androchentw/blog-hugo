@@ -20,7 +20,7 @@ series: tool
 
 ## Overview
 
-Ref: [[2022-09-10-ipad-setup]]
+Ref: [[2022-10-14-hashicorp-vault-workshop]]
 
 ### Challenges 現況 挑戰
 
