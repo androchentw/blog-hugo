@@ -151,9 +151,37 @@ vault write lob_a/workshop/database/roles/workshop-app \
   creation_statements="CREATE USER '{{name}}'@'%' IDENTIFIED BY '{{password}}';GRANT ALL ON my_app.* TO '{{name}}'@'%';" \
   default_ttl="3m" \
   max_ttl="6m"
-
   
 # Session 3. Generate and Use Dynamic Database Credentials
+curl --header "X-Vault-Token: root" "http://localhost:8200/v1/lob_a/workshop/database/creds/workshop-app-long" | jq
+vault read lob_a/workshop/database/creds/workshop-app-long
+# Key                Value
+# ---                -----
+# lease_id           lob_a/workshop/database/creds/workshop-app-long/CL4J8MkxsP0wCxkWyCFzGceM
+# lease_duration     1h
+# lease_renewable    true
+# password           BXDWdFnh8RWKyc6-hbKa
+# username           v-token-workshop-a-GFDhXgXnUJxRn
+
+vault read lob_a/workshop/database/creds/workshop-app
+# Key                Value
+# ---                -----
+# lease_id           lob_a/workshop/database/creds/workshop-app/Jh0OfLXXcWaRWXAx66uzUiLm
+# lease_duration     3m
+# lease_renewable    true
+# password           eeLfgAknwORHqG-9xYxk
+# username           v-token-workshop-a-ADDhO0yP4nleV
+
+# Replace <user_name> with the one generated from the previous command
+mysql -u <username> -p
+  show databases;
+  use my_app;
+  show tables;
+  describe customers;
+  select first_name, last_name from customers;
+  \q
+# At least 3 minutes after you generated the credentials, try to connect to the MySQL server again
+# You should get an error like ERROR 1045 (28000): Access denied for user 'v-token-workshop-a-ADDhO0yP4nleV'@'localhost' (using password: YES)
 
 # Session 4. Renew and Revoke Database Credentials
 
