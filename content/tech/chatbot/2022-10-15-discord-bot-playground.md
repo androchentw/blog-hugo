@@ -38,6 +38,10 @@ series: chatbot
 ## Materials
 
 * [Top.gg - Discord Bots](https://top.gg/)
+* [Discord 客服機器人 Ticket Tool 設置教學](https://banka.com.tw/ticket-tool-bot-setting-instruction/)
+* [Discord 抽獎機器人 GiveawayBot 設置教學](https://banka.com.tw/giveawaybot-setting-instruction/)
+* [Discord 多功能機器人 MEE6 的 3 個實用免費功能介紹](https://banka.com.tw/three-useful-functions-in-mee6-bot/)
+* [關於我有使用過的 Discord 機器人](https://israynotarray.com/other/20220515/802735817/)
 * 建立 FF14 資訊 Discord chatbot 系列
   * [[DAY 05]物品拍賣價格查詢功能(3/4)](https://ithelp.ithome.com.tw/m/articles/10268117)
   * [[DAY 10]讓BOT 24小時在線(1/3)](https://ithelp.ithome.com.tw/m/articles/10271672)
@@ -49,6 +53,7 @@ series: chatbot
     * [開 GCP VM 要注意什麼？Compute Engine 開機詳細教學](https://blog.cloud-ace.tw/infrastructure/vm/gcp-tutorial-first-google-vm-attention-please/)
     * [教學 如何使用 Google Cloud Storage 建立靜態網站](https://ikala.cloud/cloud-storage-application-website/)
   * [Serverless cloud function](https://www.maxlist.xyz/2022/02/01/discord-bot-with-gcp/)
+* [Heroku 的替代方案？ Fly.io 平台 — Python Flask 實際範例](https://blog.jiatool.com/posts/flyio_python/)
 
 ## 場景
 
