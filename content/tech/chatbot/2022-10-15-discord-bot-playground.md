@@ -80,6 +80,8 @@ series: chatbot
 
 ## 我用過的 Discord Bot
 
+### 綜合類
+
 * YEE式機器龍
   * 播音樂 `/lofi`
   * RPG 種田 `&farm`
@@ -87,15 +89,26 @@ series: chatbot
   * 每日提醒 (1則)
   * 聊天提升等級
   * [Discord 多功能機器人 MEE6 的 3 個實用免費功能介紹](https://banka.com.tw/three-useful-functions-in-mee6-bot/)
+* Miki
+
+### 每日提醒類
+
 * Sesh
   * 提醒
-* Miki
-  * 提醒 (較陽春)
-* 其他參考
-  * [Top.gg - Discord Bots](https://top.gg/)
-  * [關於我有使用過的 Discord 機器人](https://israynotarray.com/other/20220515/802735817/)
-  * [Discord 客服機器人 Ticket Tool 設置教學](https://banka.com.tw/ticket-tool-bot-setting-instruction/)
-  * [Discord 抽獎機器人 GiveawayBot 設置教學](https://banka.com.tw/giveawaybot-setting-instruction/)
+* Message Scheduler `s!list`
+
+### RPG 類
+
+* TacoShack
+* EPIC RPG
+* DiscordRPG
+
+### 其他參考
+
+* [Top.gg - Discord Bots](https://top.gg/)
+* [關於我有使用過的 Discord 機器人](https://israynotarray.com/other/20220515/802735817/)
+* [Discord 客服機器人 Ticket Tool 設置教學](https://banka.com.tw/ticket-tool-bot-setting-instruction/)
+* [Discord 抽獎機器人 GiveawayBot 設置教學](https://banka.com.tw/giveawaybot-setting-instruction/)
 
 ## Murmur
 
