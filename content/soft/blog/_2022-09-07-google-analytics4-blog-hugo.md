@@ -25,7 +25,7 @@ series: blog
 
 ### Objectives
 
-1. 
+1.
 
 ### KRs
 
@@ -38,28 +38,25 @@ series: blog
 ### GA4 + Blog Hugo
 
   Google Analytics 4 in Hugo
-  https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a
-
+  <https://gist.github.com/zjeaton/42246742cdaf2fb46400d04c2eba9a8a>
 
 ### GA4
+
   【使用教學】2022 最新版 GA4 完全攻略，從新舊比較到自訂報表都 OK！
-  https://www.turingdigital.com.tw/blog/ga4p-complete-guide
+  <https://www.turingdigital.com.tw/blog/ga4p-complete-guide>
 
-  https://notonlyblogger.com/how-to-set-up-google-analytics-4/
-
+  <https://notonlyblogger.com/how-to-set-up-google-analytics-4/>
 
 ### Ref
 
-  https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics.html
-  https://discourse.gohugo.io/t/how-to-make-site-updates-to-support-google-analytics-4/38271/5
-  https://brightzheng100.github.io/diary/howto-integrate-google-analytics-4-with-hugo-website/
-
+  <https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/google_analytics.html>
+  <https://discourse.gohugo.io/t/how-to-make-site-updates-to-support-google-analytics-4/38271/5>
+  <https://brightzheng100.github.io/diary/howto-integrate-google-analytics-4-with-hugo-website/>
 
 GA3
 Hugo 加入 Google Analytics
-  https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/
+  <https://coreychen71.github.io/posts/2019-05/hugoaddgoogleanalytics/>
 
 ## Murmur
 
 * 2022-09-07 升級不完的各種工具 orz
-

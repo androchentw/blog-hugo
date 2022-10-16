@@ -36,9 +36,10 @@ series: blog
 ### 實戰: 調整目錄結構
 
 * [Directory Structure](https://gohugo.io/getting-started/directory-structure/)
-  * All content for your website will live inside this directory. Each top-level folder in Hugo is considered a content section. 
+  * All content for your website will live inside this directory. Each top-level folder in Hugo is considered a content section.
   * For example, if your site has three main sections—blog, articles, and tutorials—you will have three directories at content/blog, content/articles, and content/tutorials. Hugo uses sections to assign default content types.
-      ```
+
+      ```text
       .
       ├── archetypes
       ├── config.toml
@@ -50,17 +51,18 @@ series: blog
       ```
 
 * [Content Types](https://gohugo.io/content-management/types/)
-  * Hugo is built around content organized in sections. 
-  * A content type is a way to organize your content. 
+  * Hugo is built around content organized in sections.
+  * A content type is a way to organize your content.
   * 善用 [Archetypes](https://gohugo.io/content-management/archetypes/) 幫你快速產生文章範本
     * Archetypes are templates used when creating new content.
   * 每份 md 裡的 `type` 好像也可以拿來用作分類使用
 * [Content Sections](https://gohugo.io/content-management/sections/)
   * Hugo generates a section tree that matches your content.
   * A Section is a collection of pages that gets defined based on the organization structure under the content/ directory.
-  * [Nested Sections](https://gohugo.io/content-management/sections/#nested-sections) 
+  * [Nested Sections](https://gohugo.io/content-management/sections/#nested-sections)
   * 實際上就是直接在 `content` 底下開資料夾, 並且加入 `_index.md` 就可以了!
-    ```
+
+    ```text
     content
     └── blog        <-- Section, because first-level dir under content/
         ├── funny-cats
@@ -74,13 +76,15 @@ series: blog
 * `config.toml`
   * [mainSections](https://gohugo.io/functions/where/#mainsections)
   * 我們要在 config.toml 新增 menu.main, 讓他能在 navigation bar 顯現
-    ```
+
+    ```toml
     [[menu.main]]
       name = "Tech"
       pre = '<i class="fas fa-laptop-code fa-lg"></i>'
       url = "/tech/"
       weight = 1
     ```
+
   * [Taxonomies](https://gohugo.io/content-management/taxonomies/)
     * Hugo includes support for user-defined taxonomies.
     * Hugo includes support for user-defined groupings of content called taxonomies. Taxonomies are classifications of logical relationships between content.
@@ -93,25 +97,26 @@ series: blog
 
   <img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/e78d19184b20fb7869c1fbf9af205be3a241f874/45ef3/content-management/organization/1-featured-content-bundles_hu911524202ff4753624ea0b303cf97415_34394_300x0_resize_catmullrom_3.png">
 
-      ```
-      .
-      └── content
-          └── about
-          |   └── index.md  // <- https://example.com/about/
-          ├── posts
-          |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
-          |   ├── happy
-          |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
-          |   └── secondpost.md  // <- https://example.com/posts/secondpost/
-          └── quote
-              ├── first.md       // <- https://example.com/quote/first/
-              └── second.md      // <- https://example.com/quote/second/
-      ```
+    ```text
+    .
+    └── content
+        └── about
+        |   └── index.md  // <- https://example.com/about/
+        ├── posts
+        |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
+        |   ├── happy
+        |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
+        |   └── secondpost.md  // <- https://example.com/posts/secondpost/
+        └── quote
+            ├── first.md       // <- https://example.com/quote/first/
+            └── second.md      // <- https://example.com/quote/second/
+    ```
 
 * [Page Bundles](https://gohugo.io/content-management/page-bundles/#branch-bundles)
   * [Branch Bundles](https://gohugo.io/content-management/page-bundles/#branch-bundles)
     * A Branch Bundle is any directory at any hierarchy within the `content/` directory, that contains at least an `_index.md` file.
-    ```
+
+    ```text
     content/
     ├── branch-bundle-1
     │   ├── branch-content1.md
@@ -130,15 +135,12 @@ series: blog
 實際會動到的 code
 
 1. 創建 `content/` 下的 folder, 並加上 `_index.md`. git commit - [feat: add sections](https://github.com/androchentw/blog-hugo/commit/8ea46f265bc3b84c299ba150539ab5ad84432f2f)
-2. 調整 `config.toml`, 使之顯示在 nav bar. git commit - [feat: rearrange order weight of nav bar](https://github.com/androchentw/blog-hugo/commit/b5a218edd758a93c836895621ac742dc723b3064) 
+2. 調整 `config.toml`, 使之顯示在 nav bar. git commit - [feat: rearrange order weight of nav bar](https://github.com/androchentw/blog-hugo/commit/b5a218edd758a93c836895621ac742dc723b3064)
 
 ### Discussion
 
-
 ### Ref
-
 
 ## Murmur
 
 * 2022-08-07 整理癖...
-
