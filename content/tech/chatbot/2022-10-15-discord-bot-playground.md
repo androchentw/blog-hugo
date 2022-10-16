@@ -1,7 +1,7 @@
 ---
 draft: true
-title: "Discord Bot Playground"
-url: /discord-bot-playground
+title: "玩轉 Discord Bot - 日常, 遊戲, 程式"
+url: /discord-bot
 # date: 2022-10-15T00:06:16+08:00
 date: 2022-10-15T18:35:16+08:00
 author: androchentw
@@ -37,11 +37,6 @@ series: chatbot
 
 ## Materials
 
-* [Top.gg - Discord Bots](https://top.gg/)
-* [Discord 客服機器人 Ticket Tool 設置教學](https://banka.com.tw/ticket-tool-bot-setting-instruction/)
-* [Discord 抽獎機器人 GiveawayBot 設置教學](https://banka.com.tw/giveawaybot-setting-instruction/)
-* [Discord 多功能機器人 MEE6 的 3 個實用免費功能介紹](https://banka.com.tw/three-useful-functions-in-mee6-bot/)
-* [關於我有使用過的 Discord 機器人](https://israynotarray.com/other/20220515/802735817/)
 * 建立 FF14 資訊 Discord chatbot 系列
   * [[DAY 05]物品拍賣價格查詢功能(3/4)](https://ithelp.ithome.com.tw/m/articles/10268117)
   * [[DAY 10]讓BOT 24小時在線(1/3)](https://ithelp.ithome.com.tw/m/articles/10271672)
@@ -82,6 +77,25 @@ series: chatbot
 
 * <https://5xruby.tw/posts/easy-ngrok-by-nginx-ssh-tunnel>
 * <https://learn.markteaching.com/ngrok-webhook/>
+
+## 我用過的 Discord Bot
+
+* YEE式機器龍
+  * 播音樂 `/lofi`
+  * RPG 種田 `&farm`
+* MEE6
+  * 每日提醒 (1則)
+  * 聊天提升等級
+  * [Discord 多功能機器人 MEE6 的 3 個實用免費功能介紹](https://banka.com.tw/three-useful-functions-in-mee6-bot/)
+* Sesh
+  * 提醒
+* Miki
+  * 提醒 (較陽春)
+* 其他參考
+  * [Top.gg - Discord Bots](https://top.gg/)
+  * [關於我有使用過的 Discord 機器人](https://israynotarray.com/other/20220515/802735817/)
+  * [Discord 客服機器人 Ticket Tool 設置教學](https://banka.com.tw/ticket-tool-bot-setting-instruction/)
+  * [Discord 抽獎機器人 GiveawayBot 設置教學](https://banka.com.tw/giveawaybot-setting-instruction/)
 
 ## Murmur
 
