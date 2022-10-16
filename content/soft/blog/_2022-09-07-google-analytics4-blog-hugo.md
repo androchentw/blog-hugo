@@ -10,7 +10,6 @@ categories:
   - soft
 tags:
   - blog
-  - hugo
   - google-analytics
 share_img: https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Google_Analytics.svg/1200px-Logo_Google_Analytics.svg.png
 series: blog
