@@ -100,6 +100,7 @@ series: chatbot
 ### RPG 類
 
 * TacoShack
+  * `/shack`, `/work`, `/tips`, `/clean`, `/shop`, `/buy`, `/hire`, `/decorations`
 * EPIC RPG
 * DiscordRPG
 
