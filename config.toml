@@ -23,7 +23,7 @@ summaryLength = 70
 
 
 [Params]
-  homeTitle = "Go get it. Make it fun" # Set a different text for the header on the home page
+  homeTitle = "" # Set a different text for the header on the home page
   mainSections = ["post", "tech", "soft", "life"]
   logo = "https://avatars.githubusercontent.com/u/2317501?v=4"
   favicon = "https://avatars.githubusercontent.com/u/2317501?v=4"
