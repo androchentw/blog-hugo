@@ -37,6 +37,7 @@ series: security
 
 ## Materials
 
+* [HashiCorp Vault - 集中控管身分辨識和密鑰，保障資訊安全 - omnisoftware 歐立威科技](http://www.omniwaresoft.com.tw/hashicorp_vault/)
 * [零信任白皮書](https://www.datocms-assets.com/2885/1602637867-zerotrustwhitepaperv4digital.pdf)
 * [介紹影片](https://www.hashicorp.com/resources/introduction-to-zero-trust-security)
 * [Vault Workshop Slide](https://hashicorp.github.io/field-workshops-vault/slides/multi-cloud/vault-oss#1)
