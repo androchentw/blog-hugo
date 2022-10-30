@@ -63,6 +63,7 @@ brew install --cask rectangle   # shortcut to move app windows
 brew install --cask cheatsheet  # show shortcut for app
 brew install --cask karabiner-elements  # Keyboard customizer
 brew install --cask bettertouchtool     # customize input. "GoldenChaos-BTT"
+brew install --cask background-music    # Record system audio with QuickTime
 
 open https://sparkmailapp.com/  # Spark Email
 open https://dropoverapp.com/   # Dropover. Drag & drop
