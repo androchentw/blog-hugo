@@ -147,7 +147,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 
 ### KCS - Knowledge-Centered Service
 
-<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/2021-08-07%20KCS%20UML.svg" title="KCS Flowchart">
+<img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2021-08-07%20KCS%20UML.svg" title="KCS Flowchart">
 
 * [What is knowledge-centered service (KCS)?](https://www.atlassian.com/itsm/knowledge-management/kcs)
 * Benefits
