@@ -17,7 +17,7 @@ series: okr
 
 ## Overview
 
-OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而, 
+OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 
 1. 如何快速 思考/撰寫 良好/有效的 OKR
 2. 並持續追蹤, 確保自己在正軌上
@@ -31,12 +31,10 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 選擇主因
 
 1. Free.
-2. 教學資源完整. [Learning Center](https://weekdone.com/learning/manager/okr-theory) 
+2. 教學資源完整. [Learning Center](https://weekdone.com/learning/manager/okr-theory)
 3. 介面直接提示各種範例. [OKR Examples](https://okrexamples.co/)
 
-
 ## Learning Center
-
 
 ### Actionable Objectives
 
@@ -52,12 +50,11 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    5. KR3: implement TOP 3 of the most upvoted improvement ideas from the team
 3. 規則 3：為頭腦風暴會議做好準備
 4. 規則 4：專注於重要的事情
-   1. 不要試圖超越自己並解決您將來可能遇到或可能不會遇到的問題。 
+   1. 不要試圖超越自己並解決您將來可能遇到或可能不會遇到的問題。
 
-> 如果我們必須將整篇文章總結為一句話，我們會說：您的 OKR 應該只關注現在可能產生最大影響的事情，其他一切都應該等待。當你追逐一切時，你什麼也得不到。 
+> 如果我們必須將整篇文章總結為一句話，我們會說：您的 OKR 應該只關注現在可能產生最大影響的事情，其他一切都應該等待。當你追逐一切時，你什麼也得不到。
 
 * [Goal Alignment: Using OKRs to Get Teams on the Same Page](https://weekdone.com/resources/goal-alignment)
-
 
 ### OKR Examples - Detailed
 
@@ -69,22 +66,19 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
 
 * [OKRs for Different Teams](https://weekdone.com/learning/manager/okr-theory/okr-examples/okrs-for-different-teams-in-a-company)
 
-
 ## OKR Examples - List
 
 挑了幾個之後可能會用上的.
-
 
 ### Administrative/Operations
 
 [Administrative/Operations](https://okrexamples.co/administrative-operations-okr-examples)
 
-
 1. +研究. Research and understand why our churned customers didn't see value
    1. +% 回饋. Get 30% response to survey on churn reasons
    2. +% 回饋. Interviews with 10% of respondents to get detailed reasons
    3. +# 議題. Analyze responses and choose 3 issues to improve
- 
+
 2. +改善. Improve internal document management system
    1. +# 採用. All 7 teams agree and implement folder structures
    2. +# 採用. 7 teams complete the move and consolidation of 100% of document to the new structure
@@ -116,7 +110,6 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    3. +% 回饋. User-test page prototypes on 12 people and get 80% positive feedback
    4. +% 行為. New landing page increases call to action button clicks from 20% to 35%
 
-
 ### HR
 
 [HR](https://okrexamples.co/human_resources-okr-examples)
@@ -127,7 +120,7 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    3. +# 使用. Each team manager holds 12 weekly check-in meetings
    4. +# 使用. Each team communicates 3 lessons learned using OKRs to the whole company
 
-### Product 
+### Product
 
 [Product](https://okrexamples.co/product_management-okr-examples)
 
@@ -136,7 +129,6 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    2. +# 項目 競賽. Get published product reviews in over 15 publications
    3. +% 行為. Increase sign-up to trial ratio from 10% to 25%
    4. +% 行為. Increase trial to paid ratio from 30% to 50%
-
 
 ### Tech
 
@@ -157,18 +149,15 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    2. -# 偏差. Reduce security-related server downtimes from 2 to 0 average
    3. -# 偏差. Reduce customers not choosing us because our security measures from 10 to 2 average
 
-
-
 ## Cheatsheet
 
 1. 季度
 2. Positive measurable outcome, != Initiatives
-   1. 5-Why “What is the reason for doing this?”
-   2. “what is the outcome of this action?”
-
+   1. 5-Why "What is the reason for doing this?"
+   2. "what is the outcome of this action?"
 
 * O: What. Value. 明確提供價值.
-  1. +改善 Improve 
+  1. +改善 Improve
   2. +改變 Become
   3. +推出 Launch
   4. +研究 Research
@@ -178,7 +167,7 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
   2. +# 用戶 User = 達成 使用數. (推出給 > 100 個用戶, 達成 5000 下載)
   3. +% 回饋 Satisfaction = 蒐集回饋 / 滿意度. (滿意度 > 80%, 滿意比例 > 90%)
   4. +# 議題 Issue = 分析回饋, 提出改善議題. (改善 Top 5 issue responded)
-  5. +% 行為 Behavior = 觀察改變 造成的實質行為改變率. 
+  5. +% 行為 Behavior = 觀察改變 造成的實質行為改變率.
      1. (付費行為: 5% -> 20%, 測試覆蓋率: 30% -> 50%, 回覆率: 50% -> 99%)
      2. -# 偏差 Deviation: 減少 bug 回報, 縮短作業時間
   6. +# 項目 Item = (其他)
@@ -207,16 +196,13 @@ OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,
    3. KR3: min(coverage) > 50%. 覆蓋重點/常見主情境達 50%
    4. KR4: avg(saved_time) > 50%. 節省平均耗時比例達 50%
 
-
-
 * 其他參考
   * OKR 做最重要的事
   * OGSM 打造高敏捷團隊
 
-
 ## Murmur
 
-OKR 博大精深... 
+OKR 博大精深...
 
 使用心得 Log
 
@@ -226,4 +212,3 @@ OKR 博大精深...
    2. 👎
       1. 介面有些地方不太直觀, 花了點時間想了一下... 可能是沒看到對應的文. => 再去多讀一下 Learning Center 的其他文章.
       2. 原本想要可以不用表格了. => 目前為止的心得是 仍然會想要先用 table 形式紀錄/思考, 但是透過範例輔助, 至少後續追蹤不用一直改在原表格上.
-
