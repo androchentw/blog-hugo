@@ -57,6 +57,8 @@ hugo -D
 
 ## 4. Add Comment Block - utterances
 
+2022-11-19 Added. [blog-theme: 3f81f19](https://github.com/androchentw/blog-theme/commit/3f81f194e9a688982a5ed0466f3f5da5e1d2863c)
+
 * [GitHub - utterances](https://github.com/utterance/utterances)
 * [如何在hugo上安裝utterances?](https://bjmqfg83.github.io/blog/hugo_unnerances/)
 * [Hugo 插件 Utterances 用法](https://xwi88.com/hugo-plugin-utterances-usage/)
