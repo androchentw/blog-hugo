@@ -24,7 +24,7 @@ series: testing
 測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟!
 本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P
 
-一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環. 
+一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環.
 細節就留待我最近邊學 TDD 時再來記錄囉~
 
 ### Challenges
@@ -39,7 +39,6 @@ series: testing
 ### KRs
 
 1. [x] 2022-08/E 初版完成。
-
 
 <!--more-->
 
@@ -92,7 +91,7 @@ def test_integration():
 
 #### Functional tests 功能測試
 
-* 測試應用的 output 產出, 而非中間狀態. 
+* 測試應用的 output 產出, 而非中間狀態.
 * 常與 integration tests 搞混. 差別是 functional test 關注的是 產品定義/要求的 "output 產出".
 * 適用場景: 驗證 產品定義/要求的 output 如預期, 符合規格 (specification).
 * 原文
@@ -107,7 +106,7 @@ def test_functional():
 
 #### End-to-end tests 端對端測試
 
-* 仿照 user behavior 如何操作你的應用. 各種不同使用情境/操作流程. 
+* 仿照 user behavior 如何操作你的應用. 各種不同使用情境/操作流程.
 * 非常有用, 代價也很昂貴, 不易維護. 建議針對關鍵場景測試是否有重大改變.
 * 適用場景: 測試 使用者操作流程.
 * 原文
@@ -138,7 +137,7 @@ def test_acceptance():
 * 測試系統效能符合預期. 可能包含一些平均/尖峰壓力測試, monkey testing 或甚至 Chaos engineering
 * 適用場景: 測試系統 反應速度與穩定性.
 * 原文
-  * Performance tests evaluate how a system performs under a particular workload. These tests help to measure the **reliability, speed, scalability, and responsiveness** of an application. For instance, a performance test can observe *response times* when executing a high number of requests, or determine how a system behaves with a significant amount of data. It can determine if an application meets performance requirements, locate bottlenecks, measure stability during peak traffic, and more. 
+  * Performance tests evaluate how a system performs under a particular workload. These tests help to measure the **reliability, speed, scalability, and responsiveness** of an application. For instance, a performance test can observe *response times* when executing a high number of requests, or determine how a system behaves with a significant amount of data. It can determine if an application meets performance requirements, locate bottlenecks, measure stability during peak traffic, and more.
 
 ```py
 # TODO: test peek trafic 
@@ -159,11 +158,9 @@ def test_smoke():
     assert False
 ```
 
-
 ## Murmur
 
 * 2022-08-28: 測都測!
-
 
 <!-- Link -->
 [python-playground]: https://github.com/androchentw/python-playground

@@ -42,7 +42,7 @@ series: devops
 
 ### KRs 成果
 
-*
+[ ]
 
 ## Content
 
