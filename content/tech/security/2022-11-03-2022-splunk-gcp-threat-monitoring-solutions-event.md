@@ -37,7 +37,7 @@ series: securitry
 
 ### KRs 成果
 
-*
+[ ]
 
 ## Content
 
