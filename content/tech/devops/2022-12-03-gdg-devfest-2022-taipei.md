@@ -42,33 +42,22 @@ series: devops
 
 ## Content
 
-* DevOps 的四個演進
-* 團隊進行協作時經常遇到的困難
-  1. 零散的資訊: email, excel 檔案
-  2. 多個不同工具沒有串聯起來: Issue & source code & CI/CD 結果 沒有關連起來
-* 單一 DevOps 平台的價值
-  1. 自動同步的時程表
-  2. 精簡化、結構化的資源: DevOps 作為 SSOT, 讓所有成員都能夠獲取到所需要的資訊和資源
-  3. 開發主題各個作業狀態的可視化
+🦄 [GDG DevFest Taipei]
 
-====
-
-2022-11-18 GitLab
-
-* Goal: DevSecOps + Value Stream Analytics
-  * 加速業務發展
-* Why GitLab - The One DevOps Platform: [https://learn.gitlab.com/c/the-one-devops-platform-taiwan-presentation?x=ZfW4l3](https://learn.gitlab.com/c/the-one-devops-platform-taiwan-presentation?x=ZfW4l3)
-* Partner: [https://partners.gitlab.com/English/directory/search?l=Taiwan&Adv=none](https://partners.gitlab.com/English/directory/search?l=Taiwan&Adv=none)
-* Comparison
-  * [https://about.gitlab.com/devops-tools/](https://about.gitlab.com/devops-tools/)
-  * [https://about.gitlab.com/devops-tools/github-vs-gitlab/](https://about.gitlab.com/devops-tools/github-vs-gitlab/)
-  * [https://about.gitlab.com/devops-tools/bitbucket-vs-gitlab/](https://about.gitlab.com/devops-tools/bitbucket-vs-gitlab/)
-  * [https://docs.gitlab.com/ee/integration/jira/](https://docs.gitlab.com/ee/integration/jira/)
-* Pricing: [https://about.gitlab.com/pricing/](https://about.gitlab.com/pricing/)
-* Mutual introductions
-* Discuss your current DevOps environment, workflow and needs
-* Discuss GitLab and its applicability to your business’ goals
-* Identify requirements and agree on next steps
+* OKR 行前目的 & 自我期許
+  * Concept
+    * Build 多學習如何建立社群, 安排活動, 促進凝聚力
+    * Connection 多認識議程講者 & 工作人員, 承先啟後
+    * Contribution 多思考可以如何貢獻 (Blog 記錄)
+  * O: 參與社群、建立連結、實質貢獻
+  * KR
+    * 認識 N > 5 DevOps / Cloud 講者, 交換名片 & Blog
+    * 認識 N > 10 工作人員
+    * 貢獻:
+* 心得記錄
+  * 2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 ☁️ [Google Cloud Next Recap](https://event.e21magicmedia.com.tw/Google/CloudNextRecap/?eid=kw0icz6nYsRr)的時候去找 GDG 攤位聊天，然後就主動報名參加志工了
+  * 行前準備
+  * 當天活動內容
 
 ## Murmur
 
