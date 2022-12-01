@@ -8,9 +8,10 @@ type: post
 categories:
   - tech
 tags: 
+  - tech-event
   - devops
 share_img: https://devopsdays.tw/2022/img/fb.jpg
-series: devops
+series: tech-event
 ---
 
 <img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
