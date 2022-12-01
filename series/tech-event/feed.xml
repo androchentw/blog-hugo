@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech-event on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/series/tech-event/</link><description>Recent content in tech-event on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Thu, 15 Sep 2022 09:55:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/series/tech-event/feed.xml" rel="self" type="application/rss+xml"/><item><title>DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品</title><link>https://blog.androchen.tw/devopsdays-taipei-2022/</link><pubDate>Thu, 15 Sep 2022 09:55:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/devopsdays-taipei-2022/</guid><description>&lt;img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Ref: &lt;a href="https://blog.androchen.tw/agile-summit-2022/">Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Why 為什麼要 DevOps
+&lt;ul>
+&lt;li>應變快速變動的市場需求, 持續(時時刻刻, 穩定可靠)交付高品質軟體產品&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>How 如何 DevOps
+&lt;ul>
+&lt;li>確認目標 + 投資(人才/方案) + 教育文化 + 推廣落地 (Squad Team) + 工程實踐 + 保持敏捷 + 持續學習&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Common Pitfalls 常見的坑
+&lt;ul>
+&lt;li>只顧速度, 不顧品質 = 持續交付垃圾 =&amp;gt; 自動化測試 + 發行管理&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>精選內容 🥇🥈
+&lt;ul>
+&lt;li>臺灣企業 DevOps 能力大公開 | iThome 王宏仁 副總編輯&lt;/li>
+&lt;li>多雲整合企業應用平台 DevOps SRE 落地實踐 | TSMC 胡君怡 部門經理&lt;/li>
+&lt;li>DevOps 潮流下的 API First 開發策略 | 91 App Andrew 首席架構師&lt;/li>
+&lt;li>DevOps的高階工程技術實踐 | David 董大偉 技術顧問&lt;/li>
+&lt;li>Workshop - 深度體驗 Azure DevOps Services 發行管理機制 | Will 保哥 技術總監&lt;/li>
+&lt;li>From DevOps To DataOps——Data as a Product 資料專案教戰守則 | 顏良修 CEO&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>今年流行的警語
+&lt;ul>
+&lt;li>以下分享的內容，可能不適用於你、你的公司或團隊，請小心服用.&lt;/li>
+&lt;li>以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love &amp;amp; Peace.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&amp;url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&amp;width=1200&amp;sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
+&lt;p align="center">&lt;sub>
+EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
+&lt;/sub>&lt;/p>
+&lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
+&lt;ul>
+&lt;li>需求變動越來越快, 如何快速滿足需求, 並多方嘗試各種解決方案, 觀察回饋?&lt;/li>
+&lt;/ul>
+&lt;h3 id="objectives-目標-效益">Objectives 目標 效益&lt;/h3>
+&lt;ul>
+&lt;li>Project Management: 透過參考業界經驗, 建立專案管理方法, 使專案的實作與推廣過程, 可以更敏捷&lt;/li>
+&lt;li>Delivery Speed &amp;amp; Quality: 提升交付速度, 縮短交付週期&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs-結果-解法">KRs 結果 解法&lt;/h3>
+&lt;ul>
+&lt;li>瞭解實戰推動手法 + 懶人包
+&lt;ul>
+&lt;li>沒有懶人包! 都需要因應各種場景而定&lt;/li>
+&lt;li>&lt;a href="https://ruddyblog.wordpress.com/2017/10/27/%E7%9C%8B%E8%A6%8B%E5%85%A8%E8%B2%8C/">「專案開始之初，首重看見全貌」&amp;ndash; Ruddy Lee 91 敏捷教練&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>瞭解為何 DevOps 重要&lt;/li>
+&lt;li>瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏&lt;/li>
+&lt;/ul></description></item></channel></rss>
