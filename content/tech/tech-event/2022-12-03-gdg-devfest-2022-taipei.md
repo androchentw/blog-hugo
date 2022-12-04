@@ -18,8 +18,7 @@ series: tech-event
 
 ## Overview 概述
 
-
-2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 ☁️ [Google Cloud Next Recap](https://cloudonair.withgoogle.com/events/next-recap-taiwan-2022) 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了 😂 於是開啟了一段奇幻旅程... 
+2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 在萬豪酒店的 ☁️ [Google Cloud Next Recap](https://cloudonair.withgoogle.com/events/next-recap-taiwan-2022) 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了 😂 於是開啟了一段奇幻旅程... 
 
 🦄 [GDG DevFest 2022 Taipei] 是由一群使用 Google 技術的開發者所推動的全球盛會, 在 12/3 週六於台大舉辦實體活動。今年超過 600 位報名。(實際約 300 ~ 400 人到場)
 
