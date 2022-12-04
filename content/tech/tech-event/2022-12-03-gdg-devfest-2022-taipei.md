@@ -44,8 +44,8 @@ series: tech-event
 
 ### KRs 成果
 
-* [-] 認識 N > 5 DevOps / Cloud 講者 => N = 2 (Shawn, Edward)
-* [-] 認識 N > 10 工作人員 => (Kevin, Meg, Hank) & GDSC Lead (3 + 5)
+* [o] 認識 N > 5 DevOps / Cloud 講者 => N = 2 (Shawn, Edward)
+* [o] 認識 N > 10 工作人員 => (Kevin, Meg, Hank) & GDSC Lead (3 + 5)
 * 實際貢獻記錄
   * 機動組: 組織調度報到台 9 軌流程動線與分流引導
   * 議程攝影、引導、場佈場復
