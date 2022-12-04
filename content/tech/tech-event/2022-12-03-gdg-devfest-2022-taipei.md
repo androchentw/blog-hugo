@@ -30,7 +30,7 @@ series: tech-event
 7. GDSC
 8. Workshops 
 
-[GDG DevFest Taipei]: https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-2022-taipei/
+[GDG DevFest 2022 Taipei]: https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-2022-taipei/
 
 <!--more-->
 
