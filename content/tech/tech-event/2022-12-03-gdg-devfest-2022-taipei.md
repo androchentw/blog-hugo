@@ -51,7 +51,7 @@ series: tech-event
   * 議程攝影、引導、場佈場復
   * 600 人報名, 實際約 300 ~ 400 人到場
 
-##  心得記錄
+##  🙋 機動組志工心得
 
 * 2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 ☁️ [Google Cloud Next Recap](https://cloudonair.withgoogle.com/events/next-recap-taiwan-2022) 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了
 * 行前準備
@@ -96,14 +96,21 @@ series: tech-event
 * KPM: Helm, kustomize.io
 * crossplane
 
-## GDG, GDE, GDSC, Google Cloud Innovators, Google Cloud Skills Boost
+## 🦄 GDG, GDE, GDSC
 
+* [GDG Taipei](https://gdg.community.dev/gdg-taipei/)
+  * GDG Taipei (Google Developer Group Taipei) 是以研究 Google 相關技術為主的開發者社群，於週三晚上聚會，由與會者提供數個 Lightening Talk，並不定期邀請講者分享特定主題、舉辦 Hackthon 或 Workshop 等活動。
 * [為什麼你應該申請成為Google Developers Experts (GDE)](https://ericsk.medium.com/為什麼你應該申請成為-google-developers-experts-gde-58cf7c361f62)
   * GDE 全名 [Google Developers Experts](https://developers.google.com/experts)，它是眾多 Google 針對開發人員所設計的計劃之一，這個計劃將認可 (recognize) 開發人員在某一個專業領域所鑽研的深度，以及他願意把這項專業透過各種方式分享或推廣給其它開發人員的熱情，除了給予一個 GDE 的頭銜之外，也透過各種活動或獎勵（下面會詳述）來感謝 GDEs 們的付出，同時也鼓勵繼續鑽研技術與發揮影響力。
 * [Google Cloud Innovators](https://cloud.google.com/innovators?hl=zh-tw)
   * Innovators 計畫是一項免費計畫，適用於 Google Cloud (包括 Workspace) 的使用者，或是任何有意在數位轉型方面提升專業與個人發展的使用者，藉此推動革新及解決一些現今最棘手的業務挑戰。身為 Innovators 計畫成員，您有機會與 Google Cloud 的創新人士網路交流並分享想法、加入即時討論、直接聽取 Google 員工的意見回饋、使用獨特的學習機會，以及獲得技能肯定，還能讓您輕鬆將數位技能徽章上傳並分享至個人資料。
 * [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
   * Choose your path, build your skills, and validate your knowledge with Google Cloud.
+* GDSC 
+  * [TW/HK 2022 Google 學生開發者社群（GDSC）領袖招募說明會](https://www.youtube.com/watch?v=CLjVUEl-XsM&t=537s)
+  * Lead 任期一年, 目前是各個 Lead 自行決定整年在自己學校的議程與活動. 有些是像社課, 可能每週都有; 也有一些是更大型的活動
+  * 一般在校園內辦的, 題目以 UI/UX, Low-Code/No-Code 的場次會吸引到更多人來聽
+
 
 
 ## Murmur
