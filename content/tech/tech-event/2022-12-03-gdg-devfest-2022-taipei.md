@@ -53,7 +53,7 @@ series: tech-event
 
 ##  心得記錄
 
-* 2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 ☁️ [Google Cloud Next Recap](https://event.e21magicmedia.com.tw/Google/CloudNextRecap/?eid=kw0icz6nYsRr)的時候去找 GDG 攤位聊天，然後就主動報名參加志工了
+* 2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 ☁️ [Google Cloud Next Recap](https://cloudonair.withgoogle.com/events/next-recap-taiwan-2022) 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了
 * 行前準備
   * [行前說明會](https://docs.google.com/presentation/d/1pcHY-6Rru79ct_wOkkrb87ZuljcGrb21kYvbwkD_lh8/edit?usp=sharing) 使用 Google Meet + Google Slide 說明 & 自我介紹
   * 結果今年剛好志工幾乎都是 GDSC 的學生，我根本來拉高年齡平均的 😂
@@ -78,7 +78,7 @@ series: tech-event
     * CVE 快速盤點, 快速知道有沒有危害
     * 有沒有政策& CICD 快速確認 惡意程式 被部署
     * 做 app security = 軟體漏洞風險的影響高 「不能相信外面都壞人 裡面都好人」
-  * 符合[SLSA](https://www.ithome.com.tw/news/145101) level 3
+  * 符合 [SLSA](https://www.ithome.com.tw/news/145101) level 3
   * Cloud workstation = fully managed development environments
   * Cloud Code = Security assistance in the IDE
   * Artifact Registry + Assured OSS = improving security of artifacts and dependencies. 在背景不定時做弱掃
