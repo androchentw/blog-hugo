@@ -1,5 +1,5 @@
 ---
-title: "GDG DevFest 2022 Taipei"
+title: "GDG DevFest 2022 Taipei 社群志工"
 url: /gdg-devfest-2022-taipei
 # date: 2022-12-03T07:28:16+08:00
 date: 2022-12-04T16:34:16+08:00
@@ -47,7 +47,7 @@ series: tech-event
 * [-] 認識 N > 5 DevOps / Cloud 講者 => N = 2 (Shawn, Edward)
 * [-] 認識 N > 10 工作人員 => (Kevin, Meg, Hank) & GDSC Lead (3 + 5)
 * 實際貢獻記錄
-  * 組織調度報到台 9 軌流程動線與分流引導
+  * 機動組: 組織調度報到台 9 軌流程動線與分流引導
   * 議程攝影、引導、場佈場復
   * 600 人報名, 實際約 300 ~ 400 人到場
 
@@ -57,6 +57,7 @@ series: tech-event
 * 行前準備
   * [行前說明會](https://docs.google.com/presentation/d/1pcHY-6Rru79ct_wOkkrb87ZuljcGrb21kYvbwkD_lh8/edit?usp=sharing) 使用 Google Meet + Google Slide 說明 & 自我介紹
   * 結果今年剛好志工幾乎都是 GDSC 的學生，我根本來拉高年齡平均的 😂
+  * 但是能夠認識年輕朋友的感覺很不錯! 可以瞭解到大家在意的不同角度
 * 當天活動內容 & 回想
   * [GDG DevFest Taipei 2022 - Google 相簿](https://photos.app.goo.gl/v4QhBTGn9qnQYjsd8 "https://photos.app.goo.gl/v4QhBTGn9qnQYjsd8")
   * 07:20 到學校 ~~唸書的時候都沒這麼早到~~
@@ -83,6 +84,10 @@ series: tech-event
   * Artifact Registry + Assured OSS = improving security of artifacts and dependencies. 在背景不定時做弱掃
   * GKE + Cloud Run = Security insight at the runtime
   * Binary authorization = Trust based policy. 確認是否包含 走過正常流程才會有的 簽章
+* Ref: [近兩年更多臺廠加入成為CVE編號管理者，涵蓋網通、IC設計、資安等類型廠商](https://www.ithome.com.tw/news/154501)
+  * 聯發科針對旗下各產品線均已設立專屬PSIRT團隊，加入MITRE CNA計畫的主要目的，是希望更迅速掌控安全性問題，更即時完成漏洞修補。
+  * 展現積極正面看待安全事件處理的態度，並提及收到外部安全事件通報時，要落實五大步驟，包括：事件確認、修補、更新、公告與致謝。
+
 
 ## 🤖 WYSIWYG 容器的 Config As Data - KPT
 
@@ -91,15 +96,16 @@ series: tech-event
 * KPM: Helm, kustomize.io
 * crossplane
 
-## Ref
+## GDG, GDE, GDSC, Google Cloud Innovators, Google Cloud Skills Boost
 
-* <https://www.ithome.com.tw/news/154501>
-  * 聯發科針對旗下各產品線均已設立專屬PSIRT團隊，加入MITRE CNA計畫的主要目的，是希望更迅速掌控安全性問題，更即時完成漏洞修補。
-  * 展現積極正面看待安全事件處理的態度，並提及收到外部安全事件通報時，要落實五大步驟，包括：事件確認、修補、更新、公告與致謝。
+* [為什麼你應該申請成為Google Developers Experts (GDE)](https://ericsk.medium.com/為什麼你應該申請成為-google-developers-experts-gde-58cf7c361f62)
+  * GDE 全名 [Google Developers Experts](https://developers.google.com/experts)，它是眾多 Google 針對開發人員所設計的計劃之一，這個計劃將認可 (recognize) 開發人員在某一個專業領域所鑽研的深度，以及他願意把這項專業透過各種方式分享或推廣給其它開發人員的熱情，除了給予一個 GDE 的頭銜之外，也透過各種活動或獎勵（下面會詳述）來感謝 GDEs 們的付出，同時也鼓勵繼續鑽研技術與發揮影響力。
+* [Google Cloud Innovators](https://cloud.google.com/innovators?hl=zh-tw)
+  * Innovators 計畫是一項免費計畫，適用於 Google Cloud (包括 Workspace) 的使用者，或是任何有意在數位轉型方面提升專業與個人發展的使用者，藉此推動革新及解決一些現今最棘手的業務挑戰。身為 Innovators 計畫成員，您有機會與 Google Cloud 的創新人士網路交流並分享想法、加入即時討論、直接聽取 Google 員工的意見回饋、使用獨特的學習機會，以及獲得技能肯定，還能讓您輕鬆將數位技能徽章上傳並分享至個人資料。
+* [Google Cloud Skills Boost](https://www.cloudskillsboost.google/)
+  * Choose your path, build your skills, and validate your knowledge with Google Cloud.
 
-* <https://cloud.google.com/innovators?hl=zh-tw>
 
 ## Murmur
 
-* 2022-11-20:
 * 2022-12-03: 好久沒有這麼早到台大... 以前唸書都沒這麼認真😂
