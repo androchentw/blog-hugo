@@ -398,6 +398,15 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
     * Business and OKRs
   * <img style="width:80%;" alt="The developer advocate iceberg" src="https://res.cloudinary.com/practicaldev/image/fetch/s--E6p1mLXo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tbwn6178yb7do2e8bhk8.jpg">
 
+## 🤝 Community 社群
+
+* [DevOps Taiwan](https://www.facebook.com/groups/817976138289434/)
+* [DevOpsDays Taipei](https://www.facebook.com/devopsdays.taipei/)
+
+### 你怎麼看?
+
+留下你的想法一起討論吧! 🥳
+
 ## Murmur
 
 * 2022-09-15: DevOpsDays Taipei 2022 超精實! 明年也要提早報名啊~~

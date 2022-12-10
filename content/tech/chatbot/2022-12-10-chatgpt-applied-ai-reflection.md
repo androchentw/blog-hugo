@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-10 14:50 持續更新)
+(2022-12-10 18:30 持續更新)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
@@ -67,8 +67,8 @@ series: chatbot
   * AS-IS: 以前我要達到一個答案, 多半卡在我沒有基礎知識, 所以需要**花很大半的時間先學習理解基礎**, 才能談應用與落地。
   * TO-BE: 現在我能夠透過 AI 快速知道可能的方向, **減少踩坑與試誤的迭代時間, 從而更快達到驗證想法的目的**。
   * 🔍 軟體圈常戲稱的「Google 工程師」, 「Stack Overflow 工程師」(註: 遇到不會的問題就先搜尋 Google & Stack Overflow 的工程師)，將會轉為「ChatGPT 工程師」。
-    * 以後也不會說 "LMGTFY" (Let Me Google That For You) 了, 可以改說 **"LMCGPTTFY" (Let Me ChatGPT That For You)** 😂
-    * [ChatGPT發表5天使用者破百萬，但遭到程式設計領域的問答網站Stack Overflow封禁](https://www.techbang.com/posts/102295-chatgpt-banned-stack-overflow): 官方表示：「主要問題在於，雖然 ChatGPT 產生的答案錯誤率很高，但我們很難看出來它哪裡錯了。」
+  * 以後也不會說 "LMGTFY" (Let Me Google That For You) 了, 可以改說 **"LMCGPTTFY" (Let Me ChatGPT That For You)** 😂
+  * [ChatGPT發表5天使用者破百萬，但遭到程式設計領域的問答網站Stack Overflow封禁](https://www.techbang.com/posts/102295-chatgpt-banned-stack-overflow): 官方表示：「主要問題在於，雖然 ChatGPT 產生的答案錯誤率很高，但我們很難看出來它哪裡錯了。」
 * 寫計畫: 讓 ChatGPT 快速產出
   * 草擬大綱 = Mindmap + 快速資訊過濾: 在一切未明的情況下, 讓 ChatGPT 給一個大方向框架, 再自己去逐一確認細節, 持續補充並加入自己實務面的見解與經驗
   * 檢視邏輯 MECE: 自己修正完的一版，可以再回問 ChatGPT，看是否有遺漏的點
@@ -122,6 +122,10 @@ series: chatbot
 ### 角色扮演
 
 * [Inside - 你能跟AI聊天機器人「ChatGPT」玩TRPG，或問他柯南是不是死神](https://www.4gamers.com.tw/news/detail/56185/chatgpt-can-have-a-good-conversation-with-you-among-acg-and-trpg-mostly): 設定情境, 就能在特定條件下跟他持續對話聊天。
+
+### 加密貨幣智能合約
+
+* [BlockTempo - ChatGPT被玩壞！OpenAI竟幫聊天客戶寫套利程式、加密貨幣論文，甚至創作歌曲](https://www.blocktempo.com/crypto-community-is-interested-in-chatgpt/)
 
 ### 💬 ChatGPT 原理詳解
 
@@ -203,7 +207,7 @@ series: chatbot
 
 ### 你怎麼看?
 
-歡迎在下方評論區留下你的想法!
+留下你的想法一起討論吧! 🥳
 
 ## Murmur
 
