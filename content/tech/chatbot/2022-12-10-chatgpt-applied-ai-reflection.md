@@ -155,7 +155,7 @@ series: chatbot
   Photo by <a href="https://unsplash.com/@zackwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Walker</a> on <a href="https://unsplash.com/collections/TDZWRpPvGcY/japan%2C-cyberpunk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>  
 
-* **「如果所有人類知識都匯集在一處,那個體人類還要/還能做什麼?」**我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
+* 「**如果所有人類知識都匯集在一處,那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
   * 農業革命 = Free from hunger
     * 以農業畜牧取代狩獵游牧, 我們不再受糧食所苦, 可以穩定產出糧食, 空出來的時間就能玩更多事情。
   * 工業革命 = Free from labor
@@ -175,8 +175,8 @@ series: chatbot
     * 諸如 Alita (艾莉塔：戰鬥天使) / Ready Player One (一級玩家) 等 Cyberpunk (賽博龐克) 等科幻作品中，常出現的上下層社會。
   * 節錄 Wiki 解釋 [賽博龐克](https://zh.wikipedia.org/wiki/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B)
     > 日常生活受到急劇改變的科技影響，普及的電腦化資訊籠罩全球，以及侵入性的人體改造。
-  * 就像現在已經出現的, 因為先進醫療的昂貴導致「沒本錢能夠生病」, 以及教育等各項基礎設施的城鄉差距, 未來也會更加劇. **未來我們只能在商城付費解鎖知識內容, 更換知識存取晶片了**。
-  * 訂閱制的知識經濟也已經逐漸成形, 從娛樂型的 YouTube Premium, Netflix 等, 到技能型的線上教育平台 Coursera, Udemy 等。也難怪有人會戲稱以後要急救家人還得先看廣告了。
+  * 就像現在已經出現的, 因為先進醫療的昂貴導致「沒本錢能夠生病」, 以及教育等各項基礎設施的城鄉差距, 未來也會更加劇. **未來我們也許只能在商城付費解鎖知識內容, 更換知識存取晶片了**。
+  * 訂閱制的知識經濟也已經逐漸成形, 從娛樂型的 YouTube Premium, Netflix 等, 到技能型的線上教育平台 Coursera, Udemy 等, 也像是前述未來的雛形。也難怪有人會戲稱以後要急救家人還得先看廣告了。
 
 ## 🤖 技術專區: Chatbot 整合
 
@@ -189,6 +189,10 @@ series: chatbot
 * [GitHub - Awesome ChatGPT](https://github.com/Kamigami55/awesome-chatgpt): ChatGPT 相關的優質資源、工具、應用的精選清單。
 * [GitHub - Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot): Discord bot 整合教學。
 * [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): LINE Bot 整合教學。
+
+### 你怎麼看?
+
+歡迎在下方評論區留下你的想法!
 
 ## Murmur
 
