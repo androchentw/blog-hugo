@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-10 20:45 持續更新)
+(2022-12-11 06:10 持續更新)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
@@ -263,6 +263,12 @@ series: chatbot
 <p align="center"><sub><sup>
   Photo credit: <a href="https://www.chartr.co/newsletters/2022-12-09">chartr - ChatGPT From OpenAI Is a Bot Taking The Tech World By Storm</a>
 </sup></sub></p>
+
+## 2022 AI 奇點
+
+* 2022-02-02: [Deepmind AlphaCode 問世](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
+* 2022-07-22: [Midjourney Beta 問世](https://en.wikipedia.org/wiki/Midjourney)
+* 2022-12-10: [Yahoo! New - AI程式設計登上Science封面：AlphaCode打競賽，三分之二賽題一遍過，成績超過一半程式設計師](https://tw.news.yahoo.com/ai程式設計登上-science封面：-alpha-code打競賽，三分之二賽題一遍過，成績超過一半程式設計師-071907694.html)
 
 ### 你怎麼看?
 
