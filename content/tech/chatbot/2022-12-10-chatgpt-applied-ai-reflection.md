@@ -191,9 +191,10 @@ series: chatbot
   Photo by <a href="https://unsplash.com/@zackwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Walker</a> on <a href="https://unsplash.com/collections/TDZWRpPvGcY/japan%2C-cyberpunk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>  
 
-#### 
+####
 
 「**如果所有人類知識都匯集在一處, 那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
+
 * **農業革命 = Free from hunger**
   * 以農業畜牧取代狩獵游牧, 我們不再受糧食所苦, 可以穩定產出糧食, 空出來的時間就能玩更多事情。
 * **工業革命 = Free from labor**
@@ -210,14 +211,15 @@ series: chatbot
 * 供應鏈: 晶片設計製造等技術與產業發展持續帶來的門檻降低，也會讓我們有機會更快看到更加強大的 AI。
 
 #### 知識經濟與資產
-  * 而知識將越來越像是資產 (Assets) 一般, 能夠動用的人將會更嚴格的區分權限與地位。
-    * 能夠知道情報的人, 就越能掌握未來的脈動, 甚至做出預測。無論在軍事、財經、商業發展等場域，都將更劇烈地體現「知識即力量」(其實從古至今都是)。
-  * 貧富差距: 這也意味著量子運算真正到來的那一天, 貧富差距又會更加劇
-    * 諸如 Alita (艾莉塔：戰鬥天使) / Ready Player One (一級玩家) 等 Cyberpunk (賽博龐克) 等科幻作品中，常出現的上下層社會。
-  * 節錄 Wiki 解釋 [賽博龐克](https://zh.wikipedia.org/wiki/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B)
+
+* 而知識將越來越像是資產 (Assets) 一般, 能夠動用的人將會更嚴格的區分權限與地位。
+  * 能夠知道情報的人, 就越能掌握未來的脈動, 甚至做出預測。無論在軍事、財經、商業發展等場域，都將更劇烈地體現「知識即力量」(其實從古至今都是)。
+* 貧富差距: 這也意味著量子運算真正到來的那一天, 貧富差距又會更加劇
+  * 諸如 Alita (艾莉塔：戰鬥天使) / Ready Player One (一級玩家) 等 Cyberpunk (賽博龐克) 等科幻作品中，常出現的上下層社會。
+* 節錄 Wiki 解釋 [賽博龐克](https://zh.wikipedia.org/wiki/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B)
     > 日常生活受到急劇改變的科技影響，普及的電腦化資訊籠罩全球，以及侵入性的人體改造。
-  * 就像現在已經出現的, 因為先進醫療的昂貴導致「沒本錢能夠生病」, 以及教育等各項基礎設施的城鄉差距, 未來也會更加劇. **未來我們也許只能在商城付費解鎖知識內容, 更換知識存取晶片了**。
-  * 訂閱制的知識經濟也已經逐漸成形, 從娛樂型的 YouTube Premium, Netflix 等, 到技能型的線上教育平台 Coursera, Udemy 等, 也像是前述未來的雛形。也難怪有人會戲稱以後要急救家人還得先看廣告了。
+* 就像現在已經出現的, 因為先進醫療的昂貴導致「沒本錢能夠生病」, 以及教育等各項基礎設施的城鄉差距, 未來也會更加劇. **未來我們也許只能在商城付費解鎖知識內容, 更換知識存取晶片了**。
+* 訂閱制的知識經濟也已經逐漸成形, 從娛樂型的 YouTube Premium, Netflix 等, 到技能型的線上教育平台 Coursera, Udemy 等, 也像是前述未來的雛形。也難怪有人會戲稱以後要急救家人還得先看廣告了。
 
 ## 🤝 Community 社群 - 更多用法
 
