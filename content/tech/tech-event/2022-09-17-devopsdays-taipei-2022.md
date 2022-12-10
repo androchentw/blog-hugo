@@ -185,18 +185,20 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 
 * [胡君怡 │ 台積電 企業應用平台部 部門經理](https://devopsdays.tw/session-page/1152)
 * [共筆內容](https://hackmd.io/@DevOpsDay/HkiCcF6ej/edit)
-  * Fab Runs on Code
-  * **重視 DevOps 文化**: 這兩天 TSMC 攤位來了快 10 人以上，而且與會者的部分不時會看到穿著 TSMC Hackathon 衣服的人，可見其在 DevOps 上的重視跟投資。
-  * **持續擴編人才**: IT人數2304人，全球員工人數67475. 今年 2022-08 才剛又成立了三個 SRE team (smart manufacture, digital business, infra team)。光是 digital business 的 SRE 就有 10 人, DevOps Engineer 有 300 人，Smart manufacturing 更是有1000+人之多。
-  * Q&A
-    1. Journey 心路歷程: 如何規劃並落地 內部推動 DevOps SRE 概念? => 綠地 , small win, 團隊數據互相比較
-    2. Culture change 要怎麼做: 如何讓團隊與主管都參與並持續學習
-        * 時間比例 / 如何讓成員自行組團有機成長 促成交流
-        * => 要 Manager 帶頭做
-    3. Team 人力配置，與其他團隊的合作模式是如何 Tool chain 工具選擇
-        * GitHub to Azure for business team, 並行 gitlab for infra team 各有擅場
-    4. DORA 衡量是如何進行 定義 分群 分析 => by products/service 個別統計
-    5. Next 下一步聚焦
+* Fab Runs on Code
+* **重視 DevOps 文化**: 這兩天 TSMC 攤位來了快 10 人以上，而且與會者的部分不時會看到穿著 TSMC Hackathon 衣服的人，可見其在 DevOps 上的重視跟投資。
+* **持續擴編人才**: IT人數2304人，全球員工人數67475. 今年 2022-08 才剛又成立了三個 SRE team (smart manufacture, digital business, infra team)。光是 digital business 的 SRE 就有 10 人, DevOps Engineer 有 300 人，Smart manufacturing 更是有1000+人之多。
+
+### Q&A
+
+1. Journey 心路歷程: 如何規劃並落地 內部推動 DevOps SRE 概念? => 綠地 , small win, 團隊數據互相比較
+2. Culture change 要怎麼做: 如何讓團隊與主管都參與並持續學習
+    * 時間比例 / 如何讓成員自行組團有機成長 促成交流
+    * => 要 Manager 帶頭做
+3. Team 人力配置，與其他團隊的合作模式是如何 Tool chain 工具選擇
+    * GitHub to Azure for business team, 並行 gitlab for infra team 各有擅場
+4. DORA 衡量是如何進行 定義 分群 分析 => by products/service 個別統計
+5. Next 下一步聚焦
 
 * 加碼: [【獨家披露】台積電30年IT和AI發展史（1996～2020和未來）| iThome](https://www.ithome.com.tw/news/142465)
   * <img style="width:100%;" alt="台積電30年IT和AI發展史（1996～2020和未來）" src="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/field/image/960-420-tsmc-dx-journey-1996-2020-cc_by-nc-nd_4.0_by-ithome.jpg?itok=oWmobMqa">
@@ -206,15 +208,15 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * [董大偉（David Tung）| 光岩資訊 資深技術顧問；微軟技術社群區域總監](https://devopsdays.tw/session-page/1153)
 * [共筆內容](https://hackmd.io/@DevOpsDay/Syk1itaxi/edit)
 * [共筆講師版](https://hackmd.io/@twdeveloper/ByFfreJZo)
-  * 舉凡抽象問題 都可以用日常生活化的例子回答
-    * 頻繁/持續 呼吸/吃飯
-    * 持續 = 時時刻刻 (一刻 = 15分鐘
-  * 都只編輯同一份可運行的 code
-    * 不隱藏 code
-    * 時時刻刻整合
-  * 跟運動一樣
-    * 不擅長的事情, 一開始做都會痛
-    * 那怎麼辦? 持續做就不會痛了 = 鍛鍊
+* 舉凡抽象問題 都可以用日常生活化的例子回答
+  * 頻繁/持續 呼吸/吃飯
+  * 持續 = 時時刻刻 (一刻 = 15分鐘
+* 都只編輯同一份可運行的 code
+  * 不隱藏 code
+  * 時時刻刻整合
+* 跟運動一樣
+  * 不擅長的事情, 一開始做都會痛
+  * 那怎麼辦? 持續做就不會痛了 = 鍛鍊
 
 ### 🥈 From DevOps To DataOps——Data as a Product 資料專案教戰守則
 
