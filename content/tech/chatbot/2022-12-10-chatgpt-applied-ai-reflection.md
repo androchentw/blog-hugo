@@ -39,6 +39,11 @@ series: chatbot
 
 <!--more-->
 
+<img style="width:80%;" src="2022-12-10-chatgpt-applied-ai-reflection-overview.png">
+<p align="center"><sub><sup>
+  本文 Mindmap (ChatGPT 如何協助人類? 應用 AI 與科幻哲思)
+</sup></sub></p>
+
 ## ChatGPT 是什麼?
 
 * [TechNews - 行走的程式碼產生器，chatGPT 會讓程式設計師失業？](https://technews.tw/2022/12/07/chatgpt-openai/): ChatGPT 是 OpenAI 訓練的對話式大規模語言模型。
