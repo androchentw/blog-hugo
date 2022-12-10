@@ -191,7 +191,7 @@ series: chatbot
   Photo by <a href="https://unsplash.com/@zackwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Walker</a> on <a href="https://unsplash.com/collections/TDZWRpPvGcY/japan%2C-cyberpunk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>  
 
-####
+#### 知識匯集與累積
 
 「**如果所有人類知識都匯集在一處, 那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
 
