@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-10 19:30 持續更新)
+(2022-12-10 20:45 持續更新)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
@@ -142,11 +142,18 @@ series: chatbot
 
 ### 角色扮演
 
-[Inside - 你能跟AI聊天機器人「ChatGPT」玩TRPG，或問他柯南是不是死神](https://www.4gamers.com.tw/news/detail/56185/chatgpt-can-have-a-good-conversation-with-you-among-acg-and-trpg-mostly): 設定情境, 就能在特定條件下跟他持續對話聊天。
+* [Inside - 你能跟AI聊天機器人「ChatGPT」玩TRPG，或問他柯南是不是死神](https://www.4gamers.com.tw/news/detail/56185/chatgpt-can-have-a-good-conversation-with-you-among-acg-and-trpg-mostly): 設定情境, 就能在特定條件下跟他持續對話聊天。
+
+### 當作 Terminal (終端機) 指令列
+
+* [扮演 Terminal 並安裝 w3m 進行 web browse](https://www.facebook.com/huli.blog/posts/pfbid02GPxtrYrjLkPgyXyAzp8oJN72HTtSBWb5iyGmrNYxwRxJB4JW6nk7FyF6x67tH1dzl)
+* [扮演 Terminal 進行 output 除錯](https://www.facebook.com/colin.leung.cat/posts/pfbid02LodDzzh8eyKTt6cSVzMTZVPxFTMeozTaGZVTfXjDmeWhNuUN3G6ywkkERMrySVJxl)
 
 ### 加密貨幣智能合約
 
 [BlockTempo - ChatGPT被玩壞！OpenAI竟幫聊天客戶寫套利程式、加密貨幣論文，甚至創作歌曲](https://www.blocktempo.com/crypto-community-is-interested-in-chatgpt/)
+
+### 更多其他用法
 
 ### 💬 ChatGPT 原理詳解
 
@@ -239,6 +246,7 @@ series: chatbot
 * [GitHub - Awesome ChatGPT](https://github.com/Kamigami55/awesome-chatgpt): ChatGPT 相關的優質資源、工具、應用的精選清單。
 * [GitHub - Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot): Discord bot 整合教學。
 * [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): LINE Bot 整合教學。
+* [Medium - 把 ChatGPT 變成Line好友！不用寫程式，手把手3步驟打造你的個人助理！](https://o-w-o.medium.com/把-chatgpt-變成line好友-不用寫程式-手把手3步驟打造你的個人助理-1035933b7571)
 
 ## 雜記
 
