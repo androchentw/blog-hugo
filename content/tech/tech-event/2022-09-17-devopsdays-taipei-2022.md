@@ -41,6 +41,7 @@ series: tech-event
 <p align="center"><sub>
   EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
 </sub></p>
+
 ### Challenges 現況 挑戰
 
 * 需求變動越來越快, 如何快速滿足需求, 並多方嘗試各種解決方案, 觀察回饋?
@@ -224,16 +225,15 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * Team > Protocol > Design > Develop > Deliver
   * Data Product Owner, User, Definer, Operator, Developer, Sysadmin
   * Scope, Team, Task division , Schedule, Risk evaluation, Technical cost, Workflow
-* Q&A
-  * Data Quality Control 怎麼做: 順序很重要
-    1. 定義 Data Scope, 標的
-    2. 分類 (重要度)
-    3. 希望治理到什麼程度
-    4. 方法論, 規則, 證照, 產品
-  * DataOps 推廣至 User 的流程建議
-    1. 蒐集 user 情境
-    2. 可視化 規則 + 足跡明確
-    3. 迭代
+* Q&A - Data Quality Control 怎麼做: 順序很重要
+  1. 定義 Data Scope, 標的
+  2. 分類 (重要度)
+  3. 希望治理到什麼程度
+  4. 方法論, 規則, 證照, 產品
+* Q&A - DataOps 推廣至 User 的流程建議
+  1. 蒐集 user 情境
+  2. 可視化 規則 + 足跡明確
+  3. 迭代
 
 ### 可觀測性 (Observability) 的實踐
 
