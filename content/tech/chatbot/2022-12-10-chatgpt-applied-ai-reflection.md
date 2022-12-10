@@ -178,6 +178,12 @@ series: chatbot
   * 就像現在已經出現的, 因為先進醫療的昂貴導致「沒本錢能夠生病」, 以及教育等各項基礎設施的城鄉差距, 未來也會更加劇. **未來我們也許只能在商城付費解鎖知識內容, 更換知識存取晶片了**。
   * 訂閱制的知識經濟也已經逐漸成形, 從娛樂型的 YouTube Premium, Netflix 等, 到技能型的線上教育平台 Coursera, Udemy 等, 也像是前述未來的雛形。也難怪有人會戲稱以後要急救家人還得先看廣告了。
 
+
+## 🤝 Community 社群 - 更多用法
+
+* [ChatGPT Taiwan](https://www.facebook.com/groups/chatgpt.tw/)
+* [ChatGPT 時報討論所](https://www.facebook.com/groups/chatgpttimes/)
+
 ## 🤖 技術專區: Chatbot 整合
 
 你有這樣的困擾嗎?
