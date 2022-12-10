@@ -111,6 +111,13 @@ series: chatbot
 
 ## 各種玩法
 
+### 🤖 程式碼含註解 + 測試
+
+* 簡單的 (任何語言) 程式碼範例、註解、甚至測試代碼、測試項目都可以生成，還會幫你解釋原因
+* Linux OS command 等除錯訊息直接貼也可以
+* [扮演 Terminal 並安裝 w3m 進行 web browse](https://www.facebook.com/huli.blog/posts/pfbid02GPxtrYrjLkPgyXyAzp8oJN72HTtSBWb5iyGmrNYxwRxJB4JW6nk7FyF6x67tH1dzl)
+* [扮演 Terminal 進行 output 除錯](https://www.facebook.com/colin.leung.cat/posts/pfbid02LodDzzh8eyKTt6cSVzMTZVPxFTMeozTaGZVTfXjDmeWhNuUN3G6ywkkERMrySVJxl)
+
 ### 🗣️ 翻譯, 語言學習, 商業會話 - 完整文章生成 + 文法修正 + 情緒判斷
 
 解決了 Google Translate, DeepL 等翻譯類軟體尚未具備的完整文章生成 + 文法修正 + 情緒判斷, 至於跟 Siri 翻譯的比較, 我還沒有深入去玩。但只要把現有工具良好搭配, 就能讓我們的學習效率大幅提昇。
@@ -143,11 +150,6 @@ series: chatbot
 ### 角色扮演
 
 * [Inside - 你能跟AI聊天機器人「ChatGPT」玩TRPG，或問他柯南是不是死神](https://www.4gamers.com.tw/news/detail/56185/chatgpt-can-have-a-good-conversation-with-you-among-acg-and-trpg-mostly): 設定情境, 就能在特定條件下跟他持續對話聊天。
-
-### 當作 Terminal (終端機) 指令列
-
-* [扮演 Terminal 並安裝 w3m 進行 web browse](https://www.facebook.com/huli.blog/posts/pfbid02GPxtrYrjLkPgyXyAzp8oJN72HTtSBWb5iyGmrNYxwRxJB4JW6nk7FyF6x67tH1dzl)
-* [扮演 Terminal 進行 output 除錯](https://www.facebook.com/colin.leung.cat/posts/pfbid02LodDzzh8eyKTt6cSVzMTZVPxFTMeozTaGZVTfXjDmeWhNuUN3G6ywkkERMrySVJxl)
 
 ### 加密貨幣智能合約
 
