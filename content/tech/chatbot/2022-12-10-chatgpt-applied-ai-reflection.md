@@ -63,20 +63,25 @@ series: chatbot
   Photo by <a href="https://unsplash.com/@michelletan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michelle Tan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>
 
-* 抓重點: 解決了網路文章太多，要自己抓重點時容易迷失的困擾
-  * AS-IS: 以前我要達到一個答案, 多半卡在我沒有基礎知識, 所以需要**花很大半的時間先學習理解基礎**, 才能談應用與落地。
-  * TO-BE: 現在我能夠透過 AI 快速知道可能的方向, **減少踩坑與試誤的迭代時間, 從而更快達到驗證想法的目的**。
-  * 🔍 軟體圈常戲稱的「Google 工程師」, 「Stack Overflow 工程師」(註: 遇到不會的問題就先搜尋 Google & Stack Overflow 的工程師)，將會轉為「ChatGPT 工程師」。
-  * 以後也不會說 "LMGTFY" (Let Me Google That For You) 了, 可以改說 **"LMCGPTTFY" (Let Me ChatGPT That For You)** 😂
-  * [ChatGPT發表5天使用者破百萬，但遭到程式設計領域的問答網站Stack Overflow封禁](https://www.techbang.com/posts/102295-chatgpt-banned-stack-overflow): 官方表示：「主要問題在於，雖然 ChatGPT 產生的答案錯誤率很高，但我們很難看出來它哪裡錯了。」
-* 寫計畫: 讓 ChatGPT 快速產出
-  * 草擬大綱 = Mindmap + 快速資訊過濾: 在一切未明的情況下, 讓 ChatGPT 給一個大方向框架, 再自己去逐一確認細節, 持續補充並加入自己實務面的見解與經驗
-  * 檢視邏輯 MECE: 自己修正完的一版，可以再回問 ChatGPT，看是否有遺漏的點
-* 🥇 深思考:「我可以怎麼用/達成 X 目標」 = 「學會提問與組合」 + 「判斷是否符合需求」
-  * 問題意識 + 練習提問: 問對問題(精準提問力) 變成關鍵的技能, 知識終究是拿來回答「我們究竟要達到什麼目標」的工具。
-  * **OKR 意識**: 承上, 撰寫任何文件/文案時的重點變成 "審核" 這份內容是否有達到你要的 "目標關鍵成果"，而不是只是「記錄下來而已」的流水帳 (因為 AI 就能做到了)。
-  * **知識插花藝術**: 單純的知識片段已經能夠被完全取代, 更重要的是我們能如何組合出「美」的內容。也許我們更需要培養的是知識的 Compose "編曲能力" 與 Appreciate "鑑賞能力"。
-  * **量化數據指引**: 我現在最喜歡用的就是請 ChatGPT 提出「量化指標」 衡量。SMART 原則我們都知道, 可是實務上常會懷疑/不知道該選什麼來衡量。這點讓 ChatGPT 快速提出, 我們再思考/補齊, 就會是個很好的搭配。
+#### 抓重點: 解決了網路文章太多，要自己抓重點時容易迷失的困擾
+
+* AS-IS: 以前我要達到一個答案, 多半卡在我沒有基礎知識, 所以需要**花很大半的時間先學習理解基礎**, 才能談應用與落地。
+* TO-BE: 現在我能夠透過 AI 快速知道可能的方向, **減少踩坑與試誤的迭代時間, 從而更快達到驗證想法的目的**。
+* 🔍 軟體圈常戲稱的「Google 工程師」, 「Stack Overflow 工程師」(註: 遇到不會的問題就先搜尋 Google & Stack Overflow 的工程師)，將會轉為「ChatGPT 工程師」。
+* 以後也不會說 "LMGTFY" (Let Me Google That For You) 了, 可以改說 **"LMCGPTTFY" (Let Me ChatGPT That For You)** 😂
+* [ChatGPT發表5天使用者破百萬，但遭到程式設計領域的問答網站Stack Overflow封禁](https://www.techbang.com/posts/102295-chatgpt-banned-stack-overflow): 官方表示：「主要問題在於，雖然 ChatGPT 產生的答案錯誤率很高，但我們很難看出來它哪裡錯了。」
+
+#### 寫計畫: 讓 ChatGPT 快速產出
+
+* 草擬大綱 = Mindmap + 快速資訊過濾: 在一切未明的情況下, 讓 ChatGPT 給一個大方向框架, 再自己去逐一確認細節, 持續補充並加入自己實務面的見解與經驗
+* 檢視邏輯 MECE: 自己修正完的一版，可以再回問 ChatGPT，看是否有遺漏的點
+
+#### 🥇 深思考:「我可以怎麼用/達成 X 目標」 = 「學會提問與組合」 + 「判斷是否符合需求」
+
+* 問題意識 + 練習提問: 問對問題(精準提問力) 變成關鍵的技能, 知識終究是拿來回答「我們究竟要達到什麼目標」的工具。
+* **OKR 意識**: 承上, 撰寫任何文件/文案時的重點變成 "審核" 這份內容是否有達到你要的 "目標關鍵成果"，而不是只是「記錄下來而已」的流水帳 (因為 AI 就能做到了)。
+* **知識插花藝術**: 單純的知識片段已經能夠被完全取代, 更重要的是我們能如何組合出「美」的內容。也許我們更需要培養的是知識的 Compose "編曲能力" 與 Appreciate "鑑賞能力"。
+* **量化數據指引**: 我現在最喜歡用的就是請 ChatGPT 提出「量化指標」 衡量。SMART 原則我們都知道, 可是實務上常會懷疑/不知道該選什麼來衡量。這點讓 ChatGPT 快速提出, 我們再思考/補齊, 就會是個很好的搭配。
 
 ### 2. 🌍 拓展知識疆界
 
