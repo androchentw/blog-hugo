@@ -39,7 +39,7 @@ series: chatbot
 
 <!--more-->
 
-<img style="width:80%;" src="2022-12-10-chatgpt-applied-ai-reflection-overview.png">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2022-12-10-chatgpt-applied-ai-reflection-overview.png?raw=true">
 <p align="center"><sub><sup>
   本文 Mindmap (ChatGPT 如何協助人類? 應用 AI 與科幻哲思)
 </sup></sub></p>
