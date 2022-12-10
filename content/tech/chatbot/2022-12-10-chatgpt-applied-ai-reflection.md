@@ -205,6 +205,16 @@ series: chatbot
 * [GitHub - Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot): Discord bot 整合教學。
 * [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): LINE Bot 整合教學。
 
+## 雜記
+
+* ChatGPT 成長有多快?
+
+<img style="width:60%;" src="https://global-uploads.webflow.com/61ea4a526864d021a5ef3bfc/6393547671f33243a354808a_ZKvFo-WZEonohmLXQpWNHA4FwYgY9M8z--U5ZSZ_y1VQ5o0oAYku0JEb43pdfcn-E0w4JM0k-j11I0nmydJwC4lntSwnUor32xqUzfliSnaZBQZgjqhdOMxpVNHK5MamFXGSUa1tOpI-N1kawkfXVloVR8SyOw%3Ds0-d-e1-ft.jpeg">
+
+<p align="center"><sub><sup>
+  Photo credit: <a href="https://www.chartr.co/newsletters/2022-12-09">chartr - ChatGPT From OpenAI Is a Bot Taking The Tech World By Storm</a>
+</sup></sub></p>
+
 ### 你怎麼看?
 
 留下你的想法一起討論吧! 🥳
