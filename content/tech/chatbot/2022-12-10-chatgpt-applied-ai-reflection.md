@@ -75,6 +75,12 @@ series: chatbot
 
 ### 2. 🌍 拓展知識疆界
 
+<img style="width:40%;" src="https://truth.bahamut.com.tw/s01/202110/fefc0acb8b1d9287c00726183cdabb0e.JPG">
+<p align="center"><sub><sup>
+　世紀帝國 2 密技 "Marco Polo" 打開戰爭迷霧
+  Photo Credit: 巴哈姆特 <a href="https://forum.gamer.com.tw/C.php?bsn=1122&snA=15935">【其他】自製DE版現實地圖</a>
+</sup></sub></p>
+
 * 知識疆界: 就像交通工具的發明，讓旅遊的範圍與見識的可能性瞬間打開一般。
 * 基礎知識將更快普遍。就像以往只有腳踏車，一下突然研發出直昇機一樣
   * 速度: 想去的地方更快能去了
