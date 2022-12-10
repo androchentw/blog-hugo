@@ -113,13 +113,19 @@ series: chatbot
 
 ### 🗣️ 翻譯, 語言學習, 商業會話 - 完整文章生成 + 文法修正 + 情緒判斷
 
-* 解決了 Google Translate, DeepL 等翻譯類軟體尚未具備的完整文章生成 + 文法修正 + 情緒判斷, 至於跟 Siri 翻譯的比較, 我還沒有深入去玩。但只要把現有工具良好搭配, 就能讓我們的學習效率大幅提昇。
-* **語言學習**: 我目前使用過 中英日 等翻譯. 產生日記, 修改作文, 指出文法錯誤並修正等都能做到。雖然不夠完美，但至少能抓出一些低級文法錯誤，強化我們的思考。而且其實所謂語言就是拿來溝通用的，況且有時母語者說的文法也並不是那麼結構完整且正確，我認為以「輔助」的角色來說已經做得很不錯了。
-* **商業會話**: 回信, 寫履歷也通通難不倒，還可以做很多種版本，一樣可以讓我們反思自己的產出可以怎麼優化。
+解決了 Google Translate, DeepL 等翻譯類軟體尚未具備的完整文章生成 + 文法修正 + 情緒判斷, 至於跟 Siri 翻譯的比較, 我還沒有深入去玩。但只要把現有工具良好搭配, 就能讓我們的學習效率大幅提昇。
+
+#### 語言學習
+
+我目前使用過 中英日 等翻譯. 產生日記, 修改作文, 指出文法錯誤並修正等都能做到。雖然不夠完美，但至少能抓出一些低級文法錯誤，強化我們的思考。而且其實所謂語言就是拿來溝通用的，況且有時母語者說的文法也並不是那麼結構完整且正確，我認為以「輔助」的角色來說已經做得很不錯了。
+
+#### 商業會話
+
+回信, 寫履歷也通通難不倒，還可以做很多種版本，一樣可以讓我們反思自己的產出可以怎麼優化。
 
 ### 🎨 AI 繪圖咒術師 - 自動生成圖片
 
-* [巴哈姆特 - 【閒聊】完了 AI繪圖咒術師大概要先被AI取代了](https://forum.gamer.com.tw/C.php?bsn=60076&snA=7478995): 透過 ChatGPT 產生給 [Midjourney](https://midjourney.com/) 等 AI 自動生成圖片軟體的 prompt (提詞. 俗稱 詠唱 🧙)
+[巴哈姆特 - 【閒聊】完了 AI繪圖咒術師大概要先被AI取代了](https://forum.gamer.com.tw/C.php?bsn=60076&snA=7478995): 透過 ChatGPT 產生給 [Midjourney](https://midjourney.com/) 等 AI 自動生成圖片軟體的 prompt (提詞. 俗稱 詠唱 🧙)
 
 <img style="width:40%;" src="https://truth.bahamut.com.tw/s01/202212/74f17a290942633bae861c259a6b396d.JPG">
 <p align="center"><sub><sup>
@@ -136,15 +142,15 @@ series: chatbot
 
 ### 角色扮演
 
-* [Inside - 你能跟AI聊天機器人「ChatGPT」玩TRPG，或問他柯南是不是死神](https://www.4gamers.com.tw/news/detail/56185/chatgpt-can-have-a-good-conversation-with-you-among-acg-and-trpg-mostly): 設定情境, 就能在特定條件下跟他持續對話聊天。
+[Inside - 你能跟AI聊天機器人「ChatGPT」玩TRPG，或問他柯南是不是死神](https://www.4gamers.com.tw/news/detail/56185/chatgpt-can-have-a-good-conversation-with-you-among-acg-and-trpg-mostly): 設定情境, 就能在特定條件下跟他持續對話聊天。
 
 ### 加密貨幣智能合約
 
-* [BlockTempo - ChatGPT被玩壞！OpenAI竟幫聊天客戶寫套利程式、加密貨幣論文，甚至創作歌曲](https://www.blocktempo.com/crypto-community-is-interested-in-chatgpt/)
+[BlockTempo - ChatGPT被玩壞！OpenAI竟幫聊天客戶寫套利程式、加密貨幣論文，甚至創作歌曲](https://www.blocktempo.com/crypto-community-is-interested-in-chatgpt/)
 
 ### 💬 ChatGPT 原理詳解
 
-* [Inside - ChatGPT 究竟如何煉成？台大教授李宏毅提可能的訓練步驟](https://www.inside.com.tw/article/30032-chatgpt-possible-4-steps-training): 文字接龍 + 人類引導 + 模仿 + 增強式學習 (reinforcement learning)
+[Inside - ChatGPT 究竟如何煉成？台大教授李宏毅提可能的訓練步驟](https://www.inside.com.tw/article/30032-chatgpt-possible-4-steps-training): 文字接龍 + 人類引導 + 模仿 + 增強式學習 (reinforcement learning)
 
 <img style="width:40%;" src="https://bucket-img.tnlmedia.com/cabinet/2022/12/2c82d110-5ab9-40e2-b67f-f57a2ff24b4c.png?auto=compress&fit=max&w=730">
 <p align="center"><sub><sup>
@@ -157,16 +163,22 @@ series: chatbot
   * 一半是「會」。總是會有一些高度勞力密集的工作會被取代。
   * 另一半是「不會」。人類總是會想到辦法學會去利用新的技術 ~~然後產生新的工作奴役自己~~。
   * 目前 ChatGPT 沒有慾望, 不會主動去完成或達成什麼目標 (但是, 當然只要配一個會好奇、有慾望的機器人「左右互搏」，很快就能超越)
-* **科幻場景**裡的一切都將在有生之年變得可能
-  * 電影 駭客任務 (The Matrix): 一秒下載各種知識: 開飛機、武術、外語
-  * 電玩 地平線 (Horizon): 人類知識庫 阿波羅資料庫
-    * 參考: [巴哈姆特 - 【心得】地平線：西域禁地心得-融合高科技文明與蠻荒世界的動作冒險之旅](https://forum.gamer.com.tw/C.php?bsn=60596&snA=54842)
-  * 電玩 文明帝國 VI (Sid Meier's Civilization VI) 的科技樹
-* **科技, 人性, NPC** 這回事
-  * 電玩 底特律 變人 (Detroit: Become Human): 仿生人 (Android) 的道德選擇
-  * 影集 西方極樂園 (Westworld): 被設定好的目的, 輪迴 與 覺醒
-  * 動漫 記錄的地平線 (ログ・ホライズン,. Log Horizon): 想成為冒險者的"大地人", 固定的音樂旋律
-  * 動漫 心靈判官 (Psycho-pass サイコパス): 集體智慧 vs. 倫理
+
+### **科幻場景**
+
+一切都將在有生之年變得可能
+
+* 電影 駭客任務 (The Matrix): 一秒下載各種知識: 開飛機、武術、外語
+* 電玩 地平線 (Horizon): 人類知識庫 阿波羅資料庫
+  * 參考: [巴哈姆特 - 【心得】地平線：西域禁地心得-融合高科技文明與蠻荒世界的動作冒險之旅](https://forum.gamer.com.tw/C.php?bsn=60596&snA=54842)
+* 電玩 文明帝國 VI (Sid Meier's Civilization VI) 的科技樹
+
+### 科技, 人性, NPC 這回事
+
+* 電玩 底特律 變人 (Detroit: Become Human): 仿生人 (Android) 的道德選擇
+* 影集 西方極樂園 (Westworld): 被設定好的目的, 輪迴 與 覺醒
+* 動漫 記錄的地平線 (ログ・ホライズン,. Log Horizon): 想成為冒險者的"大地人", 固定的音樂旋律
+* 動漫 心靈判官 (Psycho-pass サイコパス): 集體智慧 vs. 倫理
 * [艾西莫夫 (Isaac Asimov) 機器人三定律 (Three Laws of Robotics)](https://zh.wikipedia.org/zh-tw/%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%89%E5%AE%9A%E5%BE%8B)
   1. 機器人不得傷害人類，或坐視人類受到傷害；
   2. 機器人必須服從人類命令，除非命令與第一法則發生衝突；
@@ -179,20 +191,25 @@ series: chatbot
   Photo by <a href="https://unsplash.com/@zackwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Walker</a> on <a href="https://unsplash.com/collections/TDZWRpPvGcY/japan%2C-cyberpunk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>  
 
-* 「**如果所有人類知識都匯集在一處, 那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
-  * **農業革命 = Free from hunger**
-    * 以農業畜牧取代狩獵游牧, 我們不再受糧食所苦, 可以穩定產出糧食, 空出來的時間就能玩更多事情。
-  * **工業革命 = Free from labor**
-    * 以機器取代人力, 我們不再受勞力所苦, 可以穩定生產各種生活必需品, 空出來的時間就能玩更多事情。
-    * (但現代人好像還是成為了勞動的奴隸) 😂
-  * **資訊革命 = Free from knowledge** (工業 5.0?)
-    * 以 AI 取代人腦, 我們不再受知識所苦, 可以穩定創造更多應用, 空出來的時間就能玩更多事情。
-    * 知識的傳遞與應用, 一路從大圖書館 (冰與火之歌的 Citadel 大學城), 印刷術, 電腦, 互聯網, 到 AI, 人類的集體智慧不斷累積, 也越來越能夠為所有人所用。
-  * 由上歷史脈絡可見, 人類看似會越來越自由, 脫離了「宇宙」這個物理層面的限制, 基本上已經進入了「想像力就是你的超能力」的時代
-* **運算資源**會是一個影響的關鍵
-  * 成本: 如同 Elon Musk 問的「目前一個提問的成本是多少美元」, 越繁重的分析與預測也會加速消耗稀缺的運算資源, 考驗 AI 持有者如何優化「知識產出成本」。
-  * 供應鏈: 晶片設計製造等技術與產業發展持續帶來的門檻降低，也會讓我們有機會更快看到更加強大的 AI。
-* **知識經濟與資產**
+#### 
+
+「**如果所有人類知識都匯集在一處, 那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
+* **農業革命 = Free from hunger**
+  * 以農業畜牧取代狩獵游牧, 我們不再受糧食所苦, 可以穩定產出糧食, 空出來的時間就能玩更多事情。
+* **工業革命 = Free from labor**
+  * 以機器取代人力, 我們不再受勞力所苦, 可以穩定生產各種生活必需品, 空出來的時間就能玩更多事情。
+  * (但現代人好像還是成為了勞動的奴隸) 😂
+* **資訊革命 = Free from knowledge** (工業 5.0?)
+  * 以 AI 取代人腦, 我們不再受知識所苦, 可以穩定創造更多應用, 空出來的時間就能玩更多事情。
+  * 知識的傳遞與應用, 一路從大圖書館 (冰與火之歌的 Citadel 大學城), 印刷術, 電腦, 互聯網, 到 AI, 人類的集體智慧不斷累積, 也越來越能夠為所有人所用。
+* 由上歷史脈絡可見, 人類看似會越來越自由, 脫離了「宇宙」這個物理層面的限制, 基本上已經進入了「想像力就是你的超能力」的時代
+
+#### 運算資源會是一個影響的關鍵
+
+* 成本: 如同 Elon Musk 問的「目前一個提問的成本是多少美元」, 越繁重的分析與預測也會加速消耗稀缺的運算資源, 考驗 AI 持有者如何優化「知識產出成本」。
+* 供應鏈: 晶片設計製造等技術與產業發展持續帶來的門檻降低，也會讓我們有機會更快看到更加強大的 AI。
+
+#### 知識經濟與資產
   * 而知識將越來越像是資產 (Assets) 一般, 能夠動用的人將會更嚴格的區分權限與地位。
     * 能夠知道情報的人, 就越能掌握未來的脈動, 甚至做出預測。無論在軍事、財經、商業發展等場域，都將更劇烈地體現「知識即力量」(其實從古至今都是)。
   * 貧富差距: 這也意味著量子運算真正到來的那一天, 貧富差距又會更加劇
