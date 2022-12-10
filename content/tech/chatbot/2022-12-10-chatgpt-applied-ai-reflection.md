@@ -2,7 +2,7 @@
 title: "ChatGPT 如何協助人類? 應用 AI 與科幻哲思"
 url: /chatgpt-applied-ai-sci-fi-reflection
 # date: 2022-12-10T09:25:16+08:00
-date: 2022-12-10T12:50:16+08:00
+date: 2022-12-10T14:50:16+08:00
 author: androchentw
 type: post
 categories:
@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-10 14:00 持續更新)
+(2022-12-10 14:50 持續更新)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
