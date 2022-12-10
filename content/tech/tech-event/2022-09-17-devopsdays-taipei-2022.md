@@ -281,38 +281,39 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 * [Microsoft Azure 台灣微軟 客戶成功事業群 雲端解決方案架構師](https://devopsdays.tw/workshops-page/1353)
 * [DevOpsDayLab - 透過 GitHub Action 在 Azure 上進行持續交付](https://hackmd.io/@msazuredev/BJNaOL1xj#DevOpsDayLab---透過-GitHub-Action-在-Azure-上進行持續交付)
 * [devopsdays-2022-lab-github-action-azure](https://github.com/androchentw/devopsdays-2022-lab-github-action-azure)
-  1. Template: [GitHub Actions: Continuous Delivery with Azure](https://github.com/skills/continuous-delivery-azure)
-  2. Step 1: Trigger a job based on labels
-     * `workflow branch: staging-workflow. deploy-staging.yml`
-  3. Step 2: Set up an Azure environment
-     1. Activity 1: Configure GITHUB_TOKEN permissions
 
-         * ```sh
-             # 1. Generate id/credentials on Azure Cloud Shell
-             az account show
-             # > id => AZURE_SUBSCRIPTION_ID
+1. Template: [GitHub Actions: Continuous Delivery with Azure](https://github.com/skills/continuous-delivery-azure)
+2. Step 1: Trigger a job based on labels
+   * `workflow branch: staging-workflow. deploy-staging.yml`
+3. Step 2: Set up an Azure environment
+   1. Activity 1: Configure GITHUB_TOKEN permissions
 
-             # 2. Create service principal
-             az ad sp create-for-rbac --name "GitHub-Actions" --role contributor \
-                                     --scopes /subscriptions/{subscription-id} \
-                                     --sdk-auth
-             # > output => AZURE_CREDENTIALS
+      ```sh
+      # 1. Generate id/credentials on Azure Cloud Shell
+      az account show
+      # > id => AZURE_SUBSCRIPTION_ID
 
-             # 3. Setup GitHub > Settings > Secrets > Actions: AZURE_SUBSCRIPTION_ID, AZURE_CREDENTIALS
-             ```
+      # 2. Create service principal
+      az ad sp create-for-rbac --name "GitHub-Actions" --role contributor \
+                              --scopes /subscriptions/{subscription-id} \
+                              --sdk-auth
+      # > output => AZURE_CREDENTIALS
 
-     2. Activity 2: Set up Azure resource provision workflow
-        * `workflow branch: azure-configuration. spinup-destroy.yml`
-     3. Activity 3: Edit deploy-staging file. Edit branch: `staging-workflow`
-     4. Activity 4: Preparing `staging-test` branch
-  4. Step 3: Spin up an environment based on labels
-     1. PAT -> Repo `CR_PAT`
-     2. label: `spin up environment`
-     3. `az provider register -n Microsoft.App --wait`
-     4. `az provider register -n Microsoft.OperationalInsights --wait`
-  5. Step 4: Deploy to a staging environment based on labels
-     1. Activity 1: Set up production-deployment-workflow branch
-  6. Step 5: Deploy to a production environment based on labels
+      # 3. Setup GitHub > Settings > Secrets > Actions: AZURE_SUBSCRIPTION_ID, AZURE_CREDENTIALS
+      ```
+
+   2. Activity 2: Set up Azure resource provision workflow
+      * `workflow branch: azure-configuration. spinup-destroy.yml`
+   3. Activity 3: Edit deploy-staging file. Edit branch: `staging-workflow`
+   4. Activity 4: Preparing `staging-test` branch
+4. Step 3: Spin up an environment based on labels
+   1. PAT -> Repo `CR_PAT`
+   2. label: `spin up environment`
+   3. `az provider register -n Microsoft.App --wait`
+   4. `az provider register -n Microsoft.OperationalInsights --wait`
+5. Step 4: Deploy to a staging environment based on labels
+   1. Activity 1: Set up production-deployment-workflow branch
+6. Step 5: Deploy to a production environment based on labels
 
 ### 🥇 Workshop - 深度體驗 Azure DevOps Services 發行管理機制
 
@@ -342,27 +343,23 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * Feature Flags
   * Blue/Green Deploy
   * Canary Deployment
-* 體驗 Azure Devops
-  * Release Cadence 部署節奏 / 時間 / 環境切割
-  * Artifacts: 發行之前先取得一個穩定的成品. Always 只有一份. 但設定會依據環境而不同 => 需要做 Configuration Management
-  * Stages: 部署環境. (舞台) 想成是部署的目標. Dev - QA - Production
-    * 長期的? 短期的?
-    * 誰會用這個環境?
-    * 這個環境的目的是什麼?
-      * 每個環境都有一個明確目的必須被事先定義
-      * 發行一個新功能
-      * 確認問題被修復
-    * 會是 fresh install 還是覆蓋當前?
-    * 你可以接受 downtime 多久?
-    * 誰是這個環境的 owner? 誰可以 apply changes?
-  * Pre-/Post-deployment approvals, (Release) Gates (REST API, Azure Policy compliance, Azure Function, Azure Monitor alerts, work items, SonarCloud)
-  * 發行策略
-  * Release Approvals: 人工批准可以幫助建立人們對自動化發行的信心
-* Q&A
-  * GCP ✅
-  * Build once => configuration management + dependency injection
-  * SQL Data Quality Test
-    * Ref: [Databease in DevOps | Edward Kuo](https://www.slideshare.net/jaigikuo/database-in-devops-249872632)
+* Release Cadence 部署節奏 / 時間 / 環境切割
+* Artifacts: 發行之前先取得一個穩定的成品. Always 只有一份. 但設定會依據環境而不同 => 需要做 Configuration Management
+* Stages: 部署環境. (舞台) 想成是部署的目標. Dev - QA - Production
+  * 長期的? 短期的?
+  * 誰會用這個環境?
+  * 這個環境的目的是什麼?
+    * 每個環境都有一個明確目的必須被事先定義
+    * 發行一個新功能
+    * 確認問題被修復
+  * 會是 fresh install 還是覆蓋當前?
+  * 你可以接受 downtime 多久?
+  * 誰是這個環境的 owner? 誰可以 apply changes?
+* Pre-/Post-deployment approvals, (Release) Gates (REST API, Azure Policy compliance, Azure Function, Azure Monitor alerts, work items, SonarCloud)
+* 發行策略
+* Release Approvals: 人工批准可以幫助建立人們對自動化發行的信心
+* Build once => configuration management + dependency injection
+* SQL Data Quality Test. Ref: [Databease in DevOps | Edward Kuo](https://www.slideshare.net/jaigikuo/database-in-devops-249872632)
 
 ### Others
 
@@ -390,19 +387,19 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
 ## 延伸閱讀
 
 * [The Subtle Art of Being A Developer Advocate](https://dev.to/wassimchegham/the-subtle-art-of-being-a-developer-advocate-gdg)
-  * [Microsoft - Join our team and make the world better for developers!](https://docs.microsoft.com/en-us/teamblog/awesome-jobs?WT.mc_id=jobs-twitter-jeffsand)
-  * What my typical day looks like as a Developer Advocate?
-    * Creating content
-    * Public speaking
-    * Building tools in the open
-    * Product feedback
-    * Shipping products
-    * Being the Customer Zero
-    * Constantly learning
-    * Creating and improving official docs
-    * Helping others grow
-    * Business and OKRs
-  * <img style="width:80%;" alt="The developer advocate iceberg" src="https://res.cloudinary.com/practicaldev/image/fetch/s--E6p1mLXo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tbwn6178yb7do2e8bhk8.jpg">
+* [Microsoft - Join our team and make the world better for developers!](https://docs.microsoft.com/en-us/teamblog/awesome-jobs?WT.mc_id=jobs-twitter-jeffsand)
+* What my typical day looks like as a Developer Advocate?
+  * Creating content
+  * Public speaking
+  * Building tools in the open
+  * Product feedback
+  * Shipping products
+  * Being the Customer Zero
+  * Constantly learning
+  * Creating and improving official docs
+  * Helping others grow
+  * Business and OKRs
+* <img style="width:80%;" alt="The developer advocate iceberg" src="https://res.cloudinary.com/practicaldev/image/fetch/s--E6p1mLXo--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tbwn6178yb7do2e8bhk8.jpg">
 
 ## 🤝 Community 社群
 
