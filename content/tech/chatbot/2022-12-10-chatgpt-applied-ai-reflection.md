@@ -65,7 +65,7 @@ series: chatbot
 
 * 抓重點: 解決了網路文章太多，要自己抓重點時容易迷失的困擾
   * AS-IS: 以前我要達到一個答案, 多半卡在我沒有基礎知識, 所以需要**花很大半的時間先學習理解基礎**, 才能談應用與落地。
-  * TO-BE: 現在我能夠透過 AI 快速知道可能的方向, **減少踩坑與試誤的循環時間, 從而更快達到驗證想法的目的**。
+  * TO-BE: 現在我能夠透過 AI 快速知道可能的方向, **減少踩坑與試誤的迭代時間, 從而更快達到驗證想法的目的**。
   * 🔍 軟體圈常戲稱的「Google 工程師」, 「Stack Overflow 工程師」(註: 遇到不會的問題就先搜尋 Google & Stack Overflow 的工程師)，將會轉為「ChatGPT 工程師」。
     * 以後也不會說 "LMGTFY" (Let Me Google That For You) 了, 可以改說 **"LMCGPTTFY" (Let Me ChatGPT That For You)** 😂
     * [ChatGPT發表5天使用者破百萬，但遭到程式設計領域的問答網站Stack Overflow封禁](https://www.techbang.com/posts/102295-chatgpt-banned-stack-overflow): 官方表示：「主要問題在於，雖然 ChatGPT 產生的答案錯誤率很高，但我們很難看出來它哪裡錯了。」
