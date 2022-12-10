@@ -129,7 +129,7 @@ series: chatbot
 
 ## 💡 科幻哲思
 
-* 很多人會談到失業的議題, 每當新技術出來總是會有這樣的討論。我的答案是一半一半。
+* 很多人會談到**失業**的議題, 每當新技術出來總是會有這樣的討論。我的答案是一半一半。
   * 一半是「會」。總是會有一些高度勞力密集的工作會被取代。
   * 另一半是「不會」。人類總是會想到辦法學會去利用新的技術 ~~然後產生新的工作奴役自己~~。
   * 目前 ChatGPT 沒有慾望, 不會主動去完成或達成什麼目標 (但是, 當然只要配一個會好奇、有慾望的機器人「左右互搏」，很快就能超越)
@@ -155,13 +155,13 @@ series: chatbot
   Photo by <a href="https://unsplash.com/@zackwalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Walker</a> on <a href="https://unsplash.com/collections/TDZWRpPvGcY/japan%2C-cyberpunk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>  
 
-* 「**如果所有人類知識都匯集在一處,那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
-  * 農業革命 = Free from hunger
+* 「**如果所有人類知識都匯集在一處, 那個體人類還要/還能做什麼?**」我認為可以從 「自由」, 「體驗美好」的角度出發, 以下造樣造句:
+  * **農業革命 = Free from hunger**
     * 以農業畜牧取代狩獵游牧, 我們不再受糧食所苦, 可以穩定產出糧食, 空出來的時間就能玩更多事情。
-  * 工業革命 = Free from labor
+  * **工業革命 = Free from labor**
     * 以機器取代人力, 我們不再受勞力所苦, 可以穩定生產各種生活必需品, 空出來的時間就能玩更多事情。
     * (但現代人好像還是成為了勞動的奴隸) 😂
-  * 資訊革命 = Free from knowledge (工業 5.0?)
+  * **資訊革命 = Free from knowledge** (工業 5.0?)
     * 以 AI 取代人腦, 我們不再受知識所苦, 可以穩定創造更多應用, 空出來的時間就能玩更多事情。
     * 知識的傳遞與應用, 一路從大圖書館 (冰與火之歌的 Citadel 大學城), 印刷術, 電腦, 互聯網, 到 AI, 人類的集體智慧不斷累積, 也越來越能夠為所有人所用。
   * 由上歷史脈絡可見, 人類看似會越來越自由, 脫離了「宇宙」這個物理層面的限制, 基本上已經進入了「想像力就是你的超能力」的時代
