@@ -70,7 +70,7 @@ series: chatbot
     * 以後也不會說 "LMGTFY" (Let Me Google That For You) 了, 可以改說 **"LMCGPTTFY" (Let Me ChatGPT That For You)** 😂
     * [ChatGPT發表5天使用者破百萬，但遭到程式設計領域的問答網站Stack Overflow封禁](https://www.techbang.com/posts/102295-chatgpt-banned-stack-overflow): 官方表示：「主要問題在於，雖然 ChatGPT 產生的答案錯誤率很高，但我們很難看出來它哪裡錯了。」
 * 寫計畫: 讓 ChatGPT 快速產出
-  * 草擬大綱 = Mindmap + 快速資訊過濾: 在一切未明的情況下, 讓 ChatGPT 給一個大方向框架, 再自己去逐一確認細節, 持續補充
+  * 草擬大綱 = Mindmap + 快速資訊過濾: 在一切未明的情況下, 讓 ChatGPT 給一個大方向框架, 再自己去逐一確認細節, 持續補充並加入自己實務面的見解與經驗
   * 檢視邏輯 MECE: 自己修正完的一版，可以再回問 ChatGPT，看是否有遺漏的點
 * 🥇 深思考:「我可以怎麼用/達成 X 目標」 = 「學會提問與組合」 + 「判斷是否符合需求」
   * 問題意識 + 練習提問: 問對問題(精準提問力) 變成關鍵的技能, 知識終究是拿來回答「我們究竟要達到什麼目標」的工具。
