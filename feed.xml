@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 04 Dec 2022 16:34:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/feed.xml" rel="self" type="application/rss+xml"/><item><title>GDG DevFest 2022 Taipei 社群志工與議程心得</title><link>https://blog.androchen.tw/gdg-devfest-2022-taipei/</link><pubDate>Sun, 04 Dec 2022 16:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/gdg-devfest-2022-taipei/</guid><description>&lt;img style="width:40%;" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/tiapei-Bevy-EventThumb%402x.png">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/</link><description>Recent content on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sat, 10 Dec 2022 12:50:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/feed.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT 如何協助人類? 應用 AI 與科幻哲思</title><link>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</link><pubDate>Sat, 10 Dec 2022 12:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1640367169401-534dec442631?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2070&amp;q=80">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@paman0744?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aman Pal&lt;/a> on &lt;a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>(2022-12-10 持續更新)&lt;/p>
+&lt;p>上線一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:&lt;/p>
+&lt;ul>
+&lt;li>應用 AI: 一來彙整目前見到各種有趣應用與想法&lt;/li>
+&lt;li>科幻哲思: 二來胡思亂想關於科幻未來的發展，拋磚引玉&lt;/li>
+&lt;/ul>
+&lt;h3 id="chatgpt-一週心得---未臻完美-十分堪用-指日可待">ChatGPT 一週心得 - 未臻完美, 十分堪用, 指日可待&lt;/h3>
+&lt;ol>
+&lt;li>🛫 加速思考凝聚 &amp;amp; 知識循環 + 🌍 拓展知識疆界
+&lt;ol>
+&lt;li>抓重點, 寫計畫, 深思考&lt;/li>
+&lt;li>🗣️ 翻譯, 語言學習, 商業會話&lt;/li>
+&lt;li>🎨 AI 繪圖咒術師 - 自動生成圖片&lt;/li>
+&lt;li>角色扮演&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>💡 科幻哲思 + 💰 疾速成長的知識演進, 衍生的經濟資產分配與存取&lt;/li>
+&lt;/ol></description></item><item><title>GDG DevFest 2022 Taipei 社群志工與議程心得</title><link>https://blog.androchen.tw/gdg-devfest-2022-taipei/</link><pubDate>Sun, 04 Dec 2022 16:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/gdg-devfest-2022-taipei/</guid><description>&lt;img style="width:40%;" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/tiapei-Bevy-EventThumb%402x.png">
 &lt;h2 id="overview-概述">Overview 概述&lt;/h2>
 &lt;p>2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 在萬豪酒店的 ☁️ &lt;a href="https://cloudonair.withgoogle.com/events/next-recap-taiwan-2022">Google Cloud Next Recap&lt;/a> 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了 😂 於是開啟了一段奇幻旅程&amp;hellip;&lt;/p>
 &lt;p>🦄 &lt;a href="https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-2022-taipei/">GDG DevFest 2022 Taipei&lt;/a> 是由一群使用 Google 技術的開發者所推動的全球盛會, 在 12/3 週六於台大舉辦實體活動。今年超過 600 位報名。(實際約 300 ~ 400 人到場)&lt;/p>
