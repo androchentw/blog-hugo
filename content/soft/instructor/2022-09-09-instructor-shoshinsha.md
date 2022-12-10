@@ -139,7 +139,15 @@ series: instructor
     1. DataOps Days: 議程 (Meetup 升級版)
     2. Hackathon: 題目 + Project Outcome (Workshop 升級版)
 
+## Training 評估方式
+
+1. 課程滿意度
+2. 課後測驗成績
+3. 行為改變:發問卷, 比較結果 = (課前/課後, 自評/他評)
+4. 帶來效益 $ (e.g. 解決風險 or 提升生產力 = 節省人天 = $)
+
 ## Murmur
 
 * 2022-09-13: 講的出來才是會!
 * 2022-09-17: 聽完 [DevOpsDays 2022](https://blog.androchen.tw/devopsdays-taipei-2022/), 對於如何辦 event & 推廣教育就會有更多想法 -> DataOps Event Brainstorming.
+* 2022-12-11: 新增 Training 評估方式

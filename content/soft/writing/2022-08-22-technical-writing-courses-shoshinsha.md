@@ -56,6 +56,16 @@ series: technical-writing
 
 {{< youtube id="t4vKPhjcMZg" title="divio pyconau 2017 - What nobody tells you about documentation" >}}
 
+Ref
+
+[https://www.indeed.com/career-advice/career-development/how-to-become-technical-writer](https://www.indeed.com/career-advice/career-development/how-to-become-technical-writer)
+
+[https://www.samjulien.com/how-to-get-started-with-technical-writing](https://www.samjulien.com/how-to-get-started-with-technical-writing)
+
+[https://www.freecodecamp.org/news/how-to-become-a-technical-writer/](https://www.freecodecamp.org/news/how-to-become-a-technical-writer/)
+
+[https://www.freecodecamp.org/news/technical-writing-for-beginners/](https://www.freecodecamp.org/news/technical-writing-for-beginners/)
+
 ## Conclusion
 
 ## Murmur
