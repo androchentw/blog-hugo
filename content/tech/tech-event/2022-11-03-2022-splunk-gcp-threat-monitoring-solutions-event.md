@@ -43,31 +43,31 @@ series: tech-event
 ## Content
 
 無痛數位轉型 by Anthos
-1. 因應需求快速變動，敏捷開發，所以採用 App Modernization = Containerization + Cloud Native 
-2. Anthos = application development + service management + policy management 
+
+1. 因應需求快速變動，敏捷開發，所以採用 App Modernization = Containerization + Cloud Native
+2. Anthos = application development + service management + policy management
 3. ACM + GitOps. Policy as Code
 4. Anthos Service Mesh = Google hosted Istio. Auto Observability (Telemetry) + Traffic Management + Security
 5. Cloud Run for Anthos, knative . Stateless + source to URL
 
 SIEM + ITOM: 知識生態系
+
 * [https://cloud.google.com/blog/products/containers-kubernetes/enroll-in-google-cloud-and-splunks-first-hands-on-lab](https://cloud.google.com/blog/products/containers-kubernetes/enroll-in-google-cloud-and-splunks-first-hands-on-lab)
 * [https://cloud.google.com/community/tutorials/exporting-security-data-to-your-siem](https://cloud.google.com/community/tutorials/exporting-security-data-to-your-siem)
 
-- OpenSSL Example
+* OpenSSL Example
 [- https://www.splunk.com/en_us/blog/security/nothing-puny-about-cve-2022-3602.html](https://www.splunk.com/en_us/blog/security/nothing-puny-about-cve-2022-3602.html)
 
-- MITRE ATTACK Mapping
-- Phantom: SOAR 自動處理
-- GCP SCC 整合
-- WoW
-
+* MITRE ATTACK Mapping
+* Phantom: SOAR 自動處理
+* GCP SCC 整合
+* WoW
 
 GCP Splunk GDI
-- Data Manager on Splunk Cloud
-- GCP Pub/Sub + Dataflow
-- Terraform
-- v1.7 for GCP 
-
+* Data Manager on Splunk Cloud
+* GCP Pub/Sub + Dataflow
+* Terraform
+* v1.7 for GCP
 
 ## Murmur
 
