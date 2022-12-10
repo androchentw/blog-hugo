@@ -77,7 +77,7 @@ series: chatbot
 
 <img style="width:40%;" src="https://truth.bahamut.com.tw/s01/202110/fefc0acb8b1d9287c00726183cdabb0e.JPG">
 <p align="center"><sub><sup>
-　世紀帝國 2 密技 "Marco Polo" 打開戰爭迷霧
+　世紀帝國 2 密技 "Marco Polo" 打開戰爭迷霧 <br/>
   Photo Credit: 巴哈姆特 <a href="https://forum.gamer.com.tw/C.php?bsn=1122&snA=15935">【其他】自製DE版現實地圖</a>
 </sup></sub></p>
 
