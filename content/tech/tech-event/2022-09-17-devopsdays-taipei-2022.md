@@ -18,7 +18,7 @@ series: tech-event
 
 ## Overview
 
-Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
+同場加映: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
 
 * Why 為什麼要 DevOps
   * 應變快速變動的市場需求, 持續(時時刻刻, 穩定可靠)交付高品質軟體產品
