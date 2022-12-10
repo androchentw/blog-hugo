@@ -30,7 +30,7 @@ series: chatbot
 
 ### ChatGPT 一週心得 - 未臻完美, 十分堪用, 指日可待
 
-1. 🛫 加速思考凝聚 & 知識循環 + 🌍 拓展知識疆界
+1. 🛫 加速思考凝聚 & 知識迭代 + 🌍 拓展知識疆界
    1. 抓重點, 寫計畫, 深思考
    2. 🗣️ 翻譯, 語言學習, 商業會話
    3. 🎨 AI 繪圖咒術師 - 自動生成圖片
@@ -53,10 +53,10 @@ series: chatbot
 
 一言以蔽之, 我認為 ChatGPT 目前最大的價值在於讓知識創作更加迅速:
 
-1. 🛫 加速思考凝聚 & 知識循環
+1. 🛫 加速思考凝聚 & 知識迭代
 2. 🌍 拓展知識疆界
 
-### 1. 🛫 加速思考凝聚 & 知識循環
+### 1. 🛫 加速思考凝聚 & 知識迭代
 
 <img style="width:40%;" src="https://images.unsplash.com/photo-1561627368-fdc44e974e31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
 <p align="center"><sub><sup>
