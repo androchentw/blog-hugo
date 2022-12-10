@@ -41,7 +41,6 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 <p align="center"><sub>
   EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
 </sub></p>
-
 ### Challenges 現況 挑戰
 
 * 需求變動越來越快, 如何快速滿足需求, 並多方嘗試各種解決方案, 觀察回饋?
@@ -60,6 +59,11 @@ Ref: [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交
 * 瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏
 
 <!--more-->
+
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-09-17-devopsdays-taipei-2022-mindmap.png?raw=true">
+<p align="center"><sub><sup>
+  本文 Mindmap (DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品)
+</sup></sub></p>
 
 ### Executive Summary
 
@@ -370,9 +374,6 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
   * [可觀測性(Observability)的實踐](https://devopsdays.tw/session-page/1161)
   * [從失敗中吸取教訓的混沌工程](https://devopsdays.tw/session-page/1173)
   * [How we send alert to the right people](https://devopsdays.tw/session-page/1156)
-
-### Backups
-
 * Workshop - [Elastic Observability 實作體驗營](https://devopsdays.tw/workshops-page/1147)
   * [(行前準備) Elastic Observability 實作體驗營 @ DevOpsDays Taipei 2022](https://hackmd.io/u8vtIr82SZ-vEdDCe6Jo0w?view)
   * [Elastic Observability](https://www.elastic.co/observability)
