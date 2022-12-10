@@ -427,3 +427,4 @@ DevOpsDays Taipei 是由臺灣在地技術社群發起，結合社群、企業�
     * => Agile
 * 2022-09-17: 今年精髓 = 基努李維 1+1=5, 所以我也改了一個雅量XDDDD
   * <img style="width:40%;" alt="基努李維 雅量" src="https://memeprod.sgp1.digitaloceanspaces.com/user-wtf/1663336615436.jpg">
+* 2022-12-10: 調整 mobile-friendly 格式 (減少列點縮排)
