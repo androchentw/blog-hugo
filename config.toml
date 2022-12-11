@@ -43,7 +43,7 @@ summaryLength = 70
 
 [[Params.bigimg]]
   src = "https://github.com/androchentw/blog-hugo/blob/master/blog-cover-yume.JPG?raw=true"
-  desc = ""
+  desc = "京都高台寺 豐臣秀吉 御朱印帳 夢"
 
 [Author]
   name = "androchentw"
