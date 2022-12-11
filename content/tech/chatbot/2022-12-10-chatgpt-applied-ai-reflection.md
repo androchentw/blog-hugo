@@ -254,7 +254,7 @@ series: chatbot
 * [ChatGPT 時報討論所](https://www.facebook.com/groups/chatgpttimes/)
   * [ChatGPT 可以怎麼幫我分擔工作？](https://www.facebook.com/chatgpttimes/posts/pfbid02z7x6zEPbF86m5hRonSREtECkJo4nYPR4tzio3n8rGBCM8JtwtP8crBjMhb8GrnYcl)
 
-## 🤖 技術專區: Chatbot 整合
+## 🤖 技術專區: Chatbot 整合工具包
 
 你有這樣的困擾嗎?
 
