@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "Datadog DevSecOps Maturity Self-Assessment"
-url: /datadog-devsecops-maturity-self-assessment.md
+url: /datadog-devsecops-maturity-self-assessment
 # date: 2022-11-13T15:28:16+08:00
 date: 2022-11-13T18:34:16+08:00
 author: androchentw
@@ -12,7 +12,7 @@ tags:
   - devops
   - securitry
 share_img: https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_purple.png?auto=format&fit=max&w=698&dpr=2
-series: devops
+series: securitry
 ---
 
 <img style="width:60%;" src="https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_purple.png?auto=format&fit=max&w=698&dpr=2">

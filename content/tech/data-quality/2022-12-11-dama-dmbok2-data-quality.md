@@ -10,9 +10,9 @@ categories:
   - tech
 tags: 
   - python
-  - testing
+  - data-quality
 share_img: https://i.imgur.com/Qe3Dzt6.png
-series: testing
+series: data-quality
 ---
 
 <img style="width:60%;" src="https://i.imgur.com/Qe3Dzt6.png">
