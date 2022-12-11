@@ -41,18 +41,21 @@ summaryLength = 70
   # hideAuthor = true
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
+[[Params.bigimg]]
+  src = "https://github.com/androchentw/blog-hugo/blob/master/blog-cover-yume.JPG"
+  desc = ""
+
 [Author]
   name = "androchentw"
   website = "https://blog.androchen.tw/"
   email = "androchentw@gmail.com"
   github = "androchentw"
-  # gitlab = "androchentw"
-  # bitbucket = "androchentw"
+  gitlab = "androchentw"
+  bitbucket = "androchentw"
   facebook = "AndroChen0929"
   instagram = "androchentw"
   twitter = "androchen"
   linkedin = "androchen"
-
 
 [[menu.main]]
   name = "Tech"
