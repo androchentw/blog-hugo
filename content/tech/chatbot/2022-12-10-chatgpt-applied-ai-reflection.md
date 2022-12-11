@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-11 15:30 持續更新)
+(2022-12-11 17:00 持續更新)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
@@ -265,12 +265,16 @@ series: chatbot
 * [GitHub - Awesome ChatGPT](https://github.com/Kamigami55/awesome-chatgpt): ChatGPT 相關的優質資源、工具、應用的精選清單。
 * [GitHub - Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot): Discord bot 整合教學。
   * ❌ [replit - ChatGPT Discord Bot Template](https://replit.com/template/chatgpt-discord-bot): follow READMD.md => 棄用原因: shared IP 容易被 discord ban
+
+### LINE Bot
+
+* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-Vercel)
 * [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): LINE Bot 整合教學。
 * [Medium - 把 ChatGPT 變成Line好友！不用寫程式，手把手3步驟打造你的個人助理！](https://o-w-o.medium.com/把-chatgpt-變成line好友-不用寫程式-手把手3步驟打造你的個人助理-1035933b7571)
   * [OpenAPI](https://openai.com/api/) - API Keys > Secret Key
   * [LINE Developer](https://developers.line.biz/zh-hant/) - Messaging API: Channel access token
     * Line Official Account Manager > Settings > Response Settings
-  * [make.com](https://make.com/) - Scenario
+  * [make.com](https://make.com/) - Scenario (每月 1000 Ops 上限)
 
 ## 2022 AI 奇點雜記
 
