@@ -119,6 +119,8 @@ series: chatbot
 
 * 簡單的 (任何語言) 程式碼範例、註解、甚至測試代碼、測試項目都可以生成，還會幫你解釋原因
 * Linux OS command 等除錯訊息直接貼也可以
+* [Building A Virtual Machine inside ChatGPT](https://www.engraved.blog/building-a-virtual-machine-inside/)
+* [Inside - ChatGPT 連 Code 都能寫？Nature 評論：軟體工程師先別換工作](https://www.inside.com.tw/article/30051-nature-ChatGPT-AlphaCode-programmer#lbiu7trnqowj2jmlism)
 * [扮演 Terminal 並安裝 w3m 進行 web browse](https://www.facebook.com/huli.blog/posts/pfbid02GPxtrYrjLkPgyXyAzp8oJN72HTtSBWb5iyGmrNYxwRxJB4JW6nk7FyF6x67tH1dzl)
 * [扮演 Terminal 進行 output 除錯](https://www.facebook.com/colin.leung.cat/posts/pfbid02LodDzzh8eyKTt6cSVzMTZVPxFTMeozTaGZVTfXjDmeWhNuUN3G6ywkkERMrySVJxl)
 
