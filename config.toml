@@ -42,7 +42,7 @@ summaryLength = 70
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 [[Params.bigimg]]
-  src = "https://github.com/androchentw/blog-hugo/blob/master/blog-cover-akashi.JPG?raw=true"
+  src = "https://github.com/androchentw/blog-hugo/blob/master/blog-cover-yume.JPG?raw=true"
   desc = ""
 
 [Author]
