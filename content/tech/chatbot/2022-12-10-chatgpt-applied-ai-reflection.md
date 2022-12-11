@@ -32,7 +32,7 @@ series: chatbot
 
 1. 🛫 加速思考凝聚 & 知識迭代 + 🌍 拓展知識疆界
    1. 抓重點, 寫計畫, 深思考 (Jira Epic > Story > Sub-Task)
-   2. 🤖 程式碼含註解 + 測試
+   2. 🤖 程式碼優化 + 註解 + 測試, VSCode Plugin, VM
    3. 🗣️ 翻譯, 語言學習, 商業會話
    4. 🎨 AI 繪圖咒術師 - 自動生成圖片
    5. 角色扮演
@@ -115,15 +115,21 @@ series: chatbot
 
 ## 各種玩法
 
-### 🤖 程式碼含註解 + 測試
+### 🤖 程式碼優化 + 註解 + 測試, VSCode Plugin, VM
 
 <img style="width:60%;" src="https://www.engraved.blog/content/images/2022/12/image-21.png">
 <p align="center"><sub><sup>
   Photo Credit: <a href="https://forum.gamer.com.tw/C.php?bsn=1122&snA=15935">Engraved.blog - Building A Virtual Machine inside ChatGPT</a>
 </sup></sub></p>
 
+<img style="width:60%;" src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0020e7906b264d65a1ab7bf76cd1076e~tplv-k3u1fbpfcp-watermark.image?">
+<p align="center"><sub><sup>
+  Photo Credit: <a href="https://marketplace.visualstudio.com/items?itemName=WhenSunset.chatgpt-china">VSCode Plugin Marketplace - ChatGPT中文版</a>
+</sup></sub></p>
+
 * 簡單的 (任何語言) 程式碼範例、註解、甚至測試代碼、測試項目都可以生成，還會幫你解釋原因
 * Linux OS command 等除錯訊息直接貼也可以
+* [VSCode Plugin Marketplace - ChatGPT中文版](https://marketplace.visualstudio.com/items?itemName=WhenSunset.chatgpt-china)
 * [Engraved.blog - Building A Virtual Machine inside ChatGPT](https://www.engraved.blog/building-a-virtual-machine-inside/)
 * [Inside - ChatGPT 連 Code 都能寫？Nature 評論：軟體工程師先別換工作](https://www.inside.com.tw/article/30051-nature-ChatGPT-AlphaCode-programmer#lbiu7trnqowj2jmlism)
 * [扮演 Terminal 並安裝 w3m 進行 web browse](https://www.facebook.com/huli.blog/posts/pfbid02GPxtrYrjLkPgyXyAzp8oJN72HTtSBWb5iyGmrNYxwRxJB4JW6nk7FyF6x67tH1dzl)
