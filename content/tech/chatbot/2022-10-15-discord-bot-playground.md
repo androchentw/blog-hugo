@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "玩轉 Discord Bot - 日常, 遊戲, 程式"
 url: /discord-bot
 # date: 2022-10-15T00:06:16+08:00
@@ -57,12 +56,11 @@ series: chatbot
   * 資料寫入
   * 網頁資料蒐集
 * 比較: 暫時選 discord
-  * 免費版 Slack 10k msg 上限, 搜尋紀錄 30 天
-    * Slack 優勢
-      * Business 導向
-      * 可送 voice / video recording
-      * 搜尋可選 reaction
-  * 社群導向, [第三方 bot](https://top.gg/) 直接裝
+* 免費版 Slack 10k msg 上限, 搜尋紀錄 30 天
+  * Business 導向
+  * 可送 voice / video recording
+  * 搜尋可選 reaction
+* 社群導向, [第三方 bot](https://top.gg/) 直接裝
 
 ## Architecture Planning
 
@@ -113,4 +111,5 @@ series: chatbot
 
 ## Murmur
 
-* 2022-10-14 一直挖坑給自己跳 😂
+* 2022-10-14: 一直挖坑給自己跳 😂
+* 2022-12-11: 連結 [ChatGPT 如何協助人類? 應用 AI 與科幻哲思](https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/)
