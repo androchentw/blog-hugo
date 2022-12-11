@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-11 17:00 持續更新)
+(2022-12-12 00:10 持續更新)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
@@ -269,6 +269,7 @@ series: chatbot
 ### LINE Bot
 
 * ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-Vercel)
+* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Python](https://github.com/androchentw/ChatGPT-LINE-Bot-Python)
 * [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): LINE Bot 整合教學。
 * [Medium - 把 ChatGPT 變成Line好友！不用寫程式，手把手3步驟打造你的個人助理！](https://o-w-o.medium.com/把-chatgpt-變成line好友-不用寫程式-手把手3步驟打造你的個人助理-1035933b7571)
   * [OpenAPI](https://openai.com/api/) - API Keys > Secret Key
