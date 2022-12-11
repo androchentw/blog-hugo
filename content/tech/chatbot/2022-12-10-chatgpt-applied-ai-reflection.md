@@ -46,7 +46,7 @@ series: chatbot
   本文 Mindmap (ChatGPT 如何協助人類? 應用 AI 與科幻哲思)
 </sup></sub></p>
 
-## ChatGPT 是什麼?
+### ChatGPT 是什麼?
 
 * [TechNews - 行走的程式碼產生器，chatGPT 會讓程式設計師失業？](https://technews.tw/2022/12/07/chatgpt-openai/): ChatGPT 是 OpenAI 訓練的對話式大規模語言模型。
 * [遠見 - 代寫論文ChatGPT，背後Open AI揭秘](https://www.gvm.com.tw/article/97451): 根據官網所述， OpenAI 希望能夠讓通用人工智慧（artificial general intelligence，簡稱為AGI）造福所有人類，致力於打造出安全且對人類有助益的 AGI。
@@ -258,7 +258,7 @@ series: chatbot
     * Line Official Account Manager > Settings > Response Settings
   * make.com - Scenario
 
-## 雜記
+## 2022 AI 奇點雜記
 
 * ChatGPT 成長有多快?
 
@@ -267,8 +267,6 @@ series: chatbot
 <p align="center"><sub><sup>
   Photo credit: <a href="https://www.chartr.co/newsletters/2022-12-09">chartr - ChatGPT From OpenAI Is a Bot Taking The Tech World By Storm</a>
 </sup></sub></p>
-
-## 2022 AI 奇點
 
 * 2022-02-02: [Deepmind AlphaCode 問世](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
 * 2022-07-22: [Midjourney Beta 問世](https://en.wikipedia.org/wiki/Midjourney)
