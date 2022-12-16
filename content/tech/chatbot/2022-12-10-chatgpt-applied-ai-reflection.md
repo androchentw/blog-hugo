@@ -21,7 +21,7 @@ series: chatbot
 
 ## Overview 概述
 
-(2022-12-12 00:10 持續更新)
+(2022-12-16 23:10 持續更新實例分享與 GitHub 開源整合工具)
 
 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:
 
@@ -156,6 +156,8 @@ series: chatbot
   Photo credit: <a href="https://forum.gamer.com.tw/C.php?bsn=60076&snA=7478995">巴哈姆特鄉民 - timtim811</a>
 </sup></sub></p>
 
+[Imaginary process for movie pre-production with ChatGPT and Midjourney where AI does almost everything](https://www.facebook.com/groups/aiartuniverse/posts/692247789207125/): 使用 AI 產生電影劇情、人物設定、分鏡
+
 也已經有人拿來作詞 & 寫詩，這讓我天馬行空地想到了也許也可以用來 「**作曲 / 和弦旋律**」 (可能也有人做了 😂)。
 
 1. 只要將樂譜化成文字, 像是吉他和弦類的就可以生成了
@@ -250,6 +252,7 @@ series: chatbot
 
 ## 🤝 Community 社群 - 更多用法
 
+* [LearnGPT](https://www.learngpt.com/) - prompt 分享
 * [ChatGPT Taiwan](https://www.facebook.com/groups/chatgpt.tw/)
 * [ChatGPT 時報討論所](https://www.facebook.com/groups/chatgpttimes/)
   * [ChatGPT 可以怎麼幫我分擔工作？](https://www.facebook.com/chatgpttimes/posts/pfbid02z7x6zEPbF86m5hRonSREtECkJo4nYPR4tzio3n8rGBCM8JtwtP8crBjMhb8GrnYcl)
@@ -266,12 +269,14 @@ series: chatbot
 * [GitHub - Zero6992/chatGPT-discord-bot](https://github.com/Zero6992/chatGPT-discord-bot): Discord bot 整合教學。
   * ❌ [replit - ChatGPT Discord Bot Template](https://replit.com/template/chatgpt-discord-bot): follow READMD.md => 棄用原因: shared IP 容易被 discord ban
 
-### LINE Bot
+### LINE & Discord Bot
 
-* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-Vercel)
-* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Python](https://github.com/androchentw/ChatGPT-LINE-Bot-Python)
-* [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): LINE Bot 整合教學。
-* [Medium - 把 ChatGPT 變成Line好友！不用寫程式，手把手3步驟打造你的個人助理！](https://o-w-o.medium.com/把-chatgpt-變成line好友-不用寫程式-手把手3步驟打造你的個人助理-1035933b7571)
+* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-NodeJS-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-NodeJS-Vercel)
+* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Flask-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-Flask-Vercel)
+* ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Django](https://github.com/androchentw/ChatGPT-LINE-Bot-Django)
+* ✅ [GitHub - androchentw/ChatGPT-Discord-Bot-Python](https://github.com/androchentw/ChatGPT-Discord-Bot-Python)
+* [GitHub - isdaviddong/chatGPTLineBot](https://github.com/isdaviddong/chatGPTLineBot): (C#) LINE Bot 整合教學。
+* ✅ [Medium - 把 ChatGPT 變成Line好友！不用寫程式，手把手3步驟打造你的個人助理！](https://o-w-o.medium.com/把-chatgpt-變成line好友-不用寫程式-手把手3步驟打造你的個人助理-1035933b7571)
   * [OpenAPI](https://openai.com/api/) - API Keys > Secret Key
   * [LINE Developer](https://developers.line.biz/zh-hant/) - Messaging API: Channel access token
     * Line Official Account Manager > Settings > Response Settings
