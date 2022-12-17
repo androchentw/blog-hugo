@@ -35,6 +35,8 @@ series: blog
 
 ## Content
 
+結果在官網就找到答案
+
 ### GA4 + Blog Hugo
 
   Google Analytics 4 in Hugo

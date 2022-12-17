@@ -52,7 +52,7 @@ series: tech-event
 * 實際貢獻記錄
 * 機動組: 組織調度報到台 9 軌流程動線與分流引導
 * 議程攝影、引導、場佈場復
-* 600 人報名, 實際約 300 ~ 400 人到場
+* 600+ 人報名, 實際約 300 ~ 400 人到場
 
 ## 🙋 機動組志工心得
 
@@ -60,16 +60,16 @@ series: tech-event
   * [行前說明會](https://docs.google.com/presentation/d/1pcHY-6Rru79ct_wOkkrb87ZuljcGrb21kYvbwkD_lh8/edit?usp=sharing) 使用 Google Meet + Google Slide 說明 & 自我介紹
   * 結果今年剛好志工幾乎都是 GDSC 的學生，我根本來拉高年齡平均的 😂
   * 但是能夠認識年輕朋友的感覺很不錯! 可以瞭解到大家在意的不同角度
-* 當天活動內容 & 回想
+* 當天活動內容 & 回想 & 下次可以多注意改進的部分
   * [GDG DevFest Taipei 2022 - Google 相簿](https://photos.app.goo.gl/v4QhBTGn9qnQYjsd8 "https://photos.app.goo.gl/v4QhBTGn9qnQYjsd8")
   * 07:20 到學校 ~~唸書的時候都沒這麼早到~~
-  * 雖然報到時一度很混亂, 但最後還是大家一起協助順暢協助報到了~
+  * 雖然報到時一度很混亂, 但最後還是大家一起協助順暢協助報到了~ 👏
     * 報到桌布置動線
     * 報到名單僅 9 份; QR Code 掃描機僅一台
     * 約有 30 位欲現場報名但網站已關
-  * 議程也蠻常有 投影畫面/接觸不良、直播沒聲音等突發狀況
-  * 場佈場復時沒人清楚什麼東西該跟誰拿 & 放哪
-  * 指令系統不一致
+  * 議程偶有 投影畫面/接觸不良、直播沒聲音等突發狀況
+  * 場佈場復時不太有人清楚什麼東西該跟誰拿 & 放哪
+  * 指令系統不一致, 不容易確定當下該做些什麼
   * 18:00 ~ 21:00 晚宴在小樹屋吃 PAPAGO 外匯聊天。好久沒參加社群了, 很有感!
 
 ## 🔒 How to secure your software supply chain from dependencies to deployment
