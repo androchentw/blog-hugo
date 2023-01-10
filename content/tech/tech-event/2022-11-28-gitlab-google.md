@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "GitLab + Google 2022"
 url: /gitlab-google-2022
 # date: 2022-11-28T15:28:16+08:00
@@ -22,23 +21,9 @@ series: tech-event
 
 ## Overview 概述
 
+透過參與 GitLab 跟 Google 的 event, 瞭解如何善用 GitLab 推動 DevOps。
+
 <!--more-->
-
-### Target Audience 目標受眾
-
-*
-
-### Challenges 現況 挑戰
-
-*
-
-### Objectives 目標 效益
-
-*
-
-### KRs 成果
-
-[ ]
 
 ## Content
 
@@ -51,9 +36,7 @@ series: tech-event
   2. 精簡化、結構化的資源: DevOps 作為 SSOT, 讓所有成員都能夠獲取到所需要的資訊和資源
   3. 開發主題各個作業狀態的可視化
 
-====
-
-2022-11-18 GitLab
+## 2022-11-18 GitLab
 
 * Goal: DevSecOps + Value Stream Analytics
   * 加速業務發展
@@ -67,9 +50,9 @@ series: tech-event
 * Pricing: [https://about.gitlab.com/pricing/](https://about.gitlab.com/pricing/)
 * Mutual introductions
 * Discuss your current DevOps environment, workflow and needs
-* Discuss GitLab and its applicability to your business’ goals
+* Discuss GitLab and its applicability to your business' goals
 * Identify requirements and agree on next steps
 
 ## Murmur
 
-* 2022-11-20:
+* 2022-11-20: GitLab 的網頁介紹跟文件真滴讚...
