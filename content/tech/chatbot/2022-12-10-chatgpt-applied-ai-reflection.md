@@ -272,6 +272,7 @@ series: chatbot
 ### LINE & Discord Bot
 
 * ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-NodeJS-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-NodeJS-Vercel)
+  * [GPT AI Assistant 分享](https://docs.google.com/presentation/d/1SZwHymnLfRPzG1j-mh7vLgaSd2_synmYorikkqR_qG8/edit?usp=sharing)
 * ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Flask-Vercel](https://github.com/androchentw/ChatGPT-LINE-Bot-Flask-Vercel)
 * ✅ [GitHub - androchentw/ChatGPT-LINE-Bot-Django](https://github.com/androchentw/ChatGPT-LINE-Bot-Django)
 * ✅ [GitHub - androchentw/ChatGPT-Discord-Bot-Python](https://github.com/androchentw/ChatGPT-Discord-Bot-Python)
