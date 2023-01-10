@@ -18,7 +18,7 @@ series: travel
   Photo by androchentw
 </sup></sub></p>
 
-疫情解封, 立馬回國! 😆
+疫情解封, 立馬~~回國~~! 😆
 
 <!--more-->
 
