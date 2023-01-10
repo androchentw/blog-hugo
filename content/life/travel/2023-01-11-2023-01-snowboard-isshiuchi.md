@@ -10,6 +10,7 @@ categories:
   - life
 tags: 
   - travel
+  - snowboard
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2019-01-30-Ishiuchi-Maruyama.png?raw=true
 series: travel
 ---
