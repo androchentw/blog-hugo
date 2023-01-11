@@ -1,5 +1,5 @@
 ---
-title: "2023 東京 + 新潟 = 冬雪 22 日遊"
+title: "2023 東京新潟冬雪 22 日遊"
 url: /2023-01-travel-tokyo-snow
 # date: 2023-01-11T03:28:16+08:00
 date: 2023-01-11T18:34:16+08:00
@@ -13,7 +13,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/tra
 series: travel
 ---
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2023-01-travel-tokyo-map.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2023-01-travel-tokyo-map.png?raw=true">
 <p align="center"><sub><sup>
   Photo by androchentw
 </sup></sub></p>
