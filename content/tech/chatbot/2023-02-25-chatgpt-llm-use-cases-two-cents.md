@@ -91,6 +91,8 @@ Prompt Engineering：給他心理暗示，讓他扮演特定專業角色，與�
   我以為今天的我沒有極限, 實際上的我卻在討拍
 </sup></sub></p>
 
+也許是時候調整對於 ChatGPT 的期望管理, 讓他真的能像阿斯拉一樣帶著我們飛; 而不是一味地過度依賴小叮噹。
+
 ### Follow-up Actions
 
 1. From assessment to landing: 如何評估各項雨後春筍冒出的 AI assistant service 找到 best-fit 場景並落地於日常生產力提升，將成為關鍵議題，帶來顯著績效差異
