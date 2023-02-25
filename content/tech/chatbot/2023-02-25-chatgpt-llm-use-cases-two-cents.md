@@ -16,9 +16,8 @@ series: chatbot
 
 <img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
 <p align="center"><sub><sup>
-  MidJourney: `/imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4`
+  MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
 </sup></sub></p>
-
 
 ## Overview 概述
 
