@@ -14,7 +14,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/cha
 series: chatbot
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
 <p align="center"><sub><sup>
   MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
 </sup></sub></p>
@@ -69,24 +69,24 @@ Prompt Engineering：給他心理暗示，讓他扮演特定專業角色，與�
 
 如果要取得好的結果，其實不能是站在對抗的角度只想做測試: 「我就想測試看看你能做到什麼程度」，當不如預期時就說「看吧我就說沒什麼效果」，
 
-而是應該以「你能怎麼協助我做得更好？」、「我該提供什麼資訊？」的方式進行。
+而是應該以 **「你能怎麼協助我做得更好？」、「我該提供什麼資訊？」** 的方式進行。
 
-### 2. 協助, 而非取代
+### 2. 協助而非取代
 
 再來是關於詮釋。有些人會說：「我要跟他說完美的 prompt 才有我要的答案，那還不如我自己寫」。我自己的用法還是回歸到「協助」，不去預設他聰明到完美，而是合理預設他本來就有所侷限。而在這個侷限裡怎麼找到最適合的邊界。
 
-畢竟所謂的助理，主導權還是在我們手上。
+畢竟**所謂的助理，主導權還是在我們手上**。
 
 1. 你不會因為一個助理沒幫你規劃整個任務，而把責任怪罪到他身上吧？
 2. 又或者，因為助理只能處理一部分事情，不能處理全部的事，就完全不使用，最後還是所有事情都自己事必躬親吧？
 
 如果會的話，那我想可能有別的面向需要先處理 😛
 
-## 結語
+## Summary 結語
 
 我想, 若是要回答「工具與新技術是否應該採用」, 應該還是回歸到「幫助我們 更快, 更好, 更划算地達到目的, 提高生產力」, 對吧?
 
-<img style="width:60%;" src="https://memes.tw/user-wtf/1677317593998.jpg">
+<img style="width:40%;" src="https://memes.tw/user-wtf/1677317593998.jpg">
 <p align="center"><sub><sup>
   我以為今天的我沒有極限, 實際上的我卻在討拍
 </sup></sub></p>
