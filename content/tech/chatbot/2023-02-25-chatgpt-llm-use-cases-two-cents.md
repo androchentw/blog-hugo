@@ -117,7 +117,7 @@ Prompt Engineering：給他心理暗示，讓他扮演特定專業角色，與�
 
 ### Extra Scenario - 加碼案例: 總結社群貼文
 
-分別使用 [Notion AI](https://www.notion.so/product/ai), [Craft app](https://www.craft.do/), 將我的整篇貼文 `Summarize into a social media post copy`, 你覺得誰表現的比較好呢?
+分別使用 [Notion AI](https://www.notion.so/product/ai), [Craft app](https://www.craft.do/), 將我的整篇貼文 `Summarize into a social media post copy`, 你覺得誰表現的比較好呢? 另外, 全篇的內容大概有 10% 有使用這兩個軟體協助潤稿~
 
 #### Craft app
 
