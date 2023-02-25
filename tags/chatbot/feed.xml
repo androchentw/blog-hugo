@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>chatbot on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/chatbot/</link><description>Recent content in chatbot on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sat, 25 Feb 2023 17:50:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/chatbot/feed.xml" rel="self" type="application/rss+xml"/><item><title>寫在 ChatGPT 使用 3 個月後的淺見與用例分享</title><link>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</link><pubDate>Sat, 25 Feb 2023 17:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
+MidJourney: `/imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4`
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;h2 id="overview-概述">Overview 概述&lt;/h2>
 &lt;p>要說為什麼最近這麼關注 ChatGPT / LLM&lt;/p>
