@@ -16,8 +16,9 @@ series: chatbot
 
 <img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
 <p align="center"><sub><sup>
-  MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
+  MidJourney: `/imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4`
 </sup></sub></p>
+
 
 ## Overview 概述
 
@@ -106,6 +107,7 @@ Prompt Engineering：給他心理暗示，讓他扮演特定專業角色，與�
    1. 筆記軟體爭相推出 AI 輔助功能, 各有擅場
    2. 體驗極佳, 產生速度之快令人驚艷
    3. 我現在兩個都會參照使用. Notion 更會寫中文, Craft 有時給的更是我心中想要的
+   4. 下面有社群貼文範例
 3. Image: [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F), [Midjourney prompt helper](https://prompt.noonshot.com/)
    1. 投影片製圖神器
    2. 但有些東西找 [Unsplash](https://unsplash.com/) 之類的圖庫也還是蠻快的
@@ -113,6 +115,18 @@ Prompt Engineering：給他心理暗示，讓他扮演特定專業角色，與�
    1. [https://github.com/f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts): 分享如何下更好的 prompt
 5. Ideation / Use case finding
    1. [https://gpt3demo.com/](https://gpt3demo.com/): 超過 600+ 使用案例分享
+
+### Extra Scenario - 加碼案例: 總結社群貼文
+
+分別使用 [Notion AI](https://www.notion.so/product/ai), [Craft app](https://www.craft.do/), 將我的整篇貼文 `Summarize into a social media post copy`, 你覺得誰表現的比較好呢?
+
+#### Craft app
+
+想知道最近為什麼大家關注 ChatGPT, LLM 和 AI assistant service? 它們不只是個 buzzword，而是真正能夠提升生產力的工具！Product manager, IT professional, language teacher 和 chat 閒聊都可以發揮不同作用。記得信任它們，但掌控主導權，並 檢視它們能為你帶來好的結果，試著追蹤發展，開啟一個 AI 的世界吧！ #AI #ChatGPT #LLM
+
+#### Notion AI
+
+作者分享了他們使用 ChatGPT / LMM 的經驗，包括產品經理、IT 專業人員、語言老師和閒聊等角色。他們強調信任和協助的重要性，而不是取代，並提供了一個推薦工具清單。文章以邀請讀者分享自己的想法結束。 #ChatGPT #AI #生產力 #工具 #推薦
 
 ### 你怎麼看?
 
