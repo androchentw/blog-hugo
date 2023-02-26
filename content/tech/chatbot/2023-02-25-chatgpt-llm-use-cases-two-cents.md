@@ -103,7 +103,7 @@ series: chatbot
 
 ### Recommened Tools 推薦工具
 
-1. General: ChatGPT, New Bing
+1. General: [ChatGPT](https://chat.openai.com/), [New Bing](https://www.bing.com/new)
    1. 疑難雜症都丟進去試試看的 Playground
    2. New Bing 雖然要排隊, 但能跟上時事並附上 source link, 無可取代
    3. ChatGPT 能夠分情境討論串這一點仍然蠻實用的
@@ -116,9 +116,9 @@ series: chatbot
    1. 投影片製圖神器
    2. 但有些東西找 [Unsplash](https://unsplash.com/) 之類的圖庫也還是蠻快的
 4. Prompt Engineering
-   1. [https://github.com/f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts): 分享如何下更好的 prompt
-5. Ideation / Use case finding
-   1. [https://gpt3demo.com/](https://gpt3demo.com/): 超過 600+ 使用案例分享
+   1. [GitHub - f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts): 分享如何下更好的 prompt
+5. Ideation / Use case finding: 激發靈感
+   1. [GPT-3 Demo](https://gpt3demo.com/): 超過 600+ 使用案例分享
 
 ### Extra Scenario - 加碼案例: 總結社群貼文
 
