@@ -21,7 +21,9 @@ series: chatbot
 
 ## Overview 概述
 
-從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 "左右互搏術"的厲害之處, 在於能在 "精神時光屋" 中與自己對練, 越練越強; 而循環次數就會是關鍵。
+從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 "左右互搏術" 的厲害之處, 在於能在 "精神時光屋" 中與自己對練, 越練越強; 而循環次數就會是關鍵。
+
+回到
 
 <!--more-->
 
@@ -31,13 +33,13 @@ series: chatbot
 
 每個時代, 我們大致總結出當代人類社會努力追求的突破。鑒往知來, 從勞動力分布, 產物的觀點, 以及帶來的經濟效益, 也許我們能試著想像接下來的發展。這是我的猜想:
 
-| 革命    | 年代 | 產物 | 經濟效益 | 影響 |
+| 革命 | 年代 | 產物 | 經濟效益 | 影響 |
 |---------|-----|-----|---|---|
 | [農業革命](https://zh.wikipedia.org/zh-tw/英国农业革命) Agricultural revolution | 18 世紀 | 糧食 | 人口成長 | 人力過剩 |
 | [工業革命](https://zh.wikipedia.org/zh-tw/第一次工业革命) Industrial revolution | 19 世紀 | 產品 | 用品量產 | 製品過剩 |
-| [資訊革命](https://zh.wikipedia.org/zh-tw/數字化革命) Information revolution | 20 世紀 | 資訊 | 資訊流通 | 資訊氾濫 |
-| 猜想: 知識革命 Knowledge revolution? | 21 世紀 | 知識 | 各領域迎來知識上限的突破 | 知識疆界的突破, 帶來道德思維與價值觀衝擊 |
-| 猜想: 生物革命 Bio revolution? | 22 世紀 | 生命 | 壽命延長 & 生命量產? 造物主時代? | ? |
+| [資訊革命](https://zh.wikipedia.org/zh-tw/數字化革命) Information revolution | 20 世紀 | 資訊 | 資訊流通/注意力經濟 | 資訊氾濫 |
+| 猜想: 知識革命 Knowledge revolution? | 21 世紀 | 知識 | 知識疆界突破 | 價值觀衝擊 |
+| 猜想: 生物革命 Bio revolution? | 22 世紀 | 生命 | 壽命延長/生命量產 造物主時代? | ? |
 
 ### 宏觀視角
 
