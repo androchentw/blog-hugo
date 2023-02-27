@@ -14,7 +14,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/cha
 series: chatbot
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
 <p align="center"><sub><sup>
   Productivity Revolution 生產力革命
 </sup></sub></p>
