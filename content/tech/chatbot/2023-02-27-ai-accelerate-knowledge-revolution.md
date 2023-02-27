@@ -2,7 +2,7 @@
 title: "如何善用 AI 加速知識循環"
 url: /ai-accelerate-knowledge-revolution
 # date: 2023-02-27T08:25:16+08:00
-date: 2023-02-27T10:50:16+08:00
+date: 2023-02-27T11:50:16+08:00
 author: androchentw
 type: post
 categories:
