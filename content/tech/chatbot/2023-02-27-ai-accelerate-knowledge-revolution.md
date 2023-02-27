@@ -14,7 +14,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/cha
 series: chatbot
 ---
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
 <p align="center"><sub><sup>
   
 </sup></sub></p>
@@ -82,7 +82,7 @@ series: chatbot
 * 科幻遊戲 地平線 透過蓋婭系統與九大子系統, 自動維運 "超级智慧星球改造系统"
   * 參考: [巴哈姆特 - 【心得】蓋婭系統運作表｜神話人物介紹｜一代劇情大綱 讓你更快融入西域禁地](https://forum.gamer.com.tw/C.php?bsn=46688&snA=1775)
 
-<img style="width:40%;" src="https://static.wikia.nocookie.net/horizonzerodawn/images/4/49/GAIA_Subordinate_Function%E2%80%99s.jpeg/revision/latest?cb=20190503033639">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-horizon.png?raw=true">
 <p align="center"><sub><sup>
   <a href="https://horizon.fandom.com/wiki/Subordinate_Functions"> Horizon Wiki | fandom</a>
 </sup></sub></p>
@@ -97,11 +97,9 @@ series: chatbot
 
 ## ChatGPT 自己的回答
 
-問: AI 時代如何運用 ChatGPT 加速知識循環
-
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-chatgpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-chatgpt.png?raw=true">
 <p align="center"><sub><sup>
-  我以為今天的我沒有極限, 實際上的我卻在討拍
+  問: AI 時代如何運用 ChatGPT 加速知識循環
 </sup></sub></p>
 
 > 在 AI 時代，ChatGPT 作為一個自然語言處理模型，可以幫助人們更快速、更準確地尋找和理解知識，從而加速知識循環。以下是一些可能的應用場景：
