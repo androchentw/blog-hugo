@@ -40,7 +40,7 @@ series: chatbot
 | [農業革命](https://zh.wikipedia.org/zh-tw/英国农业革命) Agriculture | 18 世紀 | 糧食 | 人口成長 | 人力過剩 |
 | [工業革命](https://zh.wikipedia.org/zh-tw/第一次工业革命) Industry | 19 世紀 | 產品 | 用品量產 | 製品過剩 |
 | [資訊革命](https://zh.wikipedia.org/zh-tw/數字化革命) Information | 20 世紀 | 資訊 | 資訊流通/注意力經濟 | 資訊氾濫 |
-| 知識革命 Knowledge? | 21 世紀 | 知識 | 知識疆界突破 | 價值觀衝擊 |
+| 知識革命 Knowledge? | 21 世紀 | 知識 | 知識疆界迅速突破 | 價值觀衝擊 |
 | 生物革命 Bio? | 22 世紀 | 生命 | 壽命延長/生命量產 造物主時代? | ? |
 
 ### 宏觀視角
