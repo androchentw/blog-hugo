@@ -59,7 +59,7 @@ series: chatbot
 
 如同眾多科幻電影在探討的 "人為何物" "怎樣才算是人", 不管是 Cyborg 替換人造器官的比例, 到有意識的機器人, 再到完全的人造人, 這條路上還有太多我們目前認知跟不上的地方。但無論如何，追求人類更好的生活，一直都是推動人類演進的命題。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-matrix.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/chatbot/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
 <p align="center"><sub><sup>
   當有效知識能像《駭客任務》一樣, 下載即可用: 武術, 開飛機, 說外語
 </sup></sub></p>
