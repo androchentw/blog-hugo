@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>llm on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/llm/</link><description>Recent content in llm on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Mon, 27 Feb 2023 11:50:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/llm/feed.xml" rel="self" type="application/rss+xml"/><item><title>如何善用 AI 加速知識循環</title><link>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</link><pubDate>Mon, 27 Feb 2023 11:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Productivity Revolution 生產力革命
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 &amp;ldquo;左右互搏術&amp;rdquo; 的厲害之處, 在於能在 &amp;ldquo;精神時光屋&amp;rdquo; 中與自己對練, 越練越強; 而循環次數就會是關鍵。&lt;/p>
+&lt;p>在 ChatGPT 走紅之後, 各種應用更是大爆發。如何加速知識循環, 協助我們提高生產力?&lt;/p>
+&lt;p>從 RPG 遊戲 及 陰陽師言靈式神, 連結 Prompt 作為知識驅動的咒語, 讓我們開啟一段天馬行空的幻想 🧙&lt;/p></description></item><item><title>寫在 ChatGPT 使用 3 個月後的淺見與用例分享</title><link>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</link><pubDate>Sat, 25 Feb 2023 17:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>要說為什麼最近這麼關注 GenAI / ChatGPT / LLM&lt;/p>
+&lt;ol>
+&lt;li>百家爭鳴: 最近趨勢與應用如雨後春筍般地冒出&lt;/li>
+&lt;li>良好體驗: 不只是 buzz word, 而是真的能夠協助提升生產力&lt;/li>
+&lt;li>工作需求: 公司內部也在探索是否有適合的場景能落地&lt;/li>
+&lt;/ol>
+&lt;p>正好也延續在前一篇 &lt;a href="https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection">ChatGPT 如何協助人類? 應用 AI 與科幻哲思&lt;/a> 之後, 來個 3 個月使用心得&lt;/p></description></item><item><title>ChatGPT 如何協助人類? 應用 AI 與科幻哲思</title><link>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</link><pubDate>Sat, 10 Dec 2022 14:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1640367169401-534dec442631?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2070&amp;q=80">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@paman0744?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aman Pal&lt;/a> on &lt;a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>(2022-12-16 23:10 持續更新實例分享與 GitHub 開源整合工具)&lt;/p>
+&lt;p>上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:&lt;/p>
+&lt;ul>
+&lt;li>應用 AI: 一來彙整目前見到各種有趣應用與想法&lt;/li>
+&lt;li>科幻哲思: 二來胡思亂想關於科幻未來的發展，拋磚引玉&lt;/li>
+&lt;/ul>
+&lt;h3 id="chatgpt-一週心得---未臻完美-十分堪用-指日可待">ChatGPT 一週心得 - 未臻完美, 十分堪用, 指日可待&lt;/h3>
+&lt;ol>
+&lt;li>🛫 加速思考凝聚 &amp;amp; 知識迭代 + 🌍 拓展知識疆界
+&lt;ol>
+&lt;li>抓重點, 寫計畫, 深思考 (Jira Epic &amp;gt; Story &amp;gt; Sub-Task)&lt;/li>
+&lt;li>🤖 程式碼優化 + 註解 + 測試, VSCode Plugin, VM&lt;/li>
+&lt;li>🗣️ 翻譯, 語言學習, 商業會話&lt;/li>
+&lt;li>🎨 AI 繪圖咒術師 - 自動生成圖片&lt;/li>
+&lt;li>角色扮演&lt;/li>
+&lt;li>加密貨幣智能合約&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>💡 科幻哲思 + 💰 疾速成長的知識演進, 衍生的經濟資產分配與存取&lt;/li>
+&lt;/ol></description></item></channel></rss>
