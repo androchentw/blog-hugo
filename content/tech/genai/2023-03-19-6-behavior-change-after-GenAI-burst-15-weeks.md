@@ -51,7 +51,11 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 6. 2023-03-16 [來丟臉的？百度「文心一言」為何不成熟也要推出](https://www.cw.com.tw/article/5125048)
 7. 2023-03-16 [Midjourney V5版本來了！一張AI圖亂入奪冠，Midjourney把你變藝術家背後隱憂](https://www.bnext.com.tw/article/74227/midjourney-mar-23-mag). [Midjourney v4 2022-11-10 釋出](https://docs.midjourney.com/docs/model-versions), [Stable Diffusion v2 2022-11-24](https://stability.ai/blog/stable-diffusion-v2-release)
 
-AIA 台灣人工智慧學校也在 2023-03-18, 19 舉辦 [2023 生成式 AI 衝擊工作坊](https://www.facebook.com/photo/?fbid=10223177752007336&set=gm.607088184211980&idorvanity=558748662379266), 再再都指向 AI 可能加速[科技奇點 (Technological Singularity)](https://zh.wikipedia.org/zh-tw/技术奇异点)的到來, 說 AI 是 Web 3 可能比區塊鏈來得更合適. 回想 Web 2 時代: [2012-08-23 TechCrunch - Facebook 的數據有多大？ 每天 25 億條內容和 500+ TB](https://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day). [ChatGPT 成史上最快用戶破億服務](https://technews.tw/2023/02/02/chatgpt-sets-record-for-fastest-growing-user-base/), 如今有了 GenAI, 人類在網路上的數位內容應該會更加爆炸吧.
+* AIA 台灣人工智慧學校也在 2023-03-18, 19 舉辦 [2023 生成式 AI 衝擊工作坊](https://www.facebook.com/photo/?fbid=10223177752007336&set=gm.607088184211980&idorvanity=558748662379266)
+* ([陳以婕 - 工作坊筆記](https://www.facebook.com/photo/?fbid=10226534196375630&set=gm.607697754151023&idorvanity=558748662379266))
+* 再再都指向 AI 可能加速[科技奇點 (Technological Singularity)](https://zh.wikipedia.org/zh-tw/技术奇异点)的到來, 說 AI 是 Web 3 可能比區塊鏈來得更合適
+* 回想 Web 2 時代: [2012-08-23 TechCrunch - Facebook 的數據有多大？ 每天 25 億條內容和 500+ TB](https://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day)
+* [ChatGPT 成史上最快用戶破億服務](https://technews.tw/2023/02/02/chatgpt-sets-record-for-fastest-growing-user-base/). 如今有了 GenAI, 人類在網路上的數位內容應該會更加爆炸吧.
 
 <img style="width:60%;" src="https://cdn.statcdn.com/Infographic/images/normal/29174.jpeg">
 <p align="center"><sub><sup>
