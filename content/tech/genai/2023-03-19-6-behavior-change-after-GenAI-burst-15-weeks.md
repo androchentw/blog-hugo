@@ -171,7 +171,10 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 => 再也沒有 你忘記了, 都是害怕想起來(或是不准想起來)
 
-諸如 媒體第四權, Deepfake 等議題, **事實查核**將變得更加重要. [ChatGPT恐毀滅人類？開發者承認「威脅度令人細思極恐」　馬斯克：AI比核武更危險](https://www.storm.mg/lifestyle/4760804)
+諸如 媒體第四權, Deepfake 等議題, **事實查核**將變得更加重要
+
+1. [ChatGPT恐毀滅人類？開發者承認「威脅度令人細思極恐」　馬斯克：AI比核武更危險](https://www.storm.mg/lifestyle/4760804)
+2. [「爸，我剛發生車禍了！可以先轉一筆錢給我嗎？」AI 合成人聲，已帶來前所未見的資安風險](https://buzzorange.com/techorange/2023/03/14/ai-voice-risks/)
 
 回到這個被稱為 [NVIDIA 執行長黃仁勳稱為 AI 的 iPhone 時刻](https://www.inside.com.tw/article/30712-Jensen-Huang-on-the-importance-of-ChatGPT), 讓我們自問「**這年代不用 電腦/手機/AI/... 會怎樣嗎?**」我想這題可以從教育一窺一二. 若說教育本質是「師者，所以傳道、受業、解惑也。」也許我們可以期待**在授業的知識傳遞效率大幅提昇後, 未來學習會有如何的質變**?
 
@@ -223,8 +226,6 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
    1. Obsidian / Heptabase, 第二大腦, 學習曲線陡峭, 難以維護
 3. pair programming 他不完美 我也不完美，我們一起提升。
 
-* 大家都會對新事物特別苛求 自駕車，卻荒謬地刻意遺忘平常的現況有多糟 台灣交通事故殺死COVID
-
 ## 6: 💡 思! "想像力" 是我們的超能力
 
 > Q: What's your dream?
@@ -234,20 +235,26 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
   Dreams mean everything. They're the stories we tell ourselves of what could be, who we could become.  --- Robert Ford, Westworld
 </sup></sub></p>
 
-最後,
+### AI 時代技能樹
 
-1. 更加意識到 "快的打敗慢的", 以及自己的能力養成
-2. [專注於不變的事情](https://www.facebook.com/hinet/posts/pfbid07WmWFia9usXdNSWZTQV4JG6HW3d97hVAhqGof3GBpGKhZSo5k4yiCGXpMu8DxqzMl)
-3. [AI 興起後的職涯思考](https://www.facebook.com/gipi.net/posts/pfbid021uyaKm6FWUxSRWD9gWYRqLoLXjD2QF4ZUtDQBXAD66CsiDRAa3ijhqwQ5XnMH2SXl)
-4. [靠AI減少開發重工和註解負擔，IT人語言邏輯能力未來更重要](https://www.ithome.com.tw/news/155842)
+最後, 最近真的更加意識到 "快的打敗慢的", 以及自己的能力養成/技能樹該往哪點, 該如何更有效率:
 
-也更加期待 "人類能力提升"
+1. [專注於不變的事情](https://www.facebook.com/hinet/posts/pfbid07WmWFia9usXdNSWZTQV4JG6HW3d97hVAhqGof3GBpGKhZSo5k4yiCGXpMu8DxqzMl)
+2. [AI 興起後的職涯思考](https://www.facebook.com/gipi.net/posts/pfbid021uyaKm6FWUxSRWD9gWYRqLoLXjD2QF4ZUtDQBXAD66CsiDRAa3ijhqwQ5XnMH2SXl)
+3. [靠AI減少開發重工和註解負擔，IT人語言邏輯能力未來更重要](https://www.ithome.com.tw/news/155842)
 
-[【Sam Altman 以及他的 AGI 烏托邦】](https://www.facebook.com/shosho.chang/posts/pfbid023VvwDAwPMjZPXg2EbjTsEjr4LN5t5rkcKDgDWkcfKa24LyeNyoVjYdkBG8Sy9Dudl)
+雖然大家都會對新事物特別苛求(例: 自駕車), 卻荒謬地刻意遺忘平常的現況有多糟 ([專家揭「台灣上半年車禍死亡人數」 網驚：比疫情還嚴重](https://autos.yahoo.com.tw/專家揭-台灣上半年車禍死亡人數-網驚-比疫情還嚴重-061118852.html)). 我們也絕對需要考量消彌 AI 帶來的風險, 確保一切還在掌控中
+
+1. [AI 的 3H 法則 - Honest, Harmless, Helpful](https://www.facebook.com/kuanweilu1021/posts/pfbid0o363tUpUYvyCWPrQ43nq9v984csjU3yS281vEC26FsJgvKK5cWdX7o9htnXF5SDVl)
+2. [OpenAI CEO Sam Altman says AI will reshape society, acknowledges risks: 'A little bit scared of this'](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122)
+
+### 未來想像
+
+看看 [【Sam Altman 以及他的 AGI 烏托邦】](https://www.facebook.com/shosho.chang/posts/pfbid023VvwDAwPMjZPXg2EbjTsEjr4LN5t5rkcKDgDWkcfKa24LyeNyoVjYdkBG8Sy9Dudl), 讓我更加期待 "人類能力提升"
 
 讓我們期待人人都能自動駕駛天上飛車, 馬路三寶大幅降低的時代吧. 甚至人人宇航員, 糧食自主供給, 醫療/基本需求 超越 UBI (Unconditional Basic Income, 無條件基本收入), MMORPG 一般的科幻未來.
 
-Westworld "Dream". 想像力是我們的超能力. 當然, 也可能是我們作繭自縛的迷宮.
+科幻影集 Westworld 當中的人造人帶到了一個很有意思的概念 "Dream". 我想, 想像力是我們的超能力. 當然, 也可能是我們作繭自縛的迷宮.
 
 > Q: What's your dream?
 
