@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "GenAI 浪潮翻騰 15 週後的 6 大行為改變"
 url: /6-behavior-change-after-GenAI-burst-15-weeks
 # date: 2023-03-18T17:00:00+08:00
-date: 2023-03-19T10:00:00+08:00
+date: 2023-03-19T14:30:00+08:00
 author: androchentw
 type: post
 categories:
