@@ -69,10 +69,11 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 ### 查字典的行為變了
 
-1. 字典: 問人 → 圖書館查字典 → 網路搜尋 → AI 輔助
-2. 做到 "差異解釋 + 定義 + 例句 + 總結"
-3. 加速我 "學習 → 活用" 的知識循環
-4. 使我大量減少行為: "大量蒐集 → 彙整 → 得出結論 ⇒ 下次能活用"
+現在我觀察查字典的行為改變像是: 問人 → 圖書館查字典 → 網路搜尋 → AI 輔助
+
+ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習 → 活用" 的知識循環**
+
+其中的關鍵是使我**大量減少蒐集彙整**的行為: "大量蒐集 → 彙整 → 得出結論 ⇒ 下次能活用"
 
 #### 知識的有損壓縮與重現
 
@@ -90,10 +91,10 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 我的寫作行為也變得更像是:
 
-1. Capture keyword: 捕捉想法, 記錄關鍵字
-2. *Summarize outline: 運用 AI 總結大綱, 確保框架邏輯
-3. Rearrange structure: 隔天再編排架構, 避免思考打結, 並補充
-4. *Refine wording: 運用 AI 調整措辭/產生內容, 使文章更通順/豐富
+1. **Capture keyword**: 捕捉想法, 記錄關鍵字
+2. ***Summarize outline**: 運用 AI 總結大綱, 確保框架邏輯
+3. **Rearrange structure**: 隔天再編排架構, 避免思考打結, 並補充
+4. ***Refine wording**: 運用 AI 調整措辭/產生內容, 使文章更通順/豐富
 
 以往我很容易卡在 2, 4 步驟, 想太多而作繭自縛. 如今有一個助理可以協助如同 [程式設計小黃鴨除錯法 (Rubber Duck Debugging)](https://zh.wikipedia.org/zh-tw/小黄鸭调试法), 屬實消彌了我的多慮, 加速產出.
 
@@ -121,7 +122,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 3. 1040 活字版印刷: [中國北宋](https://zh.wikipedia.org/zh-tw/印刷)
 4. 1440 印刷機: [德國 Johannes Gutenberg](https://en.wikipedia.org/wiki/Printing_press)
 5. 1930 打字機: [德裔美籍 Herman Hollerith Keypunch](https://en.wikipedia.org/wiki/Computer_keyboard)
-6. 2023 嘴砲 (ChatGPT, 駭客任務, 神說要有光就有了光)
+6. 2023 嘴砲: ChatGPT (駭客任務, 神說要有光就有了光)
 
 > ChatGPT 加速了 **從想像到現實 (From imagination to reality)** 的循環, 就像是 「神說: 要有光, 就有了光」: 出一張嘴, 東西就會生出來。
 
@@ -176,7 +177,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 1. [ChatGPT恐毀滅人類？開發者承認「威脅度令人細思極恐」　馬斯克：AI比核武更危險](https://www.storm.mg/lifestyle/4760804)
 2. [「爸，我剛發生車禍了！可以先轉一筆錢給我嗎？」AI 合成人聲，已帶來前所未見的資安風險](https://buzzorange.com/techorange/2023/03/14/ai-voice-risks/)
 
-回到這個被稱為 [NVIDIA 執行長黃仁勳稱為 AI 的 iPhone 時刻](https://www.inside.com.tw/article/30712-Jensen-Huang-on-the-importance-of-ChatGPT), 讓我們自問「**這年代不用 電腦/手機/AI/... 會怎樣嗎?**」我想這題可以從教育一窺一二. 若說教育本質是「師者，所以傳道、受業、解惑也。」也許我們可以期待**在授業的知識傳遞效率大幅提昇後, 未來學習會有如何的質變**?
+回到這個 [被 NVIDIA 執行長黃仁勳稱為 AI 的 iPhone 時刻](https://www.inside.com.tw/article/30712-Jensen-Huang-on-the-importance-of-ChatGPT), 讓我們自問「**這年代不用 電腦/手機/AI/... 會怎樣嗎?**」我想這題可以從教育一窺一二. 若說教育本質是「師者，所以傳道、受業、解惑也。」也許我們可以期待**在授業的知識傳遞效率大幅提昇後, 未來學習會有如何的質變**?
 
 1. [從可汗學院與 GPT-4 整合的服務，看見未來線上學習的樣貌](https://maoyangtalks.blogspot.com/2023/03/gpt-4.html)
 2. [台大針對  ChatGPT 提出三大具體教學因應措施](https://www.inside.com.tw/article/30994-NTU-ChatGPT-ai-tools-measure)
@@ -207,7 +208,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 [CPU 與 GPU 的差異](https://www.facebook.com/will.fans/posts/pfbid036CeS4n5p8jnnWonwzykMVYfsGU3Ty9yaw8cXhVW3PUcbNuvHo66Je562jCwp7Mywl)
 , [AI 的 9 個問題](https://www.facebook.com/chouchinhua/posts/pfbid02ape8AYxJnYQRyQ6PZHjULAH4fjZcY2RqcVM9psAM47rR3CoZTs9bDm4KcG6dKdcTl) 兩文值得我們關注.
 
-另一方面, 相信大家也都開始注意到 GenAI 產生的結果是需要專家人為判斷的. 但是一些合理性的判斷, 不管是 AI 製圖的手指(Midjourney V5 已大幅改善)/房間裝潢/程式設計, 辨別的難易度一樣會急遽上升. 我們很快就會越來越難分辨 "真與假".
+另一方面, 相信大家也都開始注意到 GenAI 產生的結果是需要專家人為判斷的. 但是一些合理性的判斷, 不管是 AI 製圖的手指(Midjourney V5 已大幅改善)/房間裝潢/程式設計, 辨別的難易度一樣會急遽上升. **我們很快就會越來越難分辨 "真與假"**.
 
 > **魔鬼藏在細節裡**
 
