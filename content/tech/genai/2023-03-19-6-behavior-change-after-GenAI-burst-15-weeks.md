@@ -107,73 +107,149 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 > Q: 我要如何進一步加速知識循環?
 
-1. 下次能活用這段大幅衰減 (記憶力) , 所以才會有 "手寫加深印象" 的行為
-2. 但若我們不再需要記憶, 只需專注於如何快速有效降低提取的循環 (prompt): 別人要下 20 個 prompt, 你只需要下 5 個
-3. 其實現在很多 senior 也只是比 junior 知道如何少繞彎路, 或是他當初已經走過 google / stack overflow 的流程
-4. 知識循環梗圖: 人類輸出速度 = 石頭刻 竹簡> 手寫 > 打字 > 嘴砲 (神說要有光, 駭客任務)
-5. 加速了 **From imagination to reality** 的循環, 就像是 「神說: 要有光, 就有了光」: 出一張嘴, 東西就會生出來。
+延續小黃鴨, 我們一般在做 pair programming 或 code review 的時候
+
+1. 會問問題: 所謂 "精準提問"
+2. 曾經做過: 其實現在很多 senior 也只是比 junior 知道如何少繞彎路, 或是他當初已經走過 google / stack overflow 的流程
+3. 肌肉記憶: 下次能活用這段大幅衰減 (記憶力) , 所以才會有 "手寫加深印象" 的行為
+   1. 但若我們不再需要記憶, 只需專注於如何快速有效降低提取的循環 (prompt): 別人要下 20 個 prompt, 你只需要下 5 個
+
+綜觀人類輸出簡史
+
+1. 3000 B.C. [符號系統: 美索不達米亞楔形文字](https://zh.wikipedia.org/zh-tw/楔形文字). 石刻/陶器/木料/皮革/金屬/麻布/紙草紙
+2. 475 B.C. 竹簡: [中國戰國](https://zh.wikipedia.org/zh-tw/简牍)
+3. 1040 活字版印刷: [中國北宋](https://zh.wikipedia.org/zh-tw/印刷)
+4. 1440 印刷機: [德國 Johannes Gutenberg](https://en.wikipedia.org/wiki/Printing_press)
+5. 1930 打字機: [德裔美籍 Herman Hollerith Keypunch](https://en.wikipedia.org/wiki/Computer_keyboard)
+6. 2023 嘴砲 (ChatGPT, 駭客任務, 神說要有光就有了光)
+
+> ChatGPT 加速了 **From imagination to reality** 的循環, 就像是 「神說: 要有光, 就有了光」: 出一張嘴, 東西就會生出來。
+
+如同 [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution) 一文所述, 當有效知識能像《駭客任務》一樣, **下載即可用**: 武術;開飛機;說外語, 我們真的能**解放能力養成所需耗費的大量時間**.
+
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
+<p align="center"><sub><sup>
+  當有效知識能像《駭客任務》一樣, 下載即可用: 武術;開飛機;說外語
+</sup></sub></p>
 
 ## 4: 🤖 轉! "數位化" 是大前提
 
 > Q: 可是還有很多現實領域都還沒辦法運用呀?
 
-1. 能夠進入知識循環的 就能大幅加速
-   1. 所以反而軟體業相關步調很快
-2. 企業[數位轉型](https://www.mirrormedia.mg/story/20230313ind004/) 蒐集資料 等等 "**下水道工程**"
-   1. [企業擁抱 ChatGPT 技術要知道的10個QA](https://www.ithome.com.tw/news/155973?mibextid=ykz3hl)
-   2. [BCG - The CEO's Guide to the Generative AI Revolution](https://www.bcg.com/publications/2023/ceo-guide-to-ai-revolution)
-   3. [Google、微軟、AWS 都有生成式 AI 使用手冊！資安長請即刻啟動新時代資安教育](https://buzzorange.com/techorange/2023/03/16/chatgpt-aigc-security/)
-   4. 2023-02-23 [《商周百大顧問團20230223》「ChatGPT將掀起怎樣的產業革命」](https://www.facebook.com/photo/?fbid=10224039785125794&set=a.1516850804585)
-   5. 如同科幻電影中的上下層，會從廢土鎮再採取知識黃金 「考古 採礦
-3. 水電工是人類最後淨土？
-   1. [莫拉維克悖論（Moravec's paradox）](https://www.facebook.com/segacheng/posts/pfbid02dcAPLJCyqyBjVK34wajAmVP8rn3j2cL66GDNyUrDsgVDZ3v1aTeaGn8FiADQbRhCl), 人類擔心被 AI 取代的領域，馬上擴展到實體世界了。
-   2. Boston Dynamics
-   3. 外骨骼 (阿凡達, 星海爭霸)
+我們也因此觀察到, 目前 GenAI 做的好的, 是以"網路上有資料"的為主. 也就是說, **能夠進入知識循環的, 就能大幅加速**, 所以反而軟體業相關步調才會動得那麼快.
+
+可以說企業數位轉型之路上, 收集/代管/訓練數據等 "**數位化下水道工程**" 將會是一切加速的大前提. 從企業動作與社群論壇討論, 都可以略知一二.
+
+> 若從數位轉型的角度來看生成式 AI 對台灣的影響，簡立峰更是正面以對，這次 ChatGPT 爆紅後讓他發現，許多企業原本對上雲或數據管理猶豫不已，已經知道不做不行，依此判斷，未來收集數據、代管數據、訓練數據的服務需求將日益增加，對雲端服務業者將是利多。
+
+1. [【科技名家看AI3】台積電與聯發科靠AI鞏固競爭力. 「上雲」將成企業顯學](https://www.mirrormedia.mg/story/20230313ind004/)
+2. [企業擁抱 ChatGPT 技術要知道的10個QA](https://www.ithome.com.tw/news/155973?mibextid=ykz3hl)
+3. [BCG - The CEO's Guide to the Generative AI Revolution](https://www.bcg.com/publications/2023/ceo-guide-to-ai-revolution)
+4. [Google、微軟、AWS 都有生成式 AI 使用手冊！資安長請即刻啟動新時代資安教育](https://buzzorange.com/techorange/2023/03/16/chatgpt-aigc-security/)
+5. 2023-02-23 [《商周百大顧問團20230223》「ChatGPT將掀起怎樣的產業革命」](https://www.facebook.com/photo/?fbid=10224039785125794&set=a.1516850804585)
+
+也許未來將如同科幻電影中的上下分層，會往廢土鎮(未數位化的地方)進行「**知識採礦/考古**」
+
+那麼, **水電工**是否會是人類最後淨土？ [也許人類擔心被 AI 取代的領域，馬上擴展到實體世界了。](https://www.facebook.com/segacheng/posts/pfbid02dcAPLJCyqyBjVK34wajAmVP8rn3j2cL66GDNyUrDsgVDZ3v1aTeaGn8FiADQbRhCl)
+
+> AI 的研究領域有一個莫拉維克悖論（Moravec's paradox）是 AI 學者發現的一個和常識相佐的現象：人類獨有的高階智慧能力只需要非常少的計算能力，例如下棋；但是無意識的技能和直覺卻需要極大的運算能力，像是抓起手邊一包洋芋片。 --- 程世嘉
+
+又如 [Boston Dynamics 展示 Atlas 人形機器人全新活動技術 可自行搭橋、上拋工具包、有限空間跳躍](https://www.cool3c.com/article/188373), 或是 [未來行動輔助裝置 — 超越人體極限的機器人外骨骼](https://pansci.asia/archives/15636) 都會像是 《阿凡達》《星海爭霸》一樣稀鬆平常。
+
+<img style="width:60%;" src="https://sw.cool3c.com/article/2023/5b557d3f-1844-473b-8847-078ccfbcd25b.jpg?fit=max&w=1400&q=80">
+<p align="center"><sub><sup>
+  Cool3C - Boston Dynamics 展示 Atlas 人形機器人全新活動技術 可自行搭橋、上拋工具包、有限空間跳躍
+</sup></sub></p>
 
 ## 5: ♾️ 用! "運用場景" 落地產生效益
 
 > Q: 我記不住這麼多東西, 怎麼辦?
 
-1. 反思 大腦是很好的東西, 真希望每個人都有一個
-   1. → 你自己的大腦可以不用很強, 但你要會用外面很強的大腦
-   2. → 外掛記憶體, 直接讀取
-   3. ⇒ 再也沒有是你忘記了, 都是害怕想起來 (或是不准想起來)
-2. → 媒體第四權
-   1. Deepfake
-   2. 事實查核 [https://www.storm.mg/lifestyle/4760804](https://www.storm.mg/lifestyle/4760804) ChatGPT恐毀滅人類？開發者承認「威脅度令人細思極恐」　馬斯克：AI比核武更危險
-3. AI 的 iPhone 時刻 - 這年代不用手機會怎樣嗎
-   1. 教育本質 - 傳道授業解惑
-      1. [從可汗學院與 GPT-4 整合的服務，看見未來線上學習的樣貌](https://maoyangtalks.blogspot.com/2023/03/gpt-4.html)
-      2. [台大針對  ChatGPT 提出三大具體教學因應措施](https://www.inside.com.tw/article/30994-NTU-ChatGPT-ai-tools-measure)
-4. CPU 與 GPU 的差異. (will 保哥) - 會取代你的不是 AI , 是比你會使用 AI 的人
-   1. 取代而非協作
-      1. [ChatGPT 取代工作和對生產力影響的研究開始出爐。](https://www.facebook.com/segacheng/posts/pfbid0VQfQ56zR9sjq6RQH6pdsk4TZMWE3aadU3dT5MSoFZerRES7sUUJF4W9VHKM2wNynl)
-      2. [bilingual_book_maker 全自動翻譯整本 EPUB 格式的電子書](https://www.facebook.com/will.fans/posts/pfbid01SEj8GeZJ54XuNv1ebhQYrUCcqscVS8zeLz493wB1nzX6L6eXrguviiF6AcRCRuZl)
-   2. [駕駛風見 +輔助阿斯拉](https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/#gsc.tab=0)
-   3. [AI 的 9 個問題](https://www.facebook.com/chouchinhua/posts/pfbid02ape8AYxJnYQRyQ6PZHjULAH4fjZcY2RqcVM9psAM47rR3CoZTs9bDm4KcG6dKdcTl)
-   4. 合理性的判斷，不管是手指(MJ V5 已解)/房間裝潢/程式設計。魔鬼藏在細節裡
-5. 10 個我 → 複製人 → 人為何物 (肉體/靈魂/意識, 精/氣/神, ooxx)
-    1. 🧐 訓練 LLM 模仿我寫作/思考 → 再用另一全知角色指出盲點 → 精神時光屋自我取代。下次想來試試看 感覺會被嚇死 光想就覺得雞皮疙瘩。建立自己的思維模型 然後再自行迭代提升。
-       1. Obsidian / Heptabase, 第二大腦, 學習曲線陡峭, 難以維護
-    2. pair programming 他不完美 我也不完美，我們一起提升。大家都會對新事物特別苛求 自駕車，卻荒謬地刻意遺忘平常的現況有多糟 台灣交通事故殺死COVID
+也許看到這裡, 已經是腦洞大開. 讓我們反思 「大腦是很好的東西, 真希望每個人都有一個」這個 meme. 未來你自己的大腦可以不用很強, 但你要會用外面很強的大腦. 也許都是直接**外掛記憶體, 直接讀取**.
+
+### 事實查核與知識傳遞的形式
+
+=> 再也沒有 你忘記了, 都是害怕想起來(或是不准想起來)
+
+諸如 媒體第四權, Deepfake 等議題, **事實查核**將變得更加重要. [ChatGPT恐毀滅人類？開發者承認「威脅度令人細思極恐」　馬斯克：AI比核武更危險](https://www.storm.mg/lifestyle/4760804)
+
+回到這個被稱為 [NVIDIA 執行長黃仁勳稱為 AI 的 iPhone 時刻](https://www.inside.com.tw/article/30712-Jensen-Huang-on-the-importance-of-ChatGPT), 讓我們自問「**這年代不用 電腦/手機/AI/... 會怎樣嗎?**」我想這題可以從教育一窺一二. 若說教育本質是「師者，所以傳道、受業、解惑也。」也許我們可以期待**在授業的知識傳遞效率大幅提昇後, 未來學習會有如何的質變**?
+
+1. [從可汗學院與 GPT-4 整合的服務，看見未來線上學習的樣貌](https://maoyangtalks.blogspot.com/2023/03/gpt-4.html)
+2. [台大針對  ChatGPT 提出三大具體教學因應措施](https://www.inside.com.tw/article/30994-NTU-ChatGPT-ai-tools-measure)
+
+我們還需要花時間去背誦嗎? 抑或我們能更專注於理解事物背後的來龍去脈? 本文前述的查字典案例, 牛仔褲的發音是最重要的嗎?
+
+### 協作而非取代
+
+> Q: 我會不會被 AI 取代? 誰會被取代?
+
+如 [寫在 ChatGPT 使用 3 個月後的淺見與用例分享](https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents) 一文所述, 我仍然認為**協助而非取代**, 至少取代的是任務, 不是人.
+
+> 畢竟所謂的助理，主導權還是在我們手上。
+>
+> 若是要回答「工具與新技術是否應該採用」, 應該還是回歸到「幫助我們 更快, 更好, 更划算地達到目的, 提高生產力」, 對吧?
+>
+> 也許是時候調整對於 ChatGPT 的期望管理, 讓他真的能像阿斯拉一樣帶著我們飛; 而不是一味地過度依賴小叮噹。
+
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+<p align="center"><sub><sup>
+  我以為今天的我沒有極限, 實際上的我卻在討拍
+</sup></sub></p>
+
+隨著 [bilingual_book_maker 能夠全自動翻譯整本 EPUB 格式的電子書](https://www.facebook.com/will.fans/posts/pfbid01SEj8GeZJ54XuNv1ebhQYrUCcqscVS8zeLz493wB1nzX6L6eXrguviiF6AcRCRuZl), [ChatGPT 取代工作和對生產力影響的研究開始出爐](https://www.facebook.com/segacheng/posts/pfbid0VQfQ56zR9sjq6RQH6pdsk4TZMWE3aadU3dT5MSoFZerRES7sUUJF4W9VHKM2wNynl), 我想都說明了:
+
+> **會取代你的不是 AI , 是比你會使用 AI 的人**
+
+[CPU 與 GPU 的差異](https://www.facebook.com/will.fans/posts/pfbid036CeS4n5p8jnnWonwzykMVYfsGU3Ty9yaw8cXhVW3PUcbNuvHo66Je562jCwp7Mywl)
+, [AI 的 9 個問題](https://www.facebook.com/chouchinhua/posts/pfbid02ape8AYxJnYQRyQ6PZHjULAH4fjZcY2RqcVM9psAM47rR3CoZTs9bDm4KcG6dKdcTl) 兩文值得我們關注.
+
+另一方面, 相信大家也都開始注意到 GenAI 產生的結果是需要專家人為判斷的. 但是一些合理性的判斷, 不管是 AI 製圖的手指(Midjourney V5 已大幅改善)/房間裝潢/程式設計, 辨別的難易度一樣會急遽上升. 我們很快就會越來越難分辨 "真與假".
+
+> **魔鬼藏在細節裡**
+
+### 何為人
+
+> Q: 既然知識循環如此重要, 作為人類我們該**如何極大化 AI 協作效率**?
+
+文行至此, 我靈光一閃想到職場上常聽見一種不太好的說法叫「真希望有 10 個我, 就不用解釋那麼多」
+
+10 個我 → 複製人 → 人為何物 (肉體/靈魂/意識, 精/氣/神, ooxx)
+
+1. 🧐 訓練 LLM 模仿我寫作/思考
+   1. → 再用另一全知角色指出盲點
+   2. → 精神時光屋 自我迭代。
+2. 下次想來試試看 感覺會被嚇死 光想就覺得雞皮疙瘩。建立自己的思維模型 然後再自行迭代提升。
+   1. Obsidian / Heptabase, 第二大腦, 學習曲線陡峭, 難以維護
+3. pair programming 他不完美 我也不完美，我們一起提升。
+
+* 大家都會對新事物特別苛求 自駕車，卻荒謬地刻意遺忘平常的現況有多糟 台灣交通事故殺死COVID
 
 ## 6: 💡 思! "想像力" 是我們的超能力
 
-> Q: What's your dream?  --- west world
+> Q: What's your dream?
+
+<img style="width:60%;" src="https://i.pinimg.com/564x/6e/dd/cf/6eddcfd68cac4f779a9641cee09c535b.jpg">
+<p align="center"><sub><sup>
+  Dreams mean everything. They're the stories we tell ourselves of what could be, who we could become.  --- Robert Ford, Westworld
+</sup></sub></p>
+
+最後,
 
 1. 更加意識到 "快的打敗慢的", 以及自己的能力養成
-    1. 2023-03-15 GPT-4 登場- 2022-11-30 ChatGPT 釋出: 敏捷時代 速度至上
-    2. 2022 ChatGPT 成長圖
-    3. 太多大事件 timeline (fb)
-    4. [專注於不變的事情](https://www.facebook.com/hinet/posts/pfbid07WmWFia9usXdNSWZTQV4JG6HW3d97hVAhqGof3GBpGKhZSo5k4yiCGXpMu8DxqzMl)
-    5. [AI 興起後的職涯思考](https://www.facebook.com/gipi.net/posts/pfbid021uyaKm6FWUxSRWD9gWYRqLoLXjD2QF4ZUtDQBXAD66CsiDRAa3ijhqwQ5XnMH2SXl)
-    6. [靠AI減少開發重工和註解負擔，IT人語言邏輯能力未來更重要](https://www.ithome.com.tw/news/155842)
-2. 更加期待 "能力提升"
-    1. [【Sam Altman 以及他的 AGI 烏托邦】](https://www.facebook.com/shosho.chang/posts/pfbid023VvwDAwPMjZPXg2EbjTsEjr4LN5t5rkcKDgDWkcfKa24LyeNyoVjYdkBG8Sy9Dudl)
-    2. 讓我們期待人人都能自動駕駛天上飛車, 馬路三寶大幅降低的時代吧
-    3. 甚至人人宇航員, 糧食自主供給, 醫療/基本需求 超越 UBI 的科幻未來
-    4. West world "Dream". 想像力是我們的超能力
-    5. What's your dream?
+2. [專注於不變的事情](https://www.facebook.com/hinet/posts/pfbid07WmWFia9usXdNSWZTQV4JG6HW3d97hVAhqGof3GBpGKhZSo5k4yiCGXpMu8DxqzMl)
+3. [AI 興起後的職涯思考](https://www.facebook.com/gipi.net/posts/pfbid021uyaKm6FWUxSRWD9gWYRqLoLXjD2QF4ZUtDQBXAD66CsiDRAa3ijhqwQ5XnMH2SXl)
+4. [靠AI減少開發重工和註解負擔，IT人語言邏輯能力未來更重要](https://www.ithome.com.tw/news/155842)
+
+也更加期待 "人類能力提升"
+
+[【Sam Altman 以及他的 AGI 烏托邦】](https://www.facebook.com/shosho.chang/posts/pfbid023VvwDAwPMjZPXg2EbjTsEjr4LN5t5rkcKDgDWkcfKa24LyeNyoVjYdkBG8Sy9Dudl)
+
+讓我們期待人人都能自動駕駛天上飛車, 馬路三寶大幅降低的時代吧. 甚至人人宇航員, 糧食自主供給, 醫療/基本需求 超越 UBI (Unconditional Basic Income, 無條件基本收入), MMORPG 一般的科幻未來.
+
+Westworld "Dream". 想像力是我們的超能力. 當然, 也可能是我們作繭自縛的迷宮.
+
+> Q: What's your dream?
 
 ## Prompt Engineering
 
@@ -187,14 +263,15 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 Elaborate difference (trend, wave, explosion, boost, burst, phenomenal event) when people are experiencing a new thing and get excited about that
 ```
 
-重點
+### 重點 1. 角色扮演: 精準設定情境
 
-1. 角色扮演: 精準設定情境
-   1. [角色扮演](https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/#gsc.tab=0)
-   2. [GPT 4](https://openai.com/research/gpt-4) [蘇格拉底式問答教學法](https://www.gvm.com.tw/article/100665)
-2. 語言介面: 構建並固化, 提高效率 (文言文)
-   1. 精準動詞 -> awesome prompt
-   2. 格式: hashtag, json, yaml;
+1. [角色扮演](https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/#gsc.tab=0)
+2. [GPT 4](https://openai.com/research/gpt-4) [蘇格拉底式問答教學法](https://www.gvm.com.tw/article/100665)
+
+### 重點 2. 語言介面: 構建並固化, 提高效率 (文言文)
+
+1. 精準動詞. 可以參考 [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+2. 格式: hashtag, json, yaml, 能夠更結構化地表現意圖
 
 ## 你怎麼看?
 
@@ -220,7 +297,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 5. ♾️ 用! "運用場景" 落地產生效益. 「我記不住這麼多東西, 怎麼辦?」
 6. 💡 思! "想像力" 是我們的超能力. 「What's your dream? 」
 
-服用說明: 內含 4000+ 字與 30+ 篇連結, 請小心服用. AI 生成率 5%
+服用說明: 內含 4000+ 字與 40+ 連結, 請小心服用. AI 生成率 5%
 
 `#GenAI #AI #知識革命 #人工智慧 #生產力 #行為改變 #LLM #ChatGPT #OpenAI #Copilot`
 
