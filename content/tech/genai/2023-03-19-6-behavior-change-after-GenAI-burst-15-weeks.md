@@ -12,6 +12,7 @@ tags:
   - genai
   - llm
   - chatgpt
+  - reflection
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true
 series: genai
 ---
@@ -49,6 +50,8 @@ series: genai
 4. 使我大量減少行為: "大量蒐集 → 彙整 → 得出結論 ⇒ 下次能活用"
 5. 有損壓縮? 無損壓縮? 產出? [ChatGPT 是網路上的一個模糊 JPEG文件](https://foxhsiao.medium.com/chatgpt-%E6%98%AF%E7%B6%B2%E8%B7%AF%E4%B8%8A%E7%9A%84%E4%B8%80%E5%80%8B%E6%A8%A1%E7%B3%8A%E7%9A%84jpeg%E6%96%87%E4%BB%B6-aaee3723db1f) (Fox)
 6. 字典的資訊也未必正確與即時 (誰知道現在 牛仔褲 到底怎麼念; 我都念 IKEA ⇒ 語言本質 = 溝通)
+7. 我的寫作習慣也改變了
+   1. 捕捉想法, 記錄關鍵字
 
 ## 觀察 3: 問! "精準提問" 將成關鍵能力
 
@@ -91,6 +94,7 @@ series: genai
    3. 合理性的判斷，不管是手指(MJ V5 已解)/房間裝潢/程式設計。魔鬼藏在細節裡
 5. 10 個我 → 複製人 → 人為何物 (肉體/靈魂/意識, 精/氣/神, ooxx)
     1. 🧐 訓練 LLM 模仿我寫作/思考 → 再用另一全知角色指出盲點 → 精神時光屋自我取代。下次想來試試看 感覺會被嚇死 光想就覺得雞皮疙瘩。建立自己的思維模型 然後再自行迭代提升。
+       1. Obsidian / Heptabase, 第二大腦, 學習曲線陡峭, 難以維護
     2. pair programming 他不完美 我也不完美，我們一起提升。大家都會對新事物特別苛求 自駕車，卻荒謬地刻意遺忘平常的現況有多糟 台灣交通事故殺死COVID
 
 ## 觀察 6: 思! "想像力" 是我們的超能力

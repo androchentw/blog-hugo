@@ -11,6 +11,7 @@ tags:
   - genai
   - llm
   - chatgpt
+  - reflection
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true
 series: genai
 ---
