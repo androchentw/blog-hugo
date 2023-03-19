@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "GAI 浪潮翻騰 15 週後的 6 大行為改變觀察心得"
+title: "GenAI 浪潮翻騰 15 週後的 6 大行為改變"
 url: /6-behavior-change-after-GenAI-burst-15-weeks
 # date: 2023-03-18T17:00:00+08:00
 date: 2023-03-19T10:00:00+08:00
@@ -25,7 +25,7 @@ series: genai
 
 <!--more-->
 
-## 觀察 1: 快! 世界變化速度加劇
+## 觀察 1: 快! "變化速度" 全球加劇
 
 * 在15週的GenAI爆發後的觀察和洞見
 * GAI崛起導致的行為變化
@@ -64,9 +64,11 @@ series: genai
 
 1. 能夠進入知識循環的 就能大幅加速
    1. 所以反而軟體業相關步調很快
-   2. 企業數位轉型
-2. 如同科幻電影中的上下層，會從廢土鎮再採取知識黃金 「考古 採礦
+2. 企業[數位轉型](https://www.mirrormedia.mg/story/20230313ind004/) 蒐集資料 等等 "**下水道工程**"
+   1. 如同科幻電影中的上下層，會從廢土鎮再採取知識黃金 「考古 採礦
 3. 水電工是人類最後淨土？
+   1. Boston Dynamics
+   2. 外骨骼 (阿凡達, 星海爭霸)
 
 ## 觀察 5: 用! "運用場景" 落地產生效益
 
@@ -89,7 +91,7 @@ series: genai
     1. 🧐 訓練 LLM 模仿我寫作/思考 → 再用另一全知角色指出盲點 → 精神時光屋自我取代。下次想來試試看 感覺會被嚇死 光想就覺得雞皮疙瘩。建立自己的思維模型 然後再自行迭代提升。
     2. pair programming 他不完美 我也不完美，我們一起提升。大家都會對新事物特別苛求 自駕車，卻荒謬地刻意遺忘平常的現況有多糟 台灣交通事故殺死COVID
 
-## 觀察 6 思! "想像力" 是我們的超能力
+## 觀察 6: 思! "想像力" 是我們的超能力
 
 > Q: What's your dream?  --- west world
 
@@ -105,6 +107,26 @@ series: genai
     3. West world "Dream". 想像力是我們的超能力
     4. What's your dream?
 
+## Prompt Engineering
+
+附上我現在愛用的 Prompt
+
+```text
+// 1. RPG 開頭角色扮演, 情境設定
+#act-as-professional-know-it-all #socratic-questioning-guide #consise-precise-persuasive-patient #agile-scrum-master #business-technical-manager-coach #experienced-prodcut-manager #devops-sre #gcp-cloud-architect #native-english-tutor #measure-everything
+
+// 2. 提問, 精準動詞, 格式
+Elaborate difference (trend, wave, explosion, boost, burst, phenomenal event) when people are experiencing a new thing and get excited about that
+```
+
+重點
+
+1. 角色扮演: 精準設定情境
+   1. [角色扮演](https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/#gsc.tab=0)
+2. 語言介面: 構建並固化, 提高效率 (文言文)
+   1. 精準動詞 -> awesome prompt
+   2. 格式: hashtag, json, yaml;
+
 ## 你怎麼看?
 
 留下你的想法一起討論吧! 🥳
@@ -116,36 +138,14 @@ series: genai
 
 ### 社群貼文
 
-1. 介紹
-   1. 在15週的GenAI爆發後的觀察和洞見
-   2. GAI崛起導致的行為變化
-2. 觀察到的行為變化
-   1. 使用AI輔助進行字典查詢
-   2. 加速學習和知識應用
-   3. 減少大規模收集和匯總行為
-   4. 增強對精確度和細節的認識
-   5. 需要精確的提問
-   6. 在GAI時代強調速度
-3. 未來的發展
-   1. GPT-4的增長及其影響
-   2. 所有人擁有自動駕駛能力的可能性
-   3. 未來可能實現的科幻般的太空旅行、自給自足的社區等
-4. 啟示式工程和角色扮演
-   1. 角色扮演在培養特定技能方面的重要性
-   2. 需要學習的角色和技能的例子
-5. 事實核查
-   1. 解決有關AI潛在危險的擔憂
-6. 結論
-   1. GAI已經帶來了行為和未來發展方面的重大變化
-   2. 需要繼續觀察和適應GAI時代的發展
+1. ⚡ 快! "變化速度" 全球加劇
+2. 📚 省! "知識循環" 行為改變
+3. ✋ 問! "精準提問" 將成關鍵能力
+4. 🤖 轉! "數位化" 是大前提
+5. ♾️ 用! "運用場景" 落地產生效益
+6. 💡 思! "想像力" 是我們的超能力
 
-1. 📚 如何善用 AI 加速知識循環？ ChatGPT 能幫助你提高生產力，透過大量閱讀、大量閱讀、總結整理、採取行動和敏捷迭代，讓你更有效率！
-2. 🥊 經典世紀圍棋對奕中，Google DeepMind AlphaGo勇奪勝利，凸顯出「左右互搏術」的厲害之處，讓我們從精神時光屋中與自己對練，越練越強！
-3. 🧙 除了 ChatGPT，你還可以從 RPG 遊戲和動漫中尋找靈感！像是《陰陽師》中的言靈式神，或是《魔法老師》中的千種咒文，都是知識驅動的例子。不斷學習和鑽研，讓你更接近神話時代的強者！
-4. ♾️ 現代社會知識更新快速，如何加速知識循環已成為許多人所需的技能。透過 AI 技術和靈感來源，讓你更有效率地進行知識循環，提高自己的競爭力。快來嘗試吧！
-5. 🤖 智能搜索、自動分類、智能推薦、自動摘要和智能翻譯，這五種方法可以幫助你更快速地獲取所需的知識，也可以提高知識的可用性和可操作性，從而推動社會和經濟的發展和進步。
-
-`#AI #知識革命 #人工智慧 #生產力`
+`#GenAI #AI #知識革命 #人工智慧 #生產力 #行為改變 #LLM #ChatGPT #OpenAI #Copilot`
 
 ### Murmur
 
