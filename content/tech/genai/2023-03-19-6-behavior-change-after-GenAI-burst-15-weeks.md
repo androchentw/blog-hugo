@@ -292,6 +292,10 @@ Elaborate difference (trend, wave, explosion, boost, burst, phenomenal event) wh
 
 1. 精準動詞. 可以參考 [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 2. 格式: hashtag, json, yaml, 能夠更結構化地表現意圖
+3. 思考框架: 邏輯思維
+   1. [Big Three (management consultancies)](https://en.wikipedia.org/wiki/Big_Three_(management_consultancies)): McKinsey, BCG, Bain
+   2. [解鎖職涯！麥肯錫也在用的「天空—雨—傘」思考法](https://www.gvm.com.tw/article/57904)
+   3. [善用「深津式提問框架」，增加提問的品質與效率](https://www.aiwriting.today/productivity/ask-chatgpt-with-fukatsu-prompt/)
 
 ## 你怎麼看?
 
