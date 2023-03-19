@@ -107,12 +107,13 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 > Q: 我要如何進一步加速知識循環?
 
-延續小黃鴨, 我們一般在做 pair programming 或 code review 的時候
+延續小黃鴨, 我們一般在做 pair programming 或 code review 的時候, 要提昇效率多半是倚賴於
 
-1. 會問問題: 所謂 "精準提問"
-2. 曾經做過: 其實現在很多 senior 也只是比 junior 知道如何少繞彎路, 或是他當初已經走過 google / stack overflow 的流程
-3. 肌肉記憶: 下次能活用這段大幅衰減 (記憶力) , 所以才會有 "手寫加深印象" 的行為
-   1. 但若我們不再需要記憶, 只需專注於如何快速有效降低提取的循環 (prompt): 別人要下 20 個 prompt, 你只需要下 5 個
+1. **會問問題**: 所謂 "**精準提問**". 別人要問 20 個問題/Google Search/prompt, 你只需要 5 個 =>  效率就是 20/5 = 4 倍
+2. **曾經做過**: 其實現在很多 senior 也只是比 junior 知道如何少繞彎路, 或是他當初已經走過 google / stack overflow 的流程
+3. **肌肉記憶**: 有時我們做不到 "下次能活用", 是因為記憶力不足/只存在短期記憶, 這一段過程讓我們的知識存取效率大幅衰減, 所以才會有以前唸書時, 透過 "手寫來加深印象" 的行為. 但若我們不再需要記憶, 只需專注於如何**快速有效降低提取的循環**, 一切又都回到 精準提問.
+
+### 從想像到現實
 
 綜觀人類輸出簡史
 
@@ -123,7 +124,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 5. 1930 打字機: [德裔美籍 Herman Hollerith Keypunch](https://en.wikipedia.org/wiki/Computer_keyboard)
 6. 2023 嘴砲 (ChatGPT, 駭客任務, 神說要有光就有了光)
 
-> ChatGPT 加速了 **From imagination to reality** 的循環, 就像是 「神說: 要有光, 就有了光」: 出一張嘴, 東西就會生出來。
+> ChatGPT 加速了 **從想像到現實 (From imagination to reality)** 的循環, 就像是 「神說: 要有光, 就有了光」: 出一張嘴, 東西就會生出來。
 
 如同 [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution) 一文所述, 當有效知識能像《駭客任務》一樣, **下載即可用**: 武術;開飛機;說外語, 我們真的能**解放能力養成所需耗費的大量時間**.
 
