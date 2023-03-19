@@ -24,36 +24,84 @@ series: genai
 
 ## Overview 概述
 
+GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
+我總結了 6 大行為改變, 你也'用'起來了嗎?
+
+1. ⚡ 快! "變化速度" 全球加劇. 「世界怎麼突然變化那麼快?」
+2. 📚 變! "知識循環" 行為改變. 「世界每天都在變, 與我何干?」
+3. ✋ 問! "精準提問" 將成關鍵能力. 「我要如何進一步加速知識循環?」
+4. 🤖 轉! "數位化" 是大前提. 「可是還有很多現實領域都還沒辦法運用呀?」
+5. ♾️ 用! "運用場景" 落地產生效益. 「我記不住這麼多東西, 怎麼辦?」
+6. 💡 思! "想像力" 是我們的超能力. 「What's your dream? 」
+
 <!--more-->
 
 ## 1: ⚡ 快! "變化速度" 全球加劇
 
 > Q: 世界怎麼突然變化那麼快?
 
-1. 隨著 GAI 興起, 階段性地都會有些觀察與心得總結
-2. 可以看到現在的變化真的是**以週為單位**了, 每天睜眼就是新應用 → 乾脆不睡? → 什麼時候要研發減少睡眠的藥
-3. 各種發表會火力展示: (ChatGPT, New Bing, 微軟 Office Copilot, Google Workspace AI, 文心一言, ...)
-   1. [微軟將 AI 導入 Office，推出 Microsoft 365 Copilot](https://www.inside.com.tw/article/31041-microsoft-365-copilot-launch)
-   2. [Google 的逆襲！Workspace 導入生成式 AI 工具、為開發者推出 PaLM API](https://www.inside.com.tw/article/31016-Google-Workspace-AI-announce-PaLM-API)
-4. 我喜歡從 行為改變 觀察. 今天我驚覺到兩件事情
-5. Web 3
-   1. Web 2: Facebook 當初一年說是人類過去的 xx 倍數據
+隨著 GenAI 興起, 階段性地都會有些觀察與心得總結. 可以看到現在的變化真的是**以週為單位**了, 每天睜眼就是新應用, 是否乾脆不睡才不會錯過? (什麼時候要研發減少睡眠的藥)
+
+各種發表會火力展示族繁不及備載:
+
+1. 2022-11-30 [OpenAI開發能追問並拒絕不當要求的對話語言模型ChatGPT](https://www.ithome.com.tw/news/154513)
+2. 2023-02-08 [Bing AI 版發佈！微軟 CEO 直接點名 Google：你們的領先優勢不再重要](https://techtarian.com/microsoft/the-new-bing/)
+3. 2023-03-14 [Google 的逆襲！Workspace 導入生成式 AI 工具、為開發者推出 PaLM API](https://www.inside.com.tw/article/31016-Google-Workspace-AI-announce-PaLM-API)
+4. 2023-03-15 [GPT-4來了，「智商」狠甩ChatGPT！能懂哏圖笑點、律師考試也贏過9成考生](https://www.bnext.com.tw/article/74445/open-ai-chatgpt-4)
+5. 2023-03-16 [微軟將 AI 導入 Office，推出 Microsoft 365 Copilot](https://www.inside.com.tw/article/31041-microsoft-365-copilot-launch)
+6. 2023-03-16 [來丟臉的？百度「文心一言」為何不成熟也要推出](https://www.cw.com.tw/article/5125048)
+7. 2023-03-16 [Midjourney V5版本來了！一張AI圖亂入奪冠，Midjourney把你變藝術家背後隱憂](https://www.bnext.com.tw/article/74227/midjourney-mar-23-mag). [Midjourney v4 2022-11-10 釋出](https://docs.midjourney.com/docs/model-versions), [Stable Diffusion v2 2022-11-24](https://stability.ai/blog/stable-diffusion-v2-release)
+
+再再都指向 AI 可能加速[科技奇點 (Technological Singularity)](https://zh.wikipedia.org/zh-tw/技术奇异点)的到來, 說 AI 是 Web 3 可能比區塊鏈來得更合適. 回想 Web 2 時代: [2012-08-23 TechCrunch - Facebook 的數據有多大？ 每天 25 億條內容和 500+ TB](https://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day). 如今有了 GenAI, 人類在網路上的數位內容應該會更加爆炸吧.
+
+<img style="width:80%;" src="https://64.media.tumblr.com/89e86745fd1311aa530c16e7fd33554b/177d0bd057f0a5de-44/s500x750/00cb880cf4a152db3a7b26a4d36adf05e7086bd5.png">
+<p align="center"><sub><sup>
+  2011-11-08 Ahead of the Curve - Real-Time Trends and The Paradox of Big Data
+</sup></sub></p>
 
 ## 2: 📚 變! "知識循環" 行為改變
 
-> Q: 既然變化如此快, 我們要如何跟上?
+> Q: 世界每天都在變, 與我何干?
+
+我喜歡從 行為改變 觀察自己與社會. 今天我驚覺到我的 2 個行為改變:
+
+1. 查字典的行為變了
+2. 寫作的行為變了
+
+### 查字典的行為變了
 
 1. 字典: 問人 → 圖書館查字典 → 網路搜尋 → AI 輔助
 2. 做到 "差異解釋 + 定義 + 例句 + 總結"
 3. 加速我 "學習 → 活用" 的知識循環
 4. 使我大量減少行為: "大量蒐集 → 彙整 → 得出結論 ⇒ 下次能活用"
-5. 有損壓縮? 無損壓縮? 產出? [ChatGPT 是網路上的一個模糊 JPEG文件](https://foxhsiao.medium.com/chatgpt-%E6%98%AF%E7%B6%B2%E8%B7%AF%E4%B8%8A%E7%9A%84%E4%B8%80%E5%80%8B%E6%A8%A1%E7%B3%8A%E7%9A%84jpeg%E6%96%87%E4%BB%B6-aaee3723db1f) (Fox)
-6. 字典的資訊也未必正確與即時 (誰知道現在 牛仔褲 到底怎麼念; 我都念 IKEA ⇒ 語言本質 = 溝通)
-7. 我的寫作習慣也改變了
-   1. Capture keyword: 捕捉想法, 記錄關鍵字
-   2. Summarize outline: 運用 AI 總結大綱, 確保框架邏輯
-   3. Rearrange structure: 隔天再編排架構, 避免思考打結, 並補充
-   4. Refine wording: 運用 AI 調整措辭/產生內容, 使文章更通順/豐富
+
+#### 知識的有損壓縮與重現
+
+另一方面, 我已經減少了對於 "源頭 真實字典" 的查找, 甚至完全倚賴於 ChatGPT 跟我說的內容. 如同 [fox hsiao - ChatGPT 是網路上的一個模糊 JPEG文件](https://foxhsiao.medium.com/chatgpt-是網路上的一個模糊的jpeg文件-aaee3723db1f) 一文的探討, 值得我們深思
+
+> 想像一下，你即將永遠失去對網路的造訪。在準備過程中，你計劃將網絡上的所有文字創建一個壓縮的副本，這樣你就可以將其存儲在一個私人伺服器上。
+>
+> 把ChatGPT想像成網路上所有文本的模糊 JPEG。它保留了網路上的大部分訊息，就像 JPEG 保留高解析圖像的大部分資訊一樣，但是，如果你在尋找一個精確的位元序列，你不會找到它；你所得到的只是一個近似值。但是，由於這個近似值是以語法文字的形式呈現的，而 ChatGPT 擅長創建這種文字，所以它通常是可以接受的。你看到的仍然是一個模糊的JPEG，但模糊的發生方式並沒有使整個圖片看起來不那麼清晰。
+
+話說回來, 網路字典的資訊也未必正確與即時. 誰知道現在 牛仔褲 到底怎麼念? (我都念 IKEA) 書店裡的辭典更是不用說了. 畢竟連 ChatGPT 3.5 使用 GenAI 輔助產出的書, 都出版即過時 😂
+
+也許我們會更回到本質思考. 語言的重要目的之二, 是溝通與表達思緒. 那麼我們的產出(包含說的語言, 寫的文字)是否也會跟著改變呢?
+
+### 寫作的行為變了
+
+我的寫作行為也變得更像是:
+
+1. Capture keyword: 捕捉想法, 記錄關鍵字
+2. *Summarize outline: 運用 AI 總結大綱, 確保框架邏輯
+3. Rearrange structure: 隔天再編排架構, 避免思考打結, 並補充
+4. *Refine wording: 運用 AI 調整措辭/產生內容, 使文章更通順/豐富
+
+以往我很容易卡在 2, 4 步驟, 想太多而作繭自縛. 如今有一個助理可以協助如同 [程式設計小黃鴨除錯法 (Rubber Duck Debugging)](https://zh.wikipedia.org/zh-tw/小黄鸭调试法), 屬實消彌了我的多慮, 加速產出.
+
+<img style="width:60%;" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rubber_duck_assisting_with_debugging.jpg">
+<p align="center"><sub><sup>
+  Wiki - 在電腦旁「幫忙」代碼審查的小黃鴨
+</sup></sub></p>
 
 ## 3: ✋ 問! "精準提問" 將成關鍵能力
 
@@ -75,10 +123,12 @@ series: genai
    1. [企業擁抱 ChatGPT 技術要知道的10個QA](https://www.ithome.com.tw/news/155973?mibextid=ykz3hl)
    2. [BCG - The CEO's Guide to the Generative AI Revolution](https://www.bcg.com/publications/2023/ceo-guide-to-ai-revolution)
    3. [Google、微軟、AWS 都有生成式 AI 使用手冊！資安長請即刻啟動新時代資安教育](https://buzzorange.com/techorange/2023/03/16/chatgpt-aigc-security/)
-   4. 如同科幻電影中的上下層，會從廢土鎮再採取知識黃金 「考古 採礦
+   4. 2023-02-23 [《商周百大顧問團20230223》「ChatGPT將掀起怎樣的產業革命」](https://www.facebook.com/photo/?fbid=10224039785125794&set=a.1516850804585)
+   5. 如同科幻電影中的上下層，會從廢土鎮再採取知識黃金 「考古 採礦
 3. 水電工是人類最後淨土？
-   1. Boston Dynamics
-   2. 外骨骼 (阿凡達, 星海爭霸)
+   1. [莫拉維克悖論（Moravec's paradox）](https://www.facebook.com/segacheng/posts/pfbid02dcAPLJCyqyBjVK34wajAmVP8rn3j2cL66GDNyUrDsgVDZ3v1aTeaGn8FiADQbRhCl), 人類擔心被 AI 取代的領域，馬上擴展到實體世界了。
+   2. Boston Dynamics
+   3. 外骨骼 (阿凡達, 星海爭霸)
 
 ## 5: ♾️ 用! "運用場景" 落地產生效益
 
@@ -97,6 +147,8 @@ series: genai
       2. [台大針對  ChatGPT 提出三大具體教學因應措施](https://www.inside.com.tw/article/30994-NTU-ChatGPT-ai-tools-measure)
 4. CPU 與 GPU 的差異. (will 保哥) - 會取代你的不是 AI , 是比你會使用 AI 的人
    1. 取代而非協作
+      1. [ChatGPT 取代工作和對生產力影響的研究開始出爐。](https://www.facebook.com/segacheng/posts/pfbid0VQfQ56zR9sjq6RQH6pdsk4TZMWE3aadU3dT5MSoFZerRES7sUUJF4W9VHKM2wNynl)
+      2. [bilingual_book_maker 全自動翻譯整本 EPUB 格式的電子書](https://www.facebook.com/will.fans/posts/pfbid01SEj8GeZJ54XuNv1ebhQYrUCcqscVS8zeLz493wB1nzX6L6eXrguviiF6AcRCRuZl)
    2. [駕駛風見 +輔助阿斯拉](https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/#gsc.tab=0)
    3. [AI 的 9 個問題](https://www.facebook.com/chouchinhua/posts/pfbid02ape8AYxJnYQRyQ6PZHjULAH4fjZcY2RqcVM9psAM47rR3CoZTs9bDm4KcG6dKdcTl)
    4. 合理性的判斷，不管是手指(MJ V5 已解)/房間裝潢/程式設計。魔鬼藏在細節裡
@@ -109,17 +161,19 @@ series: genai
 
 > Q: What's your dream?  --- west world
 
-1. 更加意識到 "快的打敗慢的"
+1. 更加意識到 "快的打敗慢的", 以及自己的能力養成
     1. 2023-03-15 GPT-4 登場- 2022-11-30 ChatGPT 釋出: 敏捷時代 速度至上
     2. 2022 ChatGPT 成長圖
-    3. ChatGPT, New Bing, MS Office Copilot, Google Workspace
-    4. 報導沒人 care
-    5. 太多大事件 timeline (fb)
+    3. 太多大事件 timeline (fb)
+    4. [專注於不變的事情](https://www.facebook.com/hinet/posts/pfbid07WmWFia9usXdNSWZTQV4JG6HW3d97hVAhqGof3GBpGKhZSo5k4yiCGXpMu8DxqzMl)
+    5. [AI 興起後的職涯思考](https://www.facebook.com/gipi.net/posts/pfbid021uyaKm6FWUxSRWD9gWYRqLoLXjD2QF4ZUtDQBXAD66CsiDRAa3ijhqwQ5XnMH2SXl)
+    6. [靠AI減少開發重工和註解負擔，IT人語言邏輯能力未來更重要](https://www.ithome.com.tw/news/155842)
 2. 更加期待 "能力提升"
-    1. 讓我們期待人人都能自動駕駛天上飛車, 馬路三寶大幅降低的時代吧
-    2. 甚至人人宇航員, 糧食自主供給, 醫療/基本需求 超越 UBI 的科幻未來
-    3. West world "Dream". 想像力是我們的超能力
-    4. What's your dream?
+    1. [【Sam Altman 以及他的 AGI 烏托邦】](https://www.facebook.com/shosho.chang/posts/pfbid023VvwDAwPMjZPXg2EbjTsEjr4LN5t5rkcKDgDWkcfKa24LyeNyoVjYdkBG8Sy9Dudl)
+    2. 讓我們期待人人都能自動駕駛天上飛車, 馬路三寶大幅降低的時代吧
+    3. 甚至人人宇航員, 糧食自主供給, 醫療/基本需求 超越 UBI 的科幻未來
+    4. West world "Dream". 想像力是我們的超能力
+    5. What's your dream?
 
 ## Prompt Engineering
 
@@ -154,11 +208,13 @@ Elaborate difference (trend, wave, explosion, boost, burst, phenomenal event) wh
 
 ### 社群貼文
 
+[ProgramMur 程序猿碎念 - 技術分享](https://www.facebook.com/ProgramMur/)
+
 GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 我總結了 6 大行為改變, 你也'用'起來了嗎?
 
 1. ⚡ 快! "變化速度" 全球加劇. 「世界怎麼突然變化那麼快?」
-2. 📚 變! "知識循環" 行為改變. 「既然變化如此快, 我們要如何跟上?」
+2. 📚 變! "知識循環" 行為改變. 「世界每天都在變, 與我何干?」
 3. ✋ 問! "精準提問" 將成關鍵能力. 「我要如何進一步加速知識循環?」
 4. 🤖 轉! "數位化" 是大前提. 「可是還有很多現實領域都還沒辦法運用呀?」
 5. ♾️ 用! "運用場景" 落地產生效益. 「我記不住這麼多東西, 怎麼辦?」
