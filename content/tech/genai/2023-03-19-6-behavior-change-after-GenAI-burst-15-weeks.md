@@ -98,7 +98,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 
 以往我很容易卡在 2, 4 步驟, 想太多而作繭自縛. 如今有一個助理可以協助如同 [程式設計小黃鴨除錯法 (Rubber Duck Debugging)](https://zh.wikipedia.org/zh-tw/小黄鸭调试法), 屬實消彌了我的多慮, 加速產出.
 
-<img style="width:60%;" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rubber_duck_assisting_with_debugging.jpg">
+<img style="width:40%;" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rubber_duck_assisting_with_debugging.jpg">
 <p align="center"><sub><sup>
   Wiki - 在電腦旁「幫忙」代碼審查的小黃鴨
 </sup></sub></p>
@@ -128,7 +128,9 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 
 如同 [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution) 一文所述, 當有效知識能像《駭客任務》一樣, **下載即可用**: 武術;開飛機;說外語, 我們真的能**解放能力養成所需耗費的大量時間**.
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
+<a href="https://blog.androchen.tw/ai-accelerate-knowledge-revolution" target="_blank" rel="noreferrer noopener">
+   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
+</a>
 <p align="center"><sub><sup>
   當有效知識能像《駭客任務》一樣, 下載即可用: 武術;開飛機;說外語
 </sup></sub></p>
@@ -196,7 +198,9 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 >
 > 也許是時候調整對於 ChatGPT 的期望管理, 讓他真的能像阿斯拉一樣帶著我們飛; 而不是一味地過度依賴小叮噹。
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+<a href="https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents" target="_blank" rel="noreferrer noopener">
+   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+</a>
 <p align="center"><sub><sup>
   我以為今天的我沒有極限, 實際上的我卻在討拍
 </sup></sub></p>
