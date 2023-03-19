@@ -51,9 +51,14 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 6. 2023-03-16 [來丟臉的？百度「文心一言」為何不成熟也要推出](https://www.cw.com.tw/article/5125048)
 7. 2023-03-16 [Midjourney V5版本來了！一張AI圖亂入奪冠，Midjourney把你變藝術家背後隱憂](https://www.bnext.com.tw/article/74227/midjourney-mar-23-mag). [Midjourney v4 2022-11-10 釋出](https://docs.midjourney.com/docs/model-versions), [Stable Diffusion v2 2022-11-24](https://stability.ai/blog/stable-diffusion-v2-release)
 
-再再都指向 AI 可能加速[科技奇點 (Technological Singularity)](https://zh.wikipedia.org/zh-tw/技术奇异点)的到來, 說 AI 是 Web 3 可能比區塊鏈來得更合適. 回想 Web 2 時代: [2012-08-23 TechCrunch - Facebook 的數據有多大？ 每天 25 億條內容和 500+ TB](https://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day). 如今有了 GenAI, 人類在網路上的數位內容應該會更加爆炸吧.
+再再都指向 AI 可能加速[科技奇點 (Technological Singularity)](https://zh.wikipedia.org/zh-tw/技术奇异点)的到來, 說 AI 是 Web 3 可能比區塊鏈來得更合適. 回想 Web 2 時代: [2012-08-23 TechCrunch - Facebook 的數據有多大？ 每天 25 億條內容和 500+ TB](https://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day). [ChatGPT 成史上最快用戶破億服務](https://technews.tw/2023/02/02/chatgpt-sets-record-for-fastest-growing-user-base/), 如今有了 GenAI, 人類在網路上的數位內容應該會更加爆炸吧.
 
-<img style="width:80%;" src="https://64.media.tumblr.com/89e86745fd1311aa530c16e7fd33554b/177d0bd057f0a5de-44/s500x750/00cb880cf4a152db3a7b26a4d36adf05e7086bd5.png">
+<img style="width:60%;" src="https://cdn.statcdn.com/Infographic/images/normal/29174.jpeg">
+<p align="center"><sub><sup>
+  Statista - <a href="https://www.statista.com/chart/29174/time-to-one-million-users/" target="_blank" rel="noreferrer noopener">ChatGPT Sprints to One Million Users</a>
+</sup></sub></p>
+
+<img style="width:60%;" src="https://64.media.tumblr.com/89e86745fd1311aa530c16e7fd33554b/177d0bd057f0a5de-44/s500x750/00cb880cf4a152db3a7b26a4d36adf05e7086bd5.png">
 <p align="center"><sub><sup>
   2011-11-08 Ahead of the Curve - Real-Time Trends and The Paradox of Big Data
 </sup></sub></p>
