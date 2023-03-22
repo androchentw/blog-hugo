@@ -24,7 +24,8 @@ series: reflection
 歡迎你花個 5 分鐘聽聽我的想法，並且發表你的想法(或是[寄信給我](mailto:androchentw@gmail.com))，我會很樂意跟你討論！
 
 * 10 分鐘的投影片 -[What I've Learned From Startups](http://www.slideshare.net/androchen/2015-0311-what-ive-learned-from-startups)
-* [台大電機系大學部實習資訊網](http://cc.ee.ntu.edu.tw/~eeintern/course2015.html) 上面還有其他當天的講者的投影片
+* ~~[台大電機系大學部實習資訊網](http://cc.ee.ntu.edu.tw/~eeintern/course2015.html) 上面還有其他當天的講者的投影片~~ (連結已失效)
+* (2022-09-25) 7年半後的我: [Finding My Ikigai 生き甲斐 - 生存的價值與人生意義](https://blog.androchen.tw/finding-my-ikigai)
 
 <!--more-->
 
