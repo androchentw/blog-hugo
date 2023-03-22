@@ -8,12 +8,12 @@ type: post
 categories:
   - tech
 tags: 
-  - genai
+  - aigc
   - llm
   - chatgpt
   - reflection
 share_img: https://images.unsplash.com/photo-1640367169401-534dec442631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80
-series: genai
+series: aigc
 ---
 
 <img style="width:60%;" src="https://images.unsplash.com/photo-1640367169401-534dec442631?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80">
@@ -43,7 +43,7 @@ series: genai
 
 <!--more-->
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2022-12-10-chatgpt-applied-ai-reflection-mindmap.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-mindmap.png?raw=true">
 <p align="center"><sub><sup>
   本文 Mindmap (ChatGPT 如何協助人類? 應用 AI 與科幻哲思)
 </sup></sub></p>

@@ -1,6 +1,6 @@
 ---
-title: "GenAI 浪潮翻騰 15 週後的 6 大行為改變"
-url: /6-behavior-change-after-GenAI-burst-15-weeks
+title: "AIGC 浪潮翻騰 15 週後的 6 大行為改變"
+url: /6-behavior-change-after-AIGC-burst-15-weeks
 # date: 2023-03-18T17:00:00+08:00
 date: 2023-03-19T14:30:00+08:00
 author: androchentw
@@ -8,22 +8,22 @@ type: post
 categories:
   - tech
 tags: 
-  - genai
+  - aigc
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-03-19-6-behavior-change-after-GenAI-burst-15-weeks-cover.png?raw=true
-series: genai
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true
+series: aigc
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-03-19-6-behavior-change-after-GenAI-burst-15-weeks-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true">
 <p align="center"><sub><sup>
-  GenAI 浪潮翻騰 15 週後的 6 大行為改變
+  AIGC 浪潮翻騰 15 週後的 6 大行為改變
 </sup></sub></p>
 
 ## Overview 概述
 
-GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
+AIGC 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 我總結了 6 大行為改變, 你也'用'起來了嗎?
 
 1. ⚡ 快! "變化速度" 全球加劇. 「世界怎麼突然變化那麼快?」
@@ -39,7 +39,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 > Q: 世界怎麼突然變化那麼快?
 
-隨著 GenAI 興起, 階段性地都會有些觀察與心得總結. 可以看到現在的變化真的是**以週為單位**了, 每天睜眼就是新應用, 是否乾脆不睡才不會錯過? (什麼時候要研發減少睡眠的藥)
+隨著 AIGC 興起, 階段性地都會有些觀察與心得總結. 可以看到現在的變化真的是**以週為單位**了, 每天睜眼就是新應用, 是否乾脆不睡才不會錯過? (什麼時候要研發減少睡眠的藥)
 
 各種發表會火力展示族繁不及備載:
 
@@ -57,7 +57,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 * ([陳以婕 - 工作坊筆記](https://www.facebook.com/photo/?fbid=10226534196375630&set=gm.607697754151023&idorvanity=558748662379266))
 * 再再都指向 AI 可能加速[科技奇點 (Technological Singularity)](https://zh.wikipedia.org/zh-tw/技术奇异点)的到來, 說 AI 是 Web 3 可能比區塊鏈來得更合適
 * 回想 Web 2 時代: [2012-08-23 TechCrunch - Facebook 的數據有多大？ 每天 25 億條內容和 500+ TB](https://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-pieces-of-content-and-500-terabytes-ingested-every-day)
-* [ChatGPT 成史上最快用戶破億服務](https://technews.tw/2023/02/02/chatgpt-sets-record-for-fastest-growing-user-base/). 如今有了 GenAI, 人類在網路上的數位內容應該會更加爆炸吧.
+* [ChatGPT 成史上最快用戶破億服務](https://technews.tw/2023/02/02/chatgpt-sets-record-for-fastest-growing-user-base/). 如今有了 AIGC, 人類在網路上的數位內容應該會更加爆炸吧.
 
 <img style="width:60%;" src="https://cdn.statcdn.com/Infographic/images/normal/29174.jpeg">
 <p align="center"><sub><sup>
@@ -94,7 +94,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 >
 > 把ChatGPT想像成網路上所有文本的模糊 JPEG。它保留了網路上的大部分訊息，就像 JPEG 保留高解析圖像的大部分資訊一樣，但是，如果你在尋找一個精確的位元序列，你不會找到它；你所得到的只是一個近似值。但是，由於這個近似值是以語法文字的形式呈現的，而 ChatGPT 擅長創建這種文字，所以它通常是可以接受的。你看到的仍然是一個模糊的JPEG，但模糊的發生方式並沒有使整個圖片看起來不那麼清晰。
 
-話說回來, 網路字典的資訊也未必正確與即時. 誰知道現在 牛仔褲 到底怎麼念? (我都念 IKEA) 書店裡的辭典更是不用說了. 畢竟連 ChatGPT 3.5 使用 GenAI 輔助產出的書, 都出版即過時 😂
+話說回來, 網路字典的資訊也未必正確與即時. 誰知道現在 牛仔褲 到底怎麼念? (我都念 IKEA) 書店裡的辭典更是不用說了. 畢竟連 ChatGPT 3.5 使用 AIGC 輔助產出的書, 都出版即過時 😂
 
 也許我們會更回到本質思考. 語言的重要目的之二, 是溝通與表達思緒. 那麼我們的產出(包含說的語言, 寫的文字)是否也會跟著改變呢?
 
@@ -140,7 +140,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 如同 [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution) 一文所述, 當有效知識能像《駭客任務》一樣, **下載即可用**: 武術;開飛機;說外語, 我們真的能**解放能力養成所需耗費的大量時間**.
 
 <a href="https://blog.androchen.tw/ai-accelerate-knowledge-revolution" target="_blank" rel="noreferrer noopener">
-   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
+   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
 </a>
 <p align="center"><sub><sup>
   當有效知識能像《駭客任務》一樣, 下載即可用: 武術;開飛機;說外語
@@ -150,7 +150,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 
 > Q: 可是還有很多現實領域都還沒辦法運用呀?
 
-我們也因此觀察到, 目前 GenAI 做的好的, 是以"網路上有資料"的為主. 也就是說, **能夠進入知識循環的, 就能大幅加速**, 所以反而軟體業相關步調才會動得那麼快.
+我們也因此觀察到, 目前 AIGC 做的好的, 是以"網路上有資料"的為主. 也就是說, **能夠進入知識循環的, 就能大幅加速**, 所以反而軟體業相關步調才會動得那麼快.
 
 可以說企業數位轉型之路上, 收集/代管/訓練數據等 "**數位化下水道工程**" 將會是一切加速的大前提. 從企業動作與社群論壇討論, 都可以略知一二.
 
@@ -210,7 +210,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 > 也許是時候調整對於 ChatGPT 的期望管理, 讓他真的能像阿斯拉一樣帶著我們飛; 而不是一味地過度依賴小叮噹。
 
 <a href="https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents" target="_blank" rel="noreferrer noopener">
-   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
 </a>
 <p align="center"><sub><sup>
   我以為今天的我沒有極限, 實際上的我卻在討拍
@@ -223,7 +223,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 [CPU 與 GPU 的差異](https://www.facebook.com/will.fans/posts/pfbid036CeS4n5p8jnnWonwzykMVYfsGU3Ty9yaw8cXhVW3PUcbNuvHo66Je562jCwp7Mywl)
 , [AI 的 9 個問題](https://www.facebook.com/chouchinhua/posts/pfbid02ape8AYxJnYQRyQ6PZHjULAH4fjZcY2RqcVM9psAM47rR3CoZTs9bDm4KcG6dKdcTl) 兩文值得我們關注.
 
-另一方面, 相信大家也都開始注意到 GenAI 產生的結果是需要專家人為判斷的. 但是一些合理性的判斷, 不管是 AI 製圖的手指(Midjourney V5 已大幅改善)/房間裝潢/程式設計, 辨別的難易度一樣會急遽上升. **我們很快就會越來越難分辨 "真與假"**.
+另一方面, 相信大家也都開始注意到 AIGC 產生的結果是需要專家人為判斷的. 但是一些合理性的判斷, 不管是 AI 製圖的手指(Midjourney V5 已大幅改善)/房間裝潢/程式設計, 辨別的難易度一樣會急遽上升. **我們很快就會越來越難分辨 "真與假"**.
 
 > **魔鬼藏在細節裡**
 
@@ -231,7 +231,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 
 > Q: 既然知識循環如此重要, 作為人類我們該**如何極大化 AI 協作效率**?
 
-文行至此, 我靈光一閃想到職場上常聽見一種不太好的說法叫「真希望有 10 個我, 就不用解釋那麼多」. 照此邏輯結合 GenAI, 這個命題就變成「**建立自己的思維模型, 在精神時光屋中, 自行迭代提升**」
+文行至此, 我靈光一閃想到職場上常聽見一種不太好的說法叫「真希望有 10 個我, 就不用解釋那麼多」. 照此邏輯結合 AIGC, 這個命題就變成「**建立自己的思維模型, 在精神時光屋中, 自行迭代提升**」
 
 1. 角色 A - Me: 訓練 LLM 模仿我寫作/思考
 2. 角色 B - Sensei: 指定另一全知角色指出盲點, 引導思考
@@ -317,7 +317,7 @@ Elaborate difference (trend, wave, explosion, boost, burst, phenomenal event) wh
 
 [ProgramMur 程序猿碎念 - 技術分享](https://www.facebook.com/ProgramMur/)
 
-GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
+AIGC 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 我總結了 6 大行為改變, 你也'用'起來了嗎?
 
 1. ⚡ 快! "變化速度" 全球加劇. 「世界怎麼突然變化那麼快?」
@@ -329,7 +329,7 @@ GenAI 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
 
 內含 5600+ 字與 56+ 連結, 請小心服用. AI 生成率 < 5%
 
-`#GenAI #AI #知識革命 #人工智慧 #生產力 #行為改變 #LLM #ChatGPT #OpenAI #Copilot`
+`#AIGC #AI #知識革命 #人工智慧 #生產力 #行為改變 #LLM #ChatGPT #OpenAI #Copilot`
 
 ### Murmur
 

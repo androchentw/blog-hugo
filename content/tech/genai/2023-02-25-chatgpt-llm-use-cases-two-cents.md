@@ -8,22 +8,22 @@ type: post
 categories:
   - tech
 tags: 
-  - genai
+  - aigc
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true
-series: genai
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true
+series: aigc
 ---
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
 <p align="center"><sub><sup>
   MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
 </sup></sub></p>
 
 ## Overview 概述
 
-要說為什麼最近這麼關注 GenAI / ChatGPT / LLM
+要說為什麼最近這麼關注 AIGC / ChatGPT / LLM
 
 1. 百家爭鳴: 最近趨勢與應用如雨後春筍般地冒出
 2. 良好體驗: 不只是 buzz word, 而是真的能夠協助提升生產力
@@ -93,7 +93,7 @@ series: genai
 
 這也讓我想到, 在 IT 產業待久了, 總是能從對於新技術的反應, 看每個人性格的 陣營九宮格😆 (樂觀/悲觀; 實事求是/一知半解)
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/genai/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
 <p align="center"><sub><sup>
   我以為今天的我沒有極限, 實際上的我卻在討拍
 </sup></sub></p>
