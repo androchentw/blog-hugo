@@ -23,6 +23,7 @@ summaryLength = 70
 
 
 [Params]
+  # Explore Tech Journey
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post"]
   logo = "https://avatars.githubusercontent.com/u/2317501?v=4"
