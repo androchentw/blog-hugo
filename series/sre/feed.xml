@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sre on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/series/sre/</link><description>Recent content in sre on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sat, 25 Mar 2023 08:25:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/series/sre/feed.xml" rel="self" type="application/rss+xml"/><item><title>來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析</title><link>https://blog.androchen.tw/chatgpt-sre-postmortem/</link><pubDate>Sat, 25 Mar 2023 08:25:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-sre-postmortem/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/sre/2023-03-25-chatgpt-sre-postmortem-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>ChatGPT 在美國時間 3/24(週五) 發布了新的一篇 blog，解釋 3/20(週一) ChatGPT 停機的來龍去脈。&lt;/p>
+&lt;p>每一次的緊急維修，對於系統維運 SRE 來說都是意義非凡。因為這代表你的服務&lt;/p>
+&lt;ol>
+&lt;li>重要到用戶會關注&lt;/li>
+&lt;li>必要到每分每秒都在產生價值 (不修復會造成損失)&lt;/li>
+&lt;/ol>
+&lt;p>對於很多企業來說，停機好像是永遠不該發生的事。多半是偷偷改掉不讓用戶發現就過了，怎麼可能大張旗鼓地還發部落格？&lt;/p>
+&lt;p>從這點就可以看出決定性的差異。&lt;/p>
+&lt;p>🔎 透明度，及其帶來的信任是關鍵。「我們正在修，出於什麼原因-人事時地物，之後能怎麼避免」。好用，相信你能夠盡快修復的信任感 (Trust)，奠基於系統服務的穩定 (Reliability)&lt;/p>
+&lt;p>❓ 提問: 你的團隊在意這些服務體驗嗎？ 一起來看 OpenAI 怎麼示範 SRE 中的 Postmortem (事後剖析)。&lt;/p></description></item><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;img style="width:40%;" src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.&lt;/p>
+&lt;p>因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Hybrid Cloud Environment Complexity Grows&lt;/strong>. 身為 IT, 在 Hybrid Cloud 環境與 Micro-service 趨勢下, 帶來的是更多的 Dependency 以及更為複雜的資料流.&lt;/li>
+&lt;li>&lt;strong>Hard to Prove and Maintain Reliability&lt;/strong>. 在設計 Data Pipeline 的過程中, 除了最終要 Deliver Data to Value 以達到 Business Impact 外, 更需要確保每天的 Data &amp;amp; Services Quality &amp;amp; Reliability, 甚至可以說是服務上線後天天都會遇到的事.&lt;/li>
+&lt;li>&lt;strong>Often Without Clear Value Proposition&lt;/strong>. 而這些日常維運繁瑣的事務其實有很多可以用工程手段解決/自動化的部分, 但是卻非常容易在繁忙且接踵而來的專案下, 不自覺地疏忽了.&lt;/li>
+&lt;li>&lt;strong>Prioritize ITOps Tasks&lt;/strong>: 為了及早發現及早還技術債, 應該更有意識地持續分析:
+&lt;ol>
+&lt;li>哪些該先做, 成本效益最佳?&lt;/li>
+&lt;li>鎖定目標後, 又該如何實作, 才能真的事半功倍?&lt;/li>
+&lt;li>實作完成後, 如何良好衡量優化效益?&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ul>
+&lt;li>Learn from Google SRE books
+&lt;ul>
+&lt;li>then introduce and continuously implement and improve current data services design reliability at work.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
+&lt;/ol></description></item></channel></rss>
