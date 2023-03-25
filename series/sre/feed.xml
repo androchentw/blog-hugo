@@ -11,7 +11,7 @@
 &lt;/ol>
 &lt;p>對於很多企業來說，停機好像是永遠不該發生的事。多半是偷偷改掉不讓用戶發現就過了，怎麼可能大張旗鼓地還發部落格？&lt;/p>
 &lt;p>從這點就可以看出決定性的差異。&lt;/p>
-&lt;p>🔎 透明度，及其帶來的信任是關鍵。「我們正在修，出於什麼原因-人事時地物，之後能怎麼避免」。好用，相信你能夠盡快修復的信任感 (Trust)，奠基於系統服務的穩定 (Reliability)&lt;/p>
+&lt;p>🔎 &lt;strong>透明度，及其帶來的信任是關鍵&lt;/strong>。「我們正在修，出於什麼原因-人事時地物，之後能怎麼避免」。好用，相信你能夠盡快修復的信任感 (Trust)，奠基於系統服務的穩定 (Reliability)&lt;/p>
 &lt;p>❓ 提問: 你的團隊在意這些服務體驗嗎？ 一起來看 OpenAI 怎麼示範 SRE 中的 Postmortem (事後剖析)。&lt;/p></description></item><item><title>Google SRE Books</title><link>https://blog.androchen.tw/google-sre-books/</link><pubDate>Sun, 11 Jul 2021 00:58:14 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/google-sre-books/</guid><description>&lt;img style="width:40%;" src="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.&lt;/p>
