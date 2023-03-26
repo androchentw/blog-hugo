@@ -83,6 +83,11 @@ series: aigc
 summarize & translate #zh-TW
 ```
 
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-food-model.png?raw=true">
+<p align="center"><sub><sup>
+  食物模型. Midjourney: taiwan food model realistic --v 4
+</sup></sub></p>
+
 ### 2. 20% 重新詮釋
 
 依照自己的觀點重新詮釋，打出完整句子也會費時。用 AI 潤飾的部分 = 彙整我的草稿，協助補充遺漏的，或是換一個綜觀的角度再檢視我的內容，是否有傳達到重點。另外，因為我會想要保留自己的文筆風格，所以其實這部分會多了要比對自己的文字的功夫。
