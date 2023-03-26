@@ -123,9 +123,9 @@ OpenAI 也條列了他們已經採取的措施:
 
 延伸閱讀
 
-1. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
-2. [ChatGPT 如何協助人類? 應用 AI 與科幻哲思](https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection)
-3. [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution)
+1. [2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路](https://blog.androchen.tw/2022-tsmc-it-day/)
+2. [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/)
+3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
 
 ### Murmur
 
