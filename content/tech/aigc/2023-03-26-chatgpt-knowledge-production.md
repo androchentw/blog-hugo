@@ -106,7 +106,7 @@ summarize #bullet-point #zh-TW
 summarize to an attractive social media post #zh-TW
 ```
 
-我也嘗試利用 [Buffer - Social Media Management](https://buffer.com/) 同步將我的貼文發布到 Facebook, Twitter, LinkedIn 上
+我也嘗試利用 [Buffer - Social Media Management](https://buffer.com/) 同步將我的貼文發布到 [Facebook](https://www.facebook.com/ProgramMur/), [Twitter](https://twitter.com/ProgramMurTw), [LinkedIn](https://www.linkedin.com/in/androchen/) 上
 
 ## 搭配時間管理
 
