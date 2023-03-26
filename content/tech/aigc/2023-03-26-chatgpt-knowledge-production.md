@@ -3,7 +3,7 @@ draft: true
 title: "ChatGPT 實戰 - 3 招加速知識產出"
 url: /chatgpt-knowledge-production
 # date: 2023-03-26T12:30:00+08:00
-date: 2023-03-26T15:30:00+08:00
+date: 2023-03-26T16:30:00+08:00
 author: androchentw
 type: post
 categories:
@@ -19,16 +19,21 @@ series: aigc
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true">
 <p align="center"><sub><sup>
-  ChatGPT Prompt 實戰 - 3 招加速知識生產術
+  ChatGPT Prompt 實戰 - 3 招加速知識生產
 </sup></sub></p>
 
 ## Overview 概述
 
-prompt = 提詞工程 (引導/指令)
+🤖 相信大家已經開始運用 ChatGPT 與各種 AI 在輔助寫作，提高知識產出效率，快速完成一篇文章撰寫。在很多知識領域，完全可以算是一種典範轉移 (Paradigm Shift) 了。
 
-🤖️📝 透過AI輔助寫作，提高知識產出效率，快速完成一篇文章撰寫
+📝 先前總結了 [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)。這次，我剖析自己寫作過程的 4 大階段:
 
-透過時間管理加速循環
+1. 思: 想法
+2. 骨: 大綱
+3. 肉: 子題內容
+4. 皮: 潤飾
+
+來探討如何加速知識生產。針對不同的情境，分而治之。
 
 <!--more-->
 
@@ -48,7 +53,7 @@ prompt = 提詞工程 (引導/指令)
 
 ## 知識產出的組成結構是?
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-time.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-time-management.png?raw=true">
 <p align="center"><sub><sup>
   知識產出/文章撰寫 時間分配
 </sup></sub></p>
