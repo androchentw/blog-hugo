@@ -74,7 +74,7 @@ series: aigc
 
 平常很多資訊都是英文，吸收的效率沒有 native speaker 那麼好，所以這部分主要是彙整 + 翻譯 他人文章，讓我可以快速抓到大的框架，再往細節去理解。
 
-值得一提的是，要小心 "**淺層知識**"。 像是 [ReaderGPT](https://chrome.google.com/webstore/detail/readergpt-chatgpt-based-w/ohgodjgnfedgikkgcjdkomkadbfedcjd), [ChatGPT Sidebar](https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb)，他們的總結功能都很令人經驗。但是，我認為還是得要**自己吸收一遍**。
+值得一提的是，要小心 "**淺層知識**"。 像是 [ReaderGPT](https://chrome.google.com/webstore/detail/readergpt-chatgpt-based-w/ohgodjgnfedgikkgcjdkomkadbfedcjd), [ChatGPT Sidebar](https://chrome.google.com/webstore/detail/chatgpt-sidebar-support-g/difoiogjjojoaoomphldepapgpbgkhkb)，他們的總結功能都很令人驚艷。但是，我認為還是得要**自己吸收一遍**。
 
 就像美食街的食物模型，能夠幫助你快速瞭解這些菜長什麼樣子。但若你沒吃，最後還是講不出味道啊！**善用 AI 是為了幫助你快理解重點，而不是代替你消化**。
 
@@ -131,4 +131,4 @@ summarize to an attractive social media post #zh-TW
 
 ### Murmur
 
-* 2023-03-26: 但其實這篇沒有成功 😂 習慣還是很難改... 當作目標努力!
+* 2023-03-26: 但其實這篇沒有成功 😂 (大概也是花了 3 小時, 尤其是在做圖的部分花特別久) 習慣還是很難改... 當作目標努力!
