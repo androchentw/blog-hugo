@@ -52,7 +52,7 @@ series: aigc
 
 ## 知識產出的組成結構是?
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-time-management.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-time-management.png?raw=true">
 <p align="center"><sub><sup>
   知識產出/文章撰寫 時間分配
 </sup></sub></p>
