@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "ChatGPT 實戰 - 3 招加速知識產出"
 url: /chatgpt-knowledge-production
 # date: 2023-03-26T12:30:00+08:00
@@ -101,6 +100,8 @@ summarize #bullet-point #zh-TW
 # Prompt: 社群貼文
 summarize to an attractive social media post #zh-TW
 ```
+
+我也嘗試利用 [Buffer - Social Media Management](https://buffer.com/) 同步將我的貼文發布到 Facebook, Twitter, LinkedIn 上
 
 ## 搭配時間管理
 
