@@ -25,27 +25,23 @@ series: tech-event
 
 ## Overview 概述
 
-<!--more-->
-
-台灣微軟邀請 7 場 session 分享如何打造**企業的數位轉型與應用創新**的基礎: 高效率、彈性靈活且安全的雲原生平台，為企業帶來更多**競爭力與生產力提升**。
+台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造[企業的數位轉型與應用創新](https://showroom.ithome.com.tw/public/ms0331/index.html)的基礎: 高效率、彈性靈活且安全的雲原生平台，為企業帶來更多**競爭力與生產力提升**。
 
 今天談得多半是 fundamental 的部分，但是也算是一個 overview 了。若你也是 Dev 軟體工程師, 或 IT Ops 相關從業人員，從來沒接觸過類似概念，蠻推薦瞭解這些關鍵字。
 
-🤔 Q:
+🤔 Q: IT 現代化與我們的開發維運團隊有何關聯?
 
-## Agenda
-
-```text
-#應用創新 #平台工程 #雲原生 #SRE #Observability #GitHub #Copilot #DevOps #DevSecOps
-```
+<!--more-->
 
 ## Sessions
 
 ### 非典型 SRE 為何是企業 IT 現代化新關鍵
 
-2022 企業新興技術雷達圖
+<img style="width:80%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
+<p align="center"><sub><sup>
+  iThome - 2022 企業新興技術雷達圖
+</sup></sub></p>
 
-[https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png](https://s4.itho.me/sites/default/files/files/%E3%80%90%E5%85%A7%E6%96%87%E5%9C%96%E8%A1%A8-%E8%B6%85%E9%80%A3%E7%B5%90%E5%A4%A7%E5%9C%96%E3%80%91%E5%B0%81%E9%9D%A2-1P-%E8%B1%86%E5%AD%90-%E5%9B%9B%E5%A4%A7%E6%8A%80%E8%A1%93.png)
 > iThome 王宏仁 副總編輯
 
 如同我們先前在 [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/) 當中彙整的。SRE 自 2021 年起大受矚目。
@@ -129,6 +125,18 @@ series: tech-event
 4. How to Roll Out Tracing - [The Future of Observability with OpenTelemetry](https://www.oreilly.com/library/view/the-future-of/9781098118433/)
 
 ## 你怎麼看?
+
+留下你的想法一起討論吧! 🥳
+
+延伸閱讀
+
+1. [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
+2. [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/)
+3. [2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路](https://blog.androchen.tw/2022-tsmc-it-day/)
+
+```text
+#應用創新 #平台工程 #雲原生 #Microsoft #ChatGPT #DevOps #DevSecOps #SRE #Observability #CloudNative #IT #GitHub #Copilot
+```
 
 ### Murmur
 
