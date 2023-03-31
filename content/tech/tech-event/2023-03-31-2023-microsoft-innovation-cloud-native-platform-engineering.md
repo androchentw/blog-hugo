@@ -24,7 +24,7 @@ series: tech-event
 
 ## Overview 概述
 
-台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造[企業的數位轉型與應用創新](https://showroom.ithome.com.tw/public/ms0331/index.html)的基礎: 高效率、彈性靈活且安全的雲原生平台，為企業帶來更多**競爭力與生產力提升**。
+03-31(五) 台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造[企業的數位轉型與應用創新](https://showroom.ithome.com.tw/public/ms0331/index.html)的基礎: 高效率、彈性靈活且安全的雲原生平台，為企業帶來更多**競爭力與生產力提升**。
 
 今天談得多半是 fundamental 的部分，但是也算是一個 overview 了。若你也是 Dev 軟體工程師, 或 IT Ops 相關從業人員，從來沒接觸過類似概念，蠻推薦瞭解這些關鍵字。
 
