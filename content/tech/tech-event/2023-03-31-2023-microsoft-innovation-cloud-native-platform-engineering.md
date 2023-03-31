@@ -139,4 +139,4 @@ series: tech-event
 
 ### Murmur
 
-* 2023-03-31: DevOps / SRE / Platform Engineering 一家親。感觸蠻深的是 Observability 我自己從 2021 就開始推，但成效也不是太好。果然還是需要更多磨練啊~~
+* 2023-03-31: DevOps / SRE / Platform Engineering 一家親。感觸蠻深的是 Agile, DevOps, SRE, Observability 我自己從 2021 就開始推，但成效也不是太好。果然還是需要更多磨練啊~~
