@@ -81,7 +81,7 @@ series: tech-event
 > 台灣微軟資深雲端解決方案 架構師 邱英瑞
 
 1. [GitHub Advanced Security](https://github.com/advanced-security)
-2. 我個人也蠻推薦 Google 開源的 [osv-scanner](https://github.com/google/osv-scanner)
+2. (筆者個人也蠻推薦 Google 開源的 [osv-scanner](https://github.com/google/osv-scanner)
 3. 如何定義 **階段性目標**? 何謂做完? Priority? 使用如 DSOMM 成熟度模型? => 使用即可
 4. [Microsoft Defender for Cloud](https://learn.microsoft.com/zh-tw/azure/defender-for-cloud/defender-for-cloud-introduction) 整合 Dashboard, 拼上最後一塊拼圖。Sec team 可以直接在此看完整儀表版進行管理。
 
