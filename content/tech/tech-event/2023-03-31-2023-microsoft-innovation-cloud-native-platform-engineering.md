@@ -34,7 +34,7 @@ series: tech-event
 
 ## Sessions
 
-### 非典型 SRE 為何是企業 IT 現代化新關鍵
+### 1. 非典型 SRE 為何是企業 IT 現代化新關鍵
 
 <img style="width:80%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
 <p align="center"><sub><sup>
@@ -62,7 +62,7 @@ series: tech-event
    1. [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
    2. [【2023年CIO必看10大趨勢：趨勢3】數位轉型帶動維運現代化需求，平臺工程開始崛起](https://www.ithome.com.tw/news/155033)
 
-### 雲原生將走向何方？
+### 2. 雲原生將走向何方？
 
 > 台灣微軟客戶成功事業群 副總經理 張書源
 
@@ -76,7 +76,7 @@ series: tech-event
 >
 > The Cloud Native Computing Foundation seeks to drive adoption of this paradigm by fostering and sustaining an ecosystem of open source, vendor-neutral projects. We democratize state-of-the-art patterns to make these innovations accessible for everyone.
 
-### 開發安全維運一體化
+### 3. 開發安全維運一體化
 
 > 台灣微軟資深雲端解決方案 架構師 邱英瑞
 
@@ -85,20 +85,20 @@ series: tech-event
 3. 如何定義 **階段性目標**? 何謂做完? Priority? 使用如 DSOMM 成熟度模型? => 使用即可
 4. [Microsoft Defender for Cloud](https://learn.microsoft.com/zh-tw/azure/defender-for-cloud/defender-for-cloud-introduction) 整合 Dashboard, 拼上最後一塊拼圖。Sec team 可以直接在此看完整儀表版進行管理。
 
-### 可觀測性 (Observability) 鏈路追蹤的實踐
+### 4. 可觀測性 (Observability) 鏈路追蹤的實踐
 
 > MAYO 鼎恒數位科技總監 董淳吉 Marcus Tung
 
 1. DevOpsDay Taipei 2022 共筆: [可觀測性 (Observability) 的實踐](https://hackmd.io/6A1z7CHrTrOlHjVdti_ywQ)
 
-### GitHub Copilot 與 Visual Studio Code 實戰解析
+### 5. GitHub Copilot 與 Visual Studio Code 實戰解析
 
 > 多奇數位創意有限公司 技術總監 黃保翕 (Will 保哥)
 
 1. 追蹤[保哥的 facebook](https://www.facebook.com/will.fans) 就可以知道最新資訊啦!
 2. 重點: 如果你寫的 Code 讓 GitHub Copilot 看不懂的話, 先自我檢討!
 
-### 如何運用 ChatGPT 徹底解放 SRE
+### 6. 如何運用 ChatGPT 徹底解放 SRE
 
 > twMVC 劉書傳 Roberson Liou
 
@@ -110,7 +110,7 @@ series: tech-event
 3. 透過 Pair 快速迭代
 4. Text > Mermaid Diagram > Terraform
 
-### SRE 客戶實戰分享
+### 7. SRE 客戶實戰分享
 
 > 趨勢科技 SRE 高級經理 羊輝
 
@@ -139,4 +139,4 @@ series: tech-event
 
 ### Murmur
 
-* 2023-03-31: DevOps / SRE / Platform Engineering 一家親
+* 2023-03-31: DevOps / SRE / Platform Engineering 一家親。感觸蠻深的是 Observability 我自己從 2021 就開始推，但成效也不是太好。果然還是需要更多磨練啊~~
