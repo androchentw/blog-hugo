@@ -27,7 +27,9 @@ series: blog
 
 🤔 Q: 你希望獲得什麼知識?
 
-[2023-04-01 ProgramMur 程序猿碎念 - 技術分享 Redefine 問卷](https://forms.gle/Q27RermYuEAQr5GC6)
+👉 [2023-04-01 ProgramMur 程序猿碎念 - 技術分享 Redefine 問卷](https://forms.gle/Q27RermYuEAQr5GC6)
+
+這個問卷暫時不打算設定期限，歡迎隨時有想法再來交流！
 
 <!--more-->
 
