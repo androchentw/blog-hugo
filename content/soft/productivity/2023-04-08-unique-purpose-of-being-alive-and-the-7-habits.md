@@ -107,17 +107,17 @@ Goal Setting 很重要: OKR + Measurement
 
 > What is your Dream?
 
-Q: 我的個人悼文 = ?
+Q: 我的個人悼文 = ? 2023-04-03 版:
 
-1. 夢想: create value by delivering user-friendly products to fulfill people's imagination of the future.
+1. 夢想: Create value by delivering user-friendly products to fulfill people's imagination of the future.
 2. 會希望別人怎麼形容詞
-   1. Passionate 熱情
-   2. Innovative 創新
-   3. Cogitative / Think Deep / Strategic/ 思想領袖 捷思
-3. 角色
-   1. Advocate
-   2. Evangelist
-   3. Coach
+   1. 熱情 Passionate
+   2. 創新 Innovative
+   3. 深思 Cogitative / Think Deep / Strategic
+3. 會希望成為哪種角色
+   1. 提倡者 Advocate
+   2. 佈道者 Evangelist
+   3. 教練 Coach
 
 ## 你怎麼看?
 
