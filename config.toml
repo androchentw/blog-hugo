@@ -17,10 +17,11 @@ metaDataFormat = "yaml"
 disqusShortname = "androchenblog"
 googleAnalytics = "G-PN5YM4PWN6"
 enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
 
 hasCJKLanguage = true
 summaryLength = 70
-
 
 [Params]
   # Explore Tech Journey
