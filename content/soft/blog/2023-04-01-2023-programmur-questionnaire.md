@@ -10,11 +10,11 @@ categories:
   - soft
 tags: 
   - blog
-share_img: https://github.com/androchentw/blog-hugo/blob/master/blog-cover-yume.JPG?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true
 series: blog
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/blog-cover-yume.JPG?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
 <p align="center"><sub><sup>
   京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
 </sup></sub></p>
