@@ -10,11 +10,11 @@ categories:
 tags: 
   - tech-event
   - devops
-share_img: https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/tiapei-Bevy-EventThumb%402x.png
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-12-10-chatgpt-applied-ai-reflection-cover.webp?raw=true
 series: tech-event
 ---
 
-<img style="width:40%;" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/tiapei-Bevy-EventThumb%402x.png">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-12-10-chatgpt-applied-ai-reflection-cover.webp?raw=true">
 
 ## Overview 概述
 
