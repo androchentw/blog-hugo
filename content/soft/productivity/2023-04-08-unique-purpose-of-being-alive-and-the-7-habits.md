@@ -51,21 +51,21 @@ series: productivity
 
 ### A. 個人 (Private Victory)
 
-1. 主動積極 (Be Proactive): 擴大影響力
+1. **主動積極** (Be Proactive): 擴大影響力
    1. (改變現況, X 被害者心態)
-2. 以終為始 (Begin with the end in mind): 釐清人生定位
+2. **以終為始** (Begin with the end in mind): 釐清人生定位
    1. (Bucket List)
    2. Goal-oriented, OKR
-3. Prioritize 要事第一 (Put First Things first): 找到目標與方法
-   1. (重要 > 緊急)
+3. **要事第一** (Put First Things first): 找到目標與方法
+   1. Prioritize (重要 > 緊急)
 
 ### B. 團體 (Public Victory)
 
-1. 雙贏思維 (Think Win-Win): 創造最大價值
-2. 知彼解己 (seek first to understand then to be understood): 維繫人際和諧
+1. **雙贏思維** (Think Win-Win): 創造最大價值
+2. **知彼解己** (seek first to understand then to be understood): 維繫人際和諧
    1. (信任 同理 傾聽 共情; 而不是一開始就給建議)
    2. empathy
-3. Synergize 統合綜效: 化解衝突、找到出路
+3. **統合綜效** (Synergize): 化解衝突、找到出路
    1. (1+1 > 2)
 
 ### C. 不斷更新 (Sharpen the saw): 改變自己與他人的人生
