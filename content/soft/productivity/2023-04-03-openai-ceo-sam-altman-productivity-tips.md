@@ -23,6 +23,7 @@ series: productivity
 2018-04-11，將近 5 年前的今天 OpenAI CEO Sam Altman 在其 blog 發布了一篇關於[生產力 - Productivity](https://blog.samaltman.com/productivity) 的文章。一起來看看這位傳奇人物的秘訣吧。
 
 🤔 Q: 生產力對你的意義是什麼? 如何進一步提升自己的生產力?
+
 💪 A: 條列生產力提升的 5 大實踐。
 
 <!--more-->
