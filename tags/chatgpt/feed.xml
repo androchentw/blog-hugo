@@ -3,7 +3,7 @@
 &lt;p align="center">&lt;sub>&lt;sup>
 自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0
 &lt;/sup>&lt;/sub>&lt;/p>
-&lt;p>2023-03-31 &lt;a href="https://www.bytebase.com/blog/sql-chat">bytebase 推出 SQL Chat&lt;/a>: 融合 SQL Client 與 Chatbot，可以使用自然語言提出數據庫問題和查詢數據庫。目前支持 MySQL, PostgreSQL。並且提供 &lt;a href="https://github.com/sqlchat/sqlchat">開源 GitHub Repo&lt;/a>，可以自建並連接本地 database。&lt;/p>
+&lt;p>2023-03-31 &lt;a href="https://www.bytebase.com/blog/sql-chat">bytebase 推出 SQL Chat&lt;/a>: 融合 SQL Client 與 Chatbot，可以使用自然語言提出資料庫問題和查詢資料庫。目前支持 MySQL, PostgreSQL。並且提供 &lt;a href="https://github.com/sqlchat/sqlchat">開源 GitHub Repo&lt;/a>，可以自建並連接本地 database。&lt;/p>
 &lt;p>非常推薦 Data Engineering, Data Science 甚至 Business Analysis 相關領域的朋友去 &lt;a href="https://www.sqlchat.ai/">SQL Chat 線上環境&lt;/a>玩一玩。&lt;/p>
 &lt;p>我想從兩個層面，結合紅杉資本(Sequoia Capital) 提到的 &lt;a href="https://www.sequoiacap.com/article/ai-powered-developer-tools/">Developer Tools 2.0&lt;/a>，以及最近的職場觀察，探究更深一層的開發者體驗議題。&lt;/p>
 &lt;p>🤔 Q:&lt;/p>
