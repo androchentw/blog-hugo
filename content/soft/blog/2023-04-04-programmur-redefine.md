@@ -1,7 +1,7 @@
 ---
 draft: true
-title: "2023 ProgramMur 程序猿碎念 - 技術分享 Redefine 問卷"
-url: /2023-programmur-redefine
+title: "ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報"
+url: /programmur-redefine-newsletter
 # date: 2023-04-01T08:00:00+08:00
 date: 2023-04-03T09:00:00+08:00
 author: androchentw
@@ -19,35 +19,13 @@ series: blog
   京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
 </sup></sub></p>
 
-2023-04-01 原本想在愚人節發布的一千個期待。
+2023-04-04 原本想在愚人節發布的一千個期待。
 
 最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。文中也總結了一下我對於這個 blog 的定位，以及預期會 cover 到的內容。有任何回饋或想法 歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
 
 🤔 Q: 你希望獲得什麼知識?
 
-👉 [2023-04-01 ProgramMur 程序猿碎念 - 技術分享 Redefine 問卷](https://forms.gle/Q27RermYuEAQr5GC6)
-
-這個問卷暫時不打算設定期限，歡迎隨時有想法再來交流！
-
 <!--more-->
-
-## 問卷題目
-
-1. 你從什麼議題/文章開始看到, 並關注 ProgramMur? (可多選)
-   1. AI 相關 (AIGC, ChatGPT, ...)
-   2. 軟工相關 (Agile, SRE, DevOps, Platform Engineering, ...)
-   3. Business 商業相關 (OKR, Productivity, Reflection 省思...)
-   4. Life 生活相關 (旅遊,  咖啡, ...)
-2. 你希望看到更多什麼類型的內容? (可多選)
-   1. AI 相關 (AIGC, ChatGPT, ...)
-   2. 軟工相關 (Agile, SRE, DevOps, Platform Engineering, ...)
-   3. Business 商業相關 (OKR, Productivity, Reflection 省思...)
-   4. Life 生活相關 (旅遊,  咖啡, ...)
-3. 什麼樣的內容或方式能讓你更好吸收? (可多選)
-   1. 短圖文總結 (少於 500 字)
-   2. 長圖文解析 (多於 1500 字)
-   3. 短音訊 (少於 10 分鐘)
-   4. 短影音 (少於 10 分鐘)
 
 ## ProgramMur 的特色定調
 
@@ -69,9 +47,30 @@ series: blog
 | 深: 深思剖析 | 深入淺出, 圖解脈絡 |
 | 廣: 輕鬆分享 | 靈感/巧思 |
 
+## 電子報
+
+原創文章會以電子報寄出:
+
+1. 每週 1 ~ 2 期電子報
+2. 電子報長度以 3000 字左右，6 分鐘內可閱讀完的長度
+
+## 一些話
+
+1. 我看到什麼
+2. 你能吸收到什麼
+3. 我們能一起多想到什麼
+4. 本質上就是一個科技遊記 碎唸觀點
+5. 大量連結
+6. 已經很多了 為什麼還要一個
+7. AI 輔助下更多的文章，我想要走得更遠 留下我自己的足跡
+8. 就像去旅遊 不會只想要拍照打卡，還想要感嘆一兩句。那些就是活著的證明
+9. 我們在職場上常被問 insight. 你的洞察是什麼。即是說，眼前觀察到的是事實（一水杯 300 ml 裝了水150ml），但你看到了什麼？想說的是什麼？ （只剩半杯 還有半杯）
+10. 選擇的那個觀點 即是平行宇宙中 能夠形塑我們人格的自我
+11. 我以前都會寫的日記裡面，但是那個塵封很久不會有什麼改變他就變成說可能寫出來
+
 ## Logo Design
 
-上週心血來潮也用 [namecheap](https://www.namecheap.com/logo-maker/) 免費玩了一下 logo design
+上週心血來潮也用 [namecheap](https://www.namecheap.com/logo-maker/) 免費玩了一下 logo design。但其實做完有一種原本比較有特色的感覺 🤣
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
