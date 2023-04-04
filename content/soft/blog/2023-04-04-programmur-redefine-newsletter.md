@@ -54,12 +54,12 @@ series: blog
 1. 每週 1 ~ 2 期電子報
 2. 電子報長度以 3000 字左右，6 分鐘內可閱讀完的長度
 
-目前還在各種嘗試合適的 solution，有進一步心得也會再分享出來
+目前還在各種嘗試合適的 solution，有進一步心得也會再分享出來。
 
-1. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. 免費版 2,500 訂閱
-2. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love. 免費版 1,000 訂閱
-3. [converterkit](https://convertkit.com): The creator marketing platform. 免費版 300 訂閱
-4. [substack](https://substack.com/): A new model for publishing. 另一個可以送 email 的付費訂閱平台; 跟 medium, ghost 比較像一點
+1. [substack](https://substack.com/): A new model for publishing. 另一個可以送 email 的付費訂閱平台; 跟 medium, ghost 比較像一點。目前選用這個
+2. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. 免費版 2,500 訂閱
+3. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love. 免費版 1,000 訂閱
+4. [converterkit](https://convertkit.com): The creator marketing platform. 免費版 300 訂閱
 
 ## 從觀點到洞見 From Point of View to Insight
 
