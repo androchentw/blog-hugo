@@ -1,9 +1,9 @@
 ---
 draft: true
 title: "自然語言查詢 SQL Client + Chatbot - 談開發者工具 2.0"
-url: /sqlchat-client-chatbot-developer-tool-2
+url: /sqlchat-client-chatbot-developer-tools-2
 # date: 2023-04-04T20:30:00+08:00
-date: 2023-04-05T16:30:00+08:00
+date: 2023-04-05T08:30:00+08:00
 author: androchentw
 type: post
 categories:
