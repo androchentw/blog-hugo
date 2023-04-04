@@ -21,7 +21,7 @@ series: blog
 
 2023-04-04 原本想在愚人節發布的一千個期待。
 
-最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。文中也總結了一下我對於這個 blog 的定位，以及預期會 cover 到的內容。有任何回饋或想法 歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
+最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
 
 🤔 Q: 你希望獲得什麼知識?
 
@@ -54,15 +54,22 @@ series: blog
 1. 每週 1 ~ 2 期電子報
 2. 電子報長度以 3000 字左右，6 分鐘內可閱讀完的長度
 
+目前還在各種嘗試合適的 solution，有進一步心得也會再分享出來
+
+1. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. 免費版 2,500 訂閱
+2. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love. 免費版 1,000 訂閱
+3. [converterkit](https://convertkit.com): The creator marketing platform. 免費版 300 訂閱
+4. [substack](https://substack.com/): A new model for publishing. 另一個可以送 email 的付費訂閱平台; 跟 medium, ghost 比較像一點
+
 ## 從觀點到洞見 From Point of View to Insight
 
-> Q: 已經很多了 為什麼還要一個
+> Q: 已經很多科技社群了，為什麼還要再一個?
 
-本質上就是一個科技遊記 碎唸觀點
+這裡本質上是一個**科技遊記**。一如我原本的命名，每一篇都像是我的碎唸觀點。再進一步思考，我認為想要達到的就是透過文章，釐清以下 3 件事:
 
-1. 我看到什麼
-2. 你能吸收到什麼
-3. 我們能一起多想到什麼
+1. I: 我看到什麼
+2. You: 你能吸收到什麼
+3. We: 我們能一起多想到什麼
 
 除了科技新知以外，我更想分享與討論「觀點、洞見」
 
@@ -72,9 +79,17 @@ series: blog
 
 AI 輔助下更多的文章，我想要走得更遠 留下我自己的足跡。就像去旅遊 不會只想要拍照打卡，還想要感嘆一兩句。那些就是活著的證明。
 
-## Logo Design
+## Brand Design
 
 上週心血來潮也用 [namecheap](https://www.namecheap.com/logo-maker/) 免費玩了一下 logo design。但其實做完有一種原本比較有特色的感覺 🤣
+
+最主要想分享的是，開始去註冊這些服務後，都會被問說「如何用一句話說明你的品牌」。借此機會，我也比較釐清了自己想做的，大概就是
+
+> Explore tech journey
+
+1. **Explore 探索**。保持新鮮與熱情看待這個日新月異的世界。
+2. **Tech 科技**。針對科技，其中也就包含了商業，生活，人生的成分。
+3. **Journey 旅程**。呼應遊記的說法，作為一個旅人，分享我的看法
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
