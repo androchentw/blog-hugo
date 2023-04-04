@@ -113,12 +113,12 @@ Bytebase 自己寫了一篇 blog 整裡了 [7 個 ChatGPT 增強的資料庫工�
 2. **流程分配不均**：如果你省略了測試，那麼你很可能會發現自己花了大量時間在除錯上。這不是因為 AI 不能幫你測試，而是因為你根本沒有進行測試（I don't always test my code, but when I do, I do it in production）。
 3. **抽象化思維不熟**：有時也不一定是 ChatGPT 除錯幫不上忙，而是因為你習慣單點式地「碰一題解一題」，而沒有嘗試去沈澱/理解最近碰到的，都是同一類問題。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-meme-hurry.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-meme-hurry.jpg?raw=true">
 <p align="center"><sub><sup>
   盲點1 流程理解不深: 專案太趕了所以我們沒空寫測試跟文件 (不良示範)
 </sup></sub></p>
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-meme-debug.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-meme-debug.jpg?raw=true">
 <p align="center"><sub><sup>
   盲點2 流程分配不均: 開發者的一天 = 99% 除錯 (不良示範)
 </sup></sub></p>
