@@ -45,7 +45,7 @@ Continuing previous post: [Agile Life](https://blog.androchen.tw/2021-agile-life
 1. [x] 2021-08 Learn from all [Atlassian ITSM topics](https://www.atlassian.com/itsm) and whitepapers
 2. [x] 2021-08 Establish Knowledge-Centered Service for users
 
-
+<!--more-->
 
 ## ITSM
 

@@ -26,7 +26,7 @@ series: tech-event
 * 「我們要解決什麼議題」「為什麼我們要現在處理這些事」
 * 聽得懂的案例與價值
 
-
+<!--more-->
 
 ### Target Audience 目標受眾
 

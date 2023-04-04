@@ -33,7 +33,7 @@ series: security
 
 * [x] 2022-10-14 參與並完成 workshop 內容, 整理筆記
 
-
+<!--more-->
 
 ## Materials
 

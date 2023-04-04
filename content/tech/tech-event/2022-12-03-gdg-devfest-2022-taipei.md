@@ -35,7 +35,7 @@ series: tech-event
 
 [GDG DevFest 2022 Taipei]: https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-2022-taipei/
 
-
+<!--more-->
 
 ### Objectives 目標 效益
 

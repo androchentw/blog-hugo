@@ -20,7 +20,7 @@ series: blog
 
 改用這套來重新建 [https://github.com/SNathJr/ghost-on-heroku](https://github.com/SNathJr/ghost-on-heroku)
 
-
+<!--more-->
 
 ---
 

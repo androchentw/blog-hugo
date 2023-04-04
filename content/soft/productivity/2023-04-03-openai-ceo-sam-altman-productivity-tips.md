@@ -24,7 +24,7 @@ series: productivity
 
 💪 A: 條列對你有幫助的生產力提升 5 大實踐。
 
-
+<!--more-->
 
 ## 總結
 

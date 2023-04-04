@@ -44,7 +44,7 @@ series: reflection
    3. 2021-09 我想跟你好好說話, 在乎別人，是對自己的情緒暴力
 2. 2021-12 Apply & record mind thoughts, practice meditation.
 
-
+<!--more-->
 
 ## Content
 

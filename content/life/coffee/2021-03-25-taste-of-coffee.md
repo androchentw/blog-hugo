@@ -18,7 +18,7 @@ series: coffee
 
 Ref: [風味輪](http://www.originkaffa.com/scaa-flavor-wheel-zh-tw/). 原文出處：scaa.org, 咖法森林中文翻譯版分享
 
-
+<!--more-->
 
 ### 香氣(Aroma)
 

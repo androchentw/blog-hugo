@@ -32,7 +32,7 @@ series: testing
 
 * [ ] 2022-09-09: 優化 [python-playground](https://github.com/androchentw/python-playground) 的目錄結構. 詳見 [Github - Python Playground](https://blog.androchen.tw/github-python-playground/)
 
-
+<!--more-->
 
 ## 開箱即用
 

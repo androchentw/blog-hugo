@@ -27,7 +27,7 @@ series: productivity
 * Common Pitfalls 常見的坑
   * 時間管理是手段，不是目的：花了太多時間與力氣在維護「管理時間」，但卻忘了最重要的是「有效率地交付」
 
-
+<!--more-->
 
 ### Objectives 目標 效益
 

@@ -23,7 +23,7 @@ series: tech-event
 
 透過參與 GitLab 跟 Google 的 event, 瞭解如何善用 GitLab 推動 DevOps。
 
-
+<!--more-->
 
 ## Content
 

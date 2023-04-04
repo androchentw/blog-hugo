@@ -18,7 +18,7 @@ Step by step Setup Hugo Blog
 
 終於從 ghost 搬來 Hugo 啦
 
-
+<!--more-->
 
 ## 1. Setup github page: project
 

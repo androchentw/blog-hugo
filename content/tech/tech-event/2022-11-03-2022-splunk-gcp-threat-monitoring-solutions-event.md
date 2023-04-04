@@ -26,7 +26,7 @@ series: tech-event
 * GCP x Splunk GDI 實作演練
 * 數位轉型 Day 0 - 打造混合多雲 IT 治理基礎
 
-
+<!--more-->
 
 ### Target Audience 目標受眾
 

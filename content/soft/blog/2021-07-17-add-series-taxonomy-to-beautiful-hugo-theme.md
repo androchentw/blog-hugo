@@ -34,7 +34,7 @@ series: blog
 
 1. [x] 2021-07 Implement `Series` feature on Hugo blog theme
 
-
+<!--more-->
 
 ## Content
 

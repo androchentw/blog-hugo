@@ -35,7 +35,7 @@ series: reflection
 [Agile Summit 2022 敏捷高峰盛會]: https://blog.androchen.tw/agile-summit-2022/
 [DevOpsDays Taipei 2022]: https://blog.androchen.tw/devopsdays-taipei-2022/
 
-
+<!--more-->
 
 ## 1 出遊是為了自由, 回歸是為了自我
 
