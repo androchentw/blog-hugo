@@ -40,7 +40,7 @@ series: testing
 
 1. [x] 2022-08/E 初版完成。
 
-<!--more-->
+
 
 ## Content
 

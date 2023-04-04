@@ -41,7 +41,7 @@ series: aigc
    6. 加密貨幣智能合約
 2. 💡 科幻哲思 + 💰 疾速成長的知識演進, 衍生的經濟資產分配與存取
 
-<!--more-->
+
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-mindmap.png?raw=true">
 <p align="center"><sub><sup>

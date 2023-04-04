@@ -42,7 +42,7 @@ series: tool
 * Moshi VersaCover for iPad Air 莎瓦納米色
 * 先不貼膜的原因: 在猶豫 玻璃膜 跟 類紙膜, 不過還是想先裸機用一陣子再說
 
-<!--more-->
+
 
 ## Software 軟體
 

@@ -37,7 +37,7 @@ series: productivity
 
 ### KRs 結果 解法
 
-<!--more-->
+
 
 ## Content
 

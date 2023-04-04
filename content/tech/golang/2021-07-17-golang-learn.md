@@ -40,7 +40,7 @@ series: golang
 1. [ ] 2021-08 Complete [Go by Example](https://gobyexample.com/) and get familiar with VS Code extensions.
 2. [ ] 2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.
 
-<!--more-->
+
 
 ## More about Why Golang
 

@@ -35,7 +35,7 @@ series: technical-writing
 
 1. [x] 2022-08-22 學習技術寫作技巧
 
-<!--more-->
+
 
 ## 技術寫作技巧
 

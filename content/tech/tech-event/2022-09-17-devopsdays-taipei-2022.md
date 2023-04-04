@@ -59,7 +59,7 @@ series: tech-event
 * 瞭解為何 DevOps 重要
 * 瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏
 
-<!--more-->
+
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-09-17-devopsdays-taipei-2022-mindmap.png?raw=true">
 <p align="center"><sub><sup>

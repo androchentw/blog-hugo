@@ -32,7 +32,7 @@ series: chatbot
 
 * [ ] 2022-10-16 MVP local discord bot
 
-<!--more-->
+
 
 ## Materials
 

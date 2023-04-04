@@ -29,7 +29,7 @@ series: aigc
 
 從 RPG 遊戲 及 陰陽師言靈式神, 連結 Prompt 作為知識驅動的咒語, 讓我們開啟一段天馬行空的幻想 🧙
 
-<!--more-->
+
 
 ## Productivity Revolution 生產力革命
 

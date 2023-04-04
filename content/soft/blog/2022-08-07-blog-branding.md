@@ -34,7 +34,7 @@ series: blog
 
 1.[x]  2022-08-07 建立文章分類架構圖
 
-<!--more-->
+
 
 ## Conclusion
 

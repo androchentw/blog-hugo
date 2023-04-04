@@ -25,7 +25,7 @@ series: okr
 
 除了設定 [OKR](https://blog.androchen.tw/okr-weekdone) 之外, 先釐清 Value Proposition 會是一個好選擇
 
-<!--more-->
+
 
 ## Guide
 

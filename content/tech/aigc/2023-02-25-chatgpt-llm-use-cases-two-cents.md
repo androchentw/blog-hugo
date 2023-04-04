@@ -31,7 +31,7 @@ series: aigc
 
 正好也延續在前一篇 [ChatGPT 如何協助人類? 應用 AI 與科幻哲思](https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection) 之後, 來個 3 個月使用心得
 
-<!--more-->
+
 
 ## Use Cases by Role
 

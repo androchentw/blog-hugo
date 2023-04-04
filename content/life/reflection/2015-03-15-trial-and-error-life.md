@@ -27,7 +27,7 @@ series: reflection
 * ~~[台大電機系大學部實習資訊網](http://cc.ee.ntu.edu.tw/~eeintern/course2015.html) 上面還有其他當天的講者的投影片~~ (連結已失效)
 * (2022-09-25) 7年半後的我: [Finding My Ikigai 生き甲斐 - 生存的價值與人生意義](https://blog.androchen.tw/finding-my-ikigai)
 
-<!--more-->
+
 
 ---
 

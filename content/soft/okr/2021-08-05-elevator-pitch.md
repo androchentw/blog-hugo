@@ -40,7 +40,7 @@ series: okr
 
 1. [x] 2021-12 Consciously practice elevator pitch in every weekly meeting planning items
 
-<!--more-->
+
 ## Elevator Pitch
 
 * [Elevator Pitch | Atlassian Team Playbook](https://www.atlassian.com/team-playbook/plays/elevator-pitch)
