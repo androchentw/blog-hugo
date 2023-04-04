@@ -24,6 +24,7 @@ series: blog
 最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容，並嘗試推出[免費電子報](https://programmur.substack.com/)。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
 
 🤔 Q: 你希望獲得什麼知識?
+
 💪 A: 歡迎訂閱[電子報](https://programmur.substack.com/)!
 
 <!--more-->
