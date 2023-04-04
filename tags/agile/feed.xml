@@ -1,1 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>agile on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/agile/</link><description>Recent content in agile on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 02 Sep 2022 15:34:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/agile/feed.xml" rel="self" type="application/rss+xml"/><item><title>Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值</title><link>https://blog.androchen.tw/agile-summit-2022/</link><pubDate>Fri, 02 Sep 2022 15:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/agile-summit-2022/</guid><description>Overview 同場加映: DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品 Why 為什麼要敏捷 應變 Uncertainty 不確定性 (需求, User, 環境, &amp;hellip;) 痛點 = 交付週期長, 重工的浪費</description></item><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>Overview Continuing previous post: Agile Life, let&amp;rsquo;s dive deeper into a series of ITSM methodologies and products proposed by Atlassian, with a view to applying them in work and life to further enhance productivity and narrative skills. Challenges Profile: Data Engineer + Operations Administrator Jobs Provisioning and troubleshooting data pipeline, visualization and monitoring Collaborate with other developers and administrators Pains Repeated or similar questions Long communication time to do situation</description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>Overview 使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>agile on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/agile/</link><description>Recent content in agile on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 02 Sep 2022 15:34:16 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/agile/feed.xml" rel="self" type="application/rss+xml"/><item><title>Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值</title><link>https://blog.androchen.tw/agile-summit-2022/</link><pubDate>Fri, 02 Sep 2022 15:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/agile-summit-2022/</guid><description>&lt;img style="width:60%;" src="https://agile.ithome.com.tw/2022/img/kv-txt.svg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>同場加映: &lt;a href="https://blog.androchen.tw/devopsdays-taipei-2022/">DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Why 為什麼要敏捷
+&lt;ul>
+&lt;li>應變 Uncertainty 不確定性 (需求, User, 環境, &amp;hellip;)&lt;/li>
+&lt;li>痛點 = 交付週期長, 重工的浪費&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>How 如何敏捷
+&lt;ul>
+&lt;li>小增量, 多迭代, 尋求回饋 =&amp;gt; 持續交付價值&lt;/li>
+&lt;li>「趕快錯, 趕快做, 趕快改」&lt;/li>
+&lt;li>持續學習&lt;/li>
+&lt;li>分析 價值流 &amp;amp; 產品開發週期&lt;/li>
+&lt;li>工具流程面上搭配 DevOps&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Common Pitfalls 常見的坑
+&lt;ul>
+&lt;li>為敏捷而敏捷 =&amp;gt; 敏捷是手段, 不是目的&lt;/li>
+&lt;li>你的敏捷不是我的敏捷 =&amp;gt; 積極討論, 尋求共識&lt;/li>
+&lt;li>處理如何規模化的議題 (Agile at scale)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>精選內容
+&lt;ul>
+&lt;li>&lt;a href="https://perryliu7106.home.blog/2022/08/31/%E5%AF%A6%E8%B8%90-devsecops%E7%9A%84%E9%97%9C%E9%8D%B5%E5%BF%83%E6%B3%95">實踐DevSecOps的關鍵心法 - 當數位轉型遇見資訊安全&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://hackmd.io/@twdeveloper/rJM2NAByj">敏捷導入的挑戰、限制、與解藥&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ruddyblog.wordpress.com/">Developer eXperience 開發者體驗即學習 - RUDDY LEE 分享空間&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
+&lt;ul>
+&lt;li>需求變動快速, 如何快速應對?&lt;/li>
+&lt;li>專案開發/實作/推廣過程, 尚未形成足夠敏捷的交付模式&lt;/li>
+&lt;/ul>
+&lt;h3 id="objectives-目標-效益">Objectives 目標 效益&lt;/h3>
+&lt;ul>
+&lt;li>Project Management: 透過參考業界經驗, 建立專案管理方法, 使專案的實作與推廣過程, 可以更敏捷&lt;/li>
+&lt;li>Delivery Speed &amp;amp; Quality: 提升交付速度, 縮短交付週期&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs-結果-解法">KRs 結果 解法&lt;/h3>
+&lt;ul>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解實戰推動手法 + 懶人包 =&amp;gt; 都需要視情況調整&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解為何敏捷重要&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解如何在企業裡導入敏捷, 交付價值, 彈性拿捏&lt;/li>
+&lt;/ul></description></item><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Continuing previous post: &lt;a href="https://blog.androchen.tw/2021-agile-life/">Agile Life&lt;/a>, let&amp;rsquo;s dive deeper into a series of ITSM methodologies and products proposed by &lt;a href="https://www.atlassian.com/itsm">Atlassian&lt;/a>, with a view to applying them in work and life to further enhance productivity and narrative skills.&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: Data Engineer + Operations Administrator&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Provisioning and troubleshooting data pipeline, visualization and monitoring&lt;/li>
+&lt;li>Collaborate with other developers and administrators&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Pains
+&lt;ol>
+&lt;li>Repeated or similar questions&lt;/li>
+&lt;li>Long communication time to do situation analysis&lt;/li>
+&lt;li>Hard to find thorough SOP or agile workflow&lt;/li>
+&lt;li>Hard to prioritize ad-hoc tasks&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Gains
+&lt;ol>
+&lt;li>Single source of truth&lt;/li>
+&lt;li>Organized knowledge base, working documents&lt;/li>
+&lt;li>Unified way to handle similar incidents&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Build smart and modern IT Service Management and cultivate mindset with team&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Learn from all &lt;a href="https://www.atlassian.com/itsm">Atlassian ITSM topics&lt;/a> and whitepapers&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Establish Knowledge-Centered Service for users&lt;/li>
+&lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好練習!&lt;/p>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>Profile: My Life&lt;/li>
+&lt;li>Jobs
+&lt;ol>
+&lt;li>Personal Development&lt;/li>
+&lt;li>Get Things Done&lt;/li>
+&lt;li>Discipline - Plan &amp;amp; Execution&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Pains
+&lt;ol>
+&lt;li>Slipped: Schedule delayed or didn&amp;rsquo;t finished as expected&lt;/li>
+&lt;li>Fast-paced: Things changes&lt;/li>
+&lt;li>Lazy: Too much reference links/articles = Won&amp;rsquo;t read&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Gains
+&lt;ol>
+&lt;li>Sense of Control&lt;/li>
+&lt;li>Sense of Accomplishment: checklist check!&lt;/li>
+&lt;li>Daily Report Visibility: 昨今阻 Plan/Actual&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>Achieve easier to estimate and more precise life project management with time tracking report&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs">KRs&lt;/h3>
+&lt;ol>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-07 Improve time management (visibility &amp;gt; 80%) and improve productivity (+20%) by integrating Clockify + Jira.&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Get familiar with Jira integration and reports to get more insight.&lt;/li>
+&lt;/ol></description></item></channel></rss>

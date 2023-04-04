@@ -1,1 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>reflection on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/reflection/</link><description>Recent content in reflection on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 19 Mar 2023 14:30:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/reflection/feed.xml" rel="self" type="application/rss+xml"/><item><title>AIGC 浪潮翻騰 15 週後的 6 大行為改變</title><link>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</link><pubDate>Sun, 19 Mar 2023 14:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</guid><description>AIGC 浪潮翻騰 15 週後的 6 大行為改變 Overview 概述 AIGC 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週. 我總結了 6 大行為改變, 你也&amp;rsquo;用&amp;rsquo;起來了嗎? ⚡</description></item><item><title>如何善用 AI 加速知識循環</title><link>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</link><pubDate>Mon, 27 Feb 2023 11:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</guid><description>Productivity Revolution 生產力革命 Overview 概述 從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 &amp;ldquo;左右互搏術&amp;rdquo; 的厲害之處, 在於能在 &amp;ld</description></item><item><title>寫在 ChatGPT 使用 3 個月後的淺見與用例分享</title><link>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</link><pubDate>Sat, 25 Feb 2023 17:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</guid><description>MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4 Overview 概述 要說為什麼最近這麼關注 AIGC / ChatGPT / LLM 百家爭鳴: 最近趨勢與應用如雨後春筍般地冒出 良好體驗: 不只是 buzz word, 而是真的能</description></item><item><title>ChatGPT 如何協助人類? 應用 AI 與科幻哲思</title><link>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</link><pubDate>Sat, 10 Dec 2022 14:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</guid><description>Photo by Aman Pal on Unsplash Overview 概述 (2022-12-16 23:10 持續更新實例分享與 GitHub 開源整合工具) 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (</description></item><item><title>Finding My Ikigai 生き甲斐 - 生存的價值與人生意義</title><link>https://blog.androchen.tw/finding-my-ikigai/</link><pubDate>Sun, 25 Sep 2022 12:51:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/finding-my-ikigai/</guid><description>0 Ikigai 生き甲斐 此圖為轉載自 ikigai 日式哲學。如需轉載請先詢問 理想生活設計 ikigai 日式哲學 | 理想生活設計 Ikigai 生き甲斐 是我非常喜歡，甚至可以說是奉為圭臬的精神。</description></item><item><title>Mental Toughness</title><link>https://blog.androchen.tw/mental-toughness/</link><pubDate>Sun, 11 Jul 2021 12:41:05 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/mental-toughness/</guid><description>Overview Challenges 自評低分, 想要加強. (阿里巴巴人才管理聖經 人才畫像 2021-07-09) 高壓力狀況下常無法發揮自己 100% 能力 常覺得委屈, 不平 不擅長處理爭執, 迴避 Objectives 強化 情緒管理/</description></item><item><title>人生就是不停地試誤？我們都太怕犯錯</title><link>https://blog.androchen.tw/trial-and-error-life/</link><pubDate>Sun, 15 Mar 2015 16:00:00 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/trial-and-error-life/</guid><description>3/11 禮拜三的時候回去台大電機系「大學部實習專題課程」演講，分享關於當初在實習的一些經驗與想法之後，回來之後覺得有很多延伸的思考。如果你是符合以</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>reflection on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/reflection/</link><description>Recent content in reflection on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Sun, 19 Mar 2023 14:30:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/reflection/feed.xml" rel="self" type="application/rss+xml"/><item><title>AIGC 浪潮翻騰 15 週後的 6 大行為改變</title><link>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</link><pubDate>Sun, 19 Mar 2023 14:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+AIGC 浪潮翻騰 15 週後的 6 大行為改變
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>AIGC 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
+我總結了 6 大行為改變, 你也&amp;rsquo;用&amp;rsquo;起來了嗎?&lt;/p>
+&lt;ol>
+&lt;li>⚡ 快! &amp;ldquo;變化速度&amp;rdquo; 全球加劇. 「世界怎麼突然變化那麼快?」&lt;/li>
+&lt;li>📚 變! &amp;ldquo;知識循環&amp;rdquo; 行為改變. 「世界每天都在變, 與我何干?」&lt;/li>
+&lt;li>✋ 問! &amp;ldquo;精準提問&amp;rdquo; 將成關鍵能力. 「我要如何進一步加速知識循環?」&lt;/li>
+&lt;li>🤖 轉! &amp;ldquo;數位化&amp;rdquo; 是大前提. 「可是還有很多現實領域都還沒辦法運用呀?」&lt;/li>
+&lt;li>♾️ 用! &amp;ldquo;運用場景&amp;rdquo; 落地產生效益. 「我記不住這麼多東西, 怎麼辦?」&lt;/li>
+&lt;li>💡 思! &amp;ldquo;想像力&amp;rdquo; 是我們的超能力. 「What&amp;rsquo;s your dream? 」&lt;/li>
+&lt;/ol></description></item><item><title>如何善用 AI 加速知識循環</title><link>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</link><pubDate>Mon, 27 Feb 2023 11:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Productivity Revolution 生產力革命
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 &amp;ldquo;左右互搏術&amp;rdquo; 的厲害之處, 在於能在 &amp;ldquo;精神時光屋&amp;rdquo; 中與自己對練, 越練越強; 而循環次數就會是關鍵。&lt;/p>
+&lt;p>在 ChatGPT 走紅之後, 各種應用更是大爆發。如何加速知識循環, 協助我們提高生產力?&lt;/p>
+&lt;p>從 RPG 遊戲 及 陰陽師言靈式神, 連結 Prompt 作為知識驅動的咒語, 讓我們開啟一段天馬行空的幻想 🧙&lt;/p></description></item><item><title>寫在 ChatGPT 使用 3 個月後的淺見與用例分享</title><link>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</link><pubDate>Sat, 25 Feb 2023 17:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>要說為什麼最近這麼關注 AIGC / ChatGPT / LLM&lt;/p>
+&lt;ol>
+&lt;li>百家爭鳴: 最近趨勢與應用如雨後春筍般地冒出&lt;/li>
+&lt;li>良好體驗: 不只是 buzz word, 而是真的能夠協助提升生產力&lt;/li>
+&lt;li>工作需求: 公司內部也在探索是否有適合的場景能落地&lt;/li>
+&lt;/ol>
+&lt;p>正好也延續在前一篇 &lt;a href="https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection">ChatGPT 如何協助人類? 應用 AI 與科幻哲思&lt;/a> 之後, 來個 3 個月使用心得&lt;/p></description></item><item><title>ChatGPT 如何協助人類? 應用 AI 與科幻哲思</title><link>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</link><pubDate>Sat, 10 Dec 2022 14:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-cover.jpeg?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@paman0744?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aman Pal&lt;/a> on &lt;a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>(2022-12-16 23:10 持續更新實例分享與 GitHub 開源整合工具)&lt;/p>
+&lt;p>上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:&lt;/p>
+&lt;ul>
+&lt;li>應用 AI: 一來彙整目前見到各種有趣應用與想法&lt;/li>
+&lt;li>科幻哲思: 二來胡思亂想關於科幻未來的發展，拋磚引玉&lt;/li>
+&lt;/ul>
+&lt;h3 id="chatgpt-一週心得---未臻完美-十分堪用-指日可待">ChatGPT 一週心得 - 未臻完美, 十分堪用, 指日可待&lt;/h3>
+&lt;ol>
+&lt;li>🛫 加速思考凝聚 &amp;amp; 知識迭代 + 🌍 拓展知識疆界
+&lt;ol>
+&lt;li>抓重點, 寫計畫, 深思考 (Jira Epic &amp;gt; Story &amp;gt; Sub-Task)&lt;/li>
+&lt;li>🤖 程式碼優化 + 註解 + 測試, VSCode Plugin, VM&lt;/li>
+&lt;li>🗣️ 翻譯, 語言學習, 商業會話&lt;/li>
+&lt;li>🎨 AI 繪圖咒術師 - 自動生成圖片&lt;/li>
+&lt;li>角色扮演&lt;/li>
+&lt;li>加密貨幣智能合約&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>💡 科幻哲思 + 💰 疾速成長的知識演進, 衍生的經濟資產分配與存取&lt;/li>
+&lt;/ol></description></item><item><title>Finding My Ikigai 生き甲斐 - 生存的價值與人生意義</title><link>https://blog.androchen.tw/finding-my-ikigai/</link><pubDate>Sun, 25 Sep 2022 12:51:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/finding-my-ikigai/</guid><description>&lt;h2 id="0-ikigai-生き甲斐">0 Ikigai 生き甲斐&lt;/h2>
+&lt;img style="width:50%;" src="https://i.imgur.com/FjJRowq.png">
+&lt;p align="center">&lt;sub>
+此圖為轉載自 ikigai 日式哲學。如需轉載請先詢問 理想生活設計
+&lt;/sub>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://zoeyk.co/ikigai/">ikigai 日式哲學 | 理想生活設計&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Ikigai 生き甲斐&lt;/strong> 是我非常喜歡，甚至可以說是奉為圭臬的精神。&lt;/p>
+&lt;p>大概是從大學吧，就已經開始用這樣的方式去不停探索著自己想要的是什麼。
+雖然到現在還是很常懷疑人生就是了😂&lt;/p>
+&lt;p>最近在參加完兩場 &lt;a href="https://blog.androchen.tw/agile-summit-2022/">Agile Summit 2022 敏捷高峰盛會&lt;/a> 跟 &lt;a href="https://blog.androchen.tw/devopsdays-taipei-2022/">DevOpsDays Taipei 2022&lt;/a> Conference 後 ，實在是感觸良多，於是久違地直抒胸臆。&lt;/p>
+&lt;p>至於標題編號，除了是工程師都習慣從 0 開始的宅梗以外，&lt;strong>是原點也是起點&lt;/strong>。
+很感恩自己在這個關鍵的時間點上，遇到了很多好事，持續地小步前進。&lt;/p></description></item><item><title>Mental Toughness</title><link>https://blog.androchen.tw/mental-toughness/</link><pubDate>Sun, 11 Jul 2021 12:41:05 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/mental-toughness/</guid><description>&lt;img style="width:40%;" src="https://thethirdteam.co.uk/wp-content/uploads/2020/01/Anyone-Can-Blow-a-Whistle-%E2%80%93-But-Why-Mental-Toughness-Helps-You-Be-The-Best-Referee.png" />
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;h3 id="challenges">Challenges&lt;/h3>
+&lt;ol>
+&lt;li>自評低分, 想要加強. (阿里巴巴人才管理聖經 人才畫像 2021-07-09)&lt;/li>
+&lt;li>高壓力狀況下常無法發揮自己 100% 能力&lt;/li>
+&lt;li>常覺得委屈, 不平&lt;/li>
+&lt;li>不擅長處理爭執, 迴避&lt;/li>
+&lt;/ol>
+&lt;h3 id="objectives">Objectives&lt;/h3>
+&lt;ol>
+&lt;li>強化 情緒管理/韌性/溝通 (ETC)
+&lt;ol>
+&lt;li>E: 能正視且處理各種壓力狀況, 熟練運用各種技巧調節情緒, 沈著理性&lt;/li>
+&lt;li>T: 能承受高強度, 高密度工作量&lt;/li>
+&lt;li>C: 能積極傾聽, 換位思考&lt;/li>
+&lt;li>C: 善營造積極的溝通氣氛, 表述問題思路清晰, 富條理, 邏輯, 感染力&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="krs-how-measurable-result">KRs (How. Measurable Result.)&lt;/h3>
+&lt;ol>
+&lt;li>2021-09 Read &amp;gt; 3 books
+&lt;ol>
+&lt;li>2021-07 拒絕職場情緒耗竭, 正念減壓的訓練, , 僧人心態
+&lt;ol>
+&lt;li>✅ 2021-07-15~17 拒絕職場情緒耗竭&lt;/li>
+&lt;li>✅ 2021-07-24 正念減壓的訓練&lt;/li>
+&lt;li>🚀 2021-07-30~ 正念溝通&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>2021-08 真正無懼的身心防彈術, 你可以生氣，但不要越想越氣&lt;/li>
+&lt;li>2021-09 我想跟你好好說話, 在乎別人，是對自己的情緒暴力&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>2021-12 Apply &amp;amp; record mind thoughts, practice meditation.&lt;/li>
+&lt;/ol></description></item><item><title>人生就是不停地試誤？我們都太怕犯錯</title><link>https://blog.androchen.tw/trial-and-error-life/</link><pubDate>Sun, 15 Mar 2015 16:00:00 +0000</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/trial-and-error-life/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/jyAhD8g.jpg">
+&lt;p>3/11　禮拜三的時候回去台大電機系「大學部實習專題課程」演講，分享關於當初在實習的一些經驗與想法之後，回來之後覺得有很多延伸的思考。如果你是符合以下症狀的人：&lt;/p>
+&lt;ol>
+&lt;li>對於未來沒有任何想法&lt;/li>
+&lt;li>不知道自己除了唸書之外還能幹嘛&lt;/li>
+&lt;li>找不到目前做的事(工作/唸書)的意義&lt;/li>
+&lt;/ol>
+&lt;p>歡迎你花個 5 分鐘聽聽我的想法，並且發表你的想法(或是&lt;a href="mailto:androchentw@gmail.com">寄信給我&lt;/a>)，我會很樂意跟你討論！&lt;/p>
+&lt;ul>
+&lt;li>10 分鐘的投影片 -&lt;a href="http://www.slideshare.net/androchen/2015-0311-what-ive-learned-from-startups">What I&amp;rsquo;ve Learned From Startups&lt;/a>&lt;/li>
+&lt;li>&lt;del>&lt;a href="http://cc.ee.ntu.edu.tw/~eeintern/course2015.html">台大電機系大學部實習資訊網&lt;/a> 上面還有其他當天的講者的投影片&lt;/del> (連結已失效)&lt;/li>
+&lt;li>(2022-09-25) 7年半後的我: &lt;a href="https://blog.androchen.tw/finding-my-ikigai">Finding My Ikigai 生き甲斐 - 生存的價值與人生意義&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

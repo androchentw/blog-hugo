@@ -1,1 +1,91 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>chatgpt on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/chatgpt/</link><description>Recent content in chatgpt on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 31 Mar 2023 18:30:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/chatgpt/feed.xml" rel="self" type="application/rss+xml"/><item><title>台灣微軟研討會 - 應用創新起手式 - 打造化繁為簡的雲原生平台</title><link>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</link><pubDate>Fri, 31 Mar 2023 18:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</guid><description>台灣微軟微風信義 19F 辦公室 Overview 概述 03-31(五) 台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造企業的數位轉型與應用創新的基礎: 高效率、彈性</description></item><item><title>ChatGPT 實戰 - 3 招加速知識產出</title><link>https://blog.androchen.tw/chatgpt-knowledge-production/</link><pubDate>Sun, 26 Mar 2023 16:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-knowledge-production/</guid><description>ChatGPT Prompt 實戰 - 3 招加速知識生產 Overview 概述 🤖 相信大家已經開始運用 ChatGPT 與各種 AI 在輔助寫作，提高知識產出效率，快速完成一篇文章撰寫。在很多知識領域，完全可以</description></item><item><title>來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析</title><link>https://blog.androchen.tw/chatgpt-sre-postmortem/</link><pubDate>Sat, 25 Mar 2023 08:25:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-sre-postmortem/</guid><description>來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析 Overview 概述 ChatGPT 在美國時間 3/24(週五) 發布了新的一篇 blog，解釋 3/20(週一) ChatGPT 停機的來龍去脈。 每一次的</description></item><item><title>AIGC 浪潮翻騰 15 週後的 6 大行為改變</title><link>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</link><pubDate>Sun, 19 Mar 2023 14:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</guid><description>AIGC 浪潮翻騰 15 週後的 6 大行為改變 Overview 概述 AIGC 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週. 我總結了 6 大行為改變, 你也&amp;rsquo;用&amp;rsquo;起來了嗎? ⚡</description></item><item><title>如何善用 AI 加速知識循環</title><link>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</link><pubDate>Mon, 27 Feb 2023 11:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</guid><description>Productivity Revolution 生產力革命 Overview 概述 從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 &amp;ldquo;左右互搏術&amp;rdquo; 的厲害之處, 在於能在 &amp;ld</description></item><item><title>寫在 ChatGPT 使用 3 個月後的淺見與用例分享</title><link>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</link><pubDate>Sat, 25 Feb 2023 17:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</guid><description>MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4 Overview 概述 要說為什麼最近這麼關注 AIGC / ChatGPT / LLM 百家爭鳴: 最近趨勢與應用如雨後春筍般地冒出 良好體驗: 不只是 buzz word, 而是真的能</description></item><item><title>ChatGPT 如何協助人類? 應用 AI 與科幻哲思</title><link>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</link><pubDate>Sat, 10 Dec 2022 14:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</guid><description>Photo by Aman Pal on Unsplash Overview 概述 (2022-12-16 23:10 持續更新實例分享與 GitHub 開源整合工具) 上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>chatgpt on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/chatgpt/</link><description>Recent content in chatgpt on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 31 Mar 2023 18:30:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/chatgpt/feed.xml" rel="self" type="application/rss+xml"/><item><title>台灣微軟研討會 - 應用創新起手式 - 打造化繁為簡的雲原生平台</title><link>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</link><pubDate>Fri, 31 Mar 2023 18:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+台灣微軟微風信義 19F 辦公室
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>03-31(五) 台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造&lt;a href="https://showroom.ithome.com.tw/public/ms0331/index.html">企業的數位轉型與應用創新&lt;/a>的基礎: 高效率、彈性靈活且安全的雲原生平台，為企業帶來更多&lt;strong>競爭力與生產力提升&lt;/strong>。&lt;/p>
+&lt;p>今天談得多半是 fundamental 的部分，但是也算是一個 overview 了。若你也是 Dev 軟體工程師, 或 IT Ops 相關從業人員，從來沒接觸過類似概念，蠻推薦瞭解這些關鍵字。&lt;/p>
+&lt;p>🤔 Q: IT 現代化與我們的開發維運團隊有何關聯?&lt;/p></description></item><item><title>ChatGPT 實戰 - 3 招加速知識產出</title><link>https://blog.androchen.tw/chatgpt-knowledge-production/</link><pubDate>Sun, 26 Mar 2023 16:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-knowledge-production/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+ChatGPT Prompt 實戰 - 3 招加速知識生產
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>🤖 相信大家已經開始運用 ChatGPT 與各種 AI 在輔助寫作，提高知識產出效率，快速完成一篇文章撰寫。在很多知識領域，完全可以算是一種典範轉移 (Paradigm Shift) 了。&lt;/p>
+&lt;p>📝 先前總結了 &lt;a href="https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks">AIGC 浪潮翻騰 15 週後的 6 大行為改變&lt;/a>。這次，我剖析自己寫作過程的 4 大階段:&lt;/p>
+&lt;ol>
+&lt;li>思: 想法&lt;/li>
+&lt;li>骨: 大綱&lt;/li>
+&lt;li>肉: 子題內容&lt;/li>
+&lt;li>皮: 潤飾&lt;/li>
+&lt;/ol>
+&lt;p>來探討如何加速知識生產。針對不同的情境，分而治之。&lt;/p></description></item><item><title>來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析</title><link>https://blog.androchen.tw/chatgpt-sre-postmortem/</link><pubDate>Sat, 25 Mar 2023 08:25:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-sre-postmortem/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/sre/2023-03-25-chatgpt-sre-postmortem-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>ChatGPT 在美國時間 3/24(週五) 發布了新的一篇 blog，解釋 3/20(週一) ChatGPT 停機的來龍去脈。&lt;/p>
+&lt;p>每一次的緊急維修，對於系統維運 SRE 來說都是意義非凡。因為這代表你的服務&lt;/p>
+&lt;ol>
+&lt;li>重要到用戶會關注&lt;/li>
+&lt;li>必要到每分每秒都在產生價值 (不修復會造成損失)&lt;/li>
+&lt;/ol>
+&lt;p>對於很多企業來說，停機好像是永遠不該發生的事。多半是偷偷改掉不讓用戶發現就過了，怎麼可能大張旗鼓地還發部落格？&lt;/p>
+&lt;p>從這點就可以看出決定性的差異。&lt;/p>
+&lt;p>🔎 &lt;strong>透明度，及其帶來的信任是關鍵&lt;/strong>。「我們正在修，出於什麼原因-人事時地物，之後能怎麼避免」。好用，相信你能夠盡快修復的信任感 (Trust)，奠基於系統服務的穩定 (Reliability)&lt;/p>
+&lt;p>❓ 提問: 你的團隊在意這些服務體驗嗎？ 一起來看 OpenAI 怎麼示範 SRE 中的 Postmortem (事後剖析)。&lt;/p></description></item><item><title>AIGC 浪潮翻騰 15 週後的 6 大行為改變</title><link>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</link><pubDate>Sun, 19 Mar 2023 14:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+AIGC 浪潮翻騰 15 週後的 6 大行為改變
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>AIGC 浪潮從 ChatGPT 2022/11/30 釋出後, 全球已翻騰 15 週.
+我總結了 6 大行為改變, 你也&amp;rsquo;用&amp;rsquo;起來了嗎?&lt;/p>
+&lt;ol>
+&lt;li>⚡ 快! &amp;ldquo;變化速度&amp;rdquo; 全球加劇. 「世界怎麼突然變化那麼快?」&lt;/li>
+&lt;li>📚 變! &amp;ldquo;知識循環&amp;rdquo; 行為改變. 「世界每天都在變, 與我何干?」&lt;/li>
+&lt;li>✋ 問! &amp;ldquo;精準提問&amp;rdquo; 將成關鍵能力. 「我要如何進一步加速知識循環?」&lt;/li>
+&lt;li>🤖 轉! &amp;ldquo;數位化&amp;rdquo; 是大前提. 「可是還有很多現實領域都還沒辦法運用呀?」&lt;/li>
+&lt;li>♾️ 用! &amp;ldquo;運用場景&amp;rdquo; 落地產生效益. 「我記不住這麼多東西, 怎麼辦?」&lt;/li>
+&lt;li>💡 思! &amp;ldquo;想像力&amp;rdquo; 是我們的超能力. 「What&amp;rsquo;s your dream? 」&lt;/li>
+&lt;/ol></description></item><item><title>如何善用 AI 加速知識循環</title><link>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</link><pubDate>Mon, 27 Feb 2023 11:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ai-accelerate-knowledge-revolution/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Productivity Revolution 生產力革命
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>從 Google DeepMind AlphaGo 在 2016 年 3 月與李世乭的經典世紀圍棋對奕, 我們就知道 &amp;ldquo;左右互搏術&amp;rdquo; 的厲害之處, 在於能在 &amp;ldquo;精神時光屋&amp;rdquo; 中與自己對練, 越練越強; 而循環次數就會是關鍵。&lt;/p>
+&lt;p>在 ChatGPT 走紅之後, 各種應用更是大爆發。如何加速知識循環, 協助我們提高生產力?&lt;/p>
+&lt;p>從 RPG 遊戲 及 陰陽師言靈式神, 連結 Prompt 作為知識驅動的咒語, 讓我們開啟一段天馬行空的幻想 🧙&lt;/p></description></item><item><title>寫在 ChatGPT 使用 3 個月後的淺見與用例分享</title><link>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</link><pubDate>Sat, 25 Feb 2023 17:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>要說為什麼最近這麼關注 AIGC / ChatGPT / LLM&lt;/p>
+&lt;ol>
+&lt;li>百家爭鳴: 最近趨勢與應用如雨後春筍般地冒出&lt;/li>
+&lt;li>良好體驗: 不只是 buzz word, 而是真的能夠協助提升生產力&lt;/li>
+&lt;li>工作需求: 公司內部也在探索是否有適合的場景能落地&lt;/li>
+&lt;/ol>
+&lt;p>正好也延續在前一篇 &lt;a href="https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection">ChatGPT 如何協助人類? 應用 AI 與科幻哲思&lt;/a> 之後, 來個 3 個月使用心得&lt;/p></description></item><item><title>ChatGPT 如何協助人類? 應用 AI 與科幻哲思</title><link>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</link><pubDate>Sat, 10 Dec 2022 14:50:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-cover.jpeg?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@paman0744?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aman Pal&lt;/a> on &lt;a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>(2022-12-16 23:10 持續更新實例分享與 GitHub 開源整合工具)&lt;/p>
+&lt;p>上線不到一週即破百萬用戶的超夯聊天機器人 ChatGPT，讓大家都對有生之年能見到 AGI (通用人工智慧) 多了更多期待。本文以兩面向探討:&lt;/p>
+&lt;ul>
+&lt;li>應用 AI: 一來彙整目前見到各種有趣應用與想法&lt;/li>
+&lt;li>科幻哲思: 二來胡思亂想關於科幻未來的發展，拋磚引玉&lt;/li>
+&lt;/ul>
+&lt;h3 id="chatgpt-一週心得---未臻完美-十分堪用-指日可待">ChatGPT 一週心得 - 未臻完美, 十分堪用, 指日可待&lt;/h3>
+&lt;ol>
+&lt;li>🛫 加速思考凝聚 &amp;amp; 知識迭代 + 🌍 拓展知識疆界
+&lt;ol>
+&lt;li>抓重點, 寫計畫, 深思考 (Jira Epic &amp;gt; Story &amp;gt; Sub-Task)&lt;/li>
+&lt;li>🤖 程式碼優化 + 註解 + 測試, VSCode Plugin, VM&lt;/li>
+&lt;li>🗣️ 翻譯, 語言學習, 商業會話&lt;/li>
+&lt;li>🎨 AI 繪圖咒術師 - 自動生成圖片&lt;/li>
+&lt;li>角色扮演&lt;/li>
+&lt;li>加密貨幣智能合約&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>💡 科幻哲思 + 💰 疾速成長的知識演進, 衍生的經濟資產分配與存取&lt;/li>
+&lt;/ol></description></item></channel></rss>

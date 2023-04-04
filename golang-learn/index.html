@@ -1,4 +1,59 @@
-<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>Golang Learn - ProgramMur - 程序猿碎念</title><meta name=description content="Overview 從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了&mldr; 今天要來立下學 golang 的 flag 😂 作為新手, 條列一些觀察與期許 Challenges Profile: Data Engineer Jobs Deliver data to value by designing and implementing data pipeline Maintain operations and continuously"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/golang-learn\/","name":"Golang learn"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"Golang Learn","description":"Overview 從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了\u0026hellip; 今天要來立下學 golang 的 flag 😂 作為新手, 條列一些觀察與期許 Challenges Profile: Data Engineer Jobs Deliver data to value by designing and implementing data pipeline Maintain operations and continuously","inLanguage":"en","wordCount":613,"datePublished":"2021-07-17T10:13:58","dateModified":"2021-07-17T10:13:58","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","keywords":["golang"],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/golang-learn\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content="Golang Learn | ProgramMur - 程序猿碎念"><meta property="og:description" content="Overview 從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了&mldr; 今天要來立下學 golang 的 flag 😂 作為新手, 條列一些觀察與期許 Challenges Profile: Data Engineer Jobs Deliver data to value by designing and implementing data pipeline Maintain operations and continuously"><meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png"><meta property="og:url" content="https://blog.androchen.tw/golang-learn/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="Golang Learn"><meta name=twitter:description content="Overview 從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了&mldr; 今天要來立下學 golang 的 flag 😂 作為新手, 條列一些觀察與期許 Challenges Profile: Data Engineer Jobs Deliver data to value by designing and implementing data pipeline …"><meta name=twitter:image content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png"><meta name=twitter:card content="summary"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css><link rel=stylesheet href=https://blog.androchen.tw/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script>
+<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>Golang Learn - ProgramMur - 程序猿碎念</title><meta name=description content="
+Overview
+從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了&mldr; 今天要來立下學 golang 的 flag 😂
+作為新手, 條列一些觀察與期許
+Challenges
+
+Profile: Data Engineer
+Jobs
+
+Deliver data to value by designing and implementing data pipeline
+Maintain operations and continuously improve service levels
+
+
+
+Objectives
+
+Master 1 programming language to better understand the mechanism and principle of Dev & Ops .
+Manage Ops in software engineering way like class SRE implements DevOps.
+
+KRs
+
+ 2021-08 Complete Go by Example and get familiar with VS Code extensions.
+ 2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.
+"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/golang-learn\/","name":"Golang learn"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"Golang Learn","description":" Overview 從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了\u0026hellip; 今天要來立下學 golang 的 flag 😂\n作為新手, 條列一些觀察與期許\nChallenges Profile: Data Engineer Jobs Deliver data to value by designing and implementing data pipeline Maintain operations and continuously improve service levels Objectives Master 1 programming language to better understand the mechanism and principle of Dev \u0026amp; Ops . Manage Ops in software engineering way like class SRE implements DevOps. KRs 2021-08 Complete Go by Example and get familiar with VS Code extensions. 2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication. ","inLanguage":"en","wordCount":613,"datePublished":"2021-07-17T10:13:58","dateModified":"2021-07-17T10:13:58","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","keywords":["golang"],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/golang-learn\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content="Golang Learn | ProgramMur - 程序猿碎念"><meta property="og:description" content="
+Overview
+從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了&mldr; 今天要來立下學 golang 的 flag 😂
+作為新手, 條列一些觀察與期許
+Challenges
+
+Profile: Data Engineer
+Jobs
+
+Deliver data to value by designing and implementing data pipeline
+Maintain operations and continuously improve service levels
+
+
+
+Objectives
+
+Master 1 programming language to better understand the mechanism and principle of Dev & Ops .
+Manage Ops in software engineering way like class SRE implements DevOps.
+
+KRs
+
+ 2021-08 Complete Go by Example and get familiar with VS Code extensions.
+ 2021-09 Setup lightweight web server with modern frontend and backend framework to handle form input, api and authentication.
+"><meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png"><meta property="og:url" content="https://blog.androchen.tw/golang-learn/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="Golang Learn"><meta name=twitter:description content="
+Overview
+從 Ghost 搬來 Hugo 後, 終於更積極地回歸 blog 了&mldr; 今天要來立下學 golang 的 flag 😂
+作為新手, 條列一些觀察與期許
+Challenges
+
+Profile: Data Engineer
+Jobs
+
+Deliver data to value by designing and implementing data pipeline …"><meta name=twitter:image content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/440px-Go_Logo_Blue.svg.png"><meta name=twitter:card content="summary"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css><link rel=stylesheet href=https://blog.androchen.tw/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-PN5YM4PWN6",{anonymize_ip:!1})}</script></head><body><nav class="navbar navbar-default navbar-fixed-top navbar-custom"><div class=container-fluid><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=#main-navbar>
 <span class=sr-only>Toggle navigation</span>
 <span class=icon-bar></span>
@@ -22,7 +77,7 @@
 2023
 &nbsp;&bull;&nbsp;
 <a href=https://blog.androchen.tw>ProgramMur - 程序猿碎念</a></p><p class="credits theme-by text-muted"><a href=https://gohugo.io>Hugo v0.111.3</a> powered &nbsp;&bull;&nbsp; Theme <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> adapted from <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a>
-&nbsp;&bull;&nbsp;[<a href=c8a984e413eb5ed58d657970ecd06f50a7b9f8a6>c8a984e4</a>]</p></div></div></div></footer><script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
+&nbsp;&bull;&nbsp;[<a href=845c30f2a7574ff5a35687dd561241d63f4c7e66>845c30f2</a>]</p></div></div></div></footer><script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
 <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
 <script src=https://blog.androchen.tw/js/main.js></script>
 <script>(function(){var t,n="212df771d70ae0521",e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cse.google.com/cse.js?cx="+n,t=document.getElementsByTagName("script")[0],t.parentNode.insertBefore(e,t)})()</script><script type=text/javascript>$(function(){$("#show-comments").on("click",function(){var e="androchenblog";(function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="//"+e+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(t)})(),$(this).hide()})})</script><script id=dsq-count-scr src=//androchenblog.disqus.com/count.js async></script><div class=back-to-top id=back-to-top><i class="fas fa-angle-double-up"></i></div></body></html>

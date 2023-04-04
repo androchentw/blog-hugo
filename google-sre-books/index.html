@@ -1,4 +1,68 @@
-<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>Google SRE Books - ProgramMur - 程序猿碎念</title><meta name=description content="Overview Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習. 因為內容很多, 所以打算以系列文的方式"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/google-sre-books\/","name":"Google sre books"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"Google SRE Books","description":"Overview Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習. 因為內容很多, 所以打算以系列文的方式","inLanguage":"en","wordCount":583,"datePublished":"2021-07-11T00:58:14","dateModified":"2021-07-11T00:58:14","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","keywords":["sre, reading"],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/google-sre-books\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content="Google SRE Books | ProgramMur - 程序猿碎念"><meta property="og:description" content="Overview Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習. 因為內容很多, 所以打算以系列文的方式"><meta property="og:image" content="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9"><meta property="og:url" content="https://blog.androchen.tw/google-sre-books/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="Google SRE Books"><meta name=twitter:description content="Overview Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習. 因為內容很多, 所以打算以系列文的方式"><meta name=twitter:image content="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9"><meta name=twitter:card content="summary"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css><link rel=stylesheet href=https://blog.androchen.tw/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script>
+<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>Google SRE Books - ProgramMur - 程序猿碎念</title><meta name=description content="
+Overview
+Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.
+因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.
+Challenges
+
+Hybrid Cloud Environment Complexity Grows. 身為 IT, 在 Hybrid Cloud 環境與 Micro-service 趨勢下, 帶來的是更多的 Dependency 以及更為複雜的資料流.
+Hard to Prove and Maintain Reliability. 在設計 Data Pipeline 的過程中, 除了最終要 Deliver Data to Value 以達到 Business Impact 外, 更需要確保每天的 Data & Services Quality & Reliability, 甚至可以說是服務上線後天天都會遇到的事.
+Often Without Clear Value Proposition. 而這些日常維運繁瑣的事務其實有很多可以用工程手段解決/自動化的部分, 但是卻非常容易在繁忙且接踵而來的專案下, 不自覺地疏忽了.
+Prioritize ITOps Tasks: 為了及早發現及早還技術債, 應該更有意識地持續分析:
+
+哪些該先做, 成本效益最佳?
+鎖定目標後, 又該如何實作, 才能真的事半功倍?
+實作完成後, 如何良好衡量優化效益?
+
+
+
+Objectives
+
+Learn from Google SRE books
+
+then introduce and continuously implement and improve current data services design reliability at work.
+
+
+
+KRs
+
+ 2021-12 完讀 The Site Reliability Workbook (實作細節, 實例)
+ 2021-12 完讀 Site Reliability Engineering (概念, 文化)
+"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/google-sre-books\/","name":"Google sre books"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"Google SRE Books","description":" Overview Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.\n因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.\nChallenges Hybrid Cloud Environment Complexity Grows. 身為 IT, 在 Hybrid Cloud 環境與 Micro-service 趨勢下, 帶來的是更多的 Dependency 以及更為複雜的資料流. Hard to Prove and Maintain Reliability. 在設計 Data Pipeline 的過程中, 除了最終要 Deliver Data to Value 以達到 Business Impact 外, 更需要確保每天的 Data \u0026amp; Services Quality \u0026amp; Reliability, 甚至可以說是服務上線後天天都會遇到的事. Often Without Clear Value Proposition. 而這些日常維運繁瑣的事務其實有很多可以用工程手段解決\/自動化的部分, 但是卻非常容易在繁忙且接踵而來的專案下, 不自覺地疏忽了. Prioritize ITOps Tasks: 為了及早發現及早還技術債, 應該更有意識地持續分析: 哪些該先做, 成本效益最佳? 鎖定目標後, 又該如何實作, 才能真的事半功倍? 實作完成後, 如何良好衡量優化效益? Objectives Learn from Google SRE books then introduce and continuously implement and improve current data services design reliability at work. KRs 2021-12 完讀 The Site Reliability Workbook (實作細節, 實例) 2021-12 完讀 Site Reliability Engineering (概念, 文化) ","inLanguage":"en","wordCount":583,"datePublished":"2021-07-11T00:58:14","dateModified":"2021-07-11T00:58:14","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","keywords":["sre, reading"],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/google-sre-books\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content="Google SRE Books | ProgramMur - 程序猿碎念"><meta property="og:description" content="
+Overview
+Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.
+因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.
+Challenges
+
+Hybrid Cloud Environment Complexity Grows. 身為 IT, 在 Hybrid Cloud 環境與 Micro-service 趨勢下, 帶來的是更多的 Dependency 以及更為複雜的資料流.
+Hard to Prove and Maintain Reliability. 在設計 Data Pipeline 的過程中, 除了最終要 Deliver Data to Value 以達到 Business Impact 外, 更需要確保每天的 Data & Services Quality & Reliability, 甚至可以說是服務上線後天天都會遇到的事.
+Often Without Clear Value Proposition. 而這些日常維運繁瑣的事務其實有很多可以用工程手段解決/自動化的部分, 但是卻非常容易在繁忙且接踵而來的專案下, 不自覺地疏忽了.
+Prioritize ITOps Tasks: 為了及早發現及早還技術債, 應該更有意識地持續分析:
+
+哪些該先做, 成本效益最佳?
+鎖定目標後, 又該如何實作, 才能真的事半功倍?
+實作完成後, 如何良好衡量優化效益?
+
+
+
+Objectives
+
+Learn from Google SRE books
+
+then introduce and continuously implement and improve current data services design reliability at work.
+
+
+
+KRs
+
+ 2021-12 完讀 The Site Reliability Workbook (實作細節, 實例)
+ 2021-12 完讀 Site Reliability Engineering (概念, 文化)
+"><meta property="og:image" content="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9"><meta property="og:url" content="https://blog.androchen.tw/google-sre-books/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="Google SRE Books"><meta name=twitter:description content="
+Overview
+Google 推行 SRE 也已經好一陣子, 十分認同其中的各種想法與作法. 最近終於能有機會好好整理讀書心得筆記, 持續學習.
+因為內容很多, 所以打算以系列文的方式, 不定期地更新內容, 這篇會作為 Summary 使用. 一來紀錄緣由, 二來追蹤進度.
+Challenges
+
+Hybrid Cloud Environment Complexity Grows. …"><meta name=twitter:image content="https://lh3.googleusercontent.com/A-7rSIEgq-hwTETYDdYrcDQ6sftGmy0-a0LkQyvt2lrFy2p7QejyOGxhaCKDM74KmYqhqRkw63eCVfJFssRa023x0suoEgdOMZv9"><meta name=twitter:card content="summary"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css><link rel=stylesheet href=https://blog.androchen.tw/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-PN5YM4PWN6",{anonymize_ip:!1})}</script></head><body><nav class="navbar navbar-default navbar-fixed-top navbar-custom"><div class=container-fluid><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=#main-navbar>
 <span class=sr-only>Toggle navigation</span>
 <span class=icon-bar></span>
@@ -23,7 +87,7 @@
 2023
 &nbsp;&bull;&nbsp;
 <a href=https://blog.androchen.tw>ProgramMur - 程序猿碎念</a></p><p class="credits theme-by text-muted"><a href=https://gohugo.io>Hugo v0.111.3</a> powered &nbsp;&bull;&nbsp; Theme <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> adapted from <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a>
-&nbsp;&bull;&nbsp;[<a href=c8a984e413eb5ed58d657970ecd06f50a7b9f8a6>c8a984e4</a>]</p></div></div></div></footer><script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
+&nbsp;&bull;&nbsp;[<a href=845c30f2a7574ff5a35687dd561241d63f4c7e66>845c30f2</a>]</p></div></div></div></footer><script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
 <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
 <script src=https://blog.androchen.tw/js/main.js></script>
 <script>(function(){var t,n="212df771d70ae0521",e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cse.google.com/cse.js?cx="+n,t=document.getElementsByTagName("script")[0],t.parentNode.insertBefore(e,t)})()</script><script type=text/javascript>$(function(){$("#show-comments").on("click",function(){var e="androchenblog";(function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="//"+e+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(t)})(),$(this).hide()})})</script><script id=dsq-count-scr src=//androchenblog.disqus.com/count.js async></script><div class=back-to-top id=back-to-top><i class="fas fa-angle-double-up"></i></div></body></html>

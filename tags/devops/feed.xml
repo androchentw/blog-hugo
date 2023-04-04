@@ -1,1 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>devops on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/devops/</link><description>Recent content in devops on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 31 Mar 2023 18:30:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/devops/feed.xml" rel="self" type="application/rss+xml"/><item><title>台灣微軟研討會 - 應用創新起手式 - 打造化繁為簡的雲原生平台</title><link>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</link><pubDate>Fri, 31 Mar 2023 18:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</guid><description>台灣微軟微風信義 19F 辦公室 Overview 概述 03-31(五) 台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造企業的數位轉型與應用創新的基礎: 高效率、彈性</description></item><item><title>GDG DevFest 2022 Taipei 社群志工與議程心得</title><link>https://blog.androchen.tw/gdg-devfest-2022-taipei/</link><pubDate>Sun, 04 Dec 2022 16:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/gdg-devfest-2022-taipei/</guid><description>Overview 概述 2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 在萬豪酒店的 ☁️ Google Cloud Next Recap 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了 😂 於是開啟了一段奇幻旅程&amp;</description></item><item><title>GitLab + Google 2022</title><link>https://blog.androchen.tw/gitlab-google-2022/</link><pubDate>Thu, 01 Dec 2022 07:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/gitlab-google-2022/</guid><description>Photo by Nick Morrison on Unsplash Overview 概述 透過參與 GitLab 跟 Google 的 event, 瞭解如何善用 GitLab 推動 DevOps。 Content DevOps 的四個演進 團隊進行協作時經常遇到的困難 零散的資訊: email, excel 檔案 多個不同工</description></item><item><title>2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路</title><link>https://blog.androchen.tw/2022-tsmc-it-day/</link><pubDate>Sat, 29 Oct 2022 18:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2022-tsmc-it-day/</guid><description>TSMC IT Day 新技術架構交流與軟體人才對談 Overview 概述 護國神山於 2022-10-29 在 TICC 台北國際會議中心舉辦 2022 TSMC IT Day - 新技術架構交流與軟體人才對談, iThome 也非常迅速地以「台積首</description></item><item><title>DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品</title><link>https://blog.androchen.tw/devopsdays-taipei-2022/</link><pubDate>Thu, 15 Sep 2022 09:55:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/devopsdays-taipei-2022/</guid><description>Overview 同場加映: Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值 Why 為什麼要 DevOps 應變快速變動的市場需求, 持續(時時刻刻, 穩定可靠)交付高品質軟體產品</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>devops on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/devops/</link><description>Recent content in devops on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>androchentw@gmail.com (androchentw)</managingEditor><webMaster>androchentw@gmail.com (androchentw)</webMaster><lastBuildDate>Fri, 31 Mar 2023 18:30:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/devops/feed.xml" rel="self" type="application/rss+xml"/><item><title>台灣微軟研討會 - 應用創新起手式 - 打造化繁為簡的雲原生平台</title><link>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</link><pubDate>Fri, 31 Mar 2023 18:30:00 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2023-microsoft-innovation-cloud-native-platform-engineering/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+台灣微軟微風信義 19F 辦公室
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>03-31(五) 台灣微軟在微風信義 19F 辦公室，邀請 7 場 session 分享如何打造&lt;a href="https://showroom.ithome.com.tw/public/ms0331/index.html">企業的數位轉型與應用創新&lt;/a>的基礎: 高效率、彈性靈活且安全的雲原生平台，為企業帶來更多&lt;strong>競爭力與生產力提升&lt;/strong>。&lt;/p>
+&lt;p>今天談得多半是 fundamental 的部分，但是也算是一個 overview 了。若你也是 Dev 軟體工程師, 或 IT Ops 相關從業人員，從來沒接觸過類似概念，蠻推薦瞭解這些關鍵字。&lt;/p>
+&lt;p>🤔 Q: IT 現代化與我們的開發維運團隊有何關聯?&lt;/p></description></item><item><title>GDG DevFest 2022 Taipei 社群志工與議程心得</title><link>https://blog.androchen.tw/gdg-devfest-2022-taipei/</link><pubDate>Sun, 04 Dec 2022 16:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/gdg-devfest-2022-taipei/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-12-03-gdg-devfest-2022-taipei-cover.webp?raw=true">
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>2022-11-19 起心動念: 一直都想參與社群, 終於在 11-16 在萬豪酒店的 ☁️ &lt;a href="https://cloudonair.withgoogle.com/events/next-recap-taiwan-2022">Google Cloud Next Recap&lt;/a> 的時候去找 GDG 攤位聊天，然後就主動報名參加志工了 😂 於是開啟了一段奇幻旅程&amp;hellip;&lt;/p>
+&lt;p>🦄 &lt;a href="https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-2022-taipei/">GDG DevFest 2022 Taipei&lt;/a> 是由一群使用 Google 技術的開發者所推動的全球盛會, 在 12/3 週六於台大舉辦實體活動。今年超過 600 位報名。(實際約 300 ~ 400 人到場)&lt;/p>
+&lt;p>議程共有 8 軌同時實體線上進行&lt;/p>
+&lt;ol>
+&lt;li>Cloud&lt;/li>
+&lt;li>資安&lt;/li>
+&lt;li>Machine Learning&lt;/li>
+&lt;li>Web + DevOps&lt;/li>
+&lt;li>Mobile&lt;/li>
+&lt;li>WTM (Woman Techmakers 女性技術發展)&lt;/li>
+&lt;li>GDSC&lt;/li>
+&lt;li>Workshops&lt;/li>
+&lt;/ol></description></item><item><title>GitLab + Google 2022</title><link>https://blog.androchen.tw/gitlab-google-2022/</link><pubDate>Thu, 01 Dec 2022 07:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/gitlab-google-2022/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1674&amp;q=80">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by &lt;a href="https://unsplash.com/@nickmorrison?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nick Morrison&lt;/a> on &lt;a href="https://unsplash.com/collections/SV-KO-htOoM/tech?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>透過參與 GitLab 跟 Google 的 event, 瞭解如何善用 GitLab 推動 DevOps。&lt;/p></description></item><item><title>2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路</title><link>https://blog.androchen.tw/2022-tsmc-it-day/</link><pubDate>Sat, 29 Oct 2022 18:34:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2022-tsmc-it-day/</guid><description>&lt;img style="width:60%;" src="https://www.tsmc.com/static/chinese/careers/2022tsmcitday/assets/img/FBJumbo.png">
+&lt;p align="center">&lt;sub>&lt;sup>
+&lt;a href="https://www.tsmc.com/static/chinese/careers/2022tsmcitday/index.html">TSMC IT Day 新技術架構交流與軟體人才對談&lt;/a>
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="overview-概述">Overview 概述&lt;/h2>
+&lt;p>護國神山於 2022-10-29 在 TICC 台北國際會議中心舉辦 &lt;a href="https://www.tsmc.com/static/chinese/careers/2022tsmcitday/index.html">2022 TSMC IT Day - 新技術架構交流與軟體人才對談&lt;/a>, iThome 也非常迅速地以「&lt;a href="https://www.ithome.com.tw/news/153896">台積首度舉辦IT技術日，CIO與4大部門技術主管揭露2年轉型擁抱雲原生的成果&lt;/a>」為題摘要了台積數位轉型成果。&lt;/p>
+&lt;p>畢竟這場 TSMC IT &lt;del>徵才&lt;/del> ✅ 火力展示大會得由 HR 一一審核後才能參與, 超過 1500 人報名中選的 700 人之一, 機會難得. 所以我也來記錄一下所見與心得, 拋磚引玉跟大家互相討論。&lt;/p>
+&lt;p>這次我報名的分組議程是由 ICSD Patrick Liu 主講的 TOPIC C 資料中心維運自動化與 TSMC Web Service。上次 &lt;a href="https://devopsdays.tw/">DevOpsDays Taipei 2022&lt;/a> 時, 則有 BSID 胡君怡的 &lt;a href="https://devopsdays.tw/session-page/1152">多雲整合企業應用平台 DevOps SRE 落地實踐&lt;/a>, 內容也非常紮實。&lt;/p></description></item><item><title>DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品</title><link>https://blog.androchen.tw/devopsdays-taipei-2022/</link><pubDate>Thu, 15 Sep 2022 09:55:16 +0800</pubDate><author>androchentw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/devopsdays-taipei-2022/</guid><description>&lt;img style="width:80%;" src="https://devopsdays.tw/2022/img/fb.jpg">
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>同場加映: &lt;a href="https://blog.androchen.tw/agile-summit-2022/">Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Why 為什麼要 DevOps
+&lt;ul>
+&lt;li>應變快速變動的市場需求, 持續(時時刻刻, 穩定可靠)交付高品質軟體產品&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>How 如何 DevOps
+&lt;ul>
+&lt;li>確認目標 + 投資(人才/方案) + 教育文化 + 推廣落地 (Squad Team) + 工程實踐 + 保持敏捷 + 持續學習&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Common Pitfalls 常見的坑
+&lt;ul>
+&lt;li>只顧速度, 不顧品質 = 持續交付垃圾 =&amp;gt; 自動化測試 + 發行管理&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>精選內容 🥇🥈
+&lt;ul>
+&lt;li>臺灣企業 DevOps 能力大公開 | iThome 王宏仁 副總編輯&lt;/li>
+&lt;li>多雲整合企業應用平台 DevOps SRE 落地實踐 | TSMC 胡君怡 部門經理&lt;/li>
+&lt;li>DevOps 潮流下的 API First 開發策略 | 91 App Andrew 首席架構師&lt;/li>
+&lt;li>DevOps的高階工程技術實踐 | David 董大偉 技術顧問&lt;/li>
+&lt;li>Workshop - 深度體驗 Azure DevOps Services 發行管理機制 | Will 保哥 技術總監&lt;/li>
+&lt;li>From DevOps To DataOps——Data as a Product 資料專案教戰守則 | 顏良修 CEO&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>今年流行的警語
+&lt;ul>
+&lt;li>以下分享的內容，可能不適用於你、你的公司或團隊，請小心服用.&lt;/li>
+&lt;li>以下觀點僅適用於特定場景. 若跟你理解的不同, 你不一定是錯的, 我也不一定是對的. Love &amp;amp; Peace.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://d2a6d2ofes041u.cloudfront.net/resize?norotation=true&amp;url=https%3A%2F%2Fimages.vocus.cc%2F55bf9f08-04dc-4727-ab9f-e08a2ee3403b.jpg&amp;width=1200&amp;sign=RJViZGpnIW3fz6xNO-Pgj1ko1y7_WGeeWtLF61SLxfA">
+&lt;p align="center">&lt;sub>
+EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
+&lt;/sub>&lt;/p>
+&lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
+&lt;ul>
+&lt;li>需求變動越來越快, 如何快速滿足需求, 並多方嘗試各種解決方案, 觀察回饋?&lt;/li>
+&lt;/ul>
+&lt;h3 id="objectives-目標-效益">Objectives 目標 效益&lt;/h3>
+&lt;ul>
+&lt;li>Project Management: 透過參考業界經驗, 建立專案管理方法, 使專案的實作與推廣過程, 可以更敏捷&lt;/li>
+&lt;li>Delivery Speed &amp;amp; Quality: 提升交付速度, 縮短交付週期&lt;/li>
+&lt;/ul>
+&lt;h3 id="krs-結果-解法">KRs 結果 解法&lt;/h3>
+&lt;ul>
+&lt;li>瞭解實戰推動手法 + 懶人包
+&lt;ul>
+&lt;li>沒有懶人包! 都需要因應各種場景而定&lt;/li>
+&lt;li>&lt;a href="https://ruddyblog.wordpress.com/2017/10/27/%E7%9C%8B%E8%A6%8B%E5%85%A8%E8%B2%8C/">「專案開始之初，首重看見全貌」&amp;ndash; Ruddy Lee 91 敏捷教練&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>瞭解為何 DevOps 重要&lt;/li>
+&lt;li>瞭解如何在企業裡導入 DevOps, 交付價值, 彈性拿捏&lt;/li>
+&lt;/ul></description></item></channel></rss>

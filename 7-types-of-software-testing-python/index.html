@@ -1,4 +1,53 @@
-<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>軟體測試的 7 種類型 - Python 範例程式碼 - ProgramMur - 程序猿碎念</title><meta name=description content="Photo by Clément Hélardot on Unsplash Overview 測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟! 本文暫不討論為何要寫測試, 效益為"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/7-types-of-software-testing-python\/","name":"軟體測試的 7 種類型 python 範例程式碼"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"軟體測試的 7 種類型 - Python 範例程式碼","description":"Photo by Clément Hélardot on Unsplash Overview 測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟! 本文暫不討論為何要寫測試, 效益為","inLanguage":"en","wordCount":1436,"datePublished":"2022-08-28T03:08:16","dateModified":"2022-08-28T03:08:16","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","keywords":["python, testing"],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/7-types-of-software-testing-python\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content="軟體測試的 7 種類型 - Python 範例程式碼 | ProgramMur - 程序猿碎念"><meta property="og:description" content="Photo by Clément Hélardot on Unsplash Overview 測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟! 本文暫不討論為何要寫測試, 效益為"><meta property="og:image" content="https://i.imgur.com/Qe3Dzt6.png"><meta property="og:url" content="https://blog.androchen.tw/7-types-of-software-testing-python/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="軟體測試的 7 種類型 - Python 範例程式碼"><meta name=twitter:description content="Photo by Clément Hélardot on Unsplash Overview 測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟! 本文暫不討論為何要寫測試, 效益為"><meta name=twitter:image content="https://i.imgur.com/Qe3Dzt6.png"><meta name=twitter:card content="summary"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css><link rel=stylesheet href=https://blog.androchen.tw/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script>
+<!doctype html><html lang=en itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>軟體測試的 7 種類型 - Python 範例程式碼 - ProgramMur - 程序猿碎念</title><meta name=description content="
+
+  Photo by Clément Hélardot on Unsplash
+
+Overview
+測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟!
+本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P
+一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環.
+細節就留待我最近邊學 TDD 時再來記錄囉~
+Challenges
+
+測試初心者, 不確定該寫哪些測試才是有效的 (Effective & Efficient)
+
+Objectives
+
+瞭解自動化測試的類型與其定義
+建立測試範例程式碼, 結合 Github - Python Playground
+
+KRs
+
+ 2022-08/E 初版完成。
+"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/7-types-of-software-testing-python\/","name":"軟體測試的 7 種類型 python 範例程式碼"}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"軟體測試的 7 種類型 - Python 範例程式碼","description":" Photo by Clément Hélardot on Unsplash Overview 測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟! 本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P\n一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環. 細節就留待我最近邊學 TDD 時再來記錄囉~\nChallenges 測試初心者, 不確定該寫哪些測試才是有效的 (Effective \u0026amp; Efficient) Objectives 瞭解自動化測試的類型與其定義 建立測試範例程式碼, 結合 Github - Python Playground KRs 2022-08\/E 初版完成。 ","inLanguage":"en","wordCount":1436,"datePublished":"2022-08-28T03:08:16","dateModified":"2022-08-28T03:08:16","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","keywords":["python, testing"],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/7-types-of-software-testing-python\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/master\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content="軟體測試的 7 種類型 - Python 範例程式碼 | ProgramMur - 程序猿碎念"><meta property="og:description" content="
+
+  Photo by Clément Hélardot on Unsplash
+
+Overview
+測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟!
+本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P
+一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一個, 很難查 root cause 的惡性循環.
+細節就留待我最近邊學 TDD 時再來記錄囉~
+Challenges
+
+測試初心者, 不確定該寫哪些測試才是有效的 (Effective & Efficient)
+
+Objectives
+
+瞭解自動化測試的類型與其定義
+建立測試範例程式碼, 結合 Github - Python Playground
+
+KRs
+
+ 2022-08/E 初版完成。
+"><meta property="og:image" content="https://i.imgur.com/Qe3Dzt6.png"><meta property="og:url" content="https://blog.androchen.tw/7-types-of-software-testing-python/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="軟體測試的 7 種類型 - Python 範例程式碼"><meta name=twitter:description content="
+
+  Photo by Clément Hélardot on Unsplash
+
+Overview
+測試種類百百種, 你測的是哪一種? 該測的又是哪一種? 讓我們來一探究竟!
+本文暫不討論為何要寫測試, 效益為何. 有興趣的朋友敬請期待下一篇文章 :P
+一言以蔽之就是品質. 不測試的話就只是盲目地相信自己的程式碼永遠都會正常運作. 而這個信仰通常十分薄弱, 基本上都只是落入維運時 見一個修一 …"><meta name=twitter:image content="https://i.imgur.com/Qe3Dzt6.png"><meta name=twitter:card content="summary"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.111.3"><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css><link rel=stylesheet href=https://blog.androchen.tw/css/main.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-PN5YM4PWN6",{anonymize_ip:!1})}</script></head><body><nav class="navbar navbar-default navbar-fixed-top navbar-custom"><div class=container-fluid><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=#main-navbar>
 <span class=sr-only>Toggle navigation</span>
 <span class=icon-bar></span>
@@ -85,7 +134,7 @@
 2023
 &nbsp;&bull;&nbsp;
 <a href=https://blog.androchen.tw>ProgramMur - 程序猿碎念</a></p><p class="credits theme-by text-muted"><a href=https://gohugo.io>Hugo v0.111.3</a> powered &nbsp;&bull;&nbsp; Theme <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> adapted from <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a>
-&nbsp;&bull;&nbsp;[<a href=c8a984e413eb5ed58d657970ecd06f50a7b9f8a6>c8a984e4</a>]</p></div></div></div></footer><script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
+&nbsp;&bull;&nbsp;[<a href=845c30f2a7574ff5a35687dd561241d63f4c7e66>845c30f2</a>]</p></div></div></div></footer><script src=https://code.jquery.com/jquery-1.12.4.min.js integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin=anonymous></script>
 <script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js integrity=sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa crossorigin=anonymous></script>
 <script src=https://blog.androchen.tw/js/main.js></script>
 <script>(function(){var t,n="212df771d70ae0521",e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cse.google.com/cse.js?cx="+n,t=document.getElementsByTagName("script")[0],t.parentNode.insertBefore(e,t)})()</script><script type=text/javascript>$(function(){$("#show-comments").on("click",function(){var e="androchenblog";(function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="//"+e+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(t)})(),$(this).hide()})})</script><script id=dsq-count-scr src=//androchenblog.disqus.com/count.js async></script><div class=back-to-top id=back-to-top><i class="fas fa-angle-double-up"></i></div></body></html>
