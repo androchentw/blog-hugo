@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "自然語言 SQL Client + Chatbot - 談開發者工具 2.0"
+title: "自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0"
 url: /sqlchat-ai-developer-tools-2
 # date: 2023-04-04T20:30:00+08:00
 date: 2023-04-05T08:30:00+08:00
@@ -12,20 +12,20 @@ tags:
   - aigc
   - chatgpt
   - productivity
-share_img: https://www.bytebase.com/static/blog/sql-chat/sqlchat-ui.webp
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true
 series: aigc
 ---
 
-<img style="width:80%;" src="https://www.bytebase.com/static/blog/sql-chat/sqlchat-ui.webp">
+## Overview
+
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true">
 <p align="center"><sub><sup>
-  使用自然語言取得 SQL query
+  自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0
 </sup></sub></p>
 
 2023-03-31 [bytebase 推出 SQL Chat](https://www.bytebase.com/blog/sql-chat): 融合 SQL Client 與 Chatbot，可以使用自然語言提出數據庫問題和查詢數據庫。目前支持 MySQL, PostgreSQL。並且提供 [開源 GitHub Repo](https://github.com/sqlchat/sqlchat)，可以自建並連接本地 database。
 
 非常推薦 Data Engineering, Data Science 甚至 Business Analysis 相關領域的朋友去 [SQL Chat 線上環境](https://www.sqlchat.ai/)玩一玩。
-
-前陣子聽不少人 (可能有超過 5 ~ 10 位，普遍認為) 對於 ChatGPT 能不能寫 SQL，一直持反對意見，覺得只能處理簡單場景。我始終相信是時間 + 用法問題。又尤其現在已經有整合的體驗出來，實際上用一用，就會發現「IDE 等級的開發者體驗」跟「貼問題到 ChatGPT」不是同個等級，更不用說是跟人相比了。
 
 我想從兩個層面，結合紅杉資本(Sequoia Capital) 提到的 [Developer Tools 2.0](https://www.sequoiacap.com/article/ai-powered-developer-tools/)，以及最近的職場觀察，探究更深一層的開發者體驗議題。
 
@@ -38,12 +38,9 @@ series: aigc
 
 <!--more-->
 
-## Text to SQL 逐漸抬頭
+## Text to SQL 應用竄起
 
-<img style="width:80%;" src="https://www.bytebase.com/static/blog/sql-chat/sqlchat-ui.webp">
-<p align="center"><sub><sup>
-  SQL Chat: 使用自然語言向 Chatbot 取得 SQL query
-</sup></sub></p>
+前陣子聽不少人 (可能有超過 5 ~ 10 位，普遍認為) 對於 ChatGPT 能不能寫 SQL，一直持反對意見，覺得只能處理簡單場景。我始終相信是時間 + 用法問題。又尤其現在已經有整合的體驗出來，實際上用一用，就會發現「IDE 等級的開發者體驗」跟「貼問題到 ChatGPT」不是同個等級，更不用說是跟人相比了。
 
 我們可以看到，隨著 finetune model 的興起，適合不適合可能都只是時間問題。
 
@@ -58,6 +55,11 @@ Bytebase 自己寫了一篇 blog 整裡了 [7 個 ChatGPT 增強的資料庫工�
 7. [Outerbase](https://outerbase.com/): 一個於 2023 年 2 月 15 日正式推出的新工具，用戶體驗類似於 Excel 電子表格，並使用 GPT-3 幫助用戶編寫 SQL 查詢和生成儀表板，適用於開發人員和數據分析師。甚至他們還出了自己的 EZQL 😂 直接讓你不再寫 SQL。
 
 有興趣的都可以去玩一下。講回到 SQL Chat，他提供的線上 [Live Demo](https://demo.bytebase.com/?ref=bytebase.com) 加上 [SQL Chat](https://www.sqlchat.ai/)，兩者疊加的開發者體驗實在只有驚艷兩字可以形容。試試看就對了！
+
+<img style="width:80%;" src="https://www.bytebase.com/static/blog/sql-chat/sqlchat-ui.webp">
+<p align="center"><sub><sup>
+  SQL Chat: 使用自然語言向 Chatbot 取得 SQL query
+</sup></sub></p>
 
 ### 資料隱私 Data Privacy
 
@@ -102,7 +104,7 @@ Bytebase 自己寫了一篇 blog 整裡了 [7 個 ChatGPT 增強的資料庫工�
 
 > 如果你的程式寫到連 AI / ChatGPT / Copilot 都看不懂，沒辦法給建議的話，那你可能要先檢討你自己。
 
-## 開放心態是關鍵：思考問題、深化流程理解與測試
+## 開放心態是關鍵
 
 另外一個重點是**開放的心態（Open-minded）**。
 
