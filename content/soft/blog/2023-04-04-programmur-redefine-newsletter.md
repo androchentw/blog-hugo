@@ -21,13 +21,14 @@ series: blog
 
 2023-04-04 原本想在愚人節發布的一千個期待。
 
-最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容，並嘗試推出免費電子報。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
+最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容，並嘗試推出[免費電子報](https://programmur.substack.com/)。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
 
 🤔 Q: 你希望獲得什麼知識?
+💪 A: 歡迎訂閱[電子報](https://programmur.substack.com/)!
 
 <!--more-->
 
-## ProgramMur 的特色定調
+## ProgramMur 的特色是?
 
 > 與其說是承諾，不如說是我對我自己知識產出的一種期待。
 
@@ -47,7 +48,7 @@ series: blog
 | **深: 深思剖析** | 深入淺出, 圖解脈絡 |
 | **廣: 輕鬆分享** | 靈感/巧思 |
 
-## 電子報
+## 免費電子報
 
 原創文章會以電子報寄出:
 
@@ -108,7 +109,7 @@ series: blog
   ProgramMur Logo
 </sup></sub></p>
 
-<img style="width:30%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-icon.png?raw=true">
+<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-icon.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Icon
 </sup></sub></p>
