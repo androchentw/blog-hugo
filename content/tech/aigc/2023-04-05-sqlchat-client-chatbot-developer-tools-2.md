@@ -98,6 +98,18 @@ SQL 對我來說很有可能也是一樣意思。
 
 > 如果你的程式寫到連 AI / ChatGPT / Copilot 都看不懂，沒辦法給建議的話，那你可能要先檢討你自己。
 
+## 開放心態是關鍵
+
+還有一點是關於開放心態 (Open-minded)。
+
+為什麼別人都可以加速很多？到我這裡就不行了呢？
+
+I never test my code
+
+https://memes.tw/wtf/520951
+
+https://memes.tw/wtf/522564
+
 ## Developer Tool 2.0
 
 最後我們來看看 [SQL Chat Announce Blog](https://www.bytebase.com/blog/sql-chat) 中提到 紅杉資本(Sequoia Capital) 的 [Developer Tool 2.0](https://www.sequoiacap.com/article/ai-powered-developer-tools/) 一文 (2023-03-22)。
