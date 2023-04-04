@@ -22,7 +22,7 @@ series: aigc
   自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0
 </sup></sub></p>
 
-2023-03-31 [bytebase 推出 SQL Chat](https://www.bytebase.com/blog/sql-chat): 融合 SQL Client 與 Chatbot，可以使用自然語言提出數據庫問題和查詢數據庫。目前支持 MySQL, PostgreSQL。並且提供 [開源 GitHub Repo](https://github.com/sqlchat/sqlchat)，可以自建並連接本地 database。
+2023-03-31 [bytebase 推出 SQL Chat](https://www.bytebase.com/blog/sql-chat): 融合 SQL Client 與 Chatbot，可以使用自然語言提出資料庫問題和查詢資料庫。目前支持 MySQL, PostgreSQL。並且提供 [開源 GitHub Repo](https://github.com/sqlchat/sqlchat)，可以自建並連接本地 database。
 
 非常推薦 Data Engineering, Data Science 甚至 Business Analysis 相關領域的朋友去 [SQL Chat 線上環境](https://www.sqlchat.ai/)玩一玩。
 
@@ -67,7 +67,7 @@ Bytebase 自己寫了一篇 blog 整裡了 [7 個 ChatGPT 增強的資料庫工�
 中文:
 
 1. 所有 database connection configs 都存儲在本地瀏覽器中。還可以透過 settings 以清除數據。
-2. 只有數據庫架構將被發送到 OpenAI API，不會發送任何 table data。
+2. 只有資料庫架構將被發送到 OpenAI API，不會發送任何 table data。
 
 英文:
 
@@ -127,9 +127,9 @@ Bytebase 自己寫了一篇 blog 整裡了 [7 個 ChatGPT 增強的資料庫工�
 
 1. 提供語法和代碼示例. Providing syntax and code examples
 2. 故障排除 SQL 代碼. Troubleshooting SQL code
-3. 生成數據庫性能和使用情況報告. Generating reports on database performance and usage
-4. 支持數據庫遷移. Supporting database migration
-5. 提供數據庫安全建議. Providing database security advice
+3. 生成資料庫性能和使用情況報告. Generating reports on database performance and usage
+4. 支持資料庫遷移. Supporting database migration
+5. 提供資料庫安全建議. Providing database security advice
 6. 數據可視化. Data visualization
 
 一定有一些是我們能用，有些不能用的。而去辨識這些差異，截長補短，就是我們的專業所在了。
