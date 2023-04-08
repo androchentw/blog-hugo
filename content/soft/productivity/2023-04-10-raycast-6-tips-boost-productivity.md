@@ -3,7 +3,7 @@ draft: true
 title: "Raycast 6 招啟動工作生產力"
 url: /raycast-6-tips-boost-productivity
 # date: 2023-04-08T21:00:00+08:00
-date: 2023-04-15T08:30:00+08:00
+date: 2023-04-10T08:30:00+08:00
 author: androchentw
 type: post
 categories:

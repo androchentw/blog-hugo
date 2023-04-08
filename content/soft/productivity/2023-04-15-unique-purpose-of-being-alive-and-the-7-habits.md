@@ -3,7 +3,7 @@ draft: true
 title: "天下無雙 - 活著的意義與 7 個高效習慣"
 url: /unique-purpose-of-being-alive-and-the-7-habits
 # date: 2023-04-03T22:00:00+08:00
-date: 2023-04-08T08:30:00+08:00
+date: 2023-04-15T08:30:00+08:00
 author: androchentw
 type: post
 categories:
@@ -15,6 +15,8 @@ tags:
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true
 series: productivity
 ---
+
+## Overview
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
 <p align="center"><sub><sup>
