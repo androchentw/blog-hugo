@@ -87,6 +87,11 @@ series: productivity
     1. [Clipboard to Imgur](https://github.com/raycast/script-commands/blob/master/commands/productivity/imgur/imgur-upload-clipboard-image.template.sh)
     2. [Run OCR](https://github.com/raycast/script-commands/blob/master/commands/productivity/macocr/macocr-run-ocr.sh)
 
+## Windows Alternative
+
+1. [WoX](https://github.com/Wox-launcher/Wox)
+2. [ueli](https://github.com/oliverschwendener/ueli)
+
 ## 你怎麼看?
 
 留下你的想法一起討論吧! 🥳
