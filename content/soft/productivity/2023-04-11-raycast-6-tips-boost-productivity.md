@@ -63,7 +63,7 @@ Hi all,
 3. [@C] 
 ```
 
-## 4. 情境組合拳: Blog 知識產出
+## 3. 情境組合拳: Blog 知識產出
 
 我在寫 Blog 基本上也已經離不開 Raycast 跟快捷鍵了 😂
 
@@ -73,7 +73,7 @@ Hi all,
 4. TinyPNG: 壓縮圖片
 5. 找圖: Unsplash, gif, 開應用 GIPHY CAPTURE 錄製 gif
 
-## 5. 小技巧與 Extension 推薦
+## 4. 小技巧與 Extension 推薦
 
 1. 關閉沒有使用的 Extensions
    1. 搜尋 Extension, 把 Enabled 反勾選
@@ -87,7 +87,7 @@ Hi all,
    2. `Calendar`: 看接下來的待辦
    3. `Search Emoji`: 比原生的好在有英文，看久了比較會記得
 
-## 6. 進階: 串接客製 Script
+## 5. 進階: 串接客製 Script
 
 最後大決就是自己串接客製化的 script。[GitHub 上有完整的指令大全](https://github.com/raycast/script-commands/tree/master/commands#craft)，以下是我看起來覺得蠻有趣的:
 
@@ -108,7 +108,7 @@ Hi all,
     1. [Clipboard to Imgur](https://github.com/raycast/script-commands/blob/master/commands/productivity/imgur/imgur-upload-clipboard-image.template.sh)
     2. [Run OCR](https://github.com/raycast/script-commands/blob/master/commands/productivity/macocr/macocr-run-ocr.sh)
 
-## 7. Windows Alternative
+## 6. Windows Alternative
 
 Windows 的部分, 之前是用 Launchy 跟 PowerToys。藉著這次機會也來試試:
 
