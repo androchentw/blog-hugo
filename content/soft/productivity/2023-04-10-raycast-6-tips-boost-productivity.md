@@ -30,7 +30,7 @@ series: productivity
 ## 1. OS 操作
 
 1. Mac 操作 (sleep, ...)
-2. App open (iterm, …)
+2. App open (iterm, ...)
 3. file open (f > filename; cmd + enter 開資料夾)
 4. shortcuts 可以共用
 
@@ -87,11 +87,6 @@ series: productivity
     1. [Clipboard to Imgur](https://github.com/raycast/script-commands/blob/master/commands/productivity/imgur/imgur-upload-clipboard-image.template.sh)
     2. [Run OCR](https://github.com/raycast/script-commands/blob/master/commands/productivity/macocr/macocr-run-ocr.sh)
 
-## Windows Alternative
-
-1. [WoX](https://github.com/Wox-launcher/Wox)
-2. [ueli](https://github.com/oliverschwendener/ueli)
-
 ## 你怎麼看?
 
 留下你的想法一起討論吧! 🥳
@@ -104,4 +99,4 @@ series: productivity
 
 ### Murmur
 
-+ 2023-04-08: 思考 💪
+* 2023-04-10: 思考 💪
