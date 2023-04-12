@@ -1,7 +1,7 @@
 ---
 draft: true
-title: "reading"
-url: /reading
+title: "Active Reading 2023"
+url: /active-reading-2023
 # date: 2023-04-10T18:00:00+08:00
 date: 2023-04-10T18:30:00+08:00
 author: androchentw
@@ -26,6 +26,7 @@ Reading
 ## 起心動念
 
 - 知識流程: 口述 → ChatGPT Bullet Point Rephrase + Summarize → Blog Post
+  - 練習透過口述記錄結合ChatGPT的摘要功能，產生本篇文章及後續文章。
 
 1. 結合知識與行動。我們常從書中汲取許多知識，但若未轉化為行為乃至習慣，那將很可惜，就只是一個"看過的風景"。因此，我希望在閱讀完書後，能實踐一至三個行為，將書中關鍵點融會貫通。
 2. 分享激發動力。我一直有記錄閱讀心得，最初有放在之前的部落格，後來因為太久沒維運倒站了之後，轉移到OneNote和Notion。然而，由於這些資料僅供自己參考，因此動機變得重要，我很容易擱置或忽略它們。分享心得可增加我的動力，並透過部落格進行統計。
