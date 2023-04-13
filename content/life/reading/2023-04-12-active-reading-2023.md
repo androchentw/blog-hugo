@@ -7,11 +7,12 @@ date: 2023-04-10T18:30:00+08:00
 author: androchentw
 type: post
 categories:
-  - soft
+  - life
 tags: 
-  - productivity
+  - reading
+  - reflection
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reading/reading.png?raw=true
-series: productivity
+series: reading
 ---
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reading/reading.png?raw=true">
