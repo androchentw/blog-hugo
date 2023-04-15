@@ -1,6 +1,6 @@
 ---
 title: "Splunk GCP 上帝視角綜觀雲端防護無死角"
-url: /splunk-gcp-threat-monitoring-solutions-event
+url: splunk-gcp-threat-monitoring-solutions-event
 # date: 2022-11-03T09:28:16+08:00
 date: 2022-11-05T18:34:16+08:00
 author: androchentw

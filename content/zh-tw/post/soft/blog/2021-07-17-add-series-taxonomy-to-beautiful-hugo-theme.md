@@ -1,6 +1,6 @@
 ---
 title: "Add Series Taxonomy to Beautiful Hugo Theme"
-url: /add-series-taxonomy-to-beautiful-hugo-theme
+url: add-series-taxonomy-to-beautiful-hugo-theme
 date: 2021-07-17T15:47:50+08:00
 author: androchentw
 type: post

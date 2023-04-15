@@ -1,6 +1,6 @@
 ---
 title: "技術寫作初心者之路 - 3 堂入門課寫出優質文章"
-url: /technical-writing-courses-shoshinsha
+url: technical-writing-courses-shoshinsha
 # date: 2022-08-22T10:06:16+08:00
 date: 2022-08-22T10:50:16+08:00
 author: androchentw

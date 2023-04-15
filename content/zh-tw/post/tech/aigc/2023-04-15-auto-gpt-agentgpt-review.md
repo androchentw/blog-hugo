@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "天網來襲？ 使用 Auto-GPT 與 AgentGPT 結合敏捷開發, 自動拆解並完成任務需求"
-url: /auto-gpt-agentgpt-review
+url: auto-gpt-agentgpt-review
 # date: 2023-04-14T20:30:00+08:00
 date: 2023-04-15T07:00:00+08:00
 author: androchentw

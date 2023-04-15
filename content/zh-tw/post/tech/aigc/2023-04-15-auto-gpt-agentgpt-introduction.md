@@ -1,6 +1,6 @@
 ---
 title: "Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇"
-url: /auto-gpt-agentgpt-introduction
+url: auto-gpt-agentgpt-introduction
 # date: 2023-04-14T20:30:00+08:00
 date: 2023-04-15T12:00:00+08:00
 author: androchentw

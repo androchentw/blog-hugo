@@ -1,6 +1,6 @@
 ---
 title: "ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報"
-url: /programmur-redefine-newsletter
+url: programmur-redefine-newsletter
 # date: 2023-04-01T08:00:00+08:00
 date: 2023-04-04T14:30:00+08:00
 author: androchentw

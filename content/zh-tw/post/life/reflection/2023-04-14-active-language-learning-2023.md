@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "Active Language Learning 2023"
-url: /active-language-learning-2023
+url: active-language-learning-2023
 # date: 2023-04-10T18:00:00+08:00
 date: 2023-04-10T18:30:00+08:00
 author: androchentw

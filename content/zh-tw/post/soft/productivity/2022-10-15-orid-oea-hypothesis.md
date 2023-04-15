@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "ORID 提問框架 + OEA 思維框架 + 空雨傘理論 假說思考"
-url: /orid-oea-hypothesis
+url: orid-oea-hypothesis
 # date: 2022-09-30T13:28:16+08:00
 date: 2022-10-15T08:34:16+08:00
 author: androchentw

@@ -1,6 +1,6 @@
 ---
 title: "HashiCorp Vault 實戰工作坊 - 建構零信任安全策略"
-url: /hashicorp-vault-workshop
+url: hashicorp-vault-workshop
 # date: 2022-10-14T14:06:16+08:00
 date: 2022-10-14T15:30:16+08:00
 author: androchentw

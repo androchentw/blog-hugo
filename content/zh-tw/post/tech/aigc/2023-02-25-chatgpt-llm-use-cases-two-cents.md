@@ -1,6 +1,6 @@
 ---
 title: "寫在 ChatGPT 使用 3 個月後的淺見與用例分享"
-url: /chatgpt-llm-use-cases-two-cents
+url: chatgpt-llm-use-cases-two-cents
 # date: 2023-02-25T13:25:16+08:00
 date: 2023-02-25T17:50:16+08:00
 author: androchentw

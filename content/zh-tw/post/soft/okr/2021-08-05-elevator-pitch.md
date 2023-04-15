@@ -1,6 +1,6 @@
 ---
 title: "Elevator Pitch"
-url: /elevator-pitch
+url: elevator-pitch
 date: 2021-08-05T23:55:14+08:00
 author: androchentw
 type: post

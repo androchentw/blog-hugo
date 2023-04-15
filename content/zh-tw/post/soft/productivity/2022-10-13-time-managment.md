@@ -1,6 +1,6 @@
 ---
 title: "如何做好時間管理的三個方法論與工具"
-url: /time-managment
+url: time-managment
 # date: 2022-09-29T09:28:16+08:00
 date: 2022-10-13T20:48:16+08:00
 author: androchentw

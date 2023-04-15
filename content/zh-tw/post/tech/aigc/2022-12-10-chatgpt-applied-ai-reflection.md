@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 如何協助人類? 應用 AI 與科幻哲思"
-url: /chatgpt-applied-ai-sci-fi-reflection
+url: chatgpt-applied-ai-sci-fi-reflection
 # date: 2022-12-10T09:25:16+08:00
 date: 2022-12-10T14:50:16+08:00
 author: androchentw

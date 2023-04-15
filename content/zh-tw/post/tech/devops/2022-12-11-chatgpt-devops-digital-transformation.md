@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "ChatGPT 怎麼看 DevOps 與 數位轉型"
-url: /chatgpt-devops-digital-transformation
+url: chatgpt-devops-digital-transformation
 # date: 2022-12-11T18:28:16+08:00
 date: 2022-12-11T18:34:16+08:00
 author: androchentw

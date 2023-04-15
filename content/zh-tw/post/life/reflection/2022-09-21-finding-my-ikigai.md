@@ -1,6 +1,6 @@
 ---
 title: "Finding My Ikigai 生き甲斐 - 生存的價值與人生意義"
-url: /finding-my-ikigai
+url: finding-my-ikigai
 # date: 2022-09-21T09:28:16+08:00
 date: 2022-09-25T12:51:16+08:00
 author: androchentw

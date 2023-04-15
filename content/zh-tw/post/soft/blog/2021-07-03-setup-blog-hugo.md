@@ -1,6 +1,6 @@
 ---
 title: "Setup Blog Hugo"
-url: /setup-blog-hugo
+url: setup-blog-hugo
 date: 2021-07-03T20:51:44+08:00
 author: androchentw
 type: post

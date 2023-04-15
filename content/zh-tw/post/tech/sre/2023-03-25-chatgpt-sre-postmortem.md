@@ -1,6 +1,6 @@
 ---
 title: "來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析"
-url: /chatgpt-sre-postmortem
+url: chatgpt-sre-postmortem
 # date: 2023-03-25T06:00:00+08:00
 date: 2023-03-25T08:25:00+08:00
 author: androchentw

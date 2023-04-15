@@ -1,6 +1,6 @@
 ---
 title: "教學初心者之路 - 三步驟提升教學品質"
-url: /instructor-shoshinsha
+url: instructor-shoshinsha
 # date: 2022-09-09T21:06:16+08:00
 date: 2022-09-20T12:50:16+08:00
 author: androchentw

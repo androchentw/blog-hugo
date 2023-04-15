@@ -1,6 +1,6 @@
 ---
 title: "Golang Learn"
-url: /golang-learn
+url: golang-learn
 date: 2021-07-17T10:13:58+08:00
 author: androchentw
 type: post

@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "SRE Metrics"
-url: /sre-metrics
+url: sre-metrics
 #date: 2021-08-06T01:22:34+08:00
 date: 2021-08-06T01:22:34+08:00
 author: androchentw

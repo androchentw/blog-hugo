@@ -1,6 +1,6 @@
 ---
 title: "Atlassian - ITSM"
-url: /ja/atlassian-itsm
+url: atlassian-itsm
 #date: 2021-08-06T01:20:28+08:00
 date: 2021-08-07T10:55:28+08:00
 author: androchentw

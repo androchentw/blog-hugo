@@ -1,6 +1,6 @@
 ---
 title: "DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品"
-url: /devopsdays-taipei-2022
+url: devopsdays-taipei-2022
 # date: 2022-09-15T09:28:16+08:00
 date: 2022-09-15T09:55:16+08:00
 author: androchentw

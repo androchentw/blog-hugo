@@ -1,6 +1,6 @@
 ---
 title: "開箱即用的 Python 專案結構與 PyTest"
-url: /python-project-structure-with-pytest
+url: python-project-structure-with-pytest
 # date: 2022-09-06T20:28:16+08:00
 date: 2022-09-06T20:34:16+08:00
 author: androchentw

@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "新潟 石打丸山 滑雪計畫"
-url: /2023-01-snowboard-isshiuchi
+url: 2023-01-snowboard-isshiuchi
 # date: 2023-01-11T18:28:16+08:00
 date: 2023-01-11T18:34:16+08:00
 author: androchentw

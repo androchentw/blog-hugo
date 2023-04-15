@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "上手學習 TDD - Test Driven Development 測試驅動開發入門"
-url: /learning-tdd-test-driven-development
+url: learning-tdd-test-driven-development
 # date: 2022-08-28T01:28:16+08:00
 date: 2022-08-28T13:30:16+08:00
 author: androchentw

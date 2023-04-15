@@ -1,6 +1,6 @@
 ---
 title: "Macbook 開發環境設定大全"
-url: /macbook-setup
+url: macbook-setup
 # date: 2022-09-09T21:06:16+08:00
 date: 2022-09-09T21:50:16+08:00
 author: androchentw

@@ -1,6 +1,6 @@
 ---
 title: "2023-01 東京新潟冬雪 22 日遊"
-url: /2023-01-travel-tokyo-snow
+url: 2023-01-travel-tokyo-snow
 # date: 2023-01-11T03:28:16+08:00
 date: 2023-01-11T18:34:16+08:00
 author: androchentw

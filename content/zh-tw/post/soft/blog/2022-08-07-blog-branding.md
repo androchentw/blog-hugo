@@ -1,6 +1,6 @@
 ---
 title: "重新定位 Blog 內容"
-url: /blog-branding
+url: blog-branding
 # date: 2022-08-07T15:16:16+08:00
 date: 2022-08-07T15:36:16+08:00
 author: androchentw
