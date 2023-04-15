@@ -5,7 +5,10 @@
 ## [2.0.0] - 2023-04-16
 
 * feat: support i18n in en, ja
-* feat: add stage 1 critical articles
+  * feat: replace "url: /" with "url: " for multi-language
+  * feat: add stage 1 critical articles
+* feat: add copyright notice = [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+* fix: main nav sections type by identifier
 
 ## [1.4.0] - 2023-04-13
 
