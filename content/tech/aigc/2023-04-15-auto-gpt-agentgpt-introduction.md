@@ -1,5 +1,5 @@
 ---
-title: "Auto-GPT & AgentGPT 有多神?! AI 全自動完成任務 - 簡介篇"
+title: "Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇"
 url: /auto-gpt-agentgpt-introduction
 # date: 2023-04-14T20:30:00+08:00
 date: 2023-04-15T12:00:00+08:00
@@ -94,7 +94,7 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
 
 ## 👀 需求/審核/階段檢視的重要性
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.jpg?raw=true">
 <p align="center"><sub><sup>
   經典程式語言笑話 - 看到西瓜買 1 顆，看到橘子買 10 顆
 </sup></sub></p>
@@ -112,7 +112,7 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
 
 ## 🚀 善用 Agile/Lean Startup "MVP" 概念, 打造你的專屬火箭
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-6-mvp.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-6-mvp.jpg?raw=true">
 <p align="center"><sub><sup>
   <a href="https://startupbasics.com/minimum-viable-product" target="_blank rel="noopener noreferrer">startup basics</a> - Lean Startup MVP 概念 滑板車 -> 汽車
 </sup></sub></p>
