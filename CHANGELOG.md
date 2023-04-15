@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2023-04-16
+
+* feat: support i18n in en, ja
+* feat: add stage 1 critical articles
+
 ## [1.4.0] - 2023-04-13
 
 * feat: add release note CHANGELOG.md
@@ -49,6 +54,7 @@
 <!-- Links -->
 
 <!-- Versions -->
+[2.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.0.0
 [1.4.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.4.0
 [1.3.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.3.0
 [1.2.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.2.0

@@ -34,6 +34,7 @@ summaryLength = 70
     hasCJKLanguage = true
     weight = 1
     title = "ProgramMur - 程序猿碎念"
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)"
   [languages.en]
     languageCode = "en"
     languageName = "English"
@@ -49,6 +50,7 @@ summaryLength = 70
     hasCJKLanguage = true
     weight = 3
     title = "ProgramMur - プログラマーのつぶやき"
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)"
 
 # Others
 
