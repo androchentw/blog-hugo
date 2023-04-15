@@ -97,13 +97,13 @@ summaryLength = 70
 [[menu.main]]
   name = "Soft"
   pre = '<i class="fas fa-lightbulb fa-lg"></i>'
-  url = "/soft/"
+  url = "soft/"
   weight = 2
 
 [[menu.main]]
   name = "Life"
   pre = '<i class="fas fa-fire fa-lg"></i>'
-  url = "/life/"
+  url = "life/"
   weight = 3
 
 [[menu.main]]
