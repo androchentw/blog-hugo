@@ -12,11 +12,11 @@ tags:
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true
 series: aigc
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-cover.png?raw=true">
 <p align="center"><sub><sup>
   Productivity Revolution 生產力革命
 </sup></sub></p>
@@ -61,7 +61,7 @@ series: aigc
 
 如同眾多科幻電影在探討的 "人為何物" "怎樣才算是人", 不管是 Cyborg 替換人造器官的比例, 到有意識的機器人, 再到完全的人造人, 這條路上還有太多我們目前認知跟不上的地方。但無論如何，追求人類更好的生活，一直都是推動人類演進的命題。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
 <p align="center"><sub><sup>
   當有效知識能像《駭客任務》一樣, 下載即可用: 武術, 開飛機, 說外語
 </sup></sub></p>
@@ -96,7 +96,7 @@ series: aigc
 * 科幻遊戲 地平線 透過蓋婭系統與九大子系統, 自動維運 "超级智慧星球改造系统"
   * 參考: [巴哈姆特 - 【心得】蓋婭系統運作表｜神話人物介紹｜一代劇情大綱 讓你更快融入西域禁地](https://forum.gamer.com.tw/C.php?bsn=46688&snA=1775)
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-horizon.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-horizon.png?raw=true">
 <p align="center"><sub><sup>
   <a href="https://horizon.fandom.com/wiki/Subordinate_Functions"> Horizon Wiki | fandom</a>
 </sup></sub></p>
@@ -111,7 +111,7 @@ series: aigc
 
 ## ChatGPT 自己的回答
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-chatgpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-chatgpt.png?raw=true">
 <p align="center"><sub><sup>
   問: 如何善用 AI 加速知識循環
 </sup></sub></p>

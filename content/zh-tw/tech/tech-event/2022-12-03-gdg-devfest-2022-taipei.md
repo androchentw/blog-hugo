@@ -10,11 +10,11 @@ categories:
 tags: 
   - tech-event
   - devops
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-12-03-gdg-devfest-2022-taipei-cover.webp?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/tech-event/2022-12-03-gdg-devfest-2022-taipei-cover.webp?raw=true
 series: tech-event
 ---
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-12-03-gdg-devfest-2022-taipei-cover.webp?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/tech-event/2022-12-03-gdg-devfest-2022-taipei-cover.webp?raw=true">
 
 ## Overview 概述
 

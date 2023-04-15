@@ -11,11 +11,11 @@ tags:
   - sre
   - chatgpt
   - aigc
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/sre/2023-03-25-chatgpt-sre-postmortem-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/sre/2023-03-25-chatgpt-sre-postmortem-cover.png?raw=true
 series: sre
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/sre/2023-03-25-chatgpt-sre-postmortem-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/sre/2023-03-25-chatgpt-sre-postmortem-cover.png?raw=true">
 <p align="center"><sub><sup>
   來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析
 </sup></sub></p>
@@ -53,7 +53,7 @@ OpenAI 不是第一個這麼做的單位，事實上這已經是西方主流企�
 
 ## ChatGPT 3/20 停機剖析
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/sre/2023-03-25-chatgpt-sre-postmortem-post.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/sre/2023-03-25-chatgpt-sre-postmortem-post.png?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 在美國時間 3/24(週五) 發布了新的一篇 blog，解釋 3/20(週一) ChatGPT 停機的來龍去脈。
 </sup></sub></p>
@@ -100,7 +100,7 @@ OpenAI 也條列了他們已經採取的措施:
 
 像是 status page 狀態頁面這類非常常見的可觀測性服務，若沒有將自己的服務視為重要的，那就很可能會忽略掉。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/sre/2023-03-25-chatgpt-sre-postmortem-status-page.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/sre/2023-03-25-chatgpt-sre-postmortem-status-page.jpg?raw=true">
 <p align="center"><sub><sup>
   Status Page
 </sup></sub></p>

@@ -12,11 +12,11 @@ tags:
   - chatgpt
   - writing
   - productivity
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true
 series: aigc
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true">
 <p align="center"><sub><sup>
   ChatGPT Prompt 實戰 - 3 招加速知識生產
 </sup></sub></p>
@@ -52,7 +52,7 @@ series: aigc
 
 ## 知識產出的組成結構是?
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-time-management.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-26-chatgpt-knowledge-production-time-management.png?raw=true">
 <p align="center"><sub><sup>
   知識產出/文章撰寫 時間分配
 </sup></sub></p>
@@ -83,7 +83,7 @@ series: aigc
 summarize & translate #zh-TW
 ```
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-food-model.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-26-chatgpt-knowledge-production-food-model.png?raw=true">
 <p align="center"><sub><sup>
   食物模型. Midjourney: taiwan food model realistic --v 4
 </sup></sub></p>
@@ -114,7 +114,7 @@ summarize to an attractive social media post #zh-TW
 
 (我覺得我可能需要一個 Gordon Ramsay 在旁邊喊 15 minutes left! 😂)
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-gordon-ramsay.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-26-chatgpt-knowledge-production-gordon-ramsay.png?raw=true">
 <p align="center"><sub><sup>
   Gordon Ramsay: 15 minutes left!
 </sup></sub></p>

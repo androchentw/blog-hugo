@@ -11,11 +11,11 @@ categories:
 tags: 
   - travel
   - snowboard
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2019-01-30-Ishiuchi-Maruyama.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/life/travel/2019-01-30-Ishiuchi-Maruyama.jpg?raw=true
 series: travel
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2019-01-30-Ishiuchi-Maruyama.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/life/travel/2019-01-30-Ishiuchi-Maruyama.jpg?raw=true">
 <p align="center"><sub><sup>
   Photo by androchentw
 </sup></sub></p>

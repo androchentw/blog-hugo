@@ -12,13 +12,13 @@ tags:
   - aigc
   - chatgpt
   - productivity
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true">
 <p align="center"><sub><sup>
   天網來襲？ 使用 Auto-GPT 與 AgentGPT 結合敏捷開發, 自動拆解並完成任務需求
 </sup></sub></p>

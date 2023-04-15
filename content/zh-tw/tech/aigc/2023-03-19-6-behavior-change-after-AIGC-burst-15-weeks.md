@@ -13,11 +13,11 @@ tags:
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true
 series: aigc
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-03-19-6-behavior-change-after-AIGC-burst-15-weeks-cover.png?raw=true">
 <p align="center"><sub><sup>
   AIGC 浪潮翻騰 15 週後的 6 大行為改變
 </sup></sub></p>
@@ -141,7 +141,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 如同 [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution) 一文所述, 當有效知識能像《駭客任務》一樣, **下載即可用**: 武術;開飛機;說外語, 我們真的能**解放能力養成所需耗費的大量時間**.
 
 <a href="https://blog.androchen.tw/ai-accelerate-knowledge-revolution" target="_blank" rel="noreferrer noopener">
-   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
+   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-27-ai-accelerate-knowledge-revolution-matrix.jpg?raw=true">
 </a>
 <p align="center"><sub><sup>
   當有效知識能像《駭客任務》一樣, 下載即可用: 武術;開飛機;說外語
@@ -211,7 +211,7 @@ ChatGPT 能做到 "差異解釋 + 定義 + 例句 + 總結", 加速我 **"學習
 > 也許是時候調整對於 ChatGPT 的期望管理, 讓他真的能像阿斯拉一樣帶著我們飛; 而不是一味地過度依賴小叮噹。
 
 <a href="https://blog.androchen.tw/chatgpt-llm-use-cases-two-cents" target="_blank" rel="noreferrer noopener">
-   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+   <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
 </a>
 <p align="center"><sub><sup>
   我以為今天的我沒有極限, 實際上的我卻在討拍
