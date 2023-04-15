@@ -10,7 +10,7 @@ categories:
 tags: 
   - aigc
   - chatgpt
-  - auto-gpt
+  - autogpt
   - agentgpt
   - productivity
   - agile
