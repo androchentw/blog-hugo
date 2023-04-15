@@ -91,6 +91,9 @@ hugo -D
    1. [Multilingual Mode](https://gohugo.io/content-management/multilingual)
    2. [URL Management](https://gohugo.io/content-management/urls/)
       1. multilingual site
+   3. [Sections](https://gohugo.io/content-management/sections/)
+   4. [Archetypes](https://gohugo.io/content-management/archetypes/)
+   5. 在每一篇 md 裡有指定的 `type: post`
 2. [Theme - Beautifulhugo (我使用的)](https://github.com/halogenica/beautifulhugo/blob/master/i18n/zh-TW.yaml)
    1. [blog-theme](https://github.com/androchentw/blog-theme/blob/master/i18n/zh-TW.yaml)
    2. [Locales - zh, zh_Hant, zh_Hant_TW](https://github.com/gohugoio/locales)

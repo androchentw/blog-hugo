@@ -30,7 +30,7 @@ summaryLength = 70
   [languages.zh-tw]
     languageCode  = "zh-tw"
     languageName = "繁體中文"
-    contentDir = "content/zh-tw"
+    # contentDir = "content/zh-tw"
     hasCJKLanguage = true
     weight = 1
     title = "ProgramMur - 程序猿碎念"
@@ -38,7 +38,7 @@ summaryLength = 70
   [languages.en]
     languageCode = "en"
     languageName = "English"
-    contentDir = "content/en"
+    # contentDir = "content/en"
     hasCJKLanguage = false
     weight = 2
     title = "ProgramMur - Programmer's Mumur"
@@ -46,7 +46,7 @@ summaryLength = 70
   [languages.ja]
     languageCode  = "ja"
     languageName = "日文"
-    contentDir = "content/ja"
+    # contentDir = "content/ja"
     hasCJKLanguage = true
     weight = 3
     title = "ProgramMur - プログラマーのつぶやき"
@@ -91,21 +91,24 @@ summaryLength = 70
   linkedin = "androchen"
 
 [[menu.main]]
+  identifier = "tech"
   name = "Tech"
   pre = '<i class="fas fa-laptop-code fa-lg"></i>'
   url = "/tech/"
   weight = 1
 
 [[menu.main]]
+  identifier = "soft"
   name = "Soft"
   pre = '<i class="fas fa-lightbulb fa-lg"></i>'
-  url = "soft/"
+  url = "/soft/"
   weight = 2
 
 [[menu.main]]
+  identifier = "life"
   name = "Life"
   pre = '<i class="fas fa-fire fa-lg"></i>'
-  url = "life/"
+  url = "/life/"
   weight = 3
 
 [[menu.main]]
