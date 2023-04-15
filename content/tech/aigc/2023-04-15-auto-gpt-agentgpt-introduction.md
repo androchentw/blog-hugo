@@ -13,13 +13,14 @@ tags:
   - auto-gpt
   - agentgpt
   - productivity
+  - agile
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT / AgentGPT 的 自動 AI 機制
 </sup></sub></p>
@@ -79,7 +80,7 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
   Auto-GPT 範例 指令介面
 </sup></sub></p>
 
-另外，[BabyAGI 的 Task-driven Autonomous Agent](https://twitter.com/yoheinakajima/status/1640934493489070080) 有將原理畫出來，我也發了一支 PR 提供[繁體中文翻譯](https://github.com/yoheinakajima/babyagi/blob/main/docs/README-zh-tw.md)大家有興趣也可以參考一下。
+另外，[BabyAGI 的 Task-driven Autonomous Agent](https://twitter.com/yoheinakajima/status/1640934493489070080) 有將原理畫出來，我也發了一支 PR 提供[繁體中文翻譯](https://github.com/yoheinakajima/babyagi/blob/main/docs/README-zh-tw.md)。大家有興趣也可以參考一下。
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-4-babyagi.png?raw=true">
 <p align="center"><sub><sup>
@@ -104,11 +105,11 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
 
 > 老婆跟老公說「去超市看到西瓜買 1 顆，有看到橘子的話買 10 顆」。
 >
-> 結果最後老公買回來了 10 顆西瓜。
+> 結果最後老公買了 10 顆西瓜。
 >
 > (註解: 因為老公 "有看到橘子"，所以買了 10 顆西瓜；但老婆的需求是希望買 10 顆橘子)
 
-如先前在 [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks) 一文提到的「**精準提問**」、「**精準說明需求**」，將更是未來的關鍵。因為他直接影響到你會不會看到 10 顆西瓜，或是其他你不預期的行為。
+如先前在 [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks) 一文提到的「**精準提問**」，「**精準說明需求**」將更是未來的關鍵。因為這直接影響到你會不會看到 10 顆西瓜，或是其他你不預期的行為。
 
 ## 🚀 善用 Agile/Lean Startup "MVP" 概念, 打造你的專屬火箭
 
