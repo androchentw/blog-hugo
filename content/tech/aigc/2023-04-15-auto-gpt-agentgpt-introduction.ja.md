@@ -68,7 +68,7 @@ Auto-GPTとAgentGPTの両方で使用される語彙と手順は異なります�
 * Auto-GPT: Goal -> N Thought > (Reasoning, Criticism > Next Action, System) -> Result
 * AgentGPT: Goal -> N Task > (Thinking > Executing) -> Result
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.jpg?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT サンプル コマンドインターフェース
 </sup></sub></p>
