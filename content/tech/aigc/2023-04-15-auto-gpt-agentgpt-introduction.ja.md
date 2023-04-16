@@ -14,13 +14,13 @@ tags:
   - agentgpt
   - productivity
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT / AgentGPT の 自動 AI メカニズム
 </sup></sub></p>
@@ -88,7 +88,7 @@ Auto-GPTとAgentGPTの両方で使用される語彙と手順は異なります�
 
 ## 👀 要件/審査/フェーズレビューの重要性
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   古典的なプログラミング言語のジョーク - スイカを見たら1つ買う、オレンジを見たら10個買う
 </sup></sub></p>

@@ -70,7 +70,7 @@ The vocabulary and steps used by Auto-GPT and AgentGPT differ slightly, but the 
 * Auto-GPT: Goal -> N Thought > (Reasoning, Criticism > Next Action, System) -> Result
 * AgentGPT: Goal -> N Task > (Thinking > Executing) -> Result
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.jpg?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT example command line interface
 </sup></sub></p>
@@ -90,7 +90,7 @@ So remember to set a budget limit on the OpenAI API.
 
 ## 👀 Importance of requirements/review/stage evaluation
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.en.jpg?raw=true">
 <p align="center"><sub><sup>
   Classic programming language joke - Buy 1 watermelon when you see it, buy 10 when you see oranges.
 </sup></sub></p>
