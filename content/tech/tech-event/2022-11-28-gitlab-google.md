@@ -1,6 +1,6 @@
 ---
 title: "GitLab + Google 2022"
-url: /gitlab-google-2022
+url: gitlab-google-2022
 # date: 2022-11-28T15:28:16+08:00
 date: 2022-12-01T07:34:16+08:00
 author: androchentw

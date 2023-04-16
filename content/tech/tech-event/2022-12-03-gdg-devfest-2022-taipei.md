@@ -1,6 +1,6 @@
 ---
 title: "GDG DevFest 2022 Taipei 社群志工與議程心得"
-url: /gdg-devfest-2022-taipei
+url: gdg-devfest-2022-taipei
 # date: 2022-12-03T07:28:16+08:00
 date: 2022-12-04T16:34:16+08:00
 author: androchentw

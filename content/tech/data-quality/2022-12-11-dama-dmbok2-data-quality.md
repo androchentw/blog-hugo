@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "DAMA DMBOK2 Data Quality"
-url: /dama-dmbok2-data-quality
+url: dama-dmbok2-data-quality
 # date: 2022-12-11T18:28:16+08:00
 date: 2022-12-11T19:08:16+08:00
 author: androchentw

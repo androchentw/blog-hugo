@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "專案導入的天時地利人和"
-url: /project-landing-time-place-people
+url: project-landing-time-place-people
 # date: 2022-09-17T13:28:16+08:00
 date: 2022-09-17T13:55:16+08:00
 author: androchentw

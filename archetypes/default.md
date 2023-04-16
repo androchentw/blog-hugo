@@ -1,7 +1,7 @@
 ---
 # 小提問 -> 好提問 + 深思考 + 敏解答. ORID + OEA (空雨傘)
 title: "{{ .Name | replaceRE "^.{11}" "" | humanize | title }}"
-url: /{{ slicestr .Name 11 }}
+url: {{ slicestr .Name 11 }}
 # date: {{ .Date }}
 date: {{ .Date }}
 author: androchentw

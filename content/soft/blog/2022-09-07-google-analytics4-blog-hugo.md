@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "設定 Google Analytics 4 於 Hugo Blog"
-url: /google-analytics4-blog-hugo
+url: google-analytics4-blog-hugo
 # date: 2022-08-28T03:36:16+08:00
 date: 2022-08-07T14:36:16+08:00
 author: androchentw

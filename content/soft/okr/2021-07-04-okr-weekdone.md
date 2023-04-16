@@ -1,6 +1,6 @@
 ---
 title: "OKR Weekdone"
-url: /okr-weekdone
+url: okr-weekdone
 date: 2021-07-04T23:41:58+08:00
 author: androchentw
 type: post

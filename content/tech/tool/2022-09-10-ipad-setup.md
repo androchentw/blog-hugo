@@ -1,6 +1,6 @@
 ---
 title: "iPad Air 5 開箱與環境設定"
-url: /ipad-setup
+url: ipad-setup
 # date: 2022-09-10T00:06:16+08:00
 date: 2022-09-10T00:40:16+08:00
 author: androchentw

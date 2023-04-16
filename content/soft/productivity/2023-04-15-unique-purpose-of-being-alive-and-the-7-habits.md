@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "天下無雙 - 活著的意義與 7 個高效習慣"
-url: /unique-purpose-of-being-alive-and-the-7-habits
+url: unique-purpose-of-being-alive-and-the-7-habits
 # date: 2023-04-03T22:00:00+08:00
 date: 2023-04-15T08:30:00+08:00
 author: androchentw

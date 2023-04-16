@@ -1,6 +1,6 @@
 ---
 title: "OpenAI CEO Sam Altman 生產力 4 招解密"
-url: /openai-ceo-sam-altman-productivity-4-tips
+url: openai-ceo-sam-altman-productivity-4-tips
 # date: 2023-04-02T22:00:00+08:00
 date: 2023-04-03T08:30:00+08:00
 author: androchentw

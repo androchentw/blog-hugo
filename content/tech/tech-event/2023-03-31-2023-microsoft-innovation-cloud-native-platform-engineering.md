@@ -1,6 +1,6 @@
 ---
 title: "台灣微軟研討會 - 應用創新起手式 - 打造化繁為簡的雲原生平台"
-url: /2023-microsoft-innovation-cloud-native-platform-engineering
+url: 2023-microsoft-innovation-cloud-native-platform-engineering
 # date: 2023-03-31T13:00:00+08:00
 date: 2023-03-31T18:30:00+08:00
 author: androchentw

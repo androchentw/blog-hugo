@@ -1,6 +1,6 @@
 ---
 title: "2023-01 東京新潟冬雪 22 日遊"
-url: /2023-01-travel-tokyo-snow
+url: 2023-01-travel-tokyo-snow
 # date: 2023-01-11T03:28:16+08:00
 date: 2023-01-11T18:34:16+08:00
 author: androchentw
@@ -53,8 +53,7 @@ series: travel
    1. kkday, klook 比價
    2. 日本的預約網站也越做越簡單, 這次也用到 [TableCheck](https://www.tablecheck.com/zh-TW/japan) 來訂一些想吃的餐廳
 4. [SUICA + iPhone 設定](https://simontamhk.com/%E5%A6%82%E4%BD%95%E5%B0%87%E6%97%A5%E6%9C%ACsuica%E5%8D%A1%E5%8A%A0%E5%85%A5iphone/)
-5. esim
-   1. 這次也是在 kkday 上買 esim, 看到時候收訊如何~
+5. esim: 這次也是在 kkday 上買 esim, 看到時候收訊如何~
 6. 換匯
    1. 這次是先用 台新換匯到日幣帳戶, 然後再持白狗卡/金融卡到 外幣ATM提領 (+ NTD $100 手續費, 上限 15 萬台幣). 目前都是 5000 日幣紙鈔
    2. 另一個選擇是玉山銀行, 單次提領手續費也是 NTD $100, 上限是 5 萬台幣, 且出鈔張數最多 50 張

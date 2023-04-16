@@ -1,6 +1,6 @@
 ---
 title: "Setup Blog Hugo"
-url: /setup-blog-hugo
+url: setup-blog-hugo
 date: 2021-07-03T20:51:44+08:00
 author: androchentw
 type: post
@@ -76,3 +76,29 @@ hugo -D
 6. [Hugo 加入 Google Custom Search 站內搜尋功能](https://blog.uncletony.tw/2021/03/hugo_%E5%8A%A0%E5%85%A5%E6%90%9C%E5%B0%8B%E5%8A%9F%E8%83%BD/)
 7. [如在 Github Pages 建立 Hugo 靜態網站](https://kaichu.io/posts/my-first-post/)
 8. [我的 Hugo 工作流程](https://www.ernestchiang.com/zh/posts/2021/my-hugo-workflow/)
+
+## 2023-04-15 i18n 作法記錄
+
+* url = {lang}/post. 預設中文: /blog-1, /en/blog-1, /ja/blog-1
+  * ✅ 改用 url:, 而非 url:  => 正確! 有 {lang}/{post}
+  * ❌ 改用 slug, 而非 url:  => 會變這樣 <http://localhost:1313/post/life/blog/blog-1>
+* 每篇 post 正確要有類似 "翻訳：繁體中文・English"
+  * ✅ 把 en/ 放到 post/en/ 跟 zh-tw 對齊 => 正確! 有 "翻譯"
+
+### Ref
+
+1. Hugo 官網
+   1. [Multilingual Mode](https://gohugo.io/content-management/multilingual)
+   2. [URL Management](https://gohugo.io/content-management/urls/)
+      1. multilingual site
+   3. [Sections](https://gohugo.io/content-management/sections/)
+   4. [Archetypes](https://gohugo.io/content-management/archetypes/)
+   5. 在每一篇 md 裡有指定的 `type: post`
+   6. [Taxonomies](https://gohugo.io/content-management/taxonomies/)
+   7. [Add Sub Menu in Hugo Website](https://codingnconcepts.com/hugo/nested-menu-hugo/)
+   8. [Lists of Content in Hugo](https://gohugo.io/templates/lists/)
+2. [Theme - Beautifulhugo (我使用的)](https://github.com/halogenica/beautifulhugo/blob/master/i18n/zh-TW.yaml)
+   1. [blog-theme](https://github.com/androchentw/blog-theme/blob/master/i18n/zh-TW.yaml)
+   2. [Locales - zh, zh_Hant, zh_Hant_TW](https://github.com/gohugoio/locales)
+3. [Hugo 論壇](https://discourse.gohugo.io/search?q=zh%20chinese)
+   1. [zh-tw](https://discourse.gohugo.io/t/is-it-good-idea-to-use-tw-instead-of-zh-tw-in-i18n/39088/4)

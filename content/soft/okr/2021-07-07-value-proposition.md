@@ -1,6 +1,6 @@
 ---
 title: "Value Proposition"
-url: /value-proposition
+url: value-proposition
 date: 2021-07-07T21:14:59+08:00
 author: androchentw
 type: post

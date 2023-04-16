@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 實戰 - 3 招加速知識產出"
-url: /chatgpt-knowledge-production
+url: chatgpt-knowledge-production
 # date: 2023-03-26T12:30:00+08:00
 date: 2023-03-26T16:30:00+08:00
 author: androchentw

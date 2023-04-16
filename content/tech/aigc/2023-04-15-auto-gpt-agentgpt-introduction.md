@@ -1,6 +1,6 @@
 ---
 title: "Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇"
-url: /auto-gpt-agentgpt-introduction
+url: auto-gpt-agentgpt-introduction
 # date: 2023-04-14T20:30:00+08:00
 date: 2023-04-15T12:00:00+08:00
 author: androchentw
@@ -99,7 +99,6 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
 <p align="center"><sub><sup>
   經典程式語言笑話 - 看到西瓜買 1 顆，看到橘子買 10 顆
 </sup></sub></p>
-<https://memes.tw/wtf/532158>
 
 這讓我想起一個經典的程式語言笑話:
 

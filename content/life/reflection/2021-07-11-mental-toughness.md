@@ -1,6 +1,6 @@
 ---
 title: "Mental Toughness"
-url: /mental-toughness
+url: mental-toughness
 # date: 2021-07-11T11:05:05+08:00
 date: 2021-07-11T12:41:05+08:00
 author: androchentw

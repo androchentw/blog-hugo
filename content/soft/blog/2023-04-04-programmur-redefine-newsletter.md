@@ -1,6 +1,6 @@
 ---
 title: "ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報"
-url: /programmur-redefine-newsletter
+url: programmur-redefine-newsletter
 # date: 2023-04-01T08:00:00+08:00
 date: 2023-04-04T14:30:00+08:00
 author: androchentw
@@ -80,8 +80,8 @@ series: blog
 這裡本質上更像一個**科技遊記**。一如我原本的命名，每一篇都像是我的 murmur 碎唸觀點。再進一步思考，我認為想要透過文章，釐清以下 3 件事:
 
 1. I: 我看到什麼
-2. You: 你能吸收到什麼
-3. We: 我們能一起多想到什麼
+2. You: 你希望獲得什麼
+3. We: 我們能一起多思考什麼
 
 除了科技新知以外，我更想分享與討論「觀點、洞見」。職場上我們常被問 insight：「你的洞見是什麼」。即是說，眼前觀察到的是事實（一個 300 ml 的水杯，裝了 150ml 的水），但你看到了什麼？想說的是什麼？ (只剩半杯?還有半杯?)。
 
@@ -117,3 +117,5 @@ series: blog
 
 * 2023-04-01: 希望自己能夠繼續堅持下去這個 知識產出計畫 😆
 * 2023-04-04: 數位行銷跟電子報真的是越挖越大坑... 還是先保持簡單就好!
+* 2023-04-16: 增加 [英文版](https://programmuren.substack.com/) 與 [日語版](https://programmurja.substack.com/)，幫助自己學習語言! 🥳
+

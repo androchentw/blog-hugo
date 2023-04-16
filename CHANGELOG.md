@@ -2,13 +2,21 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2023-04-16
+
+* feat: support i18n in en, ja
+  * feat: replace "url: /" with "url: " for multi-language
+  * feat: add stage 1 critical articles
+* feat: add copyright notice = [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+* fix: main nav sections type by identifier
+
 ## [1.4.0] - 2023-04-13
 
 * feat: add release note CHANGELOG.md
 
 ## [1.3.0] - 2023-04-04
 
-* feat: [add **newsletter substack** embed](https://blog.androchen.tw/programmur-redefine-newsletter/) 
+* feat: [add **newsletter substack** embed](https://blog.androchen.tw/programmur-redefine-newsletter/)
   * [ProgramMur Substack](https://programmur.substack.com/)
 * feat: enhance **timeline** format to `yyyy-mm-dd weekday`
   * feat: add post by year total `{{ $year }} ({{ len $pages }})` for each year
@@ -49,6 +57,7 @@
 <!-- Links -->
 
 <!-- Versions -->
+[2.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.0.0
 [1.4.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.4.0
 [1.3.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.3.0
 [1.2.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.2.0

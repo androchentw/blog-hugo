@@ -1,6 +1,6 @@
 ---
 title: "寫在 ChatGPT 使用 3 個月後的淺見與用例分享"
-url: /chatgpt-llm-use-cases-two-cents
+url: chatgpt-llm-use-cases-two-cents
 # date: 2023-02-25T13:25:16+08:00
 date: 2023-02-25T17:50:16+08:00
 author: androchentw
@@ -12,11 +12,11 @@ tags:
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.jpg?raw=true
 series: aigc
 ---
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.png?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
 </sup></sub></p>

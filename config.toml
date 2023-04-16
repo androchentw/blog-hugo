@@ -1,9 +1,7 @@
 baseURL = "https://blog.androchen.tw"
-languageCode = "en-us"
 title = "ProgramMur - 程序猿碎念"
 theme = "beautifulhugo"
 
-DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 
@@ -20,8 +18,44 @@ enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
 
+# Multilingual Mode
+# Note: 這一部份要放上面 才是 global. 
+# 放在任何 [ooxx] 的後面, 就變成 local 就不會生效了
+defaultContentLanguage = "zh-tw"
+defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 summaryLength = 70
+
+[languages]
+  [languages.zh-tw]
+    languageCode  = "zh-tw"
+    languageName = "🇹🇼 繁體中文"
+    # contentDir = "content/zh-tw"
+    hasCJKLanguage = true
+    weight = 1
+    title = "ProgramMur - 程序猿碎念"
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)"
+    substack = "https://programmur.substack.com/embed"
+  [languages.en]
+    languageCode = "en"
+    languageName = "🇺🇸 English"
+    # contentDir = "content/en"
+    hasCJKLanguage = false
+    weight = 2
+    title = "ProgramMur - Programmer's Murmur"
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+    substack = "https://programmuren.substack.com/embed"
+  [languages.ja]
+    languageCode  = "ja"
+    languageName = "🇯🇵 日本語"
+    # contentDir = "content/ja"
+    hasCJKLanguage = true
+    weight = 3
+    title = "ProgramMur - プログラマーのつぶやき"
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)"
+    substack = "https://programmurja.substack.com/embed"
+
+# Others
 
 [Params]
   # Explore Tech Journey
@@ -42,6 +76,7 @@ summaryLength = 70
   share_img = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
   # hideAuthor = true
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  substack = "https://programmur.substack.com/embed"
 
 [[Params.bigimg]]
   src = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
@@ -52,26 +87,29 @@ summaryLength = 70
   website = "https://blog.androchen.tw/"
   email = "programmur.tw@gmail.com"
   github = "androchentw"
-  gitlab = "androchentw"
-  bitbucket = "androchentw"
+  # gitlab = "androchentw"
+  # bitbucket = "androchentw"
   facebook = "ProgramMur"
   instagram = "ProgramMur"
   twitter = "ProgramMurTw"
   linkedin = "androchen"
 
 [[menu.main]]
+  identifier = "tech"
   name = "Tech"
   pre = '<i class="fas fa-laptop-code fa-lg"></i>'
   url = "/tech/"
   weight = 1
 
 [[menu.main]]
+  identifier = "soft"
   name = "Soft"
   pre = '<i class="fas fa-lightbulb fa-lg"></i>'
   url = "/soft/"
   weight = 2
 
 [[menu.main]]
+  identifier = "life"
   name = "Life"
   pre = '<i class="fas fa-fire fa-lg"></i>'
   url = "/life/"

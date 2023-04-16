@@ -1,6 +1,6 @@
 ---
 title: "軟體測試的 7 種類型 - Python 範例程式碼"
-url: /7-types-of-software-testing-python
+url: 7-types-of-software-testing-python
 # date: 2022-08-28T01:28:16+08:00
 date: 2022-08-28T03:08:16+08:00
 author: androchentw

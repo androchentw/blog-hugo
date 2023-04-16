@@ -1,6 +1,6 @@
 ---
 title: "Google SRE Books"
-url: /google-sre-books
+url: google-sre-books
 # date: 2021-07-08T00:58:14+08:00
 date: 2021-07-11T00:58:14+08:00
 author: androchentw

@@ -1,6 +1,6 @@
 ---
 title: "深入瞭解 Hugo Blog 目錄結構"
-url: /blog-hugo-directory-structure
+url: blog-hugo-directory-structure
 # date: 2022-08-07T11:36:16+08:00
 date: 2022-08-07T14:36:16+08:00
 author: androchentw
