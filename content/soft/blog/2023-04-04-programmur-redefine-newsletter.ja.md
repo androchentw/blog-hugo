@@ -117,6 +117,6 @@ series: blog
 
 * 2023-04-01: この知識創出計画を続けることができることを願っています😆
 * 2023-04-04: は本当に掘り下げると大きな穴になってしまいます... まずはシンプルに保つことが大事ですね！
-* 2023-04-16: 增加 [英文版](https://programmuren.substack.com/) 與 [日語版](https://programmurja.substack.com/)，幫助自己學習語言! 🥳
+* 2023-04-16: [英語版](https://programmuren.substack.com/)と[日本語版](https://programmurja.substack.com/)を追加し、自分自身の言語学習を助けます！🥳
 
 [news-ss]: https://programmur.substack.com/
