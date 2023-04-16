@@ -1,5 +1,5 @@
 ---
-title: "ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報"
+title: "ProgramMur - プログラマーのつぶやき Redefine + ニュースレター"
 url: programmur-redefine-newsletter
 # date: 2023-04-01T08:00:00+08:00
 date: 2023-04-04T14:30:00+08:00
@@ -16,87 +16,87 @@ series: blog
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
 <p align="center"><sub><sup>
-  京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
+  京都高台寺 豊臣秀吉 御朱印帳 夢 Yume
 </sup></sub></p>
 
-2023-04-04 原本想在愚人節發布的一千個期待。
+2023-04-04 元々エイプリルフールにリリースしたかった1000の期待。
 
-最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容，並嘗試推出[免費電子報](https://programmur.substack.com/)。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
+最近ChatGPTのおかげで、たくさんの新しい友達ができました。皆さんの関心に感謝し、引き続き洞察力のある知識ポイントを提供できることを願っています。このブログの位置付けと、カバー予定のコンテンツをまとめ、[無料のニュースレター][news-ss]を試みます。フィードバックやアイデアがあれば、お気軽にプライベートメッセージやメールをお送りください。一緒に成長し、テクノロジー/ライフ/人生の旅を探検しましょう。
 
-🤔 Q: 你希望獲得什麼知識?
+🤔 Q: どんな知識を得たいですか？
 
-💪 A: 歡迎訂閱[電子報](https://programmur.substack.com/)!
+💪 A: ニュースレターを[登録][news-ss]してください！
 
 <!--more-->
 
-## ProgramMur 的特色是?
+## ProgramMurの特徴は？
 
-> 與其說是承諾，不如說是我對我自己知識產出的一種期待。
+> 約束というよりは、私自身の知識出力に対する期待です。
 
-其實也沒有打算說得太偉大，本來就是希望從以往的「看了很多文章，卻沒有留下點什麼」，轉變成「用自己的話說出來」，甚至能夠與志同道合的人分享。透過最近的發文，我也漸漸開始抓到自己喜歡的模式。大概會是以下方式:
+実際、それほど大げさに言おうとは思っていませんでした。もともとは、「たくさんの記事を読んだけれど何も残らない」という状況から、「自分の言葉で話す」ということに変え、同じ志を持つ人と共有できることを望んでいました。最近の投稿を通じて、私は徐々に自分の好きなパターンをつかむようになりました。おそらく以下の方法で進めるでしょう。
 
-1. **資訊視覺化**: 透過 Markdown + Mindmap + 方框示意圖, 簡要圖解。
-2. **問答**: 邀請大家用 **蘇格拉底式問答** 一起成長。我也會盡可能練習:
-   1. 關鍵提問 "🤔 Q: [提問]"
-   2. 能採取行動 "💪 A: [Action]"
-3. **衡量**: 每週 1 篇，一年 50 篇原創觀點。跟著我的時間軸一起有節奏地敏捷成長不 FOMO。
+1. **情報視覚化**: Markdown + Mindmap を使った簡単な図解。
+2. **質問と回答**: 皆さんと一緒に、ソクラテス式の質問と回答で成長できることを願っています。できるだけ練習します:
+   1. 重要な質問 "🤔 Q: [質問]"
+   2. 行動を取る "💪 A: [行動]"
+3. **評価**: 週 1 回、1 年間で 50 のオリジナルな視点。私のタイムラインに沿ってリズミカルにアジャイルな成長をして FOMO を感じることはありません。
 
-主要也將文章分為以下 3 類
+主に記事は以下の3つのカテゴリに分けられます。
 
-| 類型 | 內容 |
+| タイプ | 内容 |
 | --- | --- |
-| **量: 整理新知** | 彙整觀點 + CTA |
-| **深: 深思剖析** | 深入淺出, 圖解脈絡 |
-| **廣: 輕鬆分享** | 靈感/巧思 |
+| **量: 新しい知識の整理** | 視点のまとめ + CTA |
+| **深: 深い考察** | 分かりやすく、図解で筋道を示す |
+| **広: カジュアルな共有** | インスピレーション/アイデア |
 
-## 免費電子報
+## 無料ニュースレター
 
-原創文章會以電子報寄出:
+オリジナル記事はニュースレターで送信されます。
 
-1. 每週 1 ~ 2 期電子報
-2. 文章以 3000 字左右，6 分鐘內可閱讀完的長度
+1. 週1〜2回のニュースレター。
+2. 記事は約 3000 文字で、6分以内に読める長さ。
 
-內容聚焦在 "**Explore tech journey**"
+コンテンツは "**Explore tech journey**" に焦点を当てています。
 
-1. **Explore 探索**。保持新鮮與熱情，期待這個日新月異的世界。
-2. **Tech 科技**。深入科技領域，同時關注商業、生活和人生的各個方面。
-3. **Journey 旅程**。以技術旅人的身份，分享我在這趟科技之旅中的所見所聞和心得。
+1. **Explore (探検)**：この急速に変化する世界に対して新鮮で熱烈な見方を保ちます。
+2. **Tech (技術)**：技術に焦点を当て、ビジネス、生活、人生の要素も含まれます。
+3. **Journey (旅)**：技術の旅人として、私の見解を共有します。
 
-目前還在各種嘗試合適的 solution，有進一步心得也會再分享出來。
+現在、適切なソリューションを試す段階です。さらなる進展があれば、共有します。
 
-> 目前所有文章皆免費閱讀，免費訂閱電子報可以即時查看最新文章。若您認為我的文章有為你帶來價值，也很高興能收到你的捐贈！
+> 現在、すべての記事は無料で、<https://blog.androchen.tw/ja> に掲載されています。無料のニュースレターを登録することで、最新のコンテンツをすぐに知ることができます。もし、私の記事があなたに価値をもたらしていると思われる場合、登録は私にとって最大のサポートとなり、あなたの支援もとても嬉しいです！
 
-<iframe src="https://programmur.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://programmurja.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
-1. [substack](https://substack.com/): A new model for publishing. 另一個可以送 email 的付費訂閱平台; 跟 medium, ghost 比較像一點。目前選用這個。
-2. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. 免費版 2,500 訂閱
-3. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love. 免費版 1,000 訂閱
-4. [converterkit](https://convertkit.com): The creator marketing platform. 免費版 300 訂閱
+1. [substack](https://substack.com/): A new model for publishing. もう一つの有料購読プラットフォームで、eメールを送信できます。medium, ghostと似ています。現在これを使用しています。
+2. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. 無料版で2,500人まで購読可能。
+3. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love.  無料版で1,000人まで購読可能。
+4. [converterkit](https://convertkit.com): The creator marketing platform. 無料版で300人まで購読可能。
 
-## 從觀點到洞見 From Point of View to Insight
+## 視点から洞察へ From Point of View to Insight
 
-> Q: 已經很多科技社群了，為什麼還要再一個?
+> Q: すでに多くのテクノロジーコミュニティがあるのに、なぜもう一つ必要なのでしょうか？
 
-這裡本質上更像一個**科技遊記**。一如我原本的命名，每一篇都像是我的 murmur 碎唸觀點。再進一步思考，我認為想要透過文章，釐清以下 3 件事:
+ここは本質的にテ**クノロジーの旅行記**のようなものです。私の元々の名前通り、それぞれの記事は私の murmur つぶやき視点のようなものです。さらに考えると、記事を通じて以下の3つのことを明確にしたいと思っています。
 
-1. I: 我看到什麼
-2. You: 你能吸收到什麼
-3. We: 我們能一起多想到什麼
+1. I: 私は何を見ているの？
+2. You: あなたは何を得たいですか？
+3. We: 私たちは一緒に何をもっと考えることができますか？
 
-除了科技新知以外，我更想分享與討論「觀點、洞見」。職場上我們常被問 insight：「你的洞見是什麼」。即是說，眼前觀察到的是事實（一個 300 ml 的水杯，裝了 150ml 的水），但你看到了什麼？想說的是什麼？ (只剩半杯?還有半杯?)。
+テクノロジーの新知識に加えて、私は「視点、洞察」を共有し議論したいと思っています。職場では、私たちには insight が問われます。「あなたの洞察は何ですか？」と。つまり、目の前で観察された事実（例えば、300mlのコップに150mlの水が入っている）ですが、あなたは何を見ていますか？何を言いたいのですか？（残り半分だけ？まだ半分ある？）
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
 <p align="center"><sub><sup>
-  你的洞見是什麼？
+  あなたの洞察は何ですか？
 </sup></sub></p>
 
-> 我們選擇的觀點，隨著時間形塑的痕跡，就是自我人格。
+> 私たちが選択した視点は、時間と共に形成された痕跡であり、それが自己の人格となります。
 
-以前塵封在日記裡面的那些自言自語，過了很久也不會有什麼改變。AI 輔助下，勢必會有更多的文章。我想要在這條路上走得更遠，**留下我自己的足跡**。就像去旅遊，不會只想要看某一篇景點介紹，然後只是拍照打卡。還會想要感嘆一兩句。我想，那些就是**活著的證明**。
+昔の日記に封印された独り言は、長い間変わることはありませんでした。AIの支援を受けて、必然的にもっと多くの記事が生まれます。私はこの道をもっと遠くまで歩みたいと思っており、**自分の足跡を残したいと思っています**。旅行に行くように、ただ1つの観光スポットの紹介を見て、写真を撮ってチェックインするだけではありません。もっと感動したいと思います。私は、それが**生きている証だと思います**。
 
 ## Brand Design
 
-上週心血來潮也用 [namecheap](https://www.namecheap.com/logo-maker/) 免費玩了一下 logo design。但其實做完有一種原本比較有特色的感覺 🤣
+先週、[namecheap](https://www.namecheap.com/logo-maker/) を使って無料でロゴデザインを楽しんでみました。
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
@@ -115,5 +115,8 @@ series: blog
 
 ### Murmur
 
-* 2023-04-01: 希望自己能夠繼續堅持下去這個 知識產出計畫 😆
-* 2023-04-04: 數位行銷跟電子報真的是越挖越大坑... 還是先保持簡單就好!
+* 2023-04-01: この知識創出計画を続けることができることを願っています😆
+* 2023-04-04: は本当に掘り下げると大きな穴になってしまいます... まずはシンプルに保つことが大事ですね！
+* 2023-04-16: 增加 [英文版](https://programmuren.substack.com/) 與 [日語版](https://programmurja.substack.com/)，幫助自己學習語言! 🥳
+
+[news-ss]: https://programmur.substack.com/

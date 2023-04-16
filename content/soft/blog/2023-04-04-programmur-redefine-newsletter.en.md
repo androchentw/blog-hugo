@@ -1,5 +1,5 @@
 ---
-title: "ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報"
+title: "ProgramMur - Programmer's Murmur Redefine + Newsletter"
 url: programmur-redefine-newsletter
 # date: 2023-04-01T08:00:00+08:00
 date: 2023-04-04T14:30:00+08:00
@@ -16,87 +16,87 @@ series: blog
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
 <p align="center"><sub><sup>
-  京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
+  Kyoto Kōdai-ji Temple, Hideyoshi Toyotomi, Goshuincho Dream Yume
 </sup></sub></p>
 
-2023-04-04 原本想在愚人節發布的一千個期待。
+2023-04-04 A thousand expectations I originally wanted to release on April Fool's Day.
 
-最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容，並嘗試推出[免費電子報](https://programmur.substack.com/)。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。
+Recently, thanks to ChatGPT, I have made many new friends. I am very grateful for the attention and hope that I can continue to present insightful knowledge points to you. In summary, I will define the positioning of this blog, the content I expect to cover, and try to launch a [free newsletter][news-ss]. If you have any feedback or ideas, please feel free to send a private message or email. Let's grow together and explore the journey of technology/life.
 
-🤔 Q: 你希望獲得什麼知識?
+🤔 Q: What knowledge do you want to gain?
 
-💪 A: 歡迎訂閱[電子報](https://programmur.substack.com/)!
+💪 A: Subscribe to the [newsletter][news-ss]!
 
 <!--more-->
 
-## ProgramMur 的特色是?
+## What are the features of ProgramMur?
 
-> 與其說是承諾，不如說是我對我自己知識產出的一種期待。
+> It's not so much a promise as an expectation of my own knowledge output.
 
-其實也沒有打算說得太偉大，本來就是希望從以往的「看了很多文章，卻沒有留下點什麼」，轉變成「用自己的話說出來」，甚至能夠與志同道合的人分享。透過最近的發文，我也漸漸開始抓到自己喜歡的模式。大概會是以下方式:
+Actually, I didn't intend to make it sound too great. I originally wanted to change from "reading many articles but not retaining any useful information" to "speaking in my own words" and even sharing with like-minded people. Through recent postings, I have gradually begun to grasp my favorite patterns. It will probably be in the following ways:
 
-1. **資訊視覺化**: 透過 Markdown + Mindmap + 方框示意圖, 簡要圖解。
-2. **問答**: 邀請大家用 **蘇格拉底式問答** 一起成長。我也會盡可能練習:
-   1. 關鍵提問 "🤔 Q: [提問]"
-   2. 能採取行動 "💪 A: [Action]"
-3. **衡量**: 每週 1 篇，一年 50 篇原創觀點。跟著我的時間軸一起有節奏地敏捷成長不 FOMO。
+1. **Information visualization**: Brief diagramming through Markdown + Mindmap + Blocks.
+2. **Q&A**: Invite everyone to grow together with **Socratic questioning**. I will also try my best to practice:
+   1. Key questions "🤔 Q: [Question]"
+   2. Take action "💪 A: [Action]"
+3. **Measurement**: 1 original article per week, 50 original articles per year. Keep up with my timeline and grow agilely without being FOMO.
 
-主要也將文章分為以下 3 類
+The main articles will be divided into the following 3 categories
 
-| 類型 | 內容 |
+| Type | Content |
 | --- | --- |
-| **量: 整理新知** | 彙整觀點 + CTA |
-| **深: 深思剖析** | 深入淺出, 圖解脈絡 |
-| **廣: 輕鬆分享** | 靈感/巧思 |
+| **Volume: Summarize** | Organize new knowledge Summary of opinions + CTA |
+| **Depth: Analyze** |  In-depth analysis, easy-to-understand, diagramming context |
+| **Width: Share** |  Inspiration/ingenuity |
 
-## 免費電子報
+## Free newsletter
 
-原創文章會以電子報寄出:
+Original articles will be sent out as newsletters:
 
-1. 每週 1 ~ 2 期電子報
-2. 文章以 3000 字左右，6 分鐘內可閱讀完的長度
+1. 1-2 newsletters per week.
+2. Articles are around 3000 words, readable within 6 minutes.
 
-內容聚焦在 "**Explore tech journey**"
+The content focuses on "**Explore tech journey**"
 
-1. **Explore 探索**。保持新鮮與熱情，期待這個日新月異的世界。
-2. **Tech 科技**。深入科技領域，同時關注商業、生活和人生的各個方面。
-3. **Journey 旅程**。以技術旅人的身份，分享我在這趟科技之旅中的所見所聞和心得。
+1. **Explore**: Stay fresh and passionate about this rapidly changing world.
+2. **Tech**: Focusing on technology, which also includes business, life, and personal growth aspects.
+3. **Journey**: As a tech traveler, I will share my perspectives.
 
-目前還在各種嘗試合適的 solution，有進一步心得也會再分享出來。
+I am still trying various suitable solutions and will share more insights as they become available.
 
-> 目前所有文章皆免費閱讀，免費訂閱電子報可以即時查看最新文章。若您認為我的文章有為你帶來價值，也很高興能收到你的捐贈！
+> Currently, all articles are free and published on https://blog.androchen.tw/en. By subscribing to the free newsletter, you can be informed of the latest content instantly. If you think my articles have brought value to you, subscribing is the greatest support for me, and I would also be very happy to receive your sponsorship!
 
-<iframe src="https://programmur.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://programmuren.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
-1. [substack](https://substack.com/): A new model for publishing. 另一個可以送 email 的付費訂閱平台; 跟 medium, ghost 比較像一點。目前選用這個。
-2. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. 免費版 2,500 訂閱
-3. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love. 免費版 1,000 訂閱
-4. [converterkit](https://convertkit.com): The creator marketing platform. 免費版 300 訂閱
+1. [substack](https://substack.com/): A new model for publishing. Another paid subscription platform that can send emails; more similar to medium, ghost. I am currently using this.
+2. [beehiiv](https://beehiiv.com/): The newsletter platform built for growth. Free version 2,500 subscriptions.
+3. [mailerlite](https://mailerlite.com/): Create Email Marketing Your Audience Will Love. Free version 1,000 subscriptions.
+4. [converterkit](https://convertkit.com): The creator marketing platform. Free version 300 subscriptions.
 
-## 從觀點到洞見 From Point of View to Insight
+## From Point of View to Insight
 
-> Q: 已經很多科技社群了，為什麼還要再一個?
+> Q: There are already many technology communities, why add another one?
 
-這裡本質上更像一個**科技遊記**。一如我原本的命名，每一篇都像是我的 murmur 碎唸觀點。再進一步思考，我認為想要透過文章，釐清以下 3 件事:
+This is more like a **technology travelogue**. As with my original naming, each article is like my murmur of thoughts. Further thinking, I believe I want to clarify the following 3 things through articles:
 
-1. I: 我看到什麼
-2. You: 你能吸收到什麼
-3. We: 我們能一起多想到什麼
+1. I: What I see
+2. You: What you hope to gain
+3. We: What more can we think about together
 
-除了科技新知以外，我更想分享與討論「觀點、洞見」。職場上我們常被問 insight：「你的洞見是什麼」。即是說，眼前觀察到的是事實（一個 300 ml 的水杯，裝了 150ml 的水），但你看到了什麼？想說的是什麼？ (只剩半杯?還有半杯?)。
+In addition to technological new knowledge, I want to share and discuss "points of view and insights". In the workplace, we are often asked for insight: "What is your insight?" That is to say, what we observe is a fact (a 300 ml cup filled with 150 ml of water), but what do you see? What do you want to say? (Only half left? Still half left?)
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
 <p align="center"><sub><sup>
-  你的洞見是什麼？
+  What is your insight?
 </sup></sub></p>
 
-> 我們選擇的觀點，隨著時間形塑的痕跡，就是自我人格。
+> The perspectives we choose, along with the traces of time, shape our personalities.
 
-以前塵封在日記裡面的那些自言自語，過了很久也不會有什麼改變。AI 輔助下，勢必會有更多的文章。我想要在這條路上走得更遠，**留下我自己的足跡**。就像去旅遊，不會只想要看某一篇景點介紹，然後只是拍照打卡。還會想要感嘆一兩句。我想，那些就是**活著的證明**。
+Those self-talking words that used to be sealed in diaries won't change much after a long time. With AI assistance, there will inevitably be more articles. I want to go further on this road and **leave my own footprints**. Just like traveling, you don't just want to read about a single attraction, take pictures, and check in. You also want to sigh a word or two. I think those are the **proofs of being alive**.
 
 ## Brand Design
 
-上週心血來潮也用 [namecheap](https://www.namecheap.com/logo-maker/) 免費玩了一下 logo design。但其實做完有一種原本比較有特色的感覺 🤣
+I also played with the logo design for free on [namecheap](https://www.namecheap.com/logo-maker/) last week.
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
@@ -115,5 +115,8 @@ series: blog
 
 ### Murmur
 
-* 2023-04-01: 希望自己能夠繼續堅持下去這個 知識產出計畫 😆
-* 2023-04-04: 數位行銷跟電子報真的是越挖越大坑... 還是先保持簡單就好!
+* 2023-04-01: I hope I can continue to stick to this knowledge output plan 😆
+* 2023-04-04: Digital marketing and newsletters are really digging deeper and deeper... Keep it simple for now!
+* 2023-04-16: Added [English][news-ss] and [Japanese](https://programmurja.substack.com/) version to help myself learn languages! 🥳
+
+[news-ss]: https://programmuren.substack.com/

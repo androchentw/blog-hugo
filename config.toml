@@ -35,6 +35,7 @@ summaryLength = 70
     weight = 1
     title = "ProgramMur - 程序猿碎念"
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)"
+    substack = "https://programmur.substack.com/embed"
   [languages.en]
     languageCode = "en"
     languageName = "🇺🇸 English"
@@ -43,6 +44,7 @@ summaryLength = 70
     weight = 2
     title = "ProgramMur - Programmer's Murmur"
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+    substack = "https://programmuren.substack.com/embed"
   [languages.ja]
     languageCode  = "ja"
     languageName = "🇯🇵 日本語"
@@ -51,6 +53,7 @@ summaryLength = 70
     weight = 3
     title = "ProgramMur - プログラマーのつぶやき"
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)"
+    substack = "https://programmurja.substack.com/embed"
 
 # Others
 
@@ -73,6 +76,7 @@ summaryLength = 70
   share_img = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
   # hideAuthor = true
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  substack = "https://programmur.substack.com/embed"
 
 [[Params.bigimg]]
   src = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
