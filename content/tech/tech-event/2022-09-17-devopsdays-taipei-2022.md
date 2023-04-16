@@ -61,7 +61,7 @@ series: tech-event
 
 <!--more-->
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/tech-event/2022-09-17-devopsdays-taipei-2022-mindmap.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2022-09-17-devopsdays-taipei-2022-mindmap.png?raw=true">
 <p align="center"><sub><sup>
   本文 Mindmap (DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品)
 </sup></sub></p>

@@ -14,15 +14,15 @@ tags:
   - agentgpt
   - productivity
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.en.png?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.en.png?raw=true">
 <p align="center"><sub><sup>
-  Auto-GPT / AgentGPT Automated AI Mechanism
+  Auto-GPT / AgentGPT Autonomous AI Mechanism
 </sup></sub></p>
 
 Around 4 months after the release of ChatGPT, the [Auto-GPT](https://github.com/Torantulino/Auto-GPT) and [AgentGPT](https://agentgpt.reworkd.ai/) frameworks for AI-assisted task completion were introduced.
@@ -52,7 +52,7 @@ Today, I will share some observations and let's discuss in 4 areas:
 
 ## 🔥 Demonstration
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-2-agentgpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-2-agentgpt.png?raw=true">
 <p align="center"><sub><sup>
   AgentGPT example Web UI
 </sup></sub></p>
@@ -70,14 +70,14 @@ The vocabulary and steps used by Auto-GPT and AgentGPT differ slightly, but the 
 * Auto-GPT: Goal -> N Thought > (Reasoning, Criticism > Next Action, System) -> Result
 * AgentGPT: Goal -> N Task > (Thinking > Executing) -> Result
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.png?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT example command line interface
 </sup></sub></p>
 
 Also, [BabyAGI's Task-driven Autonomous Agent](https://twitter.com/yoheinakajima/status/1640934493489070080) has illustrated the principles, and I submitted a PR providing a [traditional Chinese translation](https://github.com/yoheinakajima/babyagi/blob/main/docs/README-zh-tw.md). Feel free to check it out if interested.
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-4-babyagi.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-4-babyagi.png?raw=true">
 <p align="center"><sub><sup>
   BabyAGI Architecture Principles
 </sup></sub></p>
@@ -90,7 +90,7 @@ So remember to set a budget limit on the OpenAI API.
 
 ## 👀 Importance of requirements/review/stage evaluation
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.jpg?raw=true">
 <p align="center"><sub><sup>
   Classic programming language joke - Buy 1 watermelon when you see it, buy 10 when you see oranges.
 </sup></sub></p>
@@ -107,7 +107,7 @@ As mentioned in the article "[6 Behavior Changes After 15 Weeks of AIGC Wave](ht
 
 ## 🚀 Leverage Agile/Lean Startup "MVP" concept to build your own rocket
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-6-mvp.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-6-mvp.jpg?raw=true">
 <p align="center"><sub><sup>
   <a href="https://startupbasics.com/minimum-viable-product" target="_blank rel="noopener noreferrer">startup basics</a> - Lean Startup MVP concept: skateboard -> car
 </sup></sub></p>

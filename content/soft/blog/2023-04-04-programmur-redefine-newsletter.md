@@ -85,7 +85,7 @@ series: blog
 
 除了科技新知以外，我更想分享與討論「觀點、洞見」。職場上我們常被問 insight：「你的洞見是什麼」。即是說，眼前觀察到的是事實（一個 300 ml 的水杯，裝了 150ml 的水），但你看到了什麼？想說的是什麼？ (只剩半杯?還有半杯?)。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/zh-tw/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
 <p align="center"><sub><sup>
   你的洞見是什麼？
 </sup></sub></p>
