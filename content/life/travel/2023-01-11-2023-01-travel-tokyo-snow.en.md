@@ -22,6 +22,8 @@ Post-pandemic, returning to Japan immediately! 😆
 
 Sharing some tips for planning my trips~
 
+> I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
+
 <!--more-->
 
 ## Information

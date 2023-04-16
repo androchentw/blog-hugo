@@ -27,6 +27,8 @@ Recently, thanks to ChatGPT, I have made many new friends. I am very grateful fo
 
 💪 A: Subscribe to the [newsletter][news-ss]!
 
+> I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
+
 <!--more-->
 
 ## What are the features of ProgramMur?
