@@ -46,7 +46,7 @@ Today, I will share some observations and let's discuss in 4 areas:
 
 💪 A: Consider what you would use AI for, its effectiveness, and potential for further development.
 
-> I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
+> (2023/04/16) I'm an IT engineer from Taiwan 🇹🇼. I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
 
 <!--more-->
 
