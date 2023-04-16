@@ -48,7 +48,7 @@ Today, I will share some observations and let's discuss in 4 areas:
 
 <!--more-->
 
-(Articles were assisted by ChatGPT for translation, please forgive any inaccuracies, I am continuing to work hard on learning English and Japanese!)
+> I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
 
 ## 🔥 Demonstration
 

@@ -48,6 +48,8 @@ Auto-GPT をこれほどすごいものにする鍵は：
 
 <!--more-->
 
+> ChatGPTなどのソフトウェアを使って、オリジナルや今後読む価値のある記事の翻訳を手伝っています。もし分かりにくい表現があれば、遠慮なく教えてください。私も英語と日本語の学習に努力しています！
+
 ## 🔥 モンストレーション
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-2-agentgpt.png?raw=true">
