@@ -29,7 +29,7 @@ summaryLength = 70
 [languages]
   [languages.zh-tw]
     languageCode  = "zh-tw"
-    languageName = "繁體中文"
+    languageName = "🇹🇼 繁體中文"
     # contentDir = "content/zh-tw"
     hasCJKLanguage = true
     weight = 1
@@ -37,7 +37,7 @@ summaryLength = 70
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)"
   [languages.en]
     languageCode = "en"
-    languageName = "English"
+    languageName = "🇺🇸 English"
     # contentDir = "content/en"
     hasCJKLanguage = false
     weight = 2
@@ -45,7 +45,7 @@ summaryLength = 70
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
   [languages.ja]
     languageCode  = "ja"
-    languageName = "日文"
+    languageName = "🇯🇵 日本語"
     # contentDir = "content/ja"
     hasCJKLanguage = true
     weight = 3

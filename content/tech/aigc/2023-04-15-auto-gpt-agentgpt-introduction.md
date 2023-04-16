@@ -99,7 +99,6 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
 <p align="center"><sub><sup>
   經典程式語言笑話 - 看到西瓜買 1 顆，看到橘子買 10 顆
 </sup></sub></p>
-<https://memes.tw/wtf/532158>
 
 這讓我想起一個經典的程式語言笑話:
 
