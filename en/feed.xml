@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ProgramMur - Programmer's Murmur</title><link>https://blog.androchen.tw/en/</link><description>Recent content on ProgramMur - Programmer's Murmur</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright><lastBuildDate>Sun, 16 Apr 2023 09:00:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/en/feed.xml" rel="self" type="application/rss+xml"/><item><title>Auto-GPT &amp; AgentGPT: Unleashing the Magic of AI-driven Task Completion - Get Started</title><link>https://blog.androchen.tw/en/auto-gpt-agentgpt-introduction/</link><pubDate>Sun, 16 Apr 2023 09:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/en/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.en.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Auto-GPT / AgentGPT Autonomous AI Mechanism
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;p>Around 4 months after the release of ChatGPT, the &lt;a href="https://github.com/Torantulino/Auto-GPT">Auto-GPT&lt;/a> and &lt;a href="https://agentgpt.reworkd.ai/">AgentGPT&lt;/a> frameworks for AI-assisted task completion were introduced.&lt;/p>
+&lt;p>This means that by providing a &amp;ldquo;&lt;strong>Goal&lt;/strong>,&amp;rdquo; it can &lt;strong>automatically complete the task&lt;/strong> through an iterative process of &lt;strong>breaking down the task, implementing, and verifying&lt;/strong>.&lt;/p>
+&lt;p>The key to making Auto-GPT so powerful lies in:&lt;/p>
+&lt;ol>
+&lt;li>🧠 Utilizing LLM to understand requirements and initiate tasks&lt;/li>
+&lt;li>🌐 Access to the internet for real-time updates&lt;/li>
+&lt;li>💾 Support for long-term memory storage, overcoming ChatGPT token limits&lt;/li>
+&lt;/ol>
+&lt;p>Today, I will share some observations and let&amp;rsquo;s discuss in 4 areas:&lt;/p>
+&lt;ol>
+&lt;li>🔥 Demonstration&lt;/li>
+&lt;li>☠️ Warning: 💰 Budget control&lt;/li>
+&lt;li>👀 Importance of requirements/review/stage evaluation&lt;/li>
+&lt;li>🚀 Leverage Agile/Lean Startup &amp;ldquo;MVP&amp;rdquo; concept to build your own rocket&lt;/li>
+&lt;/ol>
+&lt;p>🤔 Q: To what extent can Auto-GPT achieve?&lt;/p>
+&lt;p>💪 A: Consider what you would use AI for, its effectiveness, and potential for further development.&lt;/p></description></item><item><title>ProgramMur - Programmer's Murmur Redefine + Newsletter</title><link>https://blog.androchen.tw/en/programmur-redefine-newsletter/</link><pubDate>Tue, 04 Apr 2023 14:30:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/en/programmur-redefine-newsletter/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Kyoto Kōdai-ji Temple, Hideyoshi Toyotomi, Goshuincho Dream Yume
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;p>2023-04-04 A thousand expectations I originally wanted to release on April Fool&amp;rsquo;s Day.&lt;/p>
+&lt;p>Recently, thanks to ChatGPT, I have made many new friends. I am very grateful for the attention and hope that I can continue to present insightful knowledge points to you. In summary, I will define the positioning of this blog, the content I expect to cover, and try to launch a &lt;a href="https://programmuren.substack.com/">free newsletter&lt;/a>. If you have any feedback or ideas, please feel free to send a private message or email. Let&amp;rsquo;s grow together and explore the journey of technology/life.&lt;/p>
+&lt;p>🤔 Q: What knowledge do you want to gain?&lt;/p>
+&lt;p>💪 A: Subscribe to the &lt;a href="https://programmuren.substack.com/">newsletter&lt;/a>!&lt;/p></description></item><item><title>2023-01 Tokyo-Niigata Winter Snow 22-day Travel</title><link>https://blog.androchen.tw/en/2023-01-travel-tokyo-snow/</link><pubDate>Wed, 11 Jan 2023 18:34:16 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/en/2023-01-travel-tokyo-snow/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2023-01-travel-tokyo-map.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+Photo by androchentw
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;p>Post-pandemic, returning to Japan immediately! 😆&lt;/p>
+&lt;p>Sharing some tips for planning my trips~&lt;/p></description></item><item><title>Archives</title><link>https://blog.androchen.tw/en/archives/</link><pubDate>Sat, 03 Jul 2021 20:17:24 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/en/archives/</guid><description>Archives</description></item></channel></rss>
