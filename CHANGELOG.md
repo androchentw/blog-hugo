@@ -16,7 +16,7 @@
 
 ## [1.3.0] - 2023-04-04
 
-* feat: [add **newsletter substack** embed](https://blog.androchen.tw/programmur-redefine-newsletter/) 
+* feat: [add **newsletter substack** embed](https://blog.androchen.tw/programmur-redefine-newsletter/)
   * [ProgramMur Substack](https://programmur.substack.com/)
 * feat: enhance **timeline** format to `yyyy-mm-dd weekday`
   * feat: add post by year total `{{ $year }} ({{ len $pages }})` for each year

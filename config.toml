@@ -41,7 +41,7 @@ summaryLength = 70
     # contentDir = "content/en"
     hasCJKLanguage = false
     weight = 2
-    title = "ProgramMur - Programmer's Mumur"
+    title = "ProgramMur - Programmer's Murmur"
     copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
   [languages.ja]
     languageCode  = "ja"
