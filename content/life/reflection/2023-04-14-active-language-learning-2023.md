@@ -21,7 +21,7 @@ series: reflection
   Reading
 </sup></sub></p>
 
-Reading
+EN > JP 各拆一篇. 因為受眾不同，重點不同，上課方式不同，文化好奇點不同
 
 <!--more-->
 
