@@ -54,6 +54,12 @@
 
 * feat: **init** blog using hugo template
 
+## Facebook Post Event Log
+
+1. 2023-03-25 Fri. [ChatGPT plugin](https://www.facebook.com/ProgramMur/posts/pfbid0v4nXsDC5tszFMDn8HDjAFuBcWV79i9APrk3s3nDhtCgnscgL78T5JukLDoGNZgpDl)
+2. 2023-04-02 Sun. [Italia ban ChatGPT](https://www.facebook.com/ProgramMur/posts/pfbid0ptErPUAK2QFu2kSWzNUqQhCKgTs7SWFbWQjRELNKmdufqwyxP6EWdGZYzTC1t5ZYl)
+3. 2023-04-15 Sat. [Auto-GPT + i18n EN/JA 多渠道](https://www.facebook.com/ProgramMur/posts/pfbid02SK8uEsFhE7mAhx7rcFXBRxKWd7GPzz9tVzdaV9oCNVmLnXrnpWkTdkffm8zgVUg7l)
+
 <!-- Links -->
 
 <!-- Versions -->
