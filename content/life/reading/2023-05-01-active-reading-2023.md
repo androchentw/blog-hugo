@@ -3,7 +3,7 @@ draft: true
 title: "Active Reading 2023"
 url: active-reading-2023
 # date: 2023-04-10T18:00:00+08:00
-date: 2023-04-10T18:30:00+08:00
+date: 2023-05-01T08:30:00+08:00
 author: androchentw
 type: post
 categories:
@@ -20,7 +20,11 @@ series: reading
   Reading
 </sup></sub></p>
 
-Reading
+不知不覺 2023 就在 ChatGPT 跟一系列 AIGC 的浪潮中過了 5 個月。
+
+想來整理今年的書單
+
+閱讀前哨站
 
 <!--more-->
 
@@ -66,6 +70,19 @@ Reading
    2. 深究連結 實際案例
    3. 強化論點
    4. 摘要: 也就是說
+
+## 實體/虛擬媒介
+
+我自己有在使用的平台
+
+1. 實體書
+   1. 誠品 找靈感，想收藏時
+   2. 台北市圖
+2. 電子書
+   1. Readmoo, Google Play books
+   2. kobo 後來就漸漸沒有使用了
+   3. Hyread 台北市圖
+3. 要求: 跨全平台 + 網頁
 
 ## Murmur
 
