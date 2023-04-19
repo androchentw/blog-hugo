@@ -12,7 +12,7 @@ tags:
   - aigc
   - chatgpt
   - productivity
-  - inforgraphic
+  - infographic
   - diagram
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true
 series: productivity
