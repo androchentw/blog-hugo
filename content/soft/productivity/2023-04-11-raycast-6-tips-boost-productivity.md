@@ -20,7 +20,7 @@ series: productivity
   Raycast 6 招啟動工作生產力
 </sup></sub></p>
 
-先前分享過我使用的軟體，今天聚焦講講 Mac 上的萬能啟動器: Raycast。一路從 Alfred 換過來，超級滿意!
+先前分享過我使用的軟體 - [Macbook 開發環境設定大全](https://blog.androchen.tw/macbook-setup/)，今天聚焦講講 Mac 上的萬能啟動器: Raycast。一路從 Alfred 換過來，超級滿意!
 
 🤔 Q: 你常用的工作生產力軟體是什麼? 推薦用在什麼場景?
 

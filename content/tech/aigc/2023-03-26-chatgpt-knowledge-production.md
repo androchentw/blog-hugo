@@ -132,7 +132,7 @@ summarize to an attractive social media post #zh-TW
 
 1. 行為改變循環: [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
 2. 知識革命: [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution)
-3. 各種場景想像 2022-12-10, 4個月回頭看都感覺像 2 年前的舊聞了: [https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/](https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/)
+3. 各種場景想像 2022-12-10, 4個月回頭看都感覺像 2 年前的舊聞了: [ChatGPT 如何協助人類? 應用 AI 與科幻哲思](https://blog.androchen.tw/chatgpt-applied-ai-sci-fi-reflection/)
 
 ### Murmur
 
