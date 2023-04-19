@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [2.1.0] - 2023-04-20
+
+* feat: upgrade mermaid using cdn.jsdelivr.net/npm/mermaid/dist
+  * [mermaid.min.js](https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js)
+  * [mermaid.css](https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.css)
+  * [mermaid.dark.css](https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.dark.css)
+
 ## [2.0.0] - 2023-04-16
 
 * feat: support i18n in en, ja
@@ -63,6 +70,7 @@
 <!-- Links -->
 
 <!-- Versions -->
+[2.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.1.0
 [2.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.0.0
 [1.4.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.4.0
 [1.3.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.3.0
