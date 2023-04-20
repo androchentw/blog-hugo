@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>productivity on ProgramMur - プログラマーのつぶやき</title><link>https://blog.androchen.tw/ja/series/productivity/</link><description>Recent content in productivity on ProgramMur - プログラマーのつぶやき</description><generator>Hugo -- gohugo.io</generator><language>ja</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ja)</copyright><lastBuildDate>Thu, 20 Apr 2023 10:00:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/ja/series/productivity/feed.xml" rel="self" type="application/rss+xml"/><item><title>3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう</title><link>https://blog.androchen.tw/ja/3-minute-infographic-chatgpt-mermaid-productivity/</link><pubDate>Thu, 20 Apr 2023 10:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ja/3-minute-infographic-chatgpt-mermaid-productivity/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+3分でインフォグラフィック - ChatGPT + Mermaidで生産性を向上させよう
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;p>今日は、私が実際に使用している図解ツールとそれらの組み合わせ方を紹介し、視覚化でロジックを説明するのが好きな方々にお役に立てることを願っています。&lt;/p>
+&lt;p>実は、diagram-as-code ツールは以前から存在していましたが、ChatGPT がこのタスクをさらに簡単にしてくれます。&lt;/p>
+&lt;p>今日紹介するツールの特徴：&lt;/p>
+&lt;ol>
+&lt;li>🌐 ウェブページで無料で利用可能。&lt;/li>
+&lt;li>🚀 フローチャート、マインドマッ。&lt;/li>
+&lt;li>📝 Markdown (マークダウン記法) を使用し、エンジニアリングのバックグラウンドがなくても簡単に学べ、バージョン管理に便利。&lt;/li>
+&lt;/ol></description></item></channel></rss>
