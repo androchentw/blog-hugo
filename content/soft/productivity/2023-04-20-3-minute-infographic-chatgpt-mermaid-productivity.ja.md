@@ -3,7 +3,7 @@ draft: true
 title: "3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう"
 url: 3-minute-infographic-chatgpt-mermaid-productivity
 # date: 2023-04-19T22:00:00+08:00
-date: 2023-04-22T03:00:00+08:00
+date: 2023-04-20T10:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -14,13 +14,13 @@ tags:
   - productivity
   - infographic
   - diagram
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true
 series: productivity
 ---
 
 ## 概要
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true">
 <p align="center"><sub><sup>
   3分でインフォグラフィック - ChatGPT + Mermaidで生産性を向上させよう
 </sup></sub></p>
@@ -170,7 +170,9 @@ journey
 
 ## ChatGPT + Mermaid の実際の応用
 
-私の例では、Markmapのマインドマップがより便利であり、Mermaidも同じ原則に従います。これで、次のものができます：
+あなたは、Mermaidのマークダウン構文がまだ少し複雑に見えるかもしれないと思うかもしれません。その通りです！だからこそ、ChatGPTに構文テンプレートを生成させることができます。ChatGPTが得意なタスク、例えば生成、要約、翻訳などを選択することをお勧めします。
+
+私の例では、Markmapのマインドマップを使用する方が便利で、Mermaidも同じ原則に従います。だから、わずか3分で以下のことを達成することができます:
 
 1. 🤖 [ChatGPT](https://chat.openai.com/): ChatGPT: Prompt (プロンプト) を使用して必要なコンテンツを生成。
 2. 📝 [Mermaid Live Editor](https://mermaid.live/): Mermaidに直接コンテンツを入力して図を生成。

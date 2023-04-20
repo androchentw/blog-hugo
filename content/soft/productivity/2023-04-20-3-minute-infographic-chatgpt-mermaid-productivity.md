@@ -3,7 +3,7 @@ draft: true
 title: "3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力"
 url: chatgpt-mermaid-3-minute-diagram-productivity
 # date: 2023-04-19T22:00:00+08:00
-date: 2023-04-22T03:00:00+08:00
+date: 2023-04-20T10:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -14,13 +14,13 @@ tags:
   - productivity
   - infographic
   - diagram
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-chatgpt-mermaid-3-minute-diagram-productivity-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true
 series: productivity
 ---
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-chatgpt-mermaid-3-minute-diagram-productivity-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
 <p align="center"><sub><sup>
   3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力
 </sup></sub></p>
@@ -172,10 +172,12 @@ journey
 
 ## ChatGPT + Mermaid 實際應用
 
-我這邊舉例用 Markmap 的心智圖比較方便，Mermaid 也是依樣畫葫蘆。所以有了
+你可能會想說，mermaid markdown 語法看起來還是有點複雜。沒錯！所以才要讓 ChatGPT 來幫助我們產生語法範本。建議挑選 ChatGPT 擅長的任務，像是生成、總結、翻譯等等。
 
-1. 🤖 [ChatGPT](https://chat.openai.com/): 使用 Prompt 產生需要的內容
-2. 📝 [Mermaid Live Editor 線上編輯器](https://mermaid.live/): 直接丟進 mermaid 產生圖表
+我這邊舉例用 Markmap 的心智圖比較方便，Mermaid 也是依樣畫葫蘆。所以我們就能在 3 分鐘內做到以下事情:
+
+1. 🤖 [ChatGPT](https://chat.openai.com/): 使用 Prompt 產生需要的內容。
+2. 📝 [Mermaid Live Editor 線上編輯器](https://mermaid.live/): 直接丟進 mermaid 產生圖表。
 3. 🎉 完成！
 
 比如說想要總結這篇文章，Prompt 可以參考這樣下:

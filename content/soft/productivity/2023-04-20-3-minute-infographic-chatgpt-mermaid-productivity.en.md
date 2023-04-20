@@ -3,7 +3,7 @@ draft: true
 title: "3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid"
 url: 3-minute-infographic-chatgpt-mermaid-productivity
 # date: 2023-04-19T22:00:00+08:00
-date: 2023-04-22T03:00:00+08:00
+date: 2023-04-20T10:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -14,13 +14,13 @@ tags:
   - productivity
   - infographic
   - diagram
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true
 series: productivity
 ---
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-22-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true">
 <p align="center"><sub><sup>
   3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid
 </sup></sub></p>
@@ -170,7 +170,9 @@ Please refer to the [official documentation](https://mermaid.js.org/syntax/flowc
 
 ## Practical Applications of ChatGPT + Mermaid
 
-In my example, using a Markmap mind map is more convenient, and Mermaid follows the same principle. So, we have:
+You might think that the Mermaid markdown syntax still looks a bit complicated. That's right! That's why we let ChatGPT help us generate the syntax templates. It's recommended to choose tasks that ChatGPT is good at, such as generating, summarizing, translating, and so on.
+
+In my example, using a Markmap mind map is more convenient, and Mermaid follows the same principle. So, we can achieve the following things in just 3 minutes:
 
 1. 🤖 [ChatGPT](https://chat.openai.com/): ChatGPT: Use a Prompt to generate the needed content
 2. 📝 [Mermaid Live Editor](https://mermaid.live/): Directly input the content into Mermaid to generate the chart
