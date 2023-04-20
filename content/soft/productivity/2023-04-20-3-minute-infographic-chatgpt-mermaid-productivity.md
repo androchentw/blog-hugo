@@ -19,7 +19,7 @@ series: productivity
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
 <p align="center"><sub><sup>
   3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力
 </sup></sub></p>
@@ -89,6 +89,8 @@ timeline
 {{< /mermaid >}}
 
 ### 3. 甘特圖 Gantt
+
+(甘特圖在手機上看到的圖片可能會怪怪的，使用電腦查看網頁不會有問題。)
 
 ```md
 gantt

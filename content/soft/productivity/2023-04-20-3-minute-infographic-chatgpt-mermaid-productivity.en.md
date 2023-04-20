@@ -19,7 +19,7 @@ series: productivity
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.en.png?raw=true">
 <p align="center"><sub><sup>
   3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid
 </sup></sub></p>
@@ -87,6 +87,8 @@ timeline
 {{< /mermaid >}}
 
 ### 3. Gantt
+
+(The Gantt chart may appear strange when viewed on a mobile phone, but there will be no issues when viewed on a computer webpage.)
 
 ```md
 gantt
