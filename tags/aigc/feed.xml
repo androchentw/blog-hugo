@@ -10,7 +10,9 @@
 &lt;li>🌐 線上網頁即可免費使用&lt;/li>
 &lt;li>🚀 快速產生流程圖、心智圖、圓餅圖、甘特圖、時間軸、用戶旅程等等圖表&lt;/li>
 &lt;li>📝 使用 markdown 語法，無工程背景亦可簡單上手，方便版本控制&lt;/li>
-&lt;/ol></description></item><item><title>Auto-GPT &amp; AgentGPT 有多神? AI 全自動完成任務 - 簡介篇</title><link>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</link><pubDate>Sat, 15 Apr 2023 12:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;/ol>
+&lt;p>🤔 Q: 你會使用 ChatGPT + Mermaid 來協助製作哪些平常工作的什麼資訊圖表呢？&lt;/p>
+&lt;p>💪 A: 挑選一個範例，實際到線上編輯器畫一張圖表&lt;/p></description></item><item><title>Auto-GPT &amp; AgentGPT 有多神? AI 全自動完成任務 - 簡介篇</title><link>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</link><pubDate>Sat, 15 Apr 2023 12:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
 Auto-GPT / AgentGPT 的 自動 AI 機制

@@ -10,7 +10,9 @@
 &lt;li>🌐 ウェブページで無料で利用可能。&lt;/li>
 &lt;li>🚀 フローチャート、マインドマッ。&lt;/li>
 &lt;li>📝 Markdown (マークダウン記法) を使用し、エンジニアリングのバックグラウンドがなくても簡単に学べ、バージョン管理に便利。&lt;/li>
-&lt;/ol></description></item><item><title>Auto-GPT と AgentGPT はどれほどすごい？ AIが全自動でタスクを完了 - 入門編</title><link>https://blog.androchen.tw/ja/auto-gpt-agentgpt-introduction/</link><pubDate>Sun, 16 Apr 2023 09:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ja/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;/ol>
+&lt;p>🤔 Q（質問）: 通常の仕事で、どのようなチャートをChatGPT + Mermaidで製作するのに役立てますか？&lt;/p>
+&lt;p>💪 A（アクション）: 例を1つ選び、実際にオンラインエディタでチャートを描画してみてください。&lt;/p></description></item><item><title>Auto-GPT と AgentGPT はどれほどすごい？ AIが全自動でタスクを完了 - 入門編</title><link>https://blog.androchen.tw/ja/auto-gpt-agentgpt-introduction/</link><pubDate>Sun, 16 Apr 2023 09:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/ja/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
 Auto-GPT / AgentGPT の 自動 AI メカニズム
