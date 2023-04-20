@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力"
 url: chatgpt-mermaid-3-minute-diagram-productivity
 # date: 2023-04-19T22:00:00+08:00

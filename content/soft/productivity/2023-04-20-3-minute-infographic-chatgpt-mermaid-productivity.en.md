@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid"
 url: 3-minute-infographic-chatgpt-mermaid-productivity
 # date: 2023-04-19T22:00:00+08:00
@@ -170,7 +169,7 @@ Please refer to the [official documentation](https://mermaid.js.org/syntax/flowc
 
 ## Practical Applications of ChatGPT + Mermaid
 
-You might think that the Mermaid markdown syntax still looks a bit complicated. That's right! That's why we let ChatGPT help us generate the syntax templates. It's recommended to choose tasks that ChatGPT is good at, such as generating, summarizing, translating, and so on.
+You might wonder that the Mermaid markdown syntax still looks a bit complicated. That's right! That's why we let ChatGPT help us generate the syntax templates. It's recommended to choose tasks that ChatGPT is good at, such as generating, summarizing, translating, and so on.
 
 In my example, using a Markmap mind map is more convenient, and Mermaid follows the same principle. So, we can achieve the following things in just 3 minutes:
 
@@ -193,7 +192,6 @@ Get the markdown below:
 ```md
 - Overview
 - What is Mermaid
-- General
     1. Flowchart
     2. Timeline
     3. Gantt

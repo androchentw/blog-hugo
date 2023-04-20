@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう"
 url: 3-minute-infographic-chatgpt-mermaid-productivity
 # date: 2023-04-19T22:00:00+08:00
