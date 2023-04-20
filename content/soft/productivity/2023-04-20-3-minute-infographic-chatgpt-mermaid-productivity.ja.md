@@ -187,7 +187,7 @@ provide summary in bullet point and in markdown codeblock:
 provide summary mermaid diagram in markdown codeblock:
 ```
 
-Get the markdown below:
+以下のマークダウンを入手して：
 
 ```md
 - 概要

@@ -160,7 +160,7 @@ journey
 
 ### 其他工程相關
 
-以下就不詳述了:
+以下就不詳述了，請直接參考[官網教學](https://mermaid.js.org/syntax/flowchart.html):
 
 1. 循序圖 Sequence
 2. 類別圖 Class
