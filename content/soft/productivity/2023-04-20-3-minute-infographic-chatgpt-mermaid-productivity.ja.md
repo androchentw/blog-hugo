@@ -252,7 +252,7 @@ graph LR
 2. [diagrams.net (旧称 draw.io)](https://app.diagrams.net/): 実際にはdiagrams.netに名前が変更されましたが、みんながまだDraw.ioと呼んでいます。完成したアーキテクチャ図を描く際に、多くの組み込みコンポーネントが利用できることが利点です。しかし、コンポーネントをドラッグして整列させるのはかなり痛いものがあります...。
 3. [Excalidraw](https://excalidraw.com/): 手書き風の図解ツール。しばらく使用してから Miro に切り替えました。
 4. [PlantUML](https://plantuml.com/): Mermaid と比較されることが多いツール。よりクラシックなインターフェースが特徴です。以前は使用していましたが、今はあまり使っていません。
-5. VS Code Plugin
+5. vs code extension
    1. [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
    2. [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)
 

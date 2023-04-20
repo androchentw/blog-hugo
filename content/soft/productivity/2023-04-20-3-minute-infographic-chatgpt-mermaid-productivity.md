@@ -254,7 +254,7 @@ graph LR
 2. [diagrams.net (舊稱 draw.io)](https://app.diagrams.net/): 其實改名叫 diagrams.net 但大家還是習慣叫 Draw.io 的圖表工具。優勢在畫完整的架構圖時，有很多內建元件。但拖拉元件對齊真的很痛苦...。
 3. [Excalidraw](https://excalidraw.com/): 手繪風格的圖表工具。用過一段時間就轉移到 Miro 去了。
 4. [PlantUML](https://plantuml.com/): 很常拿來跟 mermaid 比的工具。介面比較經典。以前會用，現在很少。
-5. VS Code Plugin
+5. vs code extension
    1. [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
    2. [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode)
 
