@@ -34,6 +34,10 @@ Features of today's introduced tool:
 2. 🚀 Quickly generate flowcharts, mindmaps, pie charts, Gantt charts, timelines, user journeys, and more.
 3. 📝 Uses markdown syntax, easy to learn even without an engineering background, convenient for version control.
 
+🤔 Q: What kind of charts would you typically use ChatGPT + Mermaid to assist you with in your daily work?
+
+💪 A: Choose an example and actually draw a chart using the online editor.
+
 <!--more-->
 
 ## What is Mermaid
