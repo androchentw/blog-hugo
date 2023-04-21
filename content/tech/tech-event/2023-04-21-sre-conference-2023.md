@@ -136,9 +136,9 @@ series: tech-event
 
 ### 反思
 
-[ ] 💡: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
-[ ] 💡: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
-[ ] 💡: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
+1. [ ] 💡: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
+2. [ ] 💡: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
+3. [ ] 💡: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
 
 ## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
@@ -171,6 +171,8 @@ series: tech-event
 4. 根因定位: 故障定位時間 -> 0
 5. 協同停損: MTTR（平均故障恢復時間）-> 0
 6. 故障規避: MTBF (平均故障間隔時間) -> infinity
+
+### 其他
 
 * 裝 agent 會影響 service performance, 務必考量。
 * 國泰的 practice
@@ -205,7 +207,7 @@ series: tech-event
    4. Bussiness SRE (3 + N)
 2. DevSecOps Arch. (3 + N)
 
-並發展學習體系發展策略，有專業的戰鬥營課程規劃。
+### 發展學習體系發展策略，有專業的戰鬥營課程規劃
 
 1. 技術 Technology
 2. 思維 Mindset
@@ -232,7 +234,7 @@ series: tech-event
 * Engineer 數量 ~= 200 人。
 * **Preparation for unknown traffic**: 對於電子商務來說，最挑戰的就是如何去提前準備不預期的流量。
 
-Key Element 關鍵要素
+### Key Element 關鍵要素
 
 * Estimation for the worst/best?
 * Money talks but can't buy everything
@@ -241,12 +243,12 @@ Key Element 關鍵要素
   * 即便有 Auto-Scale 機制，仍然是落後指標。
   * 行銷活動 或是 YouTuber 帶來突如其來的流量，若造成 service slow response，對於 SRE 來說會是一件很嚴重的事情。
 
-壓力測試
+### 壓力測試
 
 * 在測試環境，一來是貴，二來是無法完全模擬。
 * 所以實務上還是會在 production 非主要流量時間 (比如凌晨 4 點)，進行壓力測試。
 
-事前規劃
+### 事前規劃
 
 * D-Day plan: 一定會發生的事件 (1111, 聖誕節)。
   * 1111 是平日的 45 倍流量
@@ -298,7 +300,7 @@ Key Element 關鍵要素
 4. APIM Problem-Solving
 5. APIM Future Enhancement
 
-Security and Governance
+### Security and Governance
 
 1. Threat Protection
 2. Access Controls
@@ -306,14 +308,14 @@ Security and Governance
 4. Security Governance (法規性上的要求，像是金融法規 or GDPR)
 5. Data Security
 
-Cathay Finance Group APIM Structure
+### Cathay Finance Group APIM Structure
 
 1. Open banking
 2. Integration
 3. Portal
 4. Monitoring
 
-其他
+### 其他
 
 * 採用 Google Cloud Anthos
 * 法規關係，所以 API 維持在地端，採用混合雲的架構。業務在地端，log拋雲端，方便追蹤和管控。
@@ -392,11 +394,81 @@ IaC - Terraform
 
 [ ] 💡: 如何在你的企業文化與日常工作流程中，導入 SRE?
 
-## 11. [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
+## 11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
 > 謝政廷 (Duran) / 台積電 Principal Site Reliability Engineer
 
 ### 主題重點
+
+1. 事故分析
+2. 監控指標
+3. 自動化維運
+
+### 事故三種類型與效益
+
+1. 使用者報案: 有可能代表監控不夠
+2. 監控與警告: 稍微成熟的產品，已經可以在user發現前就收到通知
+3. 團隊預先察覺: 成熟的監控與警告機制才有較高的機率預先察覺事故發生
+
+### 檢討報告 (Postmortem)
+
+1. 日期資訊, 時間軸
+2. 採取作為
+3. 執行摘要
+4. 問題摘要
+5. 從中學習
+
+### 後續檢討工作
+
+1. 建立標準解決流程
+2. 檢視事故回應與監控指標
+3. 主動測試
+4. 案例分享
+
+小筆記: 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
+
+### 鼓勵經營社群方式
+
+* 讀書會
+* SRE 工作群組或會議
+* 建立 V-Team
+
+### 不咎責文化: 其實有點難
+
+1. 高層支持
+2. 鼓勵面對錯誤
+3. 建設性批評
+4. 確保流程改善
+
+### 監控的 4 個黃金信號
+
+[Google SRE - The Four Golden Signals](https://sre.google/sre-book/monitoring-distributed-systems/#xref_monitoring_golden-signals)
+
+1. 不要全部放進來，避免雜訊
+2. 正確的監控指標必須經過長時間觀察與測試: 監控指標需要持續更新
+
+### 目標明確的指標
+
+1. 說明指標含義
+2. 數值異常時可能的影響或事故
+3. 保留實用的指標
+
+### 自動化維運目的與前提
+
+1. 維運資料標準化
+2. CI/CD流程標準化
+3. 使用一致的工具
+4. 消除無效率的操作與管理
+5. 減少人為錯誤發生
+6. 有效降低成本
+7. 減少聯繫與等待時間
+
+### 自動化維運
+
+1. 減少瑣事
+2. 使用正確的工具
+3. 識別高價值流程
+4. 檢視團隊技能
 
 ### 反思
 
@@ -408,9 +480,10 @@ IaC - Terraform
 
 延伸閱讀
 
-1. [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
+1. [2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路](https://blog.androchen.tw/2022-tsmc-it-day/)
 2. [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/)
-3. [2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路](https://blog.androchen.tw/2022-tsmc-it-day/)
+3. [Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值](https://blog.androchen.tw/agile-summit-2022/)
+4. [來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析](https://blog.androchen.tw/chatgpt-sre-postmortem/)
 
 ```text
 #平台工程 #DevOps #SRE #IT
