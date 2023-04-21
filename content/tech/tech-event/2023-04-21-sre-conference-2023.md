@@ -114,7 +114,7 @@ series: tech-event
 
 > Frank Chen / 台灣微軟 資深雲端架構師
 
-<img style="width:80%;" src="https://i.imgur.com/nUBe3e2.png">
+<img style="width:60%;" src="https://i.imgur.com/nUBe3e2.png">
 <p align="center"><sub><sup>
   <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps vs. SRE vs. Plaform Engineering</a>
 </sup></sub></p>
@@ -149,11 +149,11 @@ series: tech-event
 * **Connect to Business**: 將 SRE 與 Business Value / SLA / Cost 掛勾，才會讓 stakeholders 有感。
 * **Communication channel**: 將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption。
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
-2. [x] 💡: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
-3. [x] 💡: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
+1. [x]: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
+2. [x]: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
+3. [x]: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
 
 ## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
@@ -228,10 +228,10 @@ series: tech-event
 2. 思維 Mindset
 3. 企業文化 Culture
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 人文 / 文化 / product mindset change 如何持續推廣，改變工作流程？
-2. [x] 💡: 中台定位與其他業務單位的合作模式，人數編制？
+1. [x]: 人文 / 文化 / product mindset change 如何持續推廣，改變工作流程？
+2. [x]: 中台定位與其他業務單位的合作模式，人數編制？
 
 ## 4. [XREX] 從單體到容器化的導入之路
 
@@ -274,9 +274,9 @@ series: tech-event
 * No silver bullet。仍然需要從業務角度去選擇適當的解決方案。
 * Retrospective: review + improve
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 我們在意 service slow response 嗎? 有對應的 SLA 嗎? 我們的技術架構是否足夠支持業務成長？
+1. [x]: 我們在意 service slow response 嗎? 有對應的 SLA 嗎? 我們的技術架構是否足夠支持業務成長？
 
 ## 6. [卡洛地] 從 AI 到 AIOps 再到 SRE
 
@@ -300,9 +300,9 @@ series: tech-event
 > * 每一場議程允許 x 秒投影中斷?
 > * 沒有HA嗎？？
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 如何用新技術來協助既有日常工作流程？你會時常關注新技術如何提升生產力嗎？
+1. [x]: 如何用新技術來協助既有日常工作流程？你會時常關注新技術如何提升生產力嗎？
 
 ## 7. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
 
@@ -339,9 +339,9 @@ series: tech-event
 * 若有大檔上傳，中間擴充功能會先把檔案傳到雲端空間 (cloud storage or S3)，再把 URL 放進 request 來完成。
 * TLS certificates 更新時需要特別注意。
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
+1. [x]: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
 
 ## 8. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
 
@@ -352,9 +352,9 @@ series: tech-event
 * Prometheus Exporter 介紹 + Elasticsearch
 * 重新定義 SRE = Server Reboot/Restart Engineer 😂
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 你使用過 prometheus 時會搭配什麼管理工具呢 (ELK, Grafana)?
+1. [x]: 你使用過 prometheus 時會搭配什麼管理工具呢 (ELK, Grafana)?
 
 ## 9. [KKCompany] 從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折
 
@@ -382,14 +382,14 @@ IaC - Terraform
 > 3. Google Trend 關鍵字
 > 4. 各大公司開的職缺
 
-<img style="width:80%;" src="https://i.imgur.com/EmTsa15.png">
+<img style="width:50%;" src="https://i.imgur.com/EmTsa15.png">
 <p align="center"><sub><sup>
   PHP is dead? 程式語言存活戰
 </sup></sub></p>
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 評估大型專案技術轉折時，有哪些面向需要考慮?
+1. [x]: 評估大型專案技術轉折時，有哪些面向需要考慮?
 
 ## 10. [兆勤科技] 在設備跟雲的融合之路上孵化 SRE 的旅程
 
@@ -406,9 +406,9 @@ IaC - Terraform
 * 自動化: 程式部署, 異常事件通知
 * 監控: SLO metrics, Outage, Business Insight
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 如何在你的企業文化與日常工作流程中，導入 SRE?
+1. [x]: 如何在你的企業文化與日常工作流程中，導入 SRE?
 
 ## 11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
@@ -489,9 +489,9 @@ IaC - Terraform
 1. 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
 2. 這場本來更想聽 TSMC 內部作法，但今天比較多講書上的內容，雖然充實但有點可惜！
 
-### 反思
+### 💡 反思
 
-1. [x] 💡: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續最佳化？
+1. [x]: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續最佳化？
 
 ## 你怎麼看?
 
@@ -505,8 +505,7 @@ IaC - Terraform
 4. [來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析](https://blog.androchen.tw/chatgpt-sre-postmortem/)
 
 ```text
-#平台工程 #DevOps #SRE #IT
-#ChatGPT #GitHub #Copilot
+#SRE #DevOps #PlatformEngineering #IT
 ```
 
 ### Murmur
