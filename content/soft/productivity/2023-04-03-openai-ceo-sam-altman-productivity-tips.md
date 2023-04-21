@@ -13,7 +13,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/pro
 series: productivity
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
 <p align="center"><sub><sup>
   OpenAI CEO Sam Altman 生產力 4 招解密
 </sup></sub></p>
