@@ -54,7 +54,13 @@ series: tech-event
 因為內容實在太多了，先總結在此。
 
 * 每一個議程主題都有「主題重點」與「💡 反思」
+* 文化，技術，流程。溝通/協作
+* 可以看到企業內部要做 SRE ，還是要從業務切入，技術只是輔助。回答 SRE 「帶來什麼效益」
 
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-lunch.jpg?raw=true">
+<p align="center"><sub><sup>
+  每次最期待的議程 - 便當 (並不是)
+</sup></sub></p>
 
 ## 1. [iThome] 平臺工程為何是企業 IT 現代化新關鍵
 
@@ -201,9 +207,9 @@ series: tech-event
 
 並發展學習體系發展策略，有專業的戰鬥營課程規劃。
 
-技術 Technology
-思維 Mindset
-企業文化 Culture
+1. 技術 Technology
+2. 思維 Mindset
+3. 企業文化 Culture
 
 ### 反思
 
@@ -213,11 +219,9 @@ series: tech-event
 
 > 李太毓 (Danny) / XREX SRE
 
-### 主題重點
+雖然有點不好意思，這場我在跟前一場的講者對談，沒有聽到 😂 可以直接參考[共筆](https://hackmd.io/@sre-conf/2023/%2FnvQwpiNiQbe5IuaztiZCcg)。講比較多技術 know-how。
 
-### 反思
-
-[ ] 💡:
+題外話，其實我自己覺得參加 conference 最好玩也最充實的，就是跟講者去互動，帶著平時工作中，團隊遇到的狀況去交流。真的是會獲得非常多，也推薦給大家，多多跟分享的人互動！ 🎉
 
 ## 5. [Shopback] How to survive in the 1111
 
@@ -225,9 +229,36 @@ series: tech-event
 
 ### 主題重點
 
+* Engineer 數量 ~= 200 人。
+* **Preparation for unknown traffic**: 對於電子商務來說，最挑戰的就是如何去提前準備不預期的流量。
+
+Key Element 關鍵要素
+
+* Estimation for the worst/best?
+* Money talks but can't buy everything
+* Alignment with Business(know the traffic behavior)
+  * 業務成長是好事，但需要技術去支援。
+  * 即便有 Auto-Scale 機制，仍然是落後指標。
+  * 行銷活動 或是 YouTuber 帶來突如其來的流量，若造成 service slow response，對於 SRE 來說會是一件很嚴重的事情。
+
+壓力測試
+
+* 在測試環境，一來是貴，二來是無法完全模擬。
+* 所以實務上還是會在 production 非主要流量時間 (比如凌晨 4 點)，進行壓力測試。
+
+事前規劃
+
+* D-Day plan: 一定會發生的事件 (1111, 聖誕節)。
+  * 1111 是平日的 45 倍流量
+  * worst case plan
+  * on-duty schedule: process, leadership
+* Technically readiness
+* No silver bullet。仍然需要從業務角度去選擇適當的解決方案。
+* Retrospective: review + improve
+
 ### 反思
 
-[ ] 💡:
+[ ] 💡: 我們在意 service slow response 嗎? 有對應的 SLA 嗎? 我們的技術架構是否足夠支持業務成長？
 
 ## 6. [卡洛地] 從 AI 到 AIOps 再到 SRE
 
