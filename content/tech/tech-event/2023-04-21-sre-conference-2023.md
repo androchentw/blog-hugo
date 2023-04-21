@@ -379,9 +379,18 @@ IaC - Terraform
 
 ### 主題重點
 
+結論 = 文化很重要
+
+* 敏捷 (開發): Agile Team 包含 PM、RD（FW & Cloud）、QA 跟 SRE
+* 合作跟溝通
+  * 降低整體（Ent-to-End）的複雜度，盡量做 Parameterization
+  * 架構出合理的守備範圍（e.g. 雲/設備、測試/研發、資安 etc）
+* 自動化: 程式部署, 異常事件通知
+* 監控: SLO metrics, Outage, Business Insight
+
 ### 反思
 
-[ ] 💡:
+[ ] 💡: 如何在你的企業文化與日常工作流程中，導入 SRE?
 
 ## 11. [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
