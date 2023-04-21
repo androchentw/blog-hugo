@@ -64,7 +64,7 @@ series: tech-event
 7. 運用 [DevOps Topologies](https://web.devopstopologies.com/): 辨識你的組織運作架構，並選擇更適合的**合作模式**。
 8. 具體作法幾乎都圍繞在 「**監控 + 事故分析 + 自動化維運**」。
 9. 監控指標並非一成不變，需要不斷檢視與**敏捷地持續改善**。
-10. Actionable Alert 信件必須搭配 後續處理 SOP (症狀 + 緩解)。
+10. **Actionable Alert** 告警信必須搭配 後續處理 SOP (症狀 + 緩解)。
 11. 沒有銀子彈。
 12. 重新定義 SRE = Service Restart Engineer 🤣
 
