@@ -344,6 +344,31 @@ Cathay Finance Group APIM Structure
 
 ### 主題重點
 
+IaC - Terraform
+
+* KKCompany 使用 Terraform
+* 模組化 & 再利用
+* 線上透過介面調整系統組態，並同步更新回 Terraform
+* 權限管理 與 基礎設施管理分開
+
+### 筆記
+
+[共筆聊天區](https://hackmd.io/@sre-conf/2023/%2FMG_WfuPPQwuiuvc4N7iUVw)剛好有人在討論，Golang 這個語言是否推薦學習，會不會很快又沒有人使用了？
+
+有感而發，回覆了以下內容：
+
+> 可以從幾個面向去觀察一個語言的社群大小/會存活多久，但這些都不是絕對，想學都還是可以去學，多少都會有收穫
+>
+> 1. GitHub repository 數量 & 星星數
+> 2. Stackoverflow 年度調查
+> 3. Google Trend 關鍵字
+> 4. 各大公司開的職缺
+
+<img style="width:80%;" src="https://i.imgur.com/EmTsa15.png">
+<p align="center"><sub><sup>
+  PHP is dead? 程式語言存活戰
+</sup></sub></p>
+
 ### 反思
 
 [ ] 💡:
