@@ -45,22 +45,28 @@ series: tech-event
 
 如同我們先前在 [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/) 當中彙整的。SRE 自 2021 年起大受矚目。
 
-1. 非典型 SRE => Platform Engineering
-2. **平台工程團隊**負責這些與商業創新無關，但又是企業必要的**非功能性需求**
-3. [CNCF Platforms White Paper](https://appdelivery.cncf.io/whitepapers/platforms/) - 平台的屬性 Attributes of platforms
-   1. 平台作為產品 Platform as a product
-   2. 使用者體驗 User experience
-   3. 文件和引導 Documentation and onboarding
-   4. 自助式 Self-service
-   5. 減輕使用者的認知負載 Reduced cognitive load for users
-   6. 可選和可組合 Optional and composable
-   7. 默認安全性 Secure by default
-4. 可以關注 [PlatformCon 2023](https://platformcon.com/), 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
-   1. [The Magic of Platforms • Gregor Hohpe • PlatformCon 2022](https://www.youtube.com/watch?v=WaL3ZbLgMuI)
-   2. [PlatformCon 2022 recap, from a public PaaS PoV](https://www.artifakt.com/blog/paas/platformcon-2022-recap/)
-5. iThome
-   1. [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
-   2. [【2023年CIO必看10大趨勢：趨勢3】數位轉型帶動維運現代化需求，平臺工程開始崛起](https://www.ithome.com.tw/news/155033)
+* 非典型 SRE => Platform Engineering
+* **平台工程團隊**負責這些與商業創新無關，但又是企業必要的**非功能性需求**
+
+[CNCF Platforms White Paper](https://appdelivery.cncf.io/whitepapers/platforms/) - 平台的屬性 Attributes of platforms
+
+1. 平台作為產品 Platform as a product
+2. 使用者體驗 User experience
+3. 文件和引導 Documentation and onboarding
+4. 自助式 Self-service
+5. 減輕使用者的認知負載 Reduced cognitive load for users
+6. 可選和可組合 Optional and composable
+7. 默認安全性 Secure by default
+
+可以關注 [PlatformCon 2023](https://platformcon.com/), 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
+
+1. [The Magic of Platforms • Gregor Hohpe • PlatformCon 2022](https://www.youtube.com/watch?v=WaL3ZbLgMuI)
+2. [PlatformCon 2022 recap, from a public PaaS PoV](https://www.artifakt.com/blog/paas/platformcon-2022-recap/)
+
+iThome 參考文章
+
+1. [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
+2. [【2023年CIO必看10大趨勢：趨勢3】數位轉型帶動維運現代化需求，平臺工程開始崛起](https://www.ithome.com.tw/news/155033)
 
 ### 2. 雲原生將走向何方？
 
