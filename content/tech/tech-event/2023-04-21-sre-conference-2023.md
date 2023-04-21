@@ -12,18 +12,18 @@ tags:
   - tech-event
   - devops
   - sre
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-cover.jpg?raw=true
 series: tech-event
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 富邦國際會議中心
 </sup></sub></p>
 
 ## Overview 概述
 
-04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 場議程分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
+04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 位企業專家，來自台灣微軟、國泰世華銀行、台積電等，分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
 
 素材
 
@@ -31,8 +31,8 @@ series: tech-event
 2. [HackMD 共筆](https://r.itho.me/SRE23note)
 
 🤔 Q: 你想瞭解哪一場 SRE 議程？公司團隊碰到了什麼挑戰？
-💪 A: 提問分享2 個你有興趣的題目
-(有機會的話我會盡量在之後的文章著重說明)
+
+💪 A: 提問分享 2 個你有興趣的題目
 
 <!--more-->
 
