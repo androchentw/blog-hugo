@@ -12,31 +12,30 @@ tags:
   - tech-event
   - devops
   - sre
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true
 series: tech-event
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-cover.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 富邦國際會議中心
 </sup></sub></p>
 
 ## Overview 概述
 
-04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 位企業專家，來自台灣微軟、國泰世華銀行、台積電等，分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
+04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 位來自 **iThome、台灣微軟、國泰世華銀行、台積電**等企業專家，分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
 
-素材
-
-1. [議程表](https://sre.ithome.com.tw/2023/agenda)
-2. [HackMD 共筆](https://r.itho.me/SRE23note) => 想看議程細節的朋友，共筆裡都很完整的筆記。我這篇文章會提更多我自己額外的發想。
+今年這一場研討會的 [HackMD 共筆](https://r.itho.me/SRE23note) 非常精彩，想看議程細節的朋友，裡面有很完整的筆記。我這篇文章會提更多我自己額外的發想。
 
 🤔 Q: 你想瞭解哪一場 SRE 議程？公司團隊碰到了什麼挑戰？
 
-💪 A: 提問分享 2 個你有興趣的題目
+💪 A: 提問 + 分享 2 個你有興趣的題目，並思考如何應用於自己的團隊。
 
 <!--more-->
 
 ## Agenda
+
+[官網議程表](https://sre.ithome.com.tw/2023/agenda)有完整簡介，也可以直接參考下方我的整理，快速瀏覽有興趣的公司與題目 (🥇 是我個人推薦的)
 
 1. 🥇 [iThome] 平臺工程為何是企業 IT 現代化新關鍵
 2. 🥇 [台灣微軟] SRE. This is the way
@@ -54,11 +53,11 @@ series: tech-event
 
 因為內容實在太多了，先總結在此。
 
-* 每一個議程主題幾乎都有「主題重點」與「**💡 反思**」，邀請你也一起深思。
-* 「**文化，技術，流程**」。可以看到講者們都會強調 SRE 與其他單位溝通協作的重要性。
-* 可以看到企業內部要做 SRE ，還是要從**業務切入**，技術只是輔助。回答 SRE 「**帶來什麼商業效益**」
+1. 每一個議程主題幾乎都有「主題重點」與「**💡 反思**」，邀請你也一起深思。
+2. 「**文化，技術，流程**」缺一不可。可以看到講者們都會強調 SRE 與其他單位**溝通協作**的重要性。
+3. 可以看到企業內部要做 SRE ，還是要從**業務切入**，技術只是輔助。回答 SRE 「**帶來什麼商業效益**」。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-lunch.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-2-lunch.jpg?raw=true">
 <p align="center"><sub><sup>
   每次最期待的議程 - 便當 (並不是)
 </sup></sub></p>
@@ -81,19 +80,19 @@ series: tech-event
 
 ### [CNCF Platforms White Paper](https://appdelivery.cncf.io/whitepapers/platforms/) - 平台的屬性 Attributes of platforms
 
-   1. **平台作為產品 Platform as a product**
-   2. **使用者體驗 User experience**
-   3. 文件和引導 Documentation and onboarding
-   4. 自助式 Self-service
-   5. **減輕使用者的認知負載 Reduced cognitive load for users**
-   6. 可選和可組合 Optional and composable
-   7. 默認安全性 Secure by default
+1. **平台作為產品 Platform as a product**
+2. **使用者體驗 User experience**
+3. 文件和引導 Documentation and onboarding
+4. 自助式 Self-service
+5. **減輕使用者的認知負載 Reduced cognitive load for users**
+6. 可選和可組合 Optional and composable
+7. 默認安全性 Secure by default
 
 ### Case study
 
 [Zalando Tech Radar 技術雷達圖](https://opensource.zalando.com/tech-radar/)
 
-<img style="width:80%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.jpg?raw=true">
 <p align="center"><sub><sup>
   Zalando Tech Radar
 </sup></sub></p>
@@ -123,9 +122,10 @@ series: tech-event
 
 * **如何開始 How to Get Started**: Start from small, make influence
 * **如何持續 Plan for Continuity**: Identify orgranization type
-  1. No "Best" type
-  2. Identify stakeholders
-  3. Shared Responsibility
+
+1. No "Best" type
+2. Identify stakeholders
+3. Shared Responsibility
 
 > 你需要 SRE 的時候，通常是因為客戶在抱怨 (內部 / 外部)
 >
@@ -190,10 +190,7 @@ series: tech-event
 ### 其他
 
 * 裝 agent 會影響 service performance, 務必考量。
-* 國泰的 practice
-  * zabbix 全方位監控
-  * 目前是以一個 pod 0.5 ~ 1 core 來做水平擴展, 所以會有影響
-  * Mindset: 發生問題，去釐清，期望不要再次發生
+* Mindset: 發生問題，去釐清，期望不要再次發生
 * 解放 AP (application 開發) 人力是痛點，降下維運 loading。
 
 ### IT 維運自動化: 現代化監控中心的分類
@@ -203,7 +200,7 @@ series: tech-event
 3. ITIM: IT 基礎設施監控
 4. APM: 應用性能監控
 
-### IT運營組織的管理成熟度: IT 導向 > 業務導向
+### IT 運營組織的管理成熟度: IT 導向 > 業務導向
 
 ### 執行面向
 
@@ -230,8 +227,8 @@ series: tech-event
 
 ### 💡 反思
 
-1. [x]: 人文 / 文化 / product mindset change 如何持續推廣，改變工作流程？
-2. [x]: 中台定位與其他業務單位的合作模式，人數編制？
+1. [x]: 技術 + 思維 + 企業文化 如何持續推廣，改變工作流程？
+2. [x]: 中台定位與其他業務單位的合作模式，人數編制?
 
 ## 4. [XREX] 從單體到容器化的導入之路
 
