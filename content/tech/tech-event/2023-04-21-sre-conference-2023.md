@@ -53,9 +53,9 @@ series: tech-event
 
 因為內容實在太多了，先總結在此。
 
-* 每一個議程主題都有「主題重點」與「💡 反思」
-* 文化，技術，流程。溝通/協作
-* 可以看到企業內部要做 SRE ，還是要從業務切入，技術只是輔助。回答 SRE 「帶來什麼效益」
+* 每一個議程主題都有「主題重點」與「💡 反思」，邀請你也一起深思。
+* 「**文化，技術，流程**」。可以看到講者們都會強調 SRE 與其他單位溝通協作的重要性。
+* 可以看到企業內部要做 SRE ，還是要從業務切入，技術只是輔助。回答 SRE 「**帶來什麼商業效益**」
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-lunch.jpg?raw=true">
 <p align="center"><sub><sup>
@@ -93,7 +93,7 @@ series: tech-event
    1. [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
    2. [【2023年CIO必看10大趨勢：趨勢3】數位轉型帶動維運現代化需求，平臺工程開始崛起](https://www.ithome.com.tw/news/155033)
 
-## 2. [台灣微軟] SRE. This is the way
+## 2. 🥇 [台灣微軟] SRE. This is the way
 
 > Frank Chen / 台灣微軟 資深雲端架構師
 
@@ -140,7 +140,7 @@ series: tech-event
 [ ] 💡: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
 [ ] 💡: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
 
-## 3. [國泰世華銀行] 國泰如何進行金融 SRE 的發展
+## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
 > 鄭正略 (Louis) / 國泰世華銀行 協理 中台發展部
 
@@ -196,7 +196,7 @@ series: tech-event
 
 ### SRE 團隊 R&R
 
-國泰目前 SRE 團隊總共人數: 38 人
+國泰目前 SRE 團隊總共人數: 38 人，多為兼職。
 
 1. Ops
    1. Dev SRE (6 + N)
@@ -266,15 +266,60 @@ Key Element 關鍵要素
 
 ### 主題重點
 
+* 用來做 Disaster recovery, Anomaly detection, Billing Data
+* Deep Learning Model: Univariate / Multivariate Time-Series Data
+
+### 小記
+
+這場的[共筆](https://hackmd.io/@sre-conf/2023/%2FsJ3lAYokSdGOgwYtWkcjTw)很精彩，真不愧是 SRE confenrece 的與會者 ~~鄉民~~ 😆
+
+過程中因為簡報投影中斷，超過 30 秒沒有畫面，然後就有了以下的討論:
+
+> * 論簡報投影不出來之SLA為多少？
+>   * 投影機：95%
+>   * 轉接頭：90%
+> * 投影機廠商不用負責嗎
+> * 每一場議程允許 x 秒投影中斷?
+> * 沒有HA嗎？？
+
 ### 反思
 
-[ ] 💡:
+[ ] 💡: 如何用新技術來協助既有日常工作流程？你會時常關注新技術如何提升生產力嗎？
 
 ## 7. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
 
 > 林家慶 (Kai) / 國泰金控 SRE Engineer
 
 ### 主題重點
+
+1. API Application Strategies
+2. API Mangement System
+3. APIM Architecture Evolution
+4. APIM Problem-Solving
+5. APIM Future Enhancement
+
+Security and Governance
+
+1. Threat Protection
+2. Access Controls
+3. Self Service and SSO
+4. Security Governance (法規性上的要求，像是金融法規 or GDPR)
+5. Data Security
+
+Cathay Finance Group APIM Structure
+
+1. Open banking
+2. Integration
+3. Portal
+4. Monitoring
+
+其他
+
+* 採用 Google Cloud Anthos
+* 法規關係，所以 API 維持在地端，採用混合雲的架構。業務在地端，log拋雲端，方便追蹤和管控。
+* 消費性金融，在法規上要避免資料流到海外，所以要有地端資料庫。
+* 若有大檔上傳，中間擴充功能會先把檔案傳到雲端空間 (cloud storage or S3)，再把 URL 放進 request 來完成。
+* TLS certificates 更新時需要特別注意。
 
 ### 反思
 
@@ -283,6 +328,9 @@ Key Element 關鍵要素
 ## 8. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
 
 > 曾光毅 (光光) / 聯齊科技 SRE
+
+* Prometheus + Grafana
+* 重新定義 SRE = Server Reboot Engineer 😂
 
 ### 主題重點
 
