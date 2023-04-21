@@ -28,7 +28,7 @@ series: tech-event
 素材
 
 1. [議程表](https://sre.ithome.com.tw/2023/agenda)
-2. [HackMD 共筆](https://r.itho.me/SRE23note)
+2. [HackMD 共筆](https://r.itho.me/SRE23note) => 希望看到議程細節的朋友，共筆裡都很完整的筆記。我這篇文章會提更多我自己額外的發想。
 
 🤔 Q: 你想瞭解哪一場 SRE 議程？公司團隊碰到了什麼挑戰？
 
@@ -65,11 +65,11 @@ series: tech-event
 1. 非典型 SRE => Platform Engineering
 2. **平台工程團隊**負責這些與商業創新無關，但又是企業必要的**非功能性需求**。
 3. [CNCF Platforms White Paper](https://appdelivery.cncf.io/whitepapers/platforms/) - 平台的屬性 Attributes of platforms
-   1. 平台作為產品 Platform as a product
-   2. 使用者體驗 User experience
+   1. **平台作為產品 Platform as a product**
+   2. **使用者體驗 User experience**
    3. 文件和引導 Documentation and onboarding
    4. 自助式 Self-service
-   5. 減輕使用者的認知負載 Reduced cognitive load for users
+   5. **減輕使用者的認知負載 Reduced cognitive load for users**
    6. 可選和可組合 Optional and composable
    7. 默認安全性 Secure by default
 4. 可以關注 [PlatformCon 2023](https://platformcon.com/), 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
