@@ -28,7 +28,7 @@ series: tech-event
 素材
 
 1. [議程表](https://sre.ithome.com.tw/2023/agenda)
-2. [HackMD 共筆](https://r.itho.me/SRE23note) => 希望看到議程細節的朋友，共筆裡都很完整的筆記。我這篇文章會提更多我自己額外的發想。
+2. [HackMD 共筆](https://r.itho.me/SRE23note) => 想看議程細節的朋友，共筆裡都很完整的筆記。我這篇文章會提更多我自己額外的發想。
 
 🤔 Q: 你想瞭解哪一場 SRE 議程？公司團隊碰到了什麼挑戰？
 
@@ -38,31 +38,32 @@ series: tech-event
 
 ## Agenda
 
-1. [台灣微軟] SRE. This is the way
-2. [國泰世華銀行] 國泰如何進行金融 SRE 的發展
-3. [XREX] 從單體到容器化的導入之路
-4. [Shopback] How to survive in the 1111
-5. [卡洛地] 從 AI 到 AIOps 再到 SRE
-6. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
-7. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
-8. [KKCompany] 從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折
-9. [兆勤科技] 在設備跟雲的融合之路上孵化 SRE 的旅程
-10. [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
+1. 🥇 [iThome] 平臺工程為何是企業 IT 現代化新關鍵
+2. 🥇 [台灣微軟] SRE. This is the way
+3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
+4. [XREX] 從單體到容器化的導入之路
+5. [Shopback] How to survive in the 1111
+6. [卡洛地] 從 AI 到 AIOps 再到 SRE
+7. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
+8. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
+9. [KKCompany] 從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折
+10. [兆勤科技] 在設備跟雲的融合之路上孵化 SRE 的旅程
+11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
 ## 💡 總結反思
 
 因為內容實在太多了，先總結在此。
 
-* 每一個議程主題都有「主題重點」與「💡 反思」，邀請你也一起深思。
+* 每一個議程主題幾乎都有「主題重點」與「**💡 反思**」，邀請你也一起深思。
 * 「**文化，技術，流程**」。可以看到講者們都會強調 SRE 與其他單位溝通協作的重要性。
-* 可以看到企業內部要做 SRE ，還是要從業務切入，技術只是輔助。回答 SRE 「**帶來什麼商業效益**」
+* 可以看到企業內部要做 SRE ，還是要從**業務切入**，技術只是輔助。回答 SRE 「**帶來什麼商業效益**」
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-lunch.jpg?raw=true">
 <p align="center"><sub><sup>
   每次最期待的議程 - 便當 (並不是)
 </sup></sub></p>
 
-## 1. [iThome] 平臺工程為何是企業 IT 現代化新關鍵
+## 1. 🥇 [iThome] 平臺工程為何是企業 IT 現代化新關鍵
 
 <img style="width:80%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
 <p align="center"><sub><sup>
@@ -77,7 +78,9 @@ series: tech-event
 
 1. 非典型 SRE => Platform Engineering
 2. **平台工程團隊**負責這些與商業創新無關，但又是企業必要的**非功能性需求**。
-3. [CNCF Platforms White Paper](https://appdelivery.cncf.io/whitepapers/platforms/) - 平台的屬性 Attributes of platforms
+
+### [CNCF Platforms White Paper](https://appdelivery.cncf.io/whitepapers/platforms/) - 平台的屬性 Attributes of platforms
+
    1. **平台作為產品 Platform as a product**
    2. **使用者體驗 User experience**
    3. 文件和引導 Documentation and onboarding
@@ -85,13 +88,27 @@ series: tech-event
    5. **減輕使用者的認知負載 Reduced cognitive load for users**
    6. 可選和可組合 Optional and composable
    7. 默認安全性 Secure by default
-4. Case study: [Zalando Tech Radar 技術雷達圖](https://opensource.zalando.com/tech-radar/)
-5. 可以關注 [PlatformCon 2023](https://platformcon.com/), 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
-   1. [The Magic of Platforms • Gregor Hohpe • PlatformCon 2022](https://www.youtube.com/watch?v=WaL3ZbLgMuI)
-   2. [PlatformCon 2022 recap, from a public PaaS PoV](https://www.artifakt.com/blog/paas/platformcon-2022-recap/)
-6. iThome
-   1. [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
-   2. [【2023年CIO必看10大趨勢：趨勢3】數位轉型帶動維運現代化需求，平臺工程開始崛起](https://www.ithome.com.tw/news/155033)
+
+### Case study
+
+[Zalando Tech Radar 技術雷達圖](https://opensource.zalando.com/tech-radar/)
+
+<img style="width:80%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
+<p align="center"><sub><sup>
+  Zalando Tech Radar
+</sup></sub></p>
+
+### PlatformCon
+
+可以關注 [PlatformCon 2023](https://platformcon.com/), 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
+
+1. [The Magic of Platforms • Gregor Hohpe • PlatformCon 2022](https://www.youtube.com/watch?v=WaL3ZbLgMuI)
+2. [PlatformCon 2022 recap, from a public PaaS PoV](https://www.artifakt.com/blog/paas/platformcon-2022-recap/)
+
+### iThome 文章
+
+1. [【iThome 2022 CIO大調查(中)｜新興技術熱門趨勢】大數據分析和混合雲架構成主流，更有6大新興技術爆紅](https://www.ithome.com.tw/article/152583)
+2. [【2023年CIO必看10大趨勢：趨勢3】數位轉型帶動維運現代化需求，平臺工程開始崛起](https://www.ithome.com.tw/news/155033)
 
 ## 2. 🥇 [台灣微軟] SRE. This is the way
 
@@ -99,18 +116,8 @@ series: tech-event
 
 <img style="width:80%;" src="https://i.imgur.com/nUBe3e2.png">
 <p align="center"><sub><sup>
-  DevOps vs. SRE vs. Plaform Engineering
+  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps vs. SRE vs. Plaform Engineering</a>
 </sup></sub></p>
-
-* [DevOps vs. SRE vs. Plaform Engineering](https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference)
-
-### SRE 關鍵概念
-
-1. SLI/SLO: 定義服務目標
-2. Error Budget: 透過錯誤預算的概念，平衡開發維運速度
-3. Blameless postmortems: 對事不對人的事後報告
-4. Eliminating toil: 減少瑣碎的維運操作
-5. More like an evangelist: 與其說是個工作，更多會是像個傳教士
 
 ### 主題重點
 
@@ -126,6 +133,14 @@ series: tech-event
 >
 > => 需要建立信任 (Build trust)
 
+### SRE 關鍵概念
+
+1. SLI/SLO: 定義服務目標
+2. Error Budget: 透過錯誤預算的概念，平衡開發維運速度
+3. Blameless postmortems: 對事不對人的事後報告
+4. Eliminating toil: 減少瑣碎的維運操作
+5. More like an evangelist: 與其說是個工作，更多會是像個傳教士
+
 ### 作法
 
 * **調整流程 Actionable alert**: SOP (symptom and mitigation) + post-mortem followup。
@@ -136,9 +151,9 @@ series: tech-event
 
 ### 反思
 
-1. [ ] 💡: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
-2. [ ] 💡: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
-3. [ ] 💡: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
+1. [x] 💡: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
+2. [x] 💡: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
+3. [x] 💡: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
 
 ## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
@@ -215,7 +230,8 @@ series: tech-event
 
 ### 反思
 
-[ ] 💡:
+1. [x] 💡: 人文 / 文化 / product mindset change 如何持續推廣，改變工作流程？
+2. [x] 💡: 中台定位與其他業務單位的合作模式，人數編制？
 
 ## 4. [XREX] 從單體到容器化的導入之路
 
@@ -260,7 +276,7 @@ series: tech-event
 
 ### 反思
 
-[ ] 💡: 我們在意 service slow response 嗎? 有對應的 SLA 嗎? 我們的技術架構是否足夠支持業務成長？
+1. [x] 💡: 我們在意 service slow response 嗎? 有對應的 SLA 嗎? 我們的技術架構是否足夠支持業務成長？
 
 ## 6. [卡洛地] 從 AI 到 AIOps 再到 SRE
 
@@ -286,7 +302,7 @@ series: tech-event
 
 ### 反思
 
-[ ] 💡: 如何用新技術來協助既有日常工作流程？你會時常關注新技術如何提升生產力嗎？
+1. [x] 💡: 如何用新技術來協助既有日常工作流程？你會時常關注新技術如何提升生產力嗎？
 
 ## 7. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
 
@@ -295,7 +311,7 @@ series: tech-event
 ### 主題重點
 
 1. API Application Strategies
-2. API Mangement System
+2. API Management System
 3. APIM Architecture Evolution
 4. APIM Problem-Solving
 5. APIM Future Enhancement
@@ -325,7 +341,7 @@ series: tech-event
 
 ### 反思
 
-[ ] 💡:
+1. [x] 💡: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
 
 ## 8. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
 
@@ -338,7 +354,7 @@ series: tech-event
 
 ### 反思
 
-[ ] 💡: 你使用過 prometheus 時會搭配什麼管理工具呢 (ELK, Grafana)?
+1. [x] 💡: 你使用過 prometheus 時會搭配什麼管理工具呢 (ELK, Grafana)?
 
 ## 9. [KKCompany] 從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折
 
@@ -373,7 +389,7 @@ IaC - Terraform
 
 ### 反思
 
-[ ] 💡:
+1. [x] 💡: 評估大型專案技術轉折時，有哪些面向需要考慮?
 
 ## 10. [兆勤科技] 在設備跟雲的融合之路上孵化 SRE 的旅程
 
@@ -392,7 +408,7 @@ IaC - Terraform
 
 ### 反思
 
-[ ] 💡: 如何在你的企業文化與日常工作流程中，導入 SRE?
+1. [x] 💡: 如何在你的企業文化與日常工作流程中，導入 SRE?
 
 ## 11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
@@ -424,8 +440,6 @@ IaC - Terraform
 2. 檢視事故回應與監控指標
 3. 主動測試
 4. 案例分享
-
-小筆記: 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
 
 ### 鼓勵經營社群方式
 
@@ -470,9 +484,14 @@ IaC - Terraform
 3. 識別高價值流程
 4. 檢視團隊技能
 
+小筆記
+
+1. 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
+2. 這場本來更想聽 TSMC 內部作法，但今天比較多講書上的內容，雖然充實但有點可惜！
+
 ### 反思
 
-[ ] 💡:
+1. [x] 💡: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續最佳化？
 
 ## 你怎麼看?
 
