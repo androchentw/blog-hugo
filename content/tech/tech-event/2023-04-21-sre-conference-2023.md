@@ -53,7 +53,9 @@ series: tech-event
 
 因為內容實在太多了，先總結 12 個重點在此。底下還有更多精彩內容。
 
-1. 每一個議程主題幾乎都有「主題重點」與「**💡 反思**」，邀請你也一起深思。
+每一個議程主題幾乎都有「主題重點」與「**💡 反思**」，邀請你也一起深思。
+
+1. 需要 SRE 的時候，通常是因為客戶在抱怨 (內部 / 外部)。也就是 **需要救火，需要建立信任**。
 2. 企業內部要推動 SRE，要從　**業務切入**，技術只是輔助。將 SRE 與 Business Value / SLA / Cost 掛勾，才會讓 stakeholders 有感。
 3. 從「**回答 SRE 帶來什麼目標商業效益**」的角度出發定義 SLA。
 4. **平台工程的產品思維** 至關重要。
@@ -68,7 +70,7 @@ series: tech-event
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-2-lunch.jpg?raw=true">
 <p align="center"><sub><sup>
-  每次最期待的議程 - 便當 (並不是)
+  每次最期待的議程 - 便當 (並不是 😆)
 </sup></sub></p>
 
 ## 1. 🥇 [iThome] 平臺工程為何是企業 IT 現代化新關鍵
@@ -97,21 +99,20 @@ series: tech-event
 6. 可選和可組合 Optional and composable
 7. 默認安全性 Secure by default
 
-### Case study
+### Case Study - Zalando
 
-[Zalando Tech Radar 技術雷達圖](https://opensource.zalando.com/tech-radar/)
-
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.jpg?raw=true">
 <p align="center"><sub><sup>
-  Zalando Tech Radar
+  <a href="https://opensource.zalando.com/tech-radar/" target="_blank">Zalando Tech Radar 技術雷達圖</a>
 </sup></sub></p>
 
 ### PlatformCon
 
-可以關注 [PlatformCon 2023](https://platformcon.com/), 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
+1. 可以關注 [PlatformCon 2023](https://platformcon.com/)
+2. 過去的 [PlatformCon 2022](https://2022.platformcon.com/) 也有精彩內容
+3. [PlatformCon 2022 recap, from a public PaaS PoV](https://www.artifakt.com/blog/paas/platformcon-2022-recap/)
 
-1. [The Magic of Platforms • Gregor Hohpe • PlatformCon 2022](https://www.youtube.com/watch?v=WaL3ZbLgMuI)
-2. [PlatformCon 2022 recap, from a public PaaS PoV](https://www.artifakt.com/blog/paas/platformcon-2022-recap/)
+{{< youtube "WaL3ZbLgMuI" >}}
 
 ### iThome 文章
 
@@ -157,6 +158,11 @@ series: tech-event
 * 給予不同角色，不同的**視覺化呈現**: Data Visbility, Permission Design, Communication tools。
 * **Connect to Business**: 將 SRE 與 Business Value / SLA / Cost 掛勾，才會讓 stakeholders 有感。
 * **Communication channel**: 將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption。
+
+<img style="width:60%;" src="https://web.devopstopologies.com/images/type-7.png">
+<p align="center"><sub><sup>
+  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps Topologies</a>: 辨識你的組織運作架構，並選擇更適合的合作模式
+</sup></sub></p>
 
 ### 💡 反思
 
@@ -349,6 +355,11 @@ series: tech-event
 
 1. [x]: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
 
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
+<p align="center"><sub><sup>
+  下午茶
+</sup></sub></p>
+
 ## 8. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
 
 > 曾光毅 (光光) / 聯齊科技 SRE
@@ -495,9 +506,16 @@ IaC - Terraform
 1. 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
 2. 這場本來更想聽 TSMC 內部作法，但今天比較多講書上的內容，雖然充實但有點可惜！
 
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-5-hall.jpg?raw=true">
+<p align="center"><sub><sup>
+  下午茶
+</sup></sub></p>
+
 ### 💡 反思
 
 1. [x]: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續優化？
+
+
 
 ## 你怎麼看?
 
