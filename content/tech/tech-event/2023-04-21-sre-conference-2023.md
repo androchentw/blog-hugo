@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "SRE Conference 2023 - 11 場議程解密企業實踐與方法論"
+title: "SRE Conference 2023 - 11 場議程解密企業 SRE 實踐 + 方法論"
 url: sre-conference-2023
 # date: 2023-04-21T09:00:00+08:00
 date: 2023-04-21T11:30:00+08:00
@@ -51,11 +51,20 @@ series: tech-event
 
 ## 💡 總結反思
 
-因為內容實在太多了，先總結在此。
+因為內容實在太多了，先總結 12 個重點在此。底下還有更多精彩內容。
 
 1. 每一個議程主題幾乎都有「主題重點」與「**💡 反思**」，邀請你也一起深思。
-2. 「**文化，技術，流程**」缺一不可。可以看到講者們都會強調 SRE 與其他單位**溝通協作**的重要性。
-3. 可以看到企業內部要做 SRE ，還是要從**業務切入**，技術只是輔助。回答 SRE 「**帶來什麼商業效益**」。
+2. 企業內部要推動 SRE，要從　**業務切入**，技術只是輔助。將 SRE 與 Business Value / SLA / Cost 掛勾，才會讓 stakeholders 有感。
+3. 從「**回答 SRE 帶來什麼目標商業效益**」的角度出發定義 SLA。
+4. **平台工程的產品思維** 至關重要。
+5. 「**文化，技術，流程**」缺一不可。
+6. 建立 **溝通協作** 橋樑，串聯 Data source, Data Platform, Consumption。
+7. 運用 [DevOps Topologies](https://web.devopstopologies.com/): 辨識你的組織運作架構，並選擇更適合的**合作模式**。
+8. 具體作法幾乎都圍繞在 「**監控 + 事故分析 + 自動化維運**」。
+9. 監控指標並非一成不變，需要不斷檢視與**敏捷地持續改善**。
+10. Actionable Alert 信件必須搭配 後續處理 SOP (症狀 + 緩解)。
+11. 沒有銀子彈。
+12. 重新定義 SRE = Service Restart Engineer 🤣
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-2-lunch.jpg?raw=true">
 <p align="center"><sub><sup>
@@ -488,7 +497,7 @@ IaC - Terraform
 
 ### 💡 反思
 
-1. [x]: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續最佳化？
+1. [x]: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續優化？
 
 ## 你怎麼看?
 
