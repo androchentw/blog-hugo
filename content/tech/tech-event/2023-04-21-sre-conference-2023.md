@@ -10,8 +10,9 @@ categories:
   - tech
 tags: 
   - tech-event
-  - devops
   - sre
+  - devops
+  - platform-engineering
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true
 series: tech-event
 ---
