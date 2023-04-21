@@ -329,14 +329,14 @@ Cathay Finance Group APIM Structure
 
 > 曾光毅 (光光) / 聯齊科技 SRE
 
-* Prometheus + Grafana
-* 重新定義 SRE = Server Reboot Engineer 😂
-
 ### 主題重點
+
+* Prometheus Exporter 介紹 + Elasticsearch
+* 重新定義 SRE = Server Reboot/Restart Engineer 😂
 
 ### 反思
 
-[ ] 💡:
+[ ] 💡: 你使用過 prometheus 時會搭配什麼管理工具呢 (ELK, Grafana)?
 
 ## 9. [KKCompany] 從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折
 
