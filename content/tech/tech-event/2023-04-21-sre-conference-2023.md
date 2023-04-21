@@ -415,7 +415,7 @@ IaC - Terraform
 
 ### 主題重點
 
-結論 = 文化很重要
+結論 = 文化很重要。
 
 * 敏捷 (開發): Agile Team 包含 PM、RD（FW & Cloud）、QA 跟 SRE
 * 合作跟溝通
@@ -528,7 +528,7 @@ IaC - Terraform
 4. [來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析](https://blog.androchen.tw/chatgpt-sre-postmortem/)
 
 ```text
-#SRE #DevOps #PlatformEngineering #IT
+#SRE #DevOps #PlatformEngineering #IT #SREconf2023
 ```
 
 ### Murmur
