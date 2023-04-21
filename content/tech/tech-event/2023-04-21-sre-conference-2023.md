@@ -101,7 +101,7 @@ series: tech-event
 
 ### Case Study - Zalando
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.png?raw=true">
 <p align="center"><sub><sup>
   <a href="https://opensource.zalando.com/tech-radar/" target="_blank">Zalando Tech Radar 技術雷達圖</a>
 </sup></sub></p>
@@ -125,7 +125,7 @@ series: tech-event
 
 <img style="width:60%;" src="https://i.imgur.com/nUBe3e2.png">
 <p align="center"><sub><sup>
-  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps vs. SRE vs. Plaform Engineering</a>
+  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps vs. SRE vs. Platform Engineering</a>
 </sup></sub></p>
 
 ### 主題重點
@@ -314,7 +314,7 @@ series: tech-event
 
 ### 💡 反思
 
-1. [x]: 如何用新技術來協助既有日常工作流程？你會時常關注新技術如何提升生產力嗎？
+1. [x]: 如何用新技術來協助既有日常工作流程？ 你會時常關注新技術如何提升生產力嗎？
 
 ## 7. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
 
@@ -355,7 +355,7 @@ series: tech-event
 
 1. [x]: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
+<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
 <p align="center"><sub><sup>
   下午茶
 </sup></sub></p>
@@ -399,14 +399,14 @@ IaC - Terraform
 > 3. Google Trend 關鍵字
 > 4. 各大公司開的職缺
 
-<img style="width:50%;" src="https://i.imgur.com/EmTsa15.png">
+<img style="width:40%;" src="https://i.imgur.com/EmTsa15.png">
 <p align="center"><sub><sup>
   PHP is dead? 程式語言存活戰
 </sup></sub></p>
 
 ### 💡 反思
 
-1. [x]: 評估大型專案技術轉折時，有哪些面向需要考慮?
+1. [x]: 評估大型專案技術轉折時, 有哪些面向需要考慮?
 
 ## 10. [兆勤科技] 在設備跟雲的融合之路上孵化 SRE 的旅程
 
@@ -506,16 +506,14 @@ IaC - Terraform
 1. 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
 2. 這場本來更想聽 TSMC 內部作法，但今天比較多講書上的內容，雖然充實但有點可惜！
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-5-hall.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-5-reception.jpg?raw=true">
 <p align="center"><sub><sup>
-  下午茶
+  SRE Conference 2023 - 富邦國際會議中心
 </sup></sub></p>
 
 ### 💡 反思
 
 1. [x]: 你在推行 SRE 時，是如何安排「事故分析、精準監控、自動化維運」的持續優化？
-
-
 
 ## 你怎麼看?
 
