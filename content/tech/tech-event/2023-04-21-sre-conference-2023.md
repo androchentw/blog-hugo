@@ -26,7 +26,9 @@ series: tech-event
 
 04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 位來自 **iThome、台灣微軟、國泰世華銀行、台積電**等企業專家，分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
 
-今年這一場研討會的 [HackMD 共筆](https://r.itho.me/SRE23note) 非常精彩，想看議程細節的朋友，裡面有很完整的筆記。我這篇文章會提更多我自己額外的發想。
+議程簡報也全部都上傳在[官網議程表][agenda]了，除了幾場不能公開的以外 (國泰, 台積電, 兆勤)。感謝講者的分享與 iThome 的效率！
+
+另外，今年這一場研討會的 [HackMD 共筆](https://r.itho.me/SRE23note) 非常精彩，想看議程細節的朋友，裡面有很完整的筆記。我這篇文章會提更多我自己額外的發想。
 
 🤔 Q: 你想瞭解哪一場 SRE 議程？公司團隊碰到了什麼挑戰？
 
@@ -34,21 +36,26 @@ series: tech-event
 
 <!--more-->
 
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-overview.png?raw=true">
+<p align="center"><sub><sup>
+  SRE Conference 2023 - 11 場議程與總結反思
+</sup></sub></p>
+
 ## Agenda
 
-[官網議程表](https://sre.ithome.com.tw/2023/agenda)有完整簡介，也可以直接參考下方我的整理，快速瀏覽有興趣的公司與題目 (🥇 是我個人推薦的)
+[官網議程表][agenda] 有完整簡介，也可以直接參考下方我的整理，快速瀏覽有興趣的公司與題目 (🥇 是我個人推薦的)
 
-1. 🥇 [iThome] 平臺工程為何是企業 IT 現代化新關鍵
-2. 🥇 [台灣微軟] SRE. This is the way
-3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
-4. [XREX] 從單體到容器化的導入之路
-5. [Shopback] How to survive in the 1111
-6. [卡洛地] 從 AI 到 AIOps 再到 SRE
-7. [國泰金控] 金融業雲端 API 管理轉型實戰經驗
-8. [聯齊科技] 做 SRE 還是要靠通靈？讓我們看見看不到的東西
-9. [KKCompany] 從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折
+1. 🥇 **[iThome]** [平臺工程為何是企業 IT 現代化新關鍵][1]
+2. 🥇 **[台灣微軟]** [SRE. This is the way][2]
+3. 🥇 **[國泰世華銀行]** 國泰如何進行金融 SRE 的發展
+4. [XREX] [從單體到容器化的導入之路][4]
+5. [Shopback] [How to survive in the 1111][5]
+6. [卡洛地] [從 AI 到 AIOps 再到 SRE][6]
+7. [國泰金控] [金融業雲端 API 管理轉型實戰經驗][7]
+8. [聯齊科技] [做 SRE 還是要靠通靈？讓我們看見看不到的東西][8]
+9. [KKCompany] [從 SRE 與非 SRE 視角，探討大型長期專案如何面對與評估技術轉折][9]
 10. [兆勤科技] 在設備跟雲的融合之路上孵化 SRE 的旅程
-11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
+11. 🥇 **[台積電]** SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
 ## 💡 總結反思
 
@@ -85,7 +92,7 @@ series: tech-event
 >
 > 原議程: "From Zero to SRE（街口 SRE 從零做起）" 講者確診，之後會再舉辦線上 talk
 
-如同我們先前在 [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/) 當中彙整的。SRE 自 2021 年起大受矚目。
+如同我們先前在 [DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品](https://blog.androchen.tw/devopsdays-taipei-2022/) 當中彙整的，SRE 自 2021 年起在台灣開始大受矚目。
 
 1. 非典型 SRE => Platform Engineering
 2. **平台工程團隊**負責這些與商業創新無關，但又是企業必要的**非功能性需求**。
@@ -534,3 +541,14 @@ IaC - Terraform
 ### Murmur
 
 * 2023-04-21: 真的是很喜歡參加 conference 多看看大家的分享 🥳 每次都很多靈感。有些人會說「出來講的都包裝得很好，公司裡面是不是這樣很難說」，但我總是想「至少這些講者願意出來分享，而且公司也支持，這就是**文化上的決定性差異**」。每個單位絕對都會有自己的議題需要處理，但重要的應該是**我們選擇如何看待這個問題，並敏捷地持續改善**。
+
+<!-- link -->
+[agenda]: https://sre.ithome.com.tw/2023/agenda
+[1]: https://s.itho.me/ccms_slides/2023/4/21/50dbe689-9d20-4f0a-b911-6c1bc8ebf5eb.pdf
+[2]: https://s.itho.me/ccms_slides/2023/4/21/cb805380-cb05-43ee-bcbb-3693ddf08556.pdf
+[4]: https://s.itho.me/ccms_slides/2023/4/21/fbc0d615-092d-4ee0-9155-5bff71742240.pdf
+[5]: https://s.itho.me/ccms_slides/2023/4/21/7f5c0840-9efa-40e5-a27f-c76023b152c7.pdf
+[6]: https://s.itho.me/ccms_slides/2023/4/21/5688e01a-01c0-4bf9-84d0-bbe082ae7135.pdf
+[7]: https://s.itho.me/ccms_slides/2023/4/21/7c0398ac-3f14-4641-a78d-c37574b7e30c.pdf
+[8]: https://s.itho.me/ccms_slides/2023/4/21/233ba7bb-7d45-47ba-ad5b-6d3764018ef6.pdf
+[9]: https://s.itho.me/ccms_slides/2023/4/21/57827670-31a7-415b-a836-d3797bd4b3e0.pdf
