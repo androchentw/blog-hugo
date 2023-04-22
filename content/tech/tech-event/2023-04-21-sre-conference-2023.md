@@ -539,6 +539,12 @@ IaC - Terraform
 
 留下你的想法一起討論吧! 🥳
 
+> 💌 訂閱免費電子報, 即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
+>
+> 每週 1~2 篇 3000 字 6 分鐘文章，一起探索科技旅程 Explore tech journey
+>
+> 您的訂閱與回饋，就是對我寫文章最大的支持 🥳
+
 延伸閱讀
 
 1. [2022 TSMC IT Day - 看台積電 CIO 如何以矽谷軟體公司思維打造 IT 數位轉型之路](https://blog.androchen.tw/2022-tsmc-it-day/)
