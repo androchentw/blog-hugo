@@ -168,16 +168,16 @@ series: tech-event
 * **Connect to Business**: 將 SRE 與 Business Value / SLA / Cost 掛勾，才會讓 stakeholders 有感。
 * **Communication channel**: 將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption。
 
-<img style="width:80%;" src="https://web.devopstopologies.com/images/type-7.png">
-<p align="center"><sub><sup>
-  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps Topologies</a>: 辨識你的組織運作架構，並選擇更適合的合作模式
-</sup></sub></p>
-
 ### 💡 反思
 
 1. [x]: 如何在企業內部的 Data Platform，建立完整的 observability 與 reliability 標準流程機制，有效率地確保 business value 能夠持續地被交付?
 2. [x]: 在推廣 SRE 作法時，如何與 Business Value / SLA / Cost 掛勾，讓 stakeholders 有感?
 3. [x]: SRE, Dev, Ops 團隊在合作時，如何將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption?
+
+<img style="width:80%;" src="https://web.devopstopologies.com/images/type-7.png">
+<p align="center"><sub><sup>
+  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps Topologies</a>: 辨識你的組織運作架構，並選擇更適合的合作模式
+</sup></sub></p>
 
 ## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
