@@ -16,7 +16,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tec
 series: tech-event
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 富邦國際會議中心
 </sup></sub></p>
@@ -84,7 +84,7 @@ series: tech-event
 
 ## 1. 🥇 [iThome] 平臺工程為何是企業 IT 現代化新關鍵
 
-<img style="width:80%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
+<img style="width:100%;" src="https://s4.itho.me/sites/default/files/files/【內文圖表-超連結大圖】封面-1P-豆子-四大技術.png">
 <p align="center"><sub><sup>
   iThome - 2022 企業新興技術雷達圖
 </sup></sub></p>
@@ -110,7 +110,7 @@ series: tech-event
 
 ### Case Study - Zalando
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.png?raw=true">
 <p align="center"><sub><sup>
   <a href="https://opensource.zalando.com/tech-radar/" target="_blank">Zalando Tech Radar 技術雷達圖</a>
 </sup></sub></p>
@@ -132,9 +132,9 @@ series: tech-event
 
 > Frank Chen / 台灣微軟 資深雲端架構師
 
-<img style="width:60%;" src="https://i.imgur.com/nUBe3e2.png">
+<img style="width:80%;" src="https://i.imgur.com/nUBe3e2.png">
 <p align="center"><sub><sup>
-  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps vs. SRE vs. Platform Engineering</a>
+  <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">bytebytego - DevOps vs. SRE vs. Platform Engineering</a>
 </sup></sub></p>
 
 ### 主題重點
@@ -168,7 +168,7 @@ series: tech-event
 * **Connect to Business**: 將 SRE 與 Business Value / SLA / Cost 掛勾，才會讓 stakeholders 有感。
 * **Communication channel**: 將溝通橋樑建立起來，串聯 Data source, Data Platform, Consumption。
 
-<img style="width:60%;" src="https://web.devopstopologies.com/images/type-7.png">
+<img style="width:80%;" src="https://web.devopstopologies.com/images/type-7.png">
 <p align="center"><sub><sup>
   <a href="https://blog.bytebytego.com/i/110521562/devops-vs-sre-vs-platform-engineering-what-is-the-difference" target="_blank">DevOps Topologies</a>: 辨識你的組織運作架構，並選擇更適合的合作模式
 </sup></sub></p>
@@ -281,9 +281,9 @@ series: tech-event
 * Estimation for the worst/best?
 * Money talks but can't buy everything
 * Alignment with Business(know the traffic behavior)
-  * 業務成長是好事，但需要技術去支援。
-  * 即便有 Auto-Scale 機制，仍然是落後指標。
-  * 行銷活動 或是 YouTuber 帶來突如其來的流量，若造成 service slow response，對於 SRE 來說會是一件很嚴重的事情。
+* 業務成長是好事，但需要技術去支援。
+* 即便有 Auto-Scale 機制，仍然是落後指標。
+* 行銷活動 或是 YouTuber 帶來突如其來的流量，若造成 service slow response，對於 SRE 來說會是一件很嚴重的事情。
 
 ### 壓力測試
 
@@ -302,7 +302,8 @@ series: tech-event
 
 ### 💡 反思
 
-1. [x]: 我們在意 service slow response 嗎? 有對應的 SLA 嗎? 我們的技術架構是否足夠支持業務成長？
+1. [x]: 我們在意 service slow response 嗎? 有對應的 SLA 嗎?
+2. [x]: 我們的技術架構, 是否足夠支持業務成長?
 
 ## 6. [卡洛地] 從 AI 到 AIOps 再到 SRE
 
@@ -369,7 +370,7 @@ series: tech-event
 
 1. [x]: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
 
-<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
+<img style="width:70%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
 <p align="center"><sub><sup>
   下午茶
 </sup></sub></p>
@@ -413,7 +414,7 @@ IaC - Terraform
 > 3. Google Trend 關鍵字
 > 4. 各大公司開的職缺
 
-<img style="width:40%;" src="https://i.imgur.com/EmTsa15.png">
+<img style="width:60%;" src="https://i.imgur.com/EmTsa15.png">
 <p align="center"><sub><sup>
   PHP is dead? 程式語言存活戰
 </sup></sub></p>
