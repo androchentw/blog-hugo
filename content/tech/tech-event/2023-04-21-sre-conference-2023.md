@@ -26,7 +26,7 @@ series: tech-event
 
 04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 位來自 **iThome、台灣微軟、國泰世華銀行、台積電**等企業專家，分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
 
-議程簡報也全部都上傳在[官網議程表][agenda]了，除了幾場不能公開的以外 (國泰, 台積電, 兆勤)。感謝講者的分享與 iThome 的效率！
+議程簡報也全部都上傳在[官網議程表][agenda]了。感謝講者的分享與 iThome 的效率！其中 國泰世華銀行 跟 台積電 的簡報不能公開，可以參考我製作的 mindmap 幫助吸收資訊。
 
 另外，今年這一場研討會的 [HackMD 共筆](https://r.itho.me/SRE23note) 非常精彩，想看議程細節的朋友，裡面有很完整的筆記。我這篇文章會提更多我自己額外的發想。
 
@@ -36,12 +36,12 @@ series: tech-event
 
 <!--more-->
 
+## Agenda
+
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-overview.png?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 11 場議程與總結反思
 </sup></sub></p>
-
-## Agenda
 
 [官網議程表][agenda] 有完整簡介，也可以直接參考下方我的整理，快速瀏覽有興趣的公司與題目 (🥇 是我個人推薦的)
 
@@ -180,6 +180,11 @@ series: tech-event
 
 ## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-Cathay.png?raw=true">
+<p align="center"><sub><sup>
+  [國泰世華銀行] 國泰如何進行金融 SRE 的發展
+</sup></sub></p>
+
 > 鄭正略 (Louis) / 國泰世華銀行 協理 中台發展部
 
 ### 開場
@@ -251,7 +256,7 @@ series: tech-event
 ### 💡 反思
 
 1. [x]: 技術 + 思維 + 企業文化 如何持續推廣，改變工作流程？
-2. [x]: 中台定位與其他業務單位的合作模式，人數編制?
+2. [x]: 中台定位與其他業務單位的合作模式, 人數編制?
 
 ## 4. [XREX] 從單體到容器化的導入之路
 
@@ -436,6 +441,11 @@ IaC - Terraform
 1. [x]: 如何在你的企業文化與日常工作流程中，導入 SRE?
 
 ## 11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-11-TSMC.png?raw=true">
+<p align="center"><sub><sup>
+  [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
+</sup></sub></p>
 
 > 謝政廷 (Duran) / 台積電 Principal Site Reliability Engineer
 
