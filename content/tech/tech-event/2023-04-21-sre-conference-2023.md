@@ -26,6 +26,8 @@ series: tech-event
 
 04-21(五) SRE Conference 2023 在富邦國際會議中心，邀請 11 位來自 **iThome、台灣微軟、國泰世華銀行、台積電**等企業專家，分享 **SRE 方法論、實踐作法**，為企業帶來更多**競爭力與生產力提升**。
 
+每一場都是講者的心血精華，所以內容真的很多。建議在 IT / SRE / DevOps 相關領域打滾的朋友，絕對要花點時間，至少 5 到 10 分鐘，參考學習一下。
+
 議程簡報也全部都上傳在[官網議程表][agenda]了。感謝講者的分享與 iThome 的效率！其中 國泰世華銀行 跟 台積電 的簡報不能公開，可以參考我製作的 mindmap 幫助吸收資訊。
 
 另外，今年這一場研討會的 [HackMD 共筆](https://r.itho.me/SRE23note) 非常精彩，想看議程細節的朋友，裡面有很完整的筆記。我這篇文章會提更多我自己額外的發想。
@@ -545,7 +547,7 @@ IaC - Terraform
 4. [來點 SRE - 從 ChatGPT 停機公告，學維運事後剖析](https://blog.androchen.tw/chatgpt-sre-postmortem/)
 
 ```text
-#SRE #DevOps #PlatformEngineering #IT #SREconf2023
+#IT #SRE #DevOps #PlatformEngineering #SREconf2023
 ```
 
 ### Murmur
