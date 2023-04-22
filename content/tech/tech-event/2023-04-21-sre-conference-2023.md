@@ -524,7 +524,7 @@ IaC - Terraform
 小筆記
 
 1. 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
-2. 這場本來更想聽 TSMC 內部作法與推行上遇到的挑戰，但今天比較多講書上的內容，雖然充實但有點可惜！不過也完全可以理解應該是很多不能講的。而且能做成這樣已經很不容易了，很多單位連認真的報告都還沒寫...
+2. 這場本來更想聽 TSMC 內部作法與推行上遇到的挑戰，但今天比較多講書上的內容，雖然充實但有點可惜！據說已經就是這樣子運作了。不過也完全可以理解應該是很多不能講的。而且能做成這樣已經很不容易了，很多單位連認真的報告都還沒寫...
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-5-reception.jpg?raw=true">
 <p align="center"><sub><sup>
