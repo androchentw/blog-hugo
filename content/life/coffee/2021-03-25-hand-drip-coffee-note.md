@@ -8,7 +8,7 @@ categories:
   - life
 tags: 
   - coffee
-share_img: https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true
 series: coffee
 ---
 

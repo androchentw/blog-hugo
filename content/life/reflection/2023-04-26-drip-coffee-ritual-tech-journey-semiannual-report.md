@@ -40,7 +40,9 @@ series: reflection
 
 延伸閱讀
 
-1.
+1. [Finding My Ikigai 生き甲斐 - 生存的價值與人生意義](https://blog.androchen.tw/finding-my-ikigai/)
+2. [人生就是不停地試誤？我們都太怕犯錯](https://blog.androchen.tw/trial-and-error-life/)
+3. 
 
 ```text
 #IT #SRE #DevOps #PlatformEngineering #SREconf2023

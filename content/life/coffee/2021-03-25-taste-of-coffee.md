@@ -8,11 +8,11 @@ categories:
   - life
 tags: 
   - coffee
-share_img: https://i.imgur.com/FaFgJha.png
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true
 series: coffee
 ---
 
-<img style="width:40%;" src="https://www.originkaffa.com/kaffa-upload/SCAA_FlavorWheel-zh-TW.03-24-16.png">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true">
 
 香、醇、酸、苦、甘
 
