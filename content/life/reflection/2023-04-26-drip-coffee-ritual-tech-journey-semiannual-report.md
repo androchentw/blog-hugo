@@ -132,7 +132,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 2. [人生就是不停地試誤？我們都太怕犯錯](https://blog.androchen.tw/trial-and-error-life/)
 
 ```text
-#IT #SRE #DevOps #PlatformEngineering #SREconf2023
+#reflection #aigc #coffee
 ```
 
 ### Murmur
