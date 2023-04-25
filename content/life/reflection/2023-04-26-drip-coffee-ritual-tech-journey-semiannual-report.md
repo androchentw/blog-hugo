@@ -3,7 +3,7 @@ draft: true
 title: "重拾手沖咖啡與生活儀式感的科技旅程半年報"
 url: drip-coffee-ritual-tech-journey-semiannual-report
 # date: 2023-04-25T11:00:00+08:00
-date: 2023-04-26T07:00:00+08:00
+date: 2023-04-25T21:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -12,11 +12,11 @@ tags:
   - reflection
   - aigc
   - coffee
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
 series: reflection
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   cover
 </sup></sub></p>
@@ -29,7 +29,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 * [OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023](https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/)
 * [OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務](https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates)
 
-我想從一個角度切入，無病呻吟一下。會提到 一點 ChatGPT ，一點 blog 頻道，
+我想從最近 blog 經營的角度切入，無病呻吟一下。🤩
 
 <!--more-->
 
@@ -39,9 +39,9 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 
 隨著外在環境再次改變，我又回到台北辦公室。去年 11 月底我又買了手搖磨豆機，想說這次要來好好手沖。但也是直到了上週末，才去熟識的咖啡店買了一包日曬耶加的豆子。今天終於時隔兩年，再次手沖，聞到香味的瞬間，所有美好體驗都跟著沁入心肺。
 
-### 用自己的步調，感受這個世界。可以參考，但從來都不需要跟別人比較
+### 用自己的步調，感受這個世界
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-2-little-prince.jpg?raw=true">
+<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-little-prince.jpg?raw=true">
 <p align="center"><sub><sup>
   《小王子》豢養
 </sup></sub></p>
@@ -72,7 +72,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 2. **做**: 採取行動，創造影響力。創業圈常說的，「點子不值錢，執行才是關鍵」。如果想法都只停留在腦袋裡，很難能夠真正造成改變。
 3. **持續**: 深受 Agile & DevOps 影響，非常認同的**持續交付**。不管是寫文章也好，工作也罷。並不是只要放一次的煙火，啪沒了；而是持續地燃燒蠟燭，讓自己習慣這個節奏。
 
-## 4. 知識頻道這條旅程上，共勉之
+## 4. 知識頻道這趟旅程，共勉之
 
 現在來回顧 ProgramMur 的 [迭代時間軸](https://blog.androchen.tw/archives/) 從 ChatGPT 11 月起:
 
@@ -100,7 +100,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 而且我相信的是，如果持續地將我的想法記錄下來，總有一天會讓某個在類似脈絡下苦惱/糾結的人，能夠看到有一個人以前也是這樣在梳理自己的思緒。這樣也算是一種**超越時空的抱團取暖**了吧。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-3-jp-conpaji.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-jp-conpaji.jpg?raw=true">
 <p align="center"><sub><sup>
   日劇: 喜劇開場. <a href="https://www.banger.jp/drama/57069/" target="_blank">著作權屬於日本電視台「コントが始まる」Huluで配信中 ©NTV</a>
 </sup></sub></p>
@@ -111,9 +111,9 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 所以我想這一次，我還是會選擇繼續在早上 9 點的辦公室，手沖著每一支獨特香氣的咖啡。  
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-4-coffee.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-4-coffee.jpg?raw=true">
 <p align="center"><sub><sup>
-  (04-24 圖 手沖咖啡)
+  手沖咖啡 - 月兔印琺瑯 0.7L, Hario v60, 1Zpresso Q2, 醒而眠日曬耶加
 </sup></sub></p>
 
 ## 你怎麼看?
