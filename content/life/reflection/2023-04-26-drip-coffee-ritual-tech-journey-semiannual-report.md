@@ -3,7 +3,7 @@ draft: true
 title: "科技旅程半年報 - 重拾手沖咖啡與生活儀式感"
 url: drip-coffee-ritual-tech-journey-semiannual-report
 # date: 2023-04-25T11:00:00+08:00
-date: 2023-04-25T21:00:00+08:00
+date: 2023-04-25T17:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -63,7 +63,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 >
 > 小王子豢養的狐狸也對他說：「最好還是在原來的那個時間來。如果你隨便什麼時候來，我就不知道在什麼時候準備好我的心情……應該有一定的儀式。」
 
-讓我回想起 2021 年的[手沖咖啡參數筆記](https://blog.androchen.tw/hand-drip-coffee-note/](https://blog.androchen.tw/hand-drip-coffee-note/)：
+讓我回想起 2021 年的[手沖咖啡參數筆記](https://blog.androchen.tw/hand-drip-coffee-note/)：
 
 > 是說不知不覺也亂沖了手沖好一陣子。
 >
@@ -81,13 +81,13 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 最近我更有感而發的是「**持續做自己覺得對的事情**」。這句話可以拆成三個層面:
 
-1. **對的事情**: 自己的判斷，價值觀都是主觀的。可以參考，但不需要被社會束縛。當然，有很多現實層面需要考量，我無意深究那部分。只是覺得很多時候，**枷鎖都是自己給自己銬上的**。在這個各種成本降低的年代，很多事情並不是「能不能」，而是「想不想」。
-2. **做**: 採取行動，創造影響力。創業圈常說的，「點子不值錢，執行才是關鍵」。如果想法都只停留在腦袋裡，很難能夠真正造成改變。
-3. **持續**: 深受 Agile & DevOps 影響，非常認同的**持續交付**。不管是寫文章也好，工作也罷。並不是只要放一次的煙火，啪沒了；而是持續地燃燒蠟燭，讓自己習慣這個節奏。
+1. **The Right Thing 對的事情**: 自己的判斷，價值觀都是主觀的。可以參考，但不需要被社會束縛。當然，有很多現實層面需要考量，我無意深究那部分。只是覺得很多時候，**枷鎖都是自己給自己銬上的**。在這個各種成本降低的年代，很多事情並**不是「能不能」，而是「想不想」**。
+2. **Do 做**: 採取行動，創造影響力。創業圈常說的，「點子不值錢，執行才是關鍵」。如果想法都只停留在腦袋裡，很難能夠真正造成改變。
+3. **Continuously 持續**: 深受 Agile & DevOps 影響，非常認同的**持續交付**。不管是寫文章也好，工作也罷。並不是只要放一次的煙火，啪沒了；而是持續地燃燒蠟燭，讓自己習慣這個節奏。
 
 ## 4. 知識頻道這趟旅程，共勉之
 
-現在來回顧 ProgramMur 的 [迭代時間軸](https://blog.androchen.tw/archives/) 從 ChatGPT 11 月起:
+回顧 ProgramMur 的 [迭代時間軸](https://blog.androchen.tw/archives/) 從 ChatGPT 12 月起:
 
 1. 總計 21 週發了 16 篇文。7 篇 [AIGC](https://blog.androchen.tw/tags/aigc/), 3 篇[生產力](https://blog.androchen.tw/tags/productivity/), 3 篇 [SRE](https://blog.androchen.tw/tags/sre/), 3 篇其他
 2. 2023-03-03 開始嘗試更積極地在社群上發布訊息，製作 Reels
@@ -152,7 +152,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 ### Murmur
 
-* 2023-04-25: 大感謝!
+* 2023-04-25: 大感謝! 順帶一提，之前的 [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/) 一文也提到要加速產出，但我發現這幾篇寫下來，還是需要花到 3 ~ 4 小時。可能我也還沒抓到該怎麼良好運用 ChatGPT，只能說他 rephrase 出來的文字風格，跟我想要的還是不太一樣 🤣 但是在 ideation 或 summary 之類的還是很好用~ 繼續探索！
 
 <!-- link -->
 
