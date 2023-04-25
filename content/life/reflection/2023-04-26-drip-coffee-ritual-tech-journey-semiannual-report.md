@@ -18,7 +18,7 @@ series: reflection
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
-  cover
+  手沖咖啡
 </sup></sub></p>
 
 ## 1. 科技的腳步越來越快
@@ -30,6 +30,8 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 * [OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務](https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates)
 
 我想從最近 blog 經營的角度切入，分享數字統計觀察，也~~無病呻吟~~省思一下。🤩
+
+主要是因為 [Facebook 專頁](https://www.facebook.com/ProgramMur/) 達到了 1,000 人按讚，2,000 人追蹤，以及 300 人訂閱[電子報][newsletter]，感謝你的支持！對很多社群來說這是很小的數字，但對我個人來說是一個意義重大的里程碑。若對以下議題有興趣，歡迎繼續看下去。 🙂
 
 > 1. 持續做自己覺得對的事情
 > 2. 懷著敏捷精神持續改進
@@ -99,7 +101,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 1. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
 2. [Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)
 
-更感謝在 2023-04-24 這天， [Facebook 專頁](https://www.facebook.com/ProgramMur/)達到了 2,000 人追蹤，以及 300 人訂閱[電子報][newsletter]。這對我來說是一個意義重大的里程碑。知道自己長期練習~~胡思亂想~~的新知筆記與圖解方式，能夠獲得他人的認可，在這個資訊爆炸的時代是個難得也不容易的事情。
+更感謝在 2023-04-24 這天， [Facebook 專頁](https://www.facebook.com/ProgramMur/)達到了 1,000 人按讚， 2,000 人追蹤，以及 300 人訂閱[電子報][newsletter]。對很多社群來說這是很小的數字，但對我個人來說是一個意義重大的里程碑。知道自己長期練習~~胡思亂想~~的新知筆記與圖解方式，能夠獲得他人的認可，在這個資訊爆炸的時代是個難得也不容易的事情。
 
 接下來我也打算繼續 **懷著敏捷精神持續改進**，也歡迎多一點互動與討論。還想多知道什麼樣的應用，歡迎留言告訴我! 🥳
 
