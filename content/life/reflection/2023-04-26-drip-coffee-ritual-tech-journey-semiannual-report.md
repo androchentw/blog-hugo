@@ -1,19 +1,18 @@
 ---
-# 小提問 -> 好提問 + 深思考 + 敏解答. ORID + OEA (空雨傘)
-title: "{{ .Name | replaceRE "^.{11}" "" | humanize | title }}"
-url: {{ slicestr .Name 11 }}
-# date: {{ .Date }}
-date: {{ .Date }}
+title: "重拾手沖咖啡與生活儀式感的科技旅程半年報"
+url: drip-coffee-ritual-tech-journey-semiannual-report
+# date: 2023-04-25T11:00:00+08:00
+date: 2023-04-26T07:00:00+08:00
 author: androchentw
 type: post
 categories:
-  - soft
-tags:
+  - life
+tags: 
   - reflection
   - aigc
   - coffee
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
-series: blog
+series: reflection
 ---
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
@@ -49,6 +48,6 @@ series: blog
 
 ### Murmur
 
-- {{ .Date }}:
+* 2023-04-25:
 
 <!-- link -->
