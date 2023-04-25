@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "重拾手沖咖啡與生活儀式感的科技旅程半年報"
+title: "科技旅程半年報 - 重拾手沖咖啡與生活儀式感"
 url: drip-coffee-ritual-tech-journey-semiannual-report
 # date: 2023-04-25T11:00:00+08:00
 date: 2023-04-25T21:00:00+08:00
@@ -29,7 +29,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 * [OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023](https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/)
 * [OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務](https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates)
 
-我想從最近 blog 經營的角度切入，無病呻吟一下。🤩
+我想從最近 blog 經營的角度切入，分享數字統計觀察，也~~無病呻吟~~省思一下。🤩
 
 <!--more-->
 
