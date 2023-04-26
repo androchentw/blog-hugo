@@ -30,9 +30,9 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 * [OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023](https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/)
 * [OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務](https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates)
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
 <p align="center"><sub><sup>
-  OpenAI cofounder Greg Brockman speaks at Session 2 of TED2023: Possibility on April 17, 2023, in Vancouver, BC, Canada. (Photo: Gilberto Tadday / TED)
+  TED2023 (Photo: Gilberto Tadday / TED)
 </sup></sub></p>
 
 我想從最近 blog 經營的角度切入，分享數字統計觀察，也~~無病呻吟~~省思一下。🤩
@@ -48,7 +48,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 
 💪 A: 列出一個你想實踐/創作/影響的領域，並試圖規劃 1 年的路線圖 (roadmap)
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
 <p align="center"><sub><sup>
   Overview
 </sup></sub></p>
@@ -128,7 +128,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-5-jp-conpaji.jpg?raw=true">
 <p align="center"><sub><sup>
-  日劇: 喜劇開場. <a href="https://www.banger.jp/drama/57069/" target="_blank">著作權屬於日本電視台「コントが始まる」Huluで配信中 ©NTV</a>
+  日劇: 喜劇開場. <a href="https://www.banger.jp/drama/57069/" target="_blank">著作權屬於日本電視台「コントが始まる」©NTV</a>
 </sup></sub></p>
 
 同時，我個人也是非常不喜歡所謂「**什麼時間點就要做什麼事，不然就會被認定是魯蛇**」的概念。人生如果是一場別人安排好的劇本，自己只是負責演完的演員，這種為了別人而活的日子對我來說太痛苦了。**去找到那個屬於自己的舞台，甚至創作自己的劇本，吸引那些願意支持的觀眾**。推薦大家我自己非常喜歡的一齣日劇: 喜劇開場。可能我比較誇張一點，每一集都看到哭 😂。很多小地方都莫名地有共鳴。
