@@ -24,11 +24,16 @@ series: reflection
 
 ## 1. 科技的腳步越來越快
 
-ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否會跟不上的問題。尤其是 04/20 OpenAI cofounder Greg Brockman 在 TED2023 上面 Live Demo 了 ChatGPT 的新功能，類似 [Auto-GPT 全自動完成任務](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)。確實科技演進的步調越來越快。
+ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否會跟不上的問題。尤其是 04/17 OpenAI cofounder Greg Brockman 在 TED2023 上面 Live Demo 了 ChatGPT 的新功能，類似 [Auto-GPT 全自動完成任務](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)。確實科技演進的步調越來越快。
 
 * [TED - The inside story of ChatGPT's astonishing potential](https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt_s_astonishing_potential/comments)
 * [OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023](https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/)
 * [OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務](https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates)
+
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
+<p align="center"><sub><sup>
+  OpenAI cofounder Greg Brockman speaks at Session 2 of TED2023: Possibility on April 17, 2023, in Vancouver, BC, Canada. (Photo: Gilberto Tadday / TED)
+</sup></sub></p>
 
 我想從最近 blog 經營的角度切入，分享數字統計觀察，也~~無病呻吟~~省思一下。🤩
 
@@ -43,22 +48,22 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 
 💪 A: 列出一個你想實踐/創作/影響的領域，並試圖規劃 1 年的路線圖 (roadmap)
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-overview.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
 <p align="center"><sub><sup>
-  2019-05-02 手沖咖啡
+  Overview
 </sup></sub></p>
 
 <!--more-->
 
 ## 2. 外在環境的改變: 懶惰的開始
 
-前陣子我常需要在台北跟新竹兩邊跑，所以就漸漸地沒有在手沖咖啡了。基於 **CP 值與方便性的追求**，中間我從罐裝咖啡，再喝到即溶咖啡，熱水倒下去就只是為了攝取咖啡因。
+前陣子我常需要在台北跟新竹兩邊跑，所以就漸漸地沒有在手沖咖啡了。基於 **CP 值與方便性的追求**，中間我從罐裝咖啡，再喝到即溶咖啡，熱水倒下去就只是為了攝取咖啡因。說真的我那時候每天都在喝著苦澀的黑咖啡時，想著「好想自己手沖」跟「好麻煩」之間不斷懷疑人生 🤣。
 
 隨著外在環境再次改變，我又回到台北辦公室。去年 11 月底我又買了手搖磨豆機，想說這次要來好好手沖。但也是直到了上週末，才去熟識的咖啡店買了一包日曬耶加的豆子。今天終於時隔兩年，再次手沖，聞到香味的瞬間，所有美好體驗都跟著沁入心肺。
 
 ### 用自己的步調，感受這個世界
 
-<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-little-prince.jpg?raw=true">
+<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-4-little-prince.jpg?raw=true">
 <p align="center"><sub><sup>
   《小王子》豢養
 </sup></sub></p>
@@ -121,7 +126,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 而且我相信的是，如果持續地將我的想法記錄下來，總有一天會讓某個在類似脈絡下苦惱/糾結的人，能夠看到有一個人以前也是這樣在梳理自己的思緒。這樣也算是一種**超越時空的抱團取暖**了吧。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-jp-conpaji.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-5-jp-conpaji.jpg?raw=true">
 <p align="center"><sub><sup>
   日劇: 喜劇開場. <a href="https://www.banger.jp/drama/57069/" target="_blank">著作權屬於日本電視台「コントが始まる」Huluで配信中 ©NTV</a>
 </sup></sub></p>
@@ -132,7 +137,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 所以我想這一次，我還是會選擇繼續在早上 9 點的辦公室，手沖著每一支獨特香氣的咖啡。  
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-4-coffee.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-6-coffee.jpg?raw=true">
 <p align="center"><sub><sup>
   2023-04-26 手沖咖啡 - 月兔印琺瑯 0.7L, Hario v60, 1Zpresso Q2, 醒而眠日曬耶加
 </sup></sub></p>
@@ -143,7 +148,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 > 💌 訂閱免費電子報, 即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
 >
-> 每週 1~2 篇 3000 字 6 分鐘文章，一起探索科技旅程 Explore tech journey
+> 每週 1~2 篇 3000 字 6 分鐘文章，與 300+ 訂閱者一起探索科技旅程 Explore tech journey
 >
 > 您的訂閱與回饋，就是對我寫文章最大的支持 🥳
 
