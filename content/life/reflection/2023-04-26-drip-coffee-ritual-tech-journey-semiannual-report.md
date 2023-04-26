@@ -3,7 +3,7 @@ draft: true
 title: "科技旅程半年報 - 重拾手沖咖啡與生活儀式感"
 url: drip-coffee-ritual-tech-journey-semiannual-report
 # date: 2023-04-25T11:00:00+08:00
-date: 2023-04-25T17:00:00+08:00
+date: 2023-04-26T10:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -12,6 +12,8 @@ tags:
   - reflection
   - aigc
   - coffee
+  - agile
+  - blog
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
 series: reflection
 ---
@@ -91,17 +93,19 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 1. 總計 21 週發了 16 篇文。7 篇 [AIGC](https://blog.androchen.tw/tags/aigc/), 3 篇[生產力](https://blog.androchen.tw/tags/productivity/), 3 篇 [SRE](https://blog.androchen.tw/tags/sre/), 3 篇其他
 2. 2023-03-03 開始嘗試更積極地在社群上發布訊息，製作 Reels
-3. v1.3 (2023-04-04) 建立了免費[電子報][newsletter]
-4. v2.0 (2023-04-16) 終於運用 ChatGPT 成功把自己的 Hugo blog 做了 i18n (英文 + 日文)
+3. 3/30: [Facebook 專頁](https://www.facebook.com/ProgramMur/) 1,000 追蹤
+4. v1.3 (4/4) 建立了[免費電子報][newsletter]
+5. v2.0 (4/16) 終於運用 ChatGPT 成功把自己的 Hugo blog 做了 i18n (英文 + 日文)
+6. 4/24 Facebook 專頁 1,000 人按讚， 2,000 人追蹤， 300 人訂閱電子報
 
 (沒錯我還很無聊地幫自己的 blog 記錄版本發佈 😆) 最初也就是東一點西一點地寫著。2023 年的 2 月從[日本滑雪](https://blog.androchen.tw/2023-01-travel-tokyo-snow/)回來，看著 ChatGPT 的各種應用，開始改變了想法與作法，希望多接觸一點社群，玩一些以前沒碰過的新工具(也算是一種社會實驗)。
 
-差不多在 3 月底，感謝大家的追蹤與訂閱，[Facebook 專頁](https://www.facebook.com/ProgramMur/)達到了 1,000 個追蹤。也催生了我想要更進一步經營[電子報][newsletter] 的想法。尤其最近這幾篇文都受到大家廣泛的分享，實在是嚇了我一跳 😆
+差不多在 3 月底，感謝大家的追蹤與訂閱，Facebook 專頁達到了 1,000 個追蹤。也催生了我想要更進一步經營電子報 的想法。尤其最近這幾篇文都受到大家廣泛的分享，實在是嚇了我一跳 😆
 
 1. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
 2. [Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)
 
-更感謝在 2023-04-24 這天， [Facebook 專頁](https://www.facebook.com/ProgramMur/)達到了 1,000 人按讚， 2,000 人追蹤，以及 300 人訂閱[電子報][newsletter]。對很多社群來說這是很小的數字，但對我個人來說是一個意義重大的里程碑。知道自己長期練習~~胡思亂想~~的新知筆記與圖解方式，能夠獲得他人的認可，在這個資訊爆炸的時代是個難得也不容易的事情。
+更感謝在 2023-04-24 這天， Facebook 專頁達到了 1,000 人按讚， 2,000 人追蹤，以及 300 人訂閱電子報。對很多社群來說這是很小的數字，但對我個人來說是一個意義重大的里程碑。知道自己長期練習~~胡思亂想~~的新知筆記與圖解方式，能夠獲得他人的認可，在這個資訊爆炸的時代是個難得也不容易的事情。
 
 接下來我也打算繼續 **懷著敏捷精神持續改進**，也歡迎多一點互動與討論。還想多知道什麼樣的應用，歡迎留言告訴我! 🥳
 
