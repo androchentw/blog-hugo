@@ -137,7 +137,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 所以我想這一次，我還是會選擇繼續在早上 9 點的辦公室，手沖著每一支獨特香氣的咖啡。  
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-6-coffee.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-6-coffee.jpg?raw=true">
 <p align="center"><sub><sup>
   2023-04-26 手沖咖啡 - 月兔印琺瑯 0.7L, Hario v60, 1Zpresso Q2, 醒而眠日曬耶加
 </sup></sub></p>
