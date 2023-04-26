@@ -104,7 +104,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 2. 2023-03-03 開始嘗試更積極地在社群上發布訊息，製作 Reels
 3. 3/30: [Facebook 專頁](https://www.facebook.com/ProgramMur/) 1,000 追蹤
 4. v1.3 (4/4) 建立了[免費電子報][newsletter]
-5. v2.0 (4/16) 終於運用 ChatGPT 成功把自己的 Hugo blog 做了 i18n (英文 + 日文)
+5. v2.0 (4/16) 終於運用 ChatGPT 成功把自己的 Hugo blog 做了 i18n (英文 + 日文 緩慢翻譯中)
 6. 4/24 Facebook 專頁 1,000 人按讚， 2,000 人追蹤， 300 人訂閱電子報
 
 (沒錯我還很無聊地幫自己的 blog 記錄版本發佈 😆) 最初也就是東一點西一點地寫著。2023 年的 2 月從[日本滑雪](https://blog.androchen.tw/2023-01-travel-tokyo-snow/)回來，看著 ChatGPT 的各種應用，開始改變了想法與作法，希望多接觸一點社群，玩一些以前沒碰過的新工具(也算是一種社會實驗)。
