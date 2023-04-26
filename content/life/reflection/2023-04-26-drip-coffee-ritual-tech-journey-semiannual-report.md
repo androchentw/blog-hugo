@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "科技旅程半年報 - 重拾手沖咖啡與生活儀式感"
 url: drip-coffee-ritual-tech-journey-semiannual-report
 # date: 2023-04-25T11:00:00+08:00
-date: 2023-04-26T10:00:00+08:00
+date: 2023-04-26T11:00:00+08:00
 author: androchentw
 type: post
 categories:
