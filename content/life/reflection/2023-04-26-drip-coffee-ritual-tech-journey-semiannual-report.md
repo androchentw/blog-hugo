@@ -100,7 +100,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 (沒錯我還很無聊地幫自己的 blog 記錄版本發佈 😆) 最初也就是東一點西一點地寫著。2023 年的 2 月從[日本滑雪](https://blog.androchen.tw/2023-01-travel-tokyo-snow/)回來，看著 ChatGPT 的各種應用，開始改變了想法與作法，希望多接觸一點社群，玩一些以前沒碰過的新工具(也算是一種社會實驗)。
 
-差不多在 3 月底，感謝大家的追蹤與訂閱，Facebook 專頁達到了 1,000 個追蹤。也催生了我想要更進一步經營電子報 的想法。尤其最近這幾篇文都受到大家廣泛的分享，實在是嚇了我一跳 😆
+差不多在 3 月底，感謝大家的追蹤與訂閱，Facebook 專頁達到了 1,000 個追蹤。也催生了我想要更進一步經營電子報的想法。尤其最近這幾篇文都受到大家廣泛的分享，實在是嚇了我一跳 😆
 
 1. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
 2. [Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)
@@ -151,7 +151,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 4. [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/)
 
 ```text
-#reflection #aigc #coffee
+#reflection #aigc #coffee #agile #blog
 ```
 
 ### Murmur
