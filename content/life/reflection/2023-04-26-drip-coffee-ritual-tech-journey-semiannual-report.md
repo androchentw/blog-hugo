@@ -20,7 +20,7 @@ series: reflection
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
-  手沖咖啡
+  2019-05-02 手沖咖啡
 </sup></sub></p>
 
 ## 1. 科技的腳步越來越快
@@ -43,6 +43,11 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 🤔 Q: 你擔心 AIGC 浪潮帶來的改變嗎? 為什麼? 什麼方面?
 
 💪 A: 列出一個你想實踐/創作/影響的領域，並試圖規劃 1 年的路線圖 (roadmap)
+
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-overview.png?raw=true">
+<p align="center"><sub><sup>
+  2019-05-02 手沖咖啡
+</sup></sub></p>
 
 <!--more-->
 
@@ -130,7 +135,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 <img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-4-coffee.jpg?raw=true">
 <p align="center"><sub><sup>
-  手沖咖啡 - 月兔印琺瑯 0.7L, Hario v60, 1Zpresso Q2, 醒而眠日曬耶加
+  2023-04-26 手沖咖啡 - 月兔印琺瑯 0.7L, Hario v60, 1Zpresso Q2, 醒而眠日曬耶加
 </sup></sub></p>
 
 ## 你怎麼看?
