@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>coffee on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/coffee/</link><description>Recent content in coffee on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Thu, 25 Mar 2021 16:20:52 +0000</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/coffee/feed.xml" rel="self" type="application/rss+xml"/><item><title>咖啡五味</title><link>https://blog.androchen.tw/taste-of-coffee/</link><pubDate>Thu, 25 Mar 2021 16:20:52 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/taste-of-coffee/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>coffee on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/coffee/</link><description>Recent content in coffee on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Wed, 26 Apr 2023 11:00:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/coffee/feed.xml" rel="self" type="application/rss+xml"/><item><title>科技旅程半年報 - 重拾手沖咖啡與生活儀式感</title><link>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</link><pubDate>Wed, 26 Apr 2023 11:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+2019-05-02 手沖咖啡
+&lt;/sup>&lt;/sub>&lt;/p>
+&lt;h2 id="1-科技的腳步越來越快">1. 科技的腳步越來越快&lt;/h2>
+&lt;p>ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否會跟不上的問題。尤其是 04/20 OpenAI cofounder Greg Brockman 在 TED2023 上面 Live Demo 了 ChatGPT 的新功能，類似 &lt;a href="https://blog.androchen.tw/auto-gpt-agentgpt-introduction/">Auto-GPT 全自動完成任務&lt;/a>。確實科技演進的步調越來越快。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt_s_astonishing_potential/comments">TED - The inside story of ChatGPT&amp;rsquo;s astonishing potential&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/">OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates">OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>我想從最近 blog 經營的角度切入，分享數字統計觀察，也&lt;del>無病呻吟&lt;/del>省思一下。🤩&lt;/p>
+&lt;p>主要是因為 &lt;a href="https://www.facebook.com/ProgramMur/">Facebook 專頁&lt;/a> 達到了 1,000 人按讚，2,000 人追蹤，以及 300 人訂閱&lt;a href="https://blog.androchen.tw/programmur-redefine-newsletter/">電子報&lt;/a>，感謝你的支持！對很多社群來說這是很小的數字，但對我個人來說是一個意義重大的里程碑。若對以下議題有興趣，歡迎繼續看下去。 🙂&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>持續做自己覺得對的事情&lt;/li>
+&lt;li>懷著敏捷精神持續改進&lt;/li>
+&lt;li>慢下腳步體驗這個世界的從容&lt;/li>
+&lt;li>找到那個屬於自己的舞台，甚至創作自己的劇本，吸引那些願意支持的觀眾&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;p>🤔 Q: 你擔心 AIGC 浪潮帶來的改變嗎? 為什麼? 什麼方面?&lt;/p>
+&lt;p>💪 A: 列出一個你想實踐/創作/影響的領域，並試圖規劃 1 年的路線圖 (roadmap)&lt;/p>
+&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-overview.png?raw=true">
+&lt;p align="center">&lt;sub>&lt;sup>
+2019-05-02 手沖咖啡
+&lt;/sup>&lt;/sub>&lt;/p></description></item><item><title>咖啡五味</title><link>https://blog.androchen.tw/taste-of-coffee/</link><pubDate>Thu, 25 Mar 2021 16:20:52 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/taste-of-coffee/</guid><description>&lt;img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true">
 &lt;p>香、醇、酸、苦、甘&lt;/p>
 &lt;p>Ref: &lt;a href="http://www.originkaffa.com/scaa-flavor-wheel-zh-tw/">風味輪&lt;/a>. 原文出處：scaa.org, 咖法森林中文翻譯版分享&lt;/p></description></item><item><title>手沖咖啡參數筆記</title><link>https://blog.androchen.tw/hand-drip-coffee-note/</link><pubDate>Thu, 25 Mar 2021 16:11:32 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/hand-drip-coffee-note/</guid><description>&lt;p>是說不知不覺也亂沖了手沖好一陣子。&lt;/p>
 &lt;p>大部分時候是享受繞圈時的抒壓感。&lt;/p>
