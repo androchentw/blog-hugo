@@ -206,7 +206,7 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
 
 ```text
-#learn-en #productivity #chatgpt #aigc #toeic
+#learningenglish #productivity #chatgpt #aigc #toeic
 ```
 
 ## Murmur
