@@ -134,7 +134,7 @@ Glarityのもう一つの気に入っている点は、回答全体を一発で�
 
 学習プロセスで生成される単語については、**ChatGPTを翻訳ソフトとして利用**します。ChatGPTが登場して以来、私はGoogle翻訳をほとんど使わなくなりました 😂
 
-以下のプロンプトを使用し、`<vocabulary>`を単語に置き換えることで、ChatGPTに**定義、同義語、反義語、および日英対訳例文**を一度に提供させることができます：
+以下のプロンプトを使用し、`<vocabulary>`を単語に置き換えることで、ChatGPTに**定義、同義語、対義語、および日英対訳例文**を一度に提供させることができます：
 
 ```prompt
 1. Provide definitions, synonyms, antonyms, and sentence examples in English and respond in markdown code block
