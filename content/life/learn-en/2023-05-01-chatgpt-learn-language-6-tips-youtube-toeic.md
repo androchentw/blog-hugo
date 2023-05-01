@@ -73,6 +73,8 @@ series: learn-en
 2. 單字例句
 3. 線上助理
 
+搭配 Shadowing
+
 ## 3. Glarity 生成影片摘要 + TOEIC 題目 + 單字表
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-4-glarity.jpg?raw=true">
@@ -160,15 +162,19 @@ Glarity 還有一個我很喜歡的點是他可以一鍵複製整段回答，並
 
 ## 你怎麼看?
 
-留下你的想法一起討論吧! 🥳
+希望這篇的內容有幫助到你！
 
-> 💌 訂閱免費電子報, 即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
+> 若希望看到更多這類科技新知與應用，歡迎訂閱免費電子報，即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
 >
 > 每週 1~2 篇 3000 字 6 分鐘文章，與 300+ 訂閱者一起探索科技旅程 Explore tech journey
 >
 > 您的訂閱與回饋，就是對我寫文章最大的支持 🥳
 
 延伸閱讀
+
+1. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
+2. [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/)
+3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
 
 ```text
 #learn-en #productivity #chatgpt #aigc #toeic
