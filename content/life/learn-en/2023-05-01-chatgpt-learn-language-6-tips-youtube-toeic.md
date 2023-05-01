@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "ChatGPT 語言自學術: 6 招善用 YouTube + 免費外掛提升 TOEIC 聽說讀寫"
 url: chatgpt-learn-language-6-tips-youtube-toeic
 # date: 2023-04-30T14:00:00+08:00
-date: 2023-05-01T10:00:00+08:00
+date: 2023-05-01T10:30:00+08:00
 author: androchentw
 type: post
 categories:
@@ -25,7 +24,7 @@ series: learn-en
   ChatGPT 語言自學術
 </sup></sub></p>
 
-最近在積極地運用 ChatGPT 自學英文與日文。
+51 勞動節不休息 😂 最近在積極地運用 ChatGPT 自學英文與日文。
 
 學外語的動機，主要是想更增進日常會話以及吸收國外新知，剛好也有朋友在準備 TOEIC。主要是為了**提升學習的效率**，二來是探索如何善用新 AI 科技真的非常有趣！
 
@@ -96,7 +95,7 @@ series: learn-en
 
 1. TOEIC 聽力考題 / 解答。可以指定要出多少題。
 2. TOEIC 寫作摘要 / 觀點。可以指定生成特定字數及比例的作文。
-3. 精選 10 個單字，生成定義、同義詞、反義詞、例句
+3. 精選 10 個單字，生成定義、同義詞、反義詞、中英對照例句。
 
 我在 TOEIC 寫作地方，指定了使用 100 字，並且以 30% 摘要 / 70% 觀點 的比例寫作。這是因為我覺得自己比較弱的，還是在於「**我從這部影片看到什麼**」這類的觀點論述，所以才採取這樣的比例。也分享給大家我使用的 prompt 如下:
 
@@ -138,7 +137,7 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 
 至於在學習過程中產生的單字，我會**利用 ChatGPT 當作翻譯軟體**。自從有了 ChatGPT 之後，我真的很少用 Google 翻譯了 😂
 
-使用以下 prompt ，把 `<vocabulary>` 替換成單字，就能讓 ChatGPT 一次提供 **定義、同義詞、反義詞還有中英對照例句**:
+使用以下 prompt，把 `<vocabulary>` 替換成單字，就能讓 ChatGPT 一次提供 **定義、同義詞、反義詞還有中英對照例句**:
 
 ```prompt
 1. Provide definitions, synonyms, antonyms, and sentence examples in English and respond in markdown code block
@@ -188,7 +187,7 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 
 ## 你怎麼看?
 
-希望這篇的內容有幫助到你！
+希望這篇的內容有幫助到你！也歡迎分享給親朋好友~
 
 > 若希望看到更多這類科技新知與應用，歡迎訂閱免費電子報，即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
 >
