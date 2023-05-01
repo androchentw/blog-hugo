@@ -189,6 +189,10 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 
 希望這篇的內容有幫助到你！也歡迎分享給親朋好友~
 
+* [Facebook 粉專連結](https://www.facebook.com/ProgramMur/)
+* [Instagram 連結](https://www.instagram.com/programmur/)
+* [Twitter 連結](https://twitter.com/ProgramMurTw)
+
 > 若希望看到更多這類科技新知與應用，歡迎訂閱免費電子報，即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
 >
 > 每週 1~2 篇 3000 字 6 分鐘文章，與 300+ 訂閱者一起探索科技旅程 Explore tech journey
