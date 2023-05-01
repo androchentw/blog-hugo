@@ -199,4 +199,8 @@ I hope you found this content helpful!
 >
 > Your subscription and feedback are the greatest support for my writing 🥳
 
+## Murmur
+
+* 2023-05-01: 💪 Speaking of my English learning, I would like to especially thank the encouragement from my high school cram school teachers. It is through witnessing their passion and perseverance on the learning journey that I have come to believe in the importance of continuous effort!
+
 <!-- link -->
