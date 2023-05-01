@@ -18,7 +18,7 @@ share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aig
 series: aigc
 ---
 
-## Overview
+## 概要
 
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true">
 <p align="center"><sub><sup>
