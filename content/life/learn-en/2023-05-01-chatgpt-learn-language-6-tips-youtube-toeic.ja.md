@@ -47,15 +47,22 @@ series: learn-en
 
 私と同じように、オンラインリソースを使って英語を学びたいと少しでも思ったことがあるけれど、最後にはこっそり諦めてしまうかもしれません 😂 以下は、私が個人的に好きな人気教材をまとめました。
 
-1. TED-Ed: 有名な教育コンテンツ共有プラットフォームで、日常的な内容が多くあります。
-2. BBC Learning English: BBCが提供する無料英語教育。
-3. ESL Brains: 大人向けに設計された動画教材。私のオンライン家庭教師がこれを使って授業をしています。教師版と学生版のPDFがダウンロードできます。
+1. [TED-Ed](https://www.youtube.com/@TEDEd): 有名な教育コンテンツ共有プラットフォームで、日常的な内容が多くあります。
+2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): BBCが提供する無料英語教育。
+3. [ESL Brains](https://eslbrains.com): 大人向けに設計された動画教材。私のオンライン家庭教師がこれを使って授業をしています。教師版と学生版のPDFがダウンロードできます。
 
-今日は、ESL Brainsのこのビデオを主に選んで説明します: You're never too old for great things
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<p align="center"><sub><sup>
+  ESL Brains
+</sup></sub></p>
+
+今日は、ESL Brainsのこのビデオを主に選んで説明します: [You're never too old for great things](https://eslbrains.com/present-perfect-and-past-simple/)
+
+{{< youtube "P85r-W0Ck6w" >}}
 
 ## 2. Trancy 二ヶ国語字幕 + イマーシブ学習
 
-Trancyはブラウザ拡張機能で、以下の機能があります:
+[Trancy](https://www.trancy.org) はブラウザ拡張機能で、以下の機能があります:
 
 1. YouTubeのトランスクリプトを二ヶ国語字幕に変換
 2. 単語の例文を提供
@@ -65,7 +72,17 @@ Trancyはブラウザ拡張機能で、以下の機能があります:
 
 ## 3. Glarity 動画要約生成 + TOEIC 問題 + 単語リスト
 
-続いて今日のメインイベントである Glarity ですが、これもブラウザ拡張機能で、主な機能は次のとおりです:
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.ja.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.ja.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
+
+続いて今日のメインイベントである [Glarity](https://glarity.app/) ですが、これもブラウザ拡張機能で、主な機能は次のとおりです:
 
 1. 動画/ウェブページの検索結果の要約
 2. 翻訳
@@ -78,17 +95,52 @@ Trancyはブラウザ拡張機能で、以下の機能があります:
 
 TOEICのライティングセクションでは、100語を使用し、30%の要約/70%の視点という比率で書くことにしました。これは、「**この映画から何を見たか**」といった視点の論述が比較的苦手だと感じているためです。また、私が使用したプロンプトも皆さんに共有します。
 
+```prompt
+Output should use the following template:
+### Summary
+- [Emoji] bullet point
+### TOEIC Listening Questions
+### TOEIC Listening Answers
+### TOEIC Writing Answers
+#### Summary
+#### Opinion
+### Vocabulary
+
+Use up to 5 brief bullet points to summarize the content below, Choose an appropriate emoji for each bullet point. 
+Provide 3 TOEIC listening questions with answers.
+Provide TOEIC writing answers, with 30% summary and 70% opinion in around 100 words.
+Choose 10 vocabulary words and provide definitions, synonyms, antonyms, and sentence examples.
+: {{Title}} {{Transcript}}.
+```
+
 ### Mindmapを一発コピー
 
-Glarityのもう一つの気に入っている点は、回答全体を一発でコピーして、markdown形式を保持できることです。ここまで見て、頭の回転が速い友人は、さらにmarkmapやmermaidを使って、次のようなmindmapを描くことができるとわかります。
+Glarityのもう一つの気に入っている点は、回答全体を一発でコピーして、markdown形式を保持できることです。ここまで見て、頭の回転が速い友人は、さらに [markmap](https://markmap.js.org/) や [mermaid](https://mermaid.live/) を使って、次のようなmindmapを描くことができるとわかります。
 
-詳細な操作は前回の記事を参照してください：3分で情報グラフィックを作成 - ChatGPT + Mermaidで簡単に生産性を向上させる。
+詳細な操作は前回の記事を参照してください：3分で情報グラフィックを作成 - [3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう](https://blog.androchen.tw/ja/3-minute-infographic-chatgpt-mermaid-productivity)。
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.ja.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity summary Mindmap
+</sup></sub></p>
 
 ## 4. ChatGPTで翻訳し、単語帳を作成する
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.ja.jpg?raw=true">
+<p align="center"><sub><sup>
+  ChatGPT 翻訳と単語帳
+</sup></sub></p>
 
 学習プロセスで生成される単語については、**ChatGPTを翻訳ソフトとして利用**します。ChatGPTが登場して以来、私はGoogle翻訳をほとんど使わなくなりました 😂
 
 以下のプロンプトを使用し、`<vocabulary>`を単語に置き換えることで、ChatGPTに**定義、同義語、反義語、および日英対訳例文**を一度に提供させることができます：
+
+```prompt
+1. Provide definitions, synonyms, antonyms, and sentence examples in English and respond in markdown code block
+2. Translate to Traditional Chinese
+
+<vocabulary>
+```
 
 ChatGPTは以前の記録を保存しているため、同じプロンプトを使用し、調べたい単語部分を置き換えるだけで、毎回プロンプトを探す手間を省くことができます。また、**左右に切り替え**することで、自分が知らない単語をチェックし、ChatGPTを単語帳に変えることができます！
 
@@ -102,6 +154,11 @@ ChatGPTは以前の記録を保存しているため、同じプロンプトを�
 
 1. **文法チェックと説明**
 2. **より簡潔/スムーズな表現に**ブラッシュアップ
+
+```prompt
+1. Check the grammar in my essay and suggest any corrections if necessary.
+2. Rephrase any parts of my essay that could be written more effectively or concisely.
+```
 
 ## 6. 終わりを始めに + 持続的な評価
 

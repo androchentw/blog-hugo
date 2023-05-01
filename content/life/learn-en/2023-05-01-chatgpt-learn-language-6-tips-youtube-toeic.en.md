@@ -141,14 +141,14 @@ As for the vocabulary generated during the learning process, I use **ChatGPT as 
 
 Use the following prompt and replace `<vocabulary>` with the word, and ChatGPT will provide **definitions, synonyms, antonyms, and bilingual example sentences**:
 
-Because ChatGPT saves previous records, I use the same prompt directly, replacing the part I want to look up. This saves the trouble of finding the prompt each time, and you can **switch left and right** to view unfamiliar vocabulary, turning ChatGPT into a vocabulary list!
-
 ```prompt
 1. Provide definitions, synonyms, antonyms, and sentence examples in English and respond in markdown code block
 2. Translate to Traditional Chinese
 
 <vocabulary>
 ```
+
+Because ChatGPT saves previous records, I use the same prompt directly, replacing the part I want to look up. This saves the trouble of finding the prompt each time, and you can **switch left and right** to view unfamiliar vocabulary, turning ChatGPT into a vocabulary list!
 
 I highly recommend learning through example sentences, reading them several times to strengthen memory, and the key is to know **how to apply**. Prompts are flexible, so you can continue to expand and add your own content. Or adjust the format, like I especially like markdown syntax, so the example above also asked ChatGPT to change the content of the answer into markdown format, making it easy for me to copy and paste.
 
