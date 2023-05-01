@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "ChatGPT 言語独学術: 6 つの YouTube + 無料プラグインで TOEIC スコアを上げる方法"
 url: chatgpt-learn-language-6-tips-youtube-toeic
 # date: 2023-04-30T14:00:00+08:00
@@ -33,7 +32,7 @@ series: learn-en
 2. 🚀 YouTube の二か国語字幕やビデオ要約の Mindmap を一度に生成し、TOEIC のテスト問題に変換します。
 3. 📝 ChatGPT の翻訳と修正機能を組み合わせて、自分専用の単語帳や作文集を作成します。
 
-🤔 Q: あなたはどのようにして ChatGPT を使って語学学習をサポートしますか？
+🤔 Q: あなたはどのようにして ChatGPT を使って言語学習をサポートしますか？
 
 💪 A: YouTube のビデオを選び、ビデオ要約と TOEIC の学習コンテンツを生成する実際の操作を行います。
 
@@ -60,11 +59,11 @@ series: learn-en
 
 {{< youtube "P85r-W0Ck6w" >}}
 
-## 2. Trancy 二ヶ国語字幕 + イマーシブ学習
+## 2. Trancy 二言語字幕 + イマーシブ学習
 
 [Trancy](https://www.trancy.org) はブラウザ拡張機能で、以下の機能があります:
 
-1. YouTubeのトランスクリプトを二ヶ国語字幕に変換
+1. YouTubeのトランスクリプトを二言語字幕に変換
 2. 単語の例文を提供
 3. ウェブページと連携して、さらに多くのオンラインアシスタント機能を提供
 
@@ -137,7 +136,7 @@ Glarityのもう一つの気に入っている点は、回答全体を一発で�
 
 ```prompt
 1. Provide definitions, synonyms, antonyms, and sentence examples in English and respond in markdown code block
-2. Translate to Traditional Chinese
+2. Translate to Japanese
 
 <vocabulary>
 ```
@@ -185,11 +184,13 @@ ChatGPTは以前の記録を保存しているため、同じプロンプトを�
 
 この記事の内容が役立つことを願っています！
 
-> もっとこのようなテクノロジーの新知識とアプリケーションを見たい場合は、無料のニュースレターを購読してください。すぐに見逃さないように： <https://programmur.substack.com>
+> もっとこのようなテクノロジーの新知識とアプリケーションを見たい場合は、無料のニュースレターを登録してください。
 >
-> 毎週 1~2 本の 3000 字 6 分の記事で、300+ のサブスクライバーと一緒にテクノロジーの旅を探求 Explore tech journey
+> 毎週 1~2 本の 3000 字 6 分の記事で、300+ のサブスクライバーと一緒にテクノロジーの旅を探検しましょう！
 >
-> あなたの購読とフィードバックは、私にとって最大のサポートです 🥳
+> あなたの登録とフィードバックは、私にとって最大のサポートです 🥳
+
+ブログ: <https://blog.androchen.tw/ja/>
 
 ## Murmur
 
