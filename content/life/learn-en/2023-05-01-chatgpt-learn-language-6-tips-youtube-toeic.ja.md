@@ -116,7 +116,7 @@ Choose 10 vocabulary words and provide definitions, synonyms, antonyms, and sent
 
 Glarityのもう一つの気に入っている点は、回答全体を一発でコピーして、markdown形式を保持できることです。ここまで見て、頭の回転が速い友人は、さらに [markmap](https://markmap.js.org/) や [mermaid](https://mermaid.live/) を使って、次のようなmindmapを描くことができるとわかります。
 
-詳細な操作は前回の記事を参照してください：3分で情報グラフィックを作成 - [3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう](https://blog.androchen.tw/ja/3-minute-infographic-chatgpt-mermaid-productivity)。
+詳細な操作は前回の記事を参照してください：[3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう](https://blog.androchen.tw/ja/3-minute-infographic-chatgpt-mermaid-productivity)。
 
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.ja.jpg?raw=true">
 <p align="center"><sub><sup>
