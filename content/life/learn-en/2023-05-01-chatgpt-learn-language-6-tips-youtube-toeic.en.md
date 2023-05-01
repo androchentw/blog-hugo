@@ -1,5 +1,6 @@
 ---
-title: "ChatGPT 語言自學術: 6 招善用 YouTube + 免費外掛提升 TOEIC 聽說讀寫"
+draft: true
+title: "ChatGPT Language Learning: 6 Tips for Utilizing YouTube + Free Plugins to Improve TOEIC Score"
 url: chatgpt-learn-language-6-tips-youtube-toeic
 # date: 2023-04-30T14:00:00+08:00
 date: 2023-05-01T10:30:00+08:00
@@ -13,32 +14,74 @@ tags:
   - chatgpt
   - aigc
   - toeic
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true
 series: learn-en
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true">
 <p align="center"><sub><sup>
-  ChatGPT 語言自學術
+  ChatGPT Language Learning
 </sup></sub></p>
 
-51 勞動節不休息 😂 最近在積極地運用 ChatGPT 自學英文與日文。
+I have been actively using ChatGPT to self-study English and Japanese recently.
 
-學外語的動機，主要是想更增進日常會話以及吸收國外新知，剛好也有朋友在準備 TOEIC。主要是為了**提升學習的效率**，二來是探索如何善用新 AI 科技真的非常有趣！
+The main motivation for learning foreign languages is to improve daily conversation and absorb new knowledge from abroad. I also have friends preparing for TOEIC. The primary goal is to **enhance learning efficiency**, and exploring how to make the best use of new AI technology is fascinating!
 
-今天介紹的工具特色:
+Features of the tools introduced today:
 
-1. 🌐 線上網頁即可免費使用。
-2. 🚀 一鍵生成 YouTube 雙語字幕及影片摘要 Mindmap，並轉化成 TOEIC 測驗題目。
-3. 📝 結合 ChatGPT 翻譯與修改功能，打造自己的單字簿與作文庫。
+1. 🌐 Free to use online.
+2. 🚀 Generate bilingual subtitles and video summary Mindmap on YouTube with one click and convert them into TOEIC test questions.
+3. 📝 Combine ChatGPT translation and modification features to create your vocabulary book and essay collection.
 
-🤔 Q: 你會使用 ChatGPT 來如何協助語言學習呢？
+🤔 Q: How would you use ChatGPT to assist with language learning?
 
-💪 A: 挑選一則 YouTube 影片，實際操作生成影片摘要與 TOEIC 學習內容。
+💪 A: Choose a YouTube video and generate video summaries and TOEIC learning content in practice.
 
-今天主要分享英文活用的部分。日文也可以用類似的方式學習，但我自己採取的方式有些微不同。有興趣瞭解的朋友也請敲碗+1 讓我知道 😆
+Today I'll mainly share the English application. Japanese can also be learned similarly, but my approach is slightly different. If you're interested, please let me know by +1 😆
+
+## 1. YouTube Online Free Audiovisual Teaching Materials
+
+I'm not sure if you're like me, wanting to use online resources to learn English but ultimately giving up silently 😂 Below are some popular teaching materials that I prefer.
+
+1. TED-Ed: A well-known educational content sharing platform with many practical content.
+2. BBC Learning English: Free English lessons from BBC.
+3. ESL Brains: Video materials designed for adults. My online tutor uses this for classes. Teacher and student PDFs are available for download.
+
+Today, I mainly choose this video from ESL Brains to demonstrate: You're never too old for great things
+
+## 2. Trancy Bilingual Subtitles + Immersive Learning
+
+Trancy is a browser extension with the following features:
+
+1. Convert YouTube transcripts into bilingual subtitles
+2. Provide vocabulary examples
+3. Additional online assistant features on web pages
+
+It is perfect for **Shadowing** to train listening and speaking skills comprehensively along with the video content.
+
+## 3. Glarity Video Summary + TOEIC Questions + Vocabulary List
+
+Next is today's highlight, Glarity, another browser extension. Its main features are:
+
+1. Video / web page search results summary
+2. Translation
+
+However, since Glarity's settings page allows custom prompts, we can freely transform any YouTube video into TOEIC test material:
+
+1. TOEIC listening questions / answers. You can specify how many questions you want.
+2. TOEIC writing summary / opinion. You can specify the number of words and proportion of the composition.
+3. Select 10 vocabulary words, generate definitions, synonyms, antonyms, and bilingual example sentences.
+
+In the TOEIC writing section, I specified using 100 words and composing with a 30% summary / 70% opinion ratio. This is because I feel my weaker area is discussing viewpoints like "what I see from this video," so I chose this ratio. I also share the prompt I used below:
+
+### One-click Copy to Generate Mindmap
+
+Glarity also has a feature I like, which is the ability to copy the entire answer with one click while retaining the markdown format. If you're quick-witted, you'll know you can use markmap or mermaid to draw mindmaps like below.
+
+For detailed operation, please refer to the previous article: Create Infographics in 3 Minutes -
+
 
 <!--more-->
 
@@ -175,8 +218,6 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 另外，"**持續衡量**" 也是非常重要。只需要認真地看待自己的速度，並不需要跟其他人比較。
 
 比如說原本設定目標「每天用 1 小時寫 1 篇 200 字作文」，經過一週之後發現實際上需要 2 個小時才能完成完整的學習，那就如實地記錄下來，並依照自己的節奏進行調整就好。
-
-有持續關注我的文章的朋友，可能會覺得我每次都要提「**敏捷精神, 持續產出**」是不是有點過頭。但我是真的身體力行地相信這是對的。如同我在 「科技旅程半年報 - 重拾手沖咖啡與生活儀式感」一文裡提到的「**持續做自己覺得對的事情**」。正是持續產出的敏捷精神，支持我一路繼續寫下去，再次分享這個敏捷人生的概念 😂。
 
 ## 小提醒
 
