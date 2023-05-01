@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "ChatGPT Language Learning: 6 Tips for Utilizing YouTube + Free Plugins to Improve TOEIC Score"
 url: chatgpt-learn-language-6-tips-youtube-toeic
 # date: 2023-04-30T14:00:00+08:00
@@ -124,14 +123,14 @@ Glarity also has a feature I like, which is the ability to copy the entire answe
 
 For detailed operation, please refer to my previous article: [3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid](https://blog.androchen.tw/en/3-minute-infographic-chatgpt-mermaid-productivity)
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.en.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity summary Mindmap
 </sup></sub></p>
 
 ## 4. ChatGPT Translation, Creating Vocabulary Lists
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.en.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT translation and vocabulary lists
 </sup></sub></p>
