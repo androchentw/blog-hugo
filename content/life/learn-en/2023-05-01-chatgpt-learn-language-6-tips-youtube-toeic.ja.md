@@ -19,7 +19,7 @@ series: learn-en
 
 ## 概要
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-πlanguage-6-tips-youtube-toeic-1-overview.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 言語独学術
 </sup></sub></p>
