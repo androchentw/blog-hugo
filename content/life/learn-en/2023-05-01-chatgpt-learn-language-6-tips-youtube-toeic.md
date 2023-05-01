@@ -22,7 +22,7 @@ series: learn-en
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
-  Learn EN
+  ChatGPT 語言自學術
 </sup></sub></p>
 
 最近在積極地運用 ChatGPT 自學英文與日文。
@@ -51,7 +51,7 @@ series: learn-en
 2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): BBC 出的免費英語教學。
 3. [ESL Brains](https://eslbrains.com/): 為成人設計的影片教材。我的線上家教老師使用這個來上課。有老師版及學生版的 PDF 可以下載參考。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-7-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
 <p align="center"><sub><sup>
   ESL Brains 線上影音教材
 </sup></sub></p>
@@ -62,7 +62,7 @@ series: learn-en
 
 ## 2. Trancy 雙語字幕 + 沉浸式學習
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-3-trancy.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.jpg?raw=true">
 <p align="center"><sub><sup>
   mindmap
 </sup></sub></p>
@@ -77,7 +77,7 @@ series: learn-en
 
 ## 3. Glarity 生成影片摘要 + TOEIC 題目 + 單字表
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-4-glarity.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.jpg?raw=true">
 <p align="center"><sub><sup>
   mindmap
 </sup></sub></p>
@@ -91,7 +91,7 @@ series: learn-en
 
 影片摘要 + TOEIC 閱測題目 + 寫作 100 字作文 + 10 單字定義
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-5-glarity.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.jpg?raw=true">
 <p align="center"><sub><sup>
   mindmap
 </sup></sub></p>
@@ -102,14 +102,14 @@ Glarity 還有一個我很喜歡的點是他可以一鍵複製整段回答，並
 
 詳細操作可以參考上次的文章: [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-mindmap.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity 摘要 Mindmap
 </sup></sub></p>
 
 ## 4. ChatGPT 翻譯，打造單字簿
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-7-chatgpt.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 翻譯單字簿
 </sup></sub></p>
