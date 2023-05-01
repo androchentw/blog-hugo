@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "ChatGPT Language Learning: 6 Tips for Utilizing YouTube + Free Plugins to Improve TOEIC Score"
 url: chatgpt-learn-language-6-tips-youtube-toeic
 # date: 2023-04-30T14:00:00+08:00
@@ -41,19 +40,33 @@ Features of the tools introduced today:
 
 Today I'll mainly share the English application. Japanese can also be learned similarly, but my approach is slightly different. If you're interested, please let me know by +1 😆
 
+<!--more-->
+
 ## 1. YouTube Online Free Audiovisual Teaching Materials
 
 I'm not sure if you're like me, wanting to use online resources to learn English but ultimately giving up silently 😂 Below are some popular teaching materials that I prefer.
 
-1. TED-Ed: A well-known educational content sharing platform with many practical content.
-2. BBC Learning English: Free English lessons from BBC.
-3. ESL Brains: Video materials designed for adults. My online tutor uses this for classes. Teacher and student PDFs are available for download.
+1. [TED-Ed](https://www.youtube.com/@TEDEd): A well-known educational content sharing platform with many practical content.
+2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): Free English lessons from BBC.
+3. [ESL Brains](https://eslbrains.com): Video materials designed for adults. My online tutor uses this for classes. Teacher and student PDFs are available for download.
 
-Today, I mainly choose this video from ESL Brains to demonstrate: You're never too old for great things
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<p align="center"><sub><sup>
+  ESL Brains
+</sup></sub></p>
+
+Today, I mainly choose this video from ESL Brains to demonstrate: [You're never too old for great things](https://eslbrains.com/present-perfect-and-past-simple/)
+
+{{< youtube "P85r-W0Ck6w" >}}
 
 ## 2. Trancy Bilingual Subtitles + Immersive Learning
 
-Trancy is a browser extension with the following features:
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Trancy
+</sup></sub></p>
+
+[Trancy](https://www.trancy.org) is a browser extension with the following features:
 
 1. Convert YouTube transcripts into bilingual subtitles
 2. Provide vocabulary examples
@@ -63,7 +76,17 @@ It is perfect for **Shadowing** to train listening and speaking skills comprehen
 
 ## 3. Glarity Video Summary + TOEIC Questions + Vocabulary List
 
-Next is today's highlight, Glarity, another browser extension. Its main features are:
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
+
+Next is today's highlight, [Glarity](https://glarity.app/), another browser extension. Its main features are:
 
 1. Video / web page search results summary
 2. Translation
@@ -74,73 +97,7 @@ However, since Glarity's settings page allows custom prompts, we can freely tran
 2. TOEIC writing summary / opinion. You can specify the number of words and proportion of the composition.
 3. Select 10 vocabulary words, generate definitions, synonyms, antonyms, and bilingual example sentences.
 
-In the TOEIC writing section, I specified using 100 words and composing with a 30% summary / 70% opinion ratio. This is because I feel my weaker area is discussing viewpoints like "what I see from this video," so I chose this ratio. I also share the prompt I used below:
-
-### One-click Copy to Generate Mindmap
-
-Glarity also has a feature I like, which is the ability to copy the entire answer with one click while retaining the markdown format. If you're quick-witted, you'll know you can use markmap or mermaid to draw mindmaps like below.
-
-For detailed operation, please refer to the previous article: Create Infographics in 3 Minutes -
-
-
-<!--more-->
-
-## 1. YouTube 線上免費影音教材
-
-不知道你是否也跟我一樣，多少有想要利用線上資源學習英文，但最後都默默放棄 😂 以下整理我自己比較喜歡的熱門教材。
-
-1. [TED-Ed](https://www.youtube.com/@TEDEd): 知名教育內容分享的平台，很多生活化的內容。
-2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): BBC 出的免費英語教學。
-3. [ESL Brains](https://eslbrains.com/): 為成人設計的影片教材。我的線上家教老師使用這個來上課。有老師版及學生版的 PDF 可以下載參考。
-
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
-<p align="center"><sub><sup>
-  ESL Brains 線上影音教材
-</sup></sub></p>
-
-今天，我主要挑選 ESL Brains 的這支影片來說明: [You're never too old for great things](https://eslbrains.com/present-perfect-and-past-simple/)
-
-{{< youtube "P85r-W0Ck6w" >}}
-
-## 2. Trancy 雙語字幕 + 沉浸式學習
-
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.jpg?raw=true">
-<p align="center"><sub><sup>
-  Trancy
-</sup></sub></p>
-
-[Trancy](https://www.trancy.org) 是一個瀏覽器擴充，有以下功能:
-
-1. 將 YouTube 的逐字稿轉成雙語字幕
-2. 提供單字例句
-3. 搭配網頁有更多線上助理功能
-
-非常適合搭配 **Shadowing 跟讀法** 跟著影片的內容全方位地訓練聽力跟口說。
-
-## 3. Glarity 生成影片摘要 + TOEIC 題目 + 單字表
-
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.jpg?raw=true">
-<p align="center"><sub><sup>
-  Glarity
-</sup></sub></p>
-
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.jpg?raw=true">
-<p align="center"><sub><sup>
-  Glarity
-</sup></sub></p>
-
-再來是今天的重頭戲 [Glarity](https://glarity.app/)，也是一個瀏覽器擴充，主要功能是:
-
-1. 影片 / 網頁搜尋結果摘要
-2. 翻譯
-
-不過，因為 Glarity 的設定頁面可以自訂 prompt，所以我們完全可以天馬行空地把任何一篇 YouTube 影片(或是任何一篇新聞如華爾街日報等)，變成一篇 TOEIC 測驗的素材:
-
-1. TOEIC 聽力考題 / 解答。可以指定要出多少題。
-2. TOEIC 寫作摘要 / 觀點。可以指定生成特定字數及比例的作文。
-3. 精選 10 個單字，生成定義、同義詞、反義詞、中英對照例句。
-
-我在 TOEIC 寫作地方，指定了使用 100 字，並且以 30% 摘要 / 70% 觀點 的比例寫作。這是因為我覺得自己比較弱的，還是在於「**我從這部影片看到什麼**」這類的觀點論述，所以才採取這樣的比例。也分享給大家我使用的 prompt 如下:
+In the TOEIC writing section, I specified using 100 words and composing with a 30% summary / 70% opinion ratio. This is because I feel my weaker area is discussing viewpoints like "**what I see from this video**," so I chose this ratio. I also share the prompt I used below:
 
 ```prompt
 Output should use the following template:
@@ -160,27 +117,29 @@ Choose 10 vocabulary words and provide definitions, synonyms, antonyms, and sent
 : {{Title}} {{Transcript}}.
 ```
 
-### 一鍵 Copy 生成 Mindmap
+### One-click Copy to Generate Mindmap
 
-Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並且保留 markdown 格式。看到這裡，腦筋動得快的朋友，就知道可以再進一步使用 [markmap](https://markmap.js.org/) 或 [mermaid](https://mermaid.live/) 來繪製 mindmap 心智圖如下。
+Glarity also has a feature I like, which is the ability to copy the entire answer with one click while retaining the markdown format. If you're quick-witted, you'll know you can use [markmap](https://markmap.js.org/) or [mermaid](https://mermaid.live/) to draw mindmaps like below.
 
-詳細操作可以參考上次的文章: [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)。
+For detailed operation, please refer to my previous article: [3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid](https://blog.androchen.tw/en/3-minute-infographic-chatgpt-mermaid-productivity)
 
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.jpg?raw=true">
 <p align="center"><sub><sup>
-  Glarity 摘要 Mindmap
+  Glarity summary Mindmap
 </sup></sub></p>
 
-## 4. ChatGPT 翻譯，打造單字簿
+## 4. ChatGPT Translation, Creating Vocabulary Lists
 
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.jpg?raw=true">
 <p align="center"><sub><sup>
-  ChatGPT 翻譯單字簿
+  ChatGPT translation and vocabulary lists
 </sup></sub></p>
 
-至於在學習過程中產生的單字，我會**利用 ChatGPT 當作翻譯軟體**。自從有了 ChatGPT 之後，我真的很少用 Google 翻譯了 😂
+As for the vocabulary generated during the learning process, I use **ChatGPT as a translation tool**. Ever since I had ChatGPT, I rarely use Google Translate 😂
 
-使用以下 prompt，把 `<vocabulary>` 替換成單字，就能讓 ChatGPT 一次提供 **定義、同義詞、反義詞還有中英對照例句**:
+Use the following prompt and replace `<vocabulary>` with the word, and ChatGPT will provide **definitions, synonyms, antonyms, and bilingual example sentences**:
+
+Because ChatGPT saves previous records, I use the same prompt directly, replacing the part I want to look up. This saves the trouble of finding the prompt each time, and you can **switch left and right** to view unfamiliar vocabulary, turning ChatGPT into a vocabulary list!
 
 ```prompt
 1. Provide definitions, synonyms, antonyms, and sentence examples in English and respond in markdown code block
@@ -189,71 +148,53 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 <vocabulary>
 ```
 
-因為 ChatGPT 會保存之前的記錄，所以我會直接使用同樣的 prompt，替換掉想要查的單字部分，一來省麻煩每次都要重新找 prompt，二來**左右切換**就能查看自己不會的單字，直接將 ChatGPT 變成單字簿!
+I highly recommend learning through example sentences, reading them several times to strengthen memory, and the key is to know **how to apply**. Prompts are flexible, so you can continue to expand and add your own content. Or adjust the format, like I especially like markdown syntax, so the example above also asked ChatGPT to change the content of the answer into markdown format, making it easy for me to copy and paste.
 
-蠻推薦用例句的方式進行學習，多唸幾遍加強記憶，重點是知道**如何活用**。而 prompt 都是彈性的，所以還能持續擴充，增添自己想要的內容。或是調整格式，像我特別喜歡 markdown 語法，所以上面的例子也是請 ChatGPT 將回答的內容改成 markdown 形式，方便我複製貼上。
+## 5. ChatGPT Essay Editing, Building Your Own Essay Library
 
-## 5. ChatGPT 修改作文，自建作文庫
+Next, we can use ChatGPT to help us edit our essays.
 
-再來，我們還可以運用 ChatGPT 來協助我們修改作文。
+For example, we've already used Glarity to help us write an essay. Now it's our turn to write and then ask ChatGPT to help correct it and point out errors. I won't demo this specifically here, but I'll provide some directions for reference:
 
-比方說，前面已經使用 Glarity 來幫我們寫一篇作文了。現在換我們自己寫，然後再丟給 ChatGPT 請他協助修正，並指出錯誤之處。這裡我就不特別 demo，以下提供幾個方向作為參考:
-
-1. **文法檢查及說明**
-2. **潤飾**成更簡潔/通順的說法
+1. **Grammar checking and explanation**
+2. **Polishing** for a more concise/smooth expression
 
 ```prompt
 1. Check the grammar in my essay and suggest any corrections if necessary.
 2. Rephrase any parts of my essay that could be written more effectively or concisely.
 ```
 
-## 6. 以終為始 + 持續衡量
+## 6. Begin with the End in Mind + Continuous Measurement
 
-最後想跟大家分享一點學習心法: 推薦大家 "**以終為始**" 地設定目標。**先想像自己想要達到什麼境界，再反推應該要採取哪些行動**。
+Finally, I want to share a learning tip with you: I recommend setting goals by "**beginning with the end in mind**." **First imagine what level you want to reach, and then work backward to determine what actions you should take**.
 
-比如說你希望在 30 天內背完 3000 個單字，反推回來就是一天要有 100 個單字的進度。在 [《與成功有約: 高效能人士的七個習慣》](https://www.eslite.com/product/1001122732681932628005) 一書裡面也有提到同樣的概念:
+For example, if you want to memorize 3,000 words in 30 days, working backward means you need to progress at a rate of 100 words per day. The same concept is mentioned in the book "[The 7 Habits of Highly Effective People](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519)":
 
 > Begin with the end in mind.
 
-另外，"**持續衡量**" 也是非常重要。只需要認真地看待自己的速度，並不需要跟其他人比較。
+In addition, "**continuous measurement**" is also crucial. You just need to take your own speed seriously, without comparing yourself to others.
 
-比如說原本設定目標「每天用 1 小時寫 1 篇 200 字作文」，經過一週之後發現實際上需要 2 個小時才能完成完整的學習，那就如實地記錄下來，並依照自己的節奏進行調整就好。
+For example, if you initially set the goal of "writing a 200-word essay every day with 1 hour of practice," but after a week you find it takes 2 hours to complete the entire learning process, simply record it honestly and adjust accordingly.
 
-## 小提醒
+For those who have been following my articles, you might feel that I mention "**agile mindset, continuous output**" a bit too much. But I truly believe in it and practice it myself. It's the agile mindset of continuous output that supports me to keep writing and sharing the concept of an agile life again 😂.
 
-以上就是今天分享的內容，幾個注意事項特別提醒一下
+## Friendly Reminder
 
-1. Trancy 跟 Glarity 都仰賴於 YouTube 影片本身有逐字稿才能一鍵生成。雖然可以自己用 OpenAI Whisper 等 AI 語音辨識，不過現在得自己手動作，讓我們期待有大神做其他方便的應用之後再來用吧 😂
-2. Glarity 一樣會有 **Token 限制**, 所以有時候未必會產生完整的內容，建議挑選自己需要的內容產生即可。或是自行將內容剪貼到 ChatGPT 進行多次提問。
-3. Glarity 可以選擇使用 GPT-4, GPT-3.5 Turbo 或 OpenAI API 來進行摘要。能力各有不同，差異最大的是生成速度，大家可以自行玩一玩，沒有絕對。
-4. GPT 系列生成的內容，並不能保證完全的正確性，必要時還是需要**多方求證**。這些工具只是協助我們更快地加速知識循環，最後還是要回歸專業的講解。
+That's all for today's sharing. Here are a few important points to keep in mind:
 
-## 你怎麼看?
+1. Trancy and Glarity rely on the presence of captions in YouTube videos for one-click generation. Although you can use AI speech recognition like OpenAI Whisper, for now, you have to do it manually. Let's look forward to more convenient applications made by talented developers 😂
+2. Glarity also has **Token limitations**, so it may not always generate complete content. It's recommended to select the content you need and generate accordingly. Alternatively, you can copy and paste the content into ChatGPT and ask multiple questions.
+3. Glarity allows you to choose between GPT-4, GPT-3.5 Turbo, or OpenAI API for summarization. Their capabilities vary, with the most significant difference being generation speed. Feel free to experiment and find what works best for you.
+4. The content generated by GPT series cannot guarantee complete accuracy. It's still necessary to **verify from multiple sources**. These tools are meant to help us accelerate knowledge circulation, but ultimately, professional explanations are essential.
 
-希望這篇的內容有幫助到你！也歡迎分享給親朋好友~
+## What do you think?
 
-* [Facebook 粉專連結](https://www.facebook.com/ProgramMur/)
-* [Instagram 連結](https://www.instagram.com/programmur/)
-* [Twitter 連結](https://twitter.com/ProgramMurTw)
+I hope you found this content helpful!
 
-> 若希望看到更多這類科技新知與應用，歡迎訂閱免費電子報，即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
+> If you'd like to see more tech news and applications, please subscribe to my free newsletter to stay up-to-date: <https://programmuren.substack.com>
 >
-> 每週 1~2 篇 3000 字 6 分鐘文章，與 300+ 訂閱者一起探索科技旅程 Explore tech journey
+> 1-2 newsletters per week, 3000 words, 6 minutes reading time - Explore tech journey with 300+ subscribers
 >
-> 您的訂閱與回饋，就是對我寫文章最大的支持 🥳
-
-延伸閱讀
-
-1. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
-2. [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/)
-3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
-
-```text
-#learningenglish #productivity #chatgpt #aigc #toeic
-```
-
-## Murmur
-
-* 2023-05-01: 💪 說到我的英文學習，特別要感謝高中補習班老師的鼓勵。也是在學習的路上，一直看到這些老師的熱情與堅持，才讓我更加相信持續努力的重要！
+> Your subscription and feedback are the greatest support for my writing 🥳
 
 <!-- link -->
