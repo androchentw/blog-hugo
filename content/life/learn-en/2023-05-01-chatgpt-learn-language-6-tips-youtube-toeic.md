@@ -176,7 +176,7 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 
 比如說原本設定目標「每天用 1 小時寫 1 篇 200 字作文」，經過一週之後發現實際上需要 2 個小時才能完成完整的學習，那就如實地記錄下來，並依照自己的節奏進行調整就好。
 
-有持續關注我的文章的朋友，可能會覺得我每次都要提「**敏捷精神, 持續產出**」是不是有點過頭。但我是真的身體力行地相信這是對的。如同我在 「科技旅程半年報 - 重拾手沖咖啡與生活儀式感」一文裡提到的「**持續做自己覺得對的事情**」。正是持續產出的敏捷精神，支持我一路繼續寫下去，再次分享這個敏捷人生的概念 😂。
+有持續關注我的文章的朋友，可能會覺得我每次都要提「**敏捷精神, 持續產出**」是不是有點過頭。但我是真的身體力行地相信這是對的。如同我在 「[科技旅程半年報 - 重拾手沖咖啡與生活儀式感](https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/)」一文裡提到的「**持續做自己覺得對的事情**」。正是持續產出的敏捷精神，支持我一路繼續寫下去，再次分享這個敏捷人生的概念 😂。
 
 ## 小提醒
 
@@ -206,6 +206,7 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 1. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
 2. [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/)
 3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
+4. [科技旅程半年報 - 重拾手沖咖啡與生活儀式感](https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/)
 
 ```text
 #learningenglish #productivity #chatgpt #aigc #toeic
