@@ -42,6 +42,8 @@ Today I'll mainly share the English application. Japanese can also be learned si
 
 <!--more-->
 
+> (2023/05/01) I'm an IT engineer from Taiwan 🇹🇼. I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
+
 ## 1. YouTube Online Free Audiovisual Teaching Materials
 
 I'm not sure if you're like me, wanting to use online resources to learn English but ultimately giving up silently 😂 Below are some popular teaching materials that I prefer.
