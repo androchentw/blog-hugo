@@ -61,7 +61,7 @@ series: learn-en
 
 ## 2. Trancy 雙語字幕 + 沉浸式學習
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.jpg?raw=true">
 <p align="center"><sub><sup>
   Trancy
 </sup></sub></p>
@@ -130,7 +130,7 @@ Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並
 
 ## 4. ChatGPT 翻譯，打造單字簿
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 翻譯單字簿
 </sup></sub></p>
