@@ -20,7 +20,7 @@ series: learn-en
 
 ## Overview
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 語言自學術
 </sup></sub></p>
@@ -37,7 +37,7 @@ series: learn-en
 
 🤔 Q: 你會使用 ChatGPT 來如何協助語言學習呢？
 
-💪 A: 挑選一則 YouTube 影片，實際操作生成影片摘要與 TOEIC 學習內容
+💪 A: 挑選一則 YouTube 影片，實際操作生成影片摘要與 TOEIC 學習內容。
 
 今天主要分享英文活用的部分。日文也可以用類似的方式學習，但我自己採取的方式有些微不同。有興趣瞭解的朋友也請敲碗+1 讓我知道 😆
 
@@ -51,7 +51,7 @@ series: learn-en
 2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): BBC 出的免費英語教學。
 3. [ESL Brains](https://eslbrains.com/): 為成人設計的影片教材。我的線上家教老師使用這個來上課。有老師版及學生版的 PDF 可以下載參考。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
 <p align="center"><sub><sup>
   ESL Brains 線上影音教材
 </sup></sub></p>
@@ -64,45 +64,67 @@ series: learn-en
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.jpg?raw=true">
 <p align="center"><sub><sup>
-  mindmap
+  Trancy
 </sup></sub></p>
 
-[Trancy](https://www.trancy.org)
+[Trancy](https://www.trancy.org) 是一個瀏覽器擴充，有以下功能:
 
-1. 雙語字幕
-2. 單字例句
-3. 線上助理
+1. 將 YouTube 的逐字稿轉成雙語字幕
+2. 提供單字例句
+3. 搭配網頁有更多線上助理功能
 
-搭配 Shadowing
+非常適合搭配 **Shadowing 跟讀法** 跟著影片的內容全方位地訓練聽力跟口說。
 
 ## 3. Glarity 生成影片摘要 + TOEIC 題目 + 單字表
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.jpg?raw=true">
 <p align="center"><sub><sup>
-  mindmap
+  Glarity
 </sup></sub></p>
 
-再來是今天的重頭戲 [Glarity](https://glarity.app/)
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
 
-1. 影片摘要
+再來是今天的重頭戲 [Glarity](https://glarity.app/)，也是一個瀏覽器擴充，主要功能是:
+
+1. 影片 / 網頁搜尋結果摘要
 2. 翻譯
-3. 自訂 TOEIC 考題 / 解答
-4. 寫作摘要 / 觀點
 
-影片摘要 + TOEIC 閱測題目 + 寫作 100 字作文 + 10 單字定義
+不過，因為 Glarity 的設定頁面可以自訂 prompt，所以我們完全可以天馬行空地把任何一篇 YouTube 影片，變成一篇 TOEIC 測驗的素材:
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.jpg?raw=true">
-<p align="center"><sub><sup>
-  mindmap
-</sup></sub></p>
+1. TOEIC 聽力考題 / 解答。可以指定要出多少題。
+2. TOEIC 寫作摘要 / 觀點。可以指定讓 GPT 寫出指定字數及比例的作文。
+3. 精選 10 個單字，生成定義、同義詞、反義詞、例句
+
+我在 TOEIC 寫作地方，指定了使用 100 字，並且以 30% 摘要 / 70% 觀點 的比例寫作。這是因為我覺得自己比較弱的，還是在於「**我從這部影片看到什麼**」這類的觀點論述，所以才採取這樣的比例。也分享給大家我使用的 prompt 如下:
+
+```prompt
+Output should use the following template:
+### Summary
+- [Emoji] bullet point
+### TOEIC Listening Questions
+### TOEIC Listening Answers
+### TOEIC Writing Answers
+#### Summary
+#### Opinion
+### Vocabulary
+
+Use up to 5 brief bullet points to summarize the content below, Choose an appropriate emoji for each bullet point. 
+Provide 3 TOEIC listening questions with answers.
+Provide TOEIC writing answers, with 30% summary and 70% opinion in around 100 words.
+Choose 10 vocabulary words and provide definitions, synonyms, antonyms, and sentence examples.
+: {{Title}} {{Transcript}}.
+```
 
 ### 一鍵 Copy 生成 Mindmap
 
-Glarity 還有一個我很喜歡的點是他可以一鍵複製整段回答，並且保留 markdown 格式。看到這裡，腦筋動得快的朋友，就知道可以再進一步使用 markmap 或 mermaid 來繪製 mindmap 心智圖。
+Glarity 還有一個我很喜歡的點，是他可以一鍵複製整段回答，並且保留 markdown 格式。看到這裡，腦筋動得快的朋友，就知道可以再進一步使用 [markmap](https://markmap.js.org/) 或 [mermaid](https://mermaid.live/) 來繪製 mindmap 心智圖。
 
-詳細操作可以參考上次的文章: [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
+詳細操作可以參考上次的文章: [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity 摘要 Mindmap
 </sup></sub></p>
@@ -114,7 +136,7 @@ Glarity 還有一個我很喜歡的點是他可以一鍵複製整段回答，並
   ChatGPT 翻譯單字簿
 </sup></sub></p>
 
-自從有了 ChatGPT 之後，我真的很少用 Google 翻譯了 😂
+至於在學習過程中產生的單字，我會利用 ChatGPT 來做我的翻譯機。自從有了 ChatGPT 之後，我真的很少用 Google 翻譯了 😂
 
 使用以下 prompt ，把 `<vocabulary>` 替換成單字，就能讓 ChatGPT 一次提供 **定義、同義詞、反義詞還有中英對照例句**:
 
@@ -156,9 +178,10 @@ Glarity 還有一個我很喜歡的點是他可以一鍵複製整段回答，並
 
 以上就是今天分享的內容，幾個注意事項特別提醒一下
 
-1. Glarity 一樣會有 **Token 限制**, 所以有時候未必會產生完整的內容，建議挑選自己需要的內容產生即可。或是自行將內容剪貼到 ChatGPT 進行多次提問。
-2. Glarity 可以選擇使用 GPT-4, GPT-3.5 Turbo 或 OpenAI API 來進行摘要。能力各有不同，差異最大的是生成速度，大家可以自行玩一玩，沒有絕對。
-3. GPT 系列生成的內容，並不能保證完全的正確性，必要時還是需要**多方求證**。這些工具只是協助我們更快地加速知識循環，最後還是要回歸專業的講解。
+1. Trancy 跟 Glarity 都仰賴於 YouTube 影片本身有逐字稿才能一鍵生成。雖然可以自己用 OpenAI Whisper 等 AI 語音辨識，不過現在得自己手動作，讓我們期待有大神做其他方便的應用之後再來用吧 😂
+2. Glarity 一樣會有 **Token 限制**, 所以有時候未必會產生完整的內容，建議挑選自己需要的內容產生即可。或是自行將內容剪貼到 ChatGPT 進行多次提問。
+3. Glarity 可以選擇使用 GPT-4, GPT-3.5 Turbo 或 OpenAI API 來進行摘要。能力各有不同，差異最大的是生成速度，大家可以自行玩一玩，沒有絕對。
+4. GPT 系列生成的內容，並不能保證完全的正確性，必要時還是需要**多方求證**。這些工具只是協助我們更快地加速知識循環，最後還是要回歸專業的講解。
 
 ## 你怎麼看?
 
