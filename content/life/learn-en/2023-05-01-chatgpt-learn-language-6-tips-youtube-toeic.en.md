@@ -1,8 +1,32 @@
-# ChatGPT Language Learning: 6 Tips for Utilizing YouTube + Free Plugins to Improve TOEIC Score
+---
+title: "ChatGPT Language Learning: 6 Tips for Utilizing YouTube + Free Plugins to Improve TOEIC Score"
+url: chatgpt-learn-language-6-tips-youtube-toeic
+# date: 2023-04-30T14:00:00+08:00
+date: 2023-05-01T10:30:00+08:00
+author: androchentw
+type: post
+categories:
+  - soft
+tags: 
+  - learn-en
+  - productivity
+  - chatgpt
+  - aigc
+  - toeic
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true
+series: learn-en
+---
 
 ## Overview
 
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  ChatGPT Language Learning
+</sup></sub></p>
+
 I have been actively using ChatGPT to self-study English and Japanese recently.
+
+The main motivation for learning foreign languages is to improve daily conversation and absorb new knowledge from abroad. I also have friends preparing for TOEIC. The primary goal is to **enhance learning efficiency**, and exploring how to make the best use of new AI technology is fascinating!
 
 Features of the tools introduced today:
 
@@ -14,19 +38,37 @@ Features of the tools introduced today:
 
 💪 A: Choose a YouTube video and generate video summaries and TOEIC learning content in practice.
 
+Today I'll mainly share the English application. Japanese can also be learned similarly, but my approach is slightly different. If you're interested, please let me know by +1 😆
+
+<!--more-->
+
 > (2023/05/01) I'm an IT engineer from Taiwan 🇹🇼. I'm using ChatGPT and other software to help translate the original and future valuable articles. If there are any unclear expressions, please feel free to let me know. I'm also working hard to learn English and Japanese!
 
 ## 1. YouTube Online Free Audiovisual Teaching Materials
 
-1. TED-Ed: A well-known educational content sharing platform with many practical content.
-2. BBC Learning English: Free English lessons from BBC.
-3. ESL Brains: Video materials designed for adults. My online tutor uses this for classes. Teacher and student PDFs are available for download.
+I'm not sure if you're like me, wanting to use online resources to learn English but ultimately giving up silently 😂 Below are some popular teaching materials that I prefer.
 
-Today, I mainly choose this video from ESL Brains to demonstrate: You're never too old for great things
+1. [TED-Ed](https://www.youtube.com/@TEDEd): A well-known educational content sharing platform with many practical content.
+2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): Free English lessons from BBC.
+3. [ESL Brains](https://eslbrains.com): Video materials designed for adults. My online tutor uses this for classes. Teacher and student PDFs are available for download.
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<p align="center"><sub><sup>
+  ESL Brains
+</sup></sub></p>
+
+Today, I mainly choose this video from ESL Brains to demonstrate: [You're never too old for great things](https://eslbrains.com/present-perfect-and-past-simple/)
+
+{{< youtube "P85r-W0Ck6w" >}}
 
 ## 2. Trancy Bilingual Subtitles + Immersive Learning
 
-Trancy is a browser extension with the following features:
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Trancy
+</sup></sub></p>
+
+[Trancy](https://www.trancy.org) is a browser extension with the following features:
 
 1. Convert YouTube transcripts into bilingual subtitles
 2. Provide vocabulary examples
@@ -36,7 +78,17 @@ It is perfect for **Shadowing** to train listening and speaking skills comprehen
 
 ## 3. Glarity Video Summary + TOEIC Questions + Vocabulary List
 
-Next is today's highlight, Glarity, another browser extension. Its main features are:
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity
+</sup></sub></p>
+
+Next is today's highlight, [Glarity](https://glarity.app/), another browser extension. Its main features are:
 
 1. Video / web page search results summary
 2. Translation
@@ -69,12 +121,21 @@ Choose 10 vocabulary words and provide definitions, synonyms, antonyms, and sent
 
 ### One-click Copy to Generate Mindmap
 
-Glarity also has a feature I like, which is the ability to copy the entire answer with one click while retaining the markdown format. If you're quick-witted, you'll know you can use markmap or mermaid to draw mindmaps like below.
+Glarity also has a feature I like, which is the ability to copy the entire answer with one click while retaining the markdown format. If you're quick-witted, you'll know you can use [markmap](https://markmap.js.org/) or [mermaid](https://mermaid.live/) to draw mindmaps like below.
 
-For detailed operation, please refer to my previous article: [3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid](https://blog.androchen.tw/en/3-minute-infographic-chatgpt-mermaid-productivity/)
+For detailed operation, please refer to my previous article: [3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid](https://blog.androchen.tw/en/3-minute-infographic-chatgpt-mermaid-productivity)
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  Glarity summary Mindmap
+</sup></sub></p>
 
 ## 4. ChatGPT Translation, Creating Vocabulary Lists
 
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.en.jpg?raw=true">
+<p align="center"><sub><sup>
+  ChatGPT translation and vocabulary lists
+</sup></sub></p>
 
 As for the vocabulary generated during the learning process, I use **ChatGPT as a translation tool**. Ever since I had ChatGPT, I rarely use Google Translate 😂
 
@@ -109,7 +170,7 @@ For example, we've already used Glarity to help us write an essay. Now it's our 
 
 Finally, I want to share a learning tip with you: I recommend setting goals by "**beginning with the end in mind**." **First imagine what level you want to reach, and then work backward to determine what actions you should take**.
 
-For example, if you want to memorize 3,000 words in 30 days, working backward means you need to progress at a rate of 100 words per day. The same concept is mentioned in the book "The 7 Habits of Highly Effective People":
+For example, if you want to memorize 3,000 words in 30 days, working backward means you need to progress at a rate of 100 words per day. The same concept is mentioned in the book "[The 7 Habits of Highly Effective People](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519)":
 
 > Begin with the end in mind.
 
@@ -137,3 +198,9 @@ I hope you found this content helpful!
 > 1-2 newsletters per week, 3000 words, 6 minutes reading time - Explore tech journey with 300+ subscribers
 >
 > Your subscription and feedback are the greatest support for my writing 🥳
+
+## Murmur
+
+* 2023-05-01: 💪 Speaking of my English learning, I would like to especially thank the encouragement from my high school cram school teachers. It is through witnessing their passion and perseverance on the learning journey that I have come to believe in the importance of continuous effort!
+
+<!-- link -->
