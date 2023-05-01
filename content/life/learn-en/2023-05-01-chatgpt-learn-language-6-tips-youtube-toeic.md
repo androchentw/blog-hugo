@@ -3,7 +3,7 @@ draft: true
 title: "ChatGPT 語言自學術: 6 招善用 YouTube + 免費外掛提升 TOEIC 聽說讀寫"
 url: chatgpt-learn-language-6-tips-youtube-toeic
 # date: 2023-04-30T14:00:00+08:00
-date: 2023-05-01T09:00:00+08:00
+date: 2023-05-01T10:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -95,7 +95,7 @@ series: learn-en
 不過，因為 Glarity 的設定頁面可以自訂 prompt，所以我們完全可以天馬行空地把任何一篇 YouTube 影片，變成一篇 TOEIC 測驗的素材:
 
 1. TOEIC 聽力考題 / 解答。可以指定要出多少題。
-2. TOEIC 寫作摘要 / 觀點。可以指定讓 GPT 寫出指定字數及比例的作文。
+2. TOEIC 寫作摘要 / 觀點。可以指定生成特定字數及比例的作文。
 3. 精選 10 個單字，生成定義、同義詞、反義詞、例句
 
 我在 TOEIC 寫作地方，指定了使用 100 字，並且以 30% 摘要 / 70% 觀點 的比例寫作。這是因為我覺得自己比較弱的，還是在於「**我從這部影片看到什麼**」這類的觀點論述，所以才採取這樣的比例。也分享給大家我使用的 prompt 如下:
@@ -120,7 +120,7 @@ Choose 10 vocabulary words and provide definitions, synonyms, antonyms, and sent
 
 ### 一鍵 Copy 生成 Mindmap
 
-Glarity 還有一個我很喜歡的點，是他可以一鍵複製整段回答，並且保留 markdown 格式。看到這裡，腦筋動得快的朋友，就知道可以再進一步使用 [markmap](https://markmap.js.org/) 或 [mermaid](https://mermaid.live/) 來繪製 mindmap 心智圖。
+Glarity 還有一個我很喜歡的點，是可以一鍵複製整段回答，並且保留 markdown 格式。看到這裡，腦筋動得快的朋友，就知道可以再進一步使用 [markmap](https://markmap.js.org/) 或 [mermaid](https://mermaid.live/) 來繪製 mindmap 心智圖如下。
 
 詳細操作可以參考上次的文章: [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)。
 
@@ -136,7 +136,7 @@ Glarity 還有一個我很喜歡的點，是他可以一鍵複製整段回答，
   ChatGPT 翻譯單字簿
 </sup></sub></p>
 
-至於在學習過程中產生的單字，我會利用 ChatGPT 來做我的翻譯機。自從有了 ChatGPT 之後，我真的很少用 Google 翻譯了 😂
+至於在學習過程中產生的單字，我會**利用 ChatGPT 當作翻譯軟體**。自從有了 ChatGPT 之後，我真的很少用 Google 翻譯了 😂
 
 使用以下 prompt ，把 `<vocabulary>` 替換成單字，就能讓 ChatGPT 一次提供 **定義、同義詞、反義詞還有中英對照例句**:
 
@@ -157,14 +157,17 @@ Glarity 還有一個我很喜歡的點，是他可以一鍵複製整段回答，
 
 比方說，前面已經使用 Glarity 來幫我們寫一篇作文了。現在換我們自己寫，然後再丟給 ChatGPT 請他協助修正，並指出錯誤之處。這裡我就不特別 demo，以下提供幾個方向作為參考:
 
+1. **文法檢查及說明**
+2. **潤飾**成更簡潔/通順的說法
+
 ```prompt
-1. Check the grammar in my essay and suggest any corrections if necessary
-2. Rephrase any parts of my essay that could be written more effectively or clearly
+1. Check the grammar in my essay and suggest any corrections if necessary.
+2. Rephrase any parts of my essay that could be written more effectively or concisely.
 ```
 
 ## 6. 以終為始 + 持續衡量
 
-最後想跟大家分享一點學習心法: 推薦大家 "**以終為始**" 地設定目標。
+最後想跟大家分享一點學習心法: 推薦大家 "**以終為始**" 地設定目標。**先想像自己想要達到什麼境界，再反推應該要採取哪些行動**。
 
 比如說你希望在 30 天內背完 3000 個單字，反推回來就是一天要有 100 個單字的進度。在 [《與成功有約: 高效能人士的七個習慣》](https://www.eslite.com/product/1001122732681932628005) 一書裡面也有提到同樣的概念:
 
