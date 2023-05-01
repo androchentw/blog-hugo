@@ -24,7 +24,7 @@ series: reflection
 
 ## 1. 科技的腳步越來越快
 
-ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否會跟不上的問題。尤其是 04/17 OpenAI cofounder Greg Brockman 在 TED2023 上面 Live Demo 了 ChatGPT 的新功能，類似 [Auto-GPT 全自動完成任務](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)。確實科技演進的步調越來越快。
+ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否會跟不上的問題。尤其是 04/17 OpenAI cofounder Greg Brockman 在 TED2023 上面 Live Demo 了 ChatGPT 的 Plug-in 功能，進行事實查核。確實科技演進的步調越來越快。
 
 * [TED - The inside story of ChatGPT's astonishing potential](https://www.ted.com/talks/greg_brockman_the_inside_story_of_chatgpt_s_astonishing_potential/comments)
 * [OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023](https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/)
