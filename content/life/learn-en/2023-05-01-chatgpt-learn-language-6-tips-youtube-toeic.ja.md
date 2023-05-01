@@ -63,6 +63,11 @@ series: learn-en
 
 ## 2. Trancy 二言語字幕 + イマーシブ学習
 
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.ja.jpg?raw=true">
+<p align="center"><sub><sup>
+  Trancy
+</sup></sub></p>
+
 [Trancy](https://www.trancy.org) はブラウザ拡張機能で、以下の機能があります:
 
 1. YouTubeのトランスクリプトを二言語字幕に変換
