@@ -75,7 +75,7 @@ Auto-GPT 與 AgentGPT 兩者使用的詞彙與步驟有所不同，但大同小�
 * Auto-GPT: Goal -> N Thought > (Reasoning, Criticism > Next Action, System) -> Result
 * AgentGPT: Goal -> N Task > (Thinking > Executing) -> Result
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.jpg?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT 範例 指令介面
 </sup></sub></p>
