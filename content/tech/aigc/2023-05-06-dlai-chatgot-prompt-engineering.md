@@ -25,10 +25,11 @@ series: aigc
 
 2023-04-28 (五) 左右，AI 大師吳恩達與 DeepLearning.AI 合作推出免費 1.5 小時線上課程: [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)。相信已經很多人也被心得文資訊轟炸過一輪。
 
-先說結論
+先說結論:
 
 1. 不需要在意太多別人的文章，包含我的這一篇，重要的是**自己動手實作**。(雖然我也一向不寫太詳細的操作文 😂)
-2. 大膽地說，**所有人都應該學習 ChatGPT 及其應用，以提高生產力**。這一波的發展下來，普遍的共識是 AI 將會成為比手機與電腦更為普及的存在。如果你認同手機與電腦是當代社會吸收資訊或工作不可或缺的工具，那就沒有理由不學習 AI 的使用方式。AI 互動成為未來 10 年後的一門基本教育課，可能都不為過。
+2. 大膽地說，**所有現代社會人都應該學習 ChatGPT 及其應用，以提高生產力**。這一波的發展下來，普遍的共識是 AI 將會成為比手機與電腦更為普及的存在。如果你認同手機與電腦是當代社會吸收資訊或工作不可或缺的工具，那就沒有理由不學習 AI 的使用方式。AI 互動學成為未來 10 年後的一門基本教育課，可能都不為過。
+3. 反過來說，不學又怎麼樣？ 20 年後的話，可能就像出門都用雙腳走路，不使用任何電器、不搭乘交通工具。可以過著一個清閒的自然生活，但同時也失去了探索更多地區的體驗。雖然不會真的怎麼樣，但也有點可惜。
 
 你能透過這篇文章學到:
 
@@ -48,7 +49,7 @@ series: aigc
 
 🤔 Q: ChatGPT 如何改變你的工作與生活?
 
-💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?
+💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼地方可以發揮潛力?
 
 <!--more-->
 
@@ -57,6 +58,87 @@ series: aigc
 1. [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
 2. [https://github.com/androchentw/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese](https://github.com/androchentw/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
 3. [openai官方《提示词工程课》超详细中文笔记](https://ec26ubh65w.feishu.cn/docx/PuULdQP3wojyZYxn157cnsDXnqe)
+
+## 前情提要
+
+我本身在做流程優化，所以會從這些觀點切入。
+
+1. 目標: 激發你對新應用的想像力
+2. 明確指示: 發出指示。 將 "聰明但不清楚任務細節的人"
+
+## 02 準則
+
+[02 準則](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/2/guidelines)
+
+### 清晰且具體的指示
+
+寫出清晰且具體的指示 write **clear and specific instructions**. clear != short
+
+(截圖 07:45)
+
+1. 分隔符號 Use delimiters (```, ===, ...) 以避免 prompt injections
+2. 結構化輸出 **structured output** (HTML, JSON, markdown, ...)
+3. 例外處理 Exception Handling
+4. 示範成功 Few-shot prompting
+5. 整合範例
+
+```prompt
+* Delimiter: Answer in a consistent style within >>>. 
+* Structured output: Respond in markdown format
+* Exception Handling: If there is no contents available. respond "NA".
+
+>>>
+[user1] What is ETL?
+
+[user2] First extract, then transform, then load.
+
+[user1] What is ELT?
+>>>
+```
+
+### 思考時間
+
+給模型思考的時間 Give the model time to think.
+
+(截圖 16:45)
+
+1. 不要給太過複雜的指示。或是切分成數個小的任務 (或是請 ChatGPT 列出任務列表, 再手動調整)
+
+```prompt
+* Perform the following actions
+
+Step 1. 
+Step 2. 
+Step 3.
+
+Using the following format:
+
+* Text: <text to summarize>
+* Summary: <summary>
+* Translation: <summary translation>
+
+Text to summarize: <{text}>
+
+```
+
+1. 讓他自己想, 再跟既有答案比較, 並進行評估
+
+### 模型限制 Model Limitation
+
+1. 幻覺 Hallucination. 「一本正經的瞎掰」
+2. to reduce Find relevant information, then answer based on that
+
+## 03 迭代
+
+(截圖 13:00) Iterative
+
+1. 第一次 prompt 並不重要, 重要的是你取得正確 prompt 的過程
+2. Iterative Prompt Development: 敏捷! (之前的文)
+   1. Idea > Implementation (code / data) Experimental result > Error Analysis
+3. 不需要去在意什麼 "30 個完美 prompt" 的文章, 重要的是 過程
+4. 長度, 格式, 特定規格
+5. 重點不是在 "知道完美的 prompt", 而是 "瞭解如何用更好的過程來開發 prompts"
+6. 這個我之前的想像一致: 重點是減少你迭代的次數，而不是你記得多少。因為每次的需求都會不太一樣
 
 ## 你怎麼看?
 
