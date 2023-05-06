@@ -186,16 +186,33 @@ Text: ```{text}```
 
 ## 07 擴寫 Expanding
 
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-3-1.jpg?raw=true">
+<p align="center"><sub><sup>
+  7-1 Temperature
+</sup></sub></p>
+
+> 個人化電子郵件 Generate personalized email based on some information.
+
+1. 客服 AI 助理 customer service AI assistant
+2. 調整溫度，平衡穩定與多樣性 Temperature
+
 ## 08 聊天機器人 Chatbot
 
 ## 09 結論 Conclusion
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-9-1.jpg?raw=true">
 <p align="center"><sub><sup>
+  9-1
+</sup></sub></p>
+
+## 感想
+
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-10-1.jpg?raw=true">
+<p align="center"><sub><sup>
   數據 > 資訊 > 知識 > 洞察 > 智慧. <a href="https://random-blather.com/2014/04/28/information-isnt-power/" target="_blank">David Somerville</a>
 </sup></sub></p>
 
-最後分享一張我很喜歡的圖。為什麼要強調需要動手實作呢? 因為看完**別人的文章，終究只是資訊**而已。要能夠成為自己可以應用的知識，甚至從中發現洞察，關鍵步驟就是**透過實作，與自己的既有知識產生連結**。
+另外分享一張我很喜歡的圖。為什麼要強調需要動手實作呢? 因為看完**別人的文章，終究只是資訊**而已。要能夠成為自己可以應用的知識，甚至從中發現洞察，關鍵步驟就是**透過實作，與自己的既有知識產生連結**。
 
 持續學習，共勉之 💪
 
