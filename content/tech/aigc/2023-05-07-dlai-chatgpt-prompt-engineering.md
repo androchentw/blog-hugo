@@ -170,7 +170,6 @@ Text to summarize: <{text}>
 2. 萃取資訊 Extract information
 3. 推理文章主題 + 比對判斷關鍵字 Inferring
 
-
 ## 06 轉化 Transforming
 
 1. 翻譯 Translate
@@ -216,14 +215,21 @@ Text: ```{text}```
 
 持續學習，共勉之 💪
 
+也分享我目前的一些應用範例:
+
+1. [ChatGPT 語言自學術: 6 招善用 YouTube + 免費外掛提升 TOEIC 聽說讀寫](https://blog.androchen.tw/chatgpt-learn-language-6-tips-youtube-toeic/)
+2. [3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力](https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/)
+3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
+4. [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution)
+
 ## 你怎麼看?
 
 留下你的想法一起討論吧! 🥳
 
 延伸閱讀
 
-1. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
-2. [如何善用 AI 加速知識循環](https://blog.androchen.tw/ai-accelerate-knowledge-revolution)
+1. [Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)
+2. [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/)
 
 ### Murmur
 
