@@ -11,13 +11,14 @@ tags:
   - aigc
   - chatgpt
   - productivity
+  - agile
 share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT Prompt Engineering Overview
 </sup></sub></p>
@@ -30,11 +31,11 @@ series: aigc
 2. 大膽地說，**所有現代社會人都應該學習 ChatGPT 及其應用，以提高生產力**。這一波的發展下來，普遍的共識是 AI 將會成為比手機與電腦更為普及的存在。如果你認同手機與電腦是當代社會吸收資訊及工作不可或缺的工具，那就沒有理由不學習 AI 的使用方式。AI 互動學成為未來 10 年後的一門基礎教育課，可能都不為過。
 3. 反過來說，不學又怎麼樣？ 20 年後的話，可能就像出門都用雙腳走路，不使用任何電器、不搭乘交通工具。可以過著一個清閒的自然生活，但同時也失去了探索更多地區的體驗。也許不會真的怎麼樣，但也有點可惜。
 
-這個課程適合的客群 TA:
+這個課程適合的**客群 TA**:
 
-1. 💪 希望更進一步提升自己使用 ChatGPT 等 LLM 的生產力。
-2. 🕒 願意投資時間 (2 ~ 4小時) 理解並運用。課程 9 章共 1.5 小時左右，加上吸收理解的時間，就算當作一個週末的英文聽力也好。
-3. 💻 具備一點程式基礎。課程會搭配線上 Jupyter Notebook & Python SDK。
+1. 💪 希望更進一步提升自己使用 ChatGPT 等 LLM 的**生產力**。
+2. 🕒 願意**投資時間** (2 ~ 4小時) 理解並運用。課程 9 章共 1.5 小時左右，加上吸收理解的時間，就算當作一個週末的英文聽力也好。
+3. 💻 具備一點**程式基礎**。課程會搭配線上 Jupyter Notebook & Python SDK。
 
 我想特別鼓勵一下**沒有程式基礎的朋友，不用擔心**。因為影片裡都有程式範例，也有解說，就算聽不懂也可以一鍵執行。而且你會發現高階語言已經不如以往的程式一般可怕，當作英文文章去讀即可。在我這一輩的台灣社會，習慣用文組/理組來區分能力。事實上完全不需要畫地自限，負面自我暗示。不如說，**ChatGPT 等 LLM 的誕生，為文組人帶來實作能力強化的好處**。
 
@@ -68,7 +69,7 @@ series: aigc
 
 以下附上課程摘要心智圖，可以參考[此 gist - 2023-05-07-dlai-chatgot-prompt-engineering.md](https://gist.github.com/androchentw/a49e672eed4f1089f4aaf76f6509dfd0)，搭配 [markmap](https://markmap.js.org/repl) 製作自己的課程 mindmap 筆記。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-summary.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-summary.jpg?raw=true">
 <p align="center"><sub><sup>
   1-Summary mindmap
 </sup></sub></p>
@@ -150,7 +151,7 @@ Text to summarize: <{text}>
 
 ## 03 迭代 Iterative
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-3-1.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-3-1.jpg?raw=true">
 <p align="center"><sub><sup>
   3-1 Iterative Prompt Development: 敏捷迭代！
 </sup></sub></p>
@@ -206,14 +207,14 @@ Text: ```{text}```
 
 ## 09 結論 Conclusion
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-9-1.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-9-1.jpg?raw=true">
 <p align="center"><sub><sup>
   9-1
 </sup></sub></p>
 
 ## 感想
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-10-1.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-10-1.jpg?raw=true">
 <p align="center"><sub><sup>
   數據 > 資訊 > 知識 > 洞察 > 智慧. <a href="https://random-blather.com/2014/04/28/information-isnt-power/" target="_blank">David Somerville</a>
 </sup></sub></p>
