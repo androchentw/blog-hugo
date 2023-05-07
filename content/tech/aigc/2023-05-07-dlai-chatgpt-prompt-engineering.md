@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "ChatGPT 實戰 9 招 - DeepLearning.AI Prompt 免費課程"
 url: dlai-chatgot-prompt-engineering
 # date: 2023-05-06T08:30:00+08:00
-date: 2023-05-07T09:00:00+08:00
+date: 2023-05-07T08:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -20,16 +19,16 @@ series: aigc
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
-  DLAI ChatGPT Prompt Engineering
+  ChatGPT Prompt Engineering Overview
 </sup></sub></p>
 
-2023-04-28 (五) 左右，AI 大師吳恩達與 DeepLearning.AI 合作推出免費 1.5 小時線上課程: [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)。相信已經很多人也被心得文資訊轟炸過一輪。
+2023-04-28(五) 左右，AI 大師吳恩達與 DeepLearning.AI 合作推出免費 1.5 小時線上課程: [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)。相信已經很多人也被心得文資訊轟炸過一輪。
 
 先說結論:
 
 1. 不需要在意太多別人的文章，包含我的這一篇，重要的是**自己動手實作**。(雖然我也一向不寫太詳細的操作文 😂)。2023-05-06 的活動: [2023 Generative AI (AIGC 詠唱者年會)](https://hackmd.io/@ejc/2023gaiconf/https%3A%2F%2Fhackmd.io%2F%40ejc%2F2023gaiconf) 當中，也有各種非理工的實作應用，值得大家多加參考。
 2. 大膽地說，**所有現代社會人都應該學習 ChatGPT 及其應用，以提高生產力**。這一波的發展下來，普遍的共識是 AI 將會成為比手機與電腦更為普及的存在。如果你認同手機與電腦是當代社會吸收資訊及工作不可或缺的工具，那就沒有理由不學習 AI 的使用方式。AI 互動學成為未來 10 年後的一門基礎教育課，可能都不為過。
-3. 反過來說，不學又怎麼樣？ 20 年後的話，可能就像出門都用雙腳走路，不使用任何電器、不搭乘交通工具。可以過著一個清閒的自然生活，但同時也失去了探索更多地區的體驗。雖然不會真的怎麼樣，但也有點可惜。
+3. 反過來說，不學又怎麼樣？ 20 年後的話，可能就像出門都用雙腳走路，不使用任何電器、不搭乘交通工具。可以過著一個清閒的自然生活，但同時也失去了探索更多地區的體驗。也許不會真的怎麼樣，但也有點可惜。
 
 這個課程適合的客群 TA:
 
@@ -37,7 +36,7 @@ series: aigc
 2. 🕒 願意投資時間 (2 ~ 4小時) 理解並運用。課程 9 章共 1.5 小時左右，加上吸收理解的時間，就算當作一個週末的英文聽力也好。
 3. 💻 具備一點程式基礎。課程會搭配線上 Jupyter Notebook & Python SDK。
 
-我想特別鼓勵一下**沒有程式基礎的朋友，不用擔心**。因為影片裡都有程式範例，也有解說，就算聽不懂也可以一鍵執行。而且你會發現高階語言已經不如以往的程式一般可怕，當作英文文章去讀即可。在我這一輩的台灣社會，習慣用文組/理組來區分能力。事實上完全不需要畫地自限，負面自我暗示。不如說，**ChatGPT 等 LLM 的誕生，為文組人帶來實作能力強化的好處**。畢竟，你也不會說出「因為我是文組的，所以我學不會使用手機跟電腦」吧 😂
+我想特別鼓勵一下**沒有程式基礎的朋友，不用擔心**。因為影片裡都有程式範例，也有解說，就算聽不懂也可以一鍵執行。而且你會發現高階語言已經不如以往的程式一般可怕，當作英文文章去讀即可。在我這一輩的台灣社會，習慣用文組/理組來區分能力。事實上完全不需要畫地自限，負面自我暗示。不如說，**ChatGPT 等 LLM 的誕生，為文組人帶來實作能力強化的好處**。
 
 另一層面，你可以將程式語言視為是一種「**更有結構、邏輯性更強的語言**」。透過這個機會學習一種語言表達的方式，是非常適合且有效率的。用人話來說，就是「學了程式語言之後，我才發現自己平常講話的邏輯是多麼模糊不清」。不懂的地方就問 ChatGPT，持續學習！所有的學習都不會白費 👍
 
@@ -60,9 +59,14 @@ series: aigc
 
 我本身的工作是在做開發維運的流程優化，所以會習慣從流程的觀點切入。內容也不會跟課程完全一樣。
 
-建議重點還是放在各位的**日常實務**。在未來的使用過程中，可以時常回想自己是否有做到這些。
+建議重點還是放在各位的**日常實務**。什麼意思呢?
 
-以下附上課程摘要心智圖，可以參考[此 gist](https://gist.github.com/androchentw/a49e672eed4f1089f4aaf76f6509dfd0)，搭配 [markmap](https://markmap.js.org/repl) 進行呈現。
+1. 思考如何改善原本費時/瑣碎的工作流程。
+2. 融入到日常生活中，創造改變。
+
+在未來的使用過程中，也可以時常回想自己是否有運用這些技巧。這堂課程對於已經熟悉如何應用 ChatGPT 的朋友來說並不困難，可以算是簡單的基礎課。即便如此還是建議從更系統化的方式，重新檢視自己還有哪些可以深入探討的地方。
+
+以下附上課程摘要心智圖，可以參考[此 gist - 2023-05-07-dlai-chatgot-prompt-engineering.md](https://gist.github.com/androchentw/a49e672eed4f1089f4aaf76f6509dfd0)，搭配 [markmap](https://markmap.js.org/repl) 製作自己的課程 mindmap 筆記。
 
 <img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-summary.jpg?raw=true">
 <p align="center"><sub><sup>
@@ -185,7 +189,7 @@ Text: ```{text}```
 
 ## 07 擴寫 Expanding
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-3-1.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-7-1.jpg?raw=true">
 <p align="center"><sub><sup>
   7-1 Temperature
 </sup></sub></p>
@@ -196,6 +200,9 @@ Text: ```{text}```
 2. 調整溫度，平衡穩定與多樣性 Temperature
 
 ## 08 聊天機器人 Chatbot
+
+* 訂單機器人
+* 上下文 Context
 
 ## 09 結論 Conclusion
 
