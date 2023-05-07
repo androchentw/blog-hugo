@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT 實戰 9 招 - DeepLearning.AI Prompt 免費課程"
-url: dlai-chatgot-prompt-engineering
+url: dlai-chatgpt-prompt-engineering
 # date: 2023-05-06T08:30:00+08:00
 date: 2023-05-07T08:00:00+08:00
 author: androchentw
