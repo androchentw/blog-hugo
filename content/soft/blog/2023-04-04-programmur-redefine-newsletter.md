@@ -118,4 +118,3 @@ series: blog
 * 2023-04-01: 希望自己能夠繼續堅持下去這個 知識產出計畫 😆
 * 2023-04-04: 數位行銷跟電子報真的是越挖越大坑... 還是先保持簡單就好!
 * 2023-04-16: 增加 [英文版](https://programmuren.substack.com/) 與 [日語版](https://programmurja.substack.com/)，幫助自己學習語言! 🥳
-
