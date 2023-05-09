@@ -1,9 +1,9 @@
 ---
 draft: true
-title: "莫忘初衷 + 成為貢獻者 - AIGC 年會社群觀察雜感"
+title: "莫忘初衷 + 成為貢獻者 - AIGC 年會社群感想"
 url: remember-original-intentions-contribute
 # date: 2023-05-08T15:30:00+08:00
-date: 2023-05-09T07:00:00+08:00
+date: 2023-05-08T16:00:00+08:00
 author: androchentw
 type: post
 categories:
@@ -21,6 +21,7 @@ series: reflection
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-09-remember-original-intentions-contribute-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
   1-overview
+  心智圖 引述
 </sup></sub></p>
 
 🤔 Q:
@@ -31,9 +32,9 @@ series: reflection
 
 ## 1. 挑戰: 莫忘初衷 真的很難
 
-這次年會因為有其他要事，所以沒有參加，著實可惜。除了看到很多精彩的[共筆 - 2023 Generative AI（AIGC 詠唱者年會）活動筆記](https://hackmd.io/@ejc/2023gaiconf)與網誌，也看到一些評論。想從旁觀者的視角，分享我的觀察與感想。
+這次年會因為有其他要事，所以沒有參加，著實可惜。除了看到很多精彩的[共筆 - 2023 Generative AI（AIGC 詠唱者年會）活動筆記](https://hackmd.io/@ejc/2023gaiconf)與網誌，也看到一些評論。想從旁觀者的視角，分享我的觀察與感想。沒有參加可能也是一種機緣，不然我可能會把心力放在總結年會議程 😂
 
-### 目標受眾
+### 目標受眾 TA
 
 永遠不可能滿足所有人
 
@@ -42,15 +43,15 @@ series: reflection
 > 之前都看過了，沒什麼收穫
 
 寫這一篇的用意，很大成分也是為了濃縮我這兩個月的心得，作為未來創作的養分與提醒。
-說實在我是一個蠻容易受他人影響心情的人，簡稱~~玻璃心~~。
+說實在我是一個有點敏感，蠻容易受他人影響心情的人，簡稱~~玻璃心~~。
 
-### 回饋與數字遊戲
+### 回饋與數字遊戲. OKR vs. KPI
 
 一個好的創作者，一定會從回饋中(不論是統計數字或是文字)，思考改進的點。這並不意味著永遠都要追求最高點閱/按讚/分享數，那就淪為內容農場與標題殺人了。
 
 但是同時，一則創作終究還是要基於事實觀察不斷調整，比如說受眾的習慣時間、會有共鳴的關鍵字等。這就是每個創作者的選擇了。說實話我也是在開始練習積極寫作、經營社群後才不斷深刻感受。
 
-只能不斷地提醒自己莫忘初衷。不是為了那些數字而生，而是因為有想要傳達的東西，所以才要創作；想要更有效率地傳達，發揮更多影響力，才要關注回饋與數字。一如職場中，KPI 與 OKR 的差異，如果只是為了達到數字，卻偏離了目標，那可能就失去意義了。要說這是自我催眠也好，至少我想這樣相信。
+只能不斷地提醒自己莫忘初衷。不是為了那些數字而生，而是因為有想要傳達的東西，所以才要創作；想要更有效率地傳達，發揮更多影響力，才要關注回饋與數字。一如職場中，OKR 與 KPI 的差異，如果只是為了達到數字，卻偏離了目標，那可能就失去意義了。要說這是自我催眠也好，至少我想這樣相信。
 
 ## 2. 解法: 精神按摩 + ORID 焦點討論法
 
@@ -84,11 +85,24 @@ series: reflection
 1. 可能花費太多時間在打造完美 (投入 vs. 產出的平衡)
 2. 沒有聽見其他潛藏的聲音 (就像開會問有沒有問題，都沒有人有問題，那就可能「有問題」了 😂)
 
-## 4. 成為貢獻者
+## 4. CTA: 成為貢獻者
+
+這裡我想也給自己與正在閱讀的你，一個 CTA (Call To Action, 行動呼籲): **成為貢獻者**。
+
+### 當個提交 Pull Request 的人
 
 再者，如果你覺得內容不過癮，那下次請分享示範什麼叫做好。以 GitHub 來說，**當個提交 Pull Request 的人**，而不要只是發出令人無法採取行動的 Issue。或是直接 fork 出更好的一片天，讓志同道合的人建立百家爭鳴、互相切磋的盛世。
 
+讓我們參考 [GitHub 對於 Issue 與 Pull Request 的定義](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop):
+
+1. Pull Request (或稱 Merge Request): 提出解法
+   1. you can propose, discuss, and iterate on changes before you merge the changes into the project.
+2. Issue: 看見問題、提需求
+   1. You can use issues to track ideas, bugs, tasks, and other information that's important to your project.
+
 課程太簡單，我都會了 → 那就由你來為大家說明進階的應用，開啟更多視野。
+
+### Clean Code: 童子軍規則
 
 🌠 Bob大叔在《Clean Code》提到美國童子軍有一條簡單的規則：「離開營地前，讓營地比使用前更加乾淨。」捲起袖子動手改變吧!
 
@@ -102,7 +116,7 @@ series: reflection
 
 ### 背後的考量與努力
 
-很多東西未必是想分享就能講。甚至為了聽眾與時間考量，都只能取捨。
+很多東西未必是想分享就能講。甚至為了聽眾與時間考量，都只能取捨。在企業內部推動事情，很多時候還真的是會覺得已知用火。但也漸漸地知道其中有很多眉角需要關注。這些都不是三言兩語能夠總結的。
 
 「你必須很努力，才能看起來毫不費力」。我並不是想鼓勵偽裝，而是想點出輕描淡寫的背後，多半隱含著大量的努力。
 
