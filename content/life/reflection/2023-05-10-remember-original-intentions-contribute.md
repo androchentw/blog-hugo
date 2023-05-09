@@ -20,8 +20,7 @@ series: reflection
 
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
-  1-overview
-  心智圖 引述
+  心智圖: 莫忘初衷 + 成為貢獻者
 </sup></sub></p>
 
 這次年會因為有其他要事，沒有參加，著實可惜。除了看到很多精彩的[共筆 - 2023 Generative AI（AIGC 詠唱者年會）活動筆記](https://hackmd.io/@ejc/2023gaiconf)與網誌，也看到一些評論。想從旁觀者的視角，分享我的觀察與感想。沒有參加可能也是一種機緣，不然我可能會把心力放在總結年會議程 😂
@@ -52,7 +51,7 @@ series: reflection
 
 <img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-2-quantify.jpg?raw=true">
 <p align="center"><sub><sup>
-  數值化之鬼
+  《數值化之鬼》
 </sup></sub></p>
 
 工作中，我們會使用各種衡量指標，試圖回答我們的表現是否良好。一個好的創作者，一定也會從回饋中(不論是統計數字或是文字)，思考改進的點。**這並不意味著永遠都要追求最高點閱/按讚/分享數，那就淪為內容農場與標題殺人了**。
