@@ -188,6 +188,12 @@ series: reflection
 2. [科技旅程半年報 - 重拾手沖咖啡與生活儀式感](https://blog.androchen.tw/programmur-redefine-newsletter)
 3. [AIGC 浪潮翻騰 15 週後的 6 大行為改變](https://blog.androchen.tw/6-behavior-change-after-AIGC-burst-15-weeks)
 
+> 若希望看到更多這類科技新知與應用，歡迎訂閱免費電子報，即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
+>
+> 每週 1~2 篇 3000 字 6 分鐘文章，與 400+ 訂閱者一起探索科技旅程 Explore tech journey
+>
+> 您的訂閱與回饋，就是對我寫文章最大的支持 🥳
+
 ### Murmur
 
 * 2023-05-10: 持續產出! 鍛鍊心智!
