@@ -128,7 +128,7 @@ series: reflection
 
 ### Clean Code: 童子軍規則
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-5-clean.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-5-clean.jpg?raw=true">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/@thefloridaguidebook">Florida-Guidebook.com</a> on <a href="https://unsplash.com/photos/9CRd1J1rEOM">Unsplash</a>
 </sup></sub></p>  
@@ -155,7 +155,7 @@ series: reflection
 
 ## 6. 前進: 見賢思齊，見不賢而內自省
 
-<img style="width:40%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-6-peace.jpg?raw=true">
+<img style="width:60%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-6-peace.jpg?raw=true">
 <p align="center"><sub>
   EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
 </sub></p>
