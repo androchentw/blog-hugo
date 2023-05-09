@@ -239,6 +239,12 @@ Text: ```{text}```
 1. [Auto-GPT & AgentGPT 有多神? AI 全自動完成任務 - 簡介篇](https://blog.androchen.tw/auto-gpt-agentgpt-introduction/)
 2. [ChatGPT 實戰 - 3 招加速知識產出](https://blog.androchen.tw/chatgpt-knowledge-production/)
 
+> 若希望看到更多這類科技新知與應用，歡迎訂閱免費電子報，即時不漏接: [https://programmur.substack.com](https://programmur.substack.com)
+>
+> 每週 1~2 篇 3000 字 6 分鐘文章，與 400+ 訂閱者一起探索科技旅程 Explore tech journey
+>
+> 您的訂閱與回饋，就是對我寫文章最大的支持 🥳
+
 ### Murmur
 
 * 2023-05-07: 不斷學習!
