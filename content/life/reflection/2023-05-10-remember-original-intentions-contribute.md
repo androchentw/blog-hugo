@@ -176,6 +176,11 @@ series: reflection
 
 ## 7. 範疇論與抽象思考
 
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-7-map.jpg?raw=true">
+<p align="center"><sub>
+  Photo by <a href="https://unsplash.com/@chrislawton">Chris Lawton</a> on <a href="https://unsplash.com/photos/o0l-M8W_7wA">Unsplash</a>
+</sub></p>  
+
 最後一個可能有點離題的靈感，提出來看看有沒有人可以協助我想得更清楚。未經驗證，不用太過在意。
 
 算算這些年，也參加近 10 場 100 人以上的 annual conference (MOPCON, Agile, DevOps, Splunk, Google, ...)。其中印象特別深的是幾場西方的 conference。雖然本身就是設定為更加技術取向的研討會，但不管是深度與廣度，都是令人拍手叫好的程度。其實在台灣的一些技術小聚，也會有一些場次看到這類精彩的分享。
