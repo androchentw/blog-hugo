@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "初探 ChatGPT Plugins - 5 種日常應用整合"
+title: "ChatGPT Plugins 活用術 - 工作學習 3 場景應用"
 url: chatgpt-plugins-3-daily-scenario
 # date: 2023-05-22T15:30:00+08:00
 date: 2023-05-22T16:00:00+08:00
@@ -13,15 +13,15 @@ tags:
   - chatgpt
   - productivity
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-5-daily-scenario-1-overview.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-1-overview.jpg?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-5-daily-scenario-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
-  初探 ChatGPT Plugins - 5 種日常應用整合
+  ChatGPT Plugins 活用術 - 工作學習 3 場景應用
 </sup></sub></p>
 
 ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說結論:
@@ -33,9 +33,9 @@ ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說�
 
 1. Prompt Perfect 協助完善 prompt，再也不用死記
 2. Show Me 圖表整合度高，一鍵生成還能修改
-3. 學習助理 Speak, Tutory: 情境式學習 + 讀書計畫
-4. PDF 原生體驗: Summary + 頁碼 + 原文引用
-5. Web Browsing, 財經類、News 整合
+3. PDF 原生體驗: Summary + 頁碼 + 原文引用
+4. 學習助理 Speak, Tutory: 情境式學習 + 讀書計畫
+5. 網頁瀏覽 Web Browsing + 日常新聞 News 整合
 
 最後附上活用技巧與一些心得。這一波 Plugins 數量真的不少，一一測起來蠻花時間的。建議是找出自己日常就會運用的環節，歡迎留下你感興趣的 Plugins 與應用場景，讓我們一起發想。✨
 
@@ -45,11 +45,38 @@ ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說�
 
 <!--more-->
 
-## 場景 1: Prompt Perfect
+## 場景 1: Prompt Perfect 協助完善 prompt，再也不用死記
 
-## 場景 2: Show Me 圖表整合度高
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-2-prompt.jpg?raw=true">
+<p align="center"><sub><sup>
+  Prompt Perfect
+</sup></sub></p>
 
-## 場景 3: 家教學習類可參考 Speak, Tutory
+## 場景 2: Show Me 圖表整合度高，一鍵生成還能修改
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-3-showme.jpg?raw=true">
+<p align="center"><sub><sup>
+  Show Me
+</sup></sub></p>
+
+## 場景 3: PDF 原生體驗: Summary + 頁碼 + 原文引用
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-4-pdf.jpg?raw=true">
+<p align="center"><sub><sup>
+  AskYourPDF
+</sup></sub></p>
+
+PDF: [https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new-chatgpt-api/81446](https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new-chatgpt-api/81446)
+
+[AskYourPDF](https://askyourpdf.com/)
+結合其他運用
+
+## 場景 4: 學習助理 Speak, Tutory: 情境式學習 + 讀書計畫
+
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-5-learn.jpg?raw=true">
+<p align="center"><sub><sup>
+  Speak, Tutory
+</sup></sub></p>
 
 整合 GPT 3.5 快速產出
 整合 Wolfram 學科知識
@@ -62,20 +89,21 @@ ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說�
 可以更好地做到情境問答: `explainTask`: smalltalk in company before meeting
 請他做角色扮演
 
-## 場景 4: PDF
+## 場景 5: 網頁瀏覽 Web Browsing + 日常新聞 News 整合
 
-PDF: [https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new-chatgpt-api/81446](https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new-chatgpt-api/81446)
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-5-web-browsing.jpg?raw=true">
+<p align="center"><sub><sup>
+  Web Browsing
+</sup></sub></p>
 
-[AskYourPDF](https://askyourpdf.com/)
-結合其他運用
+目前看到關於 Web Browsing 有兩種
 
-## 場景 5: Web Browsing, 日常 news
+1. 原生: 可以直接當 search engine 提問，好處是會附出處連結。但只會掃出一兩篇的樣子，而且經常 read failed.
+2. 讀取特定頁面的 plugin: WebPilot, LinkReader (需要提供 url)
 
-Web Browsing: 原生的可以先頂著用，會附出處連結。但只會掃第一篇的樣子
-速度上不如點擊進去一篇，然後使用 Glarity 做整頁 summary
-日常 news
-WebPilot
-LinkReader
+這兩類的速度上，我會選擇不如點擊進去某一篇 google search，然後使用 Glarity 做整頁 summary
+
+另外，日常 news, 財經資訊等 plugins 我就沒有特別嘗試了，有興趣的朋友可以玩玩看。
 
 ## 活用技巧
 
