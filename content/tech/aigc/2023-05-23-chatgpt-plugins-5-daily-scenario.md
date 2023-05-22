@@ -26,17 +26,22 @@ series: aigc
 
 ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說結論:
 
-1. Web Browsing 並非萬能，但能帶來一些想法。不足之處: 執行時間長、瀏覽文章數少。
-2. Prompt Perfect 協助完善 prompt
-3. Show Me 圖表整合度高
-4. 家教學習類可參考 Speak, Tutory
-5. PDF 原生體驗
-6. 活用技巧
-7. 知識行為持續改變
+1. Plugins 的品質參差不齊，建議多方嘗試
+2. Web Browsing 並非萬能，但能帶來一些想法。不足之處: 執行時間長、瀏覽文章數少。
 
-🤔 Q: 你在生活/工作中，如何運用 ChatGPT 改善自己的流程?
+接下來聊今天會帶到的 5 種日常應用整合
 
-💪 A: 記錄下
+1. Prompt Perfect 協助完善 prompt，再也不用死記
+2. Show Me 圖表整合度高，一鍵生成還能修改
+3. 學習助理 Speak, Tutory: 情境式學習 + 讀書計畫
+4. PDF 原生體驗: Summary + 頁碼 + 原文引用
+5. Web Browsing, 財經類、News 整合
+
+最後附上活用技巧與一些心得。這一波 Plugins 數量真的不少，一一測起來蠻花時間的。建議是找出自己日常就會運用的環節，歡迎留下你感興趣的 Plugins 與應用場景，讓我們一起發想。✨
+
+🤔 Q: 你在生活/工作中，如何運用 ChatGPT 改善自己的流程？
+
+💪 A: 記錄你最感興趣，且會實際開始採用的 3 個場景。
 
 <!--more-->
 
@@ -47,21 +52,30 @@ ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說�
 ## 場景 3: 家教學習類可參考 Speak, Tutory
 
 整合 GPT 3.5 快速產出
-整合 Wolfram 學識
+整合 Wolfram 學科知識
 
 [tutory ai](https://www.tutory-ai.com/)
+主打排 Learning Path + Update + 加筆記
+我自己是覺得有點花俏了😅
+
+[Speak](https://www.speak.com/): OpenAI 親兒子
+可以更好地做到情境問答: `explainTask`: smalltalk in company before meeting
+請他做角色扮演
 
 ## 場景 4: PDF
 
 PDF: [https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new-chatgpt-api/81446](https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new-chatgpt-api/81446)
 
+[AskYourPDF](https://askyourpdf.com/)
 結合其他運用
 
-## 場景 5: Web Browsing
+## 場景 5: Web Browsing, 日常 news
 
 Web Browsing: 原生的可以先頂著用，會附出處連結。但只會掃第一篇的樣子
 速度上不如點擊進去一篇，然後使用 Glarity 做整頁 summary
 日常 news
+WebPilot
+LinkReader
 
 ## 活用技巧
 
@@ -70,8 +84,11 @@ Web Browsing: 原生的可以先頂著用，會附出處連結。但只會掃第
    1. 普遍需要 30 ~ 120 秒，還有卡住/失敗的風險。普通任務或是先問個方向的，可以先用原始的 ChatGPT
    2. 一般 ChatGPT 3.5 大概 2~10 秒
    3. 一般 ChatGPT 4 大概 10~30 秒
+   4. 後續要打開頁面也會花比較多時間
 3. 展開細節，自行調整
 4. 專注在你想要解決的問題，並持續調整流程
+
+[Plugin 試用網頁](https://gptstore.ai/chat)
 
 ## 知識行為持續改變
 
