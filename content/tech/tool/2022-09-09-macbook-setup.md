@@ -247,8 +247,8 @@ brew install --cask font-hack-nerd-font
 
 ```sh
 # Powerlevel10k
-brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >> ~/.zshrc
+brew install powerlevel10k
+echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 source ~/.zshrc
 p10k configure
 ```
