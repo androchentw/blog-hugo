@@ -6,41 +6,6 @@ var main = {
   numImgs : null,
 
   init : function() {
-    const SPACING = 100;
-    const $toc = $('#TableOfContents');
-    const $footer = $('.post-footer');
-
-    if ($toc.length) {
-      const minScrollTop = $toc.offset().top - SPACING;
-      const maxScrollTop = $footer.offset().top - $toc.height() - SPACING;
-
-      const tocState = {
-        start: {
-          'position': 'absolute',
-        },
-        process: {
-          'position': 'fixed',
-          'top': SPACING,
-        },
-        end: {
-          'position': 'absolute',
-          'top': maxScrollTop,
-        },
-      };
-
-      $(window).scroll(function() {
-        const scrollTop = $(window).scrollTop();
-
-        if (scrollTop < minScrollTop) {
-          $toc.css(tocState.start);
-        } else if (scrollTop > maxScrollTop) {
-          $toc.css(tocState.end);
-        } else {
-          $toc.css(tocState.process);
-        }
-      });
-    }
-
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function() {
         if ($(".navbar").offset().top > 50) {
@@ -48,22 +13,6 @@ var main = {
         } else {
             $(".navbar").removeClass("top-nav-short");
         }
-    });
-
-    // back to top event
-    const $backToTop = $('#back-to-top');
-    if ($toc.length) {
-      $(window).scroll(function() {
-        if ($(window).scrollTop() > 100) {
-          $backToTop.fadeIn(1000);
-        } else {
-          $backToTop.fadeOut(1000);
-        }
-      });
-    }
-
-    $backToTop.click(function() {
-      $('body,html').animate({scrollTop: 0});
     });
 
     // On mobile, hide the avatar when expanding the navbar menu
@@ -115,6 +64,58 @@ var main = {
 
     // show the big header image
     main.initImgs();
+
+    // feat ui: Add TOC (TableOfContents)
+    const SPACING = 100;
+    const $toc = $('#TableOfContents');
+    const $footer = $('.post-footer');
+
+    if ($toc.length) {
+      const minScrollTop = $toc.offset().top - SPACING;
+      const maxScrollTop = $footer.offset().top - $toc.height() - SPACING;
+
+      const tocState = {
+        start: {
+          'position': 'absolute',
+        },
+        process: {
+          'position': 'fixed',
+          'top': SPACING,
+        },
+        end: {
+          'position': 'absolute',
+          'top': maxScrollTop,
+        },
+      };
+
+      $(window).scroll(function() {
+        const scrollTop = $(window).scrollTop();
+
+        if (scrollTop < minScrollTop) {
+          $toc.css(tocState.start);
+        } else if (scrollTop > maxScrollTop) {
+          $toc.css(tocState.end);
+        } else {
+          $toc.css(tocState.process);
+        }
+      });
+    }
+
+    // feat ui: back to top
+    const $backToTop = $('#back-to-top');
+    if ($toc.length) {
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > 100) {
+          $backToTop.fadeIn(1000);
+        } else {
+          $backToTop.fadeOut(1000);
+        }
+      });
+    }
+
+    $backToTop.click(function() {
+      $('body,html').animate({scrollTop: 0});
+    });
   },
 
   initImgs : function() {
@@ -231,3 +232,49 @@ var main = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', main.init);
+/**
+ * Add copy button to code block
+ */
+document.addEventListener('DOMContentLoaded', () => {
+  const highlights = document.querySelectorAll('.row div.highlight');
+  const copyText = '📋';
+  const copiedText = '✔️';
+
+  highlights.forEach((highlight) => {
+      const copyButton = document.createElement('button');
+      copyButton.innerHTML = copyText;
+      copyButton.classList.add('copyCodeButton');
+      highlight.appendChild(copyButton);
+
+      const codeBlock = highlight.querySelector('code[data-lang]');
+      if (!codeBlock) return;
+
+      copyButton.addEventListener('click', () => {
+          // Create a deep clone of the code block
+          const codeBlockClone = codeBlock.cloneNode(true);
+
+          // Remove line number elements from the clone
+          const lineNumbers = codeBlockClone.querySelectorAll('.ln');
+          lineNumbers.forEach(ln => ln.remove());
+
+          // Get the text content, splitting by lines, trimming each line, and joining back
+          const codeText = codeBlockClone.textContent
+              .split('\n')              // Split into lines
+              .map(line => line.trim()) // Trim each line
+              .join('\n');              // Join lines back with newline
+
+          navigator.clipboard.writeText(codeText)
+              .then(() => {
+                  copyButton.textContent = copiedText;
+
+                  setTimeout(() => {
+                      copyButton.textContent = copyText;
+                  }, 1000);
+              })
+              .catch((err) => {
+                  alert('Failed to copy text');
+                  console.error('Something went wrong', err);
+              });
+      });
+  });
+});
