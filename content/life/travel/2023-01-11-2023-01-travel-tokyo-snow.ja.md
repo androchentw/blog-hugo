@@ -9,11 +9,11 @@ categories:
   - life
 tags: 
   - travel
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2023-01-travel-tokyo-map.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/travel/2023-01-travel-tokyo-map.png?raw=true
 series: travel
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/travel/2023-01-travel-tokyo-map.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/travel/2023-01-travel-tokyo-map.png?raw=true">
 <p align="center"><sub><sup>
   Photo by androchentw
 </sup></sub></p>

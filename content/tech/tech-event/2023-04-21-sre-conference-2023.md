@@ -12,11 +12,11 @@ tags:
   - sre
   - devops
   - platform-engineering
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true
 series: tech-event
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 富邦國際會議中心
 </sup></sub></p>
@@ -39,7 +39,7 @@ series: tech-event
 
 ## Agenda
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-1-overview.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-1-overview.png?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 11 場議程與總結反思
 </sup></sub></p>
@@ -77,7 +77,7 @@ series: tech-event
 11. 沒有銀子彈。
 12. 重新定義 SRE = Service Restart Engineer 🤣
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-2-lunch.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-2-lunch.jpg?raw=true">
 <p align="center"><sub><sup>
   每次最期待的議程 - 便當 (並不是 😆)
 </sup></sub></p>
@@ -110,7 +110,7 @@ series: tech-event
 
 ### Case Study - Zalando
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-3-zalando-tech-radar.png?raw=true">
 <p align="center"><sub><sup>
   <a href="https://opensource.zalando.com/tech-radar/" target="_blank">Zalando Tech Radar 技術雷達圖</a>
 </sup></sub></p>
@@ -181,7 +181,7 @@ series: tech-event
 
 ## 3. 🥇 [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-3-Cathay.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-3-Cathay.png?raw=true">
 <p align="center"><sub><sup>
   [國泰世華銀行] 國泰如何進行金融 SRE 的發展
 </sup></sub></p>
@@ -370,7 +370,7 @@ series: tech-event
 
 1. [x]: 如何在企業內部創造 API 經濟，推廣 API-first 思維?
 
-<img style="width:70%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
+<img style="width:70%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-4-afternoon-tea.jpg?raw=true">
 <p align="center"><sub><sup>
   下午茶
 </sup></sub></p>
@@ -444,7 +444,7 @@ IaC - Terraform
 
 ## 11. 🥇 [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-11-TSMC.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-11-TSMC.png?raw=true">
 <p align="center"><sub><sup>
   [台積電] SRE 經驗分享 - 從事故分析、精準監控到自動化維運
 </sup></sub></p>
@@ -526,7 +526,7 @@ IaC - Terraform
 1. 注意到講者用的 Powerpoint template 是 [Jafar Designs](https://www.behance.net/jafardesigns) 😆
 2. 這場本來更想聽 TSMC 內部作法與推行上遇到的挑戰，但今天比較多講書上的內容，雖然充實但有點可惜！據說已經就是這樣子運作了。不過也完全可以理解應該是很多不能講的。而且能做成這樣已經很不容易了，很多單位連認真的報告都還沒寫...
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-04-21-sre-conference-2023-5-reception.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-04-21-sre-conference-2023-5-reception.jpg?raw=true">
 <p align="center"><sub><sup>
   SRE Conference 2023 - 富邦國際會議中心
 </sup></sub></p>

@@ -13,11 +13,11 @@ tags:
   - sre
   - aigc
   - chatgpt
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true
 series: tech-event
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/tech-event/2023-03-31-2023-microsoft-innovation-cloud-native-platform-engineering-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   台灣微軟微風信義 19F 辦公室
 </sup></sub></p>

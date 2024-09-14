@@ -13,13 +13,13 @@ tags:
   - chatgpt
   - productivity
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-1-overview.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-1-overview.jpg?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT Plugins 活用術 - 工作學習 3 場景應用
 </sup></sub></p>
@@ -47,21 +47,21 @@ ChatGPT Plugins 於上週 05-15 陸續開放給 ChatGPT Plus 訂閱者。先說�
 
 ## 場景 1: Prompt Perfect 協助完善 prompt，再也不用死記
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-2-prompt.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-2-prompt.jpg?raw=true">
 <p align="center"><sub><sup>
   Prompt Perfect
 </sup></sub></p>
 
 ## 場景 2: Show Me 圖表整合度高，一鍵生成還能修改
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-3-showme.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-3-showme.jpg?raw=true">
 <p align="center"><sub><sup>
   Show Me
 </sup></sub></p>
 
 ## 場景 3: PDF 原生體驗: Summary + 頁碼 + 原文引用
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-4-pdf.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-4-pdf.jpg?raw=true">
 <p align="center"><sub><sup>
   AskYourPDF
 </sup></sub></p>
@@ -73,7 +73,7 @@ PDF: [https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new
 
 ## 場景 4: 學習助理 Speak, Tutory: 情境式學習 + 讀書計畫
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-5-learn.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-5-learn.jpg?raw=true">
 <p align="center"><sub><sup>
   Speak, Tutory
 </sup></sub></p>
@@ -91,7 +91,7 @@ PDF: [https://community.openai.com/t/chatpdf-com-chat-with-any-pdf-using-the-new
 
 ## 場景 5: 網頁瀏覽 Web Browsing + 日常新聞 News 整合
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-5-web-browsing.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-23-chatgpt-plugins-3-daily-scenario-5-web-browsing.jpg?raw=true">
 <p align="center"><sub><sup>
   Web Browsing
 </sup></sub></p>

@@ -11,13 +11,13 @@ tags:
   - aigc
   - reflection
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-1-overview.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-1-overview.jpg?raw=true
 series: reflection
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
   心智圖: 莫忘初衷 + 成為貢獻者
 </sup></sub></p>
@@ -57,7 +57,7 @@ series: reflection
 
 ### 回饋與衡量指標. OKR vs. KPI
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-2-quantify.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-2-quantify.jpg?raw=true">
 <p align="center"><sub><sup>
   《數值化之鬼》
 </sup></sub></p>
@@ -70,7 +70,7 @@ series: reflection
 
 ## 2. 解法: 精神按摩 + ORID 焦點討論法
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-3-orid.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-3-orid.jpg?raw=true">
 <p align="center"><sub><sup>
   ORID 焦點討論法。版權為 <a href="https://flipedu.parenting.com.tw/article/008274" target="_blank">翻轉教育</a> 所有
 </sup></sub></p>
@@ -87,7 +87,7 @@ series: reflection
 
 ## 3. 信仰: 「影響」這件事，發生了 100 次
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-4-impact.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-4-impact.jpg?raw=true">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/@apellaes">Alexandre Pellaes</a> on <a href="https://unsplash.com/photos/6vAjp0pscX0">Unsplash</a>
 </sup></sub></p>
@@ -136,7 +136,7 @@ series: reflection
 
 ### Clean Code: 童子軍規則
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-5-clean.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-5-clean.jpg?raw=true">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/@thefloridaguidebook">Florida-Guidebook.com</a> on <a href="https://unsplash.com/photos/9CRd1J1rEOM">Unsplash</a>
 </sup></sub></p>  
@@ -163,7 +163,7 @@ series: reflection
 
 ## 6. 前進: 見賢思齊，見不賢而內自省
 
-<img style="width:80%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-6-peace.jpg?raw=true">
+<img style="width:80%;" alt="基努李維 即使你說1+1=5，你也是對的，不客氣" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-6-peace.jpg?raw=true">
 <p align="center"><sub>
   EVEN if you tell me 1+1=5, YOU'RE absolutely correct, ENJOY
 </sub></p>
@@ -176,7 +176,7 @@ series: reflection
 
 ## 7. 範疇論與抽象思考
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-05-10-remember-original-intentions-contribute-7-map.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-7-map.jpg?raw=true">
 <p align="center"><sub>
   Photo by <a href="https://unsplash.com/@chrislawton">Chris Lawton</a> on <a href="https://unsplash.com/photos/o0l-M8W_7wA">Unsplash</a>
 </sub></p>  

@@ -12,11 +12,11 @@ tags:
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.jpg?raw=true
 series: aigc
 ---
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.jpg?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   MidJourney: /imagine prompt: ChatGPT / LLM use cases and my two cents:: photorealistic::1 --v 4
 </sup></sub></p>
@@ -93,7 +93,7 @@ series: aigc
 
 這也讓我想到, 在 IT 產業待久了, 總是能從對於新技術的反應, 看每個人性格的 陣營九宮格😆 (樂觀/悲觀; 實事求是/一知半解)
 
-<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
+<img style="width:40%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-02-25-chatgpt-llm-use-cases-two-cents-summary.jpg?raw=true">
 <p align="center"><sub><sup>
   我以為今天的我沒有極限, 實際上的我卻在討拍
 </sup></sub></p>

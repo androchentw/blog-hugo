@@ -13,11 +13,11 @@ tags:
   - coffee
   - agile
   - blog
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
 series: reflection
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   2019-05-02 手沖咖啡
 </sup></sub></p>
@@ -30,7 +30,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 * [OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023](https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/)
 * [OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務](https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates)
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
 <p align="center"><sub><sup>
   TED2023 (Photo: Gilberto Tadday / TED)
 </sup></sub></p>
@@ -48,7 +48,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 
 💪 A: 列出一個你想實踐/創作/影響的領域，並試圖規劃 1 年的路線圖 (roadmap)
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
 <p align="center"><sub><sup>
   Overview
 </sup></sub></p>
@@ -63,7 +63,7 @@ ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否
 
 ### 用自己的步調，感受這個世界
 
-<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-4-little-prince.jpg?raw=true">
+<img style="width:50%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-4-little-prince.jpg?raw=true">
 <p align="center"><sub><sup>
   《小王子》豢養
 </sup></sub></p>
@@ -126,7 +126,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 而且我相信的是，如果持續地將我的想法記錄下來，總有一天會讓某個在類似脈絡下苦惱/糾結的人，能夠看到有一個人以前也是這樣在梳理自己的思緒。這樣也算是一種**超越時空的抱團取暖**了吧。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-5-jp-conpaji.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-5-jp-conpaji.jpg?raw=true">
 <p align="center"><sub><sup>
   日劇: 喜劇開場. <a href="https://www.banger.jp/drama/57069/" target="_blank">著作權屬於日本電視台「コントが始まる」©NTV</a>
 </sup></sub></p>
@@ -137,7 +137,7 @@ ChatGPT 的出現，就像黃仁勳說的 「AI 的 iPhone 時刻」。除了用
 
 所以我想這一次，我還是會選擇繼續在早上 9 點的辦公室，手沖著每一支獨特香氣的咖啡。  
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-6-coffee.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-6-coffee.jpg?raw=true">
 <p align="center"><sub><sup>
   2023-04-26 手沖咖啡 - 月兔印琺瑯 0.7L, Hario v60, 1Zpresso Q2, 醒而眠日曬耶加
 </sup></sub></p>

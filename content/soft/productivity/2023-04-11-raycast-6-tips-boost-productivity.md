@@ -9,13 +9,13 @@ categories:
   - soft
 tags: 
   - productivity
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-11-raycast-6-tips-boost-productivity-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-11-raycast-6-tips-boost-productivity-cover.png?raw=true
 series: productivity
 ---
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-11-raycast-6-tips-boost-productivity-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-11-raycast-6-tips-boost-productivity-cover.png?raw=true">
 <p align="center"><sub><sup>
   Raycast 6 招啟動工作生產力
 </sup></sub></p>

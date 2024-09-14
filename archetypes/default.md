@@ -12,11 +12,11 @@ tags:
   - reflection
   - aigc
   - coffee
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true
 series: blog
 ---
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 <p align="center"><sub><sup>
   cover
 </sup></sub></p>

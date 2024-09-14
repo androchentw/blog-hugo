@@ -13,13 +13,13 @@ tags:
   - chatgpt
   - aigc
   - toeic
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.ja.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.ja.jpg?raw=true
 series: learn-en
 ---
 
 ## 概要
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 言語独学術
 </sup></sub></p>
@@ -52,7 +52,7 @@ series: learn-en
 2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): BBCが提供する無料英語教育。
 3. [ESL Brains](https://eslbrains.com): 大人向けに設計された動画教材。私のオンライン家庭教師がこれを使って授業をしています。教師版と学生版のPDFがダウンロードできます。
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
 <p align="center"><sub><sup>
   ESL Brains
 </sup></sub></p>
@@ -63,7 +63,7 @@ series: learn-en
 
 ## 2. Trancy 二言語字幕 + イマーシブ学習
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   Trancy
 </sup></sub></p>
@@ -78,12 +78,12 @@ series: learn-en
 
 ## 3. Glarity 動画要約生成 + TOEIC 問題 + 単語リスト
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity
 </sup></sub></p>
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity
 </sup></sub></p>
@@ -125,14 +125,14 @@ Glarityのもう一つの気に入っている点は、回答全体を一発で�
 
 詳細な操作は前回の記事を参照してください：[3分でインフォグラフィック - ChatGPT + Mermaid で生産性を向上させよう](https://blog.androchen.tw/ja/3-minute-infographic-chatgpt-mermaid-productivity)。
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity summary Mindmap
 </sup></sub></p>
 
 ## 4. ChatGPTで翻訳し、単語帳を作成する
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.ja.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT 翻訳と単語帳
 </sup></sub></p>

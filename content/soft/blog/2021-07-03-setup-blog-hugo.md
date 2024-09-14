@@ -98,7 +98,7 @@ hugo -D
    7. [Add Sub Menu in Hugo Website](https://codingnconcepts.com/hugo/nested-menu-hugo/)
    8. [Lists of Content in Hugo](https://gohugo.io/templates/lists/)
 2. [Theme - Beautifulhugo (我使用的)](https://github.com/halogenica/beautifulhugo/blob/master/i18n/zh-TW.yaml)
-   1. [blog-theme](https://github.com/androchentw/blog-theme/blob/master/i18n/zh-TW.yaml)
+   1. [blog-theme](https://github.com/androchentw/blog-theme/blob/main/i18n/zh-TW.yaml)
    2. [Locales - zh, zh_Hant, zh_Hant_TW](https://github.com/gohugoio/locales)
 3. [Hugo 論壇](https://discourse.gohugo.io/search?q=zh%20chinese)
    1. [zh-tw](https://discourse.gohugo.io/t/is-it-good-idea-to-use-tw-instead-of-zh-tw-in-i18n/39088/4)

@@ -10,11 +10,11 @@ categories:
 tags: 
   - blog
   - marketing
-share_img: https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true
 series: blog
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true">
 <p align="center"><sub><sup>
   京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
 </sup></sub></p>
@@ -85,7 +85,7 @@ series: blog
 
 除了科技新知以外，我更想分享與討論「觀點、洞見」。職場上我們常被問 insight：「你的洞見是什麼」。即是說，眼前觀察到的是事實（一個 300 ml 的水杯，裝了 150ml 的水），但你看到了什麼？想說的是什麼？ (只剩半杯?還有半杯?)。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
 <p align="center"><sub><sup>
   你的洞見是什麼？
 </sup></sub></p>
@@ -98,17 +98,17 @@ series: blog
 
 上週心血來潮也用 [namecheap](https://www.namecheap.com/logo-maker/) 免費玩了一下 logo design。但其實做完有一種原本比較有特色的感覺 🤣
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur cover - Explore Tech Journey
 </sup></sub></p>
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-logo.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-logo.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Logo
 </sup></sub></p>
 
-<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-icon.png?raw=true">
+<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-icon.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Icon
 </sup></sub></p>

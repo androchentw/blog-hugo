@@ -13,13 +13,13 @@ tags:
   - chatgpt
   - aigc
   - toeic
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true
 series: learn-en
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.en.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT Language Learning
 </sup></sub></p>
@@ -52,7 +52,7 @@ I'm not sure if you're like me, wanting to use online resources to learn English
 2. [BBC Learning English](https://www.youtube.com/@bbclearningenglish): Free English lessons from BBC.
 3. [ESL Brains](https://eslbrains.com): Video materials designed for adults. My online tutor uses this for classes. Teacher and student PDFs are available for download.
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-2-esl-brains.jpg?raw=true">
 <p align="center"><sub><sup>
   ESL Brains
 </sup></sub></p>
@@ -63,7 +63,7 @@ Today, I mainly choose this video from ESL Brains to demonstrate: [You're never 
 
 ## 2. Trancy Bilingual Subtitles + Immersive Learning
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.en.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-3-trancy.en.jpg?raw=true">
 <p align="center"><sub><sup>
   Trancy
 </sup></sub></p>
@@ -78,12 +78,12 @@ It is perfect for **Shadowing** to train listening and speaking skills comprehen
 
 ## 3. Glarity Video Summary + TOEIC Questions + Vocabulary List
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.en.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-4-glarity.en.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity
 </sup></sub></p>
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.en.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-5-glarity.en.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity
 </sup></sub></p>
@@ -125,14 +125,14 @@ Glarity also has a feature I like, which is the ability to copy the entire answe
 
 For detailed operation, please refer to my previous article: [3-Minute Infographic - Boost Productivity with ChatGPT + Mermaid](https://blog.androchen.tw/en/3-minute-infographic-chatgpt-mermaid-productivity)
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.en.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-6-mindmap.en.jpg?raw=true">
 <p align="center"><sub><sup>
   Glarity summary Mindmap
 </sup></sub></p>
 
 ## 4. ChatGPT Translation, Creating Vocabulary Lists
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.en.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-7-chatgpt.en.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT translation and vocabulary lists
 </sup></sub></p>

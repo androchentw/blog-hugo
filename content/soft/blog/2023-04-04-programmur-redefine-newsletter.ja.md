@@ -10,11 +10,11 @@ categories:
 tags: 
   - blog
   - marketing
-share_img: https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true
 series: blog
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true">
 <p align="center"><sub><sup>
   京都高台寺 豊臣秀吉 御朱印帳 夢 Yume
 </sup></sub></p>
@@ -87,7 +87,7 @@ series: blog
 
 テクノロジーの新知識に加えて、私は「視点、洞察」を共有し議論したいと思っています。職場では、私たちには insight が問われます。「あなたの洞察は何ですか？」と。つまり、目の前で観察された事実（例えば、300mlのコップに150mlの水が入っている）ですが、あなたは何を見ていますか？何を言いたいのですか？（残り半分だけ？まだ半分ある？）
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
 <p align="center"><sub><sup>
   あなたの洞察は何ですか？
 </sup></sub></p>
@@ -100,17 +100,17 @@ series: blog
 
 先週、[namecheap](https://www.namecheap.com/logo-maker/) を使って無料でロゴデザインを楽しんでみました。
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur cover - Explore Tech Journey
 </sup></sub></p>
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-logo.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-logo.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Logo
 </sup></sub></p>
 
-<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-icon.png?raw=true">
+<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-icon.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Icon
 </sup></sub></p>

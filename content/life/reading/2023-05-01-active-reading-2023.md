@@ -11,13 +11,13 @@ categories:
 tags: 
   - reading
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/reading/reading.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/reading/reading.png?raw=true
 series: reading
 ---
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reading/reading.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reading/reading.png?raw=true">
 <p align="center"><sub><sup>
   Reading
 </sup></sub></p>

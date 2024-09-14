@@ -8,7 +8,7 @@ categories:
   - life
 tags: 
   - coffee
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/life/coffee/2021-03-25-SCAA_FlavorWheel-zh-TW.03-24-16.png?raw=true
 series: coffee
 ---
 

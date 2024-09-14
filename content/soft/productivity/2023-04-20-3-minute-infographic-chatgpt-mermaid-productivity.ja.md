@@ -13,13 +13,13 @@ tags:
   - productivity
   - infographic
   - diagram
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true
 series: productivity
 ---
 
 ## 概要
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.ja.png?raw=true">
 <p align="center"><sub><sup>
   3分でインフォグラフィック - ChatGPT + Mermaidで生産性を向上させよう
 </sup></sub></p>

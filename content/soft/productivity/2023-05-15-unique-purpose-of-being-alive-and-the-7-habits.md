@@ -12,13 +12,13 @@ tags:
   - productivity
   - management
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true
 series: productivity
 ---
 
 ## Overview
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
 <p align="center"><sub><sup>
   天下無雙 - 活著的意義與 7 個高效習慣
 </sup></sub></p>

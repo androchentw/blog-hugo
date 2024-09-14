@@ -28,6 +28,6 @@ If you think my articles have brought value to you, subscribing is the greatest 
 
 ## Copyright
 
-<img style="width:15%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/cc-by-nc-sa-4.png?raw=true" alt="CC BY-NC-SA 4.0">
+<img style="width:15%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/cc-by-nc-sa-4.png?raw=true" alt="CC BY-NC-SA 4.0">
 
 This work (ProgramMur by androchentw) is licensed under a Creative Commons Attribution 4.0 International License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).

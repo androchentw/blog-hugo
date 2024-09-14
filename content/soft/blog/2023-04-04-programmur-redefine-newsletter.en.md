@@ -10,11 +10,11 @@ categories:
 tags: 
   - blog
   - marketing
-share_img: https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true
 series: blog
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true">
 <p align="center"><sub><sup>
   Kyoto Kōdai-ji Temple, Hideyoshi Toyotomi, Goshuincho Dream Yume
 </sup></sub></p>
@@ -87,7 +87,7 @@ This is more like a **technology travelogue**. As with my original naming, each 
 
 In addition to technological new knowledge, I want to share and discuss "points of view and insights". In the workplace, we are often asked for insight: "What is your insight?" That is to say, what we observe is a fact (a 300 ml cup filled with 150 ml of water), but what do you see? What do you want to say? (Only half left? Still half left?)
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/blog/2023-04-04-programmur-redefine-newsletter-water.png?raw=true">
 <p align="center"><sub><sup>
   What is your insight?
 </sup></sub></p>
@@ -100,17 +100,17 @@ Those self-talking words that used to be sealed in diaries won't change much aft
 
 I also played with the logo design for free on [namecheap](https://www.namecheap.com/logo-maker/) last week.
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-cover.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-cover.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur cover - Explore Tech Journey
 </sup></sub></p>
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-logo.png?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-logo.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Logo
 </sup></sub></p>
 
-<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/programmur-icon.png?raw=true">
+<img style="width:20%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/programmur-icon.png?raw=true">
 <p align="center"><sub><sup>
   ProgramMur Icon
 </sup></sub></p>

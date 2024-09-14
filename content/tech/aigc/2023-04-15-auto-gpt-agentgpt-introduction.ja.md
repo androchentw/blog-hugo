@@ -14,13 +14,13 @@ tags:
   - agentgpt
   - productivity
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true
 series: aigc
 ---
 
 ## 概要
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.ja.png?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT / AgentGPT の 自動 AI メカニズム
 </sup></sub></p>
@@ -52,7 +52,7 @@ Auto-GPT をこれほどすごいものにする鍵は：
 
 ## 🔥 モンストレーション
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-2-agentgpt.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-2-agentgpt.png?raw=true">
 <p align="center"><sub><sup>
   AgentGPT サンプル Web インターフェイス
 </sup></sub></p>
@@ -70,14 +70,14 @@ Auto-GPTとAgentGPTの両方で使用される語彙と手順は異なります�
 * Auto-GPT: Goal -> N Thought > (Reasoning, Criticism > Next Action, System) -> Result
 * AgentGPT: Goal -> N Task > (Thinking > Executing) -> Result
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-3-auto-gpt.jpg?raw=true">
 <p align="center"><sub><sup>
   Auto-GPT サンプル コマンドインターフェース
 </sup></sub></p>
 
 また、[BabyAGI の Task-driven Autonomous Agent](https://twitter.com/yoheinakajima/status/1640934493489070080) は原理を図示しており、[繁体字中国語訳](https://github.com/yoheinakajima/babyagi/blob/main/docs/README-zh-tw.md)を提供するPRも出しました。興味のある方はぜひ参考にしてください。
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-4-babyagi.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-4-babyagi.png?raw=true">
 <p align="center"><sub><sup>
   BabyAGI アーキテクチャ原理
 </sup></sub></p>
@@ -90,7 +90,7 @@ Auto-GPTとAgentGPTの両方で使用される語彙と手順は異なります�
 
 ## 👀 要件/審査/フェーズレビューの重要性
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.ja.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-5-programmer-joke.ja.jpg?raw=true">
 <p align="center"><sub><sup>
   古典的なプログラミング言語のジョーク - スイカを見たら1つ買う、オレンジを見たら10個買う
 </sup></sub></p>
@@ -107,7 +107,7 @@ Auto-GPTとAgentGPTの両方で使用される語彙と手順は異なります�
 
 ## 🚀 Agile/Lean Startup "MVP" コンセプトを活用して、自分のロケットを構築する
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-6-mvp.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-6-mvp.jpg?raw=true">
 <p align="center"><sub><sup>
   <a href="https://startupbasics.com/minimum-viable-product" target="_blank rel="noopener noreferrer">startup basics</a> - Lean Startup MVP コンセプト スケートボード -> 自動車
 </sup></sub></p>

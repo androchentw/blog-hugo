@@ -12,13 +12,13 @@ tags:
   - chatgpt
   - productivity
   - agile
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true
 series: aigc
 ---
 
 ## Overview
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
 <p align="center"><sub><sup>
   ChatGPT Prompt Engineering Overview
 </sup></sub></p>
@@ -69,7 +69,7 @@ series: aigc
 
 以下附上課程摘要心智圖，可以參考[此 gist - 2023-05-07-dlai-chatgot-prompt-engineering.md](https://gist.github.com/androchentw/a49e672eed4f1089f4aaf76f6509dfd0)，搭配 [markmap](https://markmap.js.org/repl) 製作自己的課程 mindmap 筆記。
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-summary.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-summary.jpg?raw=true">
 <p align="center"><sub><sup>
   1-Summary mindmap
 </sup></sub></p>
@@ -80,7 +80,7 @@ series: aigc
 
 ### 1. 清晰且具體的指示
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-2-1.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-2-1.jpg?raw=true">
 <p align="center"><sub><sup>
   2-1
 </sup></sub></p>
@@ -116,7 +116,7 @@ Q: What is [user2]'s response?
 
 ### 2. 思考時間
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-2-2.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-2-2.jpg?raw=true">
 <p align="center"><sub><sup>
   2-2
 </sup></sub></p>
@@ -151,7 +151,7 @@ Text to summarize: <{text}>
 
 ## 03 迭代 Iterative
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-3-1.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-3-1.jpg?raw=true">
 <p align="center"><sub><sup>
   3-1 Iterative Prompt Development: 敏捷迭代！
 </sup></sub></p>
@@ -190,7 +190,7 @@ Text: ```{text}```
 
 ## 07 擴寫 Expanding
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-7-1.jpg?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-7-1.jpg?raw=true">
 <p align="center"><sub><sup>
   7-1 Temperature
 </sup></sub></p>
@@ -207,14 +207,14 @@ Text: ```{text}```
 
 ## 09 結論 Conclusion
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-9-1.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-9-1.jpg?raw=true">
 <p align="center"><sub><sup>
   9-1
 </sup></sub></p>
 
 ## 感想
 
-<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-10-1.jpg?raw=true">
+<img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-10-1.jpg?raw=true">
 <p align="center"><sub><sup>
   數據 > 資訊 > 知識 > 洞察 > 智慧. <a href="https://random-blather.com/2014/04/28/information-isnt-power/" target="_blank">David Somerville</a>
 </sup></sub></p>

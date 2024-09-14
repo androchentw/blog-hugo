@@ -12,11 +12,11 @@ tags:
   - llm
   - chatgpt
   - reflection
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-cover.jpeg?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-cover.jpeg?raw=true
 series: aigc
 ---
 
-<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-cover.jpeg?raw=true">
+<img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-cover.jpeg?raw=true">
 <p align="center"><sub><sup>
   Photo by <a href="https://unsplash.com/@paman0744?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aman Pal</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </sup></sub></p>
@@ -43,7 +43,7 @@ series: aigc
 
 <!--more-->
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-mindmap.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2022-12-10-chatgpt-applied-ai-reflection-mindmap.png?raw=true">
 <p align="center"><sub><sup>
   本文 Mindmap (ChatGPT 如何協助人類? 應用 AI 與科幻哲思)
 </sup></sub></p>

@@ -13,13 +13,13 @@ tags:
   - productivity
   - infographic
   - diagram
-share_img: https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true
+share_img: https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true
 series: productivity
 ---
 
 ## Overview
 
-<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
+<img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
 <p align="center"><sub><sup>
   3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力
 </sup></sub></p>
