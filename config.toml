@@ -12,8 +12,6 @@ metaDataFormat = "yaml"
 # pygmentsCodeFences = true
 # pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
-disqusShortname = "androchenblog"
-googleAnalytics = "G-PN5YM4PWN6"
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
@@ -58,9 +56,22 @@ summaryLength = 70
     [languages.ja.params]
       substack = "https://programmurja.substack.com/embed"
 
+[services]
+  [services.disqus]
+    shortname = 'androchenblog'
+  [services.googleAnalytics]
+    id = 'G-PN5YM4PWN6'
+  # [services.instagram]
+  #   accessToken = ''
+  #   disableInlineCSS = false
+  [services.rss]
+    limit = -1
+  # [services.twitter]
+  #   disableInlineCSS = false
+
 # Others
 
-[Params]
+[params]
   # Explore Tech Journey
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post"]
@@ -81,11 +92,11 @@ summaryLength = 70
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   substack = "https://programmur.substack.com/embed"
 
-[[Params.bigimg]]
+[[params.bigimg]]
   src = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
   desc = "京都高台寺 豐臣秀吉 御朱印帳 夢"
 
-[Author]
+[[params.authors]]
   name = "androchentw"
   website = "https://blog.androchen.tw/"
   email = "programmur.tw@gmail.com"
