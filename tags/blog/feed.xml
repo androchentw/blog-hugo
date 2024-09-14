@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blog on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/blog/</link><description>Recent content in blog on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Wed, 26 Apr 2023 11:00:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/blog/feed.xml" rel="self" type="application/rss+xml"/><item><title>科技旅程半年報 - 重拾手沖咖啡與生活儀式感</title><link>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</link><pubDate>Wed, 26 Apr 2023 11:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/blog/</link><description>Recent content in Blog on ProgramMur - 程序猿碎念</description><generator>Hugo</generator><language>zh-tw</language><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Sat, 14 Sep 2024 20:54:32 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/blog/feed.xml" rel="self" type="application/rss+xml"/><item><title>科技旅程半年報 - 重拾手沖咖啡與生活儀式感</title><link>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</link><pubDate>Wed, 26 Apr 2023 11:00:00 +0800</pubDate><guid>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-2019-05-02 手沖咖啡
+ 2019-05-02 手沖咖啡
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;h2 id="1-科技的腳步越來越快">1. 科技的腳步越來越快&lt;/h2>
 &lt;p>ChatGPT 的出現，還是讓不少人開始擔心著這麼多新東西，是否會跟不上的問題。尤其是 04/17 OpenAI cofounder Greg Brockman 在 TED2023 上面 Live Demo 了 ChatGPT 的 Plug-in 功能，進行事實查核。確實科技演進的步調越來越快。&lt;/p>
@@ -9,9 +9,9 @@
 &lt;li>&lt;a href="https://blog.ted.com/openai-cofounder-greg-brockman-demos-unreleased-chatgpt-plug-ins-live-at-ted2023/">OpenAI cofounder Greg Brockman demos unreleased ChatGPT plug-ins — live at TED2023&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.techbang.com/posts/105715-openai-shows-the-official-version-of-autogpt-live-creates">OpenAI 官方版 AutoGPT來了！ChatGPT「Auto 功能」創作畫畫發推一條龍，自主呼叫外部網頁完成任務&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
+&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-2-ted-chatgpt.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-TED2023 (Photo: Gilberto Tadday / TED)
+ TED2023 (Photo: Gilberto Tadday / TED)
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>我想從最近 blog 經營的角度切入，分享數字統計觀察，也&lt;del>無病呻吟&lt;/del>省思一下。🤩&lt;/p>
 &lt;p>主要是因為 &lt;a href="https://www.facebook.com/ProgramMur/">Facebook 專頁&lt;/a> 達到了 1,000 人按讚，2,000 人追蹤，以及 300 人訂閱&lt;a href="https://blog.androchen.tw/programmur-redefine-newsletter/">電子報&lt;/a>，感謝你的支持！對很多社群來說這是很小的數字，但對我個人來說是一個意義重大的里程碑。若對以下議題有興趣，歡迎繼續看下去。 🙂&lt;/p>
@@ -25,17 +25,17 @@ TED2023 (Photo: Gilberto Tadday / TED)
 &lt;/blockquote>
 &lt;p>🤔 Q: 你擔心 AIGC 浪潮帶來的改變嗎? 為什麼? 什麼方面?&lt;/p>
 &lt;p>💪 A: 列出一個你想實踐/創作/影響的領域，並試圖規劃 1 年的路線圖 (roadmap)&lt;/p>
-&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
+&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-Overview
-&lt;/sup>&lt;/sub>&lt;/p></description></item><item><title>ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報</title><link>https://blog.androchen.tw/programmur-redefine-newsletter/</link><pubDate>Tue, 04 Apr 2023 14:30:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/programmur-redefine-newsletter/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true">
+ Overview
+&lt;/sup>&lt;/sub>&lt;/p></description></item><item><title>ProgramMur 程序猿碎念 - 技術分享 Redefine + 電子報</title><link>https://blog.androchen.tw/programmur-redefine-newsletter/</link><pubDate>Tue, 04 Apr 2023 14:30:00 +0800</pubDate><guid>https://blog.androchen.tw/programmur-redefine-newsletter/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
+ 京都高台寺 豐臣秀吉 御朱印帳 夢 Yume
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>2023-04-04 原本想在愚人節發布的一千個期待。&lt;/p>
 &lt;p>最近拜 ChatGPT 之賜，多了很多新朋友，非常感謝關注，也希望我能持續呈現並帶給你有洞見的知識點。總結一下我對於這個 blog 的定位，以及預期會 cover 到的內容，並嘗試推出&lt;a href="https://programmur.substack.com/">免費電子報&lt;/a>。有任何回饋或想法，歡迎私訊或來信，我們一起成長，探索科技/生活/人生旅程。&lt;/p>
 &lt;p>🤔 Q: 你希望獲得什麼知識?&lt;/p>
-&lt;p>💪 A: 歡迎訂閱&lt;a href="https://programmur.substack.com/">電子報&lt;/a>!&lt;/p></description></item><item><title>重新定位 Blog 內容</title><link>https://blog.androchen.tw/blog-branding/</link><pubDate>Sun, 07 Aug 2022 15:36:16 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-branding/</guid><description>&lt;img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01-Blog-Structure.svg">
+&lt;p>💪 A: 歡迎訂閱&lt;a href="https://programmur.substack.com/">電子報&lt;/a>!&lt;/p></description></item><item><title>重新定位 Blog 內容</title><link>https://blog.androchen.tw/blog-branding/</link><pubDate>Sun, 07 Aug 2022 15:36:16 +0800</pubDate><guid>https://blog.androchen.tw/blog-branding/</guid><description>&lt;img style="width:80%;" src="https://raw.githubusercontent.com/androchentw/diagrams-res/main/blog/2022-08-01-Blog-Structure.svg">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>寫 blog 也好幾年了, 總是半途而廢, 隨性而行, 隨遇而安。
 心中總是有著想要好好維護的想法，希望這次透過更深度的思考，來檢視自己有興趣的都是些什麼類型的文章&lt;/p>
@@ -48,7 +48,7 @@ Overview
 &lt;li>建立知識框架的分類法則&lt;/li>
 &lt;/ol>
 &lt;h3 id="krs">KRs&lt;/h3>
-&lt;p>1.[x] 2022-08-07 建立文章分類架構圖&lt;/p></description></item><item><title>深入瞭解 Hugo Blog 目錄結構</title><link>https://blog.androchen.tw/blog-hugo-directory-structure/</link><pubDate>Sun, 07 Aug 2022 14:36:16 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-hugo-directory-structure/</guid><description>&lt;img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
+&lt;p>1.[x] 2022-08-07 建立文章分類架構圖&lt;/p></description></item><item><title>深入瞭解 Hugo Blog 目錄結構</title><link>https://blog.androchen.tw/blog-hugo-directory-structure/</link><pubDate>Sun, 07 Aug 2022 14:36:16 +0800</pubDate><guid>https://blog.androchen.tw/blog-hugo-directory-structure/</guid><description>&lt;img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;h3 id="challenges">Challenges&lt;/h3>
 &lt;ol>
@@ -61,7 +61,7 @@ Overview
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 2022-08-07 分類所有 blog posts&lt;/li>
-&lt;/ol></description></item><item><title>Add Series Taxonomy to Beautiful Hugo Theme</title><link>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</link><pubDate>Sat, 17 Jul 2021 15:47:50 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
+&lt;/ol></description></item><item><title>Add Series Taxonomy to Beautiful Hugo Theme</title><link>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</link><pubDate>Sat, 17 Jul 2021 15:47:50 +0800</pubDate><guid>https://blog.androchen.tw/add-series-taxonomy-to-beautiful-hugo-theme/</guid><description>&lt;img style="width:80%;" src="https://i.imgur.com/S8CwQqI.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>原本是看到這個 Series 操作就覺得蠻生火的: &lt;a href="https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/">Add Series Taxonomy to Hugo Theme&lt;/a>, 剛好拿來當練習~&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -80,9 +80,9 @@ Overview
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-07 Implement &lt;code>Series&lt;/code> feature on Hugo blog theme&lt;/li>
-&lt;/ol></description></item><item><title>Setup Blog Hugo</title><link>https://blog.androchen.tw/setup-blog-hugo/</link><pubDate>Sat, 03 Jul 2021 20:51:44 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/setup-blog-hugo/</guid><description>&lt;img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
+&lt;/ol></description></item><item><title>Setup Blog Hugo</title><link>https://blog.androchen.tw/setup-blog-hugo/</link><pubDate>Sat, 03 Jul 2021 20:51:44 +0800</pubDate><guid>https://blog.androchen.tw/setup-blog-hugo/</guid><description>&lt;img style="width:40%;" src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg">
 &lt;p>Step by step Setup Hugo Blog&lt;/p>
-&lt;p>終於從 ghost 搬來 Hugo 啦&lt;/p></description></item><item><title>自架部落格 - 使用 Ghost 並設定自己的域名</title><link>https://blog.androchen.tw/blog-ghost/</link><pubDate>Sat, 17 Dec 2016 16:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/blog-ghost/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
+&lt;p>終於從 ghost 搬來 Hugo 啦&lt;/p></description></item><item><title>自架部落格 - 使用 Ghost 並設定自己的域名</title><link>https://blog.androchen.tw/blog-ghost/</link><pubDate>Sat, 17 Dec 2016 16:00:00 +0000</pubDate><guid>https://blog.androchen.tw/blog-ghost/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/FaFgJha.png">
 &lt;p>2021-03-25&lt;/p>
 &lt;p>這次會重新用，可能是太久沒有升級導致超過 sunset, 過期了&lt;/p>
 &lt;p>改用這套來重新建 &lt;a href="https://github.com/SNathJr/ghost-on-heroku">https://github.com/SNathJr/ghost-on-heroku&lt;/a>&lt;/p></description></item></channel></rss>

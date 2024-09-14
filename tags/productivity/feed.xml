@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>productivity on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/productivity/</link><description>Recent content in productivity on ProgramMur - 程序猿碎念</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Sun, 07 May 2023 08:00:00 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/productivity/feed.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT 實戰 9 招 - DeepLearning.AI Prompt 免費課程</title><link>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</link><pubDate>Sun, 07 May 2023 08:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/productivity/</link><description>Recent content in Productivity on ProgramMur - 程序猿碎念</description><generator>Hugo</generator><language>zh-tw</language><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Sat, 14 Sep 2024 20:54:32 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/productivity/feed.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT 實戰 9 招 - DeepLearning.AI Prompt 免費課程</title><link>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</link><pubDate>Sun, 07 May 2023 08:00:00 +0800</pubDate><guid>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-ChatGPT Prompt Engineering Overview
+ ChatGPT Prompt Engineering Overview
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>2023-04-28(五) 左右，AI 大師吳恩達與 DeepLearning.AI 合作推出免費 1.5 小時線上課程: &lt;a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/">ChatGPT Prompt Engineering for Developers&lt;/a>。相信已經很多人也被心得文資訊轟炸過一輪。&lt;/p>
 &lt;p>先說結論:&lt;/p>
@@ -25,10 +25,10 @@ ChatGPT Prompt Engineering Overview
 &lt;li>💡 10% 應用發想。最重要的是腦力激盪的部分。&lt;/li>
 &lt;/ol>
 &lt;p>🤔 Q: ChatGPT 可以應用在你的工作與生活中，哪些流程?&lt;/p>
-&lt;p>💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼地方可以發揮潛力?&lt;/p></description></item><item><title>ChatGPT 語言自學術: 6 招善用 YouTube + 免費外掛提升 TOEIC 聽說讀寫</title><link>https://blog.androchen.tw/chatgpt-learn-language-6-tips-youtube-toeic/</link><pubDate>Mon, 01 May 2023 10:30:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-learn-language-6-tips-youtube-toeic/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true">
+&lt;p>💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼地方可以發揮潛力?&lt;/p></description></item><item><title>ChatGPT 語言自學術: 6 招善用 YouTube + 免費外掛提升 TOEIC 聽說讀寫</title><link>https://blog.androchen.tw/chatgpt-learn-language-6-tips-youtube-toeic/</link><pubDate>Mon, 01 May 2023 10:30:00 +0800</pubDate><guid>https://blog.androchen.tw/chatgpt-learn-language-6-tips-youtube-toeic/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/learn-en/2023-05-01-chatgpt-learn-language-6-tips-youtube-toeic-1-overview.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-ChatGPT 語言自學術
+ ChatGPT 語言自學術
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>51 勞動節不休息 😂 最近在積極地運用 ChatGPT 自學英文與日文。&lt;/p>
 &lt;p>學外語的動機，主要是想更增進日常會話以及吸收國外新知，剛好也有朋友在準備 TOEIC。主要是為了&lt;strong>提升學習的效率&lt;/strong>，二來是探索如何善用新 AI 科技真的非常有趣！&lt;/p>
@@ -40,10 +40,10 @@ ChatGPT 語言自學術
 &lt;/ol>
 &lt;p>🤔 Q: 你會使用 ChatGPT 來如何協助語言學習呢？&lt;/p>
 &lt;p>💪 A: 挑選一則 YouTube 影片，實際操作生成影片摘要與 TOEIC 學習內容。&lt;/p>
-&lt;p>今天主要分享英文活用的部分。日文也可以用類似的方式學習，但我自己採取的方式有些微不同。有興趣瞭解的朋友也請敲碗+1 讓我知道 😆&lt;/p></description></item><item><title>3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力</title><link>https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/</link><pubDate>Thu, 20 Apr 2023 10:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
+&lt;p>今天主要分享英文活用的部分。日文也可以用類似的方式學習，但我自己採取的方式有些微不同。有興趣瞭解的朋友也請敲碗+1 讓我知道 😆&lt;/p></description></item><item><title>3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力</title><link>https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/</link><pubDate>Thu, 20 Apr 2023 10:00:00 +0800</pubDate><guid>https://blog.androchen.tw/chatgpt-mermaid-3-minute-diagram-productivity/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-20-3-minute-infographic-chatgpt-mermaid-productivity-cover.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力
+ 3 分鐘打造資訊圖表 - ChatGPT + Mermaid 輕鬆提升生產力
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>前一回在 &lt;a href="https://blog.androchen.tw/chatgpt-knowledge-production/">ChatGPT 實戰 - 3 招加速知識產出&lt;/a> 分享了運用 ChatGPT 或其他 AI 來輔助 &amp;ldquo;&lt;strong>消化資料, 重新詮釋, 社群貼文&lt;/strong>&amp;rdquo; 的 3 個部分。這次來分享我實務中使用的圖表工具與結合方式，希望能幫助到愛用視覺化呈現說明邏輯的朋友。&lt;/p>
 &lt;p>其實這類 diagram as code 工具出來很久了，只是剛好 ChatGPT 讓這件事情更輕鬆。&lt;/p>
@@ -54,10 +54,10 @@ ChatGPT 語言自學術
 &lt;li>📝 使用 markdown 語法，無工程背景亦可簡單上手，方便版本控制&lt;/li>
 &lt;/ol>
 &lt;p>🤔 Q: 你會使用 ChatGPT + Mermaid 來協助製作哪些平常工作的什麼資訊圖表呢？&lt;/p>
-&lt;p>💪 A: 挑選一個範例，實際到線上編輯器畫一張圖表&lt;/p></description></item><item><title>Auto-GPT &amp; AgentGPT 有多神? AI 全自動完成任務 - 簡介篇</title><link>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</link><pubDate>Sat, 15 Apr 2023 12:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
+&lt;p>💪 A: 挑選一個範例，實際到線上編輯器畫一張圖表&lt;/p></description></item><item><title>Auto-GPT &amp; AgentGPT 有多神? AI 全自動完成任務 - 簡介篇</title><link>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</link><pubDate>Sat, 15 Apr 2023 12:00:00 +0800</pubDate><guid>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-Auto-GPT / AgentGPT 的 自動 AI 機制
+ Auto-GPT / AgentGPT 的 自動 AI 機制
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>在 ChatGPT 釋出約 4 個月後，運用 AI 自動完成任務的架構 &lt;a href="https://github.com/Torantulino/Auto-GPT">Auto-GPT&lt;/a> 與 &lt;a href="https://agentgpt.reworkd.ai/">AgentGPT&lt;/a> 問世。&lt;/p>
 &lt;p>意思是，只要你提供 &amp;ldquo;&lt;strong>目標 Goal&lt;/strong>&amp;quot;，他就能透過反覆 (&lt;strong>拆解任務 &amp;gt; 實作 &amp;gt; 驗證&lt;/strong>) 的迭代過程，最終&lt;strong>自動完成任務&lt;/strong>。&lt;/p>
@@ -75,17 +75,17 @@ Auto-GPT / AgentGPT 的 自動 AI 機制
 &lt;li>🚀 善用 Agile/Lean Startup &amp;ldquo;MVP&amp;rdquo; 概念, 打造你的專屬火箭&lt;/li>
 &lt;/ol>
 &lt;p>🤔 Q: Auto-GPT 能做到什麼程度?&lt;/p>
-&lt;p>💪 A: 思考自己拿 AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?&lt;/p></description></item><item><title>Raycast 6 招啟動工作生產力</title><link>https://blog.androchen.tw/raycast-6-tips-boost-productivity/</link><pubDate>Tue, 11 Apr 2023 18:30:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/raycast-6-tips-boost-productivity/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-11-raycast-6-tips-boost-productivity-cover.png?raw=true">
+&lt;p>💪 A: 思考自己拿 AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?&lt;/p></description></item><item><title>Raycast 6 招啟動工作生產力</title><link>https://blog.androchen.tw/raycast-6-tips-boost-productivity/</link><pubDate>Tue, 11 Apr 2023 18:30:00 +0800</pubDate><guid>https://blog.androchen.tw/raycast-6-tips-boost-productivity/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-11-raycast-6-tips-boost-productivity-cover.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-Raycast 6 招啟動工作生產力
+ Raycast 6 招啟動工作生產力
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>先前分享過我使用的軟體 - &lt;a href="https://blog.androchen.tw/macbook-setup/">Macbook 開發環境設定大全&lt;/a>，今天聚焦講講 Mac 上的萬能啟動器: Raycast。一路從 Alfred 換過來，超級滿意!&lt;/p>
 &lt;p>🤔 Q: 你常用的工作生產力軟體是什麼? 推薦用在什麼場景?&lt;/p>
-&lt;p>💪 A: 舉出 2 個生產力提升的改進方向。&lt;/p></description></item><item><title>自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0</title><link>https://blog.androchen.tw/sqlchat-ai-developer-tools-2/</link><pubDate>Wed, 05 Apr 2023 07:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/sqlchat-ai-developer-tools-2/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
-&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true">
+&lt;p>💪 A: 舉出 2 個生產力提升的改進方向。&lt;/p></description></item><item><title>自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0</title><link>https://blog.androchen.tw/sqlchat-ai-developer-tools-2/</link><pubDate>Wed, 05 Apr 2023 07:00:00 +0800</pubDate><guid>https://blog.androchen.tw/sqlchat-ai-developer-tools-2/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-05-sqlchat-ai-developer-tools-2-overview.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0
+ 自然語言 SQL Client + Chatbot - AI 時代開發者工具 2.0
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>2023-03-31 &lt;a href="https://www.bytebase.com/blog/sql-chat">bytebase 推出 SQL Chat&lt;/a>: 融合 SQL Client 與 Chatbot，可以使用自然語言提出資料庫問題和查詢資料庫。目前支持 MySQL, PostgreSQL。並且提供 &lt;a href="https://github.com/sqlchat/sqlchat">開源 GitHub Repo&lt;/a>，可以自建並連接本地 database。&lt;/p>
 &lt;p>非常推薦 Data Engineering, Data Science 甚至 Business Analysis 相關領域的朋友去 &lt;a href="https://www.sqlchat.ai/">SQL Chat 線上環境&lt;/a>玩一玩。&lt;/p>
@@ -95,15 +95,15 @@ Raycast 6 招啟動工作生產力
 &lt;li>AI 能不能寫 SQL?&lt;/li>
 &lt;li>AI 擅長協助什麼樣的 SQL 開發?&lt;/li>
 &lt;/ol>
-&lt;p>💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?&lt;/p></description></item><item><title>OpenAI CEO Sam Altman 生產力 4 招解密</title><link>https://blog.androchen.tw/openai-ceo-sam-altman-productivity-4-tips/</link><pubDate>Mon, 03 Apr 2023 08:30:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/openai-ceo-sam-altman-productivity-4-tips/</guid><description>&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
+&lt;p>💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?&lt;/p></description></item><item><title>OpenAI CEO Sam Altman 生產力 4 招解密</title><link>https://blog.androchen.tw/openai-ceo-sam-altman-productivity-4-tips/</link><pubDate>Mon, 03 Apr 2023 08:30:00 +0800</pubDate><guid>https://blog.androchen.tw/openai-ceo-sam-altman-productivity-4-tips/</guid><description>&lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/soft/productivity/2023-04-03-openai-ceo-sam-altman-productivity-tips-cover.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-OpenAI CEO Sam Altman 生產力 4 招解密
+ OpenAI CEO Sam Altman 生產力 4 招解密
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>2018-04-11，將近 5 年前的今天 OpenAI CEO Sam Altman 在其 blog 發布了一篇關於&lt;a href="https://blog.samaltman.com/productivity">生產力 - Productivity&lt;/a> 的文章。一起來看看這位傳奇人物的秘訣吧。&lt;/p>
 &lt;p>🤔 Q: 生產力對你的意義是什麼? 如何進一步提升自己的生產力?&lt;/p>
-&lt;p>💪 A: 條列對你有幫助的生產力提升 5 大實踐。&lt;/p></description></item><item><title>ChatGPT 實戰 - 3 招加速知識產出</title><link>https://blog.androchen.tw/chatgpt-knowledge-production/</link><pubDate>Sun, 26 Mar 2023 16:30:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/chatgpt-knowledge-production/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/master/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true">
+&lt;p>💪 A: 條列對你有幫助的生產力提升 5 大實踐。&lt;/p></description></item><item><title>ChatGPT 實戰 - 3 招加速知識產出</title><link>https://blog.androchen.tw/chatgpt-knowledge-production/</link><pubDate>Sun, 26 Mar 2023 16:30:00 +0800</pubDate><guid>https://blog.androchen.tw/chatgpt-knowledge-production/</guid><description>&lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-03-26-chatgpt-knowledge-production-cover.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
-ChatGPT Prompt 實戰 - 3 招加速知識生產
+ ChatGPT Prompt 實戰 - 3 招加速知識生產
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;h2 id="overview-概述">Overview 概述&lt;/h2>
 &lt;p>🤖 相信大家已經開始運用 ChatGPT 與各種 AI 在輔助寫作，提高知識產出效率，快速完成一篇文章撰寫。在很多知識領域，完全可以算是一種典範轉移 (Paradigm Shift) 了。&lt;/p>
@@ -114,9 +114,9 @@ ChatGPT Prompt 實戰 - 3 招加速知識生產
 &lt;li>肉: 子題內容&lt;/li>
 &lt;li>皮: 潤飾&lt;/li>
 &lt;/ol>
-&lt;p>來探討如何加速知識生產。針對不同的情境，分而治之。&lt;/p></description></item><item><title>如何做好時間管理的三個方法論與工具</title><link>https://blog.androchen.tw/time-managment/</link><pubDate>Thu, 13 Oct 2022 20:48:16 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/time-managment/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2340&amp;q=80">
+&lt;p>來探討如何加速知識生產。針對不同的情境，分而治之。&lt;/p></description></item><item><title>如何做好時間管理的三個方法論與工具</title><link>https://blog.androchen.tw/time-managment/</link><pubDate>Thu, 13 Oct 2022 20:48:16 +0800</pubDate><guid>https://blog.androchen.tw/time-managment/</guid><description>&lt;img style="width:60%;" src="https://images.unsplash.com/photo-1607856647955-3b566cac6f3d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2340&amp;q=80">
 &lt;p align="center">&lt;sub>&lt;sup>
-Photo by &lt;a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">De an Sun&lt;/a> on &lt;a href="https://unsplash.com/collections/QgcZDR5UeaE/time?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
+ Photo by &lt;a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">De an Sun&lt;/a> on &lt;a href="https://unsplash.com/collections/QgcZDR5UeaE/time?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash&lt;/a>
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;h3 id="challenges-現況-挑戰">Challenges 現況 挑戰&lt;/h3>
@@ -131,7 +131,7 @@ Photo by &lt;a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&amp;
 &lt;li>時間管理是手段，不是目的：花了太多時間與力氣在維護「管理時間」，但卻忘了最重要的是「有效率地交付」&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Elevator Pitch</title><link>https://blog.androchen.tw/elevator-pitch/</link><pubDate>Thu, 05 Aug 2021 23:55:14 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/elevator-pitch/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
+&lt;/ul></description></item><item><title>Elevator Pitch</title><link>https://blog.androchen.tw/elevator-pitch/</link><pubDate>Thu, 05 Aug 2021 23:55:14 +0800</pubDate><guid>https://blog.androchen.tw/elevator-pitch/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/PlKIb52.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>行之有年的 elevator pitch, 概念易懂, 卻需要有意識地練習精簡表達.&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -161,7 +161,7 @@ Photo by &lt;a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&amp;
 &lt;h3 id="krs">KRs&lt;/h3>
 &lt;ol>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-12 Consciously practice elevator pitch in every weekly meeting planning items&lt;/li>
-&lt;/ol></description></item><item><title>Value Proposition</title><link>https://blog.androchen.tw/value-proposition/</link><pubDate>Wed, 07 Jul 2021 21:14:59 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/value-proposition/</guid><description>&lt;img style="width:80%;" src="https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png">
+&lt;/ol></description></item><item><title>Value Proposition</title><link>https://blog.androchen.tw/value-proposition/</link><pubDate>Wed, 07 Jul 2021 21:14:59 +0800</pubDate><guid>https://blog.androchen.tw/value-proposition/</guid><description>&lt;img style="width:80%;" src="https://www.canvasgeneration.com/wp-content/uploads/2020/09/bb04a27aee4942bd872ee947808eaa1b.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>最近嘗試 Product Management 的概念套用在包裝日常工作內容&lt;/p>
 &lt;ul>
@@ -169,7 +169,7 @@ Photo by &lt;a href="https://unsplash.com/es/@andyadcon?utm_source=unsplash&amp;
 &lt;li>Focus and Prioritize: 判斷優先順序, 專注在重要的事物上&lt;/li>
 &lt;li>Sense of Accomplishment: 更有成就感, 而不是渾厄度日, 被雜務塞滿&lt;/li>
 &lt;/ul>
-&lt;p>除了設定 &lt;a href="https://blog.androchen.tw/okr-weekdone">OKR&lt;/a> 之外, 先釐清 Value Proposition 會是一個好選擇&lt;/p></description></item><item><title>OKR Weekdone</title><link>https://blog.androchen.tw/okr-weekdone/</link><pubDate>Sun, 04 Jul 2021 23:41:58 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/okr-weekdone/</guid><description>&lt;img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">
+&lt;p>除了設定 &lt;a href="https://blog.androchen.tw/okr-weekdone">OKR&lt;/a> 之外, 先釐清 Value Proposition 會是一個好選擇&lt;/p></description></item><item><title>OKR Weekdone</title><link>https://blog.androchen.tw/okr-weekdone/</link><pubDate>Sun, 04 Jul 2021 23:41:58 +0800</pubDate><guid>https://blog.androchen.tw/okr-weekdone/</guid><description>&lt;img style="width:40%;" src="https://blog.weekdone.com/wp-content/uploads/2018/10/weekdone-logo.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>OKR 作為企業與個人的目標設定心法, 已經是當代顯學. 然而,&lt;/p>
 &lt;ol>
