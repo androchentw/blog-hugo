@@ -103,18 +103,17 @@ var main = {
 
     // feat ui: back to top
     const $backToTop = $('#back-to-top');
-    if ($toc.length) {
-      $(window).scroll(function() {
-        if ($(window).scrollTop() > 100) {
-          $backToTop.fadeIn(1000);
-        } else {
-          $backToTop.fadeOut(1000);
-        }
-      });
-    }
-
     $backToTop.click(function() {
       $('body,html').animate({scrollTop: 0});
+    });
+
+    // feat ui: Shorten the navbar after scrolling a little bit down
+    $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar").addClass("top-nav-short");
+        } else {
+            $(".navbar").removeClass("top-nav-short");
+        }
     });
   },
 

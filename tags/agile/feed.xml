@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agile on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/agile/</link><description>Recent content in Agile on ProgramMur - 程序猿碎念</description><generator>Hugo</generator><language>zh-tw</language><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Sat, 14 Sep 2024 20:54:32 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/agile/feed.xml" rel="self" type="application/rss+xml"/><item><title>莫忘初衷 + 成為貢獻者 - 2023 AIGC 年會社群感想</title><link>https://blog.androchen.tw/remember-original-intentions-contribute/</link><pubDate>Wed, 10 May 2023 10:00:00 +0800</pubDate><guid>https://blog.androchen.tw/remember-original-intentions-contribute/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agile on ProgramMur - 程序猿碎念</title><link>https://blog.androchen.tw/tags/agile/</link><description>Recent content in Agile on ProgramMur - 程序猿碎念</description><generator>Hugo</generator><language>zh-tw</language><managingEditor>programmur.tw@gmail.com (androchentw)</managingEditor><webMaster>programmur.tw@gmail.com (androchentw)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW)</copyright><lastBuildDate>Sat, 14 Sep 2024 20:54:32 +0800</lastBuildDate><atom:link href="https://blog.androchen.tw/tags/agile/feed.xml" rel="self" type="application/rss+xml"/><item><title>莫忘初衷 + 成為貢獻者 - 2023 AIGC 年會社群感想</title><link>https://blog.androchen.tw/remember-original-intentions-contribute/</link><pubDate>Wed, 10 May 2023 10:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/remember-original-intentions-contribute/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-05-10-remember-original-intentions-contribute-1-overview.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
  心智圖: 莫忘初衷 + 成為貢獻者
 &lt;/sup>&lt;/sub>&lt;/p>
 &lt;p>這次年會因為有其他要事，沒有參加，著實可惜。除了看到很多精彩的&lt;a href="https://hackmd.io/@ejc/2023gaiconf">共筆 - 2023 Generative AI（AIGC 詠唱者年會）活動筆記&lt;/a>與網誌，也看到一些評論。想從旁觀者的視角，分享我的觀察與感想。沒有參加可能也是一種機緣，不然我可能會把心力放在總結年會議程 😂&lt;/p>
 &lt;p>🤔 Q: 你有參加這次 AIGC 年會嗎? 有什麼心得呢?&lt;/p>
-&lt;p>💪 A: 嘗試梳理觀點，以 200 字描述。&lt;/p></description></item><item><title>ChatGPT 實戰 9 招 - DeepLearning.AI Prompt 免費課程</title><link>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</link><pubDate>Sun, 07 May 2023 08:00:00 +0800</pubDate><guid>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>💪 A: 嘗試梳理觀點，以 200 字描述。&lt;/p></description></item><item><title>ChatGPT 實戰 9 招 - DeepLearning.AI Prompt 免費課程</title><link>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</link><pubDate>Sun, 07 May 2023 08:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/dlai-chatgpt-prompt-engineering/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-05-07-dlai-chatgpt-prompt-engineering-1-overview.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
  ChatGPT Prompt Engineering Overview
@@ -32,7 +32,7 @@
 &lt;li>💡 10% 應用發想。最重要的是腦力激盪的部分。&lt;/li>
 &lt;/ol>
 &lt;p>🤔 Q: ChatGPT 可以應用在你的工作與生活中，哪些流程?&lt;/p>
-&lt;p>💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼地方可以發揮潛力?&lt;/p></description></item><item><title>科技旅程半年報 - 重拾手沖咖啡與生活儀式感</title><link>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</link><pubDate>Wed, 26 Apr 2023 11:00:00 +0800</pubDate><guid>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
+&lt;p>💪 A: 思考自己拿 ChatGPT / AI 用來做些什麼? 效果如何? 還有什麼地方可以發揮潛力?&lt;/p></description></item><item><title>科技旅程半年報 - 重拾手沖咖啡與生活儀式感</title><link>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</link><pubDate>Wed, 26 Apr 2023 11:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/drip-coffee-ritual-tech-journey-semiannual-report/</guid><description>&lt;img style="width:60%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-1-cover.jpg?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
  2019-05-02 手沖咖啡
 &lt;/sup>&lt;/sub>&lt;/p>
@@ -62,7 +62,7 @@
 &lt;img style="width:80%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/life/reflection/2023-04-26-drip-coffee-ritual-tech-journey-semiannual-report-3-overview.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
  Overview
-&lt;/sup>&lt;/sub>&lt;/p></description></item><item><title>Auto-GPT &amp; AgentGPT 有多神? AI 全自動完成任務 - 簡介篇</title><link>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</link><pubDate>Sat, 15 Apr 2023 12:00:00 +0800</pubDate><guid>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;/sup>&lt;/sub>&lt;/p></description></item><item><title>Auto-GPT &amp; AgentGPT 有多神? AI 全自動完成任務 - 簡介篇</title><link>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</link><pubDate>Sat, 15 Apr 2023 12:00:00 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/auto-gpt-agentgpt-introduction/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;img style="width:100%;" src="https://github.com/androchentw/blog-hugo/blob/main/content/tech/aigc/2023-04-15-auto-gpt-agentgpt-introduction-1-architecture.png?raw=true">
 &lt;p align="center">&lt;sub>&lt;sup>
  Auto-GPT / AgentGPT 的 自動 AI 機制
@@ -83,7 +83,7 @@
 &lt;li>🚀 善用 Agile/Lean Startup &amp;ldquo;MVP&amp;rdquo; 概念, 打造你的專屬火箭&lt;/li>
 &lt;/ol>
 &lt;p>🤔 Q: Auto-GPT 能做到什麼程度?&lt;/p>
-&lt;p>💪 A: 思考自己拿 AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?&lt;/p></description></item><item><title>Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值</title><link>https://blog.androchen.tw/agile-summit-2022/</link><pubDate>Fri, 02 Sep 2022 15:34:16 +0800</pubDate><guid>https://blog.androchen.tw/agile-summit-2022/</guid><description>&lt;img style="width:60%;" src="https://agile.ithome.com.tw/2022/img/kv-txt.svg">
+&lt;p>💪 A: 思考自己拿 AI 用來做些什麼? 效果如何? 還有什麼發揮潛力?&lt;/p></description></item><item><title>Agile Summit 2022 敏捷高峰盛會 - VUCA 時代敏捷導入 + 持續交付價值</title><link>https://blog.androchen.tw/agile-summit-2022/</link><pubDate>Fri, 02 Sep 2022 15:34:16 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/agile-summit-2022/</guid><description>&lt;img style="width:60%;" src="https://agile.ithome.com.tw/2022/img/kv-txt.svg">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>同場加映: &lt;a href="https://blog.androchen.tw/devopsdays-taipei-2022/">DevOpsDays Taipei 2022 - 企業 IT 數位轉型投資成長 + 持續交付高品質可用產品&lt;/a>&lt;/p>
 &lt;ul>
@@ -132,7 +132,7 @@
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解實戰推動手法 + 懶人包 =&amp;gt; 都需要視情況調整&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解為何敏捷重要&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 瞭解如何在企業裡導入敏捷, 交付價值, 彈性拿捏&lt;/li>
-&lt;/ul></description></item><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">
+&lt;/ul></description></item><item><title>Atlassian - ITSM</title><link>https://blog.androchen.tw/atlassian-itsm/</link><pubDate>Sat, 07 Aug 2021 10:55:28 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/atlassian-itsm/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/NJKXgVc.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>Continuing previous post: &lt;a href="https://blog.androchen.tw/2021-agile-life/">Agile Life&lt;/a>, let&amp;rsquo;s dive deeper into a series of ITSM methodologies and products proposed by &lt;a href="https://www.atlassian.com/itsm">Atlassian&lt;/a>, with a view to applying them in work and life to further enhance productivity and narrative skills.&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>
@@ -168,7 +168,7 @@
 &lt;ol>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Learn from all &lt;a href="https://www.atlassian.com/itsm">Atlassian ITSM topics&lt;/a> and whitepapers&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> 2021-08 Establish Knowledge-Centered Service for users&lt;/li>
-&lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
+&lt;/ol></description></item><item><title>2021 Agile Life</title><link>https://blog.androchen.tw/2021-agile-life/</link><pubDate>Fri, 23 Jul 2021 00:48:52 +0800</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/2021-agile-life/</guid><description>&lt;img style="width:40%;" src="https://i.imgur.com/CPkRhnZ.png">
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>使用 Trello 做生活管理也好一陣子, 最近有些契機想嘗試 Jira Cloud 與其他的整合, 並更進一步練習 Agile. 雖然工作上也持續使用, 但總是得不到要領, 是時候下定決心好好練習!&lt;/p>
 &lt;h3 id="challenges">Challenges&lt;/h3>

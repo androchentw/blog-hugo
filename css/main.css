@@ -998,7 +998,7 @@ h4.see-also {
 
 #TableOfContents {
   position: absolute;
-  margin-left: 975px;
+  margin-left: 760px;
   width: 300px;
   background: #f5f5f5;
   padding: 0.5em 0em;
@@ -1104,7 +1104,6 @@ h4.see-also {
 /* feat ui: back to top */
 
 .back-to-top {
-  display: none;
   position: fixed;
   right: 20px;
   bottom: 20px;
