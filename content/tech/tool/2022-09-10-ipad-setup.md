@@ -68,11 +68,11 @@ series: tool
    2. 圖示: [Flaticon](https://www.flaticon.com/), [freepik](https://www.freepik.com/), [時短](https://jitanda.com/), [dotown](https://dotown.maeda-design-room.net/)
    3. 圖庫, 截圖: [imgur.com](https://imgur.com/)
 
-[Heptabase]: (https://heptabase.com/)
-[Scrintal]: (https://www.scrintal.com/)
-[Canva]: (https://www.canva.com/)
-[Miro]: (https://miro.com/)
-[SlidesCarnival]: (https://www.slidescarnival.com/)
+[Heptabase]: https://heptabase.com/
+[Scrintal]: https://www.scrintal.com/
+[Canva]: https://www.canva.com/
+[Miro]: https://miro.com/
+[SlidesCarnival]: https://www.slidescarnival.com/
 
 ### Productivity 生產力
 

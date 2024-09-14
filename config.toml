@@ -75,8 +75,8 @@ summaryLength = 70
   # Explore Tech Journey
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post"]
-  logo = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true"
-  favicon = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume-square.jpg?raw=true"
+  logo = "https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume-square.jpg?raw=true"
+  favicon = "https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume-square.jpg?raw=true"
   dateFormat = "2006-01-02"
   rss = true
   comments = true
@@ -87,13 +87,13 @@ summaryLength = 70
   delayDisqus = true
   toc = true
   showRelatedPosts = true
-  share_img = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
+  share_img = "https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true"
   # hideAuthor = true
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   substack = "https://programmur.substack.com/embed"
 
 [[params.bigimg]]
-  src = "https://github.com/androchentw/blog-hugo/blob/master/res/blog-cover-yume.jpg?raw=true"
+  src = "https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true"
   desc = "京都高台寺 豐臣秀吉 御朱印帳 夢"
 
 [[params.authors]]
