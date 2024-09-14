@@ -24,7 +24,7 @@ series: travel
 
 ## Slide
 
-{{< slideshow "<https://docs.google.com/presentation/d/1kLR_77L6pgKEVW7pHJ2OIlNrOlZ3HhJWHFLOWnbQLJc/embed?start=false&loop=false&delayms=3000>" >}}
+{{< slideshow "https://docs.google.com/presentation/d/1kLR_77L6pgKEVW7pHJ2OIlNrOlZ3HhJWHFLOWnbQLJc/embed?start=false&loop=false&delayms=3000" >}}
 
 ## Murmur
 

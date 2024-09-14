@@ -64,14 +64,14 @@ summaryLength = 70
   # [services.instagram]
   #   accessToken = ''
   #   disableInlineCSS = false
-  [services.rss]
-    limit = -1
+  # [services.rss]
+  #   limit = -1
   # [services.twitter]
   #   disableInlineCSS = false
 
 # Others
 
-[params]
+[Params]
   # Explore Tech Journey
   homeTitle = " " # Set a different text for the header on the home page
   mainSections = ["post"]
@@ -92,11 +92,11 @@ summaryLength = 70
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   substack = "https://programmur.substack.com/embed"
 
-[[params.bigimg]]
+[[Params.bigimg]]
   src = "https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true"
   desc = "京都高台寺 豐臣秀吉 御朱印帳 夢"
 
-[[params.authors]]
+[Params.author]
   name = "androchentw"
   website = "https://blog.androchen.tw/"
   email = "programmur.tw@gmail.com"
