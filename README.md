@@ -4,6 +4,15 @@
 
 [![github pages](https://github.com/androchentw/blog-hugo/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/androchentw/blog-hugo/actions/workflows/gh-pages.yml)
 
+## upgrade theme
+
+[androchentw/blog-theme](https://github.com/androchentw/blog-theme)
+
+```sh
+rm -rf themes/beautifulhugo
+git submodule update --rebase --remote
+```
+
 ## Running
 
 See the [official Hugo documentation](https://gohugo.io/getting-started/installing/) for Hugo installation instructions.

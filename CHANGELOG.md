@@ -1,6 +1,8 @@
 # Changelog
 
-## [Unreleased]
+## [3.0.0] - 2024-09-15
+
+* feat: re-fork base of blog-theme and upgrade to [blog-theme v3.0.0](https://github.com/androchentw/blog-theme/releases/tag/v3.0.0)
 
 ## [2.1.0] - 2023-04-20
 
@@ -70,6 +72,7 @@
 <!-- Links -->
 
 <!-- Versions -->
+[3.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.0.0
 [2.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.1.0
 [2.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.0.0
 [1.4.0]: https://github.com/androchentw/blog-hugo/releases/tag/v1.4.0
