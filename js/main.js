@@ -104,7 +104,7 @@ var main = {
     // feat ui: back to top
     const $backToTop = $('#back-to-top');
     $backToTop.click(function() {
-      $('body,html').animate({scrollTop: 0});
+      $('body,html').scrollTop(0);
     });
 
     // feat ui: Shorten the navbar after scrolling a little bit down
