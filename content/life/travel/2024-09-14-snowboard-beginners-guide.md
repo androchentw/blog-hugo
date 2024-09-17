@@ -1,9 +1,8 @@
 ---
-draft: true
 title: "入坑滑雪自由行: 新手入門懶人包 - 雪場,費用,行程,行李,訓練 全攻略"
 url: snowboard-beginners-guide
 # date: 2023-09-14T18:28:16+08:00
-date: 2024-09-14T18:34:16+08:00
+date: 2024-09-19T09:00:16+08:00
 author: androchentw
 type: post
 categories:
@@ -20,13 +19,17 @@ series: travel
   Photo by androchentw
 </sup></sub></p>
 
+這次來分享先前規劃去日本滑雪自由行時的筆記，整理成 新手入門懶人包 的簡報形式。
+
+內容包含 - 雪場,費用,行程,行李,訓練 全攻略!
+
+歡迎分享~
+
 <!--more-->
 
 ## Slide
 
 {{< slideshow "https://docs.google.com/presentation/d/1kLR_77L6pgKEVW7pHJ2OIlNrOlZ3HhJWHFLOWnbQLJc/embed?start=false&loop=false&delayms=3000" >}}
-
-## Links
 
 ### 私心推薦 - 新潟 越後湯澤 石打丸山
 
@@ -47,4 +50,4 @@ series: travel
 
 ## Murmur
 
-* 2024-09-14: 滑雪滑起來! 🏂
+* 2024-09-19: 滑雪滑起來! 🏂
