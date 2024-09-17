@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0] - 2024-09-17
+
+### UI Enhancements
+
+* feat: upgrade to [blog-theme v3.1.0](https://github.com/androchentw/blog-theme/releases/tag/v3.1.0)
+  * feat: add disableDarkMode
+
 ## [3.0.0] - 2024-09-15
 
 * feat: re-fork base of blog-theme and upgrade to [blog-theme v3.0.0](https://github.com/androchentw/blog-theme/releases/tag/v3.0.0)
@@ -72,6 +79,7 @@
 <!-- Links -->
 
 <!-- Versions -->
+[3.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.1.0
 [3.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.0.0
 [2.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.1.0
 [2.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.0.0
