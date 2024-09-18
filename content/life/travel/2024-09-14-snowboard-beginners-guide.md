@@ -2,7 +2,7 @@
 title: "入坑滑雪自由行: 新手入門懶人包 - 雪場,費用,行程,行李,訓練 全攻略"
 url: snowboard-beginners-guide
 # date: 2023-09-14T18:28:16+08:00
-date: 2024-09-18T20:00:16+08:00
+date: 2024-09-18T20:20:16+08:00
 author: androchentw
 type: post
 categories:
