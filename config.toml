@@ -92,6 +92,8 @@ summaryLength = 70
   gcse = "212df771d70ae0521" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   substack = "https://programmur.substack.com/embed"
   disableDarkmode = true  # blog-theme:ui v3.1.0
+  likerID = "androchentw"
+	
 
 [[Params.bigimg]]
   src = "https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true"

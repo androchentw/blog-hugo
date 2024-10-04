@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.2.0] - 2024-10-04
+
+### UI Enhancements
+
+* feat: add LikeCoin
+
 ## [3.1.0] - 2024-09-17
 
 ### UI Enhancements
@@ -79,6 +85,7 @@
 <!-- Links -->
 
 <!-- Versions -->
+[3.2.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.2.0
 [3.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.1.0
 [3.0.0]: https://github.com/androchentw/blog-hugo/releases/tag/v3.0.0
 [2.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v2.1.0
@@ -92,3 +99,4 @@
 [0.3.0]: https://github.com/androchentw/blog-hugo/releases/tag/v0.3.0
 [0.2.0]: https://github.com/androchentw/blog-hugo/releases/tag/v0.2.0
 [0.1.0]: https://github.com/androchentw/blog-hugo/releases/tag/v0.1.0
+[3.2.0]: https://github.com/androchentw/blog-theme/releases/tag/v3.2.0
