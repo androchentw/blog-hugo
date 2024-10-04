@@ -454,3 +454,4 @@ source ~/.cache/starship/init.nu
 ## Murmur
 
 * 2022-09-09 每次拿到新電腦都要重來一次... 😂
+* 2024-10-04 [Windows 裝 WSL2 直接跑 Linux](https://hugh-program-learning-diary-js.medium.com/%E8%AE%93-windows-%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%AE%A2%E8%A3%BD%E5%8C%96-terminal-%E5%9F%BA%E7%A4%8E%E8%A8%AD%E5%AE%9A%E7%AF%87-a146febfdd10) 
