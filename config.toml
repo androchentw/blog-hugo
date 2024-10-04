@@ -3,7 +3,7 @@ title = "ProgramMur - 程序猿碎念"
 theme = "beautifulhugo"
 
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+pagination.pagerSize = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 
 metaDataFormat = "yaml"
 # pygmentsStyle = "trac"
