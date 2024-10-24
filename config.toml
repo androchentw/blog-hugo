@@ -112,11 +112,18 @@ summaryLength = 70
   linkedin = "androchen"
 
 [[menu.main]]
+  identifier = "life"
+  name = "Life"
+  pre = '<i class="fas fa-fire fa-lg"></i>'
+  url = "/life/"
+  weight = 1
+
+[[menu.main]]
   identifier = "tech"
   name = "Tech"
   pre = '<i class="fas fa-laptop-code fa-lg"></i>'
   url = "/tech/"
-  weight = 1
+  weight = 3
 
 [[menu.main]]
   identifier = "soft"
@@ -124,13 +131,6 @@ summaryLength = 70
   pre = '<i class="fas fa-lightbulb fa-lg"></i>'
   url = "/soft/"
   weight = 2
-
-[[menu.main]]
-  identifier = "life"
-  name = "Life"
-  pre = '<i class="fas fa-fire fa-lg"></i>'
-  url = "/life/"
-  weight = 3
 
 [[menu.main]]
   name = "Series"
