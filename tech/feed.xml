@@ -489,4 +489,317 @@
 &lt;ol>
 &lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;/ol></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/</guid><description>&lt;h1 id="gcp-otel--k8s-summit-2024-gcp-workshop">GCP OTel | K8s Summit 2024 GCP Workshop&lt;/h1>
+&lt;p>Ref&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/marcustung/obervability-opentelemetry/blob/main/OpenTelemetry%20%E5%8F%AF%E8%A7%80%E6%B8%AC%E6%80%A7%E7%9A%84%E6%9C%AA%E4%BE%86.md">OpenTelemetry 可觀測性的未來&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="preparation">Preparation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://explore.qwiklabs.com/classrooms/16111/labs/95466">Application Monitoring with OpenTelemetry&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>OpenTelemetry是CNCF推廣的&lt;a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">容器平台監控技術&lt;/a>，針對SRE常用的Metrics, Log, 以及Trace提供了完整的支援。其廣大生態圈，不但可在無侵入的狀態下，廣泛支持各種的程式語言(e.g. Python, Java, .NET, JS等），也提供讓SRE可彈性客制監控標的。&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/</guid><description>&lt;h1 id="gke-llm-fine-tuning--k8s-summit-2024-gcp-workshop">GKE LLM Fine-Tuning | K8s Summit 2024 GCP Workshop&lt;/h1>
+&lt;h2 id="preparation">Preparation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://explore.qwiklabs.com/classrooms/16036/labs/95048">Fine-tune Open Source LLMs on GKE | CE093&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/GoogleCloudPlatform/ai-on-gke/tree/main/tutorials-and-examples/genAI-LLM/finetuning-llama-7b-on-l4">ai-on-gke &amp;gt; finetuning-llama-7b-on-l4&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://huggingface.co/datasets/dell-research-harvard/AmericanStories">dell-research-harvard/AmericanStories dataset&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Learning Objectives
+&lt;ul>
+&lt;li>Prepare your environment with a GKE cluster in standard mode.&lt;/li>
+&lt;li>Set up an autoscaling L4 GPU nodepool.&lt;/li>
+&lt;li>Run a Kubernetes Job to download Llama 2 7b and fine-tune using L4 GPUs&lt;/li>
+&lt;li>Make use of GCS for efficient storage of models.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>student_03_216a983cfb25@cloudshell:~ (qwiklabs-asl-02-cd54d6e804de)$ 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gcloud auth list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Credentialed Accounts&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># ACTIVE: *&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># ACCOUNT: student-03-216a983cfb25@qwiklabs.net&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gcloud config list project
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># [core]&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># project = qwiklabs-asl-02-cd54d6e804de&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Your active configuration is: [cloudshell-23006]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="step-1-create-the-gke-cluster">Step 1: Create the GKE Cluster&lt;/h3>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-13">13&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-14">14&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-15">15&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-16">16&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-17">17&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-18">18&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-19">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-19">19&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-20">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-20">20&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-21">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-21">21&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-22">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-22">22&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-23">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-23">23&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#658b00">export&lt;/span> &lt;span style="color:#00688b">CLUSTER_NAME&lt;/span>=&lt;span style="color:#cd5555">&amp;#34;ml-gke&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#658b00">export&lt;/span> &lt;span style="color:#00688b">REGION&lt;/span>=&lt;span style="color:#cd5555">&amp;#34;us-central1&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#658b00">export&lt;/span> &lt;span style="color:#00688b">BUCKET_NAME&lt;/span>=&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">GOOGLE_CLOUD_PROJECT&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>-llama-l4
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#658b00">export&lt;/span> &lt;span style="color:#00688b">SERVICE_ACCOUNT&lt;/span>=&lt;span style="color:#cd5555">&amp;#34;l4-lab@&lt;/span>&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">GOOGLE_CLOUD_PROJECT&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>&lt;span style="color:#cd5555">.iam.gserviceaccount.com&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gcloud container clusters create &lt;span style="color:#00688b">$CLUSTER_NAME&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --enable-image-streaming &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --addons=HttpLoadBalancing &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --machine-type=e2-standard-2 &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --shielded-secure-boot &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --shielded-integrity-monitoring &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --region=&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">REGION&lt;/span>&lt;span style="color:#cd5555">}&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --num-nodes=&lt;span style="color:#b452cd">1&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --enable-ip-alias &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --release-channel=rapid &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --node-locations=&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">REGION&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>-a &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --workload-pool=&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">GOOGLE_CLOUD_PROJECT&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>.svc.id.goog &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --addons GcsFuseCsiDriver
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Note: The Kubelet readonly port (10255) is now deprecated. Please update your workloads to use the recommended alternatives. See https://cloud.google.com/kubernetes-engine/docs/how-to/disable-kubelet-readonly-port for ways to check usage and for migration instructions.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Creating cluster ml-gke in us-central1... Cluster is being health-checked (Kubernetes Control Plane is healthy)...done. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Created [https://container.googleapis.com/v1/projects/qwiklabs-asl-02-cd54d6e804de/zones/us-central1/clusters/ml-gke].&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># To inspect the contents of your cluster, go to: https://console.cloud.google.com/kubernetes/workload_/gcloud/us-central1/ml-gke?project=qwiklabs-asl-02-cd54d6e804de&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="step-2-validate-cluster-readiness">Step 2: Validate Cluster Readiness&lt;/h3>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-10">10&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>gcloud container clusters list
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NAME: ml-gke
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>LOCATION: us-central1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MASTER_VERSION: 1.31.1-gke.1146000
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MASTER_IP: 34.67.21.231
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>MACHINE_TYPE: e2-standard-2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NODE_VERSION: 1.31.1-gke.1146000
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>NUM_NODES: &lt;span style="color:#b452cd">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>STATUS: RUNNING
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="get-access-to-the-model">Get access to the model&lt;/h2>
+&lt;h3 id="sign-the-license-consent-agreement">Sign the license consent agreement&lt;/h3>
+&lt;ul>
+&lt;li>Request access to Meta Llama models by submitting the request access form at &lt;a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/">https://ai.meta.com/resources/models-and-libraries/llama-downloads/&lt;/a>&lt;/li>
+&lt;li>Accept the model terms.&lt;/li>
+&lt;li>Login to Hugging Faces and find the llama2-7b-chat-hf model. &lt;a href="https://huggingface.co/meta-llama/Llama-2-7b-chat-hf">https://huggingface.co/meta-llama/Llama-2-7b-chat-hf&lt;/a>&lt;/li>
+&lt;li>Request agree to the terms and conditions.
+&lt;ul>
+&lt;li>LLAMA 2 COMMUNITY LICENSE AGREEMENT&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="generate-an-access-token">Generate an access token&lt;/h3>
+&lt;ul>
+&lt;li>Click Your Profile &amp;gt; Settings &amp;gt; Access Tokens.&lt;/li>
+&lt;li>Select New Token.&lt;/li>
+&lt;li>Specify a Name of your choice and a Role of at least Read.&lt;/li>
+&lt;li>Select Generate a token.&lt;/li>
+&lt;li>Copy the generated token to your clipboard.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2">2&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-txt" data-lang="txt">&lt;span style="display:flex;">&lt;span>2024-10-23-k8s-summit-gcp-1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>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
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="prepare-your-environment">Prepare your environment&lt;/h2>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-16">16&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-17">17&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-18">18&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-19">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-19">19&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-20">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-20">20&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-21">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-21">21&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-22">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-22">22&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-23">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-23">23&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-24">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-24">24&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-25">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-25">25&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-26">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-26">26&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-27">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-27">27&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-28">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-28">28&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-29">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-29">29&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Set the default environment variables:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#658b00">export&lt;/span> &lt;span style="color:#00688b">HF_TOKEN&lt;/span>=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
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Create the Node Pool&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gcloud container node-pools create gpupool --cluster ml-gke &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --accelerator &lt;span style="color:#00688b">type&lt;/span>=nvidia-l4,count=8,gpu-driver-version=latest &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --machine-type g2-standard-96 &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --ephemeral-storage-local-ssd=&lt;span style="color:#00688b">count&lt;/span>=&lt;span style="color:#b452cd">8&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --enable-autoscaling --enable-image-streaming &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --num-nodes=&lt;span style="color:#b452cd">0&lt;/span> --min-nodes=&lt;span style="color:#b452cd">0&lt;/span> --max-nodes=&lt;span style="color:#b452cd">3&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --shielded-secure-boot &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --shielded-integrity-monitoring &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --node-locations &lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">REGION&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>-a,&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">REGION&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>-b --region &lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">REGION&lt;/span>&lt;span style="color:#cd5555">}&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Note: Machines with GPUs have certain limitations which may affect your workflow. Learn more at https://cloud.google.com/kubernetes-engine/docs/how-to/gpus&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Note: Starting in GKE 1.30.1-gke.115600, if you don&amp;#39;t specify a driver version, GKE installs the default GPU driver for your node&amp;#39;s GKE version.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Creating node pool gpupool...done. &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Created [https://container.googleapis.com/v1/projects/qwiklabs-asl-02-cd54d6e804de/zones/us-central1/clusters/ml-gke/nodePools/gpupool].&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># NAME: gpupool&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># MACHINE_TYPE: g2-standard-96&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># DISK_SIZE_GB: 100&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># NODE_VERSION: 1.31.1-gke.1146000&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Create a Kubernetes Secret that contains the Hugging Face token&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kubectl create secret generic hf-secret &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --from-literal=&lt;span style="color:#00688b">hf_api_token&lt;/span>=&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">HF_TOKEN&lt;/span>&lt;span style="color:#cd5555">}&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --dry-run=client -o yaml | kubectl apply -f -
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># secret/hf-secret created&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="run-a-kubernetes-job-to-finetune-llama-2-7b">Run a Kubernetes Job to Finetune Llama 2 7b&lt;/h2>
+&lt;p>Finetuning requires a base model and a dataset. For this post, the &lt;code>dell-research-harvard/AmericanStories&lt;/code> dataset will be used to fine-tune the Llama 2 7b base model. GCS will be used for storing the base model. GKE with GCSFuse is used to transparently save the fine-tuned model to GCS. This provides a cost efficient way to store and serve the model and only pay for the storage used by the model.&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/distributed-load-testing-using-kubernetes/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/distributed-load-testing-using-kubernetes/readme/</guid><description>&lt;h2 id="distributed-load-testing-using-gke-and-locust">Distributed Load Testing Using GKE and Locust&lt;/h2>
+&lt;p>This is the sample code for the &lt;a href="https://cloud.google.com/architecture/distributed-load-testing-using-gke">Distributed load testing using Google Kubernetes Engine&lt;/a> tutorial.&lt;/p>
+&lt;h2 id="license">License&lt;/h2>
+&lt;p>This code is Apache 2.0 licensed and more information can be found in &lt;code>LICENSE&lt;/code>. For information on licenses for third party software and libraries, refer to the &lt;code>docker-image/licenses&lt;/code> directory.&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/readme/</guid><description>&lt;h1 id="guestbook-with-cloud-code">Guestbook with Cloud Code&lt;/h1>
+&lt;p>The Guestbook sample demonstrates how to deploy a Kubernetes application with a front end service and a back end service using the Cloud Code IDE extension.&lt;/p>
+&lt;p>For details on how to use this sample as a template in Cloud Code, read the documentation for Cloud Code for &lt;a href="https://cloud.google.com/code/docs/vscode/quickstart-local-dev?utm_source=ext&amp;utm_medium=partner&amp;utm_campaign=CDR_kri_gcp_cloudcodereadmes_012521&amp;utm_content=-">VS Code&lt;/a> or &lt;a href="https://cloud.google.com/code/docs/intellij/quickstart-k8s?utm_source=ext&amp;utm_medium=partner&amp;utm_campaign=CDR_kri_gcp_cloudcodereadmes_012521&amp;utm_content=-">IntelliJ&lt;/a>.&lt;/p>
+&lt;h3 id="table-of-contents">Table of Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/readme/#whats-in-this-sample">What&amp;rsquo;s in this sample&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/readme/#getting-started-with-vs-code">Getting Started with VS Code&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/readme/#getting-started-with-intellij">Getting Started with IntelliJ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/readme/#sign-up-for-user-research">Sign up for User Research&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="whats-in-this-sample">What&amp;rsquo;s in this sample&lt;/h2>
+&lt;h3 id="kubernetes-architecture">Kubernetes architecture&lt;/h3>
+&lt;p>&lt;img alt="Kubernetes Architecture Diagram" src="./img/diagram.png">&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/src/frontend/templates/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/guestbook-1/src/frontend/templates/home/</guid><description>&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+ &lt;meta charset="utf-8">
+ &lt;title>Guestbook&lt;/title>
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1">
+ &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ &lt;link rel="stylesheet" href="static/style.css" type="text/css">
+ &lt;link rel="icon" href="static/favicon.png" type="image/x-icon"/>
+ &lt;link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+&lt;/head>
+
+&lt;body>
+ &lt;div class="header">
+ &lt;div class="container">
+ &lt;h1>
+ &lt;a href="https://blog.androchen.tw/">
+ My Guestbook
+ &lt;/a>
+ &lt;/h1>
+ &lt;a href="#" class="text-muted">View on GitHub&lt;/a>
+ &lt;/div>
+ &lt;/div>
+
+ &lt;div class="container posts mt-0">
+ &lt;form class="form-inline" method="POST" action="https://blog.androchen.tw/post">
+ &lt;label class="sr-only" for="name">Name&lt;/label>
+ &lt;div class="input-group mb-2 mr-sm-2">
+ &lt;div class="input-group-prepend">
+ &lt;div class="input-group-text">Your Name&lt;/div>
+ &lt;/div>
+ &lt;input type="text" class="form-control" id="name" name="name" required>
+ &lt;/div>
+ &lt;label class="sr-only" for="message">Message&lt;/label>
+ &lt;div class="input-group mb-2 mr-sm-2">
+ &lt;div class="input-group-prepend">
+ &lt;div class="input-group-text">Message&lt;/div>
+ &lt;/div>
+ &lt;input type="text" class="form-control" id="message" name="message" required>
+ &lt;/div>
+ &lt;button type="submit" class="btn btn-primary mb-2">Post to Guestbook&lt;/button>
+ &lt;/form>
+ {% if messages %}
+ {% for m in messages %}
+ &lt;div class="card my-3 col-12">
+ &lt;div class="card-body">
+ &lt;h5 class="card-title">{{m.author}}&lt;/h5>
+ &lt;h6 class="card-subtitle mb-2 text-muted">{{ format_duration(m.date) }}&lt;/h6>
+ &lt;br>
+ &lt;p class="card-text">
+ {{m.message}}
+ &lt;/p>
+ &lt;/div>
+ &lt;/div>
+ {% endfor %}
+ {% else %}
+ &lt;div class="alert alert-info" role="alert">
+ No messages are logged to the guestbook yet.
+ &lt;/div>
+ {% endif %}
+ &lt;/div>
+&lt;/body>
+&lt;/html></description></item></channel></rss>

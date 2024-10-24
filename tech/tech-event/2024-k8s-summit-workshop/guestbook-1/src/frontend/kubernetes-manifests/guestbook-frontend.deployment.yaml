@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-guestbook-frontend
+  labels:
+    app: python-guestbook
+    tier: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: python-guestbook
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        app: python-guestbook
+        tier: frontend
+      annotations: 
+        sidecar.opentelemetry.io/inject: "true"
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/metrics"
+        prometheus.io/port: "8080"
+        instrumentation.opentelemetry.io/inject-python: "true"
+    spec:
+      containers:
+      - name: frontend
+        image: asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend
+        ports:
+        - name: http-server
+          containerPort: 8080
+        env:
+        - name: PORT
+          value: "8080"
+        - name: GUESTBOOK_API_ADDR
+          value: python-guestbook-backend:8080
