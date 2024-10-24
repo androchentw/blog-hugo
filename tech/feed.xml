@@ -489,7 +489,16 @@
 &lt;ol>
 &lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook&lt;/a> (實作細節, 實例)&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> 2021-12 完讀 &lt;a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering&lt;/a> (概念, 文化)&lt;/li>
-&lt;/ol></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/</guid><description>&lt;h1 id="gcp-otel--k8s-summit-2024-gcp-workshop">GCP OTel | K8s Summit 2024 GCP Workshop&lt;/h1>
+&lt;/ol></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-genai-cloud-run/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-genai-cloud-run/</guid><description>&lt;h1 id="genai-cloud-run--k8s-summit-2024-gcp-workshop">GenAI Cloud Run | K8s Summit 2024 GCP Workshop&lt;/h1>
+&lt;h2 id="preparation">Preparation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://explore.qwiklabs.com/classrooms/16139/labs/95581">Deploy a Streamlit App Integrated with Gemini Pro on Cloud Run | GSP1229&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/sample-apps/gemini-streamlit-cloudrun/app.py">generative-ai/gemini/sample-apps/gemini-streamlit-cloudrun/app.py&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a href="https://deepmind.google/technologies/gemini/#introduction">Gemini&lt;/a> is a family of generative AI models developed by Google DeepMind that is designed for multimodal use cases. The Gemini API gives you access to the Gemini Pro Vision and Gemini Pro models. In this lab you will understand how to integrate Vertex AI Gemini API with applications and build and deploy the developed sample application on Google Cloud Run.&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/</guid><description>&lt;h1 id="gcp-otel--k8s-summit-2024-gcp-workshop">GCP OTel | K8s Summit 2024 GCP Workshop&lt;/h1>
 &lt;p>Ref&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/marcustung/obervability-opentelemetry/blob/main/OpenTelemetry%20%E5%8F%AF%E8%A7%80%E6%B8%AC%E6%80%A7%E7%9A%84%E6%9C%AA%E4%BE%86.md">OpenTelemetry 可觀測性的未來&lt;/a>&lt;/li>
@@ -498,7 +507,131 @@
 &lt;ul>
 &lt;li>&lt;a href="https://explore.qwiklabs.com/classrooms/16111/labs/95466">Application Monitoring with OpenTelemetry&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>OpenTelemetry是CNCF推廣的&lt;a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">容器平台監控技術&lt;/a>，針對SRE常用的Metrics, Log, 以及Trace提供了完整的支援。其廣大生態圈，不但可在無侵入的狀態下，廣泛支持各種的程式語言(e.g. Python, Java, .NET, JS等），也提供讓SRE可彈性客制監控標的。&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/</guid><description>&lt;h1 id="gke-llm-fine-tuning--k8s-summit-2024-gcp-workshop">GKE LLM Fine-Tuning | K8s Summit 2024 GCP Workshop&lt;/h1>
+&lt;p>OpenTelemetry是CNCF推廣的&lt;a href="https://github.com/open-telemetry/opentelemetry-collector-contrib">容器平台監控技術&lt;/a>，針對SRE常用的Metrics, Log, 以及Trace提供了完整的支援。其廣大生態圈，不但可在無侵入的狀態下，廣泛支持各種的程式語言(e.g. Python, Java, .NET, JS等），也提供讓SRE可彈性客制監控標的。&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-chatbot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-chatbot/</guid><description>&lt;h1 id="-gke-chatbot--k8s-summit-2024-gcp-workshop"># GKE Chatbot | K8s Summit 2024 GCP Workshop&lt;/h1>
+&lt;h2 id="preparation">Preparation&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://dennygoog.gitlab.io/workshops/run-gemma-chatbot-on-gke-autopilot/">Run Gemma 2 Powered Chatbot on GKE Autopilot&lt;/a>
+&lt;ul>
+&lt;li>主要使用這個頁面的 command, 僅使用 qwiklab 的資源&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-15">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-15">15&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-16">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-16">16&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-17">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-17">17&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-18">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-18">18&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-19">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-19">19&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-20">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-20">20&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-21">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-21">21&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-22">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-22">22&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-23">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-23">23&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00688b">CLUSTER_NAME&lt;/span>=my-cluster
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00688b">CLUSTER_LOCATION&lt;/span>=us-central1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gcloud container clusters create-auto &lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">CLUSTER_NAME&lt;/span>&lt;span style="color:#cd5555">}&lt;/span> &lt;span style="color:#cd5555">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#cd5555">&lt;/span> --location=&lt;span style="color:#cd5555">${&lt;/span>&lt;span style="color:#00688b">CLUSTER_LOCATION&lt;/span>&lt;span style="color:#cd5555">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># kubeconfig entry generated for my-cluster.&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># NAME: my-cluster&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># LOCATION: us-central1&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># MASTER_VERSION: 1.30.5-gke.1014001&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># MASTER_IP: 34.45.80.180&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># MACHINE_TYPE: e2-small&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># NODE_VERSION: 1.30.5-gke.1014001&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># NUM_NODES: 3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># STATUS: RUNNING&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kubectl cluster-info
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Kubernetes control plane is running at https://34.45.80.180&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># GLBCDefaultBackend is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/default-http-backend:http/proxy&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># KubeDNS is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Metrics-server is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># To further debug and diagnose cluster problems, use &amp;#39;kubectl cluster-info dump&amp;#39;.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="任務-2-部署-ollama">任務 2. 部署 Ollama&lt;/h2>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-12">12&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>kubectl apply -f ollama.yaml
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># Warning: autopilot-default-resources-mutator:Autopilot updated StatefulSet default/ollama: defaulted unspecified &amp;#39;nvidia.com/gpu&amp;#39; resource for containers [ollama] (see http://g.co/gke/autopilot-defaults).&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># statefulset.apps/ollama created&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># service/ollama created&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kubectl get pods -w
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># 等待 ollama-0 Pod 變成 Running 狀態，表示 Ollama 已成功部署。&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kubectl get nodes
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># NAME STATUS ROLES AGE VERSION&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># gk3-my-cluster-nap-1l47y8kj-033ca61f-rgvm Ready &amp;lt;none&amp;gt; 2m54s v1.30.5-gke.1014001&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># gk3-my-cluster-nap-nwlb0qz1-ea6bcb2c-b44d Ready &amp;lt;none&amp;gt; 2m9s v1.30.5-gke.1014001&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="任務-3-使用-ollama-cli-與-gemma-2-互動">任務 3. 使用 Ollama CLI 與 Gemma 2 互動&lt;/h2>
+&lt;div class="highlight">&lt;div style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-12">12&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># 安裝 Ollama CLI：在 Cloud Shell 中執行以下指令安裝 Ollama CLI：&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>curl -fsSL https://ollama.com/install.sh | sh
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># 將 Ollama 服務端口轉發到本地： 執行以下指令，將 Ollama 服務的 11434 端口轉發到本地 (Cloud Shell) 的 11434 端口：&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>kubectl port-forward svc/ollama 11434:11434
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># 在新分頁中執行 Gemma 2 模型： 在新的終端分頁中，設定 OLLAMA_HOST 環境變數，指定 Ollama API 的地址，然後使用 ollama run 指令執行 Gemma 2 模型：&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#00688b">OLLAMA_HOST&lt;/span>=http://localhost:11434 ollama run gemma2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;gt;&amp;gt;&amp;gt; 你好！
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#228b22"># 你好！👋 有什么我可以帮你的吗？😊&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="任務-4-部署-open-webui打造更友善的-chatbot-互動介面">任務 4. 部署 Open WebUI，打造更友善的 Chatbot 互動介面&lt;/h2>
+&lt;p>&lt;code>openwebui.yaml&lt;/code>&lt;/p></description></item><item><title/><link>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>programmur.tw@gmail.com (androchentw)</author><guid>https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/</guid><description>&lt;h1 id="gke-llm-fine-tuning--k8s-summit-2024-gcp-workshop">GKE LLM Fine-Tuning | K8s Summit 2024 GCP Workshop&lt;/h1>
 &lt;h2 id="preparation">Preparation&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://explore.qwiklabs.com/classrooms/16036/labs/95048">Fine-tune Open Source LLMs on GKE | CE093&lt;/a>

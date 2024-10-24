@@ -1,0 +1,850 @@
+<!doctype html><html lang=zh-tw itemscope itemtype=http://schema.org/WebPage><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><title>ProgramMur - 程序猿碎念 - </title><meta name=description content="# GKE Chatbot | K8s Summit 2024 GCP Workshop
+Preparation
+
+Run Gemma 2 Powered Chatbot on GKE Autopilot
+
+主要使用這個頁面的 command, 僅使用 qwiklab 的資源
+
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+
+CLUSTER_NAME=my-cluster
+CLUSTER_LOCATION=us-central1
+
+gcloud container clusters create-auto ${CLUSTER_NAME} \
+  --location=${CLUSTER_LOCATION}
+
+# kubeconfig entry generated for my-cluster.
+# NAME: my-cluster
+# LOCATION: us-central1
+# MASTER_VERSION: 1.30.5-gke.1014001
+# MASTER_IP: 34.45.80.180
+# MACHINE_TYPE: e2-small
+# NODE_VERSION: 1.30.5-gke.1014001
+# NUM_NODES: 3
+# STATUS: RUNNING
+
+kubectl cluster-info
+# Kubernetes control plane is running at https://34.45.80.180
+# GLBCDefaultBackend is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/default-http-backend:http/proxy
+# KubeDNS is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+# Metrics-server is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy
+
+# To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+
+任務 2. 部署 Ollama
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+
+
+kubectl apply -f ollama.yaml
+# Warning: autopilot-default-resources-mutator:Autopilot updated StatefulSet default/ollama: defaulted unspecified 'nvidia.com/gpu' resource for containers [ollama] (see http://g.co/gke/autopilot-defaults).
+# statefulset.apps/ollama created
+# service/ollama created
+
+kubectl get pods -w
+# 等待 ollama-0 Pod 變成 Running 狀態，表示 Ollama 已成功部署。
+
+kubectl get nodes
+# NAME                                        STATUS   ROLES    AGE     VERSION
+# gk3-my-cluster-nap-1l47y8kj-033ca61f-rgvm   Ready    <none>   2m54s   v1.30.5-gke.1014001
+# gk3-my-cluster-nap-nwlb0qz1-ea6bcb2c-b44d   Ready    <none>   2m9s    v1.30.5-gke.1014001
+
+
+任務 3. 使用 Ollama CLI 與 Gemma 2 互動
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+
+
+# 安裝 Ollama CLI：在 Cloud Shell 中執行以下指令安裝 Ollama CLI：
+curl -fsSL https://ollama.com/install.sh | sh
+
+# 將 Ollama 服務端口轉發到本地： 執行以下指令，將 Ollama 服務的 11434 端口轉發到本地 (Cloud Shell) 的 11434 端口：
+kubectl port-forward svc/ollama 11434:11434
+
+# 在新分頁中執行 Gemma 2 模型： 在新的終端分頁中，設定 OLLAMA_HOST 環境變數，指定 Ollama API 的地址，然後使用 ollama run 指令執行 Gemma 2 模型：
+OLLAMA_HOST=http://localhost:11434 ollama run gemma2
+
+>>> 你好！
+
+# 你好！👋  有什么我可以帮你的吗？😊
+
+
+任務 4. 部署 Open WebUI，打造更友善的 Chatbot 互動介面
+openwebui.yaml"><meta name=author content="androchentw"><script type=application/ld+json>{"@context":"http://schema.org","@type":"WebSite","name":"ProgramMur - 程序猿碎念","url":"https:\/\/blog.androchen.tw\/"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Organization","name":"","url":"https:\/\/blog.androchen.tw\/"}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/blog.androchen.tw\/","name":"home"}},{"@type":"ListItem","position":3,"item":{"@id":"https:\/\/blog.androchen.tw\/tech\/tech-event\/2024-k8s-summit-workshop\/gke-chatbot\/","name":""}}]}</script><script type=application/ld+json>{"@context":"http://schema.org","@type":"Article","author":{"name":"androchentw"},"headline":"","description":"# GKE Chatbot | K8s Summit 2024 GCP Workshop Preparation Run Gemma 2 Powered Chatbot on GKE Autopilot 主要使用這個頁面的 command, 僅使用 qwiklab 的資源 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 CLUSTER_NAME=my-cluster CLUSTER_LOCATION=us-central1 gcloud container clusters create-auto ${CLUSTER_NAME} \\ --location=${CLUSTER_LOCATION} # kubeconfig entry generated for my-cluster. # NAME: my-cluster # LOCATION: us-central1 # MASTER_VERSION: 1.30.5-gke.1014001 # MASTER_IP: 34.45.80.180 # MACHINE_TYPE: e2-small # NODE_VERSION: 1.30.5-gke.1014001 # NUM_NODES: 3 # STATUS: RUNNING kubectl cluster-info # Kubernetes control plane is running at https:\/\/34.45.80.180 # GLBCDefaultBackend is running at https:\/\/34.45.80.180\/api\/v1\/namespaces\/kube-system\/services\/default-http-backend:http\/proxy # KubeDNS is running at https:\/\/34.45.80.180\/api\/v1\/namespaces\/kube-system\/services\/kube-dns:dns\/proxy # Metrics-server is running at https:\/\/34.45.80.180\/api\/v1\/namespaces\/kube-system\/services\/https:metrics-server:\/proxy # To further debug and diagnose cluster problems, use \u0026#39;kubectl cluster-info dump\u0026#39;. 任務 2. 部署 Ollama 1 2 3 4 5 6 7 8 9 10 11 12 kubectl apply -f ollama.yaml # Warning: autopilot-default-resources-mutator:Autopilot updated StatefulSet default\/ollama: defaulted unspecified \u0026#39;nvidia.com\/gpu\u0026#39; resource for containers [ollama] (see http:\/\/g.co\/gke\/autopilot-defaults). # statefulset.apps\/ollama created # service\/ollama created kubectl get pods -w # 等待 ollama-0 Pod 變成 Running 狀態，表示 Ollama 已成功部署。 kubectl get nodes # NAME STATUS ROLES AGE VERSION # gk3-my-cluster-nap-1l47y8kj-033ca61f-rgvm Ready \u0026lt;none\u0026gt; 2m54s v1.30.5-gke.1014001 # gk3-my-cluster-nap-nwlb0qz1-ea6bcb2c-b44d Ready \u0026lt;none\u0026gt; 2m9s v1.30.5-gke.1014001 任務 3. 使用 Ollama CLI 與 Gemma 2 互動 1 2 3 4 5 6 7 8 9 10 11 12 # 安裝 Ollama CLI：在 Cloud Shell 中執行以下指令安裝 Ollama CLI： curl -fsSL https:\/\/ollama.com\/install.sh | sh # 將 Ollama 服務端口轉發到本地： 執行以下指令，將 Ollama 服務的 11434 端口轉發到本地 (Cloud Shell) 的 11434 端口： kubectl port-forward svc\/ollama 11434:11434 # 在新分頁中執行 Gemma 2 模型： 在新的終端分頁中，設定 OLLAMA_HOST 環境變數，指定 Ollama API 的地址，然後使用 ollama run 指令執行 Gemma 2 模型： OLLAMA_HOST=http:\/\/localhost:11434 ollama run gemma2 \u0026gt;\u0026gt;\u0026gt; 你好！ # 你好！👋 有什么我可以帮你的吗？😊 任務 4. 部署 Open WebUI，打造更友善的 Chatbot 互動介面 openwebui.yaml\n","inLanguage":"zh-tw","wordCount":1568,"datePublished":"0001-01-01T00:00:00\u002b00:00","dateModified":"2024-10-24T17:39:59\u002b08:00","image":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/main\/res\/blog-cover-yume-square.jpg?raw=true","keywords":[""],"mainEntityOfPage":"https:\/\/blog.androchen.tw\/tech\/tech-event\/2024-k8s-summit-workshop\/gke-chatbot\/","publisher":{"@type":"Organization","name":"https:\/\/blog.androchen.tw\/","logo":{"@type":"ImageObject","url":"https:\/\/github.com\/androchentw\/blog-hugo\/blob\/main\/res\/blog-cover-yume-square.jpg?raw=true","height":60,"width":60}}}</script><meta property="og:title" content=" | ProgramMur - 程序猿碎念"><meta property="og:description" content="# GKE Chatbot | K8s Summit 2024 GCP Workshop
+Preparation
+
+Run Gemma 2 Powered Chatbot on GKE Autopilot
+
+主要使用這個頁面的 command, 僅使用 qwiklab 的資源
+
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+
+
+CLUSTER_NAME=my-cluster
+CLUSTER_LOCATION=us-central1
+
+gcloud container clusters create-auto ${CLUSTER_NAME} \
+  --location=${CLUSTER_LOCATION}
+
+# kubeconfig entry generated for my-cluster.
+# NAME: my-cluster
+# LOCATION: us-central1
+# MASTER_VERSION: 1.30.5-gke.1014001
+# MASTER_IP: 34.45.80.180
+# MACHINE_TYPE: e2-small
+# NODE_VERSION: 1.30.5-gke.1014001
+# NUM_NODES: 3
+# STATUS: RUNNING
+
+kubectl cluster-info
+# Kubernetes control plane is running at https://34.45.80.180
+# GLBCDefaultBackend is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/default-http-backend:http/proxy
+# KubeDNS is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+# Metrics-server is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy
+
+# To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+
+任務 2. 部署 Ollama
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+
+
+kubectl apply -f ollama.yaml
+# Warning: autopilot-default-resources-mutator:Autopilot updated StatefulSet default/ollama: defaulted unspecified 'nvidia.com/gpu' resource for containers [ollama] (see http://g.co/gke/autopilot-defaults).
+# statefulset.apps/ollama created
+# service/ollama created
+
+kubectl get pods -w
+# 等待 ollama-0 Pod 變成 Running 狀態，表示 Ollama 已成功部署。
+
+kubectl get nodes
+# NAME                                        STATUS   ROLES    AGE     VERSION
+# gk3-my-cluster-nap-1l47y8kj-033ca61f-rgvm   Ready    <none>   2m54s   v1.30.5-gke.1014001
+# gk3-my-cluster-nap-nwlb0qz1-ea6bcb2c-b44d   Ready    <none>   2m9s    v1.30.5-gke.1014001
+
+
+任務 3. 使用 Ollama CLI 與 Gemma 2 互動
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+
+
+# 安裝 Ollama CLI：在 Cloud Shell 中執行以下指令安裝 Ollama CLI：
+curl -fsSL https://ollama.com/install.sh | sh
+
+# 將 Ollama 服務端口轉發到本地： 執行以下指令，將 Ollama 服務的 11434 端口轉發到本地 (Cloud Shell) 的 11434 端口：
+kubectl port-forward svc/ollama 11434:11434
+
+# 在新分頁中執行 Gemma 2 模型： 在新的終端分頁中，設定 OLLAMA_HOST 環境變數，指定 Ollama API 的地址，然後使用 ollama run 指令執行 Gemma 2 模型：
+OLLAMA_HOST=http://localhost:11434 ollama run gemma2
+
+>>> 你好！
+
+# 你好！👋  有什么我可以帮你的吗？😊
+
+
+任務 4. 部署 Open WebUI，打造更友善的 Chatbot 互動介面
+openwebui.yaml"><meta property="og:image" content="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume.jpg?raw=true"><meta property="og:url" content="https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-chatbot/"><meta property="og:type" content="website"><meta property="og:site_name" content="ProgramMur - 程序猿碎念"><meta name=twitter:title content="ProgramMur - 程序猿碎念"><meta name=twitter:description content="# GKE Chatbot | K8s Summit 2024 GCP Workshop
+Preparation
+
+Run Gemma 2 Powered Chatbot on GKE Autopilot
+
+主要使用這個頁面的 command, 僅使用 qwiklab 的資源
+
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19 …"><meta name=twitter:image content="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume-square.jpg?raw=true"><meta name=twitter:card content="summary_large_image"><meta name=twitter:site content="@ProgramMurTw"><meta name=twitter:creator content="@ProgramMurTw"><link href='https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume-square.jpg?raw=true' rel=icon type=image/x-icon><meta name=generator content="Hugo 0.136.4"><link rel=alternate href=https://blog.androchen.tw/index.xml type=application/rss+xml title="ProgramMur - 程序猿碎念"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css integrity=sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI crossorigin=anonymous><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.5.0/css/all.css integrity=sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css integrity=sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu crossorigin=anonymous><link rel=stylesheet href=https://blog.androchen.tw/css/main-nodark.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"><link rel=stylesheet href=https://blog.androchen.tw/css/syntax.css><link rel=stylesheet href=https://blog.androchen.tw/css/codeblock.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css integrity=sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css integrity=sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R crossorigin=anonymous><script async src="https://www.googletagmanager.com/gtag/js?id=G-PN5YM4PWN6"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-PN5YM4PWN6")}</script></head><body><nav class="navbar navbar-default navbar-fixed-top navbar-custom"><div class=container-fluid><div class=navbar-header><button type=button class=navbar-toggle data-toggle=collapse data-target=#main-navbar>
+<span class=sr-only>開關導覽</span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+<a class=navbar-brand href=https://blog.androchen.tw/>ProgramMur - 程序猿碎念</a></div><div class="collapse navbar-collapse" id=main-navbar><ul class="nav navbar-nav navbar-right"><li><a title=Tech href=/tech/>Tech</a></li><li><a title=Soft href=/soft/>Soft</a></li><li><a title=Life href=/life/>Life</a></li><li><a title=Series href=/series/>Series</a></li><li><a title=Tags href=/tags/>Tags</a></li><li><a title=Archives href=/archives/>Archives</a></li><li class=navlinks-container><a class=navlinks-parent role=button tabindex=0>🌐 語言</a><div class=navlinks-children></div></li><li><a href=#modalSearch data-toggle=modal data-target=#modalSearch style=outline:none><span class="hidden-sm hidden-md hidden-lg">搜尋</span> <span id=searchGlyph class="glyphicon glyphicon-search"></span></a></li></ul></div><div class=avatar-container><div class=avatar-img-border><a title="ProgramMur - 程序猿碎念" href=https://blog.androchen.tw/><img class=avatar-img src="https://github.com/androchentw/blog-hugo/blob/main/res/blog-cover-yume-square.jpg?raw=true" alt="ProgramMur - 程序猿碎念"></a></div></div></div></nav><div id=modalSearch class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><button type=button class=close data-dismiss=modal>&#215;</button><h4 class=modal-title>搜尋 ProgramMur - 程序猿碎念</h4></div><div class=modal-body><gcse:search></gcse:search></div><div class=modal-footer><button type=button class="btn btn-default" data-dismiss=modal>關閉</button></div></div></div></div><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><div class=intro-header></div><div class=container role=main><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><aside class=toc-article><nav id=TableOfContents><ul><li><a href=#-gke-chatbot--k8s-summit-2024-gcp-workshop># GKE Chatbot | K8s Summit 2024 GCP Workshop</a><ul><li><a href=#preparation>Preparation</a></li><li><a href=#任務-2-部署-ollama>任務 2. 部署 Ollama</a></li><li><a href=#任務-3-使用-ollama-cli-與-gemma-2-互動>任務 3. 使用 Ollama CLI 與 Gemma 2 互動</a></li><li><a href=#任務-4-部署-open-webui打造更友善的-chatbot-互動介面>任務 4. 部署 Open WebUI，打造更友善的 Chatbot 互動介面</a></li><li><a href=#ref-serving-an-open-source-generative-ai-model-with-gke--saw047>Ref: Serving an Open-source Generative AI Model with GKE | SAW047</a><ul><li><a href=#get-access-to-gemma>Get Access to Gemma</a></li><li><a href=#generate-an-access-token>Generate an access token</a></li></ul></li><li><a href=#create-google-kubernetes-engine-cluster>Create Google Kubernetes Engine Cluster</a></li><li><a href=#review-the-deployment-manifests>Review the Deployment Manifests</a><ul><li><a href=#gemma-2b-deploymentyaml><code>gemma-2b-deployment.yaml</code></a></li><li><a href=#gemma-2b-serviceyaml><code>gemma-2b-service.yaml</code></a></li><li><a href=#gemma-2b-monitoringyaml><code>gemma-2b-monitoring.yaml</code></a></li><li><a href=#gradioyaml><code>gradio.yaml</code></a></li></ul></li><li><a href=#check-cluster-creation-status>Check Cluster Creation Status</a></li><li><a href=#deploy-gemma-2b>Deploy Gemma 2B</a><ul><li><a href=#serve-gemma-2b-using-tgi>Serve Gemma 2B using TGI</a></li><li><a href=#check-deployment-status>Check Deployment Status</a></li><li><a href=#deploy-the-gradio-chat-app>Deploy the Gradio Chat App</a></li></ul></li><li><a href=#chat-with-gemma>Chat with Gemma</a></li><li><a href=#optional-monitor-tgi>(Optional) Monitor TGI</a></li><li><a href=#ref>Ref</a></li></ul></li></ul></nav></aside><article role=main class=blog-post><h1 id=-gke-chatbot--k8s-summit-2024-gcp-workshop># GKE Chatbot | K8s Summit 2024 GCP Workshop</h1><h2 id=preparation>Preparation</h2><ul><li><a href=https://dennygoog.gitlab.io/workshops/run-gemma-chatbot-on-gke-autopilot/>Run Gemma 2 Powered Chatbot on GKE Autopilot</a><ul><li>主要使用這個頁面的 command, 僅使用 qwiklab 的資源</li></ul></li></ul><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-12>12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-13><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-13>13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-14><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-14>14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-15><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-15>15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-16><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-16>16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-17><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-17>17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-18><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-18>18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-19><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-19>19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-20><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-20>20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-21><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-21>21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-22><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-22>22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-0-23><a style=outline:none;text-decoration:none;color:inherit href=#hl-0-23>23</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#00688b>CLUSTER_NAME</span>=my-cluster
+</span></span><span style=display:flex><span><span style=color:#00688b>CLUSTER_LOCATION</span>=us-central1
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>gcloud container clusters create-auto <span style=color:#cd5555>${</span><span style=color:#00688b>CLUSTER_NAME</span><span style=color:#cd5555>}</span> <span style=color:#cd5555>\
+</span></span></span><span style=display:flex><span><span style=color:#cd5555></span>  --location=<span style=color:#cd5555>${</span><span style=color:#00688b>CLUSTER_LOCATION</span><span style=color:#cd5555>}</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#228b22># kubeconfig entry generated for my-cluster.</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># NAME: my-cluster</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># LOCATION: us-central1</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># MASTER_VERSION: 1.30.5-gke.1014001</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># MASTER_IP: 34.45.80.180</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># MACHINE_TYPE: e2-small</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># NODE_VERSION: 1.30.5-gke.1014001</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># NUM_NODES: 3</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># STATUS: RUNNING</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>kubectl cluster-info
+</span></span><span style=display:flex><span><span style=color:#228b22># Kubernetes control plane is running at https://34.45.80.180</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># GLBCDefaultBackend is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/default-http-backend:http/proxy</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># KubeDNS is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># Metrics-server is running at https://34.45.80.180/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#228b22># To further debug and diagnose cluster problems, use &#39;kubectl cluster-info dump&#39;.</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=任務-2-部署-ollama>任務 2. 部署 Ollama</h2><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-1-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-1-12>12</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>kubectl apply -f ollama.yaml
+</span></span><span style=display:flex><span><span style=color:#228b22># Warning: autopilot-default-resources-mutator:Autopilot updated StatefulSet default/ollama: defaulted unspecified &#39;nvidia.com/gpu&#39; resource for containers [ollama] (see http://g.co/gke/autopilot-defaults).</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># statefulset.apps/ollama created</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># service/ollama created</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>kubectl get pods -w
+</span></span><span style=display:flex><span><span style=color:#228b22># 等待 ollama-0 Pod 變成 Running 狀態，表示 Ollama 已成功部署。</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>kubectl get nodes
+</span></span><span style=display:flex><span><span style=color:#228b22># NAME                                        STATUS   ROLES    AGE     VERSION</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># gk3-my-cluster-nap-1l47y8kj-033ca61f-rgvm   Ready    &lt;none&gt;   2m54s   v1.30.5-gke.1014001</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># gk3-my-cluster-nap-nwlb0qz1-ea6bcb2c-b44d   Ready    &lt;none&gt;   2m9s    v1.30.5-gke.1014001</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=任務-3-使用-ollama-cli-與-gemma-2-互動>任務 3. 使用 Ollama CLI 與 Gemma 2 互動</h2><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-2-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-2-12>12</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#228b22># 安裝 Ollama CLI：在 Cloud Shell 中執行以下指令安裝 Ollama CLI：</span>
+</span></span><span style=display:flex><span>curl -fsSL https://ollama.com/install.sh | sh
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#228b22># 將 Ollama 服務端口轉發到本地： 執行以下指令，將 Ollama 服務的 11434 端口轉發到本地 (Cloud Shell) 的 11434 端口：</span>
+</span></span><span style=display:flex><span>kubectl port-forward svc/ollama 11434:11434
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#228b22># 在新分頁中執行 Gemma 2 模型： 在新的終端分頁中，設定 OLLAMA_HOST 環境變數，指定 Ollama API 的地址，然後使用 ollama run 指令執行 Gemma 2 模型：</span>
+</span></span><span style=display:flex><span><span style=color:#00688b>OLLAMA_HOST</span>=http://localhost:11434 ollama run gemma2
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>&gt;&gt;&gt; 你好！
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#228b22># 你好！👋  有什么我可以帮你的吗？😊</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=任務-4-部署-open-webui打造更友善的-chatbot-互動介面>任務 4. 部署 Open WebUI，打造更友善的 Chatbot 互動介面</h2><p><code>openwebui.yaml</code></p><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-12>12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-13><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-13>13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-14><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-14>14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-15><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-15>15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-16><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-16>16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-17><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-17>17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-18><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-18>18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-19><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-19>19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-20><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-20>20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-21><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-21>21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-22><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-22>22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-23><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-23>23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-24><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-24>24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-25><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-25>25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-26><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-26>26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-27><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-27>27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-28><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-28>28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-29><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-29>29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-30><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-30>30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-31><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-31>31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-32><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-32>32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-33><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-33>33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-34><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-34>34</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-35><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-35>35</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-36><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-36>36</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-37><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-37>37</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-38><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-38>38</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-39><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-39>39</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-40><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-40>40</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-41><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-41>41</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-42><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-42>42</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-43><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-43>43</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-44><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-44>44</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-45><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-45>45</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-46><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-46>46</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-47><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-47>47</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-48><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-48>48</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-49><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-49>49</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-50><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-50>50</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-51><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-51>51</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-52><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-52>52</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-53><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-53>53</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-54><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-54>54</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-55><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-55>55</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-3-56><a style=outline:none;text-decoration:none;color:inherit href=#hl-3-56>56</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#8b008b;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>apps/v1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>kind</span>:<span style=color:#bbb> </span>StatefulSet<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>selector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>matchLabels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>serviceName</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>template</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>labels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>containers</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>image</span>:<span style=color:#bbb> </span>ghcr.io/open-webui/open-webui:main<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>ports</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>containerPort</span>:<span style=color:#bbb> </span><span style=color:#b452cd>8080</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>env</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>OLLAMA_BASE_URL<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span>http://ollama:11434<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>WEBUI_AUTH<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;False&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>resources</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>requests</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>cpu</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;1&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>memory</span>:<span style=color:#bbb> </span>1Gi<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>limits</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>cpu</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;1&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>memory</span>:<span style=color:#bbb> </span>1Gi<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>volumeMounts</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>mountPath</span>:<span style=color:#bbb> </span>/app/backend/data<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>volumeClaimTemplates</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span>- <span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>accessModes</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- ReadWriteOnce<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>storageClassName</span>:<span style=color:#bbb> </span>standard-rwo<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>resources</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>requests</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>storage</span>:<span style=color:#bbb> </span>10Gi<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#008b45;text-decoration:underline>---</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>v1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>kind</span>:<span style=color:#bbb> </span>Service<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>type</span>:<span style=color:#bbb> </span>LoadBalancer<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>selector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>openwebui<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>ports</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span>- <span style=color:#8b008b;font-weight:700>port</span>:<span style=color:#bbb> </span><span style=color:#b452cd>80</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>targetPort</span>:<span style=color:#bbb> </span><span style=color:#b452cd>8080</span><span style=color:#bbb>
+</span></span></span></code></pre></td></tr></table></div></div><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-4-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-4-10>10</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#228b22># 部署 Open WebUI： 儲存 openwebui.yaml 檔案後，在 Cloud Shell 中執行以下指令部署 Open WebUI：</span>
+</span></span><span style=display:flex><span>kubectl apply -f openwebui.yaml
+</span></span><span style=display:flex><span><span style=color:#228b22># statefulset.apps/openwebui created</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># service/openwebui created</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#228b22># 取得 Load Balancer IP 地址： 執行以下指令取得 Load Balancer 的外部 IP 地址：</span>
+</span></span><span style=display:flex><span>kubectl get service openwebui
+</span></span><span style=display:flex><span><span style=color:#228b22># NAME        TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)        AGE</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># openwebui   LoadBalancer   34.118.229.145   34.28.179.30   80:31505/TCP   45s</span>
+</span></span></code></pre></td></tr></table></div></div><p>透過瀏覽器訪問 Open WebUI： 開啟瀏覽器，並在網址列輸入 http://<external-ip> (將 <external-ip>替換成您取得的 Load Balancer IP 地址)。</p><p><a href=http://34.28.179.30>http://34.28.179.30</a></p><h2 id=ref-serving-an-open-source-generative-ai-model-with-gke--saw047>Ref: Serving an Open-source Generative AI Model with GKE | SAW047</h2><ul><li>參考 <a href=https://explore.qwiklabs.com/classrooms/16150/labs/95675>Serving an Open-source Generative AI Model with GKE | SAW047</a></li></ul><p>This lab is intended for MLOps or DevOps engineers or platform administrator that want to use Google Kubernetes Engine (GKE) orchestration capabilities to serve large language models (LLMs).</p><p>In this lab you will learn how to:</p><ul><li>Provision a complete Kubernetes cluster using GKE</li><li>Serve the open <a href=https://www.kaggle.com/models/google/gemma>Gemma 2B</a> LLM using the Hugging Face <a href=https://huggingface.co/docs/text-generation-inference/en/index>Text Generation Inference</a> toolkit</li><li>Deploy a web-based chat application to interact with the deployed model using <a href=https://www.gradio.app/docs/gradio/interface>Gradio</a></li></ul><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-5-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-5-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-5-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-5-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-5-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-5-3>3</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>gcloud auth list
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>gcloud config list project
+</span></span></code></pre></td></tr></table></div></div><h3 id=get-access-to-gemma>Get Access to Gemma</h3><ul><li>Sign the license consent agreement: Access the <a href=https://www.kaggle.com/models/google/gemma>model consent page</a> on Kaggle.com.</li></ul><h3 id=generate-an-access-token>Generate an access token</h3><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-6-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-6-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-6-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-6-2>2</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-txt data-lang=txt><span style=display:flex><span>2024-10-23-k8s-summit-gcp-1
+</span></span><span style=display:flex><span>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
+</span></span></code></pre></td></tr></table></div></div><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-7-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-7-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-7-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-7-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-7-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-7-3>3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-7-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-7-4>4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-7-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-7-5>5</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#658b00>export</span> <span style=color:#00688b>HF_TOKEN</span>=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
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>git clone https://github.com/gke-demos/serving-gemma-2b.git
+</span></span><span style=display:flex><span><span style=color:#658b00>cd</span> serving-gemma-2b
+</span></span><span style=display:flex><span>ls -l *.yaml
+</span></span></code></pre></td></tr></table></div></div><h2 id=create-google-kubernetes-engine-cluster>Create Google Kubernetes Engine Cluster</h2><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-8-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-8-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-8-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-8-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-8-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-8-3>3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-8-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-8-4>4</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>gcloud container clusters create-auto ml-cluster --release-channel rapid <span style=color:#cd5555>\
+</span></span></span><span style=display:flex><span><span style=color:#cd5555></span>  --region <span style=color:#cd5555>&#34;us-east4&#34;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>kubectl cluster-info
+</span></span></code></pre></td></tr></table></div></div><h2 id=review-the-deployment-manifests>Review the Deployment Manifests</h2><h3 id=gemma-2b-deploymentyaml><code>gemma-2b-deployment.yaml</code></h3><p>TGI has support for multiple open text generation models. This manifest uses the container image provide by Hugging Face to serve the Falcon 7B model. This same deployment can be used to serve other models by simply replacing the MODEL_ID environment variable. Also note that this deployment uses a single NVIDIA L4 GPU for acceleration. The L4 is a great choice for serving models with memory requirements less than 24GB. TGI also support sharding larger models, allowing you to serve a model with multiple GPUs. For example, you can serve the larger Falcon 40B model by enabling sharding and using two L4 GPUs in the deployment.</p><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-12>12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-13><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-13>13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-14><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-14>14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-15><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-15>15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-16><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-16>16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-17><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-17>17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-18><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-18>18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-19><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-19>19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-20><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-20>20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-21><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-21>21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-22><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-22>22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-23><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-23>23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-24><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-24>24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-25><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-25>25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-26><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-26>26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-27><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-27>27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-28><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-28>28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-29><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-29>29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-30><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-30>30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-31><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-31>31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-32><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-32>32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-33><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-33>33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-34><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-34>34</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-35><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-35>35</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-36><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-36>36</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-37><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-37>37</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-38><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-38>38</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-39><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-39>39</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-40><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-40>40</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-41><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-41>41</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-42><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-42>42</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-43><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-43>43</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-44><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-44>44</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-45><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-45>45</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-46><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-46>46</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-47><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-47>47</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-48><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-48>48</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-49><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-49>49</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-50><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-50>50</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-51><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-51>51</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-52><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-52>52</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-9-53><a style=outline:none;text-decoration:none;color:inherit href=#hl-9-53>53</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#8b008b;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>apps/v1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>kind</span>:<span style=color:#bbb> </span>Deployment<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>tgi-gemma-deployment<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>replicas</span>:<span style=color:#bbb> </span><span style=color:#b452cd>1</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>selector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>matchLabels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gemma-server<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>template</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>labels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gemma-server<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>ai.gke.io/model</span>:<span style=color:#bbb> </span>gemma-2b-it<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>ai.gke.io/inference-server</span>:<span style=color:#bbb> </span>text-generation-inference<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>examples.ai.gke.io/source</span>:<span style=color:#bbb> </span>user-guide<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>containers</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>inference-server<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>image</span>:<span style=color:#bbb> </span>us-docker.pkg.dev/vertex-ai/vertex-vision-model-garden-dockers/pytorch-hf-tgi-serve:20240220_0936_RC01<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>resources</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>requests</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>cpu</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;2&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>memory</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;7Gi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>ephemeral-storage</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;20Gi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>nvidia.com/gpu</span>:<span style=color:#bbb> </span><span style=color:#b452cd>1</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>limits</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>cpu</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;2&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>memory</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;7Gi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>ephemeral-storage</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;20Gi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>nvidia.com/gpu</span>:<span style=color:#bbb> </span><span style=color:#b452cd>1</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>args</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- --model-id=$(MODEL_ID)<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- --num-shard=1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>env</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>MODEL_ID<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span>google/gemma-2b-it<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>PORT<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;8000&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>HUGGING_FACE_HUB_TOKEN<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>valueFrom</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>secretKeyRef</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>              </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>hf-secret<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>              </span><span style=color:#8b008b;font-weight:700>key</span>:<span style=color:#bbb> </span>hf_api_token<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>volumeMounts</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>mountPath</span>:<span style=color:#bbb> </span>/dev/shm<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>dshm<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>volumes</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>dshm<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>emptyDir</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>medium</span>:<span style=color:#bbb> </span>Memory<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>nodeSelector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>cloud.google.com/gke-accelerator</span>:<span style=color:#bbb> </span>nvidia-l4<span style=color:#bbb>
+</span></span></span></code></pre></td></tr></table></div></div><h3 id=gemma-2b-serviceyaml><code>gemma-2b-service.yaml</code></h3><p>This manifest simply exposes the TGI deployment externally using a TCP load balancer. Note the name: llm-service field as this will be used by Gradio to communicate with the serving endpoint later.</p><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-10-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-10-12>12</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>apiVersion: v1
+</span></span><span style=display:flex><span>kind: Service
+</span></span><span style=display:flex><span>metadata:
+</span></span><span style=display:flex><span>  name: llm-service
+</span></span><span style=display:flex><span>spec:
+</span></span><span style=display:flex><span>  selector:
+</span></span><span style=display:flex><span>    app: gemma-server
+</span></span><span style=display:flex><span>  type: LoadBalancer
+</span></span><span style=display:flex><span>  ports:
+</span></span><span style=display:flex><span>  - protocol: TCP
+</span></span><span style=display:flex><span>    port: <span style=color:#b452cd>8000</span>
+</span></span><span style=display:flex><span>    targetPort: <span style=color:#b452cd>8000</span>
+</span></span></code></pre></td></tr></table></div></div><h3 id=gemma-2b-monitoringyaml><code>gemma-2b-monitoring.yaml</code></h3><p>TGI provides a Prometheus-compatible endpoint on its default port. Here we configure Managed Prometheus to scrape the metrics from the TGI deployment every 30 seconds.</p><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-11-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-11-11>11</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#8b008b;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>monitoring.googleapis.com/v1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>kind</span>:<span style=color:#bbb> </span>PodMonitoring<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>gemma-2b-tgi-monitor<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>selector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>matchLabels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gemma-server<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>endpoints</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span>- <span style=color:#8b008b;font-weight:700>port</span>:<span style=color:#bbb> </span><span style=color:#b452cd>8000</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>interval</span>:<span style=color:#bbb> </span>30s<span style=color:#bbb>
+</span></span></span></code></pre></td></tr></table></div></div><h3 id=gradioyaml><code>gradio.yaml</code></h3><p>Gradio is an OSS framework for building chat applications for GenAI models. This manifest deploys a prebuilt Gradio sample application which connects to the Falcon 7B model deployment and exposes it via a TCP load balancer.</p><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-1> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-2> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-3> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-4> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-5> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-6> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-7> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-8><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-8> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-9><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-9> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-10><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-10>10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-11><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-11>11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-12><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-12>12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-13><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-13>13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-14><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-14>14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-15><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-15>15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-16><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-16>16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-17><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-17>17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-18><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-18>18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-19><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-19>19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-20><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-20>20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-21><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-21>21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-22><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-22>22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-23><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-23>23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-24><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-24>24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-25><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-25>25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-26><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-26>26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-27><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-27>27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-28><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-28>28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-29><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-29>29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-30><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-30>30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-31><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-31>31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-32><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-32>32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-33><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-33>33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-34><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-34>34</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-35><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-35>35</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-36><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-36>36</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-37><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-37>37</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-38><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-38>38</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-39><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-39>39</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-40><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-40>40</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-41><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-41>41</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-42><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-42>42</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-43><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-43>43</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-44><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-44>44</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-45><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-45>45</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-46><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-46>46</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-47><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-47>47</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-48><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-48>48</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-49><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-49>49</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-50><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-50>50</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-51><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-51>51</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-52><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-52>52</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-53><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-53>53</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-12-54><a style=outline:none;text-decoration:none;color:inherit href=#hl-12-54>54</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-yml data-lang=yml><span style=display:flex><span><span style=color:#8b008b;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>apps/v1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>kind</span>:<span style=color:#bbb> </span>Deployment<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>labels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>replicas</span>:<span style=color:#bbb> </span><span style=color:#b452cd>1</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>selector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>matchLabels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>template</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>labels</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>containers</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>image</span>:<span style=color:#bbb> </span>us-docker.pkg.dev/google-samples/containers/gke/gradio-app:v1.0.0<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>resources</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>requests</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>cpu</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;512m&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>memory</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;512Mi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>limits</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>cpu</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;1&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>            </span><span style=color:#8b008b;font-weight:700>memory</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;512Mi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>env</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>CONTEXT_PATH<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;/generate&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>HOST<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;http://llm-service:8000&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>LLM_ENGINE<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;tgi&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>MODEL_ID<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;gemma&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>USER_PROMPT<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;user\nprompt\n&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>SYSTEM_PROMPT<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>          </span><span style=color:#8b008b;font-weight:700>value</span>:<span style=color:#bbb> </span><span style=color:#cd5555>&#34;model\nprompt\n&#34;</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span><span style=color:#8b008b;font-weight:700>ports</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>        </span>- <span style=color:#8b008b;font-weight:700>containerPort</span>:<span style=color:#bbb> </span><span style=color:#b452cd>7860</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#008b45;text-decoration:underline>---</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>apiVersion</span>:<span style=color:#bbb> </span>v1<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>kind</span>:<span style=color:#bbb> </span>Service<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>metadata</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>name</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb></span><span style=color:#8b008b;font-weight:700>spec</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>selector</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span><span style=color:#8b008b;font-weight:700>app</span>:<span style=color:#bbb> </span>gradio<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>ports</span>:<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>    </span>- <span style=color:#8b008b;font-weight:700>protocol</span>:<span style=color:#bbb> </span>TCP<span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>port</span>:<span style=color:#bbb> </span><span style=color:#b452cd>8080</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>      </span><span style=color:#8b008b;font-weight:700>targetPort</span>:<span style=color:#bbb> </span><span style=color:#b452cd>7860</span><span style=color:#bbb>
+</span></span></span><span style=display:flex><span><span style=color:#bbb>  </span><span style=color:#8b008b;font-weight:700>type</span>:<span style=color:#bbb> </span>LoadBalancer<span style=color:#bbb>
+</span></span></span></code></pre></td></tr></table></div></div><h2 id=check-cluster-creation-status>Check Cluster Creation Status</h2><p><a href=https://explore.qwiklabs.com/classrooms/16150/labs/g.co/cloud/gke-aiml>AI/ML on GKE</a>
+[ ] TODO 連結 Page not found
+<a href=https://cloud.google.com/kubernetes-engine/docs/integrations/ai-infra>https://cloud.google.com/kubernetes-engine/docs/integrations/ai-infra</a></p><h2 id=deploy-gemma-2b>Deploy Gemma 2B</h2><h3 id=serve-gemma-2b-using-tgi>Serve Gemma 2B using TGI</h3><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-3>3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-4>4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-5>5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-6><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-6>6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-13-7><a style=outline:none;text-decoration:none;color:inherit href=#hl-13-7>7</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>kubectl create secret generic hf-secret <span style=color:#cd5555>\
+</span></span></span><span style=display:flex><span><span style=color:#cd5555></span>  --from-literal=<span style=color:#00688b>hf_api_token</span>=<span style=color:#cd5555>${</span><span style=color:#00688b>HF_TOKEN</span><span style=color:#cd5555>}</span> <span style=color:#cd5555>\
+</span></span></span><span style=display:flex><span><span style=color:#cd5555></span>  --dry-run=client -o yaml | kubectl apply -f -
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>kubectl apply -f gemma-2b-deployment.yaml
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>kubectl apply -f gemma-2b-service.yaml
+</span></span></code></pre></td></tr></table></div></div><h3 id=check-deployment-status>Check Deployment Status</h3><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-14-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-14-1>1</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>watch kubectl get pods
+</span></span></code></pre></td></tr></table></div></div><h3 id=deploy-the-gradio-chat-app>Deploy the Gradio Chat App</h3><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-15-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-15-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-15-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-15-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-15-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-15-3>3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-15-4><a style=outline:none;text-decoration:none;color:inherit href=#hl-15-4>4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-15-5><a style=outline:none;text-decoration:none;color:inherit href=#hl-15-5>5</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>kubectl apply -f gradio.yaml
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>watch kubectl get deployments gradio
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>watch kubectl get service gradio
+</span></span></code></pre></td></tr></table></div></div><h2 id=chat-with-gemma>Chat with Gemma</h2><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-16-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-16-1>1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-16-2><a style=outline:none;text-decoration:none;color:inherit href=#hl-16-2>2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-16-3><a style=outline:none;text-decoration:none;color:inherit href=#hl-16-3>3</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>kubectl get service gradio -o json | jq -r .status.loadBalancer.ingress[].ip
+</span></span><span style=display:flex><span><span style=color:#228b22># 34.125.152.184</span>
+</span></span><span style=display:flex><span><span style=color:#228b22># http://GRADIO_IP:8080</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=optional-monitor-tgi>(Optional) Monitor TGI</h2><div class=highlight><div style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><table style=border-spacing:0;padding:0;margin:0;border:0><tr><td style=vertical-align:top;padding:0;margin:0;border:0><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:.4em;padding:0 .4em;color:#7f7f7f" id=hl-17-1><a style=outline:none;text-decoration:none;color:inherit href=#hl-17-1>1</a>
+</span></code></pre></td><td style=vertical-align:top;padding:0;margin:0;border:0;width:100%><pre tabindex=0 style=background-color:#eed;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>kubectl apply -f gemma-2b-monitoring.yaml
+</span></span></code></pre></td></tr></table></div></div><h2 id=ref>Ref</h2><ul><li><a href=https://cloud.google.com/kubernetes-engine/docs/integrations/ai-infra>AI/ML orchestration on GKE</a></li><li><a href=https://github.com/GoogleCloudPlatform/ai-on-gke>ai-on-gke</a></li></ul><iframe class=LikeCoin height=235 src="https://button.like.co/in/embed/androchentw/button?referrer=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f" width=100% frameborder=0></iframe><hr><section id=social-share><div class="list-inline footer-links"><div class=share-box aria-hidden=true><ul class=share><li><a href="//twitter.com/share?url=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f&amp;text=&amp;via=ProgramMurTw" target=_blank title="Share on Twitter"><i class="fab fa-twitter"></i></a></li><li><a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f" target=_blank title="Share on Facebook"><i class="fab fa-facebook"></i></a></li><li><a href="//reddit.com/submit?url=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f&amp;title=" target=_blank title="Share on Reddit"><i class="fab fa-reddit"></i></a></li><li><a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f&amp;title=" target=_blank title="Share on LinkedIn"><i class="fab fa-linkedin"></i></a></li><li><a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f&amp;title=" target=_blank title="Share on StumbleUpon"><i class="fab fa-stumbleupon"></i></a></li><li><a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.androchen.tw%2ftech%2ftech-event%2f2024-k8s-summit-workshop%2fgke-chatbot%2f&amp;description=" target=_blank title="Share on Pinterest"><i class="fab fa-pinterest"></i></a></li></ul></div></div></section></article><ul class="pager blog-pager"><li class=previous><a href=https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-llm-fine-tuning/ data-toggle=tooltip data-placement=top title>&larr; 上一篇</a></li><li class=next><a href=https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gcp-otel/ data-toggle=tooltip data-placement=top title>下一篇 &rarr;</a></li></ul><div class=disqus-comments><button id=show-comments class="btn btn-default" type=button>顯示 <span class=disqus-comment-count data-disqus-url=https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-chatbot>則評論</span></button><div id=disqus_thread></div><script type=text/javascript>var disqus_config=function(){this.page.url="https://blog.androchen.tw/tech/tech-event/2024-k8s-summit-workshop/gke-chatbot"}</script></div></div></div></div><footer class=post-footer><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><iframe src=https://programmur.substack.com/embed width=100% height=320 style="border:1px solid #eee;background:#fff" frameborder=0 scrolling=no></iframe><div><br></div><ul class="list-inline text-center footer-links"><li><a href=mailto:programmur.tw@gmail.com title="Email me"><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<i class="fas fa-envelope fa-stack-1x fa-inverse"></i></span></a></li><li><a href=https://www.facebook.com/ProgramMur title=Facebook><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<i class="fab fa-facebook fa-stack-1x fa-inverse"></i></span></a></li><li><a href=https://github.com/androchentw title=GitHub><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li><li><a href=https://twitter.com/ProgramMurTw title=Twitter><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<i class="fab fa-twitter fa-stack-1x fa-inverse"></i></span></a></li><li><a href=https://linkedin.com/in/androchen title=LinkedIn><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li><li><a href=https://www.instagram.com/ProgramMur title=Instagram><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<i class="fab fa-instagram fa-stack-1x fa-inverse"></i></span></a></li></ul><p class="credits copyright text-muted"><a href=https://blog.androchen.tw/>androchentw</a>
+&nbsp;&bull;&nbsp;&copy;
+2024
+&nbsp;&bull;&nbsp;
+<a href=https://blog.androchen.tw/>ProgramMur - 程序猿碎念</a></p><p class="credits theme-by text-muted">由 <a href=https://gohugo.io>Hugo v0.136.4</a> 提供 &nbsp;&bull;&nbsp; 主題 <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> 移植自 <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a>
+&nbsp;&bull;&nbsp;[<a href=be79f39877bd3c172da321121648881f0adceff5>be79f398</a>]</p></div></div></div></footer><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js integrity=sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous onload=renderMathInElement(document.body)></script><script src=https://code.jquery.com/jquery-3.7.0.slim.min.js integrity=sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js integrity=sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd crossorigin=anonymous></script><script src=https://blog.androchen.tw/js/main.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js integrity=sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js integrity=sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q crossorigin=anonymous></script><script src=https://blog.androchen.tw/js/load-photoswipe.js></script><script>(function(){var t,n="212df771d70ae0521",e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cse.google.com/cse.js?cx="+n,t=document.getElementsByTagName("script")[0],t.parentNode.insertBefore(e,t)})()</script><script type=text/javascript>$(function(){$("#show-comments").on("click",function(){var e="androchenblog";(function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="//"+e+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(t)})(),$(this).hide()})})</script><script id=dsq-count-scr src=//androchenblog.disqus.com/count.js async></script><div class=back-to-top id=back-to-top><i class="fas fa-angle-double-up"></i></div></body></html>
