@@ -986,11 +986,13 @@ flask_http_request_created{method="POST",status="415"} 1.696439633466002e+09
 ### 2024-10-24 Issue
 
 * curl 安裝了但是 curl 不出來
-* Metrics 搜尋不到 flask
+* Metrics 搜尋不到 flask: 要搜 prometheus > python
 
 ```sh
-kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4 -- apt update && sudo apt-get install -y curl
+kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4
+apt update && sudo apt-get install -y curl
 
+# 直接這樣很容易 $PATH 有問題: kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4 -- /bin/bash -c apt update && sudo apt-get install -y curl
 Defaulted container "backend" out of: backend, init-db-ready (init), opentelemetry-auto-instrumentation-python (init)
 Hit:1 http://deb.debian.org/debian bookworm InRelease
 Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
