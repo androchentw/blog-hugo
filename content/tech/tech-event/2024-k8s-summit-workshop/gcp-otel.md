@@ -539,7 +539,7 @@ EOF
 ## 部署測試用服務
 
 Create Artifact Docker Registry:
-我們建置一個my-repo的Docker registry提供給Cloud run使用。我們同時設定讓本機可以存取Artifact Docker Registry(容器鏡像庫）。
+我們建置一個 my-repo 的Docker registry提供給Cloud run使用。我們同時設定讓本機可以存取Artifact Docker Registry(容器鏡像庫）。
 
 ```sh
 gcloud artifacts repositories create my-repo \
@@ -565,11 +565,11 @@ gcloud auth configure-docker asia-east1-docker.pkg.dev
 
 ## GuestBook 開發+部署的設定碼修改
 
-主要的CI設定檔，在frontend/ 和backend/ 檔案夾內部的 Dockerfile, skaffold.yaml ，部署檔案則在各自frontend/ 和backend檔案夾內的deployment.yaml。
+主要的CI設定檔，在 frontend/ 和 backend/ 檔案夾內部的 Dockerfile, skaffold.yaml ，部署檔案則在各自 frontend/ 和backend檔案夾內的deployment.yaml。
 
 請進行以下的置換，${PROJECT_ID}請更換為您專案的名稱 (e.g.: qwiklabs-gcp-00-bf7484a22018) :
 
-1. 修改原因：鏡像位置，包含skaffold.yaml與deployment.yaml
+1. 修改原因：鏡像位置，包含 skaffold.yaml 與 deployment.yaml
 
 `${PROJECT_ID}` 替換成 `qwiklabs-gcp-01-0cda8821429a`
 
@@ -577,15 +577,15 @@ gcloud auth configure-docker asia-east1-docker.pkg.dev
 | --- | --- | --- |
 | `src/frontend/skaffold.yaml` | build.artifacts.image | 由 `python-guestbook-frontend` 改為 `asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend` |
 | `src/backend/skaffold.yaml` | build.artifacts.image | 由 `python-guestbook-backend` 改為 `asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-backend` |
-| `src/frontend/k8s-manifests/guestbook-frontend.deployment.yaml` | spec.template.spec.containers.image | 由 `python-guestbook-frontend` 改為 `asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend` |
-| `src/backend/k8s-manifests/guestbook-backend.deployment.yaml` | spec.template.spec.containers.image | 由 `python-guestbook-backendend` 改為 `asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook` |
+| `src/frontend/kubernetes-manifests/guestbook-frontend.deployment.yaml` | spec.template.spec.containers.image | 由 `python-guestbook-frontend` 改為 `asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend` |
+| `src/backend/kubernetes-manifests/guestbook-backend.deployment.yaml` | spec.template.spec.containers.image | 由 `python-guestbook-backendend` 改為 `asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook` |
 
 2. 修改原因：通過新增Annotation，將Auto-Instrumentation的程式碼通過sidecar container注入容器
 
 | Filename | Replace Location | Replace Content |
 | --- | --- | --- |
-| `src/frontend/k8s-manifests/guestbook-frontend.deployment.yaml` | spec.template.metadata | 加上 "img 1" |
-| `src/backend/k8s-manifests/guestbook-backend.deployment.yaml` | spec.template.metadata | 加上 "img 2" |
+| `src/frontend/kubernetes-manifests/guestbook-frontend.deployment.yaml` | spec.template.metadata | 加上 "img 1" |
+| `src/backend/kubernetes-manifests/guestbook-backend.deployment.yaml` | spec.template.metadata | 加上 "img 2" |
 
 <img style="width:80%;" src="https://cdn.qwiklabs.com/GO8i8RM9YMSfhcqJP0xXVR6sDV0j9g%2Fj4xKfie2Pm3I%3D"></img>
 <p align="center"><sub><sup>
@@ -593,7 +593,7 @@ gcloud auth configure-docker asia-east1-docker.pkg.dev
 </sup></sub></p>
 
 ```yml
-annotations: 
+annotations:
   sidecar.opentelemetry.io/inject: "true"
   prometheus.io/scrape: "true"
   prometheus.io/path: "/metrics"
@@ -619,19 +619,91 @@ annotations:
 | `src/frontend/Dockerfile` | 第一行 | `FROM python:3.11-alpine` 改為 `FROM python:3.11-slim` |
 | `src/backend/Dockerfile` | 第一行 | `FROM python:3.11-alpine` 改為 `FROM python:3.11-slim` |
 
-## 打包容器並部署服務
+## Skaffold 打包容器並部署服務
 
-由於Guestbook專案是由Cloud Code產生，裏面自然也繼承了Google對於CI/CD的堅持，通過Skaffold簡化整個容器開發流程，不用再通過docker build, push打包容器，也不再需要kubectl手動部署，所有的設定都濃縮在skaffold.yaml裡，有興趣的捧油可以參考skaffold.yaml的內容，如果想更了解，可以看Skaffold的網站 [Build](https://skaffold.dev/docs/builders/) [Deploy](https://skaffold.dev/docs/deployers/)。
+由於Guestbook專案是由Cloud Code產生，裏面自然也繼承了Google對於CI/CD的堅持，通過 Skaffold 簡化整個容器開發流程，不用再通過 docker build, push 打包容器，也不再需要 kubectl 手動部署，所有的設定都濃縮在 skaffold.yaml 裡，有興趣的捧油可以參考 skaffold.yaml 的內容，如果想更了解，可以看 Skaffold 的網站
 
-我們可以在guestbook-1檔案夾下，通過以下指令快速打包容器，並部署服務到GKE上：
+* [Build](https://skaffold.dev/docs/builders/)
+* [Deploy](https://skaffold.dev/docs/deployers/)。
+
+我們可以在 guestbook-1 檔案夾下，通過以下指令快速打包容器，並部署服務到GKE上：
 
 ```sh
 cd ~/guestbook-1
 skaffold build --file-output ./out.json && skaffold deploy --build-artifacts ./out.json
 
-# 部署的過程中，可以留意以下訊息，可以了解Auto-Instrumentation是通過init container發動的。
+# 部署的過程中，可以留意以下訊息，可以了解 Auto-Instrumentation 是通過 init container 發動的。
 Waiting for deployments to stabilize...
  - deployment/python-guestbook-frontend: waiting for init container opentelemetry-auto-instrumentation to start
+```
+
+* Response 2024-10-24: 有時候執行一次會失敗, 再執行一次就好
+
+```sh
+kubectl get ns
+NAME                            STATUS   AGE
+anthos-identity-service         Active   80m
+cert-manager                    Active   65m
+default                         Active   81m
+gke-managed-cim                 Active   80m
+gke-managed-system              Active   80m
+gmp-public                      Active   79m
+gmp-system                      Active   79m
+kube-node-lease                 Active   81m
+kube-public                     Active   81m
+kube-system                     Active   81m
+opentelemetry-operator-system   Active   64m
+otel-collector                  Active   64m
+
+kubectl get all
+NAME                                             READY   STATUS    RESTARTS   AGE
+pod/python-guestbook-backend-f5797bf64-kcsf4     1/1     Running   0          6m31s
+pod/python-guestbook-frontend-5798979774-78vfq   1/1     Running   0          6m36s
+pod/python-guestbook-mongodb-57b9469ff5-twbp4    1/1     Running   0          6m31s
+
+NAME                                TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)        AGE
+service/kubernetes                  ClusterIP      192.168.32.1     <none>         443/TCP        77m
+service/python-guestbook-backend    ClusterIP      192.168.32.144   <none>         8080/TCP       12m
+service/python-guestbook-frontend   LoadBalancer   192.168.32.237   35.189.161.8   80:30881/TCP   13m
+service/python-guestbook-mongodb    ClusterIP      192.168.32.196   <none>         27017/TCP      12m
+
+NAME                                        READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/python-guestbook-backend    1/1     1            1           12m
+deployment.apps/python-guestbook-frontend   1/1     1            1           13m
+deployment.apps/python-guestbook-mongodb    1/1     1            1           12m
+
+NAME                                                   DESIRED   CURRENT   READY   AGE
+replicaset.apps/python-guestbook-backend-86d4ccd755    0         0         0       8m42s
+replicaset.apps/python-guestbook-backend-c4b6b56fb     0         0         0       12m
+replicaset.apps/python-guestbook-backend-f5797bf64     1         1         1       6m31s
+replicaset.apps/python-guestbook-frontend-5798979774   1         1         1       6m36s
+replicaset.apps/python-guestbook-frontend-677564c4c    0         0         0       13m
+replicaset.apps/python-guestbook-frontend-76fc8b67b5   0         0         0       13m
+replicaset.apps/python-guestbook-frontend-7b45f984d5   0         0         0       8m46s
+replicaset.apps/python-guestbook-mongodb-57b9469ff5    1         1         1       6m31s
+replicaset.apps/python-guestbook-mongodb-777cbb8d5b    0         0         0       8m41s
+replicaset.apps/python-guestbook-mongodb-bcb448b76     0         0         0       12m
+
+
+# Tags used in deployment:
+#  - asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend -> asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend:latest@sha256:4f60fcf58e57b8d46054b291eec2f2afc92500b9c2db753e800ddbeb4789b14a
+#  - asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-backend -> asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-backend:latest@sha256:2230b1786c7f68242b3ae82dac07993aca6e7395a74ddffbfa6daf76540658af
+# Starting deploy...
+#  - deployment.apps/python-guestbook-frontend configured
+#  - service/python-guestbook-frontend configured
+# Waiting for deployments to stabilize...
+#  - deployment/python-guestbook-frontend is ready.
+# Deployments stabilized in 3.273 seconds
+#  - deployment.apps/python-guestbook-backend configured
+#  - service/python-guestbook-backend configured
+#  - deployment.apps/python-guestbook-mongodb configured
+#  - service/python-guestbook-mongodb configured
+# Waiting for deployments to stabilize...
+#  - deployment/python-guestbook-mongodb is ready. [1/2 deployment(s) still pending]
+#  - deployment/python-guestbook-backend: waiting for init container init-db-ready to start
+#     - pod/python-guestbook-backend-86d4ccd755-gghwc: waiting for init container init-db-ready to start
+#  - deployment/python-guestbook-backend is ready.
+# Deployments stabilized in 18.656 seconds
 ```
 
 ## 製造 Traffic
@@ -640,7 +712,9 @@ Waiting for deployments to stabilize...
 
 ```sh
 kubectl get svc -l tier=frontend -o jsonpath='{.items[0].status.loadBalancer.ingress[0].ip}'; echo
-# 35.234.17.129
+# 35.189.161.8
+=> http://35.189.161.8/
+# 不知道為什麼無痕視窗裡連不到, 一般的可以
 ```
 
 進入Guestbook後，請多輸入幾筆留言，因為目前我們的Trace軌跡紀錄是以25%進行設定(四個軌跡紀錄一條）。
@@ -668,6 +742,7 @@ argument: "0.25"
 將專案複製(Clone)到guestbook-1檔案夾下:
 
 ```sh
+cd ~/guestbook-1
 git clone https://github.com/GoogleCloudPlatform/distributed-load-testing-using-kubernetes.git
 ```
 
@@ -695,7 +770,7 @@ class QuickstartUser(HttpUser):
 
 由於我們的專案與Git的稍許不同，我們需要先針對原始的範本（template）檔案進行兩個修改。
 
-首先找到distributed-load-testing-using-kubernetes下的kubernetes-config目錄，修改：
+首先找到 `distributed-load-testing-using-kubernetes/kubernetes-config/` 目錄，修改：
 
 1. `locust-master-service.yaml.tpl` 中：移除
 
@@ -705,7 +780,7 @@ class QuickstartUser(HttpUser):
     networking.gke.io/load-balancer-type: "Internal"
 ```
 
-2. 底下兩個檔案 `Locust-worker-controller.yaml.tpl` 與 `locust-master-controller.yaml.tpl` 中：
+2. 底下兩個檔案 `locust-worker-controller.yaml.tpl` 與 `locust-master-controller.yaml.tpl` 中：
 
 將 `value: https://${SAMPLE_APP_TARGET}` 改為 `value: ${SAMPLE_APP_TARGET}`
 
@@ -720,7 +795,7 @@ class QuickstartUser(HttpUser):
 export LOCUST_IMAGE_NAME=locust-tasks
 export LOCUST_IMAGE_TAG=latest
 export GKE_CLUSTER=gke-lt-cluster
-export PROJECT="qwiklabs-gcp-01-f34de583ef94"
+export PROJECT="qwiklabs-gcp-01-0cda8821429a"
 export AR_REPO=my-repo
 export REGION=asia-east1
 export SAMPLE_APP_TARGET="http://python-guestbook-frontend.default.svc"
@@ -740,11 +815,11 @@ bash gen-locust-k8s-manifests.sh
 
 ls -lah k8s-manifests
 # total 20K
-# drwxrwxr-x 2 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 4.0K Oct 23 08:40 .
-# drwxrwxr-x 5 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 4.0K Oct 23 08:40 ..
-# -rw-rw-r-- 1 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 1.5K Oct 23 08:40 master-controller.yaml
-# -rw-rw-r-- 1 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 1.2K Oct 23 08:40 master-service.yaml
-# -rw-rw-r-- 1 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 1.3K Oct 23 08:40 worker-controller.yaml
+# drwxrwxr-x 2 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 4.0K Oct 24 01:59 .
+# drwxrwxr-x 5 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 4.0K Oct 24 01:59 ..
+# -rw-rw-r-- 1 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 1.6K Oct 24 01:59 master-controller.yaml
+# -rw-rw-r-- 1 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 1.3K Oct 24 01:59 master-service.yaml
+# -rw-rw-r-- 1 student_03_c40dfb54bf6e student_03_c40dfb54bf6e 1.3K Oct 24 01:59 worker-controller.yaml
 ```
 
 這時，按下 skaffold init，並在選擇中按下Yes，我們就可以得到完整的部署程式skaffold.yaml，最後使用前面學到的大絕招：
@@ -752,57 +827,77 @@ ls -lah k8s-manifests
 ```sh
 skaffold init
 # y
+# apiVersion: skaffold/v4beta11
+# kind: Config
+# metadata:
+#   name: docker-image
+# build:
+#   artifacts:
+#     - image: asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/locust-tasks
+#       docker:
+#         dockerfile: Dockerfile
+# manifests:
+#   rawYaml:
+#     - k8s-manifests/master-controller.yaml
+#     - k8s-manifests/master-service.yaml
+#     - k8s-manifests/worker-controller.yaml
+
 skaffold build --file-output ./out.json && skaffold deploy --build-artifacts ./out.json
 ```
 
 ### 檢視Locust的壓測UI
 
-skaffold deploy結束後，我們應該可以看到locust-master跟5台locust-slave pods都成功在default名稱空間被部署出來。這時，我們尋找service/locust-master-web的IP位置（下圖為例是34.81.240.121）
+skaffold deploy結束後，我們應該可以看到 locust-master 跟5台 locust-slave pods 都成功在 default namespace 被部署出來。這時，我們尋找`service/locust-master-web` 的 `EXTERNAL-IP` 位置（下圖為例是 35.234.5.131）
 
 ```sh
 kubectl get svc,pods
 
-NAME                                TYPE           CLUSTER-IP       EXTERNAL-IP     PORT(S)             AGE
-service/kubernetes                  ClusterIP      192.168.32.1     <none>          443/TCP             123m
-service/locust-master               ClusterIP      192.168.32.161   <none>          5557/TCP,5558/TCP   51s
-service/locust-master-web           LoadBalancer   192.168.32.26    34.81.240.121   8089:31457/TCP      51s
-service/python-guestbook-backend    ClusterIP      192.168.32.97    <none>          8080/TCP            63m
-service/python-guestbook-frontend   LoadBalancer   192.168.32.182   34.81.12.45     80:31258/TCP        63m
-service/python-guestbook-mongodb    ClusterIP      192.168.32.236   <none>          27017/TCP           63m
+NAME                                TYPE           CLUSTER-IP       EXTERNAL-IP    PORT(S)             AGE
+service/kubernetes                  ClusterIP      192.168.32.1     <none>         443/TCP             109m
+service/locust-master               ClusterIP      192.168.32.209   <none>         5557/TCP,5558/TCP   66s
+service/locust-master-web           LoadBalancer   192.168.32.94    35.234.5.131   8089:31909/TCP      65s
+service/python-guestbook-backend    ClusterIP      192.168.32.144   <none>         8080/TCP            44m
+service/python-guestbook-frontend   LoadBalancer   192.168.32.237   35.189.161.8   80:30881/TCP        45m
+service/python-guestbook-mongodb    ClusterIP      192.168.32.196   <none>         27017/TCP           44m
 
 NAME                                             READY   STATUS    RESTARTS   AGE
-pod/locust-master-657df48b46-ssd86               1/1     Running   0          51s
-pod/locust-worker-67c9985bb6-2rndz               1/1     Running   0          51s
-pod/locust-worker-67c9985bb6-cgw56               1/1     Running   0          50s
-pod/locust-worker-67c9985bb6-j2z5x               1/1     Running   0          50s
-pod/locust-worker-67c9985bb6-pr99w               1/1     Running   0          51s
-pod/locust-worker-67c9985bb6-sg8jl               1/1     Running   0          51s
-pod/python-guestbook-backend-5755fd4889-vwwfc    1/1     Running   0          61m
-pod/python-guestbook-frontend-86cc579bd6-cbs2w   1/1     Running   0          61m
-pod/python-guestbook-mongodb-85bb59d7c6-s87zv    1/1     Running   0          61m
+pod/locust-master-5bf5779498-nr45b               1/1     Running   0          65s
+pod/locust-worker-5c68d58f49-7cnzk               1/1     Running   0          65s
+pod/locust-worker-5c68d58f49-f47mh               1/1     Running   0          65s
+pod/locust-worker-5c68d58f49-gx46w               1/1     Running   0          65s
+pod/locust-worker-5c68d58f49-kq525               1/1     Running   0          65s
+pod/locust-worker-5c68d58f49-l2ftp               1/1     Running   0          65s
+pod/python-guestbook-backend-f5797bf64-kcsf4     1/1     Running   0          37m
+pod/python-guestbook-frontend-5798979774-78vfq   1/1     Running   0          38m
+pod/python-guestbook-mongodb-57b9469ff5-twbp4    1/1     Running   0          37m
 ```
 
-打開網站連到34.81.240.121:8089 我們將壓測Number of users改為100, Spawn rate改為5 按下Start swarming
+打開網站連到 <http://35.234.5.131:8089> 我們將壓測 Number of users 改為 100, Spawn rate改為 5 按下Start swarming
 
 <img style="width:80%;" src="https://cdn.qwiklabs.com/s1Dqj1WZA5VhLGDLFT4BQ0I%2BIpfS7hMbWdoAr5B1R9E%3D">
 
-我們可以看到壓測開始發生，同時壓測的負載均勻的分散到各個worker節點上。
+我們可以看到壓測開始發生，同時壓測的負載均勻的分散到各個 worker 節點上。
 
 <img style="width:80%;" src="https://cdn.qwiklabs.com/rhy0he8RvdjeoATLW%2B8etvmleRKKfUp0iLSxQ9Jz8UQ%3D">
 
 ## 檢視監控結果
 
-在Cloud Console，選取[Cloud Trace的頁面](https://console.cloud.google.com/traces/list)，我們會先看到上方有一些小點 (1)，每個點都是被紀錄的呼叫軌跡，值得一提的是，我們是一行程式都沒有修正，就可以取得這個資訊。
+在Cloud Console，選取 [Cloud Trace的頁面](https://console.cloud.google.com/traces/list)，我們會先看到上方有一些小點 (1)，每個點都是被紀錄的呼叫軌跡，值得一提的是，我們是一行程式都沒有修正，就可以取得這個資訊。
 
-點開小點之後，我們可以看到呼叫的軌跡，其中我們特別選擇guestbook.insert這一條，因為這條表示的是插入MongoDB所需的時間。相較於istio side-car的Trace軌跡，使用OpenTelemetry，更強化了對『非』Restful後端的支持，
+點開小點之後，我們可以看到呼叫的軌跡，其中我們特別選擇 `guestbook.insert` 這一條，因為這條表示的是插入 MongoDB 所需的時間。相較於 istio side-car 的 Trace 軌跡，使用 OpenTelemetry，更強化了對『非』Restful 後端的支持，
 
 <img style="width:80%;" src="https://cdn.qwiklabs.com/XXdPs3VA0Mfc941Ojg2K%2Bzyh63NGUNa1t7C%2Ffm%2BpmjA%3D">
 
 我們可以先進入 `backend-guestbook` 的 Pod 裡，通過 `apt update && apt-get install -y curl`， 再通過
 
-curl 8080 port 的/metrics subpath，了解目前prometheus-flask-exporter提供的相關參數(如下）：主要包含python garbage collector, process_cpu等運算資源的狀況，以及flask_http_request_duration的histogram 以及flask_http_request_total 針對不同status code (e.g. 201, 403, 415等）的分項統計。
+curl 8080 port 的 /metrics subpath，了解目前 prometheus-flask-exporter 提供的相關參數(如下）：主要包含 python garbage collector, process_cpu等運算資源的狀況，以及flask_http_request_duration的histogram 以及flask_http_request_total 針對不同status code (e.g. 201, 403, 415等）的分項統計。
 
 ```sh
+kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4 -- apt update && sudo apt-get install -y curl
+
+kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4 -- curl localhost:8080/metrics
+# error: Internal error occurred: Internal error occurred: error executing command in container: failed to exec in container: failed to start exec "de2767b1591bf31152cf2e0aff32436233db0a7a63b640fb874170f7c6c3b21b": OCI runtime exec failed: exec failed: unable to start container process: exec: "curl": executable file not found in $PATH: unknown
+
 curl localhost:8080/metrics
 
 # HELP python_gc_objects_collected_total Objects collected during gc
@@ -887,6 +982,42 @@ flask_http_request_created{method="POST",status="415"} 1.696439633466002e+09
 <img style="width:80%;" src="https://cdn.qwiklabs.com/NZ9Tq9jlLFtIC%2FsMbRndrXv7pQWikCBTTW7x9UZi1Gg%3D">
 
 這個OpenTelemetry的Lab，希望讓你感受到OpenTelemetry的威力。在不需要任何額外手動添加程式下，我們得到了完整的Trace軌跡，讓開發者可以更容易的找到連線之間的bottleneck，相較於另一類的無侵入式監控工具：Istio-Proxy，OpenTelemetry對非Restful後台，有較好的支援性。同時，通過Proemtheus-Flask-Exporter的函式庫，我們可以通過新增兩行程式碼，就可以得到完整的http連線統計，這些資料都妥善的儲存在GCP的Managed Service中，免除了存儲規劃，或是軟體升級等維運需要。
+
+### 2024-10-24 Issue
+
+* curl 安裝了但是 curl 不出來
+* Metrics 搜尋不到 flask
+
+```sh
+kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4 -- apt update && sudo apt-get install -y curl
+
+Defaulted container "backend" out of: backend, init-db-ready (init), opentelemetry-auto-instrumentation-python (init)
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://deb.debian.org/debian bookworm-updates InRelease
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Fetched 48.0 kB in 0s (123 kB/s)    
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+All packages are up to date.
+********************************************************************************
+You are running apt-get inside of Cloud Shell. Note that your Cloud Shell  
+machine is ephemeral and no system-wide change will persist beyond session end. 
+
+To suppress this warning, create an empty ~/.cloudshell/no-apt-get-warning file.
+The command will automatically proceed in 5 seconds or on any key. 
+
+Visit https://cloud.google.com/shell/help for more information.                 
+********************************************************************************
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+curl is already the newest version (8.5.0-2ubuntu10.4).
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+
+kubectl exec -it pod/python-guestbook-backend-f5797bf64-kcsf4 -- echo $PATH
+/opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/usr/local/node_packages/node_modules/.bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/home/student_03_c40dfb54bf6e/.gems/bin:/usr/local/rvm/bin:/home/student_03_c40dfb54bf6e/gopath/bin:/google/gopath/bin:/google/flutter/bin:/usr/local/nvm/versions/node/v20.18.0/bin:/usr/bin
+```
 
 ## 結束Lab
 

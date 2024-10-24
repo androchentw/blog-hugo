@@ -16,6 +16,9 @@ spec:
       labels:
         app: python-guestbook
         tier: backend
+      annotations: 
+        sidecar.opentelemetry.io/inject: "true"
+        instrumentation.opentelemetry.io/inject-python: "true"
     spec:
       initContainers:
       - name: init-db-ready
@@ -26,7 +29,7 @@ spec:
           - until (mongo --host python-guestbook-mongodb:27017 >/dev/null) do echo "Waiting for connection for 2 sec."; sleep 2; done
       containers:
       - name: backend
-        image: python-guestbook-backend
+        image: asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-backend
         ports:
         - name: http-server
           containerPort: 8080
