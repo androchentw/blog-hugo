@@ -7,7 +7,7 @@ metadata:
 build:
   # defines where to find the code at build time and where to push the resulting image
   artifacts:
-  - image: asia-east1-docker.pkg.dev/qwiklabs-gcp-01-0cda8821429a/my-repo/python-guestbook-frontend
+  - image: python-guestbook-frontend
     context: .
 # defines the Kubernetes manifests to deploy on each run
 deploy:
